@@ -62,6 +62,11 @@ include("includes/header.php");
         include("components/ppc-trust.php");
         ?>
     </section>
+    <section class="">
+        <?php
+        include("components/ppc-simple-process.php");
+        ?>
+    </section>
 </main>
 <?php
 include("includes/footer.php");

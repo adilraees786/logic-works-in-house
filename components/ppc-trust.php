@@ -1,7 +1,6 @@
 <style>
     .trusted-section {
 
-
         color: #fff;
         padding: 60px 0;
     }
@@ -24,9 +23,12 @@
     }
 
     .trusted-section .btn-custom {
-        background: linear-gradient(to right, #6f3fc8, #9f59ff);
+        background: linear-gradient(to right, #532689, #9142EF);
         color: #fff;
         border: none;
+        padding: 10px 20px;
+        font-size: 40px;
+        font-weight: Black;
     }
 
     .image-grid img {
