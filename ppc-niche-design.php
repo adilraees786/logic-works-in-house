@@ -57,6 +57,11 @@ include("includes/header.php");
         include("components/turn-clicks.php");
         ?>
     </section>
+    <section class="">
+        <?php
+        include("components/ppc-trust.php");
+        ?>
+    </section>
 </main>
 <?php
 include("includes/footer.php");
