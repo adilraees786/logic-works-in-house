@@ -52,6 +52,11 @@ include("includes/header.php");
         include("components/ppc-niche-about.php");
         ?>
     </section>
+    <section class="">
+        <?php
+        include("components/turn-clicks.php");
+        ?>
+    </section>
 </main>
 <?php
 include("includes/footer.php");
