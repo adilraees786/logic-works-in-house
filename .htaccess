@@ -1,0 +1,12 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# Optional: Redirect to remove trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} /$
+RewriteRule ^(.*)/$ /$1 [L,R=301]
