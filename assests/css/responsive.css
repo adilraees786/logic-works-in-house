@@ -1,0 +1,91 @@
+
+/* tablet media query */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .navbar-collapse {
+background: #fff;
+}
+    .navbar-collapse .nav-item .nav-link {
+color: #000;
+}
+    .carousel-caption {
+bottom: 350px;
+}
+    .carousel-caption h5 {
+font-size: 65px;
+}
+    .carousel-caption p {
+font-size: 18px;
+width: 100%;
+}
+section.services-sec h1 {
+    position: absolute;
+    font-size: 145px;
+    top: -34px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fffefe54;
+    opacity: 0.1;
+}
+.sec2-tabs {
+    padding-top: 70px;
+}
+div#v-pills-tab button {
+    text-transform: capitalize;
+}
+}        
+
+/* mobile media query */
+@media only screen and (max-width: 767px) {
+    .menu-icon {
+        font-size: 20px;
+    }
+
+    .navbar-custom {
+        flex-wrap: wrap;
+    }
+
+    .col-lg-9, .col-lg-3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .menu-items {
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: left;
+    }
+.carousel-caption {
+bottom: 165px;
+}
+.carousel-caption h5 {
+font-size: 25px;
+}
+.carousel-caption p {
+font-size: 12px;
+width: 100%;
+}
+.carousel-caption a {
+padding: 10px 15px;
+font-size: 15px;
+}
+.navbar-collapse {
+background: #fff;
+}
+.carousel-caption{
+    width: 100%;
+    padding-right: 10px;
+}
+.carousel-indicators {
+    margin-bottom: 4rem !important;
+    margin-left: 15%;
+    list-style: none;
+    left: 0% !important;
+}
+section.services-sec h1 {
+    font-size: 73px;
+    top: -9px;
+}
+}

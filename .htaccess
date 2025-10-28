@@ -1,0 +1,62 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# -----------------------------------------
+# REDIRECTS
+# -----------------------------------------
+RewriteRule ^seo$ /seo-company [R=301,L]
+RewriteRule ^web-development$ /web-development-agency [R=301,L]
+RewriteRule ^branding$ /branding-services [R=301,L]
+RewriteRule ^digital-marketing$ /digital-marketing-agency [R=301,L]
+RewriteRule ^social-media$ /social-media-marketing-agency [R=301,L]
+RewriteRule ^app-development$ /app-development-agency [R=301,L]
+RewriteRule ^website-development-dubai$ /web-development-dubai [R=301,L]
+RewriteRule ^app-development-dubai$ /app-development-services-dubai [R=301,L]
+# Specific redirects 
+RewriteRule ^real-estate-logo-design-dubai/?$ /logo-design-company [R=301,L]
+RewriteRule ^logo-design-services-dubai/?$ /logo-design-company [R=301,L]
+RewriteRule ^branding-dubai/?$ /branding-services [R=301,L]
+RewriteRule ^branding-consultancy/?$ /branding-services [R=301,L]
+RewriteRule ^seo-agency-dubai/?$ /seo-company [R=301,L]
+RewriteRule ^real-estate-seo-agency-dubai/?$ /seo-company  [R=301,L]
+# fb-instagram-marketing ya url change hai facebook-instagram-marketing-agency
+RewriteRule ^fb-instagram-marketing/?$ /social-media-marketing-dubai [R=301,L]
+RewriteRule ^facebook-instagram-marketing-dubai/?$ /social-media-marketing-dubai  [R=301,L]
+RewriteRule ^web-design-solutions-in-dubai/?$ /web-design-company [R=301,L]
+RewriteRule ^website-designer/?$ /web-design-company  [R=301,L]
+RewriteRule ^web-development-technology/?$ /web-development-agency  [R=301,L]
+RewriteRule ^web-development-dubai/?$ /web-development-agency [R=301,L]
+RewriteRule ^real-estate-web-development-company-dubai/?$ /web-development-agency  [R=301,L]
+RewriteRule ^digital-niche-design/?$ /web-development-agency  [R=301,L]
+RewriteRule ^adword-marketing-company/?$ /google-adword-marketing-agency-dubai  [R=301,L]
+RewriteRule ^digital-marketing-agency-dubai/?$ /digital-marketing-agency  [R=301,L]
+RewriteRule ^real-estate-app-development-company-dubai/?$ /app-development-services-dubai  [R=301,L]
+RewriteRule ^app-development-technology/?$ /app-development-services-dubai  [R=301,L]
+RewriteRule ^android-app-development-services/?$ /app-development-services-dubai  [R=301,L]
+RewriteRule ^android-app-development-dubai/?$ /app-development-services-dubai  [R=301,L]
+RewriteRule ^email-marketing-agency/?$ /email-marketing-dubai  [R=301,L]
+
+
+
+# -----------------------------------------
+# REMOVE .php from URLs (Non-conflicting)
+# -----------------------------------------
+# Redirect .php URLs to their clean version
+RewriteCond %{THE_REQUEST} \s/+([^\s]+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Internally rewrite clean URL to .php if file exists
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# -----------------------------------------
+# TRAILING SLASH HANDLING (optional)
+# -----------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} /$
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+# -----------------------------------------
+# CUSTOM 404 PAGE
+# -----------------------------------------
+ErrorDocument 404 /page-not-found.php
