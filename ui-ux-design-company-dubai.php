@@ -1,7 +1,7 @@
 <?php
-$meta_title = "Instagram Advertising Agency Dubai| Logic Works";
+$meta_title = "UI UX Design Company in Dubai| Logic Works";
 $meta_description = "Our Facebook and instagram Marketing Agency creates targeted campaigns that increase engagement and sales with expert strategy, precise targeting, and measurable results.";
-$keyword = 'Instagram Advertising Agency Dubai';
+$keyword = 'UI UX Design Company in Dubai';
 $canonical = "twitter-advertising-agency-dubai";
 $custom_schema = '
 <script type="application/ld+json">
@@ -127,7 +127,7 @@ include("includes/header.php");
         <div class="container bg-blue">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Instagram Advertising Agency Dubai
+                    <h1 class="text-white">UI UX Design Company in Dubai
                     </h1>
                     <p class="text-white">Create reliable financial experiences through our Android finance app
                         development company that protects user data and builds lasting trust in your digital banking
@@ -155,19 +155,19 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/fb-instagram-marketingt/instagram.png" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/fb-instagram-marketingt/ui-ux.png" alt="app-dev-niche-hero-img">
                 </div>
             </div>
         </div>
     </section>
-    <section style="background: #5660d7 ">
+    <section style="background: #9774c3 ">
         <?php
-        include("components/instagram-choice-section.php");
+        include("components/ui-ux-choice-section.php");
         ?>
     </section>
     <section class="">
         <?php
-        include("components/insta-how-we-work-section.php");
+        include("components/ui-ux-work-process.php");
         ?>
     </section>
     <section class="six-consultancy-sec pt-b-80"
@@ -177,7 +177,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="dubai-all text-white text-center">Instagram Advertising Agency</h2>
+                    <h2 class="dubai-all text-white text-center">Our ui Ux Services</h2>
                     <p class="text-white dubai-all-para text-center">Our Retail App Services empower businesses.
                     </p>
                     <div class="unique-tab-container tabs-consultancy">
