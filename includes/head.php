@@ -1,4 +1,4 @@
-<?php $base_url = 'https://logicworks.ae/'; ?>
+<?php $base_url = 'http://localhost/logic-works-house/'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -45,6 +45,11 @@
     'dating-app-development-company-dubai.php',
     'retail-app-development-company-dubai.php',
     'automotive-app-development-company-dubai.php',
+    'facebook-advertising-agency-dubai.php',
+    'instagram-advertising-agency-dubai.php',
+    'linkedin-advertising-agency-dubai.php',
+    'twitter-advertising-agency-dubai.php',
+    'ui-ux-design-company-dubai.php',
 
 
   ];
