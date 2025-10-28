@@ -50,6 +50,9 @@
     'linkedin-advertising-agency-dubai.php',
     'twitter-advertising-agency-dubai.php',
     'ui-ux-design-company-dubai.php',
+    'food-delivery-app-development-company-dubai.php',
+    'healthcare-app-development-company-dubai.php',
+    'ecommerce-app-development-company-dubai.php',
 
 
   ];

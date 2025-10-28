@@ -1,133 +1,52 @@
 <?php
-$meta_title = "Ecommerce App Development Company Dubai| Logic Works";
-$meta_description = "Partner with our Android ecommerce app development company to build secure shopping apps. We create mobile stores that increase sales and customer loyalty.";
-$keyword = 'Ecommerce App Development Company Dubai';
-$canonical = "https://logicworks.ae/ecommerce-app-development-company-dubai";
-$faq_data = '
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What makes ecommerce app development companies different from general app developers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shopping apps require specialized knowledge that general developers lack. Payment security demands specific implementations throughout the application. Customer data protection needs encryption during transmission and storage. Our Android ecommerce app development company understands these requirements deeply. We build applications that pass rigorous security audits consistently."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Logic Works ensure customer payment data remains secure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our development approach includes multiple security layers throughout. End-to-end encryption keeps all payment data safe during transfer. Tokenization replaces sensitive card numbers with secure identifiers. PCI-DSS compliance gets verified through regular third-party audits. Fraud detection monitors transactions for suspicious patterns constantly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can small online stores afford custom shopping app development?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Our team offers flexible engagement models for any budget size. Phased development allows you to launch core features first. Additional functionality gets added as your store grows. Even small shops gain competitive advantages through better mobile experiences."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does typical shopping app development take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Timeline depends on feature complexity and integration requirements. Basic product catalogs typically launch within 10 to 14 weeks. Full ecommerce platforms may require 20 to 28 weeks. We provide realistic schedules during initial planning discussions. Milestone-based development keeps projects moving forward consistently."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does your ecommerce mobile app development company handle payment security requirements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We start every project by reviewing applicable payment regulations thoroughly. PCI-DSS requirements get built into technical specifications from day one. Security protocols receive documentation for audit trail purposes. Our development team includes specialists certified in payment security. Vulnerability assessments identify potential security gaps early. Penetration testing happens before any customer payment gets processed. Regular security audits verify continued adherence to standards. Every decision prioritizes customer safety and transaction protection first."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What experience do your Android eCommerce app services teams bring to projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our developers have built solutions for retailers, brands, and marketplace platforms. We understand shopping flows from product browsing to post-purchase support. Past projects include fashion stores, electronics shops, and food delivery apps. Our team has certifications in payment processing and data security. Retail experts check every feature for usability and conversion optimization. Our experience helps us spot issues before they cause delays. This knowledge ensures our apps perform well during high-traffic sales events."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you test shopping applications before launch?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Testing begins with security scans on all payment processing components. Real shoppers evaluate usability with actual purchase scenarios. Load testing verifies performance during flash sales and peak traffic. Security specialists review all features against payment industry requirements. Beta testing involves real store owners in controlled environments. Cart abandonment analysis ensures smooth checkout experiences. Performance benchmarks confirm fast loading times even with large catalogs. Thorough testing protects your reputation and customer trust.\n"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which retail categories benefit most from your Android ecommerce app development services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We support fashion brands, electronics stores, and specialty product shops. Food and beverage companies use our apps for direct-to-consumer sales. Beauty brands manage subscription boxes through our platforms. Home goods retailers showcase large product catalogs easily. Sporting goods stores track inventory across multiple locations. Each category gets features built for specific product types. Industry knowledge helps us understand different retail requirements and workflows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What post-launch optimization improves shopping app performance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "User behavior analysis reveals which products customers view most frequently. Slow-loading screens receive code optimization and image compression. A/B testing determines which layouts improve purchase completion rates. Search functionality gets refined based on common customer queries. Regular performance reviews identify new feature opportunities monthly. Analytics guide development resources toward high-impact improvements. Continuous optimization maintains customer satisfaction and sales growth long-term."
-      }
-    }
-  ]
-}
-</script>
-<!--FAQPage Code Generated by https://saijogeorge.com/json-ld-schema-generator/faq/-->
-';
-
+$meta_title = "Food Delivery App Development Company Dubai | Logic Works";
+$meta_description = "Partner with our Android Food Delivery app development company to build secure shopping apps. We create mobile stores that increase sales and customer loyalty.";
+$keyword = 'Food Delivery App Development Company Dubai';
+$canonical = "https://logicworks.ae/food-delivery-app-development-company-dubai";
 include("includes/head.php");
 include("includes/header.php");
 ?>
 <style>
-    .ecommerce-app-development-company-dubai {
+    .food-delivery-app-development-company-dubai {
         overflow: hidden;
     }
 
-    .ecommerce-app-development-company-dubai .service-hero-sec {
+    .food-delivery-app-development-company-dubai .service-hero-sec {
         padding-top: 0px;
         padding-bottom: 50px;
     }
 
-    .ecommerce-app-development-company-dubai .section-marquee .marwuee-row:before {
+    .food-delivery-app-development-company-dubai .section-marquee .marwuee-row:before {
         display: none;
     }
 
-    .ecommerce-app-development-company-dubai .same-all {
+    .food-delivery-app-development-company-dubai .same-all {
         font-size: 50px;
         font-weight: 600;
     }
 
+    .food-delivery-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
+        display: flex;
+        justify-content: center;
+    }
 
 
     @media (max-width: 981px) {
-        .ecommerce-app-development-company-dubai .service-hero-sec {
+        .food-delivery-app-development-company-dubai .service-hero-sec {
             padding-top: 10px !important;
             padding-bottom: 10px !important;
         }
     }
 </style>
-<main class="ecommerce-app-development-company-dubai bg-black">
+<main class="food-delivery-app-development-company-dubai bg-black">
     <section class="consultancy-hero-sec section-bg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Ecommerce App Development Company Dubai
+                    <h1 class="text-white"><span>Food Delivery</span> App Development Company</span> Dubai
                     </h1>
-                    <p class="text-logo">Build powerful shopping experiences through our Android ecommerce <br> app
-                        development company that drives sales and keeps customers coming <br> back to your mobile store.
-                    </p>
+                    <p class="text-logo">Build reliable healthcare software through our Android Healthcare App
+                        Development Company that improves patient care and streamlines medical operations.</p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="#0">
                             <span class="link-effect">
@@ -195,20 +114,20 @@ include("includes/header.php");
                     <div class="marquee">
                         <div class="marquee__row">
                             <div class="marquee__item">
-                                <p class="marquee__text">Ecommerce App Development Company Dubai
-                                    &nbsp;—&nbsp;Ecommerce App Development Company Dubai
+                                <p class="marquee__text">Food Delivery App Development Company Dubai
+                                    &nbsp;—&nbsp;Food Delivery App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-1"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Ecommerce App Development Company Dubai
+                                <p class="marquee__text">Food Delivery App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-2"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Ecommerce App Development Company Dubai
+                                <p class="marquee__text">Food Delivery App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
@@ -216,20 +135,20 @@ include("includes/header.php");
                         </div>
                         <div aria-hidden="true" class="marquee__row">
                             <div class="marquee__item">
-                                <p class="marquee__text">Ecommerce App Development Company Dubai
-                                    &nbsp;—&nbsp;Ecommerce App Development Company Dubai
+                                <p class="marquee__text">Food Delivery App Development Company Dubai
+                                    &nbsp;—&nbsp;Food Delivery App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-4"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Ecommerce App Development Company Dubai
+                                <p class="marquee__text">Food Delivery App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-5"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Ecommerce App Development Company Dubai
+                                <p class="marquee__text">AFood Delivery App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
@@ -242,7 +161,7 @@ include("includes/header.php");
     </section>
     <section>
         <?php
-        include("components/ecommerce-app-dubai-about.php");
+        include("components/food-delivery-app-dubai-about.php");
         ?>
     </section>
     <section class="section-bg web-dev-pag " id="transform-app">
@@ -361,13 +280,13 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-     <section class="six-consultancy-sec pt-b-80"
+    <section class="six-consultancy-sec pt-b-80"
         style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="dubai-all text-white text-center">Ecommerce App Services</h2>
-                    <p class="text-white dubai-all-para text-center">Our Dating App Services empower businesses.
+                    <h2 class="dubai-all text-white text-center">Food App Services</h2>
+                    <p class="text-white dubai-all-para text-center">Our Food App Services empower businesses.
                     </p>
                     <div class="unique-tab-container tabs-consultancy">
                         <button class="unique-tab-button active-tab" data-target="UniqueConsultation">
@@ -532,8 +451,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-ecommerce-app-development-company/ser-img.webp"
-                        alt="tab-img-app-dev">
+                    <img src="assests/images/app-development-dubai/tab-image.webp" alt="tab-img-app-dev">
                 </div>
                 <div class="col-lg-6">
                     <div class="app-our-content">
@@ -852,7 +770,7 @@ include("includes/footer.php");
         letter-spacing: 0%;
     }
 
-    .ecommerce-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
+    .food-delivery-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
         display: flex;
         justify-content: center;
         position: relative;
@@ -984,7 +902,10 @@ include("includes/footer.php");
 
 
 
-
+        .text-logo {
+            font-size: 17px;
+            line-height: 1.2;
+        }
     }
 </style>
 

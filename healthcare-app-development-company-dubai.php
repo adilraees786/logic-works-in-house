@@ -406,230 +406,155 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <section class="services-1 animate consultancy-sec mt-50" data-delay="0s"
-        style="animation: 0.5s ease-out 0s 1 normal forwards running anim; background-color:black">
-        <section class="service-bg">
-
-            <div class="services__items translateX-parent">
-                <div class="line-heading main-serp translateX-right "
-                    style="transform: translate3d(157.629px, 0px, 0px);">
-                    <h3 class="outline-text">Why Choose Our <br> Development Services</h3>
-
-                </div>
-                <div class="services-thumb-slider-wrapper">
-                    <div
-                        class="services-thumb-slider swiper swiper-initialized swiper-vertical swiper-pointer-events swiper-backface-hidden">
-                        <div class="swiper-wrapper" id="swiper-wrapper-101022471084cebcb9c" aria-live="polite"
-                            style="transition-duration: 0ms; transform: translate3d(0px, 26.6px, 0px);">
-                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 8"
-                                style="height: 26.6px;">
-                                <div class="service-thumb__head">
-                                    <h2><a>Medical Industry Knowledge</a></h2>
-                                    <p>We understand healthcare workflows and patient privacy requirements.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 8"
-                                style="height: 26.6px;">
-                                <div class="service-thumb__head">
-                                    <h2><a>Patient-First Design</a></h2>
-                                    <p>Every screen guides users toward better health outcomes</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 8"
-                                style="height: 26.6px;">
-                                <div class="service-thumb__head">
-                                    <h2><a>Enterprise-Grade Security</a></h2>
-                                    <p>We implement encryption and access controls that protect sensitive medical
-                                        records.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="4 / 8"
-                                style="height: 26.6px;">
-                                <div class="service-thumb__head">
-                                    <h2><a>Clear Project Updates</a></h2>
-                                    <p>You receive progress reports that show exactly what we built.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-
-
+     <section class="six-consultancy-sec pt-b-80"
+        style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="dubai-all text-white text-center">Health Care App Services</h2>
+                    <p class="text-white dubai-all-para text-center">Our Health App Services empower businesses.
+                    </p>
+                    <div class="unique-tab-container tabs-consultancy">
+                        <button class="unique-tab-button active-tab" data-target="UniqueConsultation">
+                            <img src="assests/images/branding-dubai/icon-1.webp" alt="seo-icon-001"
+                                style="height: 40px; width: 40px;">
+                            E-commerce Brand
+                        </button>
+                        0
+                        <button class="unique-tab-button" data-target="UniqueConcept"><img
+                                src="assests/images/branding-dubai/icon-2.webp" alt="seo-icon-002">Real Estate
+                            Agency</button>
+                        <button class="unique-tab-button" data-target="UniqueRevisions"><img
+                                src="assests/images/branding-dubai/icon-3.webp" alt="seo-icon-003">SaaS Company</button>
+                        <button class="unique-tab-button" data-target="UniqueDelivery"><img
+                                src="assests/images/branding-dubai/icon-4.webp" alt="seo-icon-004">Travel
+                            Agency</button>
                     </div>
-                </div>
-                <div
-                    class="services-slider swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
-                    <div class="swiper-wrapper" id="swiper-wrapper-935aa6bff8fbfe96" aria-live="polite"
-                        style="transition-duration: 0ms;">
-                        <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 8"
-                            style="width: 1349px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
-                            <div class="service-item twocol-row">
-                                <div class="service-item__wrapper twocol-row">
-                                    <div class="service-item__img">
-                                        <div class="img-wrapper">
-                                            <!-- Web Development image -->
-                                            <img class="" data-class="lazy-img"
-                                                data-src="assests/images/android-healthcare-app-development-company/health-img-001.webp"
-                                                alt="andrpid-app-img-001"
-                                                src="aassests/images/android-healthcare-app-development-company/health-img-001.webp">
-                                            <h4 class="text-white text-start">Medical Industry Knowledge</h4>
-                                            <p class="text-white text-start">We understand healthcare workflows and
-                                                patient privacy requirements. Our apps meet strict regulatory standards
-                                                while remaining easy to use.</p>
-                                        </div>
-                                    </div>
-                                    <div class="anchor-wrapper services-anchor">
-                                        <a href="javascript:" class="arrow-anchor">
-                                            <span>Read More</span>
-                                            <div class="img-wrapper">
-                                                <svg viewBox="0 0 19 16" class="svg-convert svg-converted"
-                                                    src="/assets/svg/anchor-arrow.svg">
-                                                    <style type="text/css">
-                                                        .st0 {
-                                                            fill: #FFFFFF;
-                                                        }
-                                                    </style>
-                                                    <path class="st0" d="M16.2,7.2l0,1.8L1.1,9.3l0-1.8L16.2,7.2z">
-                                                    </path>
-                                                    <path class="st0"
-                                                        d="M11,13.1l-1.1-1.4L14.7,8l-5-3.6l1-1.5l6.8,5.2L11,13.1z">
-                                                    </path>
-                                                </svg>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-visible swiper-slide-active" role="group"
-                            aria-label="2 / 8"
-                            style="width: 1349px; opacity: 1; transform: translate3d(-1349px, 0px, 0px); transition-duration: 0ms;">
-                            <div class="service-item twocol-row">
-                                <div class="service-item__wrapper twocol-row">
-                                    <div class="service-item__img">
-                                        <div class="img-wrapper">
-                                            <img class="" data-class="lazy-img"
-                                                data-src="assests/images/android-healthcare-app-development-company/health-img-002.webp"
-                                                alt="andrpid-health-img-002"
-                                                src="aassests/images/android-healthcare-app-development-company/health-img-002.webp">
-                                            <h4 class="text-white text-start">Patient-First Design</h4>
-                                            <p class="text-white text-start">Every screen guides users toward better
-                                                health outcomes. Simplified booking and clear communication reduce
-                                                missed appointments and confusion.</p>
-                                        </div>
-                                    </div>
-                                    <div class="anchor-wrapper services-anchor">
-                                        <a href="javascript:" class="arrow-anchor">
-                                            <span>Read More</span>
-                                            <div class="img-wrapper">
-                                                <svg viewBox="0 0 19 16" class="svg-convert svg-converted"
-                                                    src="/assets/svg/anchor-arrow.svg">
-                                                    <style type="text/css">
-                                                        .st0 {
-                                                            fill: #FFFFFF;
-                                                        }
-                                                    </style>
-                                                    <path class="st0" d="M16.2,7.2l0,1.8L1.1,9.3l0-1.8L16.2,7.2z">
-                                                    </path>
-                                                    <path class="st0"
-                                                        d="M11,13.1l-1.1-1.4L14.7,8l-5-3.6l1-1.5l6.8,5.2L11,13.1z">
-                                                    </path>
-                                                </svg>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 8"
-                            style="width: 1349px; opacity: 0; transform: translate3d(-2698px, 0px, 0px); transition-duration: 0ms;">
-                            <div class="service-item twocol-row">
-                                <div class="service-item__wrapper twocol-row">
-                                    <div class="service-item__img">
-                                        <div class="img-wrapper">
-                                            <img class="" data-class="lazy-img"
-                                                data-src="assests/images/android-healthcare-app-development-company/health-img-003.webp"
-                                                alt="andrpid-app-img-001"
-                                                src="assests/images/android-healthcare-app-development-company/health-img-003.webp">
-                                            <h4 class="text-white text-start">Enterprise-Grade Security</h4>
-                                            <p class="text-white text-start">We implement encryption and access controls
-                                                that protect sensitive medical records. Regular audits ensure your
-                                                systems meet current compliance standards.</p>
-                                        </div>
-                                    </div>
-                                    <div class="anchor-wrapper services-anchor">
-                                        <a href="javascript:" class="arrow-anchor">
-                                            <span>Read More</span>
-                                            <div class="img-wrapper">
-                                                <svg viewBox="0 0 19 16" class="svg-convert svg-converted"
-                                                    src="/assets/svg/anchor-arrow.svg">
-                                                    <style type="text/css">
-                                                        .st0 {
-                                                            fill: #FFFFFF;
-                                                        }
-                                                    </style>
-                                                    <path class="st0" d="M16.2,7.2l0,1.8L1.1,9.3l0-1.8L16.2,7.2z">
-                                                    </path>
-                                                    <path class="st0"
-                                                        d="M11,13.1l-1.1-1.4L14.7,8l-5-3.6l1-1.5l6.8,5.2L11,13.1z">
-                                                    </path>
-                                                </svg>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" role="group" aria-label="4 / 8"
-                            style="width: 1349px; opacity: 0; transform: translate3d(-4047px, 0px, 0px); transition-duration: 0ms;">
-                            <div class="service-item twocol-row">
-                                <div class="service-item__wrapper twocol-row">
-                                    <div class="service-item__img">
-                                        <div class="img-wrapper">
-                                            <img class="" data-class="lazy-img"
-                                                data-src="assests/images/android-healthcare-app-development-company/health-img-004.webp"
-                                                alt="brading-dev-img"
-                                                src="assests/images/android-healthcare-app-development-company/health-img-004.webp">
-                                            <h4 class="text-white text-start">Clear Project Updates</h4>
-                                            <p class="text-white text-start">You receive progress reports that show
-                                                exactly what we built. Regular calls and demos keep your team informed
-                                                throughout development.</p>
-                                        </div>
-                                    </div>
-                                    <div class="anchor-wrapper services-anchor">
-                                        <a href="javascript:" class="arrow-anchor">
-                                            <span>Read More</span>
-                                            <div class="img-wrapper">
-                                                <svg viewBox="0 0 19 16" class="svg-convert svg-converted"
-                                                    src="/assets/svg/anchor-arrow.svg">
-                                                    <style type="text/css">
-                                                        .st0 {
-                                                            fill: #FFFFFF;
-                                                        }
-                                                    </style>
-                                                    <path class="st0" d="M16.2,7.2l0,1.8L1.1,9.3l0-1.8L16.2,7.2z">
-                                                    </path>
-                                                    <path class="st0"
-                                                        d="M11,13.1l-1.1-1.4L14.7,8l-5-3.6l1-1.5l6.8,5.2L11,13.1z">
-                                                    </path>
-                                                </svg>
-                                            </div>
-                                        </a>
-                                    </div>
 
+                    <div class="tab-delivery">
+                        <div class="unique-tab-container">
+                            <div id="UniqueConsultation" class="unique-tab-content" style="display: block;">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-12">
+                                        <div class="consultancy-tab-content">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-7">
+                                                    <img src="assests/images/seo-consultancy/story-img-1.webp"
+                                                        alt="seo-success-001">
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="tab-data-consultancy">
+                                                        <h2 class="text-white">E-commerce Brand</h2>
+                                                        <p class="text-white same-all-para">An online retail store faced
+                                                            low visibility and slow sales. We improved product pages,
+                                                            fixed technical issues, and grew organic traffic. The store
+                                                            achieved higher search rankings and stronger revenue within
+                                                            months.</p>
+                                                        <p class="text-white">Our guidance as an experienced SEO
+                                                            consultant helped the business reach customers more
+                                                            effectively and create a steady stream of orders.</p>
+                                                        <a href="#0">EXPLORE IT</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="UniqueConcept" class="unique-tab-content">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-12">
+                                        <div class="consultancy-tab-content">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-7">
+                                                    <img src="assests/images/seo-consultancy/story-img-2.webp"
+                                                        alt="seo-success-002">
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="tab-data-consultancy">
+                                                        <h2 class="text-white">Real Estate Agency</h2>
+                                                        <p class="text-white same-all-para">A real estate agency needed
+                                                            more qualified leads. We optimized property listings,
+                                                            improved local SEO, and built better search presence. The
+                                                            agency began receiving more calls and form submissions from
+                                                            people in their target areas.</p>
+                                                        <p class="text-white">Our consultants provided strategies that
+                                                            supported consistent growth in both visibility and customer
+                                                            inquiries over time.</p>
+                                                        <a href="#0">EXPLORE IT</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="UniqueRevisions" class="unique-tab-content">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-12">
+                                        <div class="consultancy-tab-content">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-7">
+                                                    <img src="assests/images/seo-consultancy/story-img-3.webp"
+                                                        alt="seo-success-003">
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="tab-data-consultancy">
+                                                        <h2 class="text-white">SaaS Company</h2>
+                                                        <p class="text-white same-all-para">A SaaS business was
+                                                            struggling to get any foot in the door in a crowded market.
+                                                            We streamlined their website structure, keyword targeting
+                                                            and produced targeted content. Traffic was up dramatically
+                                                            and so were demo sign-ups and subscription conversions</p>
+                                                        <p class="text-white">Using our SEO consultancy we positioned
+                                                            them strongly in the market with their niche and kept growth
+                                                            measurable and sustainable for long-term success</p>
+                                                        <a href="#0">EXPLORE IT</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="UniqueDelivery" class="unique-tab-content">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-12">
+                                        <div class="consultancy-tab-content">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-7">
+                                                    <img src="assests/images/seo-consultancy/story-img-4.webp"
+                                                        alt="seo-success-004">
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="tab-data-consultancy">
+                                                        <h2 class="text-white">Travel Agenc</h2>
+                                                        <p class="text-white same-all-para">A travel agency required
+                                                            stronger online reach to attract seasonal customers. We
+                                                            optimized destination pages, built local visibility, and
+                                                            improved technical performance. The agency experienced
+                                                            higher traffic during peak seasons and steady inquiries
+                                                            year-round.</p>
+                                                        <p class="text-white">Our team guided them with strategies that
+                                                            supported bookings and improved brand visibility. These
+                                                            efforts created growth aligned with their business goals.
+                                                        </p>
+                                                        <a href="#0">EXPLORE IT</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                 </div>
             </div>
-            <!-- <div class="service-btn">
-                <div class="live-chat-btns">
-                    <a href="#" class="live-chats">Live Chat</a>
-                    <a href="#" id="openPopup">Get A Quote</a>
-                </div>
-            </div> -->
-        </section>
+        </div>
     </section>
     <section class="section-bg pt-b-80 web-dev-pag mt-40" id="transform-app">
         <div class="container" style="display: block; max-width: 100%;">
