@@ -172,6 +172,23 @@ include("includes/header.php");
         include("components/twitter-how-work.php");
         ?>
     </section>
+     <section class="section-bg web-dev-pag " id="transform-app">
+        <div class="container" style="display: block; max-width: 100%;">
+            <div class="row align-items-center transform-row">
+                <div class="col-lg-4">
+                    <img src="assests/images/marketing/banda.webp" alt="ai-dev-img" class="gta">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="text-white same-all text-end">Turn Your Real Estate Vision Into a Powerful Android App
+                        Today</h2>
+                    <div class="digital-two-btn">
+                        <a href="#">Call Now</a>
+                        <a href="#" id="openPopup">Start Live Chat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="six-consultancy-sec pt-b-80"
         style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
 

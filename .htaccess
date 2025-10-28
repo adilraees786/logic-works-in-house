@@ -30,7 +30,6 @@ RewriteRule ^real-estate-web-development-company-dubai/?$ /web-development-agenc
 RewriteRule ^digital-niche-design/?$ /web-development-agency  [R=301,L]
 RewriteRule ^adword-marketing-company/?$ /google-adword-marketing-agency-dubai  [R=301,L]
 RewriteRule ^digital-marketing-agency-dubai/?$ /digital-marketing-agency  [R=301,L]
-RewriteRule ^real-estate-app-development-company-dubai/?$ /app-development-services-dubai  [R=301,L]
 RewriteRule ^app-development-technology/?$ /app-development-services-dubai  [R=301,L]
 RewriteRule ^android-app-development-services/?$ /app-development-services-dubai  [R=301,L]
 RewriteRule ^android-app-development-dubai/?$ /app-development-services-dubai  [R=301,L]
