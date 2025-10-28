@@ -1,8 +1,8 @@
 <?php
-$meta_title = "Facebook and instagram Marketing Agency | Logic Works";
+$meta_title = "Twitter Advertising Agency Dubai | Logic Works";
 $meta_description = "Our Facebook and instagram Marketing Agency creates targeted campaigns that increase engagement and sales with expert strategy, precise targeting, and measurable results.";
-$keyword = 'Facebook & Instagram Marketingt';
-$canonical = "facebook-advertising-agency-dubai";
+$keyword = 'Twitter Advertising Agency Dubai';
+$canonical = "twitter-advertising-agency-dubai";
 $custom_schema = '
 <script type="application/ld+json">
 {
@@ -118,16 +118,16 @@ include("includes/head.php");
 include("includes/header.php");
 ?>
 <style>
-    .facebook-advertising-agency-dubai {
+    .twitter-advertising-agency-dubai {
         overflow: hidden;
     }
 </style>
-<main class="facebook-advertising-agency-dubai bg-black">
-    <section class="consultancy-hero-sec section-bg" style="background: #3b5a9a ">
+<main class="twitter-advertising-agency-dubai bg-black">
+    <section class="consultancy-hero-sec section-bg" style="background: #1c96e8">
         <div class="container bg-blue">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Facebook Advertising Agency Dubai
+                    <h1 class="text-white">Twitter Advertising Agency Dubai
                     </h1>
                     <p class="text-white">Create reliable financial experiences through our Android finance app
                         development company that protects user data and builds lasting trust in your digital banking
@@ -155,28 +155,31 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/fb-hero.png" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/fb-instagram-marketingt/twiter-img-hero.png"
+                        alt="app-dev-niche-hero-img">
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-black"
-        style="background-image: url('assests/images/serice-bg.webp');  background-size: cover; background-repeat: no-repeat; ">
+    <section class="bg-black">
+        <!-- style="background-image: url('assests/images/serice-bg.webp');  background-size: cover; background-repeat: no-repeat; "> -->
         <?php
-        include("components/facebook-advert-choice.php");
+        include("components/twitter-choice-section.php");
         ?>
     </section>
     <section class="">
         <?php
-        include("components/facebok-how-we-work.php");
+        include("components/twitter-how-work.php");
         ?>
     </section>
-    <section class="six-consultancy-sec pt-b-80">
+    <section class="six-consultancy-sec pt-b-80"
+        style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
+
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="dubai-all text-white text-center">Facebook Advertising Agency</h2>
+                    <h2 class="dubai-all text-white text-center">Twitter Advertising Agency</h2>
                     <p class="text-white dubai-all-para text-center">Our Retail App Services empower businesses.
                     </p>
                     <div class="unique-tab-container tabs-consultancy">
