@@ -131,7 +131,7 @@ include("includes/header.php");
         overflow: hidden;
     }
 
-  
+
 
     .automotive-app-development-company-dubai .service-hero-sec {
         padding-top: 0px;
@@ -281,7 +281,7 @@ include("includes/header.php");
     </section>
     <section>
         <?php
-        include("components/enterprsie-app-about.php");
+        include("components/automative-app-about.php");
         ?>
     </section>
     <section class="section-bg web-dev-pag " id="transform-app">
@@ -411,7 +411,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="dubai-all text-white text-center">Enterprise App Services</h2>
+                    <h2 class="dubai-all text-white text-center">Automotive App Services</h2>
                     <p class="text-white dubai-all-para text-center">Our Retail App Services empower businesses.
                     </p>
                     <div class="unique-tab-container tabs-consultancy">
