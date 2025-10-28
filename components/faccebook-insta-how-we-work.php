@@ -168,7 +168,7 @@
                         <div class="tab-card active" data-tab="0">
                             <img src="assests/images/online-reputataion-management/step-1.webp" alt="">
                             <div>
-                                <h3>Audience Research & Competitive Analysis</h3>
+                                <h3>Audience Research</h3>
                                 <p>We look at how your target customers act online and study competitor ads. This helps
                                     us find areas where they miss chances.</p>
                             </div>
@@ -176,7 +176,7 @@
                         <div class="tab-card" data-tab="1">
                             <img src="assests/images/online-reputataion-management/step-2.webp" alt="">
                             <div>
-                                <h3>Campaign Architecture & Creative Strategy</h3>
+                                <h3>Campaign Architecture</h3>
                                 <p>We organize ad accounts into clear groups, each serving a different goal. This
                                     structure helps campaigns run smoothly and avoid wasted budget.</p>
                             </div>
@@ -184,7 +184,7 @@
                         <div class="tab-card" data-tab="2">
                             <img src="assests/images/online-reputataion-management/step-3.webp" alt="">
                             <div>
-                                <h3>Launch Execution & Performance Tracking</h3>
+                                <h3>Launch Execution</h3>
                                 <p>We launch campaigns with budget control and set up conversion tracking. This makes
                                     sure spending is effective and results are measured properly.</p>
                             </div>
@@ -192,7 +192,7 @@
                         <div class="tab-card" data-tab="3">
                             <img src="assests/images/online-reputataion-management/step-4.webp" alt="">
                             <div>
-                                <h3>Performance Refinement & Growth Scaling</h3>
+                                <h3>Performance Refinement</h3>
                                 <p>We study campaign data to improve ad targeting and content. Insights gained help us
                                     refine strategies and boost overall performance steadily.</p>
                             </div>

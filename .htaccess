@@ -20,7 +20,7 @@ RewriteRule ^branding-consultancy/?$ /branding-services [R=301,L]
 RewriteRule ^seo-agency-dubai/?$ /seo-company [R=301,L]
 RewriteRule ^real-estate-seo-agency-dubai/?$ /seo-company  [R=301,L]
 # fb-instagram-marketing ya url change hai facebook-instagram-marketing-agency
-RewriteRule ^fb-instagram-marketing/?$ /social-media-marketing-dubai [R=301,L]
+RewriteRule ^facebook-instagram-marketing-agency/?$ /social-media-marketing-dubai [R=301,L]
 RewriteRule ^facebook-instagram-marketing-dubai/?$ /social-media-marketing-dubai  [R=301,L]
 RewriteRule ^web-design-solutions-in-dubai/?$ /web-design-company [R=301,L]
 RewriteRule ^website-designer/?$ /web-design-company  [R=301,L]

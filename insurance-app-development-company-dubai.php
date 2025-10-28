@@ -131,6 +131,14 @@ include("includes/header.php");
         overflow: hidden;
     }
 
+    .text-logo {
+        font-size: 20px;
+        color: #878787;
+        line-height: 30px;
+        font-weight: 500;
+        letter-spacing: 0%;
+    }
+
     .insurance-app-development-company-dubai .service-hero-sec {
         padding-top: 0px;
         padding-bottom: 50px;
