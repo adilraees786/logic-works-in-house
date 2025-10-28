@@ -1,4 +1,4 @@
-<?php $base_url = 'http://localhost/logic-works-house/'; ?>
+<?php $base_url = 'https://logicworks.ae/'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -39,6 +39,12 @@
     'mobile-app-development-company-oman.php',
     'mobile-app-development-company-kuwait.php',
     'mobile-app-development-company-uae.php',
+    'insurance-app-development-company-dubai.php',
+    'fintech-app-development-company-dubai.php',
+    'enterprise-app-development-company-dubai.php',
+    'dating-app-development-company-dubai.php',
+    'retail-app-development-company-dubai.php',
+    'automotive-app-development-company-dubai.php',
 
 
   ];
