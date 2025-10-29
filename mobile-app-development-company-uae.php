@@ -148,7 +148,7 @@ include("includes/header.php");
 
 
     @media (max-width: 981px) {
-        .mobile-app-development-company-use .service-hero-sec {
+        .mobile-app-development-company-uae .service-hero-sec {
             padding-top: 10px !important;
             padding-bottom: 10px !important;
         }
@@ -957,7 +957,6 @@ include("includes/footer.php");
 
 <style>
     /* ==== */
-
 
     .text-logo {
         font-size: 20px;

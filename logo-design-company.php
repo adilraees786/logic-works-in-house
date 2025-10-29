@@ -577,7 +577,7 @@ include("includes/header.php");
                                         </ul> -->
                                     </div>
                                     <div class="col-lg-6">
-                                        <img src="assests/images/logo-design/tab-img-2.webp" alt="tab-img-001" />
+                                        <img src="assests/images/logo-design/tab-img-11.webp" alt="tab-img-001" />
                                     </div>
                                 </div>
                             </div>
@@ -600,7 +600,7 @@ include("includes/header.php");
                                         </ul> -->
                                     </div>
                                     <div class="col-lg-6">
-                                        <img src="assests/images/logo-design/tab-img-3.webp" alt="tab-img-003" />
+                                        <img src="assests/images/logo-design/tab-img-33.webp" alt="tab-img-003" />
                                     </div>
                                 </div>
                             </div>
@@ -623,7 +623,7 @@ include("includes/header.php");
                                         </ul> -->
                                     </div>
                                     <div class="col-lg-6">
-                                        <img src="assests/images/logo-design/tab-img-4.webp" alt="tab-img-004" />
+                                        <img src="assests/images/logo-design/tab-img-22.webp" alt="tab-img-004" />
                                     </div>
                                 </div>
                             </div>
