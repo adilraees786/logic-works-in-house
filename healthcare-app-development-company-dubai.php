@@ -197,7 +197,8 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/health-care-app/health-care-hero-img.webp" alt="app-dev-health-care-hero-img">
+                    <img src="./assests/images/health-care-app/health-care-hero-img.webp"
+                        alt="app-dev-health-care-hero-img">
                 </div>
             </div>
         </div>
@@ -392,7 +393,7 @@ include("includes/header.php");
                         <img src="assests/images/health-care-app/portfolio-04.webp" alt="portfolio-health-img-004">
                         <img src="assests/images/health-care-app/portfolio-05.webp" alt="portfolio-health-img-005">
                         <img src="assests/images/health-care-app/portfolio-06.webp" alt="portfolio-health-img-006">
-                        <img src="assests/images/health-care-app/portfoliowebp.webp" alt="portfolio-health-img-007">
+                        <img src="assests/images/health-care-app/portfolio-07.webp" alt="portfolio-health-img-007">
                         <img src="assests/images/health-care-app/portfolio-08.webp" alt="portfolio-health-img-006">
                         <img src="assests/images/health-care-app/portfolio-09.webp" alt="portfolio-health-img-009">
                         <img src="assests/images/health-care-app/portfolio-10.webp" alt="portfolio-health-img-0010">
@@ -406,7 +407,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-     <section class="six-consultancy-sec pt-b-80"
+    <section class="six-consultancy-sec pt-b-80"
         style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
         <div class="container">
             <div class="row">
