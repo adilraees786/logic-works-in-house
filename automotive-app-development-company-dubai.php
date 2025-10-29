@@ -1,7 +1,7 @@
 <?php
-$meta_title = "Enterprise App Development Company Dubai | Logic Works ";
+$meta_title = "Automotive App Development Company Dubai | Logic Works ";
 $meta_description = "Build secure financial apps with our Android finance app development company. We create banking solutions that protect transactions and increase user trust.";
-$keyword = 'Enterprise App Development Company Dubai';
+$keyword = 'Automotive App Development Company Dubai';
 $canonical = "https://logicworks.ae/automotive-app-development-company-dubai";
 $custom_schema = '
 <script type="application/ld+json">
@@ -189,7 +189,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/hero-img.webp" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/app-development-niche-design/automative-app.webp" alt="app-dev-niche-hero-img">
                 </div>
             </div>
         </div>
@@ -899,7 +899,7 @@ include("includes/footer.php");
         display: flex;
         justify-content: center;
         position: relative;
-        left: 7%;
+        left: 10%;
     }
 
     .app-bg hr {
