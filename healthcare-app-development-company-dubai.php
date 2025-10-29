@@ -197,7 +197,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/health-care.webp" alt="app-dev-health-care-hero-img">
+                    <img src="./assests/images/health-care-app/health-care-hero-img.webp" alt="app-dev-health-care-hero-img">
                 </div>
             </div>
         </div>
@@ -910,12 +910,12 @@ include("includes/footer.php");
         letter-spacing: 0%;
     }
 
-    .healthcare-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
+    /* .healthcare-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
         display: flex;
         justify-content: center;
         position: relative;
-        left: 5%;
-    }
+        left: 7%;
+    }  */
 
     .app-bg hr {
         width: 4%;

@@ -49,7 +49,7 @@
     }
 
     .mockup-img {
-        max-width: 100%;
+        max-width: 70%;
         height: auto;
     }
 
@@ -73,7 +73,7 @@
         <div class="container">
             <div class="row about-content">
                 <div class="col-md-6 text-center mb-4 mb-md-0">
-                    <img src="./assests/images/app-development-niche-design/about-left-image.webp" alt="App-dev-Mockup"
+                    <img src="./assests/images/android-real-estate-app-development-company/about-img.webp" alt="App-real-state-Mockup"
                         class="mockup-img">
                 </div>
                 <div class="col-md-6 about-text">
