@@ -246,19 +246,19 @@ include("includes/header.php");
                                     &nbsp;—&nbsp;Healthcare App Development Company Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-1"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Healthcare App Development Company Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-2"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Healthcare App Development Company Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-3"></span>
                         </div>
                         <div aria-hidden="true" class="marquee__row">
@@ -267,19 +267,19 @@ include("includes/header.php");
                                     &nbsp;—&nbsp;Healthcare App Development Company Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-4"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Healthcare App Development Company Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-5"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Healthcare App Development Company Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-6"></span>
                         </div>
                     </div>
@@ -392,7 +392,7 @@ include("includes/header.php");
                         <img src="assests/images/health-care-app/portfolio-04.webp" alt="portfolio-health-img-004">
                         <img src="assests/images/health-care-app/portfolio-05.webp" alt="portfolio-health-img-005">
                         <img src="assests/images/health-care-app/portfolio-06.webp" alt="portfolio-health-img-006">
-                        <img src="assests/images/health-care-app/portfolio-07.webp" alt="portfolio-health-img-007">
+                        <img src="assests/images/health-care-app/portfoliowebp.webp" alt="portfolio-health-img-007">
                         <img src="assests/images/health-care-app/portfolio-08.webp" alt="portfolio-health-img-006">
                         <img src="assests/images/health-care-app/portfolio-09.webp" alt="portfolio-health-img-009">
                         <img src="assests/images/health-care-app/portfolio-10.webp" alt="portfolio-health-img-0010">
