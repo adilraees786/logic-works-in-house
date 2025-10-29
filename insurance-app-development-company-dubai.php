@@ -144,7 +144,7 @@ include("includes/header.php");
         padding-bottom: 50px;
     }
 
-    .insurance-app-development-company-dubai.section-marquee .marwuee-row:before {
+    .insurance-app-development-company-dubai .section-marquee .marwuee-row:before {
         display: none;
     }
 
@@ -195,7 +195,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/hero-img.webp" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/app-development-niche-design/insurance-hero.webp" alt="app-dev-insurance-hero-img">
                 </div>
             </div>
         </div>

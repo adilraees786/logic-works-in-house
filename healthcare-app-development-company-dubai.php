@@ -197,7 +197,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/hero-img.webp" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/app-development-niche-design/health-care.webp" alt="app-dev-health-care-hero-img">
                 </div>
             </div>
         </div>
@@ -914,7 +914,7 @@ include("includes/footer.php");
         display: flex;
         justify-content: center;
         position: relative;
-        left: 7%;
+        left: 5%;
     }
 
     .app-bg hr {
