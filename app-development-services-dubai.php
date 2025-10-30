@@ -901,7 +901,7 @@ include("includes/footer.php");
 
     .app-dubai-matters .row .col-lg-7,
     .app-dubai-matters .row .col-lg-5 {
-        padding: 0px;
+        padding: 10px;
     }
 
     .app-dubai-matters h2.text-white {
