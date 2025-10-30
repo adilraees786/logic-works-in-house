@@ -13,9 +13,9 @@ include("includes/header.php");
     <div class="not-found-overlay"></div>
     <div class="not-found-content">
       <h2>404</h2>
-      <h3>Oops! Page Not Found</h3>
+      <h3>We can’t seem to find that page</h3>
       <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
-      <a href="./">Go Back Home</a>
+      <a href="./">Return to Homepage</a>
     </div>
   </div>
 </main>
