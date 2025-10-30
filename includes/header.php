@@ -1,4 +1,4 @@
-<?php $base_url = 'http://localhost/logic-works-house/'; ?>
+<?php $base_url = 'https://logicworks.ae/'; ?>
 
 <body>
     <!-- Google Tag Manager (noscript) -->

@@ -1,596 +1,912 @@
 <?php
-$meta_title = "UI UX Design Company in Dubai| Logic Works";
-$meta_description = "Our Facebook and instagram Marketing Agency creates targeted campaigns that increase engagement and sales with expert strategy, precise targeting, and measurable results.";
-$keyword = 'UI UX Design Company in Dubai';
-$canonical = "twitter-advertising-agency-dubai";
+$meta_title = "Domain and Hosting Services in Dubai - Logic Works ";
+$meta_description = "Logic Works provides professional web development services in Dubai. Custom websites, SEO optimization, and responsive designs for all businesses.";
+$keyword = 'Web Design Company';
+$canonical = "https://logicworks.ae/web-design-company";
 $custom_schema = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://logicworks.ae/#fb-instagram-marketing",
-  "name": "Fb & instagram marketing",
-  "serviceType": "Facebook and Instagram Marketing",
-  "alternateName": "fb & Instagram marketing agency",
-  "url": "https://logicworks.ae/fb-instagram-marketing",
-  "description": "Leading Facebook and Instagram marketing agency — Logic Works boosts engagement, followers, and ROI with smart, data-driven campaigns.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Logic Works",
-    "url": "https://logicworks.ae",
-    "logo": "https://logicworks.ae/assests/images/head-logo.png",
-    "telephone": "+971 52 950 2258",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Al Barsha 1, Sheikh Zayed Rd",
-      "addressLocality": "Dubai",
-      "addressRegion": "Dubai",
-      "addressCountry": "AE"
-    },
-    "sameAs": [
-      "https://www.facebook.com/logicworks.ae",
-      "https://www.instagram.com/logicworks.ae/"
-    ]
+  "@type": "LocalBusiness",
+  "name": "Logic Works",
+  "url": "https://logicworks.ae/web-design-company",
+  "image": "https://logicworks.ae/assests/images/head-logo.webp",
+  "telephone": "+971529502258",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dubai",
+    "addressCountry": "AE"
   },
   "areaServed": {
     "@type": "Place",
-    "name": "Dubai, UAE"
+    "name": "Dubai"
+  },
+  "description": "Boost your online presence with professional Web Design services in Dubai. Logic Works is a leading Web Design Company that builds responsive, SEO-optimized, and user-focused websites tailored to every business need.",
+  "priceRange": "$$",
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Web Design",
+      "description": "Get custom web design solutions in Dubai with Logic Works. We create visually appealing, responsive, and user-friendly websites that reflect your brand and drive engagement.",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Dubai"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Logic Works",
+        "url": "https://logicworks.ae/"
+      }
+    }
   }
 }
 </script>
+
 ';
-$faq_data = '
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What separates your Facebook marketing company from other agencies?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Our focus stays locked on sales and lead generation, not vanity metrics. Every campaign gets structured around conversion goals with transparent reporting showing exact cost per acquisition and return on ad spend."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How soon will Facebook campaigns start generating leads?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Results usually start showing within 3–5 days. Performance gets better with testing and adjustments. Strong conversion rates appear after 2–3 weeks of data collection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you manage both Facebook and Instagram advertising together?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Absolutely. Both platforms connect through Meta Business Suite, allowing coordinated campaigns. We create platform-specific content while maintaining consistent messaging across both channels for maximum impact."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you prevent wasted spending on social media ads?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " We implement detailed audience exclusions, placement controls, and frequency caps while testing small budgets first. Continuous monitoring identifies poor performers quickly, reallocating spend to profitable combinations only."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How Does Expert Facebook Advertising Build Sustainable Business Growth?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective social media ads need knowledge of how platforms work and how people think. The best Facebook marketing agency keeps up with algorithm updates and new targeting options. Our team tests new features before using them in client campaigns. Businesses benefit from our skills in ad formats, bidding methods, and creative ideas that bring real results. We study the customer journey closely to design step-by-step ad campaigns that guide people toward buying. These strategies nurture cold audiences into warm prospects ready to buy. Companies working with us report consistent lead flow and improved customer acquisition costs. Our systematic approach creates predictable growth through strategic ad investments that scale profitably"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why Does Audience Precision Matter More Than Ad Spending Budget?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Successful campaigns depend on reaching people ready to buy your solution. Our Instagram advertising agency uses detailed targeting parameters to find ideal customers. We analyze demographics, interests, online behaviors, and purchase intent signals to build custom audiences. Lookalike modeling expands reach to similar high-value prospects. This precision eliminates budget waste on uninterested viewers. Companies using our targeting methods see lower costs per conversion and higher return on ad spend. We divide audiences into cold, warm, and hot groups, then create messages for each stage. This improves engagement and conversions. Every targeting choice is based on data, not guesswork."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Advanced Techniques Separate Winning Campaigns From Average Results?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Success with social ads needs testing and smart adjustments. Our agency runs split tests on headlines, images, calls-to-action, and landing pages. We also use dynamic tools to find the best-performing ad combinations. Retargeting sequences recapture website visitors with specific messaging based on pages viewed. Video content receives special attention since it generates higher engagement rates. Custom conversion events track valuable actions beyond basic purchases. These methods produce stronger campaign performance and better returns. Clients see improved quality scores and expanded reach without increased spending. We focus on building sustainable systems that generate consistent results. Our testing framework identifies winning formulas that can scale across larger budgets while maintaining profitability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How Does Strategic Campaign Management Protect Against Market Changes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Platform algorithms and user behaviors shift constantly in social media. Our team monitors Meta policy updates, feature releases, and industry changes that affect campaign performance. We adjust strategies proactively rather than reacting after results decline. Diversified campaign structures spread risk across multiple ad sets and creative variations. Regular creative refreshes prevent ad fatigue that kills performance. Budget pacing controls ensure spending aligns with conversion windows and audience availability. Companies partnering with our Facebook marketing company gain protection from sudden performance drops. We maintain backup campaigns and test new approaches continuously. This preparation keeps lead flow steady even when platforms change. Our experience managing campaigns through multiple algorithm updates helps businesses maintain growth regardless of external factors affecting social advertising effectiveness."
-      }
-    }
-  ]
-}
-</script>
-<!--FAQPage Code Generated by https://saijogeorge.com/json-ld-schema-generator/faq/-->
-';
+
 include("includes/head.php");
 include("includes/header.php");
 ?>
 <style>
-    .twitter-advertising-agency-dubai {
-        overflow: hidden;
+    .transform-row .digital-two-btn a:first-child:hover:before {
+        right: -0%;
+        transition: 0.5s all ease-in-out;
+    }
+
+    .transform-row .digital-two-btn a:first-child:before {
+        content: '';
+        background: url(assests/images/phon-icon.webp) no-repeat;
+        background-size: 100%;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: -6%;
+        top: 0%;
+        transition: 0.5s all ease-in-out;
+    }
+
+    .web-slider .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .slid-inrr .swiper-button-prev {
+        background: url(assests/images/website/service-arrow-left.png) no-repeat;
+        position: absolute;
+        width: 76px;
+        height: 54px;
+        background-size: 100%;
+        left: unset !important;
+        right: 11%;
+        top: 5%;
+    }
+
+    .slid-inrr .swiper-button-next {
+        background: url(assests/images/website/service-arrow-right.png);
+        width: 76px;
+        height: 54px;
+        background-size: 100%;
+        left: unset !important;
+        right: 3%;
+        top: 5%;
+    }
+
+    .web-slider .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 572px;
+    }
+
+    .web-slider .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+
+    .slider-web .swiper-button-prev {
+        background: url(assests/images/website/left-arrow.png);
+        background-size: 100%;
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        top: 4%;
+        left: 0;
+    }
+
+    .slider-web .swiper-button-next {
+        background: url(assests/images/website/right-arrow.png);
+        background-size: 100%;
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        top: 4%;
+        right: 0%;
+    }
+
+    /* new css */
+    .seo-hero-sec.wdsd1 p.text-white {
+        font-size: 22px;
+        font-weight: 500;
+        margin: 20px 0 -10px !important;
+        font-family: 'Montserrat';
+    }
+
+    .seo-hero-sec.wdsd1 {
+        padding-top: 160px;
+        padding-bottom: 70px;
+    }
+
+    img.trustsec {
+        width: 390px;
+        object-fit: contain;
+    }
+
+    .seo-hero-sec.wdsd1 h1.text-white {
+        font-size: 50px;
+    }
+
+    .wdsd-mainbg section {
+        background: unset !important;
+    }
+
+    .wdsd-mainbg {
+        background: url('assests/images/website/second-bg.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #000;
+    }
+
+    .ssr .our-content-slider {
+        position: relative;
+        padding-top: 60px;
+    }
+
+    .ssr .our-content-slider:after {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 40px solid #dad9d7;
+    }
+
+    img.bde {
+        margin-top: -80px;
+        animation: none;
+    }
+
+    .tab-delivery .unique-tab-content h3 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .huge-bg-img {
+        background: url('assests/images/social-media/huge-bg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: #000;
+    }
+
+    .huge-bg-img section {
+        background: unset !important;
+    }
+
+    .huge-bg-img .background-video {
+        display: none;
+    }
+
+    .wweb-deign-sec .unique-tab-container button.unique-tab-button {
+        font-family: 'Montserrat';
+        font-size: 16px;
+    }
+
+    .link-image {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+
+    }
+
+    .link-image a img {
+        width: 100px;
+        height: 50px;
+        object-fit: contain;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    @media (max-width:767px) {
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+
+        .seo-hero-sec.wdsd1 h1.text-white {
+            font-size: 33px;
+        }
+
+        .seo-hero-sec.wdsd1 p.text-white {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        img.bansec {
+            height: 0;
+        }
+
+        .wdsd1 {
+            margin-bottom: -80px;
+        }
+
+        .slider-web .swiper-button-next,
+        .slider-web .swiper-button-prev {
+            top: 50%;
+        }
+
+        .web-second-sec p.main-head {
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        .slider-logo .mySwiper2 swiper-slide img {
+            width: 80%;
+        }
+
+        .port-web .row.align-items-center.transform-row {
+            flex-direction: column-reverse;
+        }
+
+        .seo-btn a {
+            padding: 10px 0 13px;
+        }
+
+        h2.mnhead {
+            text-align: center !important;
+            text-transform: capitalize;
+            font-size: 32px !important;
+            margin-top: 50px;
+        }
+
+        .digital-two-btn a {
+            padding: 14px 40px 14px 40px !important;
+            width: 80% !important;
+        }
+
+        img.bde {
+            margin-top: 60px;
+            animation: none;
+            margin-bottom: -30px;
+        }
+
+        .port-web {
+            padding-bottom: 10px;
+        }
+
+        .row.matters-row h2,
+        .row.matters-row p {
+            text-align: center;
+        }
+
+        .row.matters-row h2 {
+            font-size: 34px !important;
+        }
     }
 </style>
-<main class="twitter-advertising-agency-dubai bg-black">
-    <section class="consultancy-hero-sec section-bg">
-        <div class="container bg-blue">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h1 class="text-white">UI UX Design Company in Dubai
-                    </h1>
-                    <p class="text-white">Create reliable financial experiences through our Android finance app
-                        development company that protects user data and builds lasting trust in your digital banking
-                        platform.
-                    </p>
-                    <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
-                            <span class="link-effect">
-                                <span class="effect-1">Live Chat</span>
-                                <span class="effect-1">Live Chat</span>
-                            </span>
-                        </a>
-                        <a class="btn bg-theme text-title" id="openPopup" href="#0">
-                            <span class="link-effect">
-                                <span class="effect-1">Get A Quote</span>
-                                <span class="effect-1">Get A Quote</span>
-                            </span>
-                        </a>
-                        <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec"> -->
+<main class="domain-hosting-services-dubai">
+    <div class="wdsd-mainbg">
+        <!-- Hero section -->
+        <section class="seo-hero-sec section-bg wdsd1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <h1 class="text-white">Professional <span>Ui Ux </span> Design Company in
+                            Dubai!
+                        </h1>
+                        <p class="text-white">Custom websites built to perfection in Dubai. Logic Works guarantees
+                            excellence in web development services. Reach out now and get a professional website for
+                            your brand.</p>
+                        <div class="seo-btn">
+                            <a class="btn bg-theme text-title" href="#0">
+                                <span class="link-effect">
+                                    <span class="effect-1">Live Chat</span>
+                                    <span class="effect-1">Live Chat</span>
+                                </span>
+                            </a>
+                            <a class="btn bg-theme text-title" id="openPopup" href="#0">
+                                <span class="link-effect">
+                                    <span class="effect-1">Get A Quote</span>
+                                    <span class="effect-1">Get A Quote</span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
+                            class="trustsec mt-30"> -->
+                        <div class="link-image mt-15">
+                            <a href="https://www.goodfirms.co/company/logicworks-information-technology-llc"
+                                target="_blank"><img src="assests/images/Goodfirms.webp"></a>
+                            <a href="https://www.trustpilot.com/review/logicworks.ae" target="_blank"><img
+                                    src="assests/images/Trust.webp"></a>
+                            <a href="https://clutch.co/profile/logic-works-0#contact" target="_blank"><img
+                                    src="assests/images/Clutch.webp"></a>
+                            <a href="https://www.bark.com/en/gb/company/logicworks-information-technology-llc/kwqD4l/"
+                                target="_blank"><img src="assests/images/Bark.webp"></a>
+                        </div>
                     </div>
-                    <div class="py-20">
-                        <?php
-                        include("includes/image-link.php");
-                        ?>
+                    <div class="col-lg-3">
+                        <img src="assests/images/website/banner-ikmage.webp" alt="Ikimage" class="bansec">
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <img src="./assests/images/fb-instagram-marketingt/ui-ux.png" alt="app-dev-niche-hero-img">
                 </div>
             </div>
-        </div>
-    </section>
-    <section style="background: #9774c3 ">
-        <?php
-        include("components/ui-ux-choice-section.php");
-        ?>
-    </section>
-    <section class="">
-        <?php
-        include("components/ui-ux-work-process.php");
-        ?>
-    </section>
-    <section class="section-bg web-dev-pag pb-50" id="transform-app">
-        <div class="container" style="display: block; max-width: 100%;">
+        </section>
+
+        <section class="web-second-sec section-bg" style="background-image:url(assests/images/website/second-bg.webp);">
+            <div class="container" style="display: block;">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center text-white same-all">We Offer a Full Spectrum of Web Development Services
+                        </h2>
+                        <p class="text-white text-center">Logic Works offers a wide range of web development services.
+                            Our team combines creativity with technical expertise to create visually appealing,
+                            functional, and optimized websites for search engines.</p>
+
+                        <div class="web-slider">
+                            <div class="swiper slider-web">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="web-content-slider">
+                                            <h2 class="text-center text-white">TAILORED SOLUTIONS</h2>
+                                            <p class="text-white">We create websites that fit your business goals. Our
+                                                designs are fast and easy to navigate. We focus on a good user
+                                                experience. From start to finish, we manage every step. We ensure your
+                                                site is compatible with all devices. We provide scalable and efficient
+                                                solutions. Our team builds websites that help you succeed. Each feature
+                                                is designed to support your needs. We create custom websites for
+                                                businesses of all sizes.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="web-content-slider">
+                                            <h2 class="text-center text-white">E-Commerce Web Development</h2>
+                                            <p class="text-white">We build e-commerce websites that drive sales. Our
+                                                sites include secure payment options. We ensure smooth navigation on any
+                                                device. Faster loading times improve user experience. We integrate
+                                                features like advanced search and inventory management. Our designs are
+                                                attractive and functional. We optimize your site for better search
+                                                engine rankings. We help you attract and retain more customers. Your
+                                                online store will be easy to use and reliable.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="web-content-slider">
+                                            <h2 class="text-center text-white">Frontend Web Development</h2>
+                                            <p class="text-white">We design responsive, engaging websites. Our layouts
+                                                are simple and easy to navigate. We focus on fast loading speeds. We use
+                                                modern frameworks to create smooth transitions. Our designs are
+                                                optimized for all devices. We ensure accessibility and usability for all
+                                                users. We deliver visually stunning and functional web pages. Our team
+                                                focuses on creating a positive user experience. We make sure your site
+                                                performs well across all platforms.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="web-content-slider">
+                                            <h2 class="text-center text-white">Backend Web Development</h2>
+                                            <p class="text-white">We build strong backend systems for your website. We
+                                                handle database integration and server-side scripting. Our team ensures
+                                                secure and scalable solutions. We make sure your website runs smoothly
+                                                even with high traffic. We ensure communication between front-end and
+                                                back-end systems. We focus on fast and reliable website performance. Our
+                                                backend solutions meet all technical needs. We handle everything behind
+                                                the scenes to keep your site running.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="web-content-slider">
+                                            <h2 class="text-center text-white">Corporate Web Design</h2>
+                                            <p class="text-white">We design professional websites that reflect your
+                                                brand. Our designs are modern and easy to navigate. We focus on speed
+                                                and functionality. Our team ensures your website is optimized for search
+                                                engines. We use high-quality visuals to make a good impression. We
+                                                create websites that build trust with your audience. Whether
+                                                informational or service-based, we deliver effective designs. We focus
+                                                on a user-friendly experience to keep visitors engaged.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="web-content-slider">
+                                            <h2 class="text-center text-white">Landing Page Design</h2>
+                                            <p class="text-white">We create landing pages that convert visitors into
+                                                leads. Our pages have clear headlines and strong calls to action. Each
+                                                page is optimized for fast loading and mobile use. We focus on capturing
+                                                attention and encouraging actions. We design landing pages for campaigns
+                                                or simple goals. Our pages are built to improve conversion rates. We
+                                                align each design with your business objectives. We ensure every landing
+                                                page drives results for your business.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <p class="text-center text-white main-head">START YOUR WEB DESIGN JOURNEY TODAY!</p>
+                        <a href="#">START NOW!</a>
+                    </div>
+                </div>
+
+                <div class="row mt-5 serive-slider-row ssr">
+                    <div class="col">
+                        <h2 class="text-center text-white same-all">OUR SERVICES</h2>
+                        <p class="text-white text-center">COMPREHENSIVE WEB DESIGN SERVICES FOR DUBAI BUSINESSES</p>
+
+                        <div class="slid-inrr">
+                            <div class="swiper port-slid-mine">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="our-serve-slider">
+                                            <img src="assests/images/website/custom-solutions.webp" alt="ser-img-1">
+                                            <div class="our-content-slider">
+                                                <h2 class="text-white">CUSTOM SOLUTIONS</h2>
+                                                <p class="text-white">We build websites that fit your business needs.
+                                                    Each project is carefully planned. Our solutions are unique and
+                                                    effective. We ensure your website is user-friendly and easy to
+                                                    manage. Every feature is designed to support your goals.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="our-serve-slider">
+                                            <img src="assests/images/website/corporate-webiste.webp" alt="ser-img-2">
+                                            <div class="our-content-slider">
+                                                <h2 class="text-white">RESONSIVE DESIGN</h2>
+                                                <p class="text-white">Our websites work perfectly on all devices. They
+                                                    adjust seamlessly to desktops, tablets, and phones. We ensure smooth
+                                                    navigation and better user experience. Responsive layouts improve
+                                                    engagement and performance. This helps your website reach a wider
+                                                    audience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="our-serve-slider">
+                                            <img src="assests/images/website/seo-optimization.webp" alt="ser-img-3">
+                                            <div class="our-content-slider">
+                                                <h2 class="text-white">SEO OPTIMIZATION</h2>
+                                                <p class="text-white">We design websites that rank higher on search
+                                                    engines. Our sites load quickly and follow SEO standards. Optimized
+                                                    content helps attract more visitors. Keywords are naturally
+                                                    integrated for better results. We focus on long-term online
+                                                    visibility.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="our-serve-slider">
+                                            <img src="assests/images/website/ModernTechnologies.webp" alt="ser-img-4">
+                                            <div class="our-content-slider">
+                                                <h2 class="text-white">MODERN TECHNOLOGIES</h2>
+                                                <p class="text-white">We use advanced tools to build reliable websites.
+                                                    Our team stays updated with the latest trends. Modern technologies
+                                                    ensure faster, secure, and future-ready designs. We add innovative
+                                                    features to enhance usability. Your website stays ahead of
+                                                    competitors.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="our-serve-slider">
+                                            <img src="assests/images/website/WebsiteMaintenance.webp" alt="ser-img-5">
+                                            <div class="our-content-slider">
+                                                <h2 class="text-white">MAITENANCE SUPPORT</h2>
+                                                <p class="text-white">We keep your website updated and secure. Our team
+                                                    fixes bugs and monitors performance. Regular updates ensure smooth
+                                                    operation. We handle backups and security patches. Maintenance keeps
+                                                    your site running without issues.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="our-serve-slider">
+                                            <img src="assests/images/website/TimelyDelivery.webp" alt="ser-img-6">
+                                            <div class="our-content-slider">
+                                                <h2 class="text-white">TIMELY DELIVERY</h2>
+                                                <p class="text-white">We deliver projects on time without delays. Our
+                                                    process is quick and efficient. You get a ready-to-launch website on
+                                                    schedule. We stick to deadlines while maintaining quality. Timely
+                                                    delivery ensures your business stays on track.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <section class="section-bg port-web" id="port-web">
+        <div class="container" style="display: block;">
+            <div class="row slider-logo">
+                <div class="col">
+                    <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                        class="mySwiper" thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
+                        <swiper-slide>
+                            <img src="assests/images/website/gametimewellness.webp" alt="slider-image01" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/captbutch.webp" alt="slider-image02" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/depatieroof.webp" alt="slider-image03" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/slider-01.webp" alt="slider-image04" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/funkifitgame.webp" alt="slider-image05" />
+                        </swiper-slide>
+                    </swiper-container>
+
+                    <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true"
+                        watch-slides-progress="true">
+                        <swiper-slide>
+                            <img src="assests/images/website/gtwlogo.webp" alt="bottom-1" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/cblogo.webp" alt="bottom-2" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/drlogo.webp" alt="bottom-3" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/cuclogo.webp" alt="bottom-4" />
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="assests/images/website/ffg-logo.webp" alt="bottom-5" />
+                        </swiper-slide>
+                    </swiper-container>
+                </div>
+            </div>
+
             <div class="row align-items-center transform-row">
                 <div class="col-lg-4">
-                    <img src="assests/images/marketing/banda.webp" alt="ai-dev-img" class="gta">
+                    <img src="assests/images/marketing/banda.webp" alt="Markrting-bnda" class="bde">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Turn Your Real Estate Vision Into a Powerful Android App
-                        Today</h2>
+                    <h2 class="text-white same-all text-end mnhead">Launch your professional website with Logic Works.
+                        Start now!</h2>
                     <div class="digital-two-btn">
                         <a href="#">Call Now</a>
-                        <a href="#" id="openPopup">Start Live Chat</a>
+                        <a href="#" id="openPopup">Get a quote</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="six-consultancy-sec pt-b-80"
-        style="background-color: #131B1E;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
 
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="dubai-all text-white text-center">Our ui Ux Services</h2>
-                    <p class="text-white dubai-all-para text-center">Our Retail App Services empower businesses.
-                    </p>
-                    <div class="unique-tab-container tabs-consultancy">
-                        <button class="unique-tab-button active-tab" data-target="UniqueConsultation">
-                            <img src="assests/images/branding-dubai/icon-1.webp" alt="seo-icon-001"
-                                style="height: 40px; width: 40px;">
-                            E-commerce Brand
-                        </button>
-                        0
-                        <button class="unique-tab-button" data-target="UniqueConcept"><img
-                                src="assests/images/branding-dubai/icon-2.webp" alt="seo-icon-002">Real Estate
-                            Agency</button>
-                        <button class="unique-tab-button" data-target="UniqueRevisions"><img
-                                src="assests/images/branding-dubai/icon-3.webp" alt="seo-icon-003">SaaS Company</button>
-                        <button class="unique-tab-button" data-target="UniqueDelivery"><img
-                                src="assests/images/branding-dubai/icon-4.webp" alt="seo-icon-004">Travel
-                            Agency</button>
-                    </div>
-
-                    <div class="tab-delivery">
-                        <div class="unique-tab-container">
-                            <div id="UniqueConsultation" class="unique-tab-content" style="display: block;">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-1.webp"
-                                                        alt="seo-success-001">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">E-commerce Brand</h2>
-                                                        <p class="text-white same-all-para">An online retail store faced
-                                                            low visibility and slow sales. We improved product pages,
-                                                            fixed technical issues, and grew organic traffic. The store
-                                                            achieved higher search rankings and stronger revenue within
-                                                            months.</p>
-                                                        <p class="text-white">Our guidance as an experienced SEO
-                                                            consultant helped the business reach customers more
-                                                            effectively and create a steady stream of orders.</p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="UniqueConcept" class="unique-tab-content">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-2.webp"
-                                                        alt="seo-success-002">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">Real Estate Agency</h2>
-                                                        <p class="text-white same-all-para">A real estate agency needed
-                                                            more qualified leads. We optimized property listings,
-                                                            improved local SEO, and built better search presence. The
-                                                            agency began receiving more calls and form submissions from
-                                                            people in their target areas.</p>
-                                                        <p class="text-white">Our consultants provided strategies that
-                                                            supported consistent growth in both visibility and customer
-                                                            inquiries over time.</p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="UniqueRevisions" class="unique-tab-content">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-3.webp"
-                                                        alt="seo-success-003">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">SaaS Company</h2>
-                                                        <p class="text-white same-all-para">A SaaS business was
-                                                            struggling to get any foot in the door in a crowded market.
-                                                            We streamlined their website structure, keyword targeting
-                                                            and produced targeted content. Traffic was up dramatically
-                                                            and so were demo sign-ups and subscription conversions</p>
-                                                        <p class="text-white">Using our SEO consultancy we positioned
-                                                            them strongly in the market with their niche and kept growth
-                                                            measurable and sustainable for long-term success</p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="UniqueDelivery" class="unique-tab-content">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-4.webp"
-                                                        alt="seo-success-004">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">Travel Agenc</h2>
-                                                        <p class="text-white same-all-para">A travel agency required
-                                                            stronger online reach to attract seasonal customers. We
-                                                            optimized destination pages, built local visibility, and
-                                                            improved technical performance. The agency experienced
-                                                            higher traffic during peak seasons and steady inquiries
-                                                            year-round.</p>
-                                                        <p class="text-white">Our team guided them with strategies that
-                                                            supported bookings and improved brand visibility. These
-                                                            efforts created growth aligned with their business goals.
-                                                        </p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>>
-    <section class="web-second-sec section-bg">
+    <section class="section-bg matter-sec" style="background-image: url(assests/images/website/matters.webp);">
         <div class="container" style="display: block;">
-
-
-            <div class="row mt-5 serive-slider-row ssr">
-                <div class="col">
-                    <h2 class="text-center text-white same-all">Success Stories</h2>
-                    <p class="text-white text-center">Proven Growth Through Facebook Ads</p>
-
-                    <div class="slid-inrr">
-                        <div class="swiper port-slid-mine">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="our-serve-slider">
-                                        <img src="assests/images/fb-instagram-marketingt/fb-story-img-001.webp">
-                                        <div class="our-content-slider">
-                                            <h2 class="text-white">E-Commerce Store</h2>
-                                            <p class="text-white">An online fashion retailer boosted sales by 45% in
-                                                three months. Targeted ads reduced abandoned carts and improved return
-                                                on ad spend significantly.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="our-serve-slider">
-                                        <img src="assests/images/fb-instagram-marketingt/fb-story-img-002.webp">
-                                        <div class="our-content-slider">
-                                            <h2 class="text-white">Local Restaurant Chain</h2>
-                                            <p class="text-white">A restaurant group filled more tables by promoting
-                                                seasonal deals. Ads targeted nearby audiences, generating consistent
-                                                reservations and stronger brand awareness in their community.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="our-serve-slider">
-                                        <img src="assests/images/fb-instagram-marketingt/fb-story-img-003.webp">
-                                        <div class="our-content-slider">
-                                            <h2 class="text-white">Fitness Studio</h2>
-                                            <p class="text-white">A boutique gym grew memberships using targeted video
-                                                ads. Campaigns showed real customer transformations to build trust. The
-                                                ads brought quality leads that turned into loyal, long-term clients.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="our-serve-slider">
-                                        <img src="assests/images/fb-instagram-marketingt/fb-story-img-004.webp">
-                                        <div class="our-content-slider">
-                                            <h2 class="text-white">Real Estate Agency</h2>
-                                            <p class="text-white">Targeted property ads brought qualified buyer leads.
-                                                Campaigns featured listings and retargeted website visitors, shortening
-                                                sales cycles and producing steady, high-value inquiries for agents.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="our-serve-slider">
-                                        <img src="assests/images/fb-instagram-marketingt/fb-story-img-005.webp">
-                                        <div class="our-content-slider">
-                                            <h2 class="text-white">Healthcare Clinic</h2>
-                                            <p class="text-white">A private clinic gained more patient appointments with
-                                                precise targeting. Ads promoted health checkups, improving community
-                                                trust and boosting monthly consultations with measurable results.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="our-serve-slider">
-                                        <img src="assests/images/fb-instagram-marketingt/fb-story-img-006.webp">
-                                        <div class="our-content-slider">
-                                            <h2 class="text-white">Tech Startup</h2>
-                                            <p class="text-white">A SaaS company launched new software through creative
-                                                campaigns. Ads focused on pain points, generating trial sign-ups and
-                                                reducing cost per acquisition by 38%.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
+            <div class="row matters-row">
+                <div class="col-lg-12">
+                    <h2 class="text-white same-all">Why Every Brand Needs a Professional Website</h2>
+                    <p class="text-white">A website serves as a 24/7 marketing tool. It allows you to reach more
+                        customers. A well-optimized site directly impacts your sales and business growth.</p>
                 </div>
             </div>
-    </section>
-    <section class="faq-home section-bg mt-50">
-        <div class="container">
-            <div class="row justify-content-space-between">
-                <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
-                    <div class="faqss">
-                        <div class="quwstion">
-                            <button class="accordions">What separates your Facebook marketing company from other
-                                agencies?</button>
-                            <div class="panel">
-                                <p> Our focus stays locked on sales and lead generation, not vanity metrics. Every
-                                    campaign gets structured around conversion goals with transparent reporting showing
-                                    exact cost per acquisition and return on ad spend.</p>
-                            </div>
-                        </div>
 
-                        <div class="quwstion">
-                            <button class="accordions">How soon will Facebook campaigns start generating leads?</button>
-                            <div class="panel">
-                                <p>Results usually start showing within 3–5 days. Performance gets better with testing
-                                    and adjustments. Strong conversion rates appear after 2–3 weeks of data collection.
-                                </p>
-                            </div>
-                        </div>
+            <div class="row matter-three-col">
+                <div class="col-lg-4" style="background-color: #59249A;">
+                    <h3 class="text-white">Builds Credibility</h3>
+                    <p class="text-white">A professional website builds trust with visitors. It shows your brand is
+                        legitimate. Customers prefer well-designed, secure sites. A strong online presence increases
+                        credibility. A professional design reflects your business values. It demonstrates reliability
+                        and expertise in your field.</p>
+                </div>
 
-                        <div class="quwstion">
-                            <button class="accordions">Can you manage both Facebook and Instagram advertising
-                                together?</button>
-                            <div class="panel">
-                                <p> Absolutely. Both platforms connect through Meta Business Suite, allowing coordinated
-                                    campaigns. We create platform-specific content while maintaining consistent
-                                    messaging across both channels for maximum impact.</p>
-                            </div>
-                        </div>
+                <div class="col-lg-4" style="background-color: #59249A;">
+                    <h3 class="text-white">Boosts Visibility</h3>
+                    <p class="text-white">A professional website helps improve search rankings. SEO-optimized sites
+                        attract more visitors. High-quality content increases organic traffic. Your brand reaches a
+                        broader audience. You gain more opportunities with better visibility. More people will discover
+                        and engage with your brand.</p>
+                </div>
 
-                        <div class="quwstion">
-                            <button class="accordions">How do you prevent wasted spending on social media ads?</button>
-                            <div class="panel">
-                                <p> We implement detailed audience exclusions, placement controls, and frequency caps
-                                    while testing small budgets first. Continuous monitoring identifies poor performers
-                                    quickly, reallocating spend to profitable combinations only.</p>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="col-lg-4" style="background-color: #59249A;">
+                    <h3 class="text-white">Increases Conversions</h3>
+                    <p class="text-white">A well-designed website encourages visitors to take action. Clear calls to
+                        action improve engagement. A seamless user experience boosts conversions. Optimized designs lead
+                        to higher sales. An easy-to-navigate site builds customer confidence. Conversions rise with
+                        better user interaction.</p>
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-        id="hireobserverID">
-        <div class="bg-white-heading-custom">
+    <!-- Portfolio Section -->
+    <div class="huge-bg-img">
+        <section class="logotab-sec wweb-deign-sec section-bg pt-b-80">
+            <video class="background-video" autoplay muted loop>
+                <source src="assests/images/v2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="container" style="display: block;">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-white algn-centr logo-h2">A Proven Process for Web Development Excellence</h2>
+                        <!-- <p class="text-white text-center">Explain your logo design process clearly so that potential clients know exactly what to expect. Keep it simple and approachable.</p> -->
+                        <div class="unique-tab-container">
+                            <button class="unique-tab-button active-tab"
+                                data-target="UniqueConsultation">Research</button>
+                            <button class="unique-tab-button" data-target="UniqueConcept">Strategy</button>
+                            <button class="unique-tab-button" data-target="UniqueRevisions">Creation</button>
+                            <button class="unique-tab-button" data-target="UniqueDelivery">Testing</button>
+                        </div>
+                        <div class="tab-delivery" style="background-image: url(assests/images/website/tab-bg.webp);">
+                            <div class="unique-tab-container">
+                                <div id="UniqueConsultation" class="unique-tab-content" style="display: block;">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6">
+                                            <h3>Research</h3>
+                                            <p>We conduct thorough research to understand goals. Audience analysis
+                                                defines your website's direction. Competitor insights help refine unique
+                                                strategies. Data-driven decisions ensure accurate project planning.
+                                                Research lays the foundation for success. Every detail is considered
+                                                during this phase. Insights guide the design and development process.
+                                            </p>
+
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="assests/images/web-design/Research.webp" alt="research" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="UniqueConcept" class="unique-tab-content">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6">
+                                            <h3>Strategy</h3>
+                                            <p>We create a clear, actionable project roadmap. Each step aligns with your
+                                                business objectives. User experience and SEO are prioritized
+                                                strategically. Goals, features, and functionality are clearly outlined.
+                                                The strategy ensures smooth execution and measurable results. A tailored
+                                                approach drives your website's success. We focus on creating long-term
+                                                value.</p>
+
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="assests/images/web-design/Strategy.webp" alt="Strategy" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="UniqueRevisions" class="unique-tab-content">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6">
+                                            <h3>Creation & Development</h3>
+                                            <p>Our team builds responsive, scalable, secure websites. Designs are
+                                                user-friendly and visually appealing. Backend and frontend systems work
+                                                seamlessly together. Modern tools enhance speed and usability features.
+                                                Secure coding ensures reliable website performance. Each element
+                                                supports functionality and user experience. Creation delivers a
+                                                polished, professional final product.</p>
+
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="assests/images/web-design/Creation-&-Development.webp"
+                                                alt="Create" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="UniqueDelivery" class="unique-tab-content">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-6">
+                                            <h3>Testing & Deployment</h3>
+                                            <p>We test functionality across devices and platforms. Speed, performance,
+                                                and security are thoroughly verified. Bugs and errors are identified and
+                                                fixed. SEO is optimized before deployment for visibility. Deployment
+                                                ensures a seamless, error-free website launch. Post-launch monitoring
+                                                ensures consistent website performance. Your website is ready for
+                                                optimal results.</p>
+
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="assests/images/web-design/Test-and-Development.webp"
+                                                alt="Test-and-Dev" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-space-between faq-home faq-logo-deisgn">
+                    <div class="col">
+                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                        <div class="faqss">
+                            <div class="quwstion">
+                                <button class="accordions">What Services Does Logic Works Offer?</button>
+                                <div class="panel">
+                                    <p>We provide custom web development solutions. Services include e-commerce,
+                                        frontend, and backend development. We also design corporate websites and landing
+                                        pages.</p>
+                                </div>
+                            </div>
+
+                            <div class="quwstion">
+                                <button class="accordions">How Do You Optimize Websites for SEO?</button>
+                                <div class="panel">
+                                    <p>We use keywords naturally throughout the site. Meta descriptions, titles, and
+                                        fast loading improve rankings.</p>
+                                </div>
+                            </div>
+
+                            <div class="quwstion">
+                                <button class="accordions">How Long Does a Project Take?</button>
+                                <div class="panel">
+                                    <p>Timelines depend on project complexity and scope. Most projects are completed
+                                        within agreed deadlines.</p>
+                                </div>
+                            </div>
+
+                            <div class="quwstion">
+                                <button class="accordions">What Makes Your Web Development Process Unique?</button>
+                                <div class="panel">
+                                    <p>We emphasize research, strategy, and testing. Our process delivers reliable,
+                                        scalable, and optimized solutions.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
+            id="hireobserverID">
+            <div class="bg-white-heading-custom">
+                <div class="container">
+                    <div class="row white-bg-heading-custom-row">
+                        <div class="col-md-12">
+                            <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container">
-                <div class="row white-bg-heading-custom-row">
-                    <div class="col-md-12">
-                        <h2 class="section-title">Questionnaire<span>Section</span></h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
+                            <ul class="faq_section">
+                                <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Work
+                                        Sets Trends in Web Development</a></li>
+                                <li><a href="#section-2" class="hire-tabs">How Logic Work Brings Exceptional Web Visions
+                                        to Life</a></li>
+                                <li><a href="#section-3" class="hire-tabs">The Numbers Prove the Power of Great Web
+                                        Development</a></li>
+                                <li><a href="#section-4" class="hire-tabs">How We Drive Business Growth Through
+                                        Innovative Websites</a></li>
+                                <li><a href="#section-5" class="hire-tabs">What Makes Our Web Development Process
+                                        Unmatched</a></li>
+                                <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
+                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-stick">
+                        <main>
+                            <section class="sec-info" id="section-1">
+                                <h2>How Logic Work Sets Trends in Web Development</h2>
+                                <ul>
+                                    <p>Logic Work leads with innovative web solutions. We use cutting-edge technologies
+                                        for unmatched results. Responsive designs ensure accessibility on all devices.
+                                        SEO optimization boosts visibility and organic traffic. User-friendly interfaces
+                                        enhance engagement and satisfaction. Scalable solutions meet businesses' future
+                                        growth needs. We prioritize speed, security, and flawless functionality.
+                                        Competitor analysis keeps us ahead of industry trends. Custom designs reflect
+                                        unique brand identities effectively. Logic Work sets benchmarks in web design
+                                        excellence.</p>
+                                </ul>
+                            </section>
+                            <section class="sec-info" id="section-2">
+                                <h2>How Logic Work Brings Exceptional Web Visions to Life</h2>
+                                <ul>
+                                    <p>We transform ideas into impactful online platforms. Our team delivers visually
+                                        striking, functional designs. SEO optimization ensures better visibility and
+                                        traffic. Responsive layouts work seamlessly on all devices. Advanced features
+                                        enhance user engagement and experience. Secure coding keeps websites safe and
+                                        reliable. Scalable solutions align with business growth goals. Each project is
+                                        tailored to brand objectives. We bring creative visions to life effectively.
+                                        Your website reflects quality, innovation, and professionalism.</p>
+                                </ul>
+                            </section>
+                            <section class="sec-info" id="section-3">
+                                <h2>The Numbers Prove the Power of Great Web Development</h2>
+                                <ul>
+                                    <p>Successful websites improve traffic, leads, and conversions. Responsive designs
+                                        attract mobile and desktop users. SEO-optimized websites rank higher in search
+                                        results. Fast-loading pages reduce bounce rates significantly. Engaging designs
+                                        boost visitor interaction and satisfaction. Secure, functional websites earn
+                                        user trust quickly. Analytics track measurable growth in performance metrics.
+                                        Consistent maintenance supports long-term business success online. Great web
+                                        development directly drives tangible business results. Numbers showcase the real
+                                        value of quality websites.</p>
+                                </ul>
+                            </section>
+                            <section class="sec-info" id="section-4">
+                                <h2>How We Drive Business Growth Through Innovative Websites</h2>
+                                <ul>
+                                    <p>We create websites that generate more leads. SEO strategies improve visibility
+                                        and online reach. Responsive layouts boost engagement across all devices.
+                                        User-friendly designs convert visitors into loyal customers. Fast, secure
+                                        websites enhance user trust immediately. Advanced features optimize
+                                        functionality and usability. Scalable solutions support ongoing business
+                                        expansion goals. Analytics integration ensures data-driven performance
+                                        improvements. Our websites fuel revenue growth effectively for businesses.
+                                        Innovation drives business success through modern web design.</p>
+                                </ul>
+                            </section>
+                            <section class="sec-info" id="section-5">
+                                <h2>What Makes Our Web Development Process Unmatched</h2>
+                                <ul>
+                                    <p>Our process focuses on client-specific business needs. In-depth research defines
+                                        project goals and strategies. Customized solutions ensure personalized user
+                                        experiences effectively. SEO optimization maximizes visibility and traffic
+                                        opportunities. Responsive designs adapt perfectly to any device. Rigorous
+                                        testing guarantees flawless website functionality before launch. Secure coding
+                                        practices protect data and user interactions. Fast-loading pages enhance both
+                                        usability and satisfaction. Consistent post-launch support ensures long-term
+                                        performance optimization. Our approach makes every project uniquely successful.
+                                    </p>
+                                </ul>
+                            </section>
+                        </main>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                        <ul class="faq_section">
-                            <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Does Expert
-                                    Facebook Advertising Build Sustainable Business Growth?</a></li>
-                            <li><a href="#section-2" class="hire-tabs">Why Does Audience Precision Matter More Than Ad
-                                    Spending Budget?</a></li>
-                            <li><a href="#section-3" class="hire-tabs">What Advanced Techniques Separate Winning
-                                    Campaigns From Average Results?</a></li>
-                            <li><a href="#section-4" class="hire-tabs">How Does Strategic Campaign Management Protect
-                                    Against Market Changes?</a></li>
-                            <!-- <li><a href="#section-5" class="hire-tabs">How does Logic Works stay current with
-                                    trends?</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-6 col-md-6 col-stick">
-                    <main>
-                        <section class="sec-info" id="section-1">
-                            <h2>How Does Expert Facebook Advertising Build Sustainable Business Growth?</h2>
-                            <ul>
-                                <p>Effective social media ads need knowledge of how platforms work and how people think.
-                                    The best Facebook marketing agency keeps up with algorithm updates and new targeting
-                                    options. Our team tests new features before using them in client campaigns.
-                                    Businesses benefit from our skills in ad formats, bidding methods, and creative
-                                    ideas that bring real results. We study the customer journey closely to design
-                                    step-by-step ad campaigns that guide people toward buying. These strategies nurture
-                                    cold audiences into warm prospects ready to buy. Companies working with us report
-                                    consistent lead flow and improved customer acquisition costs. Our systematic
-                                    approach creates predictable growth through strategic ad investments that scale
-                                    profitably.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-2">
-                            <h2>Why Does Audience Precision Matter More Than Ad Spending Budget?</h2>
-                            <ul>
-                                <p>Successful campaigns depend on reaching people ready to buy your solution. Our
-                                    Instagram advertising agency uses detailed targeting parameters to find ideal
-                                    customers. We analyze demographics, interests, online behaviors, and purchase intent
-                                    signals to build custom audiences. Lookalike modeling expands reach to similar
-                                    high-value prospects. This precision eliminates budget waste on uninterested
-                                    viewers. Companies using our targeting methods see lower costs per conversion and
-                                    higher return on ad spend. We divide audiences into cold, warm, and hot groups, then
-                                    create messages for each stage. This improves engagement and conversions. Every
-                                    targeting choice is based on data, not guesswork.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-3">
-                            <h2>What Advanced Techniques Separate Winning Campaigns From Average Results?</h2>
-                            <ul>
-                                <p>Success with social ads needs testing and smart adjustments. Our agency runs split
-                                    tests on headlines, images, calls-to-action, and landing pages. We also use dynamic
-                                    tools to find the best-performing ad combinations. Retargeting sequences recapture
-                                    website visitors with specific messaging based on pages viewed. Video content
-                                    receives special attention since it generates higher engagement rates. Custom
-                                    conversion events track valuable actions beyond basic purchases. These methods
-                                    produce stronger campaign performance and better returns. Clients see improved
-                                    quality scores and expanded reach without increased spending. We focus on building
-                                    sustainable systems that generate consistent results. Our testing framework
-                                    identifies winning formulas that can scale across larger budgets while maintaining
-                                    profitability.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-4">
-                            <h2>How Does Strategic Campaign Management Protect Against Market Changes?</h2>
-                            <ul>
-                                <p>Platform algorithms and user behaviors shift constantly in social media. Our team
-                                    monitors Meta policy updates, feature releases, and industry changes that affect
-                                    campaign performance. We adjust strategies proactively rather than reacting after
-                                    results decline. Diversified campaign structures spread risk across multiple ad sets
-                                    and creative variations. Regular creative refreshes prevent ad fatigue that kills
-                                    performance. Budget pacing controls ensure spending aligns with conversion windows
-                                    and audience availability. Companies partnering with our Facebook marketing company
-                                    gain protection from sudden performance drops. We maintain backup campaigns and test
-                                    new approaches continuously. This preparation keeps lead flow steady even when
-                                    platforms change. Our experience managing campaigns through multiple algorithm
-                                    updates helps businesses maintain growth regardless of external factors affecting
-                                    social advertising effectiveness.</p>
-                            </ul>
-                        </section>
-                        <!-- <section class="sec-info" id="section-5">
-                            <h2>How does Logic Works stay current with trends?</h2>
-                            <ul>
-                                <p>Logic Works stays ahead of social media trends by constantly monitoring changes
-                                    in the industry. We continuously learn about the latest tools and strategies for
-                                    social media marketing. Our team is dedicated to keeping up with new platform
-                                    features and algorithm updates. We follow industry leaders and actively
-                                    participate in digital marketing communities. This helps us stay informed about
-                                    emerging trends. We also need to make routine market surveys to identify any
-                                    changes in customer behaviors. Keeping up with trends ensures our clients
-                                    benefit from the most up-to-date strategies.</p>
-                            </ul>
-                        </section> -->
-                    </main>
-                </div>
-            </div>
-        </div>
-    </section>
-    <?php
-    include("includes/clint-review.php");
-    ?>
+        </section>
+    </div>
 </main>
+
+
 <?php
 include("includes/footer.php");
 ?>
+
+<script>
+    var swiper = new Swiper(".slider-web", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+</script>

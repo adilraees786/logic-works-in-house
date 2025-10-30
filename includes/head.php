@@ -1,4 +1,4 @@
-<?php $base_url = 'http://localhost/logic-works-house/'; ?>
+<?php $base_url = 'https://logicworks.ae/'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -53,6 +53,12 @@
     'food-delivery-app-development-company-dubai.php',
     'healthcare-app-development-company-dubai.php',
     'ecommerce-app-development-company-dubai.php',
+    'wordpress-development-company-dubai.php',
+    'website-maintenance-services-dubai.php',
+    'custom-website-development-company-dubai.php',
+    'domain-hosting-services-dubai.php',
+    'graphic-design-company-dubai.php',
+    'shopify-development-services-dubai.php',
 
 
   ];
