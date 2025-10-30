@@ -50,7 +50,7 @@
     }
 
     .mockup-img {
-        max-width: 100%;
+        max-width: 70%;
         height: auto;
     }
 
@@ -80,7 +80,7 @@
     <div class="container">
         <div class="row about-content">
             <div class="col-md-6 text-center mb-4 mb-md-0">
-                <img src="./assests/images/android-finance-app-development-company/about-finance-removebg-preview.webp"
+                <img src="./assests/images/enterprise-app/enterprise-about.webp"
                     alt="App-finance-Mockup" class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
