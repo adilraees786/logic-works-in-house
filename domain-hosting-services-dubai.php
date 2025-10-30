@@ -1,5 +1,5 @@
 <?php
-$meta_title = "Web Development Services in Dubai - Logic Works ";
+$meta_title = "Domain and Hosting Services in Dubai - Logic Works ";
 $meta_description = "Logic Works provides professional web development services in Dubai. Custom websites, SEO optimization, and responsive designs for all businesses.";
 $keyword = 'Web Design Company';
 $canonical = "https://logicworks.ae/web-design-company";
@@ -301,14 +301,14 @@ include("includes/header.php");
         }
     }
 </style>
-<main class="graphic-design-company-dubai">
+<main class="domain-hosting-services-dubai">
     <div class="wdsd-mainbg">
         <!-- Hero section -->
         <section class="seo-hero-sec section-bg wdsd1">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
-                        <h1 class="text-white">Professional <span>Graphic Design</span> company in
+                        <h1 class="text-white">Professional <span>Doamin and Hosting</span> Services in
                             Dubai!
                         </h1>
                         <p class="text-white">Custom websites built to perfection in Dubai. Logic Works guarantees
