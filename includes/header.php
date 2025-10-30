@@ -862,15 +862,6 @@
 
     <!-- header End -->
     <style>
-        @media (max-width: 1024px) {
-            header .header-button a.btn.bg-theme.text-title {
-                display: none !important;
-            }
-
-        }
-    </style>
-
-    <style>
         .services-section-head {
             display: flex;
             flex-wrap: wrap;
@@ -1014,10 +1005,10 @@
                 height: 18px;
             }
         }
-    </style>
 
-    <!-- ==== -->
-    <style>
+
+
+
         .accordion-toggle {
             cursor: pointer;
             font-size: 16px;
@@ -1057,12 +1048,19 @@
         @media (max-width: 500px) {
             .popup-form p {
                 font-size: 30px;
-                line-height: 1.2;
+                line-height: 1;
             }
 
             .popup-form p span {
                 font-size: 50px;
             }
+        }
+
+        @media (max-width: 1024px) {
+            header .header-button a.btn.bg-theme.text-title {
+                display: none !important;
+            }
+
         }
     </style>
     <!-- ==== -->
