@@ -165,12 +165,12 @@ include("includes/header.php");
         include("components/instagram-choice-section.php");
         ?>
     </section>
-    <section class="">
+    <section class="pb-20">
         <?php
         include("components/insta-how-we-work-section.php");
         ?>
     </section>
-    <section class="section-bg web-dev-pag " id="transform-app">
+    <section class="section-bg web-dev-pag pt-b-80" id="transform-app">
         <div class="container" style="display: block; max-width: 100%;">
             <div class="row align-items-center transform-row">
                 <div class="col-lg-4">
