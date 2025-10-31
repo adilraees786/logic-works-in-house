@@ -308,7 +308,7 @@ include("includes/header.php");
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
-                        <h1 class="text-white">Professional <span>Ui Ux </span> Design Company in
+                        <h1 class="text-white">Professional <span>Ui Ux</span> Design Company in
                             Dubai!
                         </h1>
                         <p class="text-white">Custom websites built to perfection in Dubai. Logic Works guarantees
