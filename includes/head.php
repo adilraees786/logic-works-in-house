@@ -59,6 +59,12 @@
     'domain-hosting-services-dubai.php',
     'graphic-design-company-dubai.php',
     'shopify-development-services-dubai.php',
+    'tiktok-shop-marketing-agency-dubai.php',
+    'tiktok-shop-uae.php',
+    'law-firm-mobile-app-development-dubai.php',
+    'hotel-app-development-services-dubai.php',
+    'restaurant-app-development-company-dubai.php',
+    'travel-app-development-dubai.php',
 
 
   ];

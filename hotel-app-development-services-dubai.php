@@ -2,7 +2,7 @@
 $meta_title = "Hotel App Development Services Dubai| Logic Works";
 $meta_description = "Partner with our Android ecommerce app development company to build secure shopping apps. We create mobile stores that increase sales and customer loyalty.";
 $keyword = 'Hotel App Development Services Dubai';
-$canonical = "https://logicworks.ae/ecommerce-app-development-company-dubai";
+$canonical = "https://logicworks.ae/hotel-app-development-services-dubai";
 $faq_data = '
 <script type="application/ld+json">
 {
