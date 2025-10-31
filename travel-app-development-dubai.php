@@ -1,7 +1,7 @@
 <?php
-$meta_title = "Hotel App Development Services Dubai| Logic Works";
+$meta_title = "Travel App Development Services Dubai| Logic Works";
 $meta_description = "Partner with our Android ecommerce app development company to build secure shopping apps. We create mobile stores that increase sales and customer loyalty.";
-$keyword = 'Hotel App Development Services Dubai';
+$keyword = 'Travel App Development Services Dubai';
 $canonical = "https://logicworks.ae/travel-app-development-dubai";
 $faq_data = '
 <script type="application/ld+json">
@@ -150,7 +150,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/android-ecommerce-app-development-company/ecommerce-hero-img.png" alt="app-dev-ecommerce-hero-img">
+                    <img src="./assests/images/travel-app-images/hero-img.webp" alt="travel-app-hero-img">
                 </div>
             </div>
         </div>
