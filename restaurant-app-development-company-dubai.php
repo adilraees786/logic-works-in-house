@@ -1,7 +1,7 @@
 <?php
-$meta_title = "Hotel App Development Services Dubai| Logic Works";
+$meta_title = "Restaurant App Development Company Dubai | Logic Works";
 $meta_description = "Partner with our Android ecommerce app development company to build secure shopping apps. We create mobile stores that increase sales and customer loyalty.";
-$keyword = 'Hotel App Development Services Dubai';
+$keyword = 'Restaurant App Development Company Dubai';
 $canonical = "https://logicworks.ae/ecommerce-app-development-company-dubai";
 $faq_data = '
 <script type="application/ld+json">
@@ -91,20 +91,20 @@ include("includes/head.php");
 include("includes/header.php");
 ?>
 <style>
-    .hotel-app-development-dubai {
+    .restaurant-app-development-dubai {
         overflow: hidden;
     }
 
-    .hotel-app-development-dubai .service-hero-sec {
+    .restaurant-app-development-dubai .service-hero-sec {
         padding-top: 0px;
         padding-bottom: 50px;
     }
 
-    .hotel-app-development-dubai .section-marquee .marwuee-row:before {
+    .restaurant-app-development-dubai .section-marquee .marwuee-row:before {
         display: none;
     }
 
-    .hotel-app-development-dubai .same-all {
+    .restaurant-app-development-dubai .same-all {
         font-size: 50px;
         font-weight: 600;
     }
@@ -112,21 +112,21 @@ include("includes/header.php");
 
 
     @media (max-width: 981px) {
-        .hotel-app-development-dubai .service-hero-sec {
+        .restaurant-app-development-dubai .service-hero-sec {
             padding-top: 10px !important;
             padding-bottom: 10px !important;
         }
     }
 </style>
-<main class="hotel-app-development-dubai bg-black">
+<main class="restaurant-app-development-dubai bg-black">
     <section class="consultancy-hero-sec section-bg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Hotel App Development Services in Dubai
+                    <h1 class="text-white">Restaurant App Development Company in Dubai
                     </h1>
-                    <p class="text-logo">Build powerful shopping experiences through our Android ecommerce <br> app
-                        development company that drives sales and keeps customers coming <br> back to your mobile store.
+                    <p class="text-logo">Build powerful shopping experiences through our Android ecommerce  app
+                        development company that drives sales and keeps customers coming  back to your mobile store.
                     </p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="#0">
@@ -195,20 +195,20 @@ include("includes/header.php");
                     <div class="marquee">
                         <div class="marquee__row">
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Services Dubai
-                                    &nbsp;—&nbsp;Hotel App Development Dubai
+                                <p class="marquee__text">Restaurant App Development Company Dubai
+                                    &nbsp;—&nbsp;Restaurant App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-1"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Restaurant App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-2"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Restaurant App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
@@ -216,20 +216,20 @@ include("includes/header.php");
                         </div>
                         <div aria-hidden="true" class="marquee__row">
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
-                                    &nbsp;—&nbsp;Hotel App Development Dubai
+                                <p class="marquee__text">Restaurant App Development Company Dubai
+                                    &nbsp;—&nbsp;Restaurant App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-4"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Restaurant App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-5"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Restaurant App Development Company Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
@@ -242,7 +242,7 @@ include("includes/header.php");
     </section>
     <section>
         <?php
-        include("components/hotel-app-aout.php");
+        include("components/restaurant-app-dubai-about.php");
         ?>
     </section>
     <section class="section-bg web-dev-pag " id="transform-app">
@@ -366,7 +366,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="dubai-all text-white text-center">Restaurant App Services</h2>
+                    <h2 class="dubai-all text-white text-center">Hotel App Services</h2>
                     <p class="text-white dubai-all-para text-center">Our Law Firm Services empower businesses.
                     </p>
                     <div class="unique-tab-container tabs-consultancy">

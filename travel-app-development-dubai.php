@@ -2,7 +2,7 @@
 $meta_title = "Hotel App Development Services Dubai| Logic Works";
 $meta_description = "Partner with our Android ecommerce app development company to build secure shopping apps. We create mobile stores that increase sales and customer loyalty.";
 $keyword = 'Hotel App Development Services Dubai';
-$canonical = "https://logicworks.ae/ecommerce-app-development-company-dubai";
+$canonical = "https://logicworks.ae/travel-app-development-dubai";
 $faq_data = '
 <script type="application/ld+json">
 {
@@ -91,20 +91,20 @@ include("includes/head.php");
 include("includes/header.php");
 ?>
 <style>
-    .hotel-app-development-dubai {
+    .travel-app-development-dubai {
         overflow: hidden;
     }
 
-    .hotel-app-development-dubai .service-hero-sec {
+    .travel-app-development-dubai .service-hero-sec {
         padding-top: 0px;
         padding-bottom: 50px;
     }
 
-    .hotel-app-development-dubai .section-marquee .marwuee-row:before {
+    .travel-app-development-dubai .section-marquee .marwuee-row:before {
         display: none;
     }
 
-    .hotel-app-development-dubai .same-all {
+    .travel-app-development-dubai .same-all {
         font-size: 50px;
         font-weight: 600;
     }
@@ -112,18 +112,18 @@ include("includes/header.php");
 
 
     @media (max-width: 981px) {
-        .hotel-app-development-dubai .service-hero-sec {
+        .travel-app-development-dubai .service-hero-sec {
             padding-top: 10px !important;
             padding-bottom: 10px !important;
         }
     }
 </style>
-<main class="hotel-app-development-dubai bg-black">
+<main class="travel-app-development-dubai bg-black">
     <section class="consultancy-hero-sec section-bg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Hotel App Development Services in Dubai
+                    <h1 class="text-white">Travel App Development Services in Dubai
                     </h1>
                     <p class="text-logo">Build powerful shopping experiences through our Android ecommerce <br> app
                         development company that drives sales and keeps customers coming <br> back to your mobile store.
@@ -195,20 +195,20 @@ include("includes/header.php");
                     <div class="marquee">
                         <div class="marquee__row">
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Services Dubai
-                                    &nbsp;—&nbsp;Hotel App Development Dubai
+                                <p class="marquee__text">Travel App Development Services Dubai
+                                    &nbsp;—&nbsp;Travel App Development Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-1"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Travel App Development Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-2"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Travel App Development Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
@@ -216,20 +216,20 @@ include("includes/header.php");
                         </div>
                         <div aria-hidden="true" class="marquee__row">
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
-                                    &nbsp;—&nbsp;Hotel App Development Dubai
+                                <p class="marquee__text">Travel App Development Dubai
+                                    &nbsp;—&nbsp;Travel App Development Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-4"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Travel App Development Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
                                     alt="Star-5"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">Hotel App Development Dubai
+                                <p class="marquee__text">Travel App Development Dubai
                                 </p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.png"
@@ -242,7 +242,7 @@ include("includes/header.php");
     </section>
     <section>
         <?php
-        include("components/hotel-app-aout.php");
+        include("components/travel-app-about.php");
         ?>
     </section>
     <section class="section-bg web-dev-pag " id="transform-app">
