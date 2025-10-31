@@ -150,7 +150,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/android-ecommerce-app-development-company/ecommerce-hero-img.png" alt="app-dev-ecommerce-hero-img">
+                    <img src="./assests/images/hotel-app-images/hero-img.webp" alt="app-hotel-hero-img">
                 </div>
             </div>
         </div>
