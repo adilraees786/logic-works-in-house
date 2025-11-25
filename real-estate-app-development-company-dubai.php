@@ -28,8 +28,7 @@ include("includes/header.php");
     }
 
     .app-development-niche-design .consultancy-hero-sec .col-lg-4 {
-        display: flex;
-        justify-content: center;
+       
     }
 </style>
 <main class="app-development-niche-design bg-black">

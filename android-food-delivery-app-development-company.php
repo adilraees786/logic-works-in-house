@@ -164,7 +164,7 @@ include("includes/header.php");
         include("components/food-delivery-app-about.php");
         ?>
     </section>
-    <section class="section-bg web-dev-pag " id="transform-app">
+    <section class="section-bg web-dev-pag" id="transform-app">
         <div class="container" style="display: block; max-width: 100%;">
             <div class="row align-items-center transform-row">
                 <div class="col-lg-4">
@@ -522,7 +522,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <section class="section-bg app-dubai-services">
+    <section class="section-bg app-dubai-services" data-aos="fade-right">
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
