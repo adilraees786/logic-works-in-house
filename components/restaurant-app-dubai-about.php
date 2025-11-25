@@ -80,7 +80,7 @@
     <div class="container">
         <div class="row about-content">
             <div class="col-md-6 text-center mb-4 mb-md-0">
-                <img src="./assests/images/android-ecommerce-app-development-company/ecommerce-about.png" alt="App-ecommerce-Mockup"
+                <img src="./assests/images/restaurant-app-images/about-left-image.webp" alt="restaurant-Mockup"
                     class="mockup-img">
             </div>
             <div class="col-md-6 about-text">

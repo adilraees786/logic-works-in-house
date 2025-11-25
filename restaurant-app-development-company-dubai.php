@@ -125,8 +125,8 @@ include("includes/header.php");
                 <div class="col-lg-8">
                     <h1 class="text-white">Restaurant App Development Company in Dubai
                     </h1>
-                    <p class="text-logo">Build powerful shopping experiences through our Android ecommerce  app
-                        development company that drives sales and keeps customers coming  back to your mobile store.
+                    <p class="text-logo">Build powerful shopping experiences through our Android ecommerce app
+                        development company that drives sales and keeps customers coming back to your mobile store.
                     </p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="#0">
@@ -341,27 +341,27 @@ include("includes/header.php");
             <div class="row">
                 <div class="col-lg-9">
                     <div class="app-portfolio-img">
-                        <img src="assests/images/app-development/portfolio-01.webp" alt="portfolio-img-001">
-                        <img src="assests/images/app-development/portfolio-02.webp" alt="portfolio-img-002">
-                        <img src="assests/images/app-development/portfolio-03.webp" alt="portfolio-img-003">
-                        <img src="assests/images/app-development/portfolio-04.webp" alt="portfolio-img-004">
-                        <img src="assests/images/app-development/portfolio-05.webp" alt="portfolio-img-005">
-                        <img src="assests/images/app-development/portfolio-06.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-07.webp" alt="portfolio-img-007">
-                        <img src="assests/images/app-development/portfolio-08.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-09.webp" alt="portfolio-img-009">
-                        <img src="assests/images/app-development/portfolio-10.webp" alt="portfolio-img-0010">
-                        <img src="assests/images/app-development/portfolio-11.webp" alt="portfolio-img-0011">
-                        <img src="assests/images/app-development/portfolio-12.webp" alt="portfolio-img-0012">
+                        <img src="assests/images/restaurant-app-images/portfolio-01.webp" alt="portfolio-img-001">
+                        <img src="assests/images/restaurant-app-images/portfolio-02.webp" alt="portfolio-img-002">
+                        <img src="assests/images/restaurant-app-images/portfolio-03.webp" alt="portfolio-img-003">
+                        <img src="assests/images/restaurant-app-images/portfolio-04.webp" alt="portfolio-img-004">
+                        <img src="assests/images/restaurant-app-images/portfolio-05.webp" alt="portfolio-img-005">
+                        <img src="assests/images/restaurant-app-images/portfolio-06.webp" alt="portfolio-img-006">
+                        <img src="assests/images/restaurant-app-images/portfolio-07.webp" alt="portfolio-img-007">
+                        <img src="assests/images/restaurant-app-images/portfolio-08.webp" alt="portfolio-img-006">
+                        <img src="assests/images/restaurant-app-images/portfolio-09.webp" alt="portfolio-img-009">
+                        <img src="assests/images/restaurant-app-images/portfolio-10.webp" alt="portfolio-img-0010">
+                        <img src="assests/images/restaurant-app-images/portfolio-11.webp" alt="portfolio-img-0011">
+                        <img src="assests/images/restaurant-app-images/portfolio-12.webp" alt="portfolio-img-0012">
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <img src="assests/images/app-development/portfolio-13.webp" alt="portfolio-img-13">
+                    <img src="assests/images/restaurant-app-images/portfolio-13.webp" alt="portfolio-img-13">
                 </div>
             </div>
         </div>
     </section>
-     <section class="six-consultancy-sec pt-b-80"
+    <section class="six-consultancy-sec pt-b-80"
         style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
         <div class="container">
             <div class="row">
@@ -375,7 +375,7 @@ include("includes/header.php");
                                 style="height: 40px; width: 40px;">
                             E-commerce Brand
                         </button>
-                        
+
                         <button class="unique-tab-button" data-target="UniqueConcept"><img
                                 src="assests/images/branding-dubai/icon-2.webp" alt="seo-icon-002">Real Estate
                             Agency</button>
@@ -532,7 +532,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-ecommerce-app-development-company/ser-img.webp"
+                    <img src="assests/images/restaurant-app-images/restaurant-service.webp"
                         alt="tab-img-app-dev">
                 </div>
                 <div class="col-lg-6">
