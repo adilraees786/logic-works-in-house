@@ -150,7 +150,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/android-ecommerce-app-development-company/ecommerce-hero-img.png" alt="app-dev-ecommerce-hero-img">
+                    <img src="./assests/images/law-app-images/hero-img.webp" alt="app-dev-law-hero-img">
                 </div>
             </div>
         </div>
@@ -341,22 +341,22 @@ include("includes/header.php");
             <div class="row">
                 <div class="col-lg-9">
                     <div class="app-portfolio-img">
-                        <img src="assests/images/app-development/portfolio-01.webp" alt="portfolio-img-001">
-                        <img src="assests/images/app-development/portfolio-02.webp" alt="portfolio-img-002">
-                        <img src="assests/images/app-development/portfolio-03.webp" alt="portfolio-img-003">
-                        <img src="assests/images/app-development/portfolio-04.webp" alt="portfolio-img-004">
-                        <img src="assests/images/app-development/portfolio-05.webp" alt="portfolio-img-005">
-                        <img src="assests/images/app-development/portfolio-06.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-07.webp" alt="portfolio-img-007">
-                        <img src="assests/images/app-development/portfolio-08.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-09.webp" alt="portfolio-img-009">
-                        <img src="assests/images/app-development/portfolio-10.webp" alt="portfolio-img-0010">
-                        <img src="assests/images/app-development/portfolio-11.webp" alt="portfolio-img-0011">
-                        <img src="assests/images/app-development/portfolio-12.webp" alt="portfolio-img-0012">
+                        <img src="assests/images/law-app-images/portfolio-01.webp" alt="portfolio-img-001">
+                        <img src="assests/images/law-app-images/portfolio-02.webp" alt="portfolio-img-002">
+                        <img src="assests/images/law-app-images/portfolio-03.webp" alt="portfolio-img-003">
+                        <img src="assests/images/law-app-images/portfolio-04.webp" alt="portfolio-img-004">
+                        <img src="assests/images/law-app-images/portfolio-05.webp" alt="portfolio-img-005">
+                        <img src="assests/images/law-app-images/portfolio-06.webp" alt="portfolio-img-006">
+                        <img src="assests/images/law-app-images/portfolio-07.webp" alt="portfolio-img-007">
+                        <img src="assests/images/law-app-images/portfolio-08.webp" alt="portfolio-img-006">
+                        <img src="assests/images/law-app-images/portfolio-09.webp" alt="portfolio-img-009">
+                        <img src="assests/images/law-app-images/portfolio-10.webp" alt="portfolio-img-0010">
+                        <img src="assests/images/law-app-images/portfolio-11.webp" alt="portfolio-img-0011">
+                        <img src="assests/images/law-app-images/portfolio-12.webp" alt="portfolio-img-0012">
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <img src="assests/images/app-development/portfolio-13.webp" alt="portfolio-img-13">
+                    <img src="assests/images/law-app-images/portfolio-13.webp" alt="portfolio-img-13">
                 </div>
             </div>
         </div>
