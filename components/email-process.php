@@ -10,6 +10,7 @@
         font-weight: 700;
         text-align: center;
         color: white;
+        
     }
 
     .section-subtitle {
@@ -118,7 +119,7 @@
 
         .section-title {
             font-size: 30px;
-            margin-top: 70px;
+            margin-top: 110px;
         }
 
         .section-subtitle {
