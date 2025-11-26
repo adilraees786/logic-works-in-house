@@ -222,9 +222,9 @@ include("includes/header.php");
         }
 
         img.bde {
-            margin-top: 60px;
+            margin-top: 20px;
             animation: none;
-            margin-bottom: -30px;
+            /* margin-bottom: -30px; */
         }
 
         .port-web {

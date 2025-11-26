@@ -281,10 +281,10 @@ include("includes/header.php");
             width: 80% !important;
         }
 
-        img.bde {
-            margin-top: 60px;
+        .web-design-company img.bde {
+            margin-top: 20px;
             animation: none;
-            margin-bottom: -30px;
+            /* margin-bottom: -30px; */
         }
 
         .port-web {
@@ -301,7 +301,7 @@ include("includes/header.php");
         }
     }
 </style>
-<main>
+<main class="web-design-company">
     <div class="wdsd-mainbg">
         <!-- Hero section -->
         <section class="seo-hero-sec section-bg wdsd1">
@@ -561,19 +561,19 @@ include("includes/header.php");
                     <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true"
                         watch-slides-progress="true">
                         <swiper-slide>
-                            <img src="assests/images/website/gtwlogo.webp" alt="bottom-1"/>
+                            <img src="assests/images/website/gtwlogo.webp" alt="bottom-1" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="assests/images/website/cblogo.webp" alt="bottom-2"/>
+                            <img src="assests/images/website/cblogo.webp" alt="bottom-2" />
                         </swiper-slide>
                         <swiper-slide>
                             <img src="assests/images/website/drlogo.webp" alt="bottom-3" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="assests/images/website/cuclogo.webp" alt="bottom-4"/>
+                            <img src="assests/images/website/cuclogo.webp" alt="bottom-4" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="assests/images/website/ffg-logo.webp" alt="bottom-5"/>
+                            <img src="assests/images/website/ffg-logo.webp" alt="bottom-5" />
                         </swiper-slide>
                     </swiper-container>
                 </div>
@@ -668,7 +668,7 @@ include("includes/header.php");
 
                                         </div>
                                         <div class="col-lg-6">
-                                            <img src="assests/images/web-design/Research.webp" alt="research"/>
+                                            <img src="assests/images/web-design/Research.webp" alt="research" />
                                         </div>
                                     </div>
                                 </div>
@@ -686,7 +686,7 @@ include("includes/header.php");
 
                                         </div>
                                         <div class="col-lg-6">
-                                            <img src="assests/images/web-design/Strategy.webp" alt="Strategy"/>
+                                            <img src="assests/images/web-design/Strategy.webp" alt="Strategy" />
                                         </div>
                                     </div>
                                 </div>
@@ -704,7 +704,8 @@ include("includes/header.php");
 
                                         </div>
                                         <div class="col-lg-6">
-                                            <img src="assests/images/web-design/Creation-&-Development.webp" alt="Create"/>
+                                            <img src="assests/images/web-design/Creation-&-Development.webp"
+                                                alt="Create" />
                                         </div>
                                     </div>
                                 </div>
@@ -722,7 +723,8 @@ include("includes/header.php");
 
                                         </div>
                                         <div class="col-lg-6">
-                                            <img src="assests/images/web-design/Test-and-Development.webp" alt="Test-and-Dev"/>
+                                            <img src="assests/images/web-design/Test-and-Development.webp"
+                                                alt="Test-and-Dev" />
                                         </div>
                                     </div>
                                 </div>

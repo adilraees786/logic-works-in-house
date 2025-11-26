@@ -43,11 +43,11 @@
     }
 
     .card-title {
-        font-weight: 700;
+        font-weight: 500;
         margin-bottom: 8px;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        line-height: 40px;
+        line-height: 1.4;
     }
 
     .card-text {

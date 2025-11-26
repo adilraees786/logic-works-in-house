@@ -139,7 +139,7 @@ include("includes/header.php");
         ?>
     </section>
 
-    <section class="ai-chatbot-project-sec hap-sec py-140" data-delay="0s"
+    <section class="ai-chatbot-project-sec hap-sec py-70" data-delay="0s"
         style="animation: 0.5s ease-out 0s 1 normal forwards running anim; background-color:black">
         <div class="container">
             <div class="row dubai-row-mind align-items-center mt-0"

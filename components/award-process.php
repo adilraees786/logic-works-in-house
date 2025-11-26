@@ -19,7 +19,7 @@
 
     .section-title-8 {
         color: #ffffff;
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 900;
         margin-bottom: 10px;
         text-transform: uppercase;
@@ -31,6 +31,7 @@
         font-size: 29px;
         font-weight: 500;
         margin-bottom: 50px;
+        line-height: 1.2;
     }
 
     .process-image {
@@ -129,7 +130,7 @@
 
     .tab-title {
         color: #ffffff;
-        font-size: 1.1rem;
+        font-size: 20px;
         font-weight: 600;
     }
 
@@ -177,8 +178,12 @@
     }
 
     @media (max-width: 768px) {
-        .section-title {
-            font-size: 2rem;
+        .section-title-8 {
+            font-size: 30px;
+        }
+
+        .process-section {
+            padding: 0px 0px;
         }
 
         .process-image img {
@@ -403,4 +408,50 @@
 
     // Initialize content area transition
     contentArea.style.transition = 'opacity 0.3s ease';
+
+    // Responsive layout adjustments for mobile
+
+    function reorderMobileLayout() {
+        const row = document.querySelector('.process-section .row');
+        const imageCol = document.querySelector('.process-section .col-lg-4:nth-child(1)');
+        const middleCol = document.querySelector('.process-section .col-lg-4:nth-child(2)');
+        const tabsCol = document.querySelector('.process-section .col-lg-4:nth-child(3)');
+        const content = document.querySelector('.process-content');
+
+        if (window.innerWidth <= 600) {
+
+            // 1. ORDER:
+            // Heading (middle column)
+            // Tabs (right column)
+            // Content (move under tabs)
+            // Image (last)
+
+            if (!tabsCol.contains(content)) {
+                tabsCol.appendChild(content);    // text under tabs
+            }
+
+            if (row.lastElementChild !== imageCol) {
+                row.appendChild(imageCol);       // image goes to bottom
+            }
+
+        } else {
+
+            // desktop par wapas original order:
+
+            if (!middleCol.contains(content)) {
+                middleCol.appendChild(content);
+            }
+
+            if (row.firstElementChild !== imageCol) {
+                row.insertBefore(imageCol, row.firstElementChild);
+            }
+        }
+    }
+
+ 
+    reorderMobileLayout();
+
+   
+    window.addEventListener("resize", reorderMobileLayout);
+
 </script>
