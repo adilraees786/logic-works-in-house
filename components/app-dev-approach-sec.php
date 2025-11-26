@@ -72,7 +72,7 @@
         justify-content: center !important;
         align-items: center !important;
         flex-wrap: wrap;
-        gap: 20px; /* space between steps */
+        gap: 20px;
     }
 
     .step-group {

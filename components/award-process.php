@@ -186,9 +186,7 @@
             padding: 0px 0px;
         }
 
-        .process-image img {
-            height: 300px;
-        }
+      
 
         .process-content {
             padding: 15px 0;
@@ -199,10 +197,8 @@
 
 <section>
     <div class="process-section">
-
         <div class="container">
             <!-- Header Section -->
-
             <!-- Main Content: Image + Text + Tabs -->
             <div class="row align-items-center">
                 <!-- Left: Image -->
