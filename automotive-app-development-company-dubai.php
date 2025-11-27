@@ -460,7 +460,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-finance-app-development-company/service-finance-img.webp"
+                    <img src="assests/images/automotive-app-images/automotive-tab-img.webp"
                         alt="finance-img-app-dev">
                 </div>
                 <div class="col-lg-6">
