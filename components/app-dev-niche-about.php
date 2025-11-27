@@ -64,6 +64,9 @@
             font-size: 30px;
             margin-bottom: 20px;
         }
+          .about-section {
+            padding: 40px 0;
+          }
     }
 </style>
 
