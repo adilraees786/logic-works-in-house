@@ -118,7 +118,7 @@ include("includes/header.php");
         </div>
 
     </section>
-    <!-- Ask any Q -->
+    <!-- Ask any Questions -->
     <section class="faq-home section-bg mt-50">
         <div class="container">
             <div class="row justify-content-space-between">

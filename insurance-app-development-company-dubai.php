@@ -195,8 +195,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/insurance-app/hero-img.webp"
-                        alt="app-dev-insurance-hero-img">
+                    <img src="./assests/images/insurance-app/hero-img.webp" alt="app-dev-insurance-hero-img">
                 </div>
             </div>
         </div>
@@ -288,7 +287,7 @@ include("includes/header.php");
     </section>
     <section>
         <?php
-        include("components/fintech-app-about.php");
+        include("components/insurance-app-about.php");
         ?>
     </section>
     <section class="section-bg web-dev-pag " id="transform-app">
@@ -585,8 +584,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-finance-app-development-company/service-finance-img.webp"
-                        alt="finance-img-app-dev">
+                    <img src="assests/images/insurance-app/insurance-tabs-img.webp" alt="finance-img-app-dev">
                 </div>
                 <div class="col-lg-6">
                     <div class="app-our-content">
@@ -902,12 +900,12 @@ include("includes/footer.php");
         letter-spacing: 0%;
     }
 
-    .insurance-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
+    /* .insurance-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
         display: flex;
         justify-content: center;
         position: relative;
         left: 7%;
-    }
+    } */
 
     .app-bg hr {
         width: 4%;
