@@ -187,7 +187,8 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/fintech-app.webp" alt="app-fintech-niche-hero-img">
+                    <img src="./assests/images/app-development-niche-design/fintech-app.webp"
+                        alt="app-fintech-niche-hero-img">
                 </div>
             </div>
         </div>
@@ -384,22 +385,22 @@ include("includes/header.php");
             <div class="row">
                 <div class="col-lg-9">
                     <div class="app-portfolio-img">
-                        <img src="assests/images/app-development/portfolio-01.webp" alt="portfolio-img-001">
-                        <img src="assests/images/app-development/portfolio-02.webp" alt="portfolio-img-002">
-                        <img src="assests/images/app-development/portfolio-03.webp" alt="portfolio-img-003">
-                        <img src="assests/images/app-development/portfolio-04.webp" alt="portfolio-img-004">
-                        <img src="assests/images/app-development/portfolio-05.webp" alt="portfolio-img-005">
-                        <img src="assests/images/app-development/portfolio-06.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-07.webp" alt="portfolio-img-007">
-                        <img src="assests/images/app-development/portfolio-08.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-09.webp" alt="portfolio-img-009">
-                        <img src="assests/images/app-development/portfolio-10.webp" alt="portfolio-img-0010">
-                        <img src="assests/images/app-development/portfolio-11.webp" alt="portfolio-img-0011">
-                        <img src="assests/images/app-development/portfolio-12.webp" alt="portfolio-img-0012">
+                        <img src="assests/images/fintech-app/portfolio-01.webp" alt="portfolio-img-001">
+                        <img src="assests/images/fintech-app/portfolio-02.webp" alt="portfolio-img-002">
+                        <img src="assests/images/fintech-app/portfolio-03.webp" alt="portfolio-img-003">
+                        <img src="assests/images/fintech-app/portfolio-04.webp" alt="portfolio-img-004">
+                        <img src="assests/images/fintech-app/portfolio-05.webp" alt="portfolio-img-005">
+                        <img src="assests/images/fintech-app/portfolio-06.webp" alt="portfolio-img-006">
+                        <img src="assests/images/fintech-app/portfolio-07.webp" alt="portfolio-img-007">
+                        <img src="assests/images/fintech-app/portfolio-08.webp" alt="portfolio-img-006">
+                        <img src="assests/images/fintech-app/portfolio-09.webp" alt="portfolio-img-009">
+                        <img src="assests/images/fintech-app/portfolio-10.webp" alt="portfolio-img-0010">
+                        <img src="assests/images/fintech-app/portfolio-11.webp" alt="portfolio-img-0011">
+                        <img src="assests/images/fintech-app/portfolio-12.webp" alt="portfolio-img-0012">
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <img src="assests/images/app-development/portfolio-13.webp" alt="portfolio-img-13">
+                    <img src="assests/images/fintech-app/portfolio-13.webp" alt="portfolio-img-13">
                 </div>
             </div>
         </div>
@@ -576,8 +577,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-finance-app-development-company/service-finance-img.webp"
-                        alt="finance-img-app-dev">
+                    <img src="assests/images/fintech-app/fintech-tab-img.webp" alt="finance-img-app-dev">
                 </div>
                 <div class="col-lg-6">
                     <div class="app-our-content">
@@ -893,12 +893,12 @@ include("includes/footer.php");
         letter-spacing: 0%;
     }
 
-    .fintech-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
+    /* .fintech-app-development-company-dubai .consultancy-hero-sec .col-lg-4 {
         display: flex;
         justify-content: center;
         position: relative;
         left: 7%;
-    }
+    } */
 
     .app-bg hr {
         width: 4%;

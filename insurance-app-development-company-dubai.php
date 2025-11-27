@@ -133,7 +133,8 @@ include("includes/header.php");
 
     .text-logo {
         font-size: 20px;
-        color: #878787;
+        /* color: #878787; */
+        color: white;
         line-height: 30px;
         font-weight: 500;
         letter-spacing: 0%;
