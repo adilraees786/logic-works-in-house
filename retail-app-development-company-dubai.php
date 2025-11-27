@@ -187,7 +187,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/hero-img.webp" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/Retail-App/hero-img.webp" alt="retail-app-dev-hero-img">
                 </div>
             </div>
         </div>
@@ -377,29 +377,29 @@ include("includes/header.php");
         <div class="container" style="display: block; padding-top: 50px;">
             <div class="row">
                 <div class="col">
-                    <h2 class="text-white text-center same-all">Our <span>Financial App</span> Portfolio</h2>
+                    <h2 class="text-white text-center same-all">Our <span>Retail App</span> Portfolio</h2>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-9">
                     <div class="app-portfolio-img">
-                        <img src="assests/images/app-development/portfolio-01.webp" alt="portfolio-img-001">
-                        <img src="assests/images/app-development/portfolio-02.webp" alt="portfolio-img-002">
-                        <img src="assests/images/app-development/portfolio-03.webp" alt="portfolio-img-003">
-                        <img src="assests/images/app-development/portfolio-04.webp" alt="portfolio-img-004">
-                        <img src="assests/images/app-development/portfolio-05.webp" alt="portfolio-img-005">
-                        <img src="assests/images/app-development/portfolio-06.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-07.webp" alt="portfolio-img-007">
-                        <img src="assests/images/app-development/portfolio-08.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-09.webp" alt="portfolio-img-009">
-                        <img src="assests/images/app-development/portfolio-10.webp" alt="portfolio-img-0010">
-                        <img src="assests/images/app-development/portfolio-11.webp" alt="portfolio-img-0011">
-                        <img src="assests/images/app-development/portfolio-12.webp" alt="portfolio-img-0012">
+                        <img src="assests/images/Retail-App/portfolio-01.webp" alt="portfolio-img-001">
+                        <img src="assests/images/Retail-App/portfolio-02.webp" alt="portfolio-img-002">
+                        <img src="assests/images/Retail-App/portfolio-03.webp" alt="portfolio-img-003">
+                        <img src="assests/images/Retail-App/portfolio-04.webp" alt="portfolio-img-004">
+                        <img src="assests/images/Retail-App/portfolio-05.webp" alt="portfolio-img-005">
+                        <img src="assests/images/Retail-App/portfolio-06.webp" alt="portfolio-img-006">
+                        <img src="assests/images/Retail-App/portfolio-07.webp" alt="portfolio-img-007">
+                        <img src="assests/images/Retail-App/portfolio-08.webp" alt="portfolio-img-006">
+                        <img src="assests/images/Retail-App/portfolio-09.webp" alt="portfolio-img-009">
+                        <img src="assests/images/Retail-App/portfolio-10.webp" alt="portfolio-img-0010">
+                        <img src="assests/images/Retail-App/portfolio-11.webp" alt="portfolio-img-0011">
+                        <img src="assests/images/Retail-App/portfolio-12.webp" alt="portfolio-img-0012">
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <img src="assests/images/app-development/portfolio-13.webp" alt="portfolio-img-13">
+                    <img src="assests/images/Retail-App/portfolio-13.webp" alt="portfolio-img-13">
                 </div>
             </div>
         </div>
@@ -411,7 +411,7 @@ include("includes/header.php");
                 <div class="col-lg-12">
                     <h2 class="dubai-all text-white text-center">Our Retail App Servisec</h2>
                     <p class="text-white dubai-all-para text-center">Our Retail App Services empower businesses.
-                        </p>
+                    </p>
                     <div class="unique-tab-container tabs-consultancy">
                         <button class="unique-tab-button active-tab" data-target="UniqueConsultation">
                             <img src="assests/images/branding-dubai/icon-1.webp" alt="seo-icon-001"
