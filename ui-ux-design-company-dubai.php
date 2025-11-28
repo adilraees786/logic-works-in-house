@@ -49,6 +49,10 @@ include("includes/head.php");
 include("includes/header.php");
 ?>
 <style>
+    .ui-ux-design-company-dubai {
+        overflow: hidden;
+    }
+
     .transform-row .digital-two-btn a:first-child:hover:before {
         right: -0%;
         transition: 0.5s all ease-in-out;
@@ -213,6 +217,7 @@ include("includes/header.php");
         justify-content: start;
         align-items: center;
         gap: 5px;
+        
 
     }
 
@@ -299,9 +304,10 @@ include("includes/header.php");
         .row.matters-row h2 {
             font-size: 34px !important;
         }
+
     }
 </style>
-<main class="domain-hosting-services-dubai">
+<main class="ui-ux-design-company-dubai">
     <div class="wdsd-mainbg">
         <!-- Hero section -->
         <section class="seo-hero-sec section-bg wdsd1">
