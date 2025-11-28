@@ -334,7 +334,7 @@ include("includes/header.php");
         <div class="container" style="display: block; padding-top: 50px;">
             <div class="row">
                 <div class="col">
-                    <h2 class="text-white text-center same-all">Our <span>Shopping App</span> Portfolio</h2>
+                    <h2 class="text-white text-center same-all">Our <span>Travel App</span> Portfolio</h2>
                 </div>
             </div>
 

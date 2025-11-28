@@ -323,6 +323,12 @@ include("includes/header.php");
                                                         <p class="text-white">Our team guided them with strategies that
                                                             supported bookings and improved brand visibility. These
                                                             efforts created growth aligned with their business goals.
+                                                        <p class="text-white">Our team guided them with strategies that
+                                                            supported bookings and improved brand visibility. These
+                                                            efforts created growth aligned with their business goals.
+                                                        <p class="text-white">Our team guided them with strategies that
+                                                            supported bookings and improved brand visibility. These
+                                                            efforts created growth aligned with their business goals.
                                                         </p>
                                                         <a href="#0">EXPLORE IT</a>
                                                     </div>
