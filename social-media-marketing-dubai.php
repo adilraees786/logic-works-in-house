@@ -421,7 +421,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <div class="main-dcm-bg smmd-bg" style="background-image: url(assests/images/website/second-bg.png);">
+    <div class="main-dcm-bg smmd-bg" style="background-image: url(assests/images/website/second-bg.webp);">
         <section class="blog-service">
             <div class="container" style="display:block;">
                 <h2 class="text-white same-all algn-centr">Check Out Expert Tips, Trends, & Insights for Social Media
@@ -686,9 +686,7 @@ include("includes/header.php");
                 </div>
             </div>
         </section> -->
-        <?php
-        include("includes/clint-review.php");
-        ?>
+
         <!-- Ask any Q -->
         <section class="faq-home section-bg">
             <div class="container">
@@ -839,6 +837,9 @@ include("includes/header.php");
                 </div>
             </div>
         </section>
+        <?php
+        include("includes/clint-review.php");
+        ?>
     </div>
 
 </main>
@@ -846,6 +847,14 @@ include("includes/header.php");
 <?php
 include("includes/footer.php");
 ?>
+<style>
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        display: none !important;
+    }
+</style>
 
 <script>
     var swiper = new Swiper(".success-pagination-main", {
@@ -869,4 +878,31 @@ include("includes/footer.php");
             swiper: swiper,
         },
     });
+</script>
+
+<script>
+    var swiper = new Swiper(".centered-mode-slider", {
+        loop: true,
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1.1,
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            1200: {
+                slidesPerView: 4,
+            }
+        }
+    });
+
 </script>
