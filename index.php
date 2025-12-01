@@ -2104,15 +2104,22 @@ VANTA.HALO({
             display: none;
         }
     }
-@media (max-width: 768px) {
-    .section-heading h2 {
-        font-size: 30px;
+
+    @media (max-width: 768px) {
+        .section-heading h2 {
+            font-size: 30px;
+        }
+
     }
-    
-}
+
     @media (max-width: 600px) {
         .client-review-heading {
             font-size: 30px;
+        }
+
+        .industries-section h2.text-white {
+            margin-bottom: 90px !important;
+
         }
     }
 </style>

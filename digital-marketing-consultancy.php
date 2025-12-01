@@ -108,17 +108,17 @@ include("includes/header.php");
                                     <p class="marquee__text">Digital Marketing Consultancy&nbsp;—&nbsp;Digital Marketing
                                         Consultancy</p>
                                 </div>
-                                <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                                <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                         alt="Star-1"></span>
                                 <div class="marquee__item">
                                     <p class="marquee__text">Digital Marketing Consultancy</p>
                                 </div>
-                                <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                                <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                         alt="Star-2"></span>
                                 <div class="marquee__item">
                                     <p class="marquee__text">Digital Marketing Consultancy</p>
                                 </div>
-                                <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                                <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                         alt="Star-3"></span>
                             </div>
                             <div aria-hidden="true" class="marquee__row">
@@ -126,17 +126,17 @@ include("includes/header.php");
                                     <p class="marquee__text">Digital Marketing Consultancy&nbsp;—&nbsp;Digital Marketing
                                         Consultancy</p>
                                 </div>
-                                <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                                <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                         alt="Star-4"></span>
                                 <div class="marquee__item">
                                     <p class="marquee__text">Digital Marketing Consultancy</p>
                                 </div>
-                                <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                                <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                         alt="Star-5"></span>
                                 <div class="marquee__item">
                                     <p class="marquee__text">Digital Marketing Consultancy</p>
                                 </div>
-                                <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                                <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                         alt="Star-6"></span>
                             </div>
                         </div>
@@ -758,10 +758,6 @@ include("includes/header.php");
                 </div>
             </div>
         </section> -->
-        <?php
-        include("includes/clint-review.php");
-        ?>
-
 
         <section class="animated-row section new-york-hire constructionpage_custom_faqs_section section-bg"
             id="hireobserverID">
@@ -950,6 +946,9 @@ include("includes/header.php");
                 </div>
             </div>
         </section>
+        <?php
+        include("includes/clint-review.php");
+        ?>
     </div>
 </main>
 
