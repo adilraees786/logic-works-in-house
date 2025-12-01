@@ -21,9 +21,6 @@ include("includes/header.php");
         background-repeat: no-repeat;
     }
 
-    body {
-        background-color: #010101;
-    }
 
     header.nav-header.header-layout2 {
         background-color: #010101;
@@ -101,16 +98,18 @@ include("includes/header.php");
     .contact-main-content input[type=submit]:hover {
         background-color: #fff;
     }
+
     .blurb-ctn .img-blurb .icon {
-  width: 100% !important;
-  max-width: 100% !important;
-  background-image: linear-gradient(to right, #994ae8, #e57699);
-  padding: 25px;
-  border-radius: 100px;
-  color: #fff;
+        width: 100% !important;
+        max-width: 100% !important;
+        background-image: linear-gradient(to right, #994ae8, #e57699);
+        padding: 25px;
+        border-radius: 100px;
+        color: #fff;
 
-}
+    }
 
+   
 </style>
 
 <main>
@@ -134,16 +133,16 @@ include("includes/header.php");
                     <h3 class="text-white">Get In Touch</h3>
                     <form action="send_message.php" method="POST">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your name.." required>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
 
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your email..." required>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
 
                         <label for="name">Phone</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number.." required>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
 
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"
+                        <textarea id="message" name="message" placeholder="Write Something..." style="height:200px"
                             required></textarea>
 
                         <input type="submit" value="Submit">
@@ -166,13 +165,17 @@ include("includes/header.php");
                             <div class="txt-blurb"><a href="tel:+13109575211">US: +1 (310) 957-5211</a></div>
                         </div>
                         <div class="blurb-ctn">
-                            <div class="img-blurb"><i class="icon fa-solid fa-location-dot" style="font-size: 20px;"></i></div>
-                            <div class="txt-blurb"><a href="#">UAE: PINNACLE - Sheikh Zayed Rd - Al Barsha - Al Barsha 1 -
+                            <div class="img-blurb"><i class="icon fa-solid fa-location-dot"
+                                    style="font-size: 20px;"></i></div>
+                            <div class="txt-blurb"><a href="#">UAE: PINNACLE - Sheikh Zayed Rd - Al Barsha - Al Barsha 1
+                                    -
                                     Dubai - United Arab Emirates</a></div>
                         </div>
                         <div class="blurb-ctn">
-                              <div class="img-blurb"><i class="icon fa-solid fa-location-dot" style="font-size: 20px;"></i></div>
-                            <div class="txt-blurb"><a href="#">US: 44075 Pipeline Plaza Ste. 215 Ashburn, VA 20147</a></div>
+                            <div class="img-blurb"><i class="icon fa-solid fa-location-dot"
+                                    style="font-size: 20px;"></i></div>
+                            <div class="txt-blurb"><a href="#">US: 44075 Pipeline Plaza Ste. 215 Ashburn, VA 20147</a>
+                            </div>
                         </div>
 
                         <!--<div class="blurb-ctn">-->

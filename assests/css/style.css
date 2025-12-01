@@ -179,7 +179,8 @@
 
 .contact-second-row form label {
   margin-bottom: 0px;
-  font-size: 12px;
+  font-size: 20px;
+  font-weight: 500;
   font-family: 'Montserrat';
 }
 
@@ -187,6 +188,11 @@
   border-radius: 6px;
 }
 
+ .contact-main-content input::placeholder,
+    .contact-main-content textarea::placeholder {
+        color: white;
+        
+    }
 .contact-second-row form input[type='submit'] {
   background-image: linear-gradient(to right, #9749ea, #e97894);
   color: #fff;
