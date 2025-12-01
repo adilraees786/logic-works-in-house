@@ -361,7 +361,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-     <section class="six-consultancy-sec pt-b-80"
+    <section class="six-consultancy-sec pt-b-80"
         style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
         <div class="container">
             <div class="row">
@@ -375,7 +375,7 @@ include("includes/header.php");
                                 style="height: 40px; width: 40px;">
                             E-commerce Brand
                         </button>
-                        
+
                         <button class="unique-tab-button" data-target="UniqueConcept"><img
                                 src="assests/images/branding-dubai/icon-2.webp" alt="seo-icon-002">Real Estate
                             Agency</button>
@@ -532,8 +532,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-ecommerce-app-development-company/ser-img.webp"
-                        alt="tab-img-app-dev">
+                    <img src="assests/images/law-app-images/law-tabs-img.webp" alt="lawfirm-img-app-dev">
                 </div>
                 <div class="col-lg-6">
                     <div class="app-our-content">

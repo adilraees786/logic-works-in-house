@@ -361,7 +361,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-     <section class="six-consultancy-sec pt-b-80"
+    <section class="six-consultancy-sec pt-b-80"
         style="background-color: #131B1E; margin-top: 100px;  border-top: 1px solid gray; border-bottom: 1px solid gray;">
         <div class="container">
             <div class="row">
@@ -375,7 +375,7 @@ include("includes/header.php");
                                 style="height: 40px; width: 40px;">
                             E-commerce Brand
                         </button>
-                        
+
                         <button class="unique-tab-button" data-target="UniqueConcept"><img
                                 src="assests/images/branding-dubai/icon-2.webp" alt="seo-icon-002">Real Estate
                             Agency</button>
