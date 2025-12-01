@@ -1008,31 +1008,31 @@ include("includes/header.php");
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/App-3.webp" alt="mobile-app-003" class="img-fluid mt-3">
-                                </div>>
+                                </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-6.webp" alt="mobile-app-004"
                                         class="img-fluid mt-3">
-                                </div>>
+                                </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-7.webp" alt="mobile-app-005"
                                         class="img-fluid mt-3">
-                                </div>>
+                                </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-8.webp" alt="mobile-app-006"
                                         class="img-fluid mt-3">
-                                </div>>
+                                </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-9.webp" alt="mobile-app-007"
                                         class="img-fluid mt-3">
-                                </div>>
+                                </div>
                             </div>
                         </div>
                     </div>

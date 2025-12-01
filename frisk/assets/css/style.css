@@ -3826,7 +3826,7 @@ img.scrol-img {
   position: absolute;
   width: 690px;
   object-fit: cover;
-  top: -15%;
+  /* top: -15%; */
   right: 0%;
 }
 
