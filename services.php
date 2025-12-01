@@ -137,6 +137,13 @@ include("includes/header.php");
         font-weight: 600;
     }
 
+    .service-page .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        display: none;
+    }
+
     @media (prefers-reduced-motion: reduce) {
         .marquee__row {
             animation: none;
@@ -461,7 +468,7 @@ include("includes/header.php");
                                     <h4 class="text-white">How To Build Custom Data Using Luzmo Flex</h4>
                                     <p class="text-white">Bringing data to life in your applica without the usual
                                         headaches. Pau you how you can build beautiful da using the Google Analytics
-                                        API, an to spend any time "massaging" th a Sep, 17, 2024 In UX, Design, Work
+                                        API, an to spend any time UX, Design, Work
                                         Flow</p>
 
                                     <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
@@ -513,7 +520,7 @@ include("includes/header.php");
                                     <h4 class="text-white">How To Build Custom Data Using Luzmo Flex</h4>
                                     <p class="text-white">Bringing data to life in your applica without the usual
                                         headaches. Pau you how you can build beautiful da using the Google Analytics
-                                        API, an to spend any time "massaging" th a Sep, 17, 2024 In UX, Design, Work
+                                        API, an to spend any time In UX, Design, Work
                                         Flow</p>
 
                                     <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
@@ -968,3 +975,60 @@ include("includes/header.php");
 <?php
 include("includes/footer.php");
 ?>
+
+
+<script>
+    var swiper = new Swiper(".centered-mode-slider", {
+        loop: true,
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1.1,
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            1200: {
+                slidesPerView: 4,
+            }
+        }
+    });
+
+</script>
+
+<script>
+    var swiper = new Swiper(".pro-ser-slider", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        // Mobile responsive breakpoints
+        breakpoints: {
+            0: {
+                slidesPerView: 1.2,
+                spaceBetween: 10,
+            },
+            576: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            }
+        }
+    });
+
+</script>

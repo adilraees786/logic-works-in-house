@@ -478,8 +478,8 @@ include("includes/header.php");
                                         <h4 class="text-white">How To Build Custom Data Using Luzmo Flex</h4>
                                         <p class="text-white">Bringing data to life in your applica without the usual
                                             headaches. Pau you how you can build beautiful da using the Google Analytics
-                                            API, an to spend any time "massaging" th a Sep, 17, 2024 In UX, Design, Work
-                                            Flow</p>
+                                            API, an to spend any time UX, Design, Work
+                                            Flow.</p>
 
                                         <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
                                         <a href="#">Read More</a>
@@ -533,7 +533,7 @@ include("includes/header.php");
                                         <h4 class="text-white">How To Build Custom Data Using Luzmo Flex</h4>
                                         <p class="text-white">Bringing data to life in your applica without the usual
                                             headaches. Pau you how you can build beautiful da using the Google Analytics
-                                            API, an to spend any time "massaging" th a Sep, 17, 2024 In UX, Design, Work
+                                            API, an to spend any time UX, Design, Work
                                             Flow</p>
 
                                         <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
