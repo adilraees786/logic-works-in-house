@@ -187,7 +187,8 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/kuait-app.webp" alt="app-kuait-niche-hero-img">
+                    <img src="./assests/images/mobile-app-development-company-kuwait/hero-img.webp"
+                        alt="app-kuait-niche-hero-img">
                 </div>
             </div>
         </div>
@@ -961,18 +962,13 @@ include("includes/footer.php");
 
     .text-logo {
         font-size: 20px;
-        color: #878787;
+        color: #FFFFFF;
         line-height: 30px;
         font-weight: 500;
         letter-spacing: 0%;
     }
 
-    .mobile-app-development-company-kuwait .consultancy-hero-sec .col-lg-4 {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        left: 3%;
-    }
+
 
     .app-bg hr {
         width: 4%;
