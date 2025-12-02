@@ -187,7 +187,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/uae-app.webp" alt="app-Uae-niche-hero-img">
+                    <img src="./assests/images/mobile-app-development-company-uae/hero-img.webp" alt="app-Uae-niche-hero-img">
                 </div>
             </div>
         </div>

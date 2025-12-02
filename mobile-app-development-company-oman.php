@@ -187,7 +187,8 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/oman-app.webp" alt="app-oman-niche-hero-img">
+                    <img src="./assests/images/mobile-app-development-company-oman/hero-img.webp"
+                        alt="app-oman-niche-hero-img">
                 </div>
             </div>
         </div>
@@ -967,12 +968,12 @@ include("includes/footer.php");
         letter-spacing: 0%;
     }
 
-    .mobile-app-development-company-Oman .consultancy-hero-sec .col-lg-4 {
+    /* .mobile-app-development-company-Oman .consultancy-hero-sec .col-lg-4 {
         display: flex;
         justify-content: center;
         position: relative;
         left: 4%;
-    }
+    } */
 
     .app-bg hr {
         width: 4%;

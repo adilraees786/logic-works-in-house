@@ -187,7 +187,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/Qatar-app.webp" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/mobile-app-development-company-qater/hero-img.webp" alt="app-dev-qatar-hero-img">
                 </div>
             </div>
         </div>
@@ -967,12 +967,12 @@ include("includes/footer.php");
         letter-spacing: 0%;
     }
 
-    .mobile-app-development-company-qatar .consultancy-hero-sec .col-lg-4 {
+    /* .mobile-app-development-company-qatar .consultancy-hero-sec .col-lg-4 {
         display: flex;
         justify-content: center;
         position: relative;
         left: 6%;
-    }
+    } */
 
     .app-bg hr {
         width: 4%;

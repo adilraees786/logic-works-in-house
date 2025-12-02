@@ -80,8 +80,8 @@
     <div class="container">
         <div class="row about-content">
             <div class="col-md-6 text-center mb-4 mb-md-0">
-                <img src="./assests/images/android-finance-app-development-company/about-finance-removebg-preview.webp"
-                    alt="App-finance-Mockup" class="mockup-img">
+                <img src="./assests/images/mobile-app-development-company-oman/about-left-image.webp"
+                    alt="App-oman-Mockup" class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
                 <h2>Who We Are</h2>

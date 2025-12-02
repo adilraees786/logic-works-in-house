@@ -1,5 +1,5 @@
 <style>
-    .about-section {
+    .about-section-uae-mobile-app {
         background: url('./assests/images/app-development-niche-design/about-bg.webp') no-repeat center center/cover;
         background-color: black;
         background: overlay;
@@ -49,8 +49,8 @@
         font-weight: bold;
     }
 
-    .mockup-img {
-        max-width: 100%;
+    .about-section-uae-mobile-app .mockup-img {
+        max-width: 40%;
         height: auto;
     }
 
@@ -76,11 +76,11 @@
 
 
 
-<section class="about-section">
+<section class="about-section-uae-mobile-app">
     <div class="container">
         <div class="row about-content">
             <div class="col-md-6 text-center mb-4 mb-md-0">
-                <img src="./assests/images/android-finance-app-development-company/about-finance-removebg-preview.webp"
+                <img src="./assests/images/mobile-app-development-company-uae/about-left-image.webp"
                     alt="App-finance-Mockup" class="mockup-img">
             </div>
             <div class="col-md-6 about-text">

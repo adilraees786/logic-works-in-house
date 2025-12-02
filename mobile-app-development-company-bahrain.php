@@ -187,7 +187,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/bahrian-app.webp" alt="app-bahrian-niche-hero-img">
+                    <img src="./assests/images/mobile-app-development-company-bahrain/hero-img.webp" alt="app-bahrian-niche-hero-img">
                 </div>
             </div>
         </div>
@@ -967,12 +967,12 @@ include("includes/footer.php");
         letter-spacing: 0%;
     }
 
-    .mobile-app-development-company-bahrain .consultancy-hero-sec .col-lg-4 {
+    /* .mobile-app-development-company-bahrain .consultancy-hero-sec .col-lg-4 {
         display: flex;
         justify-content: center;
         position: relative;
         left: 5%;
-    }
+    } */
 
     .app-bg hr {
         width: 4%;
