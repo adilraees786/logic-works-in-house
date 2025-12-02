@@ -187,7 +187,8 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/mobile-app-development-company-bahrain/hero-img.webp" alt="app-bahrian-niche-hero-img">
+                    <img src="./assests/images/mobile-app-development-company-bahrain/hero-img.webp"
+                        alt="app-bahrian-niche-hero-img">
                 </div>
             </div>
         </div>
@@ -269,7 +270,7 @@ include("includes/header.php");
                                 <p class="marquee__text">Mobile App Development Company Oman
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-6"></span>
                         </div>
                     </div>
@@ -742,26 +743,21 @@ include("includes/header.php");
                                         <h3 class="text-white">Transaction Security Features</h3>
                                         <p class="text-white">Financial apps become targets for sophisticated fraud
                                             attempts constantly. Weak authentication allows unauthorized access to user
-                                            accounts. Payment fraud costs institutions millions in losses annually.
+                                            accounts.
                                         </p>
                                         <p class="text-white">Our Android fintech app developers implement protection
                                             systems that stop threats effectively. Two-factor authentication adds
                                             verification beyond password entry. Biometric scanning uses fingerprint and
-                                            face recognition technology. Device binding ensures apps only work on
-                                            registered phones. Session timeouts log users out after periods of
-                                            inactivity.</p>
+                                            face recognition technology.</p>
                                         <p class="text-white">Encryption protocols protect data during transmission and
                                             storage. Anomaly detection identifies suspicious transaction patterns
-                                            immediately. Velocity checks flag unusually frequent transaction attempts.
-                                            Geolocation verification confirms users are in expected locations. These
-                                            protections work together to prevent unauthorized account access.</p>
+                                            immediately.</p>
                                     </li>
                                     <li>
                                         <h3 class="text-white">Continuous Security Management</h3>
                                         <p class="text-white">Finance app development for Android require constant
                                             vigilance after initial launch completes. New vulnerabilities emerge as
-                                            attack methods become more sophisticated. Customer feedback reveals security
-                                            improvements that initial planning missed.
+                                            attack methods become more sophisticated.
                                         </p>
                                         <p class="text-white">We provide support packages designed specifically for
                                             financial applications. Security patches deploy within hours when critical

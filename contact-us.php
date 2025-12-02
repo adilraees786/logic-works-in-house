@@ -119,7 +119,7 @@ include("includes/header.php");
                 <div class="col">
                     <h1 class="text-white">Contact</h1>
                     <ul>
-                        <li><a href="#">Home</a></li> | <li>Contact</li>
+                        <li><a href="./">Home</a></li> | <li>Contact</li>
                     </ul>
                 </div>
             </div>
