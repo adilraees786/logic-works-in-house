@@ -284,7 +284,7 @@ include("includes/header.php");
         img.bde {
             margin-top: 60px;
             animation: none;
-            margin-bottom: -30px;
+            /* margin-bottom: -30px; */
         }
 
         .port-web {
