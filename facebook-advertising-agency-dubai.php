@@ -134,7 +134,7 @@ include("includes/header.php");
                         platform.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-tit le" href="#0">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
