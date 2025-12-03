@@ -199,19 +199,19 @@ include("includes/header.php");
                                     &nbsp;—&nbsp;Hotel App Development Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-1"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Hotel App Development Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-2"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Hotel App Development Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-3"></span>
                         </div>
                         <div aria-hidden="true" class="marquee__row">
@@ -220,19 +220,19 @@ include("includes/header.php");
                                     &nbsp;—&nbsp;Hotel App Development Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-4"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Hotel App Development Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-5"></span>
                             <div class="marquee__item">
                                 <p class="marquee__text">Hotel App Development Dubai
                                 </p>
                             </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.png"
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
                                     alt="Star-6"></span>
                         </div>
                     </div>
