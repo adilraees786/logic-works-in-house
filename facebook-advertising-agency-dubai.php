@@ -230,7 +230,7 @@ include("includes/header.php");
                                                         <p class="text-white same-all-para">An online retail store faced
                                                             low visibility and slow sales. We improved product pages,
                                                             fixed technical issues, and grew organic traffic. The store
-                                                            achieved higher search rankings and stronger revenue within
+                                                            achieved higher search rankings and  stronger revenue within
                                                             months.</p>
                                                         <p class="text-white">Our guidance as an experienced SEO
                                                             consultant helped the business reach customers more
