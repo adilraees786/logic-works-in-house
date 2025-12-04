@@ -913,6 +913,7 @@ include("includes/footer.php");
         text-decoration: none;
         width: 100%;
         display: block;
+        margin-bottom: 50px;
     }
 
     .success-slider-main .suces-content .success-anchor a span {
@@ -1031,10 +1032,10 @@ include("includes/footer.php");
     });
     var swiper2 = new Swiper(".success-slider-main", {
         spaceBetween: 10,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 2500,
+        //     disableOnInteraction: false,
+        // },
         loop: true,
         navigation: {
             nextEl: ".swiper-button-next",

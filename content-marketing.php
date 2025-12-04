@@ -230,7 +230,7 @@ include("includes/header.php");
                                                 buying process. Messages are grouped based on subscriber actions and
                                                 interests. Content gives value while leading readers toward purchase
                                                 choices. Automated flows send timely emails triggered by user behavior.
-                                                Testing improves subject lines, content, and timing for best results.
+                                
                                             </p>
 
                                             <div class="success-anchor">
