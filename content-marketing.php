@@ -447,10 +447,10 @@ include("includes/header.php");
     ?>
 
     <div class="position-relative section-bg-wrapper overflow-hidden z-1">
-        <img src="assests/images/ai-chatbot/sec-left.webp" alt="content-0001"
+        <!-- <img src="assests/images/ai-chatbot/sec-left.webp" alt="content-0001"
             class="sec-left-img position-absolute z-0">
         <img src="assests/images/ai-chatbot/sec-right.webp" alt="content-0002"
-            class="sec-right-img position-absolute z-0">
+            class="sec-right-img position-absolute z-0"> -->
         <section class="faq-home section-bg pt-b-80">
             <div class="container">
                 <div class="row justify-content-space-between">
@@ -729,7 +729,7 @@ include("includes/footer.php");
         margin-top: 20%;
         color: white;
         font-weight: 900;
-        font-size: 72px;
+        /* font-size: 40px; */
         letter-spacing: 0px;
 
 
@@ -781,6 +781,12 @@ include("includes/footer.php");
         line-height: 50px;
         color: black;
         line-height: 1.2;
+    }
+
+    @media (max-width: 1440px) and (min-width: 1152px) {
+        .content-marketing .digital-main {
+            padding-bottom: 0px;
+        }
     }
 </style>
 
