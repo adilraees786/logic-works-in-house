@@ -90,7 +90,6 @@
 
     <div class="container py-5">
         <div class="row align-items-center">
-
             <!-- LEFT SIDE TABS -->
             <div class="col-md-6">
                 <h2 class="matter-head">Why Choose Us?</h2>
@@ -145,8 +144,8 @@
                 </div>
             </div>
             <div class="col-md-6 text-center mt-4 mt-md-0">
-                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/why-choice.png" alt="Tab Image"
-                    class="right-img-brand">
+                <img id="tab-image-brand" src="assests/images/Tiktok-shop-marketing-agency/choice-image.webp"
+                    alt="Tab Image" class="right-img-brand">
             </div>
 
         </div>
@@ -158,11 +157,11 @@
         const image = document.getElementById("tab-image-brand");
 
         const imageMap = {
-            tab1: "assests/images/fb-instagram-marketingt/why-choice.png",
-            tab2: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab3: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab4: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab5: "assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab1: "assests/images/Tiktok-shop-marketing-agency/choice-image.webp",
+            tab2: "assests/images/Tiktok-shop-marketing-agency/choice-image.webp",
+            tab3: "assests/images/Tiktok-shop-marketing-agency/choice-image.webp",
+            tab4: "assests/images/Tiktok-shop-marketing-agency/choice-image.webp",
+            tab5: "assests/images/Tiktok-shop-marketing-agency/choice-image.webp",
         };
 
         tabs.forEach(tab => {

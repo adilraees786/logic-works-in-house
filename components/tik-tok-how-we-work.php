@@ -1,6 +1,6 @@
 <style>
     .how-we-work-section {
-         /* background: rgba(80, 0, 150, 0.7);  */
+        /* background: rgba(80, 0, 150, 0.7);  */
         /* background-image: url('assests/images/online-reputataion-management/work-bg.webp'); */
         background-size: cover;
         background-position: center;
@@ -120,6 +120,10 @@
 
         .left-content {
             padding: 0px;
+        }
+
+        .left-content h2 {
+            font-size: 30px;
         }
 
         .how-we-work-title {

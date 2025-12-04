@@ -155,7 +155,7 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/app-development-niche-design/fb-hero.png" alt="app-dev-niche-hero-img">
+                    <img src="./assests/images/Tik-tok-uae/hero-img.webp" alt="app-dev-niche-hero-img">
                 </div>
             </div>
         </div>
