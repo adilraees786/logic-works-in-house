@@ -50,7 +50,7 @@
     }
 
     .mockup-img {
-        max-width: 70%;
+        max-width: 100%;
         height: auto;
     }
 
@@ -86,16 +86,19 @@
             <div class="col-md-6 about-text">
                 <h2>Who We Are</h2>
                 <p>
-                    Logic Works develops Android financial applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    Logic Works operates as one of the top Software development companies in Qatar, creating robust
+                    digital ecosystems for organizations whose demands include longevity, clarity, and smooth
+                    performance. As an experienced App Development Agency based in Qatar, we craft platforms that work
+                    with exactness and stability, enabled by experienced Mobile App Developers in Qatar who know exactly
+                    how to secure the data and ensure business continuity. Each solution created under our customized
+                    Mobile App Development Services in Qatar caters to operational objectives with maximum adherence to
+                    strict technological standards, reflecting the depth of a trusted Mobile App Development Company.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Custom Mobile Solutions Delivered</li>
+                    <li>Certified Mobile App Developers in Qatar</li>
+                    <li>Enterprise-Level Security Frameworks</li>
+                    <li>Compliance-Centered Development Expertise</li>
                 </ul>
             </div>
         </div>

@@ -564,7 +564,7 @@ include("includes/header.php");
                                             build applications including streamlined workflows and interfaces that feel
                                             instinctive, accurate, and reliable. Every solution is molded to facilitate
                                             realistic business processes and long-term stability.</p>
-                                        <p class="text-white">WThrough refined mobile app development services in
+                                        <p class="text-white">Through refined mobile app development services in
                                             Kuwait, we deliver platforms that expand with your needs. As an App
                                             Development Agency in Kuwait, we build strong foundations, ensuring that
                                             performance is consistent under growth, heavy use, or new feature rollouts.
