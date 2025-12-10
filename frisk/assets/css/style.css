@@ -2360,7 +2360,7 @@ img.trustsec {
 .brif-row .col-lg-6:last-child img,
 .transform-row img,
 .dubai-row-mind .col-lg-4 img {
-  /* animation: float 6s ease-in-out infinite; */
+  animation: float 6s ease-in-out infinite;
 }
 
 .customized-row .col-lg-3:hover {
@@ -11713,11 +11713,18 @@ input[type="checkbox"] {
   border-radius: 10px;
 }
 
-input[type="checkbox"]:checked~label:before {
+/* input[type="checkbox"]:checked~label:before {
   content: "\f00c";
   color: var(--white-color);
   background-color: var(--theme-color);
   border-color: var(--theme-color);
+} */
+ 
+input[type="checkbox"]:checked~label:before {
+  content: "\f00c";
+  color: var(--white-color);
+  background-color: black;
+  border-color: #8E3DF2;
 }
 
 input[type="checkbox"]~label {
@@ -25007,7 +25014,7 @@ img.trustsec {
 @media (max-width:767px) {
   img.for-mobe {
     animation: 6s ease-in-out 0s infinite normal none running float;
-    /* margin-bottom: -35px; */
+    margin-bottom: -35px;
     margin-top: 30px;
   }
 

@@ -109,6 +109,38 @@ include("includes/header.php");
 
     }
 
+    .services-checkbox-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+
+    .service-checkbox-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .service-checkbox-item input[type="checkbox"] {
+        width: auto;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .service-checkbox-item label {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        margin: 0;
+    }
+
+    .contact-second-row .col-lg-6:first-child {
+        border: 10px solid;
+        border-image: linear-gradient(to bottom, #994ae8, #e57699) 1;
+        padding: 20px;
+    }
    
 </style>
 
@@ -141,6 +173,46 @@ include("includes/header.php");
                         <label for="name">Phone</label>
                         <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
 
+                        <div class="services-checkbox-container">
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service1" name="services[]" value="App Development">
+                                <label for="service1">App Development</label>
+                            </div>
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service2" name="services[]" value="Web Design & Development">
+                                <label for="service2">Web Design & Development</label>
+                            </div>
+                           
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service3" name="services[]" value="Social Media Marketing">
+                                <label for="service3">Social Media Marketing</label>
+                            </div>
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service4" name="services[]" value="Digital Marketing">
+                                <label for="service4">Digital Marketing</label>
+                            </div>
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service5" name="services[]" value="PPC Marketing">
+                                <label for="service5">PPC Marketing</label>
+                            </div>
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service6" name="services[]" value="SEO">
+                                <label for="service6">SEO</label>
+                            </div>
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service7" name="services[]" value="Graphics Designing">
+                                <label for="service7">Graphics Designing</label>
+                            </div>
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service8" name="services[]" value="Logo Design">
+                                <label for="service8">Logo Design</label>
+                            </div>
+                            <div class="service-checkbox-item">
+                                <input type="checkbox" id="service9" name="services[]" value="Domain & Hosting">
+                                <label for="service9">Domain & Hosting</label>
+                            </div>
+                        </div>
+                        
                         <label for="message">Message</label>
                         <textarea id="message" name="message" placeholder="Write Something..." style="height:200px"
                             required></textarea>

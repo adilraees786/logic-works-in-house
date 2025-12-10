@@ -11,6 +11,7 @@ include("includes/header.php");
     .digital-marketing {
         overflow: hidden;
     }
+
     #portfolio-hero h1 {
         font-size: 84px;
         margin-bottom: 30px;
@@ -71,6 +72,12 @@ include("includes/header.php");
         height: 45px !important;
         object-fit: contain !important;
         margin-top: 20px;
+    }
+
+    @media (max-width:600px) {
+        .digital-marketing .transform-row {
+            margin-top: 50px !important;
+        }
     }
 </style>
 <main class="digital-marketing bg-black">
@@ -199,21 +206,24 @@ include("includes/header.php");
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo"
                             type="button" role="tab" aria-controls="seo" aria-selected="true">
-                            <h4 class="text-white"><img src="assests/images/marketing/check-icon.webp" alt="digital-icon"> SOCIAL MEDIA
+                            <h4 class="text-white"><img src="assests/images/marketing/check-icon.webp"
+                                    alt="digital-icon"> SOCIAL MEDIA
                                 MARKETING</h4>
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="ppc-tab" data-bs-toggle="tab" data-bs-target="#ppc" type="button"
                             role="tab" aria-controls="ppc" aria-selected="false">
-                            <h4 class="text-white"><img src="assests/images/marketing/check-icon.webp" alt="digital-icon"> SEARCH ENGINE
+                            <h4 class="text-white"><img src="assests/images/marketing/check-icon.webp"
+                                    alt="digital-icon"> SEARCH ENGINE
                                 OPTIMIZATION</h4>
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social"
                             type="button" role="tab" aria-controls="social" aria-selected="false">
-                            <h4 class="text-white"><img src="assests/images/marketing/check-icon.webp" alt="digital-icon"> ONLINE REPUTATION
+                            <h4 class="text-white"><img src="assests/images/marketing/check-icon.webp"
+                                    alt="digital-icon"> ONLINE REPUTATION
                                 MANAGEMENT</h4>
                         </button>
                     </li>

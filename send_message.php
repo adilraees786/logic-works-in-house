@@ -30,6 +30,7 @@ try {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
+    $services = $_POST['services'];
     $message = $_POST['message'];
 
     // Add files if they are uploaded
@@ -41,16 +42,21 @@ try {
     }
     */
 
-    // Content
-    $mail->isHTML(true); // Set email format to HTML
-    $mail->Subject = 'New Contact Form Submission';
-    $mail->Body    = "<h2>New Message from Contact Form</h2>
-                      <p><strong>Name:</strong> $name</p>
-                      <p><strong>Email:</strong> $email</p>
-                      <p><strong>Phone:</strong> $phone</p>
-                      <p><strong>Message:</strong></p>
-                      <p>$message</p>";
-    $mail->AltBody = "New Message from Contact Form\n\nName: $name\nEmail: $email\nPhone: $phone\nMessage: $message";
+        // Content
+        $mail->isHTML(true); // Set email format to HTML
+        $mail->Subject = 'New Contact Form Submission';
+        
+        // Process services
+        $services = isset($_POST['services']) ? implode(', ', $_POST['services']) : 'None selected';
+        
+        $mail->Body    = "<h2>New Message from Contact Form</h2>
+                          <p><strong>Name:</strong> $name</p>
+                          <p><strong>Email:</strong> $email</p>
+                          <p><strong>Phone:</strong> $phone</p>
+                          <p><strong>Services:</strong> $services</p>
+                          <p><strong>Message:</strong></p>
+                          <p>$message</p>";
+        $mail->AltBody = "New Message from Contact Form\n\nName: $name\nEmail: $email\nPhone: $phone\nServices: $services\nMessage: $message";
 
     $mail->send();
 

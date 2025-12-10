@@ -86,16 +86,16 @@
             <div class="col-md-6 about-text">
                 <h2>Who We Are</h2>
                 <p>
-                    Logic Works develops Android financial applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    Logic Works is a leading Mobile App Development Company in Kuwait, delivering secure digital
+                    ecosystems for modern enterprises. As an elite App Development Agency in Kuwait, our Mobile App
+                    Developers engineer resilient platforms that safeguard data, uphold compliance, and empower
+                    organizations through refined Mobile App Development Services.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Custom Apps Delivered</li>
+                    <li>Certified Mobile App Developers in Kuwait</li>
+                    <li>Enterprise-Grade Security Frameworks</li>
+                    <li>Regulatory Compliance Expertise</li>
                 </ul>
             </div>
         </div>
