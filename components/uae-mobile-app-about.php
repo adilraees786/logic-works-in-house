@@ -50,7 +50,7 @@
     }
 
     .about-section-uae-mobile-app .mockup-img {
-        max-width: 40%;
+        max-width: 70%;
         height: auto;
     }
 
@@ -86,16 +86,20 @@
             <div class="col-md-6 about-text">
                 <h2>Who We Are</h2>
                 <p>
-                    Logic Works develops Android UAE applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    With​‍​‌‍​‍‌​‍​‌‍​‍‌ the help of skilled mobile app developers, Logic Works is an App Development
+                    Agency that takes pride in creating platforms with accuracy and stability. By offering uninterrupted
+                    business operations and strong data protection, our team of professionals ensures that your business
+                    runs smoothly and securely.
+                    Every service offered by our custom mobile app development company in the UAE is not only
+                    operationally aligned but also technically very sound, thus the stability of a trusted mobile app
+                    development company in the UAE is ​‍​‌‍​‍‌​‍​‌‍​‍‌reflected.
+
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Custom Mobile Solutions Delivered</li>
+                    <li>Certified Mobile App Developers in UAE</li>
+                    <li>Enterprise-Level Security Frameworks</li>
+                    <li>Compliance-Centered Development Expertise</li>
                 </ul>
             </div>
         </div>

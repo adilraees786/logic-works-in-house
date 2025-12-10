@@ -86,16 +86,18 @@
             <div class="col-md-6 about-text">
                 <h2>Who We Are</h2>
                 <p>
-                    Logic Works develops Android Bahrian applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    At Logic Works, we operate as a distinguished Mobile App Development Company, crafting secure,
+                    resilient digital ecosystems for organizations in need of clarity, stability, and consistent
+                    performance. As an adept App Development Agency, our expert Mobile App Developers provide platforms
+                    designed for robust data protection and operational continuity. Through bespoke Mobile App
+                    Development Services in Saudi Arabia, each solution meets exacting technical standards for reliable,
+                    consistent outcomes.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Custom Mobile Solutions Delivered</li>
+                    <li>Certified Mobile App Developers in Saudi Arabia</li>
+                    <li>Enterprise-Level Security Frameworks</li>
+                    <li>Compliance-Centered Development Expertise</li>
                 </ul>
             </div>
         </div>
