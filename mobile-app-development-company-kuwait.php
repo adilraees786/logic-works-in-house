@@ -660,7 +660,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                   <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
                             <button class="accordions">How does your company, as a mobile app development company in
