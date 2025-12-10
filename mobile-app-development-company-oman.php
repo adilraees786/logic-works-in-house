@@ -839,7 +839,7 @@ include("includes/header.php");
         </div>
     </section>
 
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
+    <!-- <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
         id="hireobserverID">
         <div class="bg-white-heading-custom">
             <div class="container">
@@ -943,7 +943,7 @@ include("includes/header.php");
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <?php
     include("includes/clint-review.php");
     ?>

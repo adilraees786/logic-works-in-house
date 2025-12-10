@@ -2447,9 +2447,13 @@ img.trustsec {
   background-size: contain;
   background-position: center;
 }
-
-.transform-row img {
+/* For ex large screen */
+/* .transform-row img {
   margin-top: -90px;
+} */
+/* For laptop */
+.transform-row img {
+  margin-top: -22px;
 }
 
 .transform-row {

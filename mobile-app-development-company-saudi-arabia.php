@@ -2,7 +2,7 @@
 $meta_title = "Mobile App Development Company in Saudi Arabia – Innovative Apps";
 $meta_description = "Expert Mobile App Development Company in Saudi Arabia building secure, high-performance apps. Saudi app developers ensure stability, scalability, and continuous support.";
 $keyword = 'Mobile App Development Company Saudia Arabia';
-$canonical = "https://logicworks.ae/mobile-app-development-company-saudia-arabia";
+$canonical = "https://logicworks.ae/mobile-app-development-company-saudi-arabia";
 
 include("includes/head.php");
 include("includes/header.php");
