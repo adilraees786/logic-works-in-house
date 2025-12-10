@@ -3,40 +3,65 @@ $meta_title = "Logic Works | Leading Digital Solutions Provider in GCC";
 $meta_description = "Partner with Logic Works to build super-fast, feature-rich websites and apps. Book a free consultation with experts driving digital transformation.";
 $keyword = 'logic work';
 $canonical = "https://logicworks.ae/";
-$faq_data = '
+
+$custom_schema = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is the step to build an application?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We believe every great app starts with a vision. We’ll work with you through the initial idea, creating your goals, key features, and user experience. You’ll have a solid plan and a path to successful app creation with us, designed specifically to your audience and your unique business goals."
-    }
-  },{
-    "@type": "Question",
-    "name": "How Much Will It Cost to Build My App?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The cost of developing an app depends on its complexity, some features, and platform that it uses. At Logic Work, we tailor solutions to your budget as well as the high standards of performance and user engagement."
-    }
-  },{
-    "@type": "Question",
-    "name": "What Are the Steps in the App Development Process?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We have a very clear, very collaborative process here at Logic Work. We first establish strategy then planning, design, development, test, then launch. We involve you every step of the way so that your vision matches what the end result will be perfectly."
-    }
-  },{
-    "@type": "Question",
-    "name": "How Do You Develop Websites?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Logic Work develops websites by custom writing and by WordPress, with flexibility, unique features and easy content management."
-    }
-  }]
+  "@type": "LocalBusiness",
+  "name": "Logic Works",
+  "image": "",
+  "@id": "",
+  "url": "https://logicworks.ae/",
+  "telephone": "+971 52 950 2258",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "PINNACLE - Sheikh Zayed Rd - Al Barsha 1",
+    "addressLocality": "Dubai",
+    "postalCode": "",
+    "addressCountry": "AE"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.instagram.com/logicworks.ae/",
+    "https://www.facebook.com/LogicWorksae"
+  ] 
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Logic Works",
+  "url": "https://logicworks.ae/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://logicworks.ae/{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Logic Works",
+  "alternateName": "Logic Works Information Technology LLC",
+  "url": "https://logicworks.ae/",
+  "logo": "https://logicworks.ae/assests/images/head-logo.webp"
 }
 </script>
 ';

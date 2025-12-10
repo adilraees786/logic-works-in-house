@@ -337,7 +337,7 @@ include("includes/header.php");
                                 style="height: 26.6px;">
                                 <div class="service-thumb__head">
                                     <h2><a>Transparent Collaboration</a></h2>
-                                    <p>YYou receive clear progress updates from dedicated Mobile App Developers</p>
+                                    <p>You receive clear progress updates from dedicated Mobile App Developers</p>
                                 </div>
                             </div>
                         </div>

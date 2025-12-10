@@ -1,10 +1,14 @@
 <?php $base_url = 'http://localhost/logic-works-house/'; ?>
 
+
 <body>
+
+
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKLQ746R" height="0" width="0"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN2WVGBS" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
 
     <!--********************************
            Code Start From Here

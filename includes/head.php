@@ -3,9 +3,46 @@
 <html>
 
 <head>
+  <!-- new -->
+
+  <meta name="google-site-verification" content="02MCpALNL2dqvM3wMGZbrM7jYaN8pvFLP9vrw9rVtBc" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JM6VBW41XZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-JM6VBW41XZ');
+  </script>
+
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MN2WVGBS');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta name="DC.title"
+    content="Digital Marketing, App Development, Search Engine Optimization, Web Development, PPC Advertising" />
+  <meta name="geo.region" content="AE" />
+  <meta name="geo.position" content="25.113823;55.189967" />
+  <meta name="ICBM" content="25.113823, 55.189967" />
+
+  <!-- new -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+  <!-- ==== -->
+  <link rel="alternate" hreflang="x-default" href="https://logicworks.ae/" />
+  <link rel="alternate" hreflang="ar-ae" href="" />
+  <!-- ==== -->
   <?php
   // Get the current page name
   $current_page = basename($_SERVER['PHP_SELF']);
@@ -33,12 +70,6 @@
     'android-food-delivery-app-development-company.php',
     'android-fitness-app-development-company.php',
     'android-travel-app-development-company.php',
-    'mobile-app-development-company-bahrain.php',
-    'mobile-app-development-company-saudia-arabia.php',
-    'mobile-app-development-company-qatar.php',
-    'mobile-app-development-company-oman.php',
-    'mobile-app-development-company-kuwait.php',
-    'mobile-app-development-company-uae.php',
     'insurance-app-development-company-dubai.php',
     'fintech-app-development-company-dubai.php',
     'enterprise-app-development-company-dubai.php',
