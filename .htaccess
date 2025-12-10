@@ -16,6 +16,7 @@ RewriteRule ^social-media$ /social-media-marketing-agency [R=301,L]
 RewriteRule ^app-development$ /app-development-agency [R=301,L]
 RewriteRule ^website-development-dubai$ /web-development-dubai [R=301,L]
 RewriteRule ^app-development-dubai$ /app-development-services-dubai [R=301,L]
+RewriteRule ^mobile-app-development-company-saudia-arabia$ /mobile-app-development-company-saudi-arabia [R=301,L]
 
 # Specific redirects
 

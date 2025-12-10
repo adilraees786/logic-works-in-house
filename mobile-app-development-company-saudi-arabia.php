@@ -40,7 +40,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Mobile App Development <span>Company in Saudia Arabia</span></span>
+                    <h1 class="text-white">Mobile App Development <span>Company in Saudi Arabia</span></span>
                     </h1>
                     <p class="text-logo">The Logic works team of mobile app experts, incorporate precision, insight, and
                         inventive solutions into every project and make your platforms reflect sophistication,

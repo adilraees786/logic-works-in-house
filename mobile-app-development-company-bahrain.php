@@ -174,8 +174,8 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="ai-dev-img" class="gta">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">A Mobile App Development Firm in Bahrain for advanced
-                        digital outcomes
+                    <h2 class="text-white same-all text-end">A Mobile App Development Firm in Bahrain for Advanced
+                        Digital Outcomes
                     </h2>
                     <div class="digital-two-btn">
                         <a href="#">Call Now</a>
@@ -192,8 +192,8 @@ include("includes/header.php");
 
             <div class="row">
                 <div class="col">
-                    <h2 class="text-white text-center same-all">Mobile App Development Agency in Bahrain delivering
-                        consistent excellence</h2>
+                    <h2 class="text-white text-center same-all">Mobile App Development Agency in Bahrain Delivering
+                        Consistent Excellence</h2>
                     <p class="text-white text-center app-txt">Our Mobile App Development Company Bahrain builds reliable
                         apps. Mobile App Developers in Bahrain enhance platforms and ensure strong performance.</p>
                 </div>
@@ -549,8 +549,8 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="android-banda" class="gta">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Mobile App Development Company in Bahrain for custom app
-                        development.
+                    <h2 class="text-white same-all text-end">Mobile App Development Company in Bahrain for Custom App
+                        Development.
                     </h2>
                     <div class="digital-two-btn">
                         <a href="#">Call Now</a>
