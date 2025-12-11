@@ -86,16 +86,19 @@
             <div class="col-md-6 about-text">
                 <h2>Who We Are</h2>
                 <p>
-                    Logic Works develops Android financial applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    Logic Works stands as a leading Mobile App Development Company in Oman, building reliable digital
+                    infrastructures for businesses that value endurance and refined performance. As an experienced App
+                    Development Agency in Oman, we create systems engineered for accuracy and safeguarded by skilled
+                    Mobile App Developers in Oman who strengthen data protection and operational confidence. Every
+                    project shaped through our tailored Oman mobile developers, Mobile App Development Services in Oman
+                    aligns with regulatory expectations and reflects the precision of a trusted Mobile App Development
+                    Company.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
+                    <li>200+ Custom Mobile Solutions Delivered</li>
                     <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>Enterprise-Level Security Frameworks</li>
+                    <li>Compliance-Centered Development Expertise</li>
                 </ul>
             </div>
         </div>
