@@ -141,7 +141,6 @@ include("includes/header.php");
         border-image: linear-gradient(to bottom, #994ae8, #e57699) 1;
         padding: 20px;
     }
-   
 </style>
 
 <main>
@@ -179,10 +178,10 @@ include("includes/header.php");
                                 <label for="service1">App Development</label>
                             </div>
                             <div class="service-checkbox-item">
-                                <input type="checkbox" id="service2" name="services[]" value="Web Design & Development">
-                                <label for="service2">Web Design & Development</label>
+                                <input type="checkbox" id="service2" name="services[]" value="SEO">
+                                <label for="service2">Seo</label>
                             </div>
-                           
+
                             <div class="service-checkbox-item">
                                 <input type="checkbox" id="service3" name="services[]" value="Social Media Marketing">
                                 <label for="service3">Social Media Marketing</label>
@@ -196,8 +195,8 @@ include("includes/header.php");
                                 <label for="service5">PPC Marketing</label>
                             </div>
                             <div class="service-checkbox-item">
-                                <input type="checkbox" id="service6" name="services[]" value="SEO">
-                                <label for="service6">SEO</label>
+                                <input type="checkbox" id="service6" name="services[]" value="Web Design & Development">
+                                <label for="service6">Web Design & Development</label>
                             </div>
                             <div class="service-checkbox-item">
                                 <input type="checkbox" id="service7" name="services[]" value="Graphics Designing">
@@ -212,7 +211,7 @@ include("includes/header.php");
                                 <label for="service9">Domain & Hosting</label>
                             </div>
                         </div>
-                        
+
                         <label for="message">Message</label>
                         <textarea id="message" name="message" placeholder="Write Something..." style="height:200px"
                             required></textarea>
