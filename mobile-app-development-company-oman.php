@@ -3,6 +3,27 @@ $meta_title = "Mobile App Development Company Oman | Logic Works";
 $meta_description = "Choose our Mobile App Development Company in Oman for tailored solutions. Skilled Mobile App Developers deliver reliable Mobile App.";
 $keyword = 'Mobile App Development Company Oman';
 $canonical = "https://logicworks.ae/mobile-app-development-company-oman";
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Mobile App Development Company Oman | Logic Works",
+  "image": "https://logicworks.ae/assests/images/mobile-app-development-company-oman/hero-img.webp",
+  "description": "Choose our Mobile App Development Company in Oman for tailored solutions. Skilled Mobile App Developers deliver reliable Mobile App.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4",
+    "ratingCount": "111"
+  }
+}
+</script>
+
+';
 include("includes/head.php");
 include("includes/header.php");
 ?>
@@ -652,43 +673,44 @@ include("includes/header.php");
                     <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">How does your Mobile App Development Company in Oman ensure
-                                sustained digital performance?</button>
+                            <button class="accordions">Why choose our Mobile App Development Company in Oman for custom
+                                apps?</button>
                             <div class="panel">
-                                <p>This is accomplished through systematic development practices, routine assessments,
-                                    and continuous monitoring of platforms to guarantee consistency, scalability, and
-                                    security across all operational processes.</p>
+                                <p>Our Mobile App Development Company in Oman delivers tailored mobile application
+                                    development solutions. Expert Mobile App Developers create secure, scalable, and
+                                    high-performance apps with advanced app design and development strategies.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">What distinguishes your Mobile App Development Services in Oman
-                                from competitors?</button>
+                            <button class="accordions">Does your App Development Agency in Oman handle iOS and Android
+                                platforms?</button>
                             <div class="panel">
-                                <p>Combining expert craftsmanship with practical design, we deliver organizations
-                                    resilient, top-quality applications built for lasting functionality and reliable
-                                    performance over time.
+                                <p>Yes. Our App Development Agency in Oman provides full mobile software development
+                                    services for iOS and Android. Mobile App Developers ensure smooth performance,
+                                    intuitive interfaces, and compatibility across devices.
                                 </p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Do your Mobile App Developers in Oman handle both fresh projects
-                                and system upgrades?</button>
+                            <button class="accordions">How do your Mobile App Developers in Oman ensure app security and
+                                compliance?</button>
                             <div class="panel">
-                                <p>Absolutely. Our professionals create innovative applications and enhance current
-                                    platforms, boosting usability, efficiency, and overall performance whenever
-                                    necessary.</p>
+                                <p>Mobile App Developers in Oman integrate enterprise-level security frameworks and
+                                    follow regulatory standards. Our Mobile App Development Services prioritize data
+                                    protection, secure transactions, and continuous monitoring to safeguard your
+                                    applications.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Why select your App Development Agency in Oman for dependable
-                                assistance?</button>
+                            <button class="accordions">What type of ongoing support does your Mobile App Development
+                                Company in Oman provide?</button>
                             <div class="panel">
-                                <p>Our focused team provides timely support, regular maintenance, and strategic
-                                    improvements, keeping your platform fully optimized and aligned with evolving
-                                    operational standards.
+                                <p>Our Mobile App Development Company in Oman offers continuous maintenance, updates,
+                                    and technical support. Mobile App Developers optimize app performance, implement new
+                                    features, and ensure long-term reliability for all custom mobile solutions.
                                 </p>
                             </div>
                         </div>

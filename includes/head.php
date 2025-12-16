@@ -320,7 +320,6 @@
   </script>
   <!-- End Google Tag Manager -->
 
-  <?php if (isset($custom_schema))
-    echo $custom_schema; ?>
+  
 
 </head>
