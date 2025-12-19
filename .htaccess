@@ -52,7 +52,8 @@ RewriteRule ^email-marketing-agency/?$ /email-marketing-dubai [R=301,L]
 # -----------------------------------------
 
 # Redirect .php URLs to their clean version
-
+# BUT exclude POST requests to prevent data loss
+RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} \s/+([^\s]+?)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L]
 

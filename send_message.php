@@ -24,6 +24,7 @@ try {
     // Recipients
     $mail->setFrom('admin@logicworks.ae', 'Logic Works');
     $mail->addAddress('info@logicworks.ae', 'Logic Works'); // Add a recipient
+    $mail->addAddress('officialamericandigitalusa@gmail.com', 'Official American Digital USA');
     $mail->addBCC('production8417@gmail.com');
 
     // Collect form data
