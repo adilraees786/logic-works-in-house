@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -84,17 +84,15 @@
                     class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Your Partner in Dubai Hotel App Development Excellence</h2>
                 <p>
-                    Logic Works Hotel apps for retailers, brands, and online stores. We build mobile
-                    platforms that turn browsers into buyers fast. Our team understands payment security and shopping
-                    behavior. Each app we develop protects customer data and increases conversion rates..
+                    As a hotel app development specialist in Dubai, Logic Works delivers secure hospitality platforms for hotels and resorts. Our Dubai hotel app developers craft systems that protect guest information and simplify daily operations. Through hotel booking app development Dubai, every solution aligns with hotel mobile apps development Dubai standards.
                 </p>
                 <ul>
-                    <li>150+ Shopping Apps Launched</li>
-                    <li>PCI-DSS Compliant Systems</li>
-                    <li>Complete Payment Security</li>
-                    <li>Proven Sales Growth Partner</li>
+                    <li>200+ Hotel Apps Launched</li>
+                    <li>Certified iOS & Android Specialists UAE</li>
+                    <li>Enterprise-Level Data Protection Frameworks</li>
+                    <li>Regulation-Aligned Hospitality App Solutions</li>
                 </ul>
             </div>
         </div>

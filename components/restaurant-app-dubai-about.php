@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -84,17 +84,15 @@
                     class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Dubai Restaurant App Solutions</h2>
                 <p>
-                    Logic Works Restaurant apps for retailers, brands, and online stores. We build mobile
-                    platforms that turn browsers into buyers fast. Our team understands payment security and shopping
-                    behavior. Each app we develop protects customer data and increases conversion rates..
+                    As a restaurant app development company , Logic Works crafts secure dining platforms for eateries. Our restaurant mobile app developers Dubai engineer systems that protect sensitive data and enhance operational efficiency. With restaurant app development services Dubai, every solution adheres to restaurant mobile app development Dubai best practices.
                 </p>
                 <ul>
-                    <li>150+ Shopping Apps Launched</li>
-                    <li>PCI-DSS Compliant Systems</li>
-                    <li>Complete Payment Security</li>
-                    <li>Proven Sales Growth Partner</li>
+                    <li>200+ Restaurant Apps Delivered</li>
+                    <li>Certified iOS & Android Developers UAE</li>
+                    <li>Robust Data Protection Frameworks</li>
+                    <li>Compliance-Ready Restaurant Solutions</li>
                 </ul>
             </div>
         </div>
