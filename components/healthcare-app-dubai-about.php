@@ -84,17 +84,19 @@
                         class="mockup-img">
                 </div>
                 <div class="col-md-6 about-text">
-                    <h2>Who We Are</h2>
+                    <h2>Building Secure, Patient-Centric Apps</h2>
                     <p>
-                        Logic Works builds Android healthcare apps for hospitals, clinics, and practices. We create
-                        secure mobile tools that link patients and doctors fast. Our team knows HIPAA rules and follows
-                        strict compliance steps. Each system protects health data and improves patient care delivery.
+                        As a Healthcare App Development Company, Logic Works builds reliable digital health platforms
+                        for clinics and medical brands. Our team creates solutions that secure patient records and
+                        support streamlined care journeys. With Healthcare App Development in Dubai, every product meets
+                        strict medical rules. It also follows the standards for safety and performance in Healthcare
+                        Mobile App Development Services in Dubai.
                     </p>
                     <ul>
-                        <li>100+ Healthcare Apps Delivered</li>
-                        <li>HIPAA-Compliant Development</li>
-                        <li>Complete Security & Privacy Focus</li>
-                        <li>Trusted Medical Technology Partner</li>
+                        <li>200+ Healthcare Apps Delivered</li>
+                        <li>Certified mHealth App Developers Dubai</li>
+                        <li>HIPAA / GDPR-Compliant Security Frameworks</li>
+                        <li>EMR & EHR Software Solutions UAE</li>
                     </ul>
                 </div>
             </div>

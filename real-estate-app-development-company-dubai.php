@@ -1,8 +1,8 @@
 <?php
 
-$meta_title = "App Development Niche DesignTemper";
-$meta_description = "Explore trending blogs from Logic Works on tailored web solutions, digital marketing, and custom software to boost business performance.";
-$keyword = 'App Development Niche Design';
+$meta_title = "Real Estate App Development Company Dubai | Logic Works";
+$meta_description = " Logic Works is a Real Estate App Development Company Dubai delivering secure, compliant mobile apps for listings, management, analytics, and transactions.";
+$keyword = 'Real Estate App Development Company Dubai';
 $canonical = "http://localhost//logic-works/real-estate-app-development-company-dubai";
 include("includes/head.php");
 include("includes/header.php");
@@ -27,19 +27,17 @@ include("includes/header.php");
         background-size: cover;
     }
 
-    .app-development-niche-design .consultancy-hero-sec .col-lg-4 {
-       
-    }
+    .app-development-niche-design .consultancy-hero-sec .col-lg-4 {}
 </style>
 <main class="app-development-niche-design bg-black">
     <section class="consultancy-hero-sec section-bg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-12">
-                    <h1 class="text-white">Build Powerful, Scalable & <span>User-Friendly Apps</span>
+                    <h1 class="text-white">Real Estate App Development Company Dubai
                     </h1>
-                    <p class="text-logo">We design and develop mobile apps that bring <br> ideas to life and help your
-                        business grow.</p>
+                    <p class="text-logo">As a Real Estate App Development Company Dubai, our Dubai real estate app
+                        developers build property solutions to secure data and enhance seamless interactions.</p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="#0">
                             <span class="link-effect">
@@ -62,7 +60,8 @@ include("includes/header.php");
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <img src="./assests/images/android-real-estate-app-development-company/hero-image.webp" alt="app-real-state-niche-hero-img">
+                    <img src="./assests/images/android-real-estate-app-development-company/hero-image.webp"
+                        alt="app-real-state-niche-hero-img">
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 700;
         margin-bottom: 20px;
     }
@@ -84,18 +84,18 @@
                     alt="App-finance-Mockup" class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Who Powers Your Digital Finance</h2>
                 <p>
-                    Logic Works Fintech App  Android UAE applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                   As a Fintech App Development Company, Logic Works engineers resilient financial platforms for institutions.
+Our fintech app developers dubai architect systems that preserve data and accelerate operations.
+With Fintech App Development Services, each solution aligns with Fintech App Development Dubai regulations frameworks.
+
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Fintech Platforms Delivered</li>
+                    <li>Certified iOS & Android Developers UAE</li>
+                    <li>Enterprise-Grade Financial Security</li>
+                    <li>Compliance-Ready Fintech Solutions</li>
                 </ul>
             </div>
         </div>

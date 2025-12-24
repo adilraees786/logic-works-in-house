@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 700;
         margin-bottom: 20px;
     }
@@ -84,18 +84,15 @@
                     alt="App-finance-Mockup" class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Powering Enterprise Digital Transformation</h2>
                 <p>
-                    Logic Works Enterprise App  Android UAE applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    As an Enterprise App Development Company Dubai, Logic Works engineers resilient enterprise platforms for corporations. Our Enterprise App Developers in Dubai craft systems that protect sensitive information and optimize operational workflows. Leveraging Enterprise App Development Services, every solution conforms with Enterprise Mobile App Development  standards.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Enterprise Apps Delivered</li>
+                    <li>Certified iOS & Android Developers UAE</li>
+                    <li>Robust Enterprise-Grade Security Frameworks</li>
+                    <li>Compliance-Optimized Enterprise Solutions</li>
                 </ul>
             </div>
         </div>

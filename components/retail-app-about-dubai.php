@@ -50,7 +50,7 @@
     }
 
     .mockup-img {
-        max-width: 70%;
+        max-width: 100%;
         height: auto;
     }
 
@@ -80,22 +80,22 @@
     <div class="container">
         <div class="row about-content">
             <div class="col-md-6 text-center mb-4 mb-md-0">
-                <img src="./assests/images/Retail-App/about-left-image.webp"
-                    alt="App-retails-Mockup" class="mockup-img">
+                <img src="./assests/images/Retail-App/about-left-image.webp" alt="App-retails-Mockup"
+                    class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>The Minds Behind UAE Retail Platforms</h2>
                 <p>
-                    Logic Works Retail App  Android UAE applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    As a Retail App Development Company Dubai, Logic Works delivers secure retail platforms for brands.
+                    Our Dubai retail app developers design systems that safeguard data and streamline operations. With
+                    Retail App Development Agency Dubai, each solution aligns with Retail mobile app development Dubai
+                    regulations.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Retail Apps Delivered</li>
+                    <li>Certified iOS & Android Developers UAE</li>
+                    <li>Enterprise-Grade Security Systems</li>
+                    <li>Compliance-Ready Retail Solutions</li>
                 </ul>
             </div>
         </div>

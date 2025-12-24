@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -84,17 +84,19 @@
                         class="mockup-img">
                 </div>
                 <div class="col-md-6 about-text">
-                    <h2>Who We Are</h2>
+                    <h2>Driving Growth with On-Demand Food Apps</h2>
                     <p>
-                        Logic Works builds Android Food Delivery apps for hospitals, clinics, and practices. We create
-                        secure mobile tools that link patients and doctors fast. Our team knows HIPAA rules and follows
-                        strict compliance steps. Each system protects health data and improves patient care delivery.
+                        We are Growing Food Delivery App Development Company located in Dubai, Logic Works engineers
+                        resilient food-ordering ecosystems for eateries. Our Dubai food delivery app development agency
+                        dubai specialists architect modules that preserve data and refine digital workflows. With food
+                        delivery app development services in Dubai, each build aligns with practices and regional
+                        compliance.
                     </p>
                     <ul>
-                        <li>100+ Healthcare Apps Delivered</li>
-                        <li>HIPAA-Compliant Development</li>
-                        <li>Complete Security & Privacy Focus</li>
-                        <li>Trusted Medical Technology Partner</li>
+                        <li>200+ Food Apps Engineered</li>
+                        <li>Certified iOS & Android Food Delivery Developers UAE</li>
+                        <li>Enterprise-Tier Protective Frameworks</li>
+                        <li>Compliance-Aligned Online Ordering Solutions</li>
                     </ul>
                 </div>
             </div>

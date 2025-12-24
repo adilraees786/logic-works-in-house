@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 700;
         margin-bottom: 20px;
     }
@@ -84,18 +84,15 @@
                     alt="App-finance-Mockup" class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Innovators in Automotive Apps</h2>
                 <p>
-                    Logic Works Enterprise App  Android UAE applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                    As an Automotive App Development Company Dubai, Logic Works delivers robust automotive platforms for dealerships and fleet services. Our Dubai automotive app developers craft systems that protect vehicle and user data while optimizing operations. With Automotive App Development Services Dubai, every solution adheres to Automotive Mobile App Development Dubai standards and industry benchmarks.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Automotive Apps Delivered</li>
+                    <li>Certified iOS & Android Automotive Developers UAE</li>
+                    <li>Enterprise-Grade Vehicle Security Systems</li>
+                    <li>Compliance-Ready Automotive Solutions</li>
                 </ul>
             </div>
         </div>

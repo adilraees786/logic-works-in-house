@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 700;
         margin-bottom: 20px;
     }
@@ -84,18 +84,15 @@
                     alt="App-finance-Mockup" class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Our Expertise in Developing Dating Applications</h2>
                 <p>
-                    Logic Works Dating App  Android UAE applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                   As a Dating App Development Company, Logic Works creates protected dating ecosystems for modern platforms. Our Dubai dating software developers architect solutions that preserve privacy and refine engagement flows. With Dating App Development Service, every build adheres to Dating Mobile App Development Services Dubai standards.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Dating Apps Launched</li>
+                    <li>Certified iOS & Android Dating Apps UAE Specialists</li>
+                    <li>Enterprise-Level Privacy Architectures</li>
+                    <li>Compliance-Focused Matchmaking Platforms</li>
                 </ul>
             </div>
         </div>

@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 700;
         margin-bottom: 20px;
     }
@@ -50,7 +50,7 @@
     }
 
     .mockup-img {
-        max-width: 70%;
+        max-width: 100%;
         height: auto;
     }
 
@@ -84,18 +84,15 @@
                     class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Our Vision for Digital Insurance</h2>
                 <p>
-                    Logic Works insurance App Android UAE applications for banks, fintech startups, and investment
-                    firms. We build mobile platforms that handle sensitive transactions securely. Our team understands
-                    regulatory compliance and financial security standards. Each app we deliver protects user accounts
-                    and meets strict industry requirements.
+                   Logic Works delivers resilient insurance platforms for providers. Our Insurance App Developers dubai design frameworks that protect sensitive data and optimize operational workflows. With Insurance App Development Services Dubai, every solution complies with Insurance Mobile App Development Services Dubai standards.
                 </p>
                 <ul>
-                    <li>200+ Financial Apps Built</li>
-                    <li>Certified Android Finance App Developers</li>
-                    <li>Bank-Level Security Standards</li>
-                    <li>Regulatory Compliance Expert</li>
+                    <li>200+ Insurance Apps Launched</li>
+                    <li>Certified iOS & Android Insurance App Developers UAE</li>
+                    <li>Enterprise-Grade Security Frameworks</li>
+                    <li>Compliance-Ready Policy & Claims Solutions</li>
                 </ul>
             </div>
         </div>

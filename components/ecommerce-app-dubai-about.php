@@ -14,7 +14,7 @@
 
     .about-text h2 {
         color: white;
-        font-size: 55px;
+        font-size: 40px;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -84,17 +84,15 @@
                     class="mockup-img">
             </div>
             <div class="col-md-6 about-text">
-                <h2>Who We Are</h2>
+                <h2>Driving Growth with eCommerce Mobile Solutions</h2>
                 <p>
-                    Logic Works creates Android shopping apps for retailers, brands, and online stores. We build mobile
-                    platforms that turn browsers into buyers fast. Our team understands payment security and shopping
-                    behavior. Each app we develop protects customer data and increases conversion rates..
+                     As an App Development Company Dubai, Logic Works crafts fortified online shopping platforms for businesses. Our Top eCommerce App Developers in Dubai design systems that protect sensitive data and optimize workflows. Through eCommerce app development services, each solution adheres to ecommerce mobile app development in Dubai standards.
                 </p>
                 <ul>
-                    <li>150+ Shopping Apps Launched</li>
-                    <li>PCI-DSS Compliant Systems</li>
-                    <li>Complete Payment Security</li>
-                    <li>Proven Sales Growth Partner</li>
+                    <li>200+ eCommerce Apps Delivered</li>
+                    <li>Certified iOS & Android Developers UAE</li>
+                    <li>Enterprise-Grade Security Frameworks</li>
+                    <li>Compliance-Optimized eCommerce Solutions</li>
                 </ul>
             </div>
         </div>
