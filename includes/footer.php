@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row justify-content-space-between">
       <div class="col-lg-3 col-md-6">
-        <a href="#"><img src="<?php echo $base_url; ?>assests/images/head-logo.webp" style="width:180px"></a>
+        <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>assests/images/head-logo.webp" style="width:180px"></a>
         <p>Explore the high-tech, low-life world where the lines between humanity</p>
       </div>
       <div class="col-lg-2 col-md-6">

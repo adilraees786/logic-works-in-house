@@ -39,10 +39,19 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <!-- ==== -->
-  <link rel="alternate" hreflang="x-default" href="https://logicworks.ae/" />
-  <link rel="alternate" hreflang="ar-ae" href="" />
-  <!-- ==== -->
+ <?php
+if (basename($_SERVER['PHP_SELF']) == 'index.php') {
+?>
+    <!-- ==== -->
+    <link rel="alternate" hreflang="x-default" href="https://logicworks.ae/" />
+    <link rel="alternate" hreflang="ar-ae" href="" />
+    <!-- ==== -->
+<?php
+}
+?>
+
+ 
+
   <?php
   // Get the current page name
   $current_page = basename($_SERVER['PHP_SELF']);
@@ -50,7 +59,9 @@
 
   <!-- HTML Meta Tags -->
   <title><?php echo $meta_title; ?></title>
+  
   <?php
+  
   $noindexPages = [
     'android-app-development-services.php',
     'digital-marketing-agency-dubai.php',

@@ -268,7 +268,7 @@ include("includes/header.php");
                 </div>
                 <div class="col-lg-5 col-md-6">
                     <div class="ctn-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                        <a  href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                         <a href="tel:+971 52 950 2258">+971 52 950 2258</a>
                     </div>
                 </div>

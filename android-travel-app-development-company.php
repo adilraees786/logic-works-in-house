@@ -185,7 +185,7 @@ include("includes/header.php");
                         Systems Today</h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
-                        <a href="#" id="openPopup">Start Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
             </div>
@@ -524,7 +524,7 @@ include("includes/header.php");
                         Clinic</h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
-                        <a href="#" id="openPopup">Start Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@
 
                 </div>
                 <div class="live-chat-btns ct-btn">
-                    <a href="#" class="live-chats">Live Chat</a>
+                    <a  href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>

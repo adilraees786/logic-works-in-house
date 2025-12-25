@@ -269,7 +269,7 @@ include("includes/header.php");
                     <h2 class="text-white">Get A Website Like This & Start Your Online Journey!</h2>
                     <div class="main-tow-btn">
                          <a href="tel:+971529502258">Call Now</a>
-                        <a href="#">Start Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">

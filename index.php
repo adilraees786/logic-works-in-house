@@ -67,6 +67,7 @@ $custom_schema = '
 ';
 include("includes/head.php");
 include("includes/header.php");
+
 ?>
 
 
@@ -91,7 +92,7 @@ include("includes/header.php");
                         <p class=" text-start feature-card-text text-white">Businesses trust us for our ability to
                             deliver industry-grade apps, websites, and full-scale marketing services.</p>
                         <div>
-                            <a href="#" class="live-chats">Live Chat</a>
+                            <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup" style="color: #fff;">Get A Quote</a>
                         </div>
                     </div>
@@ -842,7 +843,7 @@ include("includes/header.php");
                     return regularly. Through successful email marketing, you have the ability to improve customer
                     connections and potentially boost sales by 20%</p>
                 <div class="live-chat-btns">
-                    <a href="#" class="live-chats">Live Chat</a>
+                    <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
@@ -1292,7 +1293,7 @@ include("includes/header.php");
                         target="_blank"><img src="assests/images/Bark.webp"></a>
                 </div>
                 <div class="live-chat-btns ct-btn">
-                    <a href="#" class="live-chats">Live Chat</a>
+                    <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
@@ -1357,7 +1358,7 @@ include("includes/header.php");
             style="background-color: #59249A; border-radius: 30px;">
             <div class="col-lg-7 col-md-6">
                 <h2 class="text-white">Ready to Reach New Heights in the Digital Space? <span></span></h2>
-                <a href="#">Get in Touch</a>
+                <a  id="openPopup">Get in Touch</a>
             </div>
             <div class="col-lg-5 col-md-6">
                 <img src="assests/images/laptop-girl.webp">

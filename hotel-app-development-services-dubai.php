@@ -3,7 +3,9 @@ $meta_title = "Hotel App Development Services Dubai | LogicWorks";
 $meta_description = " LogicWorks delivers hotel app development services in Dubai for bookings, management, and guest engagement.";
 $keyword = 'Hotel App Development Services Dubai';
 $canonical = "https://logicworks.ae/hotel-app-development-services-dubai";
-$custom_schema = '<script type="application/ld+json">
+
+$custom_schema = '
+<script type="application/ld+json">
 {
   "@context": "https://schema.org/", 
   "@type": "Product", 
@@ -22,7 +24,9 @@ $custom_schema = '<script type="application/ld+json">
 }
 </script>
 ';
-$custom_schema = '<script type="application/ld+json">
+
+
+$faq_data = '<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -231,7 +235,7 @@ include("includes/header.php");
                     </h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
-                        <a href="#" id="openPopup">Start Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
             </div>
@@ -513,7 +517,7 @@ include("includes/header.php");
                     </h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
-                        <a href="#" id="openPopup">Start Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
             </div>
