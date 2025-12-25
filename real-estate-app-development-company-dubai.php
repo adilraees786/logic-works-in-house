@@ -107,7 +107,7 @@ include("includes/header.php");
                     <p class="text-logo">As a Real Estate App Development Company Dubai, our Dubai real estate app
                         developers build property solutions to secure data and enhance seamless interactions.</p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

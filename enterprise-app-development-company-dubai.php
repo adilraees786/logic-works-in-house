@@ -103,7 +103,7 @@ include("includes/header.php");
                         Enterprise App Development specialists to shield information and enable business interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

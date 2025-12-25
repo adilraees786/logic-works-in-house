@@ -104,7 +104,7 @@ include("includes/header.php");
                     <p class="text-logo">As an Automotive App Development Agency, we engineer reliable automotive applications with UAE mobile app experts to safeguard vehicle data and enable seamless user interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

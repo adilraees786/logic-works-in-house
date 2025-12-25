@@ -727,6 +727,14 @@ for (i = 0; i < acc.length; i++) {
     })();
   </script>
   <!--End of Tawk.to Script-->
+  <script>
+function openTawkChat() {
+    if (typeof Tawk_API !== 'undefined') {
+        Tawk_API.maximize();
+    }
+}
+</script>
+
   </body>
 
   </html>

@@ -3,6 +3,60 @@ $meta_title = "Travel App Development Dubai | Logic Works";
 $meta_description = " Logic Works provides travel app development Dubai. Custom mobile apps for agencies, tour operators and travelers with secure, efficient booking flows.";
 $keyword = 'Travel App Development Services Dubai';
 $canonical = "https://logicworks.ae/travel-app-development-dubai";
+$custom_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Travel App Development Dubai",
+  "image": "https://logicworks.ae/assests/images/travel-app-images/hero-img.webp",
+  "description": "Logic Works provides travel app development Dubai. Custom mobile apps for agencies, tour operators and travelers with secure, efficient booking flows.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "364"
+  }
+}
+</script>
+';
+$faq_data = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How do custom travel mobile solutions improve agency operations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They streamline booking, itinerary management, and payments while integrating with airline, hotel, and activity APIs for a seamless traveler experience."
+    }
+  },{
+    "@type": "Question",
+    "name": "What makes flight & hotel booking apps Dubai secure?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "These apps use multi-layered protections like encryption, two-factor authentication, biometric verification, and real-time monitoring to safeguard traveler data."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can online travel booking apps UAE handle multi-destination trips?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, these apps allow agencies to manage multi-leg itineraries, connect flights, hotels, and tours, and provide travelers with real-time updates and confirmations."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why should travel agencies hire Dubai travel software developers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Expert developers build tailored, compliant, and scalable travel apps that enhance operational efficiency, improve user experience, and increase direct bookings."
+    }
+  }]
+}
+</script>';
 
 include("includes/head.php");
 include("includes/header.php");
@@ -47,7 +101,7 @@ include("includes/header.php");
                         experiences.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

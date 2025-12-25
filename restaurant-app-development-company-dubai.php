@@ -3,6 +3,61 @@ $meta_title = "Restaurant App Development Company Dubai | Logic Works";
 $meta_description = "Top restaurant app development company Dubai. Build secure, custom mobile apps for ordering, delivery, and multi-restaurant management with Logic Works.";
 $keyword = 'Restaurant App Development Company Dubai';
 $canonical = "https://logicworks.ae/restaurant-app-development-company-dubai";
+$custom_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Restaurant App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/restaurant-app-images/hero-img.webp",
+  "description": "Top restaurant app development company Dubai. Build secure, custom mobile apps for ordering, delivery, and multi-restaurant management with Logic Works.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "ratingCount": "244"
+  }
+}
+</script>
+';
+$faq_data = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What do Dubai restaurant software developers do?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They create secure, custom restaurant apps that streamline ordering, manage menus, track inventory, and protect customer data, ensuring smooth operations for dining businesses."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do food ordering mobile apps UAE benefit restaurants?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "These apps allow diners to browse menus, place orders, and pay digitally, while restaurants manage orders efficiently, reduce errors, and enhance customer engagement."
+    }
+  },{
+    "@type": "Question",
+    "name": "What features are included in multi-restaurant management apps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Multi-restaurant management apps handle menu updates, order routing, analytics, reporting, and centralized dashboards for multiple outlets, improving efficiency and operational control."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why invest in online ordering & delivery apps Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They increase direct orders, optimize delivery workflows, provide secure payment options, and offer insights into customer behavior, boosting revenue and operational efficiency."
+    }
+  }]
+}
+</script>
+';
 
 
 include("includes/head.php");
@@ -47,7 +102,7 @@ include("includes/header.php");
                         with UAE mobile app specialists to secure information and enable seamless guest interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

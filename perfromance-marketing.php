@@ -104,7 +104,7 @@ include("includes/header.php");
                         results. We use smart strategies, real-time optimization, and data-driven tactics to deliver
                         consistent growth and measurable success.</p>
                     <div class="seo-btn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

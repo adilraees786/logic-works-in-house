@@ -26,7 +26,7 @@ include("includes/header.php");
           <p class="text-white">Automate customer support, qualify leads, and boost engagement with intelligent,
             human-like AI chatbots ,built for websites, apps & messaging platforms.</p>
           <div class="seo-btn specbtn">
-            <a class="btn bg-theme text-title" href="#0">
+            <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
               <span class="link-effect">
                 <span class="effect-1">Live Chat</span>
                 <span class="effect-1">Live Chat</span>

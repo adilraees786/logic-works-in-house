@@ -3,6 +3,61 @@ $meta_title = "Hotel App Development Services Dubai | LogicWorks";
 $meta_description = " LogicWorks delivers hotel app development services in Dubai for bookings, management, and guest engagement.";
 $keyword = 'Hotel App Development Services Dubai';
 $canonical = "https://logicworks.ae/hotel-app-development-services-dubai";
+$custom_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Hotel App Development Services Dubai",
+  "image": "https://logicworks.ae/assests/images/hotel-app-images/hero-img.webp",
+  "description": "LogicWorks delivers hotel app development services in Dubai for bookings, management, and guest engagement.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "288"
+  }
+}
+</script>
+';
+$custom_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What services do Dubai hotel booking software developers provide?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They build secure, user-friendly hotel booking and management apps that streamline operations and protect guest data."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do hospitality mobile apps UAE improve guest experience?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They offer easy booking, real-time availability, personalized preferences, and seamless communication with hotel staff."
+    }
+  },{
+    "@type": "Question",
+    "name": "What features are included in hotel management apps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Reservation management, guest profiles, housekeeping schedules, analytics, reporting, and secure payment processing."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why should hotels invest in online reservation & booking apps Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They boost direct bookings, reduce errors, provide instant confirmations, and offer insights to optimize occupancy and pricing."
+    }
+  }]
+}
+</script>
+';
 
 
 include("includes/head.php");
@@ -48,7 +103,7 @@ include("includes/header.php");
                         smooth guest-hotel interactions seamlessly.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="#0">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
