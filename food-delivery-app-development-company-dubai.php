@@ -1,6 +1,6 @@
 <?php
 $meta_title = "Food Delivery App Development Company Dubai | Logic Works";
-$meta_description = "PLogic Works is a Food Delivery App Development Company Dubai building secure, scalable ordering apps with compliance, analytics, and seamless experiences.";
+$meta_description = "Logic Works is a Food Delivery App Development Company Dubai building secure, scalable ordering apps with compliance, analytics, and seamless experiences.";
 $keyword = 'Food Delivery App Development Company Dubai';
 $canonical = "https://logicworks.ae/food-delivery-app-development-company-dubai";
 include("includes/head.php");

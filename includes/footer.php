@@ -57,14 +57,14 @@
               </span>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="<?php echo $base_url; ?>blog">
               <span class="link-effect">
                 <span class="effect-1">Blog</span>
                 <span class="effect-1">Blog</span>
               </span>
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
       <div class="col-lg-2 col-md-6">

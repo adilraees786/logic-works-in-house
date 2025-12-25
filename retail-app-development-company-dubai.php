@@ -3,7 +3,63 @@ $meta_title = "Retail App Development Company Dubai | Logic Works";
 $meta_description = "LogicWorks is a retail app development company in Dubai delivering POS, inventory, and customer engagement apps.";
 $keyword = 'Retail App Development Company Dubai';
 $canonical = "https://logicworks.ae/retail-app-development-company-dubai";
-
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Retail App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/Retail-App/hero-img.webp",
+  "description": "LogicWorks is a retail app development company in Dubai delivering POS, inventory, and customer engagement apps.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "532"
+  }
+}
+</script>
+';
+$faq_data = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What does your Retail App Development Company in Dubai offer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We create custom retail platforms that improve shopping experiences, streamline operations, and support growth for brands of all sizes."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do you keep retail apps secure?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our Retail App Developers use encryption, authentication, and protected integrations to safeguard customer data and transactions."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can small retail businesses get custom solutions too?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, our retail app developers create custom systems for startups, boutiques, and mid-sized stores in the UAE."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does retail mobile app development take?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Most Retail mobile app development projects in Dubai follow staged timelines, and our team provides clear delivery schedules."
+    }
+  }]
+}
+</script>
+';
 include("includes/head.php");
 include("includes/header.php");
 ?>

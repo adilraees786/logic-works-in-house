@@ -377,7 +377,7 @@ include("includes/header.php");
                 <div class="col-lg-8">
                     <h2 class="text-white same-all text-end">Our Brand Strategy Has Shaped 8000+ Successful Brands</h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Today</a>
+                        <a href="tel:+971529502258">Call Today</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>
