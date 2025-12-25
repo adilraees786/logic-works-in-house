@@ -57,7 +57,6 @@
     'ai-chatbot.php',
     'real-estate-ppc-services-dubai.php',
     'real-estate-logo-design-dubai.php',
-    'real-estate-app-development-company-dubai.php',
     'real-estate-seo-agency-dubai.php',
     'real-estate-web-development-company-dubai.php',
     'digital-niche-design.php',
@@ -70,20 +69,12 @@
     'android-food-delivery-app-development-company.php',
     'android-fitness-app-development-company.php',
     'android-travel-app-development-company.php',
-    'insurance-app-development-company-dubai.php',
-    'fintech-app-development-company-dubai.php',
-    'enterprise-app-development-company-dubai.php',
-    'dating-app-development-company-dubai.php',
-    'retail-app-development-company-dubai.php',
-    'automotive-app-development-company-dubai.php',
+   
     'facebook-advertising-agency-dubai.php',
     'instagram-advertising-agency-dubai.php',
     'linkedin-advertising-agency-dubai.php',
     'twitter-advertising-agency-dubai.php',
     'ui-ux-design-company-dubai.php',
-    'food-delivery-app-development-company-dubai.php',
-    'healthcare-app-development-company-dubai.php',
-    'ecommerce-app-development-company-dubai.php',
     'wordpress-development-company-dubai.php',
     'website-maintenance-services-dubai.php',
     'custom-website-development-company-dubai.php',
@@ -92,10 +83,8 @@
     'shopify-development-services-dubai.php',
     'tiktok-shop-marketing-agency-dubai.php',
     'tiktok-shop-uae.php',
-    'law-firm-mobile-app-development-dubai.php',
-    'hotel-app-development-services-dubai.php',
-    'restaurant-app-development-company-dubai.php',
-    'travel-app-development-dubai.php',
+ 
+  
 
 
   ];

@@ -451,7 +451,7 @@ include("includes/header.php");
                 <div class="col-lg-8">
                     <h2 class="text-white same-all text-end">Start Ranking Higher Today – Reach Out to Us Now!</h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>

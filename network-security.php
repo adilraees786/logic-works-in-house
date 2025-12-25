@@ -515,7 +515,7 @@ include("includes/header.php");
           <li>Trusted experts</li>
         </ul>
         <div class="digital-two-btn mb-10">
-          <a href="#">Call Now</a>
+           <a href="tel:+971529502258">Call Now</a>
           <a href="#" id="openPopup">Start Live Chat</a>
         </div>
       </div>

@@ -195,7 +195,7 @@ include("includes/header.php");
                         Qatar for next-level results
                     </h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Live Chat</a>
                     </div>
                 </div>
@@ -556,7 +556,7 @@ include("includes/header.php");
                         Solutions
                     </h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Live Chat</a>
                     </div>
                 </div>

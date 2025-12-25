@@ -302,7 +302,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Partner with Logic Works to Modernize Your Healthcare
                         Systems Today</h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>
@@ -641,7 +641,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Get a Reliable Healthcare App Built for Your Hospital or
                         Clinic</h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>

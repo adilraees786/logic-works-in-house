@@ -173,7 +173,7 @@ include("includes/header.php");
                         Development Services Dubai
                     </h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>
@@ -458,7 +458,7 @@ include("includes/header.php");
                         Enterprises
                     </h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>

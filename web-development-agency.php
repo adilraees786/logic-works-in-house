@@ -170,7 +170,7 @@ include("includes/header.php");
                 </div>
                 <div class="col-lg-8">
                     <h2 class="text-white same-all">Launch your professional website with Logic Works. Start now!</h2>
-                    <a href="#">Call Now</a>
+                     <a href="tel:+971529502258">Call Now</a>
                 </div>
             </div>
         </div>

@@ -262,7 +262,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">8000+ Businesses Have Grown with Our Social Media Services
                     </h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>

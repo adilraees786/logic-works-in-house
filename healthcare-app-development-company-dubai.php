@@ -2,7 +2,7 @@
 $meta_title = "Healthcare App Development Company Dubai | Logic Works";
 $meta_description = "Logic Works is a leading healthcare development company dubai and builds healthcare mobile apps for clinics, hospitals, and digital health platforms.";
 $keyword = 'Healthcare App Development Company Dubai';
-$canonical = "https://logicworks.ae/android-healthcare-app-development-company";
+$canonical = "https://logicworks.ae/healthcare-app-development-company-dubai";
 
 
 include("includes/head.php");
@@ -186,7 +186,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Choose Custom Healthcare App Development Services in Dubai
                         for Smarter Medical Digital Solutions</h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>
@@ -471,7 +471,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Get Reliable Healthcare Apps From Healthcare App
                         Development Company in Dubai</h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>

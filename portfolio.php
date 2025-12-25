@@ -245,7 +245,7 @@ include("includes/header.php");
                 <div class="col-lg-6 col-md-6">
                     <h2 class="text-white">Join Our List of Satisfied Clients<br> — Start Your Project!</h2>
                     <div class="main-tow-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" class="live-chats">Start Live Chat</a>
                     </div>
                 </div>

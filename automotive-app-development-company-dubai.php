@@ -174,7 +174,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Hire Skilled Automotive App Developers Dubai for Seamless Operations
                     </h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>
@@ -409,7 +409,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Get Secured Automotive Apps From Automotive App Development Agency Dubai
                     </h2>
                     <div class="digital-two-btn">
-                        <a href="#">Call Now</a>
+                         <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Start Live Chat</a>
                     </div>
                 </div>
