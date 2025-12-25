@@ -3,6 +3,62 @@ $meta_title = "Automotive App Development Company Dubai | Logic Works";
 $meta_description = "Logic Works is a leading Automotive App Development Company Dubai, building secure car rental, fleet management and EV apps with iOS & Android support.";
 $keyword = 'Automotive App Development Company Dubai';
 $canonical = "https://logicworks.ae/automotive-app-development-company-dubai";
+$custom_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Automotive App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/automotive-app-images/hero-img.webp",
+  "description": "Logic Works is a leading Automotive App Development Company Dubai, building secure car rental, fleet management and EV apps with iOS & Android support.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "377"
+  }
+}
+</script>
+';
+
+$faq_data = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why hire Dubai automotive software developers for custom apps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hiring Dubai automotive software developers ensures bespoke solutions with secure data handling, seamless user interfaces, and compliance with UAE automotive regulations."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do car rental & dealership apps UAE increase bookings and engagement?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "These apps enhance visibility, enable instant reservations, integrate secure payments, and offer personalized recommendations, driving higher engagement and repeat rentals or sales."
+    }
+  },{
+    "@type": "Question",
+    "name": "What advantages do vehicle tracking & fleet management apps provide businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fleet management apps improve operational efficiency through real-time tracking, automated maintenance scheduling, driver performance analytics, and route optimization."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do auto service booking apps enhance customer satisfaction?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Auto service booking apps allow users to schedule maintenance, track service status, receive reminders, and pay digitally, creating a frictionless and reliable service experience."
+    }
+  }]
+}
+</script>
+';
 
 
 include("includes/head.php");

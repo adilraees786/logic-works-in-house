@@ -3,8 +3,64 @@ $meta_title = "Real Estate App Development Company Dubai | Logic Works";
 $meta_description = "Logic Works is a Real Estate App Development Company Dubai delivering secure, compliant mobile apps for listings, management, analytics, and transactions.";
 $keyword = 'Real Estate App Development Company Dubai';
 $canonical = "https://logicworks.ae/real-estate-app-development-company-dubai";
-$custom_schema = "
-";
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Real Estate App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/android-real-estate-app-development-company/hero-image.webp",
+  "description": "Logic Works is a Real Estate App Development Company Dubai delivering secure, compliant mobile apps for listings, management, analytics, and transactions.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "488"
+  }
+}
+</script>
+';
+
+$faq_data = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are property management mobile apps UAE used for?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Property management mobile apps UAE centralize listings, tenant data, availability, and payments. They simplify daily operations and improve portfolio visibility for agencies and developers."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do real estate CRM mobile solutions benefit agencies?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Real estate CRM mobile solutions help agents track leads, manage client interactions, and monitor deal stages in real time. This improves response speed, conversion rates, and customer experience."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why invest in property listing & booking apps Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Property listing & booking apps Dubai make property discovery, scheduling, and transactions faster. They increase inquiries, reduce drop-offs, and support modern UAE real estate technology solutions."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose Dubai real estate app developers for property platforms?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dubai real estate app developers understand regional regulations, buyer behavior, and market workflows in Dubai. They build secure, scalable apps tailored for listings, transactions, and client engagement."
+    }
+  }]
+}
+</script>
+';
 
 include("includes/head.php");
 include("includes/header.php");

@@ -3,6 +3,63 @@ $meta_title = "Food Delivery App Development Company Dubai | Logic Works";
 $meta_description = "Logic Works is a Food Delivery App Development Company Dubai building secure, scalable ordering apps with compliance, analytics, and seamless experiences.";
 $keyword = 'Food Delivery App Development Company Dubai';
 $canonical = "https://logicworks.ae/food-delivery-app-development-company-dubai";
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Food Delivery App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/food-delivery-app/hero-images.webp",
+  "description": "Logic Works is a Food Delivery App Development Company Dubai building secure, scalable ordering apps with compliance, analytics, and seamless experiences.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "471"
+  }
+}
+</script>
+';
+$faq_data = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why choose Dubai on-demand food app development for restaurants?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dubai on-demand food app development supports fast ordering, real-time tracking, and secure payments tailored to local consumer behavior in Dubai. It helps restaurants scale efficiently and improve order volume."
+    }
+  },{
+    "@type": "Question",
+    "name": "What features do iOS & Android food delivery apps UAE require?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "iOS & Android food delivery apps UAE need menu management, live order tracking, secure checkout, and push notifications. These features ensure smooth user experience and repeat customer engagement."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do multi-restaurant ordering apps Dubai benefit food businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Multi-restaurant ordering apps Dubai allow multiple vendors to list menus, manage orders, and track performance in one platform. This increases customer choice and drives higher transaction volume."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why invest in custom restaurant mobile apps instead of ready-made platforms?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Custom restaurant mobile apps offer branded design, tailored workflows, and full control over data and fees. They improve operational efficiency and support long-term growth through online food ordering solutions Dubai."
+    }
+  }]
+}
+</script>
+';
 include("includes/head.php");
 include("includes/header.php");
 ?>

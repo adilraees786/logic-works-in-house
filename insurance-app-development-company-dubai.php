@@ -3,6 +3,64 @@ $meta_title = "Insurance App Development Company Dubai | Logic Works";
 $meta_description = "Logic Works is an Insurance App Development Company Dubai delivering secure, compliant mobile apps for policies, claims, analytics, and customer workflows.";
 $keyword = 'Insurance App Development Company Dubai';
 $canonical = "https://logicworks.ae/insurance-app-development-company-dubai";
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Insurance App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/insurance-app/hero-img.webp",
+  "description": "Logic Works is an Insurance App Development Company Dubai delivering secure, compliant mobile apps for policies, claims, analytics, and customer workflows.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "455"
+  }
+}
+</script>
+';
+$faq_data = '
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why choose Dubai insurance mobile app developers for insurance platforms?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dubai insurance mobile app developers understand regional regulations, data protection requirements, and insurer workflows. They build secure, scalable apps that support policy management and claims processing efficiently."
+    }
+  },{
+    "@type": "Question",
+    "name": "What features do iOS & Android insurance apps UAE require?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "iOS & Android insurance apps UAE need policy dashboards, claims tracking, secure document uploads, and premium payment tools. These features improve policyholder experience and reduce service delays."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do Insurtech app solutions Dubai improve insurer operations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Insurtech app solutions Dubai automate underwriting, claims verification, and customer communication. They reduce manual workload, improve accuracy, and support faster decision-making."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why invest in policy management & claims mobile apps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Policy management & claims mobile apps give policyholders real-time access to coverage, renewals, and claim status. They increase transparency, strengthen trust, and support modern insurance technology solutions UAE."
+    }
+  }]
+}
+</script>
+';
 
 include("includes/head.php");
 include("includes/header.php");

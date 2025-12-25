@@ -3,7 +3,65 @@ $meta_title = "ECommerce App Development Company Dubai | LogicWorks";
 $meta_description = " Logic Works delivers eCommerce app development in Dubai for scalable online stores and marketplaces.";
 $keyword = 'Ecommerce App Development Company Dubai';
 $canonical = "https://logicworks.ae/ecommerce-app-development-company-dubai";
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "ECommerce App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/android-ecommerce-app-development-company/ecommerce-hero-img.png",
+  "description": "Logic Works delivers eCommerce app development in Dubai for scalable online stores and marketplaces.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "477"
+  }
+}
+</script>
+';
 
+$faq_data = '
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why are Dubai online shopping apps essential for modern retail businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dubai online shopping apps support high mobile usage, fast payments, and regional buying behavior. Built by local experts in Dubai, they improve customer experience, conversion rates, and scalability for growing eCommerce brands."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do UAE mobile commerce solutions improve sales performance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "UAE mobile commerce solutions enable secure transactions, real-time inventory updates, and optimized checkout flows. These features reduce cart abandonment and support faster, more reliable mobile purchases."
+    }
+  },{
+    "@type": "Question",
+    "name": "When should businesses use Shopify or Magento mobile apps in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Shopify/Magento mobile apps Dubai are ideal for businesses needing flexible product management, multi-currency support, and rapid scalability. Custom mobile integrations enhance performance beyond standard web storefronts."
+    }
+  },{
+    "@type": "Question",
+    "name": "What benefits does multi-vendor marketplace app development offer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Multi-vendor marketplace app development allows multiple sellers to operate within one platform, managing products, orders, and payouts independently. It accelerates platform growth, expands catalog variety, and increases revenue streams."
+    }
+  }]
+}
+</script>
+';
 
 include("includes/head.php");
 include("includes/header.php");

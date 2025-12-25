@@ -3,6 +3,65 @@ $meta_title = "Healthcare App Development Company Dubai | Logic Works";
 $meta_description = "Logic Works is a leading healthcare development company dubai and builds healthcare mobile apps for clinics, hospitals, and digital health platforms.";
 $keyword = 'Healthcare App Development Company Dubai';
 $canonical = "https://logicworks.ae/healthcare-app-development-company-dubai";
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Healthcare App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/health-care-app/health-care-hero-img.webp",
+  "description": "Logic Works is a leading healthcare development company dubai and builds healthcare mobile apps for clinics, hospitals, and digital health platforms.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "501"
+  }
+}
+</script>
+';
+
+$faq_data = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why hire Dubai telemedicine app developers for healthcare platforms?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dubai telemedicine app developers understand regional healthcare regulations, security standards, and clinical workflows. They develop compliant applications for scalable teleconsultations, patient scheduling, and secure health records."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the benefits of EMR & EHR software solutions UAE?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "EMR & EHR software solutions UAE centralize patient data, reduce errors, and enable fast access to medical histories. They improve clinical efficiency, compliance, and continuity of care."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is HIPAA / GDPR-compliant app development important in healthcare apps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "HIPAA / GDPR-compliant app development protects sensitive patient data, prevents breaches, and ensures legal compliance. It builds trust and supports secure digital healthcare transformation UAE initiatives."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do patient booking & medical record apps improve healthcare delivery?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Patient booking & medical record apps simplify appointments, enable real-time record access, and reduce administrative delays. They enhance patient experience and operational efficiency across healthcare providers."
+    }
+  }]
+}
+</script>
+';
+
 
 
 include("includes/head.php");
@@ -31,7 +90,7 @@ include("includes/header.php");
         max-width: 210px;
         margin: auto;
         width: 220px;
-        height: 190px;
+        height: 190px;$
         background-repeat: no-repeat;
         background-size: 100%;
         display: flex;

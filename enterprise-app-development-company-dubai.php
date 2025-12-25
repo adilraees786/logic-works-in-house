@@ -3,6 +3,63 @@ $meta_title = "Enterprise App Development Company Dubai | Logic Works";
 $meta_description = "Logic Works is a Trusted Enterprise App Development Company Dubai for iOS & Android apps, enterprise mobility and scalable business platforms.";
 $keyword = 'Enterprise App Development Company Dubai';
 $canonical = "https://logicworks.ae/enterprise-app-development-company-dubai";
+$custom_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Enterprise App Development Company Dubai",
+  "image": "https://logicworks.ae/assests/images/enterprise-app/hero-img.webp",
+  "description": "Logic Works is a Trusted Enterprise App Development Company Dubai for iOS & Android apps, enterprise mobility and scalable business platforms.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "354"
+  }
+}
+</script>
+';
+$faq_data = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How does Dubai enterprise software development support large organizations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dubai enterprise software development delivers secure, scalable platforms that align with corporate workflows, governance models, and regulatory requirements across the UAE."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why are UAE business mobile apps essential for enterprise mobility?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "UAE business mobile apps enable real-time access to systems, automate workflows, and improve operational efficiency across departments and locations."
+    }
+  },{
+    "@type": "Question",
+    "name": "What makes iOS & Android enterprise apps Dubai different from standard apps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "iOS & Android enterprise apps Dubai are built with advanced security, ERP integration, role-based access, and compliance controls designed for large-scale operations."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do cloud-based enterprise app solutions improve workflow automation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Cloud-based enterprise app solutions centralize data, automate processes, and support enterprise mobility while maintaining security, performance, and scalability."
+    }
+  }]
+}
+</script>
+';
 
 include("includes/head.php");
 include("includes/header.php");

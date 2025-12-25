@@ -4,6 +4,62 @@ $meta_description = "Expert Law Firm Mobile App Development Dubai by Logic Works
 $keyword = 'Law Firm Mobile App Development Dubai';
 $canonical = "https://logicworks.ae/law-firm-mobile-app-development-dubai";
 
+$custom_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Law Firm Mobile App Development Dubai",
+  "image": "https://logicworks.ae/assests/images/law-app-images/hero-img.webp",
+  "description": "Expert Law Firm Mobile App Development Dubai by Logic Works. Build secure, compliant apps for case management, client communication, and legal document handling.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Logic Works"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "323"
+  }
+}
+</script>
+';
+
+$faq_data = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What services do Dubai legal software developers provide for law firms?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dubai legal software developers create secure, custom mobile apps for law firms, including case management systems, document repositories, client communication tools, and compliance-focused workflow solutions."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do Law Firm Mobile Solutions UAE improve attorney-client interactions?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Law Firm Mobile Solutions UAE enables seamless scheduling, secure messaging, and real-time case updates, helping lawyers manage clients efficiently while maintaining confidentiality and enhancing engagement."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the benefits of Lawyer Client Communication Apps in Dubai?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Lawyer client communication apps streamline consultations, provide encrypted messaging, automate notifications, and allow digital document sharing, ensuring faster response times and improved client satisfaction."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do Case Management Mobile Apps Dubai and Legal Document Management Apps enhance law firm efficiency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Case management and document management apps centralize case files, track deadlines, automate workflows, and provide analytics, reducing administrative burden and supporting accurate, compliant legal operations."
+    }
+  }]
+}
+</script>
+';
 
 include("includes/head.php");
 include("includes/header.php");
