@@ -327,22 +327,22 @@ include("includes/header.php");
             <div class="row">
                 <div class="col-lg-9">
                     <div class="app-portfolio-img">
-                        <img src="assests/images/food-delivery-app/portfolio-01.webp" alt="portfolio-img-001">
-                        <img src="assests/images/food-delivery-app/portfolio-02.webp" alt="portfolio-img-002">
-                        <img src="assests/images/food-delivery-app/portfolio-03.webp" alt="portfolio-img-003">
-                        <img src="assests/images/food-delivery-app/portfolio-04.webp" alt="portfolio-img-004">
-                        <img src="assests/images/food-delivery-app/portfolio-05.webp" alt="portfolio-img-005">
-                        <img src="assests/images/food-delivery-app/portfolio-06.webp" alt="portfolio-img-006">
-                        <img src="assests/images/food-delivery-app/portfolio-07.webp" alt="portfolio-img-007">
-                        <img src="assests/images/food-delivery-app/portfolio-08.webp" alt="portfolio-img-006">
-                        <img src="assests/images/food-delivery-app/portfolio-09.webp" alt="portfolio-img-009">
-                        <img src="assests/images/food-delivery-app/portfolio-10.webp" alt="portfolio-img-0010">
-                        <img src="assests/images/food-delivery-app/portfolio-11.webp" alt="portfolio-img-0011">
-                        <img src="assests/images/food-delivery-app/portfolio-12.webp" alt="portfolio-img-0012">
+                        <img src="assests/images/real-estate-app/portfolio-01.webp" alt="portfolio-img-001">
+                        <img src="assests/images/real-estate-app/portfolio-02.webp" alt="portfolio-img-002">
+                        <img src="assests/images/real-estate-app/portfolio-03.webp" alt="portfolio-img-003">
+                        <img src="assests/images/real-estate-app/portfolio-04.webp" alt="portfolio-img-004">
+                        <img src="assests/images/real-estate-app/portfolio-05.webp" alt="portfolio-img-005">
+                        <img src="assests/images/real-estate-app/portfolio-06.webp" alt="portfolio-img-006">
+                        <img src="assests/images/real-estate-app/portfolio-07.webp" alt="portfolio-img-007">
+                        <img src="assests/images/real-estate-app/portfolio-08.webp" alt="portfolio-img-006">
+                        <img src="assests/images/real-estate-app/portfolio-09.webp" alt="portfolio-img-009">
+                        <img src="assests/images/real-estate-app/portfolio-10.webp" alt="portfolio-img-0010">
+                        <img src="assests/images/real-estate-app/portfolio-11.webp" alt="portfolio-img-0011">
+                        <img src="assests/images/real-estate-app/portfolio-12.webp" alt="portfolio-img-0012">
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <img src="assests/images/food-delivery-app/portfolio-13.webp" alt="portfolio-img-13">
+                    <img src="assests/images/real-estate-app/portfolio-13.webp" alt="portfolio-img-13">
                 </div>
             </div>
         </div>

@@ -27,6 +27,7 @@ try {
     $mail->addAddress('seo@americanbranddesigner.com', 'Logic Works'); // Add a recipient
     $mail->addBCC('production8430@gmail.com'); 
     $mail->addBCC('production8411@gmail.com'); 
+    
 
     // Collect form data
     $name = $_POST['name'];
