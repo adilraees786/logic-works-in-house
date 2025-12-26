@@ -74,8 +74,7 @@ RewriteRule ^(.*)/$ /$1 [R=301,L]
 
 # -----------------------------------------
 
-# CUSTOM 404 PAGE
-
-# -----------------------------------------
-
-ErrorDocument 404 /page-not-found.php
+# Redirect non-existing pages to home (REAL redirect)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . / [R=301,L]

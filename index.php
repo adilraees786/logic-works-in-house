@@ -1060,6 +1060,18 @@ include("includes/header.php");
                                         class="img-fluid mt-3">
                                 </div>
                             </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="screen">
+                                    <img src="assests/images/landing-pages/App-10.webp" alt="mobile-app-008"
+                                        class="img-fluid mt-3">
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="screen">
+                                    <img src="assests/images/landing-pages/App-11.webp" alt="mobile-app-009"
+                                        class="img-fluid mt-3">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- WEB Tab Content -->
@@ -1139,9 +1151,9 @@ include("includes/header.php");
                             </div>
                         </div>
                     </div>
-                    <div class="text-center mt-4">
-                        <button id="toggle-button" class="btn btn-outline-primary">Load More</button>
-                    </div>
+                     <div class="text-center mt-4">
+                        <!-- <button id="toggle-button" class="btn btn-outline-primary">Load More</button> -->
+                    </div> 
                 </div>
             </div>
         </div>
@@ -1717,7 +1729,7 @@ include("includes/header.php");
     <div class="container">
         <div class="row justify-content-space-between">
             <div class="col">
-                <h2 class="text-white"><span>Frequently</span> Asked Questions</h2>
+                  <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                 <div class="faqss">
                     <div class="quwstion">
                         <button class="accordions">What is the step to build an application?</button>
@@ -1761,138 +1773,7 @@ include("includes/header.php");
     </div>
 </section>
 
-<section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-    id="hireobserverID">
-    <div class="bg-white-heading-custom">
-        <div class="container">
-            <div class="row white-bg-heading-custom-row">
-                <div class="col-md-12">
-                    <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                    <ul class="faq_section">
-                        <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Work Sets
-                                Industry Trends</a></li>
-                        <li><a href="#section-2" class="hire-tabs">The Philosophy Our App Developers Follow</a></li>
-                        <li><a href="#section-3" class="hire-tabs">How Do We Empower Growth Through Lifelong Learning
-                                and Skills Mastery</a></li>
-                        <li><a href="#section-4" class="hire-tabs">Stats that Witness the Potential of
-                                Digitalization</a></li>
-                        <li><a href="#section-5" class="hire-tabs">Logic Work's Journey of Turning Visions into
-                                Successful Apps</a></li>
-                        <li><a href="#section-6" class="hire-tabs">Pioneering Excellence in Future-Driven Digital
-                                Development</a></li>
-                        <!-- <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-lg-6 col-md-6 col-stick">
-                <main>
-                    <section class="sec-info" id="section-1">
-                        <h2>How Logic Work Sets Industry Trends</h2>
-                        <ul>
-                            <p>Logic Work is a pioneer in terms of delivering quality development services and
-                                benchmarking excellence in the field. We examine current trends and adopt advanced
-                                technologies to set ourselves apart. The yearly growth rate for the global app
-                                development market between 2022 and 2024 is projected to be 13.5%. And that’s how we
-                                know what is needed, the need to craft and personalize creativity and that’s how Logic
-                                Work is a creative developer. Using our method, customers can, will, and should thrive
-                                in this fast moving, online environment.</p>
-                        </ul>
-                    </section>
-                    <section class="sec-info" id="section-2">
-                        <h2>The Philosophy Our App Developers Follow</h2>
-                        <ul>
-                            <p>At Logic Work, we revolutionize app technology by smoothly blending user experience with
-                                functionality. In a world where 78% of users assess an app's credibility by its design,
-                                our apps not only adhere to industry norms but also establish them. We provide
-                                business-enhancing applications that are secure, engaging, and performance-oriented.</p>
-                        </ul>
-                    </section>
-                    <section class="sec-info" id="section-3">
-                        <h2>How Do We Empower Growth Through Lifelong Learning and Skills Mastery</h2>
-                        <ul>
-                            <p>Logic Work's dedication to continuous learning is the foundation of its growth and
-                                innovation. In a sector where 71% of businesses view digital transformation as their
-                                main focus, we consistently enhance our skills to leverage new technologies. This allows
-                                us to offer customers innovative and environmentally friendly solutions, promoting
-                                development in a constantly evolving digital environment.</p>
-                        </ul>
-                    </section>
-                    <section class="sec-info" id="section-4">
-                        <h2>Stats that Witness the Potential of Digitalization</h2>
-                        <ul>
-                            <p>The numbers are clear: This brings digitalization to unprecedented growth. Recent reports
-                                show that 60% of companies that invest in digital transformation enjoy higher
-                                profitability than the rest. At Logic Work, we use data-driven insights to design
-                                solutions that maximize this digital potential. We focus on improving operational
-                                efficiency as well as customer engagement in order to facilitate maximum utilization of
-                                digital opportunities.</p>
-                        </ul>
-                    </section>
-                    <section class="sec-info" id="section-5">
-                        <h2>Logic Work's Journey of Turning Visions into Successful Apps</h2>
-                        <ul>
-                            <p>There is no doubt that the digitalization results in unparalleled expansion. Recent
-                                reports indicate that 65% of firms that engage in digital transformation see increased
-                                profitability compared to their rivals. At Logic Work, we utilize data-driven analysis
-                                to create solutions that optimize digital capabilities. Our services cover everything
-                                from optimizing operational productivity to improving customer interaction, allowing
-                                businesses to take full advantage of digital possibilities.</p>
-                        </ul>
-                    </section>
-                    <section class="sec-info" id="section-6">
-                        <h2>Pioneering Excellence in Future-Driven Digital Development</h2>
-                        <ul>
-                            <p>Logic Work is leading the charge for excellence in future-focused digital development.
-                                Our bespoke, innovative solutions empower industries to thrive. With 83% of companies
-                                stating they need to increase their digital capabilities, our team develops future-ready
-                                platforms that enhance productivity, scalability, and engagement by leveraging
-                                cutting-edge technologies and industry best practices.</p>
-                        </ul>
-                    </section>
-                    <!--                     <section class="sec-info" id="section-7">
-                        <h2>5 Reasons to Trust Trango Tech for Mobile App Development in UAE</h2>
-                        <ul>
-                            <p>Trango Tech stands out as a premier choice for mobile app development in the UAE, offering a compelling array of reasons to trust their expertise and commitment to excellence:</p>
-                            <h3>1. Extensive Industry Experience</h3>
-                            <p>
-                                Having worked on mobile app development for more than 20 years, Trango Tech has successfully entered the UAE market.<br />
-                                They have a wealth of experience and ideas about the creation and implementation of successful apps in different fields including health, retail and other businesses to serving their clients’ needs.
-                            </p>
-                            <h3>2. Accomplished Results</h3>
-                            <p>
-                                The following entity has established significant experience in delivering effective mobile app solutions with proven successful mobile app projects.<br />
-                                Their portfolio consists of apps that have indeed received users’ attention and achieved high levels of engagement, smooth integration into everyday life, as well as tangible practical results for the
-                                businesses involved.
-                            </p>
-                            <h3>3. Team of Skilled Developers and Designers</h3>
-                            <p>
-                                Through a team of developers, designers, and strategists, Trango Tech guarantees the apps are developed with excellence in mind.<br />
-                                Their personnel makes efficient use of newer technologies and makes use of proven methodologies to develop superb solutions, which meet the requirements of their clients.
-                            </p>
-                            <h3>4. Client-Centric Approach</h3>
-                            <p>
-                                Trango Tech’s ultimate priority is always the satisfaction of its client. They value openness about the goals, processes, and mutual cooperation during the development of the application.<br />
-                                Starting from the conceptualization of the ideas to the construction of the solutions, and even after the implementation of the solutions, they are dedicated to the provision of solutions that meet the needs
-                                of their clients.
-                            </p>
-                            <h3>5. Quality and innovations</h3>
-                            <p>Quality assurance and constant innovation are two of Trango Tech’s primary focuses. They follow strict testing procedures to produce high quality, bug-free, secure, and scalable applications.</p>
-                            <p>Through continued market analysis on the trends and developments within the sector, they provide innovative solutions that ensure that businesses and organizations remain relevant in the market.</p>
-                        </ul>
-                    </section> -->
-                </main>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 
 
