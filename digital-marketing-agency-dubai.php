@@ -282,7 +282,7 @@ include("includes/header.php");
                 <div class="col text-center">
                     <div class="digital-btn">
                         <a href="#">Get Started</a>
-                        <a href="#" id="openPopup">Live Chat</a>
+                          <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
                     </div>
                 </div>
             </div>
