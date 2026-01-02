@@ -22,7 +22,7 @@
                     <a href="https://www.bark.com/en/gb/company/logicworks-information-technology-llc/kwqD4l/"
                         target="_blank"><img src="assests/images/Bark.webp" alt="client-Bark"></a>
                     <a href="https://www.softwareworld.co/service/logic-works-llc-reviews/" target="_blank"><img
-                            src="https://www.softwareworld.co/highly-recommended.png"
+                            src="assests/images/highly-recommended.webp"
                             style="height: 120px; width: 120px;"></a>
 
                 </div>

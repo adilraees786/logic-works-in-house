@@ -76,7 +76,7 @@
       </div>
       <div class="col-lg-3 col-md-6">
         <a href="https://www.softwareworld.co/service/logic-works-llc-reviews/"><img
-            src="https://www.softwareworld.co/highly-recommended.png"
+              src="assests/images/highly-recommended.webp"
             style="width: 120px; height: 120px; margin-top: 40px;" alt="Highly Recommended"></a>
       </div>
     </div>
