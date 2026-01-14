@@ -325,23 +325,35 @@ for (i = 0; i < acc.length; i++) {
       document.querySelector('.tab-button').click();
     });
   </script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var acc = document.getElementsByClassName("accordions");
-      for (let i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "block";
-          }
-        });
-      }
-    });
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var acc = document.getElementsByClassName("accordions");
 
-  </script>
+    for (let i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+
+        // All accordions close karo
+        for (let j = 0; j < acc.length; j++) {
+          if (acc[j] !== this) {
+            acc[j].classList.remove("active");
+            acc[j].nextElementSibling.style.display = "none";
+          }
+        }
+
+        //  current accordion toggle karo
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  });
+</script>
+
   <script>
     document.getElementById("toggle-button").addEventListener("click", function () {
       // Select the rows with class 'row-hidden'
