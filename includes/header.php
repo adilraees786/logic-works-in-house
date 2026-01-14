@@ -18,7 +18,7 @@
         <div class="popup-content popup-form" style="background-image: url(<?php echo $base_url; ?>assests/images/popup-background.jpg);
                width:100%; 
                max-width:700px; 
-               height:80vh; 
+               height:70vh; 
                overflow-y:auto; 
                padding:30px; 
                 box-sizing:border-box;  
@@ -111,228 +111,70 @@
                     <li class="menu-item-has-children">
                         <a href="<?php echo $base_url; ?>services">Services</a>
 
-                        <!-- Accordion Section 1 -->
+                        <!-- Mobile Accordion: Social Media Marketing -->
                         <div class="service-section">
-                            <h3 class="accordion-toggle">Logo & Branding<i class="fas fa-chevron-down"></i>
-                            </h3>
+                            <h3 class="accordion-toggle">Social Media Marketing <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>logo-design-services-dubai">
-                                        Logo
-                                        Design</a></li>
-                                <li><a href="<?php echo $base_url; ?>real-estate-logo-design-dubai">
-
-                                        Logo design Niche </a></li>
-                                <li><a href="<?php echo $base_url; ?>logo-design-company">
-                                        Logo Design
-                                        Company</a></li>
-                                <li><a href="<?php echo $base_url; ?>branding-services">
-                                        Branding</a>
-                                </li>
-                                <li><a href="<?php echo $base_url; ?>branding-dubai">Branding
-                                        Dubai
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>branding-consultancy">Branding
-                                        Consultancy
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>seo-consultancy">Branding Dubai SEO
-                                        cosultancy
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>website-designer">Branding Dubai Website
-                                        Designer
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>B2B-marketing">Branding Dubai B2B
-                                        Marketing
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>content-marketing">Branding Dubai Content
-                                        Marketing
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>perfromance-marketing">Branding Dubai Perfromance
-                                        Marketing
-                                    </a></li>
+                                <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook Advertising</a></li>
+                                <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn Advertising</a></li>
+                                <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter Advertising</a></li>
+                                <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram Advertising</a></li>
                             </ul>
                         </div>
 
-                        <!-- Accordion Section 2 -->
+                        <!-- Mobile Accordion: Web Design & Development -->
                         <div class="service-section">
-                            <h3 class="accordion-toggle">Web Design & Development <i class="fas fa-chevron-down"></i>
-                            </h3>
+                            <h3 class="accordion-toggle">Web Design & Development <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>web-design-company">
-                                        Web
-                                        Design</a></li>
-                                <li><a href="<?php echo $base_url; ?>web-design-solutions-in-dubai">
-                                        Web Design Solutions in
-                                        Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>web-development-dubai">
-                                        Web
-                                        Development Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>web-development-agency">
-                                        Web
-                                        Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>real-estate-web-development-company-dubai">Niche
-                                        Design
-                                        Web
-                                        Development
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>digital-niche-design">Digital Niche
-                                        Design
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>web-development-technology">Web
-                                        Development
-                                        Technology
-                                    </a></li>
+                                <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
+                                <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom Website Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website Maintenance & Security</a></li>
+                                <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics Designing</a></li>
+                                <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a></li>
                             </ul>
                         </div>
-                        <!-- Accordion Section 3 -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Mobile App Development<i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>android-app-development-services">
 
-                                        Android App Development Services</a></li>
-                                <li><a href="<?php echo $base_url; ?>android-app-development">
-                                        Android App Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>android-app-development-dubai">
-                                        Android App development Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>app-development-services-dubai">
-                                        App Development
-                                        Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>app-development-technology"> App
-                                        Development
-                                        Technology</a></li>
-                                <li><a href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">
-                                        App Development Niche Design
-                                    </a></li>
+                        <!-- Mobile Accordion: Digital Marketing -->
+                        <div class="service-section">
+                            <h3 class="accordion-toggle">Digital Marketing <i class="fas fa-chevron-down"></i></h3>
+                            <ul class="accordion-content">
+                                <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">TikTok Shop</a></li>
                             </ul>
                         </div>
-                        <!-- Accordion Section 4 -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Digital Marketing <i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>digital-marketing-consultancy">
-                                        Digital Marketing Consultancy</a></li>
-                                <li><a href="<?php echo $base_url; ?>digital-marketing-agency-dubai">
 
-                                        Digital Marketing agency Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>digital-marketing-agency">
-                                        Digital Marketing</a>
-                                </li>
-                                <li><a href="<?php echo $base_url; ?>perfromance-marketing">Perfromance Marketing
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>content-marketing">Content
-                                        Marketing
-                                    </a></li>
+                        <!-- Mobile Accordion: Industries -->
+                        <div class="service-section">
+                            <h3 class="accordion-toggle">Industries <i class="fas fa-chevron-down"></i></h3>
+                            <ul class="accordion-content">
+                                <li><a href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail</a></li>
+                                <li><a href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">Healthcare</a></li>
+                                <li><a href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">Real Estate</a></li>
+                                <li><a href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">Ecommerce</a></li>
+                                <li><a href="<?php echo $base_url; ?>food-delivery-app-development-company-dubai">Food</a></li>
+                                <li><a href="<?php echo $base_url; ?>insurance-app-development-company-dubai">Insurance</a></li>
+                                <li><a href="<?php echo $base_url; ?>fintech-app-development-company-dubai">Fintech</a></li>
+                                <li><a href="<?php echo $base_url; ?>enterprise-app-development-company-dubai">Enterprise</a></li>
+                                <li><a href="<?php echo $base_url; ?>dating-app-development-company-dubai">Dating</a></li>
+                                <li><a href="<?php echo $base_url; ?>automotive-app-development-company-dubai">Automotive</a></li>
+                                <li><a href="<?php echo $base_url; ?>law-firm-mobile-app-development-dubai">Law Firm</a></li>
+                                <li><a href="<?php echo $base_url; ?>hotel-app-development-services-dubai">Hotel</a></li>
+                                <li><a href="<?php echo $base_url; ?>restaurant-app-development-company-dubai">Restaurant</a></li>
+                                <li><a href="<?php echo $base_url; ?>travel-app-development-dubai">Travel</a></li>
                             </ul>
                         </div>
-                        <!-- Accordion Section 5 -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Social Media & PPC <i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>social-media-marketing-dubai">
-                                        Social Media Marketing Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>facebook-instagram-marketing-agency">Facebook &
-                                        Instagram
-                                        Marketing Agency
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>facebook-instagram-marketing-dubai">
 
-                                        Facebook Instagram Marketing Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>ppc-marketing-company">PPC
-                                        Marketing Company
-                                    </a></li>
-                                <li><a href="<?php echo $base_url; ?>adword-marketing-company">
-                                        Adword Marketing
-                                        Company</a></li>
-                                <li><a href="<?php echo $base_url; ?>google-adword-marketing-agency-dubai">Adword Niche
-                                        Design
-                                    </a></li>
-                            </ul>
-                        </div>
-                        <!-- Accordion Section 6 -->
+                        <!-- Mobile Accordion: Locations -->
                         <div class="service-section">
-                            <h3 class="accordion-toggle">SEO & Online Presence <i class="fas fa-chevron-down"></i>
-                            </h3>
+                            <h3 class="accordion-toggle">Locations <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>seo-agency-dubai">
-
-                                        Seo Agency Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>seo-company">
-                                        SEO</a>
-                                </li>
-                                <li><a href="<?php echo $base_url; ?>real-estate-seo-agency-dubai">
-
-                                        SEO niche Design</a></li>
-                                <li><a href="<?php echo $base_url; ?>online-reputataion-management">
-                                        Online Reputataion Management</a></li>
-                            </ul>
-                        </div>
-                        <!-- Accordion Section 7 -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Animation & Video <i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>2d-animation">
-                                        2D Animation</a></li>
-                                <li><a href="<?php echo $base_url; ?>3d-animation">
-                                        3D
-                                        Animation</a></li>
-                                <li><a href="<?php echo $base_url; ?>video-animation">
-                                        Video Animation</a></li>
-                            </ul>
-                        </div>
-                        <!-- Accordion Section 8 -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">AI & Automation <i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>ai-for-business-automation">
-
-                                        Ai For Business Automation</a></li>
-                                <li><a href="<?php echo $base_url; ?>ai-e-commerce">
-                                        AI for E-commerce</a>
-                                </li>
-                                <li><a href="<?php echo $base_url; ?>ai-development">
-                                        Ai Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>ai-chatbot">Ai
-                                        Chatbot
-                                    </a></li>
-                            </ul>
-                        </div>
-                        <!-- Accordion Section 9 -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Networking & Cloud <i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>network-security">
-
-                                        Networking Security</a></li>
-                                <li><a href="<?php echo $base_url; ?>business-networking-solutions">Business
-                                        Networking
-                                        Solutions
-                                    </a></li>
-                                <li><a href="network-security">Network Security</a></li>
-                                <li><a href="<?php echo $base_url; ?>iot-networking-services"> IoT Networking
-                                        Services</a></li>
-                                <li><a href="<?php echo $base_url; ?>cloud-networking">
-
-                                        Cloud Networking</a></li>
-                            </ul>
-                        </div>
-                        <!-- Accordion Section 10 -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Email & Lead Generation <i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>email-marketing-dubai">
-                                        Email Marketing Dubai</a></li>
-                                <li><a href="<?php echo $base_url; ?>email-marketing-agency">
-                                        Email Marketing Agency</a></li>
-                                <li><a href="<?php echo $base_url; ?>lead-generation">Lead
-                                        Generation
-                                    </a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae">UAE</a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi Arabia</a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-oman">Oman</a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a></li>
                             </ul>
                         </div>
                     </li>
@@ -391,424 +233,91 @@
                                                 <span class="effect-1">Service</span>
                                             </span>
                                         </a>
-                                        <ul class="sub-menu"
-                                            style="height: 500px; overflow-y: auto; overflow-x: hidden;">
-                                            <section class="services-section-head">
-                                                <!-- LEFT SIDE NAV -->
-                                                <div class="nav flex-column nav-tabs-header" id="v-tabs" role="tablist">
-                                                    <button class="nav-link-head active" id="tab1" data-bs-toggle="tab"
-                                                        data-bs-target="#content1" type="button">
-                                                        <img src="assests/images/sercices-icons/logo.png" alt=""> Logo &
-                                                        Branding
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab2" data-bs-toggle="tab"
-                                                        data-bs-target="#content2" type="button">
-                                                        <img src="assests/images/sercices-icons/web.png" alt=""> Web
-                                                        Design & Development
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab3" data-bs-toggle="tab"
-                                                        data-bs-target="#content3" type="button">
-                                                        <img src="assests/images/sercices-icons/mobile.png" alt="">
-                                                        Mobile App Development
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab4" data-bs-toggle="tab"
-                                                        data-bs-target="#content4" type="button">
-                                                        <img src="assests/images/sercices-icons/digital.png" alt="">
-                                                        Digital Marketing
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab5" data-bs-toggle="tab"
-                                                        data-bs-target="#content5" type="button">
-                                                        <img src="assests/images/sercices-icons/social.png" alt="">
-                                                        Social Media & PPC
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab6" data-bs-toggle="tab"
-                                                        data-bs-target="#content6" type="button">
-                                                        <img src="assests/images/sercices-icons/seo.png" alt=""> SEO &
-                                                        Online Presence
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab7" data-bs-toggle="tab"
-                                                        data-bs-target="#content7" type="button">
-                                                        <img src="assests/images/sercices-icons/animation.png" alt="">
-                                                        Animation & Video
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab8" data-bs-toggle="tab"
-                                                        data-bs-target="#content8" type="button">
-                                                        <img src="assests/images/sercices-icons/ai.png" alt=""> AI &
-                                                        Automation
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab9" data-bs-toggle="tab"
-                                                        data-bs-target="#content9" type="button">
-                                                        <img src="assests/images/sercices-icons/web.png" alt="">
-                                                        Networking & Cloud
-                                                    </button>
-                                                    <button class="nav-link-head" id="tab10" data-bs-toggle="tab"
-                                                        data-bs-target="#content10" type="button">
-                                                        <img src="assests/images/sercices-icons/web.png" alt=""> Email &
-                                                        Lead Generation
-                                                    </button>
+                                        <div class="mega-menu-wrapper">
+                                            <div class="mega-menu-container">
+                                                <!-- Column 1: Services -->
+                                                <div class="mega-menu-col">
+                                                    <h3 class="mega-menu-title">Services</h3>
+                                                    <ul class="mega-menu-list">
+                                                        <li><a href="javascript:void(0)" class="service-trigger" data-target="social-media">Social Media Marketing <i class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="javascript:void(0)" class="service-trigger" data-target="web-design">Web Design & Development <i class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="javascript:void(0)" class="service-trigger" data-target="digital-marketing">Digital Marketing <i class="fas fa-chevron-right"></i></a></li>
+                                                        
+                                                    </ul>
                                                 </div>
 
-                                                <!-- RIGHT SIDE CONTENT -->
-                                                <div class="tab-content-service-right tab-content">
-                                                    <div class="tab-pane-header fade show active" id="content1">
-                                                        <h3>Logo & Branding</h3>
-                                                        <ul>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>logo-design-services-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/logo-designs.png">
-                                                                    Logo
-                                                                    Design</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>real-estate-logo-design-dubai">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="logo niche design">
-                                                                    Logo design Niche </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>logo-design-company"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/logo-designs.png">
-                                                                    Logo Design
-                                                                    Company</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>branding-services"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/5.png">
-                                                                    Branding</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>branding-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Branding
-                                                                    Dubai
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>branding-consultancy"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Branding
-                                                                    Consultancy
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>seo-consultancy"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Branding Dubai SEO
-                                                                    cosultancy
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>website-designer"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Branding Dubai Website
-                                                                    Designer
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>B2B-marketing"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Branding Dubai B2B
-                                                                    Marketing
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>content-marketing"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Branding Dubai Content
-                                                                    Marketing
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>perfromance-marketing"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Branding Dubai Perfromance
-                                                                    Marketing
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
+                                                <!-- Column 2: Specific Services (Dynamic) - Hidden by Default -->
+                                                <div class="mega-menu-col" id="sub-service-col" style="display: none;">
+                                                    <h3 class="mega-menu-title" id="sub-service-title">Details</h3>
+                                                    <!-- Social Media Sub Services -->
+                                                    <ul class="mega-menu-list sub-list" id="social-media">
+                                                        <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook Advertising</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn Advertising</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter Advertising</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram Advertising</a></li>
+                                                    </ul>
 
-                                                    <div class="tab-pane-header fade" id="content2">
-                                                        <h3>Web Design & Development</h3>
-                                                        <ul>
-                                                            <li><a href="<?php echo $base_url; ?>web-design-company"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/3.png">
-                                                                    Web
-                                                                    Design</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>web-design-solutions-in-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/3.png">
-                                                                    Web Design Solutions in
-                                                                    Dubai</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>web-development-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png">
-                                                                    Web
-                                                                    Development Dubai</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>web-development-agency"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png">
-                                                                    Web
-                                                                    Development</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>real-estate-web-development-company-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="niche-design-web-development">Niche Design
-                                                                    Web
-                                                                    Development
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>digital-niche-design"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="niche-design-web-development">Digital Niche
-                                                                    Design
-                                                                </a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>web-development-technology"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="niche-design-web-development">Web
-                                                                    Development
-                                                                    Technology
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
+                                                    <!-- Web Design Sub Services -->
+                                                    <ul class="mega-menu-list sub-list split-column-list" id="web-design">
+                                                        <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom Website Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website Maintenance & Security</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics Designing</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a></li>
+                                                    </ul>
+                                                    <!-- Digital Marketing Sub Services -->
+                                                    <ul class="mega-menu-list sub-list split-column-list" id="digital-marketing">
+                                                        <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai ">TikTok Shop</a></li>
+                                                       
+                                                    </ul>
 
-                                                    <div class="tab-pane-header fade" id="content3">
-                                                        <h3>Mobile App Development</h3>
-                                                        <ul>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>android-app-development-services">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Android App Development Services">
-                                                                    Android App Development Services</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>android-app-development"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Android App Development Services">
-                                                                    Android App Development</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>android-app-development-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Dubai.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Android App Development Dubai">
-                                                                    Android App development Dubai</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>app-development-services-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/6.png">
-                                                                    App Development
-                                                                    Dubai</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>app-development-technology"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt=" App Development Technology"> App
-                                                                    Development
-                                                                    Technology</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>real-estate-app-development-company-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="app-development-niche-design">
-                                                                    App Development Niche Design
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="tab-pane-header fade" id="content4">
-                                                        <h3>Digital Marketing</h3>
-                                                        <ul>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>digital-marketing-consultancy"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/digital-marketing-consultancy.png">
-                                                                    Digital Marketing Consultancy</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>digital-marketing-agency-dubai">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="seo agency dubai">
-                                                                    Digital Marketing agency Dubai</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>digital-marketing-agency"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/8.png">
-                                                                    Digital Marketing</a>
-                                                            </li>
-                                                            <li><a href="<?php echo $base_url; ?>perfromance-marketing"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Perfromance Marketing
-                                                                </a></li>
-                                                            <li><a href="<?php echo $base_url; ?>content-marketing"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Content
-                                                                    Marketing
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="tab-pane-header fade" id="content5">
-                                                        <h3>Social Media & PPC</h3>
-                                                        <ul>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>social-media-marketing-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/social-media-marketing.png">
-                                                                    Social Media Marketing Dubai</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>facebook-instagram-marketing-agency"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="facebook-&-insta">Facebook & Instagram
-                                                                    Marketing Agency
-                                                                </a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>facebook-instagram-marketing-dubai">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Android App Development Services">
-                                                                    Facebook Instagram Marketing Dubai</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>ppc-marketing-company"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">PPC
-                                                                    Marketing Company
-                                                                </a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>adword-marketing-company"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/3.png">
-                                                                    Adword Marketing
-                                                                    Company</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>google-adword-marketing-agency-dubai"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="app-development-niche-design">Adword Niche
-                                                                    Design
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="tab-pane-header fade" id="content6">
-                                                        <h3>SEO & Online Presence</h3>
-                                                        <ul>
-                                                            <li><a href="<?php echo $base_url; ?>seo-agency-dubai">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="seo agency dubai">
-                                                                    Seo Agency Dubai</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>seo-company"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/seo.png">
-                                                                    SEO</a>
-                                                            </li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>real-estate-seo-agency-dubai">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="seo niche design">
-                                                                    SEO niche Design</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>online-reputataion-management"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Dubai.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Online Reputataion Management">
-                                                                    Online Reputataion Management</a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="tab-pane-header fade" id="content7">
-                                                        <h3>Animation & Video</h3>
-                                                        <ul>
-                                                            <li><a href="<?php echo $base_url; ?>2d-animation"> <img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/2DAnimation.png"
-                                                                        class="custom-header-icon" alt="2D Animation">
-                                                                    2D Animation</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>3d-animation"> <img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/3D Animation.png"
-                                                                        class="custom-header-icon" alt="3D Animation">
-                                                                    3D
-                                                                    Animation</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>video-animation"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/7.png">
-                                                                    Video Animation</a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="tab-pane-header fade" id="content8">
-                                                        <h3>AI & Automation</h3>
-                                                        <ul>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>ai-for-business-automation">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="logo niche design">
-                                                                    Ai For Business Automation</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>ai-e-commerce"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="AI for E-commerce"> AI
-                                                                    for E-commerce</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>ai-development"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/Ai Development.png"
-                                                                        class="custom-header-icon" alt="Ai Development">
-                                                                    Ai Development</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>ai-chatbot"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Branding Dubai">Ai
-                                                                    Chatbot
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="tab-pane-header fade" id="content9">
-                                                        <h3>Networking & Cloud</h3>
-                                                        <ul>
-                                                            <li><a href="<?php echo $base_url; ?>network-security">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/net.png"
-                                                                        class="custom-header-icon" alt="Network">
-                                                                    Networking Security</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>business-networking-solutions"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="app-development-niche-design">Business
-                                                                    Networking
-                                                                    Solutions
-                                                                </a></li>
-                                                            <li><a href="network-security">Network Security</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>iot-networking-services"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/IoT Networking Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt=" IoT Networking Services"> IoT Networking
-                                                                    Services</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>cloud-networking">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="logo niche design">
-                                                                    Cloud Networking</a></li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="tab-pane-header fade" id="content10">
-                                                        <h3>Email & Lead Generation</h3>
-                                                        <ul>
-                                                            <li><a href="<?php echo $base_url; ?>email-marketing-dubai">
-                                                                    <img src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Services.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="logo niche design">
-                                                                    Email Marketing Dubai</a></li>
-                                                            <li><a
-                                                                    href="<?php echo $base_url; ?>email-marketing-agency"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/Android App Development Dubai.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="Email Marketing Agency">
-                                                                    Email Marketing Agency</a></li>
-                                                            <li><a href="<?php echo $base_url; ?>lead-generation"><img
-                                                                        src="<?php echo $base_url; ?>assests/images/menu/icon/AI for E-commerce.png"
-                                                                        class="custom-header-icon"
-                                                                        alt="app-development-niche-design">Lead
-                                                                    Generation
-                                                                </a></li>
-                                                        </ul>
-                                                    </div>
                                                 </div>
-                                            </section>
-                                        </ul>
+
+                                                <!-- Column 3: Industries -->
+                                                <div class="mega-menu-col">
+                                                    <h3 class="mega-menu-title">Industries</h3>
+                                                    <ul class="mega-menu-list split-column-list">
+                                                        <li><a href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">Healthcare</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">Real Estate</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">Ecommerce</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>food-delivery-app-development-company-dubai">Food</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>insurance-app-development-company-dubai">Insurance</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>fintech-app-development-company-dubai">Fintech</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>enterprise-app-development-company-dubai">Enterprise</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>dating-app-development-company-dubai">Dating</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>automotive-app-development-company-dubai">Automotive</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>law-firm-mobile-app-development-dubai">Law Firm</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>hotel-app-development-services-dubai">Hotel</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>restaurant-app-development-company-dubai">Restaurant</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>travel-app-development-dubai">Travel</a></li>
+                                                    </ul>
+                                                </div>
+
+                                              
+
+                                                <!-- Column 4: Locations -->
+                                                <div class="mega-menu-col">
+                                                    <h3 class="mega-menu-title">Locations</h3>
+                                                    <ul class="mega-menu-list">
+                         
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae">UAE</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi Arabia</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-oman">Oman</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a></li>
+                        
+                                                    </ul>
+                                                </div>
+                                            </div>    
+                                        </div>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="<?php echo $base_url; ?>portfolio">
-                                            <span class="link-effect">
+                                            <span class="link-effect"> 
                                                 <span class="effect-1">Portfolio</span>
                                                 <span class="effect-1">Portfolio</span>
                                             </span>
@@ -866,153 +375,160 @@
 
     <!-- header End -->
     <style>
-        .services-section-head {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 40px;
-            padding: 40px;
-            background: #0b0b0b;
-            color: #fff;
-            align-items: flex-start;
-        }
-
-
-        .nav-tabs-header {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            flex: 0 0 260px;
-        }
-
-        .nav-tabs-header .nav-link-head {
-            background: #141414;
-            border: none;
-            color: #fff;
-            text-align: left;
-            padding: 15px 15px 15px 65px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            position: relative;
-            transition: all 0.3s ease;
-            overflow: hidden;
-        }
-
-
-        .nav-tabs-header .nav-link-head::before {
-            content: "";
-            width: 40px;
-            height: 40px;
-            background: #1B1B1B;
-            border-radius: 8px;
+        .mega-menu-wrapper {
             position: absolute;
-            left: 15px;
-            transition: all 0.3s ease;
-        }
-
-
-        .nav-tabs-header .nav-link-head img {
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            left: 25px;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 1;
-            filter: brightness(0) invert(1) contrast(1.2);
-
-            transition: all 0.3s ease;
-        }
-
-        /* Hover & Active States */
-
-        .nav-tabs-header .nav-link-head.active::before {
-            background: #B454C7;
-        }
-
-        .nav-tabs-header.nav-link-head:hover {
-            background: #1c1c1c;
-        }
-
-        .nav-tabs-header .nav-link-head.active {
-            background: #B454C7;
-            color: #000;
-        }
-
-        /* Right content area */
-        .tab-content-service-right {
-            flex: 1;
-            background: #141414;
-            padding: 40px;
-            border-radius: 12px;
-            min-width: 300px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-        }
-
-        .tab-pane-header {
-            width: 100%;
+            top: 80%;
+            left: 0;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            background: #000;
+            padding: 40px 0;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.7);
             display: none;
-
+            z-index: 9999;
+            border-top: 1px solid #222;
+            border-bottom: 1px solid #222;
+            border-radius: 0;
         }
 
-        .tab-pane-header h3 {
-            font-weight: 600;
-            margin-bottom: 20px;
+        /* Hover Bridge to keep menu open when moving cursor from menu item to mega menu */
+        .mega-menu-wrapper::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: 0;
+            width: 100%;
+            height: 20px;
+            background: transparent;
         }
 
-        .tab-pane-header ul {
+        .menu-item-has-children {
+            position: relative;
+        }
+
+        @media (min-width: 992px) {
+            .nav-header .menu-item-has-children {
+                position: static !important;
+            }
+            .sticky-wrapper {
+                position: relative; /* Removed !important to allow fixed positioning on scroll */
+            }
+        }
+
+        /* Styling for the header when it becomes sticky */
+        .sticky-wrapper.header-sticky {
+            background-color: #000 !important;
+            border-bottom: 1px solid #222;
+        }
+
+        .menu-item-has-children:hover .mega-menu-wrapper {
+            display: block;
+        }
+
+        .mega-menu-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .mega-menu-col {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .mega-menu-title {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #B454C7;
+            padding-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .mega-menu-list {
             list-style: none;
             padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
         }
 
-        .tab-pane-header ul li {
-            margin-bottom: 10px;
+        .mega-menu-list li {
+            margin-bottom: 3px;
+            display: block !important;
+            float: none !important;
+            width: 100%;
         }
 
-        .tab-pane-header ul li a {
-            color: #ccc;
+        /* Split long lists into 2 columns to reduce height */
+        .split-column-list {
+            display: block;
+            column-count: 2;
+            column-gap: 30px;
+        }
+
+        /* Ensure sub-lists stay hidden until clicked even if they have the split-column class */
+        .sub-list.split-column-list:not([style*="display: block"]) {
+            display: none;
+        }
+
+        .split-column-list li {
+            break-inside: avoid;
+        }
+
+        .mega-menu-list li a {
+            color: #ffffff;
             text-decoration: none;
-            transition: 0.3s;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            display: block;
+            line-height: 1.4;
         }
 
-        .tab-pane-headerul li a:hover {
-            color: #fff;
-            text-decoration: underline;
+        .mega-menu-list li a:hover {
+            color: #B454C7;
+            padding-left: 8px;
         }
 
-        @media (max-width: 991px) {
-            .services-section-head {
-                flex-direction: column;
-            }
-
-            .tab-content-service-right {
-                margin-left: 0;
-                margin-top: 30px;
-            }
-
-            .nav-tabs-header .nav-link-head {
-                padding: 12px 12px 12px 55px;
-            }
-
-            .nav-tabs-header .nav-link-head::before {
-                width: 35px;
-                height: 35px;
-            }
-
-            .nav-tabs-header .nav-link-head img {
-                left: 22px;
-                width: 18px;
-                height: 18px;
-            }
+        .service-trigger {
+            cursor: pointer;
+            position: relative;
+            
         }
 
+        .service-trigger.active-service {
+            color: #B454C7 !important;
+            font-weight: 700;
+        }
 
+        .service-trigger i {
+            float: right;
+            margin-top: 4px;
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
 
+        .service-trigger.active-service i {
+            transform: translateX(5px);
+        }
 
+        .sub-list {
+            display: none;
+        }
+
+        #sub-placeholder {
+            color: #888;
+            font-size: 14px;
+            padding: 10px 0;
+        }
+
+        /* Mobile Menu Accordion */
         .accordion-toggle {
             cursor: pointer;
             font-size: 16px;
@@ -1037,34 +553,33 @@
             margin-bottom: 6px;
         }
 
-        .accordion-toggle.active {
-            background: #B454C7;
-        }
-
-        .accordion-toggle i {
-            transition: transform 0.3s ease;
-        }
-
         .accordion-toggle.active i {
             transform: rotate(180deg);
         }
 
-        @media (max-width: 500px) {
-            .popup-form p {
-                font-size: 30px;
-                line-height: 1;
+        @media (max-width: 991px) {
+            .mega-menu-wrapper {
+                position: static;
+                width: 100%;
+                transform: none;
+                display: none;
+                padding: 20px;
             }
-
-            .popup-form p span {
-                font-size: 50px;
+            .menu-item-has-children:hover .mega-menu-wrapper {
+                display: none; /* Hide on mobile hover, use accordion instead */
             }
         }
 
-        @media (max-width: 1024px) {
-            header .header-button a.btn.bg-theme.text-title {
-                display: none !important;
+        /* Desktop responsiveness adjustments */
+        @media (min-width: 992px) and (max-width: 1200px) {
+            .mega-menu-wrapper {
+                padding: 30px;
+                max-width: 950px;
             }
-
+            .mega-menu-col {
+                min-width: 150px;
+                gap: 15px;
+            }
         }
     </style>
     <!-- ==== -->
@@ -1091,5 +606,54 @@
                     }
                 });
             });
+
+            // Mega Menu Click Logic
+            const serviceTriggers = document.querySelectorAll('.service-trigger');
+            const subLists = document.querySelectorAll('.sub-list');
+            const subCol = document.getElementById('sub-service-col');
+            const subTitle = document.getElementById('sub-service-title');
+
+            serviceTriggers.forEach(trigger => {
+                trigger.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const targetId = this.getAttribute('data-target');
+                    const categoryName = this.innerText.trim();
+
+                    // Hide all lists and show the column
+                    subLists.forEach(list => list.style.display = 'none');
+                    if (subCol) subCol.style.display = 'block';
+
+                    // Show target list
+                    const targetList = document.getElementById(targetId);
+                    if (targetList) {
+                        targetList.style.display = 'block';
+                    }
+
+                    // Update Title
+                    if (subTitle) subTitle.innerText = categoryName;
+
+                    // Active state for trigger
+                    serviceTriggers.forEach(t => t.classList.remove('active-service'));
+                    this.classList.add('active-service');
+                });
+            });
+
+            // Reset menu when it closes (optional, but keeps UI clean)
+            const serviceMenuParent = document.querySelector('.menu-item-has-children');
+            if (serviceMenuParent) {
+                serviceMenuParent.addEventListener('mouseleave', function() {
+                    // if (subCol) subCol.style.display = 'none'; // Uncomment if you want it to reset on leave
+                });
+            }
+
+            // Prevent mega menu from closing when clicking inside
+            const megaMenu = document.querySelector('.mega-menu-wrapper');
+            if (megaMenu) {
+                megaMenu.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                });
+            }
         });
     </script>

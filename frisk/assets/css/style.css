@@ -4357,7 +4357,7 @@ img.scrol-img {
   }
 
   .popup-content form input {
-    height: 40px;
+    /* height: 40px; */
     font-size: 16px;
   }
 

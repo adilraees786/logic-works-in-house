@@ -283,7 +283,7 @@ include("includes/header.php");
 
                 <div class="col-lg-3 animate__fadeInLeft aos-init aos-animate" data-aos="fade-up">
                     <div class="app-bg">
-                        <h3 style="background-image: url(assests/images/app-development/bg-03.webp);">Protection
+                        <h3 style="background-image: url(assests/images/app-development/bg-03.webp);">Protection <br>
                             Assembly
                         </h3>
                         <hr>
