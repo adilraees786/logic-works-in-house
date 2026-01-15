@@ -383,7 +383,7 @@ include("includes/header.php");
                                         <div class="consultancy-tab-content">
                                             <div class="row align-items-center">
                                                 <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-1.webp"
+                                                    <img src="assests/images/hotel-app-images/story-img-1.webp"
                                                         alt="seo-success-001">
                                                 </div>
                                                 <div class="col-lg-5">
@@ -414,7 +414,7 @@ include("includes/header.php");
                                         <div class="consultancy-tab-content">
                                             <div class="row align-items-center">
                                                 <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-2.webp"
+                                                <img src="assests/images/hotel-app-images/story-img-2.webp"
                                                         alt="seo-success-002">
                                                 </div>
                                                 <div class="col-lg-5">
@@ -445,7 +445,7 @@ include("includes/header.php");
                                         <div class="consultancy-tab-content">
                                             <div class="row align-items-center">
                                                 <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-3.webp"
+                                                   <img src="assests/images/hotel-app-images/story-img-3.webp"
                                                         alt="seo-success-003">
                                                 </div>
                                                 <div class="col-lg-5">
@@ -475,7 +475,7 @@ include("includes/header.php");
                                         <div class="consultancy-tab-content">
                                             <div class="row align-items-center">
                                                 <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-4.webp"
+                                               <img src="assests/images/hotel-app-images/story-img-4.webp"
                                                         alt="seo-success-004">
                                                 </div>
                                                 <div class="col-lg-5">
@@ -527,7 +527,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-ecommerce-app-development-company/ser-img.webp"
+                    <img src="assests/images/hotel-app-images/hotel-app-tab-image.webp"
                         alt="tab-img-app-dev">
                 </div>
                 <div class="col-lg-6">

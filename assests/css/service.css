@@ -673,7 +673,7 @@ p.text-white.para-s {
 .line-heading .outline-text {
     /* -webkit-text-fill-color: transparent; */
     /* -webkit-text-stroke: 1px #b9b9ba; */
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     word-break: break-word;
     /* font-size: 5em; */
     font-size: 40px;
