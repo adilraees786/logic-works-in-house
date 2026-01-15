@@ -476,7 +476,7 @@ include("includes/header.php");
                                                 alt="andrpid-app-img-001"
                                                 src="assests/images/android-finance-app-development-company/img-003.webp">
                                             <h4 class="text-white text-start">Compliance-Ready Mobile App Development
-                                                Services in Saudi Arabia</h4>
+                                                Services</h4>
                                             <p class="text-white text-start">Our Mobile App Development Company in Saudi
                                                 Arabia crafts platforms designed to meet regional mandates, global
                                                 standards, and industry-specific regulations, ensuring every feature

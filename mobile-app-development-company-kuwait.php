@@ -344,15 +344,15 @@ include("includes/header.php");
                             <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 8"
                                 style="height: 26.6px;">
                                 <div class="service-thumb__head">
-                                    <h2><a>Regulatory-Aligned Development Excellence</a></h2>
-                                    <p>Our Mobile App Development Company delivers platforms that</p>
+                                    <h2><a>Security-Driven App Development</a></h2>
+                                    <p>Every feature follows a fortified structure built through trusted Mobile App</p>
                                 </div>
                             </div>
                             <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 8"
                                 style="height: 26.6px;">
                                 <div class="service-thumb__head">
-                                    <h2><a>Compliance Knowledge</a></h2>
-                                    <p>We build applications that meet FDIC, SEC, and state banking requirements.</p>
+                                    <h2><a>Regulatory-Aligned Development</a></h2>
+                                    <p>Our Mobile App Development Company delivers platforms that meet </p>
                                 </div>
                             </div>
                             <div class="swiper-slide swiper-slide-next" role="group" aria-label="4 / 8"
