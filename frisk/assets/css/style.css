@@ -11057,6 +11057,10 @@ h6 {
   h2 {
     font-size: 30px;
   }
+   .transform-row .digital-two-btn a,
+  .global-dtb a {
+   margin-top: 20px;
+  }
 }
 
 /* Extra small devices */
@@ -19246,6 +19250,19 @@ body {
   .testi-box.style2 .testi-box_text {
     font-size: 27px;
   }
+
+  .popup-form p {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 600;
+  line-height: 1;
+  color: white;
+}
+
+.popup-form p span {
+  font-size: 50px;
+  font-family: "Roboto";
+}
 }
 
 /* Extra small devices */

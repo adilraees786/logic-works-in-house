@@ -202,7 +202,7 @@ include("includes/header.php");
                                 style="height: 40px; width: 40px;">
                             E-commerce Brand
                         </button>
-                        0
+                        
                         <button class="unique-tab-button" data-target="UniqueConcept"><img
                                 src="assests/images/branding-dubai/icon-2.webp" alt="seo-icon-002">Real Estate
                             Agency</button>
@@ -428,7 +428,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+          <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
                             <button class="accordions">What separates your Facebook marketing company from other
@@ -474,118 +474,7 @@ include("includes/header.php");
         </div>
     </section>
 
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-        id="hireobserverID">
-        <div class="bg-white-heading-custom">
-            <div class="container">
-                <div class="row white-bg-heading-custom-row">
-                    <div class="col-md-12">
-                        <h2 class="section-title">Questionnaire<span>Section</span></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                        <ul class="faq_section">
-                            <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Does Expert
-                                    Facebook Advertising Build Sustainable Business Growth?</a></li>
-                            <li><a href="#section-2" class="hire-tabs">Why Does Audience Precision Matter More Than Ad
-                                    Spending Budget?</a></li>
-                            <li><a href="#section-3" class="hire-tabs">What Advanced Techniques Separate Winning
-                                    Campaigns From Average Results?</a></li>
-                            <li><a href="#section-4" class="hire-tabs">How Does Strategic Campaign Management Protect
-                                    Against Market Changes?</a></li>
-                            <!-- <li><a href="#section-5" class="hire-tabs">How does Logic Works stay current with
-                                    trends?</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-6 col-md-6 col-stick">
-                    <main>
-                        <section class="sec-info" id="section-1">
-                            <h2>How Does Expert Facebook Advertising Build Sustainable Business Growth?</h2>
-                            <ul>
-                                <p>Effective social media ads need knowledge of how platforms work and how people think.
-                                    The best Facebook marketing agency keeps up with algorithm updates and new targeting
-                                    options. Our team tests new features before using them in client campaigns.
-                                    Businesses benefit from our skills in ad formats, bidding methods, and creative
-                                    ideas that bring real results. We study the customer journey closely to design
-                                    step-by-step ad campaigns that guide people toward buying. These strategies nurture
-                                    cold audiences into warm prospects ready to buy. Companies working with us report
-                                    consistent lead flow and improved customer acquisition costs. Our systematic
-                                    approach creates predictable growth through strategic ad investments that scale
-                                    profitably.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-2">
-                            <h2>Why Does Audience Precision Matter More Than Ad Spending Budget?</h2>
-                            <ul>
-                                <p>Successful campaigns depend on reaching people ready to buy your solution. Our
-                                    Instagram advertising agency uses detailed targeting parameters to find ideal
-                                    customers. We analyze demographics, interests, online behaviors, and purchase intent
-                                    signals to build custom audiences. Lookalike modeling expands reach to similar
-                                    high-value prospects. This precision eliminates budget waste on uninterested
-                                    viewers. Companies using our targeting methods see lower costs per conversion and
-                                    higher return on ad spend. We divide audiences into cold, warm, and hot groups, then
-                                    create messages for each stage. This improves engagement and conversions. Every
-                                    targeting choice is based on data, not guesswork.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-3">
-                            <h2>What Advanced Techniques Separate Winning Campaigns From Average Results?</h2>
-                            <ul>
-                                <p>Success with social ads needs testing and smart adjustments. Our agency runs split
-                                    tests on headlines, images, calls-to-action, and landing pages. We also use dynamic
-                                    tools to find the best-performing ad combinations. Retargeting sequences recapture
-                                    website visitors with specific messaging based on pages viewed. Video content
-                                    receives special attention since it generates higher engagement rates. Custom
-                                    conversion events track valuable actions beyond basic purchases. These methods
-                                    produce stronger campaign performance and better returns. Clients see improved
-                                    quality scores and expanded reach without increased spending. We focus on building
-                                    sustainable systems that generate consistent results. Our testing framework
-                                    identifies winning formulas that can scale across larger budgets while maintaining
-                                    profitability.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-4">
-                            <h2>How Does Strategic Campaign Management Protect Against Market Changes?</h2>
-                            <ul>
-                                <p>Platform algorithms and user behaviors shift constantly in social media. Our team
-                                    monitors Meta policy updates, feature releases, and industry changes that affect
-                                    campaign performance. We adjust strategies proactively rather than reacting after
-                                    results decline. Diversified campaign structures spread risk across multiple ad sets
-                                    and creative variations. Regular creative refreshes prevent ad fatigue that kills
-                                    performance. Budget pacing controls ensure spending aligns with conversion windows
-                                    and audience availability. Companies partnering with our Facebook marketing company
-                                    gain protection from sudden performance drops. We maintain backup campaigns and test
-                                    new approaches continuously. This preparation keeps lead flow steady even when
-                                    platforms change. Our experience managing campaigns through multiple algorithm
-                                    updates helps businesses maintain growth regardless of external factors affecting
-                                    social advertising effectiveness.</p>
-                            </ul>
-                        </section>
-                        <!-- <section class="sec-info" id="section-5">
-                            <h2>How does Logic Works stay current with trends?</h2>
-                            <ul>
-                                <p>Logic Works stays ahead of social media trends by constantly monitoring changes
-                                    in the industry. We continuously learn about the latest tools and strategies for
-                                    social media marketing. Our team is dedicated to keeping up with new platform
-                                    features and algorithm updates. We follow industry leaders and actively
-                                    participate in digital marketing communities. This helps us stay informed about
-                                    emerging trends. We also need to make routine market surveys to identify any
-                                    changes in customer behaviors. Keeping up with trends ensures our clients
-                                    benefit from the most up-to-date strategies.</p>
-                            </ul>
-                        </section> -->
-                    </main>
-                </div>
-            </div>
-        </div>
-    </section>
+  
     <?php
     include("includes/clint-review.php");
     ?>

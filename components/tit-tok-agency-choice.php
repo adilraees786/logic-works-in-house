@@ -83,13 +83,28 @@
             max-width: 250px !important;
         }
     }
+    /* Desktop / md and above → IMAGE LEFT */
+@media screen and (min-width: 768px) {
+    .custom-row {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Mobile → TEXT UP, IMAGE DOWN (normal order) */
+@media screen and (max-width: 767px) {
+    .custom-row {
+        flex-direction: column;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
     <div class="container py-5">
-        <div class="row align-items-center">
+     <div class="row align-items-center custom-row">
+
 
             <!-- LEFT SIDE TABS -->
             <div class="col-md-6">
@@ -140,7 +155,7 @@
 
                 <div class="live-chat-btns">
 
-                    <a href="#" class="live-chats">Live Chat</a>
+                     <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>

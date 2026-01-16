@@ -115,24 +115,35 @@
                         <div class="service-section">
                             <h3 class="accordion-toggle">Social Media Marketing <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook Advertising</a></li>
-                                <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn Advertising</a></li>
-                                <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter Advertising</a></li>
-                                <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram Advertising</a></li>
+                                <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook
+                                        Advertising</a></li>
+                                <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn
+                                        Advertising</a></li>
+                                <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter
+                                        Advertising</a></li>
+                                <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram
+                                        Advertising</a></li>
                             </ul>
                         </div>
 
                         <!-- Mobile Accordion: Web Design & Development -->
                         <div class="service-section">
-                            <h3 class="accordion-toggle">Web Design & Development <i class="fas fa-chevron-down"></i></h3>
+                            <h3 class="accordion-toggle">Web Design & Development <i class="fas fa-chevron-down"></i>
+                            </h3>
                             <ul class="accordion-content">
                                 <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
-                                <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom Website Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website Maintenance & Security</a></li>
-                                <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics Designing</a></li>
-                                <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a></li>
+                                <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress
+                                        Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify
+                                        Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom
+                                        Website Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website
+                                        Maintenance & Security</a></li>
+                                <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics
+                                        Designing</a></li>
+                                <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a>
+                                </li>
                             </ul>
                         </div>
 
@@ -140,7 +151,8 @@
                         <div class="service-section">
                             <h3 class="accordion-toggle">Digital Marketing <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">TikTok Shop</a></li>
+                                <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">TikTok Shop</a>
+                                </li>
                             </ul>
                         </div>
 
@@ -148,19 +160,39 @@
                         <div class="service-section">
                             <h3 class="accordion-toggle">Industries <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail</a></li>
-                                <li><a href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">Healthcare</a></li>
-                                <li><a href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">Real Estate</a></li>
-                                <li><a href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">Ecommerce</a></li>
-                                <li><a href="<?php echo $base_url; ?>food-delivery-app-development-company-dubai">Food</a></li>
-                                <li><a href="<?php echo $base_url; ?>insurance-app-development-company-dubai">Insurance</a></li>
-                                <li><a href="<?php echo $base_url; ?>fintech-app-development-company-dubai">Fintech</a></li>
-                                <li><a href="<?php echo $base_url; ?>enterprise-app-development-company-dubai">Enterprise</a></li>
-                                <li><a href="<?php echo $base_url; ?>dating-app-development-company-dubai">Dating</a></li>
-                                <li><a href="<?php echo $base_url; ?>automotive-app-development-company-dubai">Automotive</a></li>
-                                <li><a href="<?php echo $base_url; ?>law-firm-mobile-app-development-dubai">Law Firm</a></li>
-                                <li><a href="<?php echo $base_url; ?>hotel-app-development-services-dubai">Hotel</a></li>
-                                <li><a href="<?php echo $base_url; ?>restaurant-app-development-company-dubai">Restaurant</a></li>
+                                <li><a href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail</a>
+                                </li>
+                                <li><a
+                                        href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">Healthcare</a>
+                                </li>
+                                <li><a href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">Real
+                                        Estate</a></li>
+                                <li><a
+                                        href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">Ecommerce</a>
+                                </li>
+                                <li><a
+                                        href="<?php echo $base_url; ?>food-delivery-app-development-company-dubai">Food</a>
+                                </li>
+                                <li><a
+                                        href="<?php echo $base_url; ?>insurance-app-development-company-dubai">Insurance</a>
+                                </li>
+                                <li><a href="<?php echo $base_url; ?>fintech-app-development-company-dubai">Fintech</a>
+                                </li>
+                                <li><a
+                                        href="<?php echo $base_url; ?>enterprise-app-development-company-dubai">Enterprise</a>
+                                </li>
+                                <li><a href="<?php echo $base_url; ?>dating-app-development-company-dubai">Dating</a>
+                                </li>
+                                <li><a
+                                        href="<?php echo $base_url; ?>automotive-app-development-company-dubai">Automotive</a>
+                                </li>
+                                <li><a href="<?php echo $base_url; ?>law-firm-mobile-app-development-dubai">Law Firm</a>
+                                </li>
+                                <li><a href="<?php echo $base_url; ?>hotel-app-development-services-dubai">Hotel</a>
+                                </li>
+                                <li><a
+                                        href="<?php echo $base_url; ?>restaurant-app-development-company-dubai">Restaurant</a>
+                                </li>
                                 <li><a href="<?php echo $base_url; ?>travel-app-development-dubai">Travel</a></li>
                             </ul>
                         </div>
@@ -170,11 +202,15 @@
                             <h3 class="accordion-toggle">Locations <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
                                 <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae">UAE</a></li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a></li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a></li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi Arabia</a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a>
+                                </li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a>
+                                </li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi
+                                        Arabia</a></li>
                                 <li><a href="<?php echo $base_url; ?>mobile-app-development-company-oman">Oman</a></li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a></li>
+                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a>
+                                </li>
                             </ul>
                         </div>
                     </li>
@@ -239,10 +275,16 @@
                                                 <div class="mega-menu-col">
                                                     <h3 class="mega-menu-title">Services</h3>
                                                     <ul class="mega-menu-list">
-                                                        <li><a href="javascript:void(0)" class="service-trigger" data-target="social-media">Social Media Marketing <i class="fas fa-chevron-right"></i></a></li>
-                                                        <li><a href="javascript:void(0)" class="service-trigger" data-target="web-design">Web Design & Development <i class="fas fa-chevron-right"></i></a></li>
-                                                        <li><a href="javascript:void(0)" class="service-trigger" data-target="digital-marketing">Digital Marketing <i class="fas fa-chevron-right"></i></a></li>
-                                                        
+                                                        <li><a href="javascript:void(0)" class="service-trigger"
+                                                                data-target="social-media">Social Media Marketing <i
+                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="javascript:void(0)" class="service-trigger"
+                                                                data-target="web-design">Web Design & Development <i
+                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="javascript:void(0)" class="service-trigger"
+                                                                data-target="digital-marketing">Digital Marketing <i
+                                                                    class="fas fa-chevron-right"></i></a></li>
+
                                                     </ul>
                                                 </div>
 
@@ -251,26 +293,52 @@
                                                     <h3 class="mega-menu-title" id="sub-service-title">Details</h3>
                                                     <!-- Social Media Sub Services -->
                                                     <ul class="mega-menu-list sub-list" id="social-media">
-                                                        <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook Advertising</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn Advertising</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter Advertising</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram Advertising</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook
+                                                                Advertising</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn
+                                                                Advertising</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter
+                                                                Advertising</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram
+                                                                Advertising</a></li>
                                                     </ul>
 
                                                     <!-- Web Design Sub Services -->
-                                                    <ul class="mega-menu-list sub-list split-column-list" id="web-design">
-                                                        <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress Development</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify Development</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom Website Development</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website Maintenance & Security</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics Designing</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a></li>
+                                                    <ul class="mega-menu-list sub-list split-column-list"
+                                                        id="web-design">
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI
+                                                                UX Design</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress
+                                                                Development</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify
+                                                                Development</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom
+                                                                Website Development</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website
+                                                                Maintenance & Security</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics
+                                                                Designing</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain
+                                                                & Hosting</a></li>
                                                     </ul>
                                                     <!-- Digital Marketing Sub Services -->
-                                                    <ul class="mega-menu-list sub-list split-column-list" id="digital-marketing">
-                                                        <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai ">TikTok Shop</a></li>
-                                                       
+                                                    <ul class="mega-menu-list sub-list split-column-list"
+                                                        id="digital-marketing">
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai ">TikTok
+                                                                Shop</a></li>
+
                                                     </ul>
 
                                                 </div>
@@ -279,45 +347,85 @@
                                                 <div class="mega-menu-col">
                                                     <h3 class="mega-menu-title">Industries</h3>
                                                     <ul class="mega-menu-list split-column-list">
-                                                        <li><a href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">Healthcare</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">Real Estate</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">Ecommerce</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>food-delivery-app-development-company-dubai">Food</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>insurance-app-development-company-dubai">Insurance</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>fintech-app-development-company-dubai">Fintech</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>enterprise-app-development-company-dubai">Enterprise</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>dating-app-development-company-dubai">Dating</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>automotive-app-development-company-dubai">Automotive</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>law-firm-mobile-app-development-dubai">Law Firm</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>hotel-app-development-services-dubai">Hotel</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>restaurant-app-development-company-dubai">Restaurant</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>travel-app-development-dubai">Travel</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">Healthcare</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">Real
+                                                                Estate</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">Ecommerce</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>food-delivery-app-development-company-dubai">Food</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>insurance-app-development-company-dubai">Insurance</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>fintech-app-development-company-dubai">Fintech</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>enterprise-app-development-company-dubai">Enterprise</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>dating-app-development-company-dubai">Dating</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>automotive-app-development-company-dubai">Automotive</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>law-firm-mobile-app-development-dubai">Law
+                                                                Firm</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>hotel-app-development-services-dubai">Hotel</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>restaurant-app-development-company-dubai">Restaurant</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>travel-app-development-dubai">Travel</a>
+                                                        </li>
                                                     </ul>
                                                 </div>
 
-                                              
+
 
                                                 <!-- Column 4: Locations -->
                                                 <div class="mega-menu-col">
                                                     <h3 class="mega-menu-title">Locations</h3>
                                                     <ul class="mega-menu-list">
-                         
-                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae">UAE</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi Arabia</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-oman">Oman</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a></li>
-                        
+
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>mobile-app-development-company-uae">UAE</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi
+                                                                Arabia</a></li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>mobile-app-development-company-oman">Oman</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a>
+                                                        </li>
+
                                                     </ul>
                                                 </div>
-                                            </div>    
+                                            </div>
                                         </div>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="<?php echo $base_url; ?>portfolio">
-                                            <span class="link-effect"> 
+                                            <span class="link-effect">
                                                 <span class="effect-1">Portfolio</span>
                                                 <span class="effect-1">Portfolio</span>
                                             </span>
@@ -383,7 +491,7 @@
             margin-left: calc(-50vw + 50%);
             background: #000;
             padding: 40px 0;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
             display: none;
             z-index: 9999;
             border-top: 1px solid #222;
@@ -410,8 +518,10 @@
             .nav-header .menu-item-has-children {
                 position: static !important;
             }
+
             .sticky-wrapper {
-                position: relative; /* Removed !important to allow fixed positioning on scroll */
+                position: relative;
+                /* Removed !important to allow fixed positioning on scroll */
             }
         }
 
@@ -499,7 +609,7 @@
         .service-trigger {
             cursor: pointer;
             position: relative;
-            
+
         }
 
         .service-trigger.active-service {
@@ -565,8 +675,10 @@
                 display: none;
                 padding: 20px;
             }
+
             .menu-item-has-children:hover .mega-menu-wrapper {
-                display: none; /* Hide on mobile hover, use accordion instead */
+                display: none;
+                /* Hide on mobile hover, use accordion instead */
             }
         }
 
@@ -576,6 +688,7 @@
                 padding: 30px;
                 max-width: 950px;
             }
+
             .mega-menu-col {
                 min-width: 150px;
                 gap: 15px;
@@ -643,7 +756,7 @@
             // Reset menu when it closes (optional, but keeps UI clean)
             const serviceMenuParent = document.querySelector('.menu-item-has-children');
             if (serviceMenuParent) {
-                serviceMenuParent.addEventListener('mouseleave', function() {
+                serviceMenuParent.addEventListener('mouseleave', function () {
                     // if (subCol) subCol.style.display = 'none'; // Uncomment if you want it to reset on leave
                 });
             }
@@ -651,7 +764,7 @@
             // Prevent mega menu from closing when clicking inside
             const megaMenu = document.querySelector('.mega-menu-wrapper');
             if (megaMenu) {
-                megaMenu.addEventListener('click', function(e) {
+                megaMenu.addEventListener('click', function (e) {
                     e.stopPropagation();
                 });
             }
