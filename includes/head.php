@@ -166,6 +166,9 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css"
     integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Logic Works Chatbot Styles -->
+  <link rel="stylesheet" href="<?php echo $base_url; ?>frontend/chatbot.css">
+  <!-- / Logic Works Chatbot Styles -->
   <link href="https://appdigits.com/assets/css/account.css" rel="stylesheet">
   <link href="https://appdigits.com/assets/css/slick.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

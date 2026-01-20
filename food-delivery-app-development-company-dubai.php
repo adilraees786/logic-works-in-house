@@ -106,7 +106,7 @@ include("includes/header.php");
                         ordering systems with UAE specialists to secure data and enable consistent exchanges through
                         Food delivery app development services dubai.</p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat();">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -233,7 +233,9 @@ include("includes/header.php");
                     </h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
-                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
+              <a href="javascript:void(0)" onclick="openTawkChat();">Start Live Chat</a>
+
+
                     </div>
                 </div>
             </div>

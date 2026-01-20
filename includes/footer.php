@@ -169,8 +169,9 @@
 <script src="<?php echo $base_url; ?>frisk/assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<scrih4t src="./assests/js/app.js">
-  </script>
+<!-- Chatbot -->
+<script src="./assests/js/app.js"></script>
+<!--chatbot css -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -727,7 +728,7 @@ for (i = 0; i < acc.length; i++) {
 
   </script>
   <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function () {
       var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -737,15 +738,50 @@ for (i = 0; i < acc.length; i++) {
       s1.setAttribute('crossorigin', '*');
       s0.parentNode.insertBefore(s1, s0);
     })();
-  </script>
+  </script> -->
   <!--End of Tawk.to Script-->
-  <script>
+  <!-- <script>
 function openTawkChat() {
     if (typeof Tawk_API !== 'undefined') {
         Tawk_API.maximize();
     }
 }
-</script>
+</script> -->
+
+  <!-- Logic Works Chatbot Loader Integration -->
+  <script type="text/javascript">
+    window.LW_CHAT_BASE_URL = "<?php echo $base_url; ?>";
+    (function () {
+      var s1 = document.createElement("script");
+      s1.async = true;
+      s1.src = "<?php echo $base_url; ?>frontend/chatbot.js";
+      s1.charset = "UTF-8";
+      document.body.appendChild(s1);
+    })();
+  </script>
+
+  <script>
+    /**
+     * Logic Works Chatbot Control
+     * This function is triggered by "Live Chat" links.
+     * It priority opens the new Logic Works AI Chatbot.
+     */
+    function openTawkChat() {
+      if (window.LogicWorksChat && typeof window.LogicWorksChat.open === "function") {
+        window.LogicWorksChat.open();
+        return;
+      }
+
+      var chatbotBtn = document.querySelector(".logicworks-chatbot, #logicworks-chatbot");
+      if (chatbotBtn) {
+        chatbotBtn.click();
+        return;
+      }
+
+      console.warn("Chatbot not loaded yet");
+    }
+  </script>
+  <!-- / Logic Works Chatbot Loader -->
 
   </body>
 

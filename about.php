@@ -268,7 +268,7 @@ include("includes/header.php");
                 <div class="col-lg-6 col-md-6">
                     <h2 class="text-white">Get A Website Like This & Start Your Online Journey!</h2>
                     <div class="main-tow-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                        <a href="tel:+971529502258">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
@@ -285,7 +285,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Ask</span> Any Questions</h2>
+                    <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
                             <button class="accordions">What types of websites do you build?</button>
