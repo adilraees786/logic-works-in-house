@@ -439,7 +439,7 @@ include("includes/header.php");
                             </div>
                         </div>
                         <p class="text-center text-white main-head">START YOUR WEB DESIGN JOURNEY TODAY!</p>
-                        <a href="#">START NOW!</a>
+                       <a href="#" id="openPopup">START NOW!</a>
                     </div>
                 </div>
 
@@ -735,7 +735,7 @@ include("includes/header.php");
 
                 <div class="row justify-content-space-between faq-home faq-logo-deisgn">
                     <div class="col">
-                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                     <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                         <div class="faqss">
                             <div class="quwstion">
                                 <button class="accordions">What Services Does Logic Works Offer?</button>
@@ -775,109 +775,7 @@ include("includes/header.php");
                 </div>
         </section>
 
-        <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-            id="hireobserverID">
-            <div class="bg-white-heading-custom">
-                <div class="container">
-                    <div class="row white-bg-heading-custom-row">
-                        <div class="col-md-12">
-                            <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                            <ul class="faq_section">
-                                <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Work
-                                        Sets Trends in Web Development</a></li>
-                                <li><a href="#section-2" class="hire-tabs">How Logic Work Brings Exceptional Web Visions
-                                        to Life</a></li>
-                                <li><a href="#section-3" class="hire-tabs">The Numbers Prove the Power of Great Web
-                                        Development</a></li>
-                                <li><a href="#section-4" class="hire-tabs">How We Drive Business Growth Through
-                                        Innovative Websites</a></li>
-                                <li><a href="#section-5" class="hire-tabs">What Makes Our Web Development Process
-                                        Unmatched</a></li>
-                                <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
-                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-stick">
-                        <main>
-                            <section class="sec-info" id="section-1">
-                                <h2>How Logic Work Sets Trends in Web Development</h2>
-                                <ul>
-                                    <p>Logic Work leads with innovative web solutions. We use cutting-edge technologies
-                                        for unmatched results. Responsive designs ensure accessibility on all devices.
-                                        SEO optimization boosts visibility and organic traffic. User-friendly interfaces
-                                        enhance engagement and satisfaction. Scalable solutions meet businesses' future
-                                        growth needs. We prioritize speed, security, and flawless functionality.
-                                        Competitor analysis keeps us ahead of industry trends. Custom designs reflect
-                                        unique brand identities effectively. Logic Work sets benchmarks in web design
-                                        excellence.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-2">
-                                <h2>How Logic Work Brings Exceptional Web Visions to Life</h2>
-                                <ul>
-                                    <p>We transform ideas into impactful online platforms. Our team delivers visually
-                                        striking, functional designs. SEO optimization ensures better visibility and
-                                        traffic. Responsive layouts work seamlessly on all devices. Advanced features
-                                        enhance user engagement and experience. Secure coding keeps websites safe and
-                                        reliable. Scalable solutions align with business growth goals. Each project is
-                                        tailored to brand objectives. We bring creative visions to life effectively.
-                                        Your website reflects quality, innovation, and professionalism.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-3">
-                                <h2>The Numbers Prove the Power of Great Web Development</h2>
-                                <ul>
-                                    <p>Successful websites improve traffic, leads, and conversions. Responsive designs
-                                        attract mobile and desktop users. SEO-optimized websites rank higher in search
-                                        results. Fast-loading pages reduce bounce rates significantly. Engaging designs
-                                        boost visitor interaction and satisfaction. Secure, functional websites earn
-                                        user trust quickly. Analytics track measurable growth in performance metrics.
-                                        Consistent maintenance supports long-term business success online. Great web
-                                        development directly drives tangible business results. Numbers showcase the real
-                                        value of quality websites.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-4">
-                                <h2>How We Drive Business Growth Through Innovative Websites</h2>
-                                <ul>
-                                    <p>We create websites that generate more leads. SEO strategies improve visibility
-                                        and online reach. Responsive layouts boost engagement across all devices.
-                                        User-friendly designs convert visitors into loyal customers. Fast, secure
-                                        websites enhance user trust immediately. Advanced features optimize
-                                        functionality and usability. Scalable solutions support ongoing business
-                                        expansion goals. Analytics integration ensures data-driven performance
-                                        improvements. Our websites fuel revenue growth effectively for businesses.
-                                        Innovation drives business success through modern web design.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-5">
-                                <h2>What Makes Our Web Development Process Unmatched</h2>
-                                <ul>
-                                    <p>Our process focuses on client-specific business needs. In-depth research defines
-                                        project goals and strategies. Customized solutions ensure personalized user
-                                        experiences effectively. SEO optimization maximizes visibility and traffic
-                                        opportunities. Responsive designs adapt perfectly to any device. Rigorous
-                                        testing guarantees flawless website functionality before launch. Secure coding
-                                        practices protect data and user interactions. Fast-loading pages enhance both
-                                        usability and satisfaction. Consistent post-launch support ensures long-term
-                                        performance optimization. Our approach makes every project uniquely successful.
-                                    </p>
-                                </ul>
-                            </section>
-                        </main>
-                    </div>
-                </div>
-            </div>
-        </section>
+     
     </div>
 </main>
 

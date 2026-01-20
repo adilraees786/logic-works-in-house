@@ -438,7 +438,7 @@ include("includes/header.php");
                             </div>
                         </div>
                         <p class="text-center text-white main-head">START YOUR WEB DESIGN JOURNEY TODAY!</p>
-                        <a href="#">START NOW!</a>
+                   <a href="#" id="openPopup">START NOW!</a>
                     </div>
                 </div>
 
@@ -734,7 +734,7 @@ include("includes/header.php");
 
                 <div class="row justify-content-space-between faq-home faq-logo-deisgn">
                     <div class="col">
-                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                        <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                         <div class="faqss">
                             <div class="quwstion">
                                 <button class="accordions">What Services Does Logic Works Offer?</button>

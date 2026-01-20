@@ -373,7 +373,7 @@ include("includes/header.php");
                             </div>
                         </div>
                         <p class="text-center text-white main-head">START YOUR WEB DESIGN JOURNEY TODAY!</p>
-                        <a href="#">START NOW!</a>
+             <a href="#" id="openPopup">START NOW!</a>
                     </div>
                 </div>
 
