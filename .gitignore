@@ -2,4 +2,4 @@
 
 # Environment files
 
-backend/.env
+/backend/.env
