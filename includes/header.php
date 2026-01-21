@@ -345,7 +345,7 @@
 
                                                 <!-- Column 3: Industries -->
                                                 <div class="mega-menu-col">
-                                                    <h3 class="mega-menu-title">Industries</h3>
+                                                    <h3 class="mega-menu-title text-center">Industries</h3>
                                                     <ul class="mega-menu-list split-column-list">
                                                         <li><a
                                                                 href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail</a>
