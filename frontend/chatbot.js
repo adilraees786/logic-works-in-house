@@ -95,7 +95,7 @@
     const messagesContainer = document.getElementById('lw-chatbot-messages');
     const welcomeHTML = `
       <div class="lw-welcome-message">
-        <h4>👋 Welcome!</h4>
+        <h4> Welcome!</h4>
         <p>${escapeHtml(CONFIG.welcomeMessage)}</p>
         <div class="lw-quick-questions">
           ${CONFIG.quickQuestions.map(q => 
@@ -109,10 +109,25 @@
     // Add event listeners to quick question buttons
     const quickBtns = messagesContainer.querySelectorAll('.lw-quick-question-btn');
     quickBtns.forEach(btn => {
-      btn.addEventListener('click', function() {
+      btn.addEventListener('click', function(e) {
+        // Prevent this click from being treated as an outside click and stop bubbling
+        e.preventDefault();
+        e.stopPropagation();
+
         const question = this.getAttribute('data-question');
-        document.getElementById('lw-chatbot-input').value = question;
-        sendMessage();
+        const inputEl = document.getElementById('lw-chatbot-input');
+        inputEl.value = question;
+
+        // Trigger input event so UI updates (auto-resize, enable send button)
+        inputEl.dispatchEvent(new Event('input', { bubbles: true }));
+
+        // Make sure chat window is open (safeguard)
+        if (!chatState.isOpen) toggleChatbot(true);
+
+        // Use a short delay to avoid potential race conditions with other handlers
+        setTimeout(() => {
+          if (!chatState.isTyping) sendMessage();
+        }, 50);
       });
     });
   }

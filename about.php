@@ -158,7 +158,7 @@ include("includes/header.php");
                 <div class="col">
                     <h1 class="text-white">About Us</h1>
                     <ul>
-                        <li><a href="#">Home</a></li> | <li>About Us</li>
+                        <li><a href="./">Home</a></li> | <li>About Us</li>
                     </ul>
                 </div>
             </div>

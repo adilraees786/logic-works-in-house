@@ -58,10 +58,10 @@ loadEnv(__DIR__ . '/.env');
 // Configuration constants
 define('OPENAI_API_KEY', $_ENV['OPENAI_API_KEY'] ?? '');
 define('OPENAI_API_URL', 'https://api.openai.com/v1/chat/completions');
-define('GPT_MODEL', 'gpt-4o-mini');
+define('GPT_MODEL', 'gpt-4.1-nano');
 define('CHATBOT_NAME', $_ENV['CHATBOT_NAME'] ?? 'AI Assistant');
-define('MAX_COMPLETION_TOKENS', 1500);
-define('MAX_TOKENS', 1500); 
+define('MAX_COMPLETION_TOKENS', 700);
+define('MAX_TOKENS', 700); 
 define('TEMPERATURE', 0.7);
 define('RATE_LIMIT_REQUESTS', $_ENV['RATE_LIMIT_REQUESTS'] ?? 20);
 define('RATE_LIMIT_WINDOW', $_ENV['RATE_LIMIT_WINDOW'] ?? 60);
