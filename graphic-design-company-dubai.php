@@ -1,8 +1,8 @@
 <?php
-$meta_title = "Web Development Services in Dubai - Logic Works ";
-$meta_description = "Logic Works provides professional web development services in Dubai. Custom websites, SEO optimization, and responsive designs for all businesses.";
+$meta_title = "Graphic Design Company in Dubai | Logic Works";
+$meta_description = "A trusted graphic design company in Dubai offering logo design, branding, marketing assets, and digital graphics for strong brand identity.";
 $keyword = 'Web Design Company';
-$canonical = "https://logicworks.ae/web-design-company";
+$canonical = "https://logicworks.ae/graphic-design-company-dubai";
 $custom_schema = '
 <script type="application/ld+json">
 {
@@ -66,10 +66,10 @@ include("includes/header.php");
         transition: 0.5s all ease-in-out;
     }
 
-    .web-slider .swiper {
+    .graphic-design-company-dubai .web-slider .swiper {
         width: 100%;
         padding-top: 50px;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     .slid-inrr .swiper-button-prev {
@@ -308,12 +308,9 @@ include("includes/header.php");
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
-                        <h1 class="text-white">Professional <span>Graphic Design</span> company in
-                            Dubai!
+                        <h1 class="text-white"><span>Graphic Design</span> Company in Dubai – Visual Identity That Actually Connects
                         </h1>
-                        <p class="text-white">Custom websites built to perfection in Dubai. Logic Works guarantees
-                            excellence in web development services. Reach out now and get a professional website for
-                            your brand.</p>
+                        <p class="text-white">Logic Works is a leading graphic design company in Dubai, building strong visual identities that drive recognition, establish trust, and create lasting impact across every platform.</p>
                         <div class="seo-btn">
                             <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                                 <span class="link-effect">
@@ -352,85 +349,49 @@ include("includes/header.php");
             <div class="container" style="display: block;">
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-center text-white same-all">We Offer a Full Spectrum of Web Development Services
+                        <h2 class="text-center text-white same-all">What Professional Design Delivers for Your Brand
                         </h2>
-                        <p class="text-white text-center">Logic Works offers a wide range of web development services.
+                        <!-- <p class="text-white text-center">Logic Works offers a wide range of web development services.
                             Our team combines creativity with technical expertise to create visually appealing,
-                            functional, and optimized websites for search engines.</p>
+                            functional, and optimized websites for search engines.</p> -->
 
                         <div class="web-slider">
                             <div class="swiper slider-web">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">TAILORED SOLUTIONS</h2>
-                                            <p class="text-white">We create websites that fit your business goals. Our
-                                                designs are fast and easy to navigate. We focus on a good user
-                                                experience. From start to finish, we manage every step. We ensure your
-                                                site is compatible with all devices. We provide scalable and efficient
-                                                solutions. Our team builds websites that help you succeed. Each feature
-                                                is designed to support your needs. We create custom websites for
-                                                businesses of all sizes.</p>
+                                            <h2 class="text-center text-white">Visual Brand Foundations</h2>
+                                            <p class="text-white">WWe create cohesive identity systems by combining refined logo design services, intentional color palettes, balanced typography, and structured digital standards. From stationery to interface headers, every visual element aligns seamlessly helping brands feel recognizable, consistent, and reliable over time.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">E-Commerce Web Development</h2>
-                                            <p class="text-white">We build e-commerce websites that drive sales. Our
-                                                sites include secure payment options. We ensure smooth navigation on any
-                                                device. Faster loading times improve user experience. We integrate
-                                                features like advanced search and inventory management. Our designs are
-                                                attractive and functional. We optimize your site for better search
-                                                engine rankings. We help you attract and retain more customers. Your
-                                                online store will be easy to use and reliable.</p>
+                                            <h2 class="text-center text-white">Campaign Design Assets</h2>
+                                            <p class="text-white">Sales decks, brochures, newsletters, and social creatives are designed to feel connected, not fragmented. Through graphic design services Dubai, each touchpoint reinforces brand personality communicating credibility and intent before a single word is read.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Frontend Web Development</h2>
-                                            <p class="text-white">We design responsive, engaging websites. Our layouts
-                                                are simple and easy to navigate. We focus on fast loading speeds. We use
-                                                modern frameworks to create smooth transitions. Our designs are
-                                                optimized for all devices. We ensure accessibility and usability for all
-                                                users. We deliver visually stunning and functional web pages. Our team
-                                                focuses on creating a positive user experience. We make sure your site
-                                                performs well across all platforms.</p>
+                                            <h2 class="text-center text-white">Interface Visual Engineering</h2>
+                                            <p class="text-white">Digital products require clarity beyond wireframes. Our UI/UX graphics design process delivers icons, illustrations, and motion elements that guide interaction naturally. Every graphic designer Dubai on our team balances hierarchy, contrast, and flow to support usability without visual clutter.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Backend Web Development</h2>
-                                            <p class="text-white">We build strong backend systems for your website. We
-                                                handle database integration and server-side scripting. Our team ensures
-                                                secure and scalable solutions. We make sure your website runs smoothly
-                                                even with high traffic. We ensure communication between front-end and
-                                                back-end systems. We focus on fast and reliable website performance. Our
-                                                backend solutions meet all technical needs. We handle everything behind
-                                                the scenes to keep your site running.</p>
+                                            <h2 class="text-center text-white">Platform-Specific Social Creatives</h2>
+                                            <p class="text-white">Each platform speaks its own visual language. We design scroll-stopping assets for Instagram, LinkedIn, and Facebook that respect format requirements and user behavior. Our digital graphic design services include flexible systems that keep brands consistent while enabling faster publishing.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Corporate Web Design</h2>
-                                            <p class="text-white">We design professional websites that reflect your
-                                                brand. Our designs are modern and easy to navigate. We focus on speed
-                                                and functionality. Our team ensures your website is optimized for search
-                                                engines. We use high-quality visuals to make a good impression. We
-                                                create websites that build trust with your audience. Whether
-                                                informational or service-based, we deliver effective designs. We focus
-                                                on a user-friendly experience to keep visitors engaged.</p>
+                                            <h2 class="text-center text-white">Physical Design Execution</h2>
+                                            <p class="text-white">Print still shapes perception. Packaging, event graphics, displays, and promotional materials are produced with precision and scale accuracy. These custom graphic design solutions account for print calibration, bleed control, and material finishes ensuring offline visuals match on-screen intent perfectly.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Landing Page Design</h2>
-                                            <p class="text-white">We create landing pages that convert visitors into
-                                                leads. Our pages have clear headlines and strong calls to action. Each
-                                                page is optimized for fast loading and mobile use. We focus on capturing
-                                                attention and encouraging actions. We design landing pages for campaigns
-                                                or simple goals. Our pages are built to improve conversion rates. We
-                                                align each design with your business objectives. We ensure every landing
-                                                page drives results for your business.</p>
+                                            <h2 class="text-center text-white">Visual Storytelling Systems</h2>
+                                            <p class="text-white">Design clarifies complex ideas. Through diagrams, charts, and narrative visuals, our 2D and 3D graphic design services transform dense information into accessible, engaging content. The result is easier to understand, easier to share, and far more memorable.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -438,15 +399,15 @@ include("includes/header.php");
                                 <div class="swiper-button-prev"></div>
                             </div>
                         </div>
-                        <p class="text-center text-white main-head">START YOUR WEB DESIGN JOURNEY TODAY!</p>
+                        <p class="text-center text-white main-head">START YOUR GRAPHIC DESIGN JOURNEY TODAY!</p>
                  <a href="#" id="openPopup">START NOW!</a>
                     </div>
                 </div>
 
                 <div class="row mt-5 serive-slider-row ssr">
                     <div class="col">
-                        <h2 class="text-center text-white same-all">OUR SERVICES</h2>
-                        <p class="text-white text-center">COMPREHENSIVE WEB DESIGN SERVICES FOR DUBAI BUSINESSES</p>
+                        <h2 class="text-center text-white same-all">End-to-End Graphic Design Services Dubai</h2>
+                        <p class="text-white text-center">As an experienced team of graphic designers in Dubai, we build visual systems designed for real-world business use not isolated mockups or single campaigns.</p>
 
                         <div class="slid-inrr">
                             <div class="swiper port-slid-mine">
@@ -455,11 +416,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/custom-solutions.webp" alt="ser-img-1">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">CUSTOM SOLUTIONS</h2>
-                                                <p class="text-white">We build websites that fit your business needs.
-                                                    Each project is carefully planned. Our solutions are unique and
-                                                    effective. We ensure your website is user-friendly and easy to
-                                                    manage. Every feature is designed to support your goals.</p>
+                                                <h2 class="text-white">Identity Architecture & Logo</h2>
+                                                <p class="text-white">We develop structured identity frameworks through advanced logo design services. Multiple creative directions, refinement stages, and delivery-ready assets ensure clarity. Color logic, typography standards, icon sets, and usage rules remain aligned across teams and departments.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -467,12 +425,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/corporate-webiste.webp" alt="ser-img-2">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">RESONSIVE DESIGN</h2>
-                                                <p class="text-white">Our websites work perfectly on all devices. They
-                                                    adjust seamlessly to desktops, tablets, and phones. We ensure smooth
-                                                    navigation and better user experience. Responsive layouts improve
-                                                    engagement and performance. This helps your website reach a wider
-                                                    audience.</p>
+                                                <h2 class="text-white">Campaign Visual Production</h2>
+                                                <p class="text-white">From promotional headers to performance-driven banners, our digital graphic design services deliver platform-ready assets. Files arrive correctly sized, exported, and organized so teams publish confidently without delays or repeated revisions.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -480,12 +434,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/seo-optimization.webp" alt="ser-img-3">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">SEO OPTIMIZATION</h2>
-                                                <p class="text-white">We design websites that rank higher on search
-                                                    engines. Our sites load quickly and follow SEO standards. Optimized
-                                                    content helps attract more visitors. Keywords are naturally
-                                                    integrated for better results. We focus on long-term online
-                                                    visibility.</p>
+                                                <h2 class="text-white">Interface Graphic Development</h2>
+                                                <p class="text-white">Purposeful details enhance digital experiences. Our website graphics design approach includes custom icons, interface illustrations, and visual components built for speed and scalability ensuring smooth collaboration between designers and developers.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -493,12 +443,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/ModernTechnologies.webp" alt="ser-img-4">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">MODERN TECHNOLOGIES</h2>
-                                                <p class="text-white">We use advanced tools to build reliable websites.
-                                                    Our team stays updated with the latest trends. Modern technologies
-                                                    ensure faster, secure, and future-ready designs. We add innovative
-                                                    features to enhance usability. Your website stays ahead of
-                                                    competitors.</p>
+                                                <h2 class="text-white">Print Execution & Physical Media</h2>
+                                                <p class="text-white">Offline visuals demand accuracy. Through custom graphic design solutions, print materials are prepared with correct color profiles, resolution standards, and bleed specifications producing consistent results across handouts, signage, and event displays.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -506,11 +452,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/WebsiteMaintenance.webp" alt="ser-img-5">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">MAITENANCE SUPPORT</h2>
-                                                <p class="text-white">We keep your website updated and secure. Our team
-                                                    fixes bugs and monitors performance. Regular updates ensure smooth
-                                                    operation. We handle backups and security patches. Maintenance keeps
-                                                    your site running without issues.</p>
+                                                <h2 class="text-white">Social Content Frameworks</h2>
+                                                <p class="text-white">Consistency matters on fast-moving platforms. Our graphic design company in Dubai delivers adaptable social templates that allow quick updates while preserving brand identity across frequent posts.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -518,11 +461,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/TimelyDelivery.webp" alt="ser-img-6">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">TIMELY DELIVERY</h2>
-                                                <p class="text-white">We deliver projects on time without delays. Our
-                                                    process is quick and efficient. You get a ready-to-launch website on
-                                                    schedule. We stick to deadlines while maintaining quality. Timely
-                                                    delivery ensures your business stays on track.</p>
+                                                <h2 class="text-white">Presentation Design Systems</h2>
+                                                <p class="text-white">Clear visuals support understanding. Using UI/UX graphics design principles, presentations and reports are structured for logical flow and hierarchy whether viewed in meetings, shared digitally, or projected on large screens.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -584,8 +524,8 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="Markrting-bnda" class="bde">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end mnhead">Launch your professional website with Logic Works.
-                        Start now!</h2>
+                    <h2 class="text-white same-all text-end mnhead">Launch Your Graphic Design Journey with Logic Works.
+                    </h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Get a quote</a>
@@ -599,35 +539,26 @@ include("includes/header.php");
         <div class="container" style="display: block;">
             <div class="row matters-row">
                 <div class="col-lg-12">
-                    <h2 class="text-white same-all">Why Every Brand Needs a Professional Website</h2>
-                    <p class="text-white">A website serves as a 24/7 marketing tool. It allows you to reach more
-                        customers. A well-optimized site directly impacts your sales and business growth.</p>
+                    <h2 class="text-white same-all">Why Modern Brands Partner With a Graphic Design Agency Dubai</h2>
+                    <!-- <p class="text-white">A website serves as a 24/7 marketing tool. It allows you to reach more
+                        customers. A well-optimized site directly impacts your sales and business growth.</p> -->
                 </div>
             </div>
 
             <div class="row matter-three-col">
                 <div class="col-lg-4" style="background-color: #59249A;">
-                    <h3 class="text-white">Builds Credibility</h3>
-                    <p class="text-white">A professional website builds trust with visitors. It shows your brand is
-                        legitimate. Customers prefer well-designed, secure sites. A strong online presence increases
-                        credibility. A professional design reflects your business values. It demonstrates reliability
-                        and expertise in your field.</p>
+                    <h3 class="text-white">Establishes Trust</h3>
+                    <p class="text-white">First impressions form instantly, and visual quality shapes perception. We design refined identities that communicate stability and care. Inconsistent or rushed visuals quietly undermine credibility before audiences engage further.</p>
                 </div>
 
                 <div class="col-lg-4" style="background-color: #59249A;">
-                    <h3 class="text-white">Boosts Visibility</h3>
-                    <p class="text-white">A professional website helps improve search rankings. SEO-optimized sites
-                        attract more visitors. High-quality content increases organic traffic. Your brand reaches a
-                        broader audience. You gain more opportunities with better visibility. More people will discover
-                        and engage with your brand.</p>
+                    <h3 class="text-white">Strengthens Recognition</h3>
+                    <p class="text-white">Distinctive visuals capture attention and encourage recall. Thoughtful palettes, sharp social creatives, and memorable marks help brands stand out. Strong execution is not decorative; it ensures messages surface clearly in crowded digital environments.</p>
                 </div>
 
                 <div class="col-lg-4" style="background-color: #59249A;">
-                    <h3 class="text-white">Increases Conversions</h3>
-                    <p class="text-white">A well-designed website encourages visitors to take action. Clear calls to
-                        action improve engagement. A seamless user experience boosts conversions. Optimized designs lead
-                        to higher sales. An easy-to-navigate site builds customer confidence. Conversions rise with
-                        better user interaction.</p>
+                    <h3 class="text-white">Drives Action</h3>
+                    <p class="text-white">Visual structure influences behavior. Intentional layouts guide focus toward key interactions. Polished assets keep users engaged longer. When clarity leads design, audiences move confidently and results improve through strategic graphic design services Dubai execution.</p>
                 </div>
             </div>
         </div>
@@ -644,26 +575,22 @@ include("includes/header.php");
             <div class="container" style="display: block;">
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-white algn-centr logo-h2">A Proven Process for Web Development Excellence</h2>
+                        <h2 class="text-white algn-centr logo-h2">High-Impact Design Backed by a Graphic Designer Dubai</h2>
                         <!-- <p class="text-white text-center">Explain your logo design process clearly so that potential clients know exactly what to expect. Keep it simple and approachable.</p> -->
                         <div class="unique-tab-container">
                             <button class="unique-tab-button active-tab"
-                                data-target="UniqueConsultation">Research</button>
-                            <button class="unique-tab-button" data-target="UniqueConcept">Strategy</button>
-                            <button class="unique-tab-button" data-target="UniqueRevisions">Creation</button>
-                            <button class="unique-tab-button" data-target="UniqueDelivery">Testing</button>
+                                data-target="UniqueConsultation">Discovery</button>
+                            <button class="unique-tab-button" data-target="UniqueConcept">Direction</button>
+                            <button class="unique-tab-button" data-target="UniqueRevisions">Concept</button>
+                            <button class="unique-tab-button" data-target="UniqueDelivery">Quality</button>
                         </div>
                         <div class="tab-delivery" style="background-image: url(assests/images/website/tab-bg.webp);">
                             <div class="unique-tab-container">
                                 <div id="UniqueConsultation" class="unique-tab-content" style="display: block;">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Research</h3>
-                                            <p>We conduct thorough research to understand goals. Audience analysis
-                                                defines your website's direction. Competitor insights help refine unique
-                                                strategies. Data-driven decisions ensure accurate project planning.
-                                                Research lays the foundation for success. Every detail is considered
-                                                during this phase. Insights guide the design and development process.
+                                            <h3>Discovery Phase</h3>
+                                            <p>Every engagement begins with understanding. Our Dubai Based graphic designers study brand purpose, audience behavior, and market context. Existing visuals, competitor styles, and category norms are evaluated alongside platform requirements and technical constraints.
                                             </p>
 
                                         </div>
@@ -676,13 +603,8 @@ include("includes/header.php");
                                 <div id="UniqueConcept" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Strategy</h3>
-                                            <p>We create a clear, actionable project roadmap. Each step aligns with your
-                                                business objectives. User experience and SEO are prioritized
-                                                strategically. Goals, features, and functionality are clearly outlined.
-                                                The strategy ensures smooth execution and measurable results. A tailored
-                                                approach drives your website's success. We focus on creating long-term
-                                                value.</p>
+                                            <h3>Direction Mapping</h3>
+                                            <p>Visual direction takes shape through audience insight and positioning strategy. Color exploration, tonal references, and curated inspiration align expectations early, reducing guesswork and minimizing revisions later.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -694,13 +616,8 @@ include("includes/header.php");
                                 <div id="UniqueRevisions" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Creation & Development</h3>
-                                            <p>Our team builds responsive, scalable, secure websites. Designs are
-                                                user-friendly and visually appealing. Backend and frontend systems work
-                                                seamlessly together. Modern tools enhance speed and usability features.
-                                                Secure coding ensures reliable website performance. Each element
-                                                supports functionality and user experience. Creation delivers a
-                                                polished, professional final product.</p>
+                                            <h3>Quality Validation</h3>
+                                            <p>Designs are reviewed in real-world contexts. Screen clarity, print accuracy, file integrity, and performance are tested. Adjustments follow validation ensuring results meet the standards expected from a trusted creative partner.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -735,38 +652,39 @@ include("includes/header.php");
 
                 <div class="row justify-content-space-between faq-home faq-logo-deisgn">
                     <div class="col">
-                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                      <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                         <div class="faqss">
                             <div class="quwstion">
-                                <button class="accordions">What Services Does Logic Works Offer?</button>
+                                <button class="accordions">What happens when partnering with a graphic design company in Dubai?</button>
                                 <div class="panel">
-                                    <p>We provide custom web development solutions. Services include e-commerce,
-                                        frontend, and backend development. We also design corporate websites and landing
-                                        pages.</p>
+                                    <p>Clients experience a clear process defined stages, shared direction, guided feedback, structured revisions, and final assets delivered ready for real-world use.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">How Do You Optimize Websites for SEO?</button>
+                                <button class="accordions">How long do typical design engagements last?</button>
                                 <div class="panel">
-                                    <p>We use keywords naturally throughout the site. Meta descriptions, titles, and
-                                        fast loading improve rankings.</p>
+                                    <p>Brand identity projects span several weeks, while smaller assets move faster. Our graphic design services Dubai balance speed and depth, adjusting timelines based on scope and feedback cycles.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">How Long Does a Project Take?</button>
+                                <button class="accordions">Who owns the completed design files after delivery?</button>
                                 <div class="panel">
-                                    <p>Timelines depend on project complexity and scope. Most projects are completed
-                                        within agreed deadlines.</p>
+                                    <p>Ownership is transferred upon completion. Clients receive editable source files, exports, and full usage rights. Our graphic design agency Dubai showcases work only with prior approval.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">What Makes Your Web Development Process Unique?</button>
+                                <button class="accordions">Can a Dubai-based graphic designer collaborate remotely worldwide?</button>
                                 <div class="panel">
-                                    <p>We emphasize research, strategy, and testing. Our process delivers reliable,
-                                        scalable, and optimized solutions.</p>
+                                    <p>Yes. Our Dubai-based graphic designers work seamlessly with global teams using video calls, shared tools, and structured timelines ensuring location never limits collaboration.</p>
+                                </div>
+                            </div>
+                            <div class="quwstion">
+                                <button class="accordions">What design work can a graphic design agency Dubai manage?</button>
+                                <div class="panel">
+                                    <p>Our graphic design agency Dubai handles identities, UI visuals, campaigns, templates, illustrations, and print assets, shaping each project around brand clarity and consistent execution.</p>
                                 </div>
                             </div>
 
@@ -775,108 +693,11 @@ include("includes/header.php");
                 </div>
         </section>
 
-        <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-            id="hireobserverID">
-            <div class="bg-white-heading-custom">
-                <div class="container">
-                    <div class="row white-bg-heading-custom-row">
-                        <div class="col-md-12">
-                            <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                            <ul class="faq_section">
-                                <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Work
-                                        Sets Trends in Web Development</a></li>
-                                <li><a href="#section-2" class="hire-tabs">How Logic Work Brings Exceptional Web Visions
-                                        to Life</a></li>
-                                <li><a href="#section-3" class="hire-tabs">The Numbers Prove the Power of Great Web
-                                        Development</a></li>
-                                <li><a href="#section-4" class="hire-tabs">How We Drive Business Growth Through
-                                        Innovative Websites</a></li>
-                                <li><a href="#section-5" class="hire-tabs">What Makes Our Web Development Process
-                                        Unmatched</a></li>
-                                <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
-                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-stick">
-                        <main>
-                            <section class="sec-info" id="section-1">
-                                <h2>How Logic Work Sets Trends in Web Development</h2>
-                                <ul>
-                                    <p>Logic Work leads with innovative web solutions. We use cutting-edge technologies
-                                        for unmatched results. Responsive designs ensure accessibility on all devices.
-                                        SEO optimization boosts visibility and organic traffic. User-friendly interfaces
-                                        enhance engagement and satisfaction. Scalable solutions meet businesses' future
-                                        growth needs. We prioritize speed, security, and flawless functionality.
-                                        Competitor analysis keeps us ahead of industry trends. Custom designs reflect
-                                        unique brand identities effectively. Logic Work sets benchmarks in web design
-                                        excellence.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-2">
-                                <h2>How Logic Work Brings Exceptional Web Visions to Life</h2>
-                                <ul>
-                                    <p>We transform ideas into impactful online platforms. Our team delivers visually
-                                        striking, functional designs. SEO optimization ensures better visibility and
-                                        traffic. Responsive layouts work seamlessly on all devices. Advanced features
-                                        enhance user engagement and experience. Secure coding keeps websites safe and
-                                        reliable. Scalable solutions align with business growth goals. Each project is
-                                        tailored to brand objectives. We bring creative visions to life effectively.
-                                        Your website reflects quality, innovation, and professionalism.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-3">
-                                <h2>The Numbers Prove the Power of Great Web Development</h2>
-                                <ul>
-                                    <p>Successful websites improve traffic, leads, and conversions. Responsive designs
-                                        attract mobile and desktop users. SEO-optimized websites rank higher in search
-                                        results. Fast-loading pages reduce bounce rates significantly. Engaging designs
-                                        boost visitor interaction and satisfaction. Secure, functional websites earn
-                                        user trust quickly. Analytics track measurable growth in performance metrics.
-                                        Consistent maintenance supports long-term business success online. Great web
-                                        development directly drives tangible business results. Numbers showcase the real
-                                        value of quality websites.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-4">
-                                <h2>How We Drive Business Growth Through Innovative Websites</h2>
-                                <ul>
-                                    <p>We create websites that generate more leads. SEO strategies improve visibility
-                                        and online reach. Responsive layouts boost engagement across all devices.
-                                        User-friendly designs convert visitors into loyal customers. Fast, secure
-                                        websites enhance user trust immediately. Advanced features optimize
-                                        functionality and usability. Scalable solutions support ongoing business
-                                        expansion goals. Analytics integration ensures data-driven performance
-                                        improvements. Our websites fuel revenue growth effectively for businesses.
-                                        Innovation drives business success through modern web design.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-5">
-                                <h2>What Makes Our Web Development Process Unmatched</h2>
-                                <ul>
-                                    <p>Our process focuses on client-specific business needs. In-depth research defines
-                                        project goals and strategies. Customized solutions ensure personalized user
-                                        experiences effectively. SEO optimization maximizes visibility and traffic
-                                        opportunities. Responsive designs adapt perfectly to any device. Rigorous
-                                        testing guarantees flawless website functionality before launch. Secure coding
-                                        practices protect data and user interactions. Fast-loading pages enhance both
-                                        usability and satisfaction. Consistent post-launch support ensures long-term
-                                        performance optimization. Our approach makes every project uniquely successful.
-                                    </p>
-                                </ul>
-                            </section>
-                        </main>
-                    </div>
-                </div>
-            </div>
+         <section>
+            <?php
+            include("includes/clint-review.php");
+            ?>
+
         </section>
     </div>
 </main>

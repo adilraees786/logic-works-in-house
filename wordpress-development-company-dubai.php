@@ -1,8 +1,8 @@
 <?php
-$meta_title = "Web Development Services in Dubai - Logic Works ";
-$meta_description = "Logic Works provides professional web development services in Dubai. Custom websites, SEO optimization, and responsive designs for all businesses.";
-$keyword = 'Web Design Company';
-$canonical = "https://logicworks.ae/web-design-company";
+$meta_title = "WordPress Development Company in Dubai | Logic Works";
+$meta_description = "Leading WordPress development company in Dubai offering custom website design and WooCommerce development to drive performance and online growth.";
+$keyword = 'WordPress Development';
+$canonical = "https://logicworks.ae/wordpress-development-company-dubai";
 $custom_schema = '
 <script type="application/ld+json">
 {
@@ -308,12 +308,14 @@ include("includes/header.php");
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
-                        <h1 class="text-white"><span>Wordpress</span> – Professional Web Development Services in
+                        <h1 class="text-white"><span>Wordpress</span> Development Company in Dubai
                             Dubai!
                         </h1>
-                        <p class="text-white">Custom websites built to perfection in Dubai. Logic Works guarantees
-                            excellence in web development services. Reach out now and get a professional website for
-                            your brand.</p>
+                        <p class="text-white">As a leading WordPress development company in Dubai, LogicWorks builds
+                            high-performance digital platforms designed to compete in demanding regional and global
+                            markets. We specialize in robust WooCommerce solutions developed with precision and care.
+                            Connect with our team to transform your vision into impactful digital experiences that
+                            support long-term, sustainable growth.</p>
                         <div class="seo-btn">
                             <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                                 <span class="link-effect">
@@ -352,85 +354,87 @@ include("includes/header.php");
             <div class="container" style="display: block;">
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-center text-white same-all">We Offer a Full Spectrum of Web Development Services
+                        <h2 class="text-center text-white same-all">Wordpress Development Agency Dubai That Turns
+                            Interest Into Results
                         </h2>
-                        <p class="text-white text-center">Logic Works offers a wide range of web development services.
-                            Our team combines creativity with technical expertise to create visually appealing,
-                            functional, and optimized websites for search engines.</p>
+                        <p class="text-white text-center">We operate as a WordPress development agency in Dubai driven
+                            by purposeful execution. Every platform is researched, refined, and scaled with intent. Our
+                            builds reduce friction, enhance navigation, and convert traffic into measurable business
+                            outcomes.</p>
 
                         <div class="web-slider">
                             <div class="swiper slider-web">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">TAILORED SOLUTIONS</h2>
-                                            <p class="text-white">We create websites that fit your business goals. Our
-                                                designs are fast and easy to navigate. We focus on a good user
-                                                experience. From start to finish, we manage every step. We ensure your
-                                                site is compatible with all devices. We provide scalable and efficient
-                                                solutions. Our team builds websites that help you succeed. Each feature
-                                                is designed to support your needs. We create custom websites for
-                                                businesses of all sizes.</p>
+                                            <h2 class="text-center text-white">Purpose Aligned Digital Builds</h2>
+                                            <p class="text-white">We create platforms that align precisely with business
+                                                ambitions. Our WordPress development agency Dubai team plans streamlined
+                                                structures that feel effortless while performing at speed. Clear
+                                                navigation builds trust. From discovery to delivery, we manage each
+                                                phase with clarity and control. Compatibility across browsers and
+                                                devices comes standard, while modular development supports future
+                                                growth.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">E-Commerce Web Development</h2>
-                                            <p class="text-white">We build e-commerce websites that drive sales. Our
-                                                sites include secure payment options. We ensure smooth navigation on any
-                                                device. Faster loading times improve user experience. We integrate
-                                                features like advanced search and inventory management. Our designs are
-                                                attractive and functional. We optimize your site for better search
-                                                engine rankings. We help you attract and retain more customers. Your
-                                                online store will be easy to use and reliable.</p>
+                                            <h2 class="text-center text-white">Conversion Focused Page Crafting</h2>
+                                            <p class="text-white">We design websites that turn clicks into meaningful
+                                                engagement. As a WordPress development company in Dubai, we create
+                                                intentional layouts supported by persuasive messaging and clear
+                                                calls-to-action. Each page is optimized for speed, responsiveness, and
+                                                cross-device performance. Our structured approach enhances
+                                                long-term performance while aligning every design decision with business
+                                                objectives and measurable results.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Frontend Web Development</h2>
-                                            <p class="text-white">We design responsive, engaging websites. Our layouts
-                                                are simple and easy to navigate. We focus on fast loading speeds. We use
-                                                modern frameworks to create smooth transitions. Our designs are
-                                                optimized for all devices. We ensure accessibility and usability for all
-                                                users. We deliver visually stunning and functional web pages. Our team
-                                                focuses on creating a positive user experience. We make sure your site
-                                                performs well across all platforms.</p>
+                                            <h2 class="text-center text-white">Online Store Engineering</h2>
+                                            <p class="text-white">We build eCommerce stores designed to sell never to
+                                                guess. With WordPress development for eCommerce, transactions remain
+                                                secure, smooth, and reliable. Category flow feels intuitive, performance
+                                                builds confidence, and speed drives conversions.
+                                                Our solutions include smart product discovery, inventory management, and
+                                                technical optimization that improves visibility. Customers return
+                                                because the shopping journey feels effortless, making reliability a core
+                                                part of your brand story.
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Backend Web Development</h2>
-                                            <p class="text-white">We build strong backend systems for your website. We
-                                                handle database integration and server-side scripting. Our team ensures
-                                                secure and scalable solutions. We make sure your website runs smoothly
-                                                even with high traffic. We ensure communication between front-end and
-                                                back-end systems. We focus on fast and reliable website performance. Our
-                                                backend solutions meet all technical needs. We handle everything behind
-                                                the scenes to keep your site running.</p>
+                                            <h2 class="text-center text-white">Interactive Interface Assembly</h2>
+                                            <p class="text-white">We craft engaging interfaces that respond naturally to
+                                                users. Our WordPress developer Dubai specialists design clean,
+                                                purpose-driven layouts that load fast and feel lightweight. Smooth
+                                                transitions, modern tooling, and responsive behavior ensure consistent
+                                                experiences across all devices. Accessibility remains a priority, where
+                                                visual appeal meets functional performance to maintain long-term
+                                                stability.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Corporate Web Design</h2>
-                                            <p class="text-white">We design professional websites that reflect your
-                                                brand. Our designs are modern and easy to navigate. We focus on speed
-                                                and functionality. Our team ensures your website is optimized for search
-                                                engines. We use high-quality visuals to make a good impression. We
-                                                create websites that build trust with your audience. Whether
-                                                informational or service-based, we deliver effective designs. We focus
-                                                on a user-friendly experience to keep visitors engaged.</p>
+                                            <h2 class="text-center text-white">System Core Construction</h2>
+                                            <p class="text-white">We engineer powerful foundations that operate
+                                                seamlessly behind the scenes. Databases integrate smoothly with logic
+                                                layers while security and scalability guide every architectural
+                                                decision. Platforms remain stable during traffic spikes, communication
+                                                between systems stays fluid, and performance holds steady under pressure
+                                                allowing creativity to shine on the surface.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Landing Page Design</h2>
-                                            <p class="text-white">We create landing pages that convert visitors into
-                                                leads. Our pages have clear headlines and strong calls to action. Each
-                                                page is optimized for fast loading and mobile use. We focus on capturing
-                                                attention and encouraging actions. We design landing pages for campaigns
-                                                or simple goals. Our pages are built to improve conversion rates. We
-                                                align each design with your business objectives. We ensure every landing
-                                                page drives results for your business.</p>
+                                            <h2 class="text-center text-white">Brand Focused Site Architecture</h2>
+                                            <p class="text-white">We design refined digital presences that clearly
+                                                reflect brand identity. Through WordPress website development, each site
+                                                feels modern, approachable, and uncluttered. Search-ready structures
+                                                support discoverability, while thoughtful visuals build credibility.
+                                                Whether informational or service-driven, our architectures encourage
+                                                engagement through intuitive flow.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -438,15 +442,15 @@ include("includes/header.php");
                                 <div class="swiper-button-prev"></div>
                             </div>
                         </div>
-                        <p class="text-center text-white main-head">START YOUR WEB DESIGN JOURNEY TODAY!</p>
-                       <a href="#" id="openPopup">START NOW!</a>
+                        <p class="text-center text-white main-head">BEGIN YOUR DIGITAL BUILD EXPERIENCE NOW</p>
+                        <a href="#" id="openPopup">START NOW!</a>
                     </div>
                 </div>
 
                 <div class="row mt-5 serive-slider-row ssr">
                     <div class="col">
                         <h2 class="text-center text-white same-all">OUR SERVICES</h2>
-                        <p class="text-white text-center">COMPREHENSIVE WEB DESIGN SERVICES FOR DUBAI BUSINESSES</p>
+                        <p class="text-white text-center">WordPress Development Services Dubai</p>
 
                         <div class="slid-inrr">
                             <div class="swiper port-slid-mine">
@@ -455,11 +459,12 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/custom-solutions.webp" alt="ser-img-1">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">CUSTOM SOLUTIONS</h2>
-                                                <p class="text-white">We build websites that fit your business needs.
-                                                    Each project is carefully planned. Our solutions are unique and
-                                                    effective. We ensure your website is user-friendly and easy to
-                                                    manage. Every feature is designed to support your goals.</p>
+                                                <h2 class="text-white">BESPOKE DIGITAL STRUCTURES</h2>
+                                                <p class="text-white">We craft platforms aligned with real business
+                                                    goals. As a WordPress development company in Dubai, every build is
+                                                    planned with precision. Each solution feels distinctive, purposeful,
+                                                    and focused on progress where every element supports measurable
+                                                    objectives.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -467,12 +472,11 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/corporate-webiste.webp" alt="ser-img-2">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">RESONSIVE DESIGN</h2>
-                                                <p class="text-white">Our websites work perfectly on all devices. They
-                                                    adjust seamlessly to desktops, tablets, and phones. We ensure smooth
-                                                    navigation and better user experience. Responsive layouts improve
-                                                    engagement and performance. This helps your website reach a wider
-                                                    audience.</p>
+                                                <h2 class="text-white">ADAPTIVE LAYOUT THINKING</h2>
+                                                <p class="text-white">We design platforms built for discoverability.
+                                                    Fast-loading pages follow SEO best practices while maintaining
+                                                    clarity and structure. Organic visibility grows steadily through
+                                                    thoughtful content and technical optimization.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -480,12 +484,11 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/seo-optimization.webp" alt="ser-img-3">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">SEO OPTIMIZATION</h2>
-                                                <p class="text-white">We design websites that rank higher on search
-                                                    engines. Our sites load quickly and follow SEO standards. Optimized
-                                                    content helps attract more visitors. Keywords are naturally
-                                                    integrated for better results. We focus on long-term online
-                                                    visibility.</p>
+                                                <h2 class="text-white">ADVANCED BUILD TOOLS</h2>
+                                                <p class="text-white">We use modern technologies to deliver dependable
+                                                    results. Our WordPress development agency Dubai team stays ahead of
+                                                    innovation, applying contemporary frameworks that enhance speed,
+                                                    security, and everyday usability.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -493,12 +496,10 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/ModernTechnologies.webp" alt="ser-img-4">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">MODERN TECHNOLOGIES</h2>
-                                                <p class="text-white">We use advanced tools to build reliable websites.
-                                                    Our team stays updated with the latest trends. Modern technologies
-                                                    ensure faster, secure, and future-ready designs. We add innovative
-                                                    features to enhance usability. Your website stays ahead of
-                                                    competitors.</p>
+                                                <h2 class="text-white">ONGOING PLATFORM CARE</h2>
+                                                <p class="text-white">Performance protection continues long after
+                                                    launch. Regular updates, proactive issue resolution, secure backups,
+                                                    and monitoring ensure lasting stability and peace of mind.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -506,11 +507,10 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/WebsiteMaintenance.webp" alt="ser-img-5">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">MAITENANCE SUPPORT</h2>
-                                                <p class="text-white">We keep your website updated and secure. Our team
-                                                    fixes bugs and monitors performance. Regular updates ensure smooth
-                                                    operation. We handle backups and security patches. Maintenance keeps
-                                                    your site running without issues.</p>
+                                                <h2 class="text-white">ON SCHEDULE EXECUTION</h2>
+                                                <p class="text-white">We respect timelines without sacrificing quality.
+                                                    Delivery remains transparent, efficient, and dependable ensuring
+                                                    launches happen exactly when promised.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -584,10 +584,9 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="Markrting-bnda" class="bde">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end mnhead">Launch your professional website with Logic Works.
-                        Start now!</h2>
+                    <h2 class="text-white same-all text-end mnhead">WordPress Web Development Services</h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                        <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Get a quote</a>
                     </div>
                 </div>
@@ -599,35 +598,33 @@ include("includes/header.php");
         <div class="container" style="display: block;">
             <div class="row matters-row">
                 <div class="col-lg-12">
-                    <h2 class="text-white same-all">Why Every Brand Needs a Professional Website</h2>
-                    <p class="text-white">A website serves as a 24/7 marketing tool. It allows you to reach more
-                        customers. A well-optimized site directly impacts your sales and business growth.</p>
+                    <h2 class="text-white same-all">Professional WordPress Development Services Dubai Has to Offer</h2>
+                    <p class="text-white">We build scalable digital products that elevate ambitious founders globally
+                        through thoughtful architecture and purposeful execution.</p>
                 </div>
             </div>
 
             <div class="row matter-three-col">
                 <div class="col-lg-4" style="background-color: #59249A;">
-                    <h3 class="text-white">Builds Credibility</h3>
-                    <p class="text-white">A professional website builds trust with visitors. It shows your brand is
-                        legitimate. Customers prefer well-designed, secure sites. A strong online presence increases
-                        credibility. A professional design reflects your business values. It demonstrates reliability
-                        and expertise in your field.</p>
+                    <h3 class="text-white">Strengthens Brand Confidence</h3>
+                    <p class="text-white">A refined platform builds immediate trust. Partnering with a WordPress
+                        development company in Dubai signals credibility and professionalism. Visitors feel secure
+                        exploring polished digital spaces, while thoughtful structure reflects organizational values and
+                        capability.</p>
                 </div>
 
                 <div class="col-lg-4" style="background-color: #59249A;">
-                    <h3 class="text-white">Boosts Visibility</h3>
-                    <p class="text-white">A professional website helps improve search rankings. SEO-optimized sites
-                        attract more visitors. High-quality content increases organic traffic. Your brand reaches a
-                        broader audience. You gain more opportunities with better visibility. More people will discover
-                        and engage with your brand.</p>
+                    <h3 class="text-white">Expands Online Discovery</h3>
+                    <p class="text-white">Strategically built platforms improve search visibility and organic reach.
+                        SEO-optimized structures attract consistent traffic, extend brand presence, and open new
+                        opportunities for engagement and recognition.</p>
                 </div>
 
                 <div class="col-lg-4" style="background-color: #59249A;">
-                    <h3 class="text-white">Increases Conversions</h3>
-                    <p class="text-white">A well-designed website encourages visitors to take action. Clear calls to
-                        action improve engagement. A seamless user experience boosts conversions. Optimized designs lead
-                        to higher sales. An easy-to-navigate site builds customer confidence. Conversions rise with
-                        better user interaction.</p>
+                    <h3 class="text-white">Drives Meaningful Actions</h3>
+                    <p class="text-white">Intentional layouts guide users toward decisions. Clear calls-to-action,
+                        smooth navigation, and conversion-focused planning reduce hesitation and increase
+                        engagement—making interaction feel effortless and natural.</p>
                 </div>
             </div>
         </div>
@@ -644,26 +641,25 @@ include("includes/header.php");
             <div class="container" style="display: block;">
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-white algn-centr logo-h2">A Proven Process for Web Development Excellence</h2>
+                        <h2 class="text-white algn-centr logo-h2">A Refined Workflow Behind Outstanding Web Builds</h2>
                         <!-- <p class="text-white text-center">Explain your logo design process clearly so that potential clients know exactly what to expect. Keep it simple and approachable.</p> -->
                         <div class="unique-tab-container">
                             <button class="unique-tab-button active-tab"
-                                data-target="UniqueConsultation">Research</button>
-                            <button class="unique-tab-button" data-target="UniqueConcept">Strategy</button>
-                            <button class="unique-tab-button" data-target="UniqueRevisions">Creation</button>
-                            <button class="unique-tab-button" data-target="UniqueDelivery">Testing</button>
+                                data-target="UniqueConsultation">Discovery</button>
+                            <button class="unique-tab-button" data-target="UniqueConcept">Planning</button>
+                            <button class="unique-tab-button" data-target="UniqueRevisions">Build Phase</button>
+                            <button class="unique-tab-button" data-target="UniqueDelivery">Validation Release</button>
                         </div>
                         <div class="tab-delivery" style="background-image: url(assests/images/website/tab-bg.webp);">
                             <div class="unique-tab-container">
                                 <div id="UniqueConsultation" class="unique-tab-content" style="display: block;">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Research</h3>
-                                            <p>We conduct thorough research to understand goals. Audience analysis
-                                                defines your website's direction. Competitor insights help refine unique
-                                                strategies. Data-driven decisions ensure accurate project planning.
-                                                Research lays the foundation for success. Every detail is considered
-                                                during this phase. Insights guide the design and development process.
+                                            <h3>Discovery</h3>
+                                            <p>We begin by listening. As a WordPress development company in Dubai, we
+                                                uncover goals, audience behavior, and market positioning through
+                                                research and insight. This clarity forms the foundation for confident
+                                                progress.
                                             </p>
 
                                         </div>
@@ -676,13 +672,10 @@ include("includes/header.php");
                                 <div id="UniqueConcept" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Strategy</h3>
-                                            <p>We create a clear, actionable project roadmap. Each step aligns with your
-                                                business objectives. User experience and SEO are prioritized
-                                                strategically. Goals, features, and functionality are clearly outlined.
-                                                The strategy ensures smooth execution and measurable results. A tailored
-                                                approach drives your website's success. We focus on creating long-term
-                                                value.</p>
+                                            <h3>Planning</h3>
+                                            <p>We define a clear roadmap aligned with business objectives. Experience
+                                                flow, visibility, and structure are mapped carefully, creating a
+                                                framework that supports sustainable growth and long-term value.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -694,13 +687,10 @@ include("includes/header.php");
                                 <div id="UniqueRevisions" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Creation & Development</h3>
-                                            <p>Our team builds responsive, scalable, secure websites. Designs are
-                                                user-friendly and visually appealing. Backend and frontend systems work
-                                                seamlessly together. Modern tools enhance speed and usability features.
-                                                Secure coding ensures reliable website performance. Each element
-                                                supports functionality and user experience. Creation delivers a
-                                                polished, professional final product.</p>
+                                            <h3>Build Phase</h3>
+                                            <p>Our experts assemble secure, scalable platforms through WordPress website
+                                                development. Design and functionality integrate seamlessly, while modern
+                                                tools enhance speed, usability, and performance.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -713,13 +703,11 @@ include("includes/header.php");
                                 <div id="UniqueDelivery" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Testing & Deployment</h3>
-                                            <p>We test functionality across devices and platforms. Speed, performance,
-                                                and security are thoroughly verified. Bugs and errors are identified and
-                                                fixed. SEO is optimized before deployment for visibility. Deployment
-                                                ensures a seamless, error-free website launch. Post-launch monitoring
-                                                ensures consistent website performance. Your website is ready for
-                                                optimal results.</p>
+                                            <h3>Validation Release</h3>
+                                            <p>We test across devices and environments to ensure stability, safety, and
+                                                consistency. Performance tuning and visibility checks happen before
+                                                launch, ensuring a calm, controlled release and reliable performance
+                                                thereafter.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -735,38 +723,52 @@ include("includes/header.php");
 
                 <div class="row justify-content-space-between faq-home faq-logo-deisgn">
                     <div class="col">
-                     <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
+                        <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                         <div class="faqss">
                             <div class="quwstion">
-                                <button class="accordions">What Services Does Logic Works Offer?</button>
+                                <button class="accordions">How much does a WordPress website cost in Dubai?</button>
                                 <div class="panel">
-                                    <p>We provide custom web development solutions. Services include e-commerce,
-                                        frontend, and backend development. We also design corporate websites and landing
-                                        pages.</p>
+                                    <p>Costs depend on scope, features, and complexity. Basic sites require less
+                                        investment, while advanced functionality increases pricing. Working with a
+                                        wordpress developer in Dubai means investing in strategy, performance, and
+                                        long-term stability not just design.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">How Do You Optimize Websites for SEO?</button>
+                                <button class="accordions">What are the benefits of WordPress development?</button>
                                 <div class="panel">
-                                    <p>We use keywords naturally throughout the site. Meta descriptions, titles, and
-                                        fast loading improve rankings.</p>
+                                    <p>WordPress offers flexibility, scalability, and control. From simple updates to
+                                        future expansion, it grows with your business. Our WordPress website development
+                                        approach keeps platforms secure, adaptable, and easy to manage.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">How Long Does a Project Take?</button>
+                                <button class="accordions">Why choose a WordPress development agency in Dubai?</button>
                                 <div class="panel">
-                                    <p>Timelines depend on project complexity and scope. Most projects are completed
-                                        within agreed deadlines.</p>
+                                    <p>Local expertise makes a difference. A WordPress development agency Dubai
+                                        understands regional markets, compliance needs, and audience behavior—while
+                                        maintaining global quality standards.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">What Makes Your Web Development Process Unique?</button>
+                                <button class="accordions">Is WordPress suitable for online stores and eCommerce
+                                    projects?</button>
                                 <div class="panel">
-                                    <p>We emphasize research, strategy, and testing. Our process delivers reliable,
-                                        scalable, and optimized solutions.</p>
+                                    <p>WAbsolutely. We build conversion-driven online stores using WordPress development
+                                        for eCommerce combined with WooCommerce development services. Checkout flows
+                                        remain smooth, fast, and easy to manage as inventories grow.</p>
+                                </div>
+                            </div>
+                            <div class="quwstion">
+                                <button class="accordions">Do you offer ongoing WordPress development services in
+                                    Dubai?</button>
+                                <div class="panel">
+                                    <p>Yes. Our WordPress development services Dubai include maintenance, security
+                                        updates, optimization, and performance monitoring. Consistent support keeps
+                                        platforms stable, secure, and stress-free over time.</p>
                                 </div>
                             </div>
 
@@ -774,8 +776,13 @@ include("includes/header.php");
                     </div>
                 </div>
         </section>
+     <section>
+            <?php
+            include("includes/clint-review.php");
+            ?>
 
-     
+        </section>
+
     </div>
 </main>
 

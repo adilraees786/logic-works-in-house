@@ -1,8 +1,8 @@
 <?php
-$meta_title = "Web Development Services in Dubai - Logic Works ";
-$meta_description = "Logic Works provides professional web development services in Dubai. Custom websites, SEO optimization, and responsive designs for all businesses.";
-$keyword = 'Web Design Company';
-$canonical = "https://logicworks.ae/web-design-company";
+$meta_title = "Custom Website Development Company Dubai | Logic Works";
+$meta_description = "A trusted custom website development company in Dubai creating flexible, scalable websites with custom features and seamless integrations.";
+$keyword = 'Custom Website Development Company Dubai';
+$canonical = "https://logicworks.ae/custom-website-development-company-dubai";
 $custom_schema = '
 <script type="application/ld+json">
 {
@@ -308,12 +308,10 @@ include("includes/header.php");
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
-                        <h1 class="text-white"><span>Custom</span> – Professional Website Development company in
+                        <h1 class="text-white"><span>Custom</span> Website Development company in
                             Dubai!
                         </h1>
-                        <p class="text-white">Custom websites built to perfection in Dubai. Logic Works guarantees
-                            excellence in web development services. Reach out now and get a professional website for
-                            your brand.</p>
+                        <p class="text-white">Logic Works builds tailored platforms as a custom website development company Dubai teams trust. We deliver flexible systems through custom web development services that align technology with real business workflows ensuring platforms scale, adapt, and perform without friction.</p>
                         <div class="seo-btn">
                             <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                                 <span class="link-effect">
@@ -352,76 +350,46 @@ include("includes/header.php");
             <div class="container" style="display: block;">
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-center text-white same-all">We Offer a Full Spectrum of Web Development Services
+                        <h2 class="text-center text-white same-all">Understanding Custom Web Development Services
                         </h2>
-                        <p class="text-white text-center">Logic Works offers a wide range of web development services.
+                        <!-- <p class="text-white text-center">Logic Works offers a wide range of web development services.
                             Our team combines creativity with technical expertise to create visually appealing,
-                            functional, and optimized websites for search engines.</p>
+                            functional, and optimized websites for search engines.</p> -->
 
                         <div class="web-slider">
                             <div class="swiper slider-web">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">TAILORED SOLUTIONS</h2>
-                                            <p class="text-white">We create websites that fit your business goals. Our
-                                                designs are fast and easy to navigate. We focus on a good user
-                                                experience. From start to finish, we manage every step. We ensure your
-                                                site is compatible with all devices. We provide scalable and efficient
-                                                solutions. Our team builds websites that help you succeed. Each feature
-                                                is designed to support your needs. We create custom websites for
-                                                businesses of all sizes.</p>
+                                            <h2 class="text-center text-white">Tailored Web Solutions</h2>
+                                            <p class="text-white">Logic Works operates as a custom website development company Dubai organizations rely on for precision-built systems. Our team evaluates structure, usage depth, and scalability requirements before development begins. As a custom website development agency Dubai, solutions are delivered through CMS website development services, Webflow custom website development, and custom Wix website design each adapting cleanly to evolving digital operations.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">E-Commerce Web Development</h2>
-                                            <p class="text-white">We build e-commerce websites that drive sales. Our
-                                                sites include secure payment options. We ensure smooth navigation on any
-                                                device. Faster loading times improve user experience. We integrate
-                                                features like advanced search and inventory management. Our designs are
-                                                attractive and functional. We optimize your site for better search
-                                                engine rankings. We help you attract and retain more customers. Your
-                                                online store will be easy to use and reliable.</p>
+                                            <h2 class="text-center text-white">Enterprise-Grade Web Applications</h2>
+                                            <p class="text-white">Complex environments require architecture that performs reliably under pressure. Logic Works engineers robust platforms capable of handling layered permissions, integrations, and high-volume data flow. Each solution is crafted by an experienced custom web developer Dubai, ensuring stability for internal tools, analytics dashboards, and large-scale operational systems.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Frontend Web Development</h2>
-                                            <p class="text-white">We design responsive, engaging websites. Our layouts
-                                                are simple and easy to navigate. We focus on fast loading speeds. We use
-                                                modern frameworks to create smooth transitions. Our designs are
-                                                optimized for all devices. We ensure accessibility and usability for all
-                                                users. We deliver visually stunning and functional web pages. Our team
-                                                focuses on creating a positive user experience. We make sure your site
-                                                performs well across all platforms.</p>
+                                            <h2 class="text-center text-white">Advanced Commerce Experiences</h2>
+                                            <p class="text-white">Some businesses outgrow standard platforms quickly. Logic Works delivers custom web development services Dubai teams rely on for tailored commerce logic. Subscription models, vendor workflows, and dynamic catalogs are engineered through custom web design and development Dubai keeping flexibility central from initial build through expansion.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Backend Web Development</h2>
-                                            <p class="text-white">We build strong backend systems for your website. We
-                                                handle database integration and server-side scripting. Our team ensures
-                                                secure and scalable solutions. We make sure your website runs smoothly
-                                                even with high traffic. We ensure communication between front-end and
-                                                back-end systems. We focus on fast and reliable website performance. Our
-                                                backend solutions meet all technical needs. We handle everything behind
-                                                the scenes to keep your site running.</p>
+                                            <h2 class="text-center text-white">Membership Systems and SaaS Platforms</h2>
+                                            <p class="text-white">Secure access and structured delivery define successful membership platforms. Logic Works enhances gated systems using custom web development services Dubai, supporting dashboards, access tiers, automation, and user management. With expertise in custom Kajabi website development, we create stable environments where content access, billing, and system flow remain seamless.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
-                                            <h2 class="text-center text-white">Corporate Web Design</h2>
-                                            <p class="text-white">We design professional websites that reflect your
-                                                brand. Our designs are modern and easy to navigate. We focus on speed
-                                                and functionality. Our team ensures your website is optimized for search
-                                                engines. We use high-quality visuals to make a good impression. We
-                                                create websites that build trust with your audience. Whether
-                                                informational or service-based, we deliver effective designs. We focus
-                                                on a user-friendly experience to keep visitors engaged.</p>
+                                            <h2 class="text-center text-white">Connected Systems and Applications</h2>
+                                            <p class="text-white">Modern platforms depend on integration and automation. Logic Works provides custom web design and development Dubai that connects tools through refined APIs. PWAs extend reach across devices, while automation reduces operational friction. Built by a seasoned custom web developer Dubai, every solution reflects the standards of a forward-thinking custom website development company Dubai.</p>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <!-- <div class="swiper-slide">
                                         <div class="web-content-slider">
                                             <h2 class="text-center text-white">Landing Page Design</h2>
                                             <p class="text-white">We create landing pages that convert visitors into
@@ -432,13 +400,13 @@ include("includes/header.php");
                                                 align each design with your business objectives. We ensure every landing
                                                 page drives results for your business.</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
                             </div>
                         </div>
-                        <p class="text-center text-white main-head">START YOUR WEB DESIGN JOURNEY TODAY!</p>
+                        <p class="text-center text-white main-head">START YOUR custom website JOURNEY TODAY!</p>
                         <a href="#" id="openPopup">START NOW!</a>
                     </div>
                 </div>
@@ -446,7 +414,7 @@ include("includes/header.php");
                 <div class="row mt-5 serive-slider-row ssr">
                     <div class="col">
                         <h2 class="text-center text-white same-all">OUR SERVICES</h2>
-                        <p class="text-white text-center">COMPREHENSIVE WEB DESIGN SERVICES FOR DUBAI BUSINESSES</p>
+                        <p class="text-white text-center">Comprehensive Custom Web Development Services for Dubai</p>
 
                         <div class="slid-inrr">
                             <div class="swiper port-slid-mine">
@@ -455,11 +423,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/custom-solutions.webp" alt="ser-img-1">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">CUSTOM SOLUTIONS</h2>
-                                                <p class="text-white">We build websites that fit your business needs.
-                                                    Each project is carefully planned. Our solutions are unique and
-                                                    effective. We ensure your website is user-friendly and easy to
-                                                    manage. Every feature is designed to support your goals.</p>
+                                                <h2 class="text-white">Custom CMS Development</h2>
+                                                <p class="text-white">Content management should support flexibility, not restriction. We build CMS website development services using WordPress, Contentful, and headless frameworks that give teams full control without touching code. Custom fields, workflows, and permissions are designed to match real organizational processes.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -467,12 +432,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/corporate-webiste.webp" alt="ser-img-2">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">RESONSIVE DESIGN</h2>
-                                                <p class="text-white">Our websites work perfectly on all devices. They
-                                                    adjust seamlessly to desktops, tablets, and phones. We ensure smooth
-                                                    navigation and better user experience. Responsive layouts improve
-                                                    engagement and performance. This helps your website reach a wider
-                                                    audience.</p>
+                                                <h2 class="text-white">Webflow Custom Website Development</h2>
+                                                <p class="text-white">Webflow offers strong visual control, but custom code unlocks its full capability. We enhance Webflow custom website development with advanced animations, third-party integrations, dynamic filtering, and custom CMS logic balancing design freedom with technical depth.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -480,12 +441,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/seo-optimization.webp" alt="ser-img-3">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">SEO OPTIMIZATION</h2>
-                                                <p class="text-white">We design websites that rank higher on search
-                                                    engines. Our sites load quickly and follow SEO standards. Optimized
-                                                    content helps attract more visitors. Keywords are naturally
-                                                    integrated for better results. We focus on long-term online
-                                                    visibility.</p>
+                                                <h2 class="text-white">Platform Migration and Rebuilds</h2>
+                                                <p class="text-white">When platforms are outgrown, migration must be precise. We move systems to modern frameworks without losing data, SEO value, or functionality. URL redirects, content preservation, and performance improvements are handled carefully, while rebuilds resolve technical debt and introduce new capabilities.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -493,12 +450,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/ModernTechnologies.webp" alt="ser-img-4">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">MODERN TECHNOLOGIES</h2>
-                                                <p class="text-white">We use advanced tools to build reliable websites.
-                                                    Our team stays updated with the latest trends. Modern technologies
-                                                    ensure faster, secure, and future-ready designs. We add innovative
-                                                    features to enhance usability. Your website stays ahead of
-                                                    competitors.</p>
+                                                <h2 class="text-white">Custom Wix Website Design</h2>
+                                                <p class="text-white">Wix serves many businesses well, but growing teams often need more control. Custom Wix website design extends functionality through custom code, external integrations, and unique interactions expanding Wix’s usability without forcing immediate migration.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -506,11 +459,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/WebsiteMaintenance.webp" alt="ser-img-5">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">MAITENANCE SUPPORT</h2>
-                                                <p class="text-white">We keep your website updated and secure. Our team
-                                                    fixes bugs and monitors performance. Regular updates ensure smooth
-                                                    operation. We handle backups and security patches. Maintenance keeps
-                                                    your site running without issues.</p>
+                                                <h2 class="text-white">Database Design and Backend Systems</h2>
+                                                <p class="text-white">Strong backend architecture supports everything else. We design relational databases, apply efficient indexing, and build APIs consumed by frontend systems. Well-structured backend systems ensure performance under load and allow platforms to scale as user demand increases.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -518,11 +468,8 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/TimelyDelivery.webp" alt="ser-img-6">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">TIMELY DELIVERY</h2>
-                                                <p class="text-white">We deliver projects on time without delays. Our
-                                                    process is quick and efficient. You get a ready-to-launch website on
-                                                    schedule. We stick to deadlines while maintaining quality. Timely
-                                                    delivery ensures your business stays on track.</p>
+                                                <h2 class="text-white">Squarespace Website Development</h2>
+                                                <p class="text-white">Squarespace website development is enhanced through custom CSS, JavaScript injections, and third-party integrations. We extend Squarespace’s capabilities while preserving its ease of use—making it suitable for businesses with specific design or functional requirements.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -584,8 +531,8 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="Markrting-bnda" class="bde">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end mnhead">Launch your professional website with Logic Works.
-                        Start now!</h2>
+                    <h2 class="text-white same-all text-end mnhead">Launch your custom website with Logic Works.
+                    </h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="#" id="openPopup">Get a quote</a>
@@ -599,35 +546,26 @@ include("includes/header.php");
         <div class="container" style="display: block;">
             <div class="row matters-row">
                 <div class="col-lg-12">
-                    <h2 class="text-white same-all">Why Every Brand Needs a Professional Website</h2>
-                    <p class="text-white">A website serves as a 24/7 marketing tool. It allows you to reach more
-                        customers. A well-optimized site directly impacts your sales and business growth.</p>
+                    <h2 class="text-white same-all">Why Every Brand Needs Custom Web Developer in Dubai</h2>
+                    <!-- <p class="text-white">A website serves as a 24/7 marketing tool. It allows you to reach more
+                        customers. A well-optimized site directly impacts your sales and business growth.</p> -->
                 </div>
             </div>
 
             <div class="row matter-three-col">
                 <div class="col-lg-4" style="background-color: #59249A;">
                     <h3 class="text-white">Builds Credibility</h3>
-                    <p class="text-white">A professional website builds trust with visitors. It shows your brand is
-                        legitimate. Customers prefer well-designed, secure sites. A strong online presence increases
-                        credibility. A professional design reflects your business values. It demonstrates reliability
-                        and expertise in your field.</p>
+                    <p class="text-white">Templates often signal limitations. Custom development reflects investment and intent. When users experience refined interfaces and unique functionality, they associate that same care with your brand’s products and services.</p>
                 </div>
 
                 <div class="col-lg-4" style="background-color: #59249A;">
                     <h3 class="text-white">Boosts Visibility</h3>
-                    <p class="text-white">A professional website helps improve search rankings. SEO-optimized sites
-                        attract more visitors. High-quality content increases organic traffic. Your brand reaches a
-                        broader audience. You gain more opportunities with better visibility. More people will discover
-                        and engage with your brand.</p>
+                    <p class="text-white">Custom websites load faster, structure content more effectively, and deliver stronger user experiences. These factors directly influence search rankings. Optimized code, schema markup, and strategic content architecture help search engines understand and rank pages accurately.</p>
                 </div>
 
                 <div class="col-lg-4" style="background-color: #59249A;">
                     <h3 class="text-white">Increases Conversions</h3>
-                    <p class="text-white">A well-designed website encourages visitors to take action. Clear calls to
-                        action improve engagement. A seamless user experience boosts conversions. Optimized designs lead
-                        to higher sales. An easy-to-navigate site builds customer confidence. Conversions rise with
-                        better user interaction.</p>
+                    <p class="text-white">Custom development removes friction across user journeys. Personalized flows, optimized forms, and streamlined checkout experiences increase engagement and conversions. A custom website development company in Dubai optimizes interactions around business goals—not template constraints.</p>
                 </div>
             </div>
         </div>
@@ -644,7 +582,7 @@ include("includes/header.php");
             <div class="container" style="display: block;">
                 <div class="row">
                     <div class="col">
-                        <h2 class="text-white algn-centr logo-h2">A Proven Process for Web Development Excellence</h2>
+                        <h2 class="text-white algn-centr logo-h2">A Proven Process for Custom Development Excellence</h2>
                         <!-- <p class="text-white text-center">Explain your logo design process clearly so that potential clients know exactly what to expect. Keep it simple and approachable.</p> -->
                         <div class="unique-tab-container">
                             <button class="unique-tab-button active-tab"
@@ -659,11 +597,7 @@ include("includes/header.php");
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
                                             <h3>Research</h3>
-                                            <p>We conduct thorough research to understand goals. Audience analysis
-                                                defines your website's direction. Competitor insights help refine unique
-                                                strategies. Data-driven decisions ensure accurate project planning.
-                                                Research lays the foundation for success. Every detail is considered
-                                                during this phase. Insights guide the design and development process.
+                                            <p>Discovery begins with understanding business requirements, user behavior, technical constraints, and integration needs. We map existing systems, identify pain points, and define success metrics through analysis, interviews, and feasibility reviews.
                                             </p>
 
                                         </div>
@@ -677,12 +611,7 @@ include("includes/header.php");
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
                                             <h3>Strategy</h3>
-                                            <p>We create a clear, actionable project roadmap. Each step aligns with your
-                                                business objectives. User experience and SEO are prioritized
-                                                strategically. Goals, features, and functionality are clearly outlined.
-                                                The strategy ensures smooth execution and measurable results. A tailored
-                                                approach drives your website's success. We focus on creating long-term
-                                                value.</p>
+                                            <p>Insights translate into detailed technical planning. This includes database structures, APIs, user flows, system architecture, and infrastructure choices. Timelines account for development, testing, and deployment ensuring realistic execution.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -694,13 +623,8 @@ include("includes/header.php");
                                 <div id="UniqueRevisions" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Creation & Development</h3>
-                                            <p>Our team builds responsive, scalable, secure websites. Designs are
-                                                user-friendly and visually appealing. Backend and frontend systems work
-                                                seamlessly together. Modern tools enhance speed and usability features.
-                                                Secure coding ensures reliable website performance. Each element
-                                                supports functionality and user experience. Creation delivers a
-                                                polished, professional final product.</p>
+                                            <h3>Creation</h3>
+                                            <p>Development proceeds in structured sprints with regular reviews. Frontend and backend work advance in parallel. Clean, documented code is maintained through version control, peer reviews, and continuous integration to ensure quality at every stage.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -712,13 +636,8 @@ include("includes/header.php");
                                 <div id="UniqueDelivery" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Testing & Deployment</h3>
-                                            <p>We test functionality across devices and platforms. Speed, performance,
-                                                and security are thoroughly verified. Bugs and errors are identified and
-                                                fixed. SEO is optimized before deployment for visibility. Deployment
-                                                ensures a seamless, error-free website launch. Post-launch monitoring
-                                                ensures consistent website performance. Your website is ready for
-                                                optimal results.</p>
+                                            <h3>Testing</h3>
+                                            <p>Before launch, systems undergo comprehensive testing covering functionality, performance, security, cross-browser compatibility, and mobile responsiveness. Bugs are resolved, performance optimized, and stability confirmed under expected usage conditions.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -733,38 +652,33 @@ include("includes/header.php");
 
                 <div class="row justify-content-space-between faq-home faq-logo-deisgn">
                     <div class="col">
-                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                        <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                         <div class="faqss">
                             <div class="quwstion">
-                                <button class="accordions">What Services Does Logic Works Offer?</button>
+                                <button class="accordions">Why choose custom development over templates?</button>
                                 <div class="panel">
-                                    <p>We provide custom web development solutions. Services include e-commerce,
-                                        frontend, and backend development. We also design corporate websites and landing
-                                        pages.</p>
+                                    <p>Logic Works, a custom website development company Dubai, builds platforms tailored precisely to business operations. Unlike templates that restrict workflows, custom web development services Dubai integrate seamlessly with existing systems, scale efficiently, and evolve with changing needs delivering flexibility templates cannot offer.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">How Do You Optimize Websites for SEO?</button>
+                                <button class="accordions">How long does custom web development take?</button>
                                 <div class="panel">
-                                    <p>We use keywords naturally throughout the site. Meta descriptions, titles, and
-                                        fast loading improve rankings.</p>
+                                    <p>Timelines vary by complexity. Smaller projects typically take 6–8 weeks, mid-sized builds 10–14 weeks, and enterprise platforms 4–6 months or longer. A custom website development agency Dubai ensures milestones are clear, planning is precise, and collaboration stays efficient.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">How Long Does a Project Take?</button>
+                                <button class="accordions">Can existing platforms be enhanced?</button>
                                 <div class="panel">
-                                    <p>Timelines depend on project complexity and scope. Most projects are completed
-                                        within agreed deadlines.</p>
+                                    <p>Yes. Logic Works frequently extends WordPress, Shopify, and other systems through plugins, custom code, or headless architectures. Custom web development services Dubai enable feature expansion without full replacement migrating only when current platforms limit operations.</p>
                                 </div>
                             </div>
 
                             <div class="quwstion">
-                                <button class="accordions">What Makes Your Web Development Process Unique?</button>
+                                <button class="accordions">Is custom development more expensive than website builders?</button>
                                 <div class="panel">
-                                    <p>We emphasize research, strategy, and testing. Our process delivers reliable,
-                                        scalable, and optimized solutions.</p>
+                                    <p>Initial investment is higher, but long-term value is significantly greater. Custom web developer Dubai teams deliver full ownership, scalability, and freedom from recurring platform limitations. Template builders may cost less upfront but restrict growth. Custom web development services Dubai provide durability, control, and lasting return.</p>
                                 </div>
                             </div>
 
@@ -773,108 +687,12 @@ include("includes/header.php");
                 </div>
         </section>
 
-        <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-            id="hireobserverID">
-            <div class="bg-white-heading-custom">
-                <div class="container">
-                    <div class="row white-bg-heading-custom-row">
-                        <div class="col-md-12">
-                            <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                            <ul class="faq_section">
-                                <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Work
-                                        Sets Trends in Web Development</a></li>
-                                <li><a href="#section-2" class="hire-tabs">How Logic Work Brings Exceptional Web Visions
-                                        to Life</a></li>
-                                <li><a href="#section-3" class="hire-tabs">The Numbers Prove the Power of Great Web
-                                        Development</a></li>
-                                <li><a href="#section-4" class="hire-tabs">How We Drive Business Growth Through
-                                        Innovative Websites</a></li>
-                                <li><a href="#section-5" class="hire-tabs">What Makes Our Web Development Process
-                                        Unmatched</a></li>
-                                <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
-                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-stick">
-                        <main>
-                            <section class="sec-info" id="section-1">
-                                <h2>How Logic Work Sets Trends in Web Development</h2>
-                                <ul>
-                                    <p>Logic Work leads with innovative web solutions. We use cutting-edge technologies
-                                        for unmatched results. Responsive designs ensure accessibility on all devices.
-                                        SEO optimization boosts visibility and organic traffic. User-friendly interfaces
-                                        enhance engagement and satisfaction. Scalable solutions meet businesses' future
-                                        growth needs. We prioritize speed, security, and flawless functionality.
-                                        Competitor analysis keeps us ahead of industry trends. Custom designs reflect
-                                        unique brand identities effectively. Logic Work sets benchmarks in web design
-                                        excellence.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-2">
-                                <h2>How Logic Work Brings Exceptional Web Visions to Life</h2>
-                                <ul>
-                                    <p>We transform ideas into impactful online platforms. Our team delivers visually
-                                        striking, functional designs. SEO optimization ensures better visibility and
-                                        traffic. Responsive layouts work seamlessly on all devices. Advanced features
-                                        enhance user engagement and experience. Secure coding keeps websites safe and
-                                        reliable. Scalable solutions align with business growth goals. Each project is
-                                        tailored to brand objectives. We bring creative visions to life effectively.
-                                        Your website reflects quality, innovation, and professionalism.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-3">
-                                <h2>The Numbers Prove the Power of Great Web Development</h2>
-                                <ul>
-                                    <p>Successful websites improve traffic, leads, and conversions. Responsive designs
-                                        attract mobile and desktop users. SEO-optimized websites rank higher in search
-                                        results. Fast-loading pages reduce bounce rates significantly. Engaging designs
-                                        boost visitor interaction and satisfaction. Secure, functional websites earn
-                                        user trust quickly. Analytics track measurable growth in performance metrics.
-                                        Consistent maintenance supports long-term business success online. Great web
-                                        development directly drives tangible business results. Numbers showcase the real
-                                        value of quality websites.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-4">
-                                <h2>How We Drive Business Growth Through Innovative Websites</h2>
-                                <ul>
-                                    <p>We create websites that generate more leads. SEO strategies improve visibility
-                                        and online reach. Responsive layouts boost engagement across all devices.
-                                        User-friendly designs convert visitors into loyal customers. Fast, secure
-                                        websites enhance user trust immediately. Advanced features optimize
-                                        functionality and usability. Scalable solutions support ongoing business
-                                        expansion goals. Analytics integration ensures data-driven performance
-                                        improvements. Our websites fuel revenue growth effectively for businesses.
-                                        Innovation drives business success through modern web design.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-5">
-                                <h2>What Makes Our Web Development Process Unmatched</h2>
-                                <ul>
-                                    <p>Our process focuses on client-specific business needs. In-depth research defines
-                                        project goals and strategies. Customized solutions ensure personalized user
-                                        experiences effectively. SEO optimization maximizes visibility and traffic
-                                        opportunities. Responsive designs adapt perfectly to any device. Rigorous
-                                        testing guarantees flawless website functionality before launch. Secure coding
-                                        practices protect data and user interactions. Fast-loading pages enhance both
-                                        usability and satisfaction. Consistent post-launch support ensures long-term
-                                        performance optimization. Our approach makes every project uniquely successful.
-                                    </p>
-                                </ul>
-                            </section>
-                        </main>
-                    </div>
-                </div>
-            </div>
+         <section>
+      <section>
+            <?php
+            include("includes/clint-review.php");
+            ?>
+
         </section>
     </div>
 </main>

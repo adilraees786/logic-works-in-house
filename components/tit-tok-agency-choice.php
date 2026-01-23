@@ -109,46 +109,41 @@
             <!-- LEFT SIDE TABS -->
             <div class="col-md-6">
                 <h2 class="matter-head">Why Choose Us?</h2>
-                <p class="text-whitee-50">Trusted Advertising Agency Delivering Real Results</p>
-                <p class="text-white">Our Facebook marketing agency helps businesses grow with proven ad strategies. We
+                <p class="text-whitee-50">Understanding Our TikTok Shop Marketing Services</p>
+                <!-- <p class="text-white">Our Facebook marketing agency helps businesses grow with proven ad strategies. We
                     design, manage, and improve campaigns that bring more sales. Every campaign is optimized to cut
-                    waste and deliver clear results.</p>
+                    waste and deliver clear results.</p> -->
 
                 <!-- Tabs -->
                 <div id="tabs">
                     <div class="tab-box active" data-tab="tab1">
-                        <h3 class="text-tittle">Proven Sales Growth</h3>
+                        <h3 class="text-tittle">Preparing Your TikTok Shop From the Start</h3>
                         <div class="tab-content-box">
-                            Our ads turn casual visitors into buyers. Businesses see clear sales increases and stronger
-                            monthly revenue.
+                            We manage TikTok Shop setup Dubai with precision, aligning product catalogs, logistics, and platform guidelines so brands launch smoothly. This early structure prevents friction and keeps your TikTok Shop marketing agency Dubai foundation stable from day one.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab2">
-                        <h3 class="text-tittle">Complete Campaign Control</h3>
+                        <h3 class="text-tittle">Content That Feels Native, Not Promotional</h3>
                         <div class="tab-content-box">
-                            We handle everything from ad creation to tracking. Campaigns stay optimized with smooth
-                            execution and steady improvements.
+                            As a TikTok eCommerce marketing agency, we produce videos that feel natural, timely, and engaging. Our approach blends social media marketing for TikTok Shop with platform culture, viewing habits, and short attention cycles that stop the scroll.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab3">
-                        <h3 class="text-tittle">Cross-Platform Strategy</h3>
+                        <h3 class="text-tittle">Creators That Match the Brand Voice</h3>
                         <div class="tab-content-box">
-                            Your ads run across Facebook, Instagram, Messenger, and Audience Network. More reach means
-                            stronger brand visibility and results.
+                            We connect brands with creators who genuinely fit their identity. Our tiktok shop management services Dubai focus on partnerships that feel authentic, build trust, and increase everyday discovery without forced promotion.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab4">
-                        <h3 class="text-tittle">Conversion-Focused Approach</h3>
+                        <h3 class="text-tittle">Live Shopping Experiences Worth Watching</h3>
                         <div class="tab-content-box">
-                            Every ad element is tested and refined. Campaigns drive real actions like sales, leads, and
-                            customer engagement.
+                            Live sessions are planned with purpose. Using TikTok Shop growth services Dubai, we guide hosts, structure conversations, support live responses, and keep energy genuine while products remain the focus.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab5">
-                        <h3 class="text-tittle">Transparent Reporting Standards</h3>
+                        <h3 class="text-tittle">Thoughtful Promotion Without Disruption</h3>
                         <div class="tab-content-box">
-                            We provide weekly performance reports with clear results. Clients see exact spending,
-                            returns, and campaign performance.
+                           Paid visibility supports growth when applied carefully. We test and refine promotions using agency insight, optimizing reach and targeting without damaging authenticity or community confidence. 
                         </div>
                     </div>
                 </div>

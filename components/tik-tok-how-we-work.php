@@ -11,8 +11,9 @@
     }
 
     .how-we-work-title {
-        font-size: 55px;
+        font-size: 42px;
         font-weight: 900;
+        line-height: 1.4;
         letter-spacing: 3.2%;
 
     }
@@ -147,21 +148,17 @@
         <div class="container">
             <div>
                 <div class="text-center mb-5">
-                    <div class="how-we-work-title">How Our Process Works</div>
-                    <div class="how-we-work-subtitle">Proven Framework for Consistent Social Advertising Success</div>
+                    <div class="how-we-work-title">A Proven Process for <br> TikTok Shop Growth</div>
+                    <!-- <div class="how-we-work-subtitle">Proven Framework for Consistent Social Advertising Success</div> -->
                 </div>
                 <div class="work-container">
                     <!-- Left Content -->
                     <div class="left-content">
-                        <h2 id="service-title">Audience Research & Competitive Analysis</h2>
+                        <h2 id="service-title">Discovery That Stays Relevant</h2>
                         <p id="service-description">
-                            We look at how your target customers act online and study competitor ads. This helps us find
-                            areas where they miss chances.
+                           We study products, audiences, competitors, and shifting TikTok trends. This includes creator mapping, high-performing content analysis, and seasonal triggers. Fresh insight always outperforms outdated assumptions.
                         </p>
-                        <p id="service-description-2">
-                            Our research shows what messages attract people and which audiences work best. This allows
-                            us to build campaigns that connect better.
-                        </p>
+                     
                         <div class="live-chat-btns">
                             <a href="#" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
@@ -172,9 +169,8 @@
                         <div class="tab-card active" data-tab="0">
                             <img src="assests/images/online-reputataion-management/step-1.webp" alt="">
                             <div>
-                                <h3>Audience Research</h3>
-                                <p>We look at how your target customers act online and study competitor ads. This helps
-                                    us find areas where they miss chances.</p>
+                                <h3>Discovery That Stays Relevant</h3>
+                                <p>We study products, audiences, competitors, and shifting TikTok trends. This includes creator mapping, high-performing</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="1">
@@ -212,9 +208,9 @@
         // Tab data for left content
         const tabData = [
             {
-                title: "Audience Research & Competitive Analysis",
-                desc1: "We look at how your target customers act online and study competitor ads. This helps us find areas where they miss chances.",
-                desc2: "Our research shows what messages attract people and which audiences work best. This allows us to build campaigns that connect better."
+                title: "Discovery That Stays Relevant",
+                desc1: "We study products, audiences, competitors, and shifting TikTok trends. This includes creator mapping, high-performing content analysis, and seasonal triggers. Fresh insight always outperforms outdated assumptions.",
+             
             },
             {
                 title: "Campaign Architecture & Creative Strategy",

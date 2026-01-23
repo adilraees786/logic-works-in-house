@@ -1,8 +1,8 @@
 <?php
-$meta_title = "Facebook and instagram Marketing Agency | Logic Works";
-$meta_description = "Our Facebook and instagram Marketing Agency creates targeted campaigns that increase engagement and sales with expert strategy, precise targeting, and measurable results.";
+$meta_title = "TikTok Shop Marketing Agency Dubai | Logic Works";
+$meta_description = "TikTok Shop marketing agency Dubai turning views into sales. Creator partnerships, live events, and content that converts audiences.";
 $keyword = 'Facebook & Instagram Marketingt';
-$canonical = "facebook-advertising-agency-dubai";
+$canonical = "https://logicworks.ae/tiktok-shop-marketing-agency-dubai";
 $custom_schema = '
 <script type="application/ld+json">
 {
@@ -127,11 +127,9 @@ include("includes/header.php");
         <div class="container bg-blue">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">TikTok Shop Marketing Agency in Dubai
+                    <h1 class="text-white">TikTok Shop Marketing Agency Dubai
                     </h1>
-                    <p class="text-white">Create reliable financial experiences through our Android finance app
-                        development company that protects user data and builds lasting trust in your digital banking
-                        platform.
+                    <p class="text-white">As a leading TikTok Shop Marketing Agency Dubai, we drive brand growth inside the TikTok ecosystem using creators, cultural relevance, compelling storytelling, and live shopping moments that convert views into results.
                     </p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
@@ -178,8 +176,7 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="ai-dev-img" class="gta">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Turn Your Real Estate Vision Into a Powerful Android App
-                        Today</h2>
+                    <h2 class="text-white same-all text-end">Your TikTok business grows stronger with our experienced marketers.</h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
