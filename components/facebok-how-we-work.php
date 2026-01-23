@@ -11,7 +11,7 @@
     }
 
     .how-we-work-title {
-        font-size: 55px;
+        font-size: 42px;
         font-weight: 900;
         letter-spacing: 3.2%;
 
@@ -143,21 +143,17 @@
         <div class="container">
             <div>
                 <div class="text-center mb-5">
-                    <div class="how-we-work-title">How Our Process Works</div>
-                    <div class="how-we-work-subtitle">Proven Framework for Consistent Social Advertising Success</div>
+                    <h2 class="dubai-all text-white text-center">Our Proven Facebook <br> Advertising Process</h2>
+                    <!-- <div class="how-we-work-subtitle">Proven Framework for Consistent Social Advertising Success</div> -->
                 </div>
                 <div class="work-container">
                     <!-- Left Content -->
                     <div class="left-content">
-                        <h2 id="service-title">Audience Research & Competitive Analysis</h2>
+                        <h2 id="service-title">Audience Mapping & Competitive Research</h2>
                         <p id="service-description">
-                            We look at how your target customers act online and study competitor ads. This helps us find
-                            areas where they miss chances.
+                           We analyze customer behavior across platforms and audit competitors’ campaigns. This uncovers opportunities often missed by rivals and reveals which messaging drives attention and engagement.
                         </p>
-                        <p id="service-description-2">
-                            Our research shows what messages attract people and which audiences work best. This allows
-                            us to build campaigns that connect better.
-                        </p>
+                      
                         <div class="live-chat-btns">
                             <a href="#" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
@@ -168,33 +164,29 @@
                         <div class="tab-card active" data-tab="0">
                             <img src="assests/images/online-reputataion-management/step-1.webp" alt="">
                             <div>
-                                <h3>Audience Research</h3>
-                                <p>We look at how your target customers act online and study competitor ads. This helps
-                                    us find areas where they miss chances.</p>
+                                <h3>Audience Mapping & Competitive</h3>
+                                <p>We analyze customer behavior across platforms and audit competitors’ campaigns. This uncovers opportunities often missed by rivals and reveals which messaging drives attention and engagement.</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="1">
                             <img src="assests/images/online-reputataion-management/step-2.webp" alt="">
                             <div>
-                                <h3>Campaign Architecture</h3>
-                                <p>We organize ad accounts into clear groups, each serving a different goal. This
-                                    structure helps campaigns run smoothly and avoid wasted budget.</p>
+                                <h3>Campaign Architecture & Creative</h3>
+                                <p>Profiles are organized into clear audience segments with distinct objectives. Copy, imagery, and messaging are tailored for </p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="2">
                             <img src="assests/images/online-reputataion-management/step-3.webp" alt="">
                             <div>
-                                <h3>Launch Execution</h3>
-                                <p>We launch campaigns with budget control and set up conversion tracking. This makes
-                                    sure spending is effective and results are measured properly.</p>
+                                <h3>Launch Control & Signal</h3>
+                                <p>Campaigns are launched with precise budgets and event configurations. We track performance daily, accelerating </p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="3">
                             <img src="assests/images/online-reputataion-management/step-4.webp" alt="">
                             <div>
-                                <h3>Performance Refinement</h3>
-                                <p>We study campaign data to improve ad targeting and content. Insights gained help us
-                                    refine strategies and boost overall performance steadily.</p>
+                                <h3>Iteration & Scalable Growth</h3>
+                                <p>Metrics drive refinement. Effective creatives receive expanded budgets, while weak performers are paused. </p>
                             </div>
                         </div>
                     </div>
@@ -208,24 +200,24 @@
         // Tab data for left content
         const tabData = [
             {
-                title: "Audience Research & Competitive Analysis",
-                desc1: "We look at how your target customers act online and study competitor ads. This helps us find areas where they miss chances.",
-                desc2: "Our research shows what messages attract people and which audiences work best. This allows us to build campaigns that connect better."
+                title: "Audience Mapping & Competitive Research",
+                desc1: "We analyze customer behavior across platforms and audit competitors’ campaigns. This uncovers opportunities often missed by rivals and reveals which messaging drives attention and engagement.",
+                
             },
             {
-                title: "Campaign Architecture & Creative Strategy",
-                desc1: "We organize ad accounts into clear groups, each serving a different goal. This structure helps campaigns run smoothly and avoid wasted budget.",
-                desc2: "Creative designs and ad copies are developed with tested audience segments. This ensures ads stay engaging while targeting people most likely to buy."
+                title: "Campaign Architecture & Creative Guidance",
+                desc1: "Profiles are organized into clear audience segments with distinct objectives. Copy, imagery, and messaging are tailored for maximum impact, designed to motivate action rather than passive scrolling.",
+               
             },
             {
-                title: "Launch Execution & Performance Tracking",
-                desc1: "We launch campaigns with budget control and set up conversion tracking. This makes sure spending is effective and results are measured properly.",
-                desc2: "Our team monitors campaigns daily to spot problems quickly. Winning ads are scaled while weak ones are fixed or replaced immediately."
+                title: "Launch Control & Signal Monitoring",
+                desc1: "Campaigns are launched with precise budgets and event configurations. We track performance daily, accelerating top performers while optimizing or replacing underperforming elements.",
+              
             },
             {
-                title: "Performance Refinement & Growth Scaling",
-                desc1: "We study campaign data to improve ad targeting and content. Insights gained help us refine strategies and boost overall performance steadily.",
-                desc2: "Strong ads get more budget for wider reach, while poor performers are removed. This process ensures consistent growth with efficient spending."
+                title: "Iteration & Scalable Growth",
+                desc1: "Metrics drive refinement. Effective creatives receive expanded budgets, while weak performers are paused. This approach ensures steady growth through intelligent targeting and continuous optimization.",
+               
             }
         ];
 

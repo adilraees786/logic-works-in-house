@@ -176,25 +176,22 @@
                         <div class="tab-card" data-tab="1">
                             <img src="assests/images/online-reputataion-management/step-2.webp" alt="">
                             <div>
-                                <h3>Campaign Architecture</h3>
-                                <p>We organize ad accounts into clear groups, each serving a different goal. This
-                                    structure helps campaigns run smoothly and avoid wasted budget.</p>
+                                <h3>Strategy With Clear Direction</h3>
+                                <p>Insights turn into structure. We define content themes, creator filters, live schedules, and promotion paths.</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="2">
                             <img src="assests/images/online-reputataion-management/step-3.webp" alt="">
                             <div>
-                                <h3>Launch Execution</h3>
-                                <p>We launch campaigns with budget control and set up conversion tracking. This makes
-                                    sure spending is effective and results are measured properly.</p>
+                                <h3>Building While Momentum Grows</h3>
+                                <p>We test early and often. Video styles, creator pairings, live formats, and ad concepts launch together.</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="3">
                             <img src="assests/images/online-reputataion-management/step-4.webp" alt="">
                             <div>
-                                <h3>Performance Refinement</h3>
-                                <p>We study campaign data to improve ad targeting and content. Insights gained help us
-                                    refine strategies and boost overall performance steadily.</p>
+                                <h3>Learning and Scaling What Works</h3>
+                                <p>Performance drives decisions. We review content results, creator impact, live engagement, and audience reactions.</p>
                             </div>
                         </div>
                     </div>
@@ -213,19 +210,19 @@
              
             },
             {
-                title: "Campaign Architecture & Creative Strategy",
-                desc1: "We organize ad accounts into clear groups, each serving a different goal. This structure helps campaigns run smoothly and avoid wasted budget.",
-                desc2: "Creative designs and ad copies are developed with tested audience segments. This ensures ads stay engaging while targeting people most likely to buy."
+                title: "Strategy With Clear Direction",
+                desc1: "Insights turn into structure. We define content themes, creator filters, live schedules, and promotion paths. Our TikTok eCommerce marketing agency approach sets priorities, testing focus, and measurable goals aligned with TikTok Shop growth services Dubai.",
+              
             },
             {
-                title: "Launch Execution & Performance Tracking",
-                desc1: "We launch campaigns with budget control and set up conversion tracking. This makes sure spending is effective and results are measured properly.",
-                desc2: "Our team monitors campaigns daily to spot problems quickly. Winning ads are scaled while weak ones are fixed or replaced immediately."
+                title: "Building While Momentum Grows",
+                desc1: "We test early and often. Video styles, creator pairings, live formats, and ad concepts launch together. TikTok Shop setup Dubai progresses in parallel so products are ready once attention builds naturally",
+             
             },
             {
-                title: "Performance Refinement & Growth Scaling",
-                desc1: "We study campaign data to improve ad targeting and content. Insights gained help us refine strategies and boost overall performance steadily.",
-                desc2: "Strong ads get more budget for wider reach, while poor performers are removed. This process ensures consistent growth with efficient spending."
+                title: "Learning and Scaling What Works",
+                desc1: "Performance drives decisions. We review content results, creator impact, live engagement, and audience reactions. Through tiktok shop management services Dubai, strong ideas scale forward while weaker ones are phased out.",
+            
             }
         ];
 

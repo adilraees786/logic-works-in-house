@@ -185,164 +185,15 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <section class="six-consultancy-sec pt-b-80">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="dubai-all text-white text-center">Facebook Advertising Agency</h2>
-                    <p class="text-white dubai-all-para text-center">Our Retail App Services empower businesses.
-                    </p>
-                    <div class="unique-tab-container tabs-consultancy">
-                        <button class="unique-tab-button active-tab" data-target="UniqueConsultation">
-                            <img src="assests/images/branding-dubai/icon-1.webp" alt="seo-icon-001"
-                                style="height: 40px; width: 40px;">
-                            E-commerce Brand
-                        </button>
-                        
-                        <button class="unique-tab-button" data-target="UniqueConcept"><img
-                                src="assests/images/branding-dubai/icon-2.webp" alt="seo-icon-002">Real Estate
-                            Agency</button>
-                        <button class="unique-tab-button" data-target="UniqueRevisions"><img
-                                src="assests/images/branding-dubai/icon-3.webp" alt="seo-icon-003">SaaS Company</button>
-                        <button class="unique-tab-button" data-target="UniqueDelivery"><img
-                                src="assests/images/branding-dubai/icon-4.webp" alt="seo-icon-004">Travel
-                            Agency</button>
-                    </div>
-
-                    <div class="tab-delivery">
-                        <div class="unique-tab-container">
-                            <div id="UniqueConsultation" class="unique-tab-content" style="display: block;">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-1.webp"
-                                                        alt="seo-success-001">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">E-commerce Brand</h2>
-                                                        <p class="text-white same-all-para">An online retail store faced
-                                                            low visibility and slow sales. We improved product pages,
-                                                            fixed technical issues, and grew organic traffic. The store
-                                                            achieved higher search rankings and stronger revenue within
-                                                            months.</p>
-                                                        <p class="text-white">Our guidance as an experienced SEO
-                                                            consultant helped the business reach customers more
-                                                            effectively and create a steady stream of orders.</p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="UniqueConcept" class="unique-tab-content">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-2.webp"
-                                                        alt="seo-success-002">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">Real Estate Agency</h2>
-                                                        <p class="text-white same-all-para">A real estate agency needed
-                                                            more qualified leads. We optimized property listings,
-                                                            improved local SEO, and built better search presence. The
-                                                            agency began receiving more calls and form submissions from
-                                                            people in their target areas.</p>
-                                                        <p class="text-white">Our consultants provided strategies that
-                                                            supported consistent growth in both visibility and customer
-                                                            inquiries over time.</p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="UniqueRevisions" class="unique-tab-content">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-3.webp"
-                                                        alt="seo-success-003">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">SaaS Company</h2>
-                                                        <p class="text-white same-all-para">A SaaS business was
-                                                            struggling to get any foot in the door in a crowded market.
-                                                            We streamlined their website structure, keyword targeting
-                                                            and produced targeted content. Traffic was up dramatically
-                                                            and so were demo sign-ups and subscription conversions</p>
-                                                        <p class="text-white">Using our SEO consultancy we positioned
-                                                            them strongly in the market with their niche and kept growth
-                                                            measurable and sustainable for long-term success</p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="UniqueDelivery" class="unique-tab-content">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-12">
-                                        <div class="consultancy-tab-content">
-                                            <div class="row align-items-center">
-                                                <div class="col-lg-7">
-                                                    <img src="assests/images/seo-consultancy/story-img-4.webp"
-                                                        alt="seo-success-004">
-                                                </div>
-                                                <div class="col-lg-5">
-                                                    <div class="tab-data-consultancy">
-                                                        <h2 class="text-white">Travel Agenc</h2>
-                                                        <p class="text-white same-all-para">A travel agency required
-                                                            stronger online reach to attract seasonal customers. We
-                                                            optimized destination pages, built local visibility, and
-                                                            improved technical performance. The agency experienced
-                                                            higher traffic during peak seasons and steady inquiries
-                                                            year-round.</p>
-                                                        <p class="text-white">Our team guided them with strategies that
-                                                            supported bookings and improved brand visibility. These
-                                                            efforts created growth aligned with their business goals.
-                                                        </p>
-                                                        <a href="#0">EXPLORE IT</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>>
+   
     <section class="web-second-sec section-bg">
         <div class="container" style="display: block;">
 
 
             <div class="row mt-5 serive-slider-row ssr">
                 <div class="col">
-                    <h2 class="text-center text-white same-all">Success Stories</h2>
-                    <p class="text-white text-center">Proven Growth Through Facebook Ads</p>
+                    <h2 class="text-center text-white same-all">Our Comprehensive TikTok Shop Management Services</h2>
+                    <!-- <p class="text-white text-center">Proven Growth Through Facebook Ads</p> -->
 
                     <div class="slid-inrr">
                         <div class="swiper port-slid-mine">
@@ -351,10 +202,8 @@ include("includes/header.php");
                                     <div class="our-serve-slider">
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-001.webp">
                                         <div class="our-content-slider">
-                                            <h2 class="text-white">E-Commerce Store</h2>
-                                            <p class="text-white">An online fashion retailer boosted sales by 45% in
-                                                three months. Targeted ads reduced abandoned carts and improved return
-                                                on ad spend significantly.</p>
+                                            <h2 class="text-white">End-to-End Shop Configuration</h2>
+                                            <p class="text-white">We oversee TikTok Shop setup Dubai from registration to storefront launch. Our TikTok Shop marketing agency Dubai handles tax settings, delivery rules, inventory syncing, and mobile-optimized listings. Solid setup prevents future issues and keeps operations efficient.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -362,10 +211,8 @@ include("includes/header.php");
                                     <div class="our-serve-slider">
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-002.webp">
                                         <div class="our-content-slider">
-                                            <h2 class="text-white">Local Restaurant Chain</h2>
-                                            <p class="text-white">A restaurant group filled more tables by promoting
-                                                seasonal deals. Ads targeted nearby audiences, generating consistent
-                                                reservations and stronger brand awareness in their community.</p>
+                                            <h2 class="text-white">Content Designed for Scroll Behavior</h2>
+                                            <p class="text-white">As a TikTok eCommerce marketing agency, we create short-form visuals built for discovery. From planning to publishing, we test hooks, pacing, and calls to action. Social media marketing for TikTok Shop stays flexible as audience behavior evolves.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -373,10 +220,8 @@ include("includes/header.php");
                                     <div class="our-serve-slider">
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-003.webp">
                                         <div class="our-content-slider">
-                                            <h2 class="text-white">Fitness Studio</h2>
-                                            <p class="text-white">A boutique gym grew memberships using targeted video
-                                                ads. Campaigns showed real customer transformations to build trust. The
-                                                ads brought quality leads that turned into loyal, long-term clients.</p>
+                                            <h2 class="text-white">Creator Partnership Management</h2>
+                                            <p class="text-white">AWe source creators who align naturally with your brand tone. Our team manages outreach, agreements, product sampling, tracking, and coordination. Clear communication keeps tiktok shop management services Dubai organized and reliable.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -384,10 +229,8 @@ include("includes/header.php");
                                     <div class="our-serve-slider">
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-004.webp">
                                         <div class="our-content-slider">
-                                            <h2 class="text-white">Real Estate Agency</h2>
-                                            <p class="text-white">Targeted property ads brought qualified buyer leads.
-                                                Campaigns featured listings and retargeted website visitors, shortening
-                                                sales cycles and producing steady, high-value inquiries for agents.</p>
+                                            <h2 class="text-white">Live Commerce Execution</h2>
+                                            <p class="text-white">Successful live sessions require structure. We design run-of-show flows, brief presenters, align stock levels, and support streams in real time. TikTok Shop growth services Dubai focus on interaction quality, engagement depth, and insights after each session.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -395,10 +238,8 @@ include("includes/header.php");
                                     <div class="our-serve-slider">
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-005.webp">
                                         <div class="our-content-slider">
-                                            <h2 class="text-white">Healthcare Clinic</h2>
-                                            <p class="text-white">A private clinic gained more patient appointments with
-                                                precise targeting. Ads promoted health checkups, improving community
-                                                trust and boosting monthly consultations with measurable results.</p>
+                                            <h2 class="text-white">Insight-Led Optimization</h2>
+                                            <p class="text-white">We analyze watch behavior, cart actions, completion rates, and engagement signals. These insights guide refinements. Ongoing reviews through tiktok shop management services Dubai help maintain consistent performance.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -406,10 +247,8 @@ include("includes/header.php");
                                     <div class="our-serve-slider">
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-006.webp">
                                         <div class="our-content-slider">
-                                            <h2 class="text-white">Tech Startup</h2>
-                                            <p class="text-white">A SaaS company launched new software through creative
-                                                campaigns. Ads focused on pain points, generating trial sign-ups and
-                                                reducing cost per acquisition by 38%.</p>
+                                            <h2 class="text-white">Controlled Paid Visibility</h2>
+                                            <p class="text-white">AWhen organic reach slows, promotion fills the gap. We test creatives, refine audiences, adjust bidding, and scale carefully. Visibility increases without sacrificing authenticity or community relevance.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -428,40 +267,31 @@ include("includes/header.php");
           <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">What separates your Facebook marketing company from other
-                                agencies?</button>
+                            <button class="accordions">What support does a TikTok Shop marketing agency Dubai provide?</button>
                             <div class="panel">
-                                <p> Our focus stays locked on sales and lead generation, not vanity metrics. Every
-                                    campaign gets structured around conversion goals with transparent reporting showing
-                                    exact cost per acquisition and return on ad spend.</p>
+                                <p>We manage shop setup, listings, content creation, creator coordination, live selling, paid ads, and performance tracking. Agencies handle platform complexity so brands focus on products.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How soon will Facebook campaigns start generating leads?</button>
+                            <button class="accordions">How quickly is TikTok Shop setup Dubai completed?</button>
                             <div class="panel">
-                                <p>Results usually start showing within 3–5 days. Performance gets better with testing
-                                    and adjustments. Strong conversion rates appear after 2–3 weeks of data collection.
+                                <p>Initial setup usually completes within two weeks. Strategy development, creators, and campaigns may take additional weeks depending on catalog size and integrations.
                                 </p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Can you manage both Facebook and Instagram advertising
-                                together?</button>
+                            <button class="accordions">Do smaller brands benefit from tiktok shop management services Dubai?</button>
                             <div class="panel">
-                                <p> Absolutely. Both platforms connect through Meta Business Suite, allowing coordinated
-                                    campaigns. We create platform-specific content while maintaining consistent
-                                    messaging across both channels for maximum impact.</p>
+                                <p>Yes. Authentic content often outperforms large budgets. Tiktok shop management services Dubai adapt for lean teams, starting organically and scaling once traction appears.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How do you prevent wasted spending on social media ads?</button>
+                            <button class="accordions">What long-term results should brands expect?</button>
                             <div class="panel">
-                                <p> We implement detailed audience exclusions, placement controls, and frequency caps
-                                    while testing small budgets first. Continuous monitoring identifies poor performers
-                                    quickly, reallocating spend to profitable combinations only.</p>
+                                <p> Results vary by category. Many brands see early momentum within weeks. TikTok Shop growth services Dubai focus on steady progress through creators, content diversity, and ongoing optimization.</p>
                             </div>
                         </div>
 

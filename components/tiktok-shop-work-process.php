@@ -147,21 +147,17 @@
         <div class="container">
             <div>
                 <div class="text-center mb-5">
-                    <div class="how-we-work-title">How Our Process Works</div>
-                    <div class="how-we-work-subtitle">Proven Framework for Consistent Social Advertising Success</div>
+                    <div class="how-we-work-title">Why TikTok Shop in UAE <br> Matters for Your Brand</div>
+                    <!-- <div class="how-we-work-subtitle">Proven Framework for Consistent Social Advertising Success</div> -->
                 </div>
                 <div class="work-container">
                     <!-- Left Content -->
                     <div class="left-content">
-                        <h2 id="service-title">Audience Research & Competitive Analysis</h2>
+                        <h2 id="service-title">Authentic Connections That Last</h2>
                         <p id="service-description">
-                            We look at how your target customers act online and study competitor ads. This helps us find
-                            areas where they miss chances.
+                           Trust builds when voices feel real. Our TikTok Shop marketing team focuses on creator authenticity, live conversations, and community interaction. This presence strengthens confidence naturally without aggressive selling.
                         </p>
-                        <p id="service-description-2">
-                            Our research shows what messages attract people and which audiences work best. This allows
-                            us to build campaigns that connect better.
-                        </p>
+                      
                         <div class="live-chat-btns">
                             <a href="#" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
@@ -172,35 +168,32 @@
                         <div class="tab-card active" data-tab="0">
                             <img src="assests/images/online-reputataion-management/step-1.webp" alt="">
                             <div>
-                                <h3>Audience Research</h3>
-                                <p>We look at how your target customers act online and study competitor ads. This helps
-                                    us find areas where they miss chances.</p>
+                                <h3>Authentic Connections That Last</h3>
+                                <p>Trust builds when voices feel real. Our TikTok Shop marketing team focuses on creator authenticity, live conversations,</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="1">
                             <img src="assests/images/online-reputataion-management/step-2.webp" alt="">
                             <div>
-                                <h3>Campaign Architecture</h3>
-                                <p>We organize ad accounts into clear groups, each serving a different goal. This
-                                    structure helps campaigns run smoothly and avoid wasted budget.</p>
+                                <h3>Discovery That Expands Reach</h3>
+                                <p>On TikTok Shop UAE, resonance matters more than recognition. As a tiktok shop UAE agency, we produce content that</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="2">
                             <img src="assests/images/online-reputataion-management/step-3.webp" alt="">
                             <div>
-                                <h3>Launch Execution</h3>
-                                <p>We launch campaigns with budget control and set up conversion tracking. This makes
-                                    sure spending is effective and results are measured properly.</p>
+                                <h3>Turning Curiosity Into Action</h3>
+                                <p>The experience stays inside the feed. No extra steps. Our tiktok shop setup UAE strategy designs content that converts</p>
                             </div>
                         </div>
-                        <div class="tab-card" data-tab="3">
+                        <!-- <div class="tab-card" data-tab="3">
                             <img src="assests/images/online-reputataion-management/step-4.webp" alt="">
                             <div>
                                 <h3>Performance Refinement</h3>
                                 <p>We study campaign data to improve ad targeting and content. Insights gained help us
                                     refine strategies and boost overall performance steadily.</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -212,19 +205,19 @@
         // Tab data for left content
         const tabData = [
             {
-                title: "Audience Research & Competitive Analysis",
-                desc1: "We look at how your target customers act online and study competitor ads. This helps us find areas where they miss chances.",
-                desc2: "Our research shows what messages attract people and which audiences work best. This allows us to build campaigns that connect better."
+                title: "Authentic Connections That Last",
+                desc1: "Trust builds when voices feel real. Our TikTok Shop marketing team focuses on creator authenticity, live conversations, and community interaction. This presence strengthens confidence naturally without aggressive selling.",
+               
             },
             {
-                title: "Campaign Architecture & Creative Strategy",
-                desc1: "We organize ad accounts into clear groups, each serving a different goal. This structure helps campaigns run smoothly and avoid wasted budget.",
-                desc2: "Creative designs and ad copies are developed with tested audience segments. This ensures ads stay engaging while targeting people most likely to buy."
+                title: "Discovery That Expands Reach",
+                desc1: "On TikTok Shop UAE, resonance matters more than recognition. As a tiktok shop UAE agency, we produce content that feels shareable and relatable. When audiences engage and pass content forward, reach grows organically.",
+              
             },
             {
-                title: "Launch Execution & Performance Tracking",
-                desc1: "We launch campaigns with budget control and set up conversion tracking. This makes sure spending is effective and results are measured properly.",
-                desc2: "Our team monitors campaigns daily to spot problems quickly. Winning ads are scaled while weak ones are fixed or replaced immediately."
+                title: "Turning Curiosity Into Action",
+                desc1: "The experience stays inside the feed. No extra steps. Our tiktok shop setup UAE strategy designs content that converts interest into interaction instantly. Social media marketing for TikTok Shop UAE works best when entertainment subtly guides users to explore and engage.",
+                
             },
             {
                 title: "Performance Refinement & Growth Scaling",

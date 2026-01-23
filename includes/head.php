@@ -81,23 +81,6 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
     'android-fitness-app-development-company.php',
     'android-travel-app-development-company.php',
 
-    'facebook-advertising-agency-dubai.php',
-    'instagram-advertising-agency-dubai.php',
-    'linkedin-advertising-agency-dubai.php',
-    'twitter-advertising-agency-dubai.php',
-    'ui-ux-design-company-dubai.php',
-    'wordpress-development-company-dubai.php',
-    'website-maintenance-services-dubai.php',
-    'custom-website-development-company-dubai.php',
-    'domain-hosting-services-dubai.php',
-    'graphic-design-company-dubai.php',
-    'shopify-development-services-dubai.php',
-    'tiktok-shop-marketing-agency-dubai.php',
-    'tiktok-shop-uae.php',
- 
-  
-
-
   ];
 
   if (in_array($current_page, $noindexPages)) {

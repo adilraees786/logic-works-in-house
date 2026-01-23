@@ -1,6 +1,6 @@
 <style>
     .matter-head {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 700;
         color: white;
     }
@@ -83,70 +83,79 @@
             max-width: 250px !important;
         }
     }
+    /* Desktop / md and above → IMAGE LEFT */
+@media screen and (min-width: 768px) {
+    .custom-row {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Mobile → TEXT UP, IMAGE DOWN (normal order) */
+@media screen and (max-width: 767px) {
+    .custom-row {
+        flex-direction: column;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
     <div class="container py-5">
-        <div class="row align-items-center">
+     <div class="row align-items-center custom-row">
+
 
             <!-- LEFT SIDE TABS -->
             <div class="col-md-6">
-                <h2 class="matter-head">Why Choose Us?</h2>
-                <p class="text-whitee-50">Trusted Advertising Agency Delivering Real Results</p>
-                <p class="text-white">Our Facebook marketing agency helps businesses grow with proven ad strategies. We
-                    design, manage, and improve campaigns that bring more sales. Every campaign is optimized to cut
-                    waste and deliver clear results.</p>
+                <h2 class="matter-head">Why Partner With an Instagram Advertising Company Dubai</h2>
+                <p class="text-whitee-50">Instagram Marketing Agency Dubai That Turns Attention Into Action</p>
+                <p class="text-white">We operate as a growth-focused Instagram Advertising Agency Dubai. Every campaign is thoughtfully tested, optimized, and scaled. Each rollout minimizes unnecessary spend, sharpens targeting accuracy, and converts interest into measurable outcomes with expert Instagram marketing services Dubai execution.</p>
 
                 <!-- Tabs -->
                 <div id="tabs">
                     <div class="tab-box active" data-tab="tab1">
-                        <h3 class="text-tittle">Proven Sales Growth</h3>
+                        <h3 class="text-tittle">Consistent Revenue Growth Through Instagram Advertising</h3>
                         <div class="tab-content-box">
-                            Our ads turn casual visitors into buyers. Businesses see clear sales increases and stronger
-                            monthly revenue.
+                        Our creative campaigns guide engagement toward loyal audiences. Instagram Advertising Agency Dubai ensures measurable and sustained revenue growth month after month.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab2">
-                        <h3 class="text-tittle">Complete Campaign Control</h3>
+                        <h3 class="text-tittle">Complete Instagram Campaign Management</h3>
                         <div class="tab-content-box">
-                            We handle everything from ad creation to tracking. Campaigns stay optimized with smooth
-                            execution and steady improvements.
+                           We manage strategy, execution, monitoring, and analytics from start to finish. Each initiative evolves through careful adjustments and performance optimization.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab3">
-                        <h3 class="text-tittle">Cross-Platform Strategy</h3>
+                        <h3 class="text-tittle">Multi-Platform Visibility Across Instagram & Meta</h3>
                         <div class="tab-content-box">
-                            Your ads run across Facebook, Instagram, Messenger, and Audience Network. More reach means
-                            stronger brand visibility and results.
+                          Your content reaches Instagram Feed, Stories, Reels, and Meta placements. Expanded exposure builds recognition, credibility, and tangible results across your audience.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab4">
-                        <h3 class="text-tittle">Conversion-Focused Approach</h3>
+                        <h3 class="text-tittle">Outcome-Driven Precision</h3>
                         <div class="tab-content-box">
-                            Every ad element is tested and refined. Campaigns drive real actions like sales, leads, and
-                            customer engagement.
+                           Every element is evaluated, tested, and optimized. Campaigns consistently drive clicks, inquiries, signups, loyalty, and authentic engagement.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab5">
-                        <h3 class="text-tittle">Transparent Reporting Standards</h3>
+                        <h3 class="text-tittle">Transparent Reporting from an Instagram Ad Agency Dubai</h3>
                         <div class="tab-content-box">
-                            We provide weekly performance reports with clear results. Clients see exact spending,
-                            returns, and campaign performance.
+                    Instagram ad agency Dubai delivers clear insights. Clients track budgets, monitor performance, and follow ongoing campaign progress with complete accountability.
                         </div>
                     </div>
+                   
                 </div>
 
                 <div class="live-chat-btns">
 
-                    <a href="#" class="live-chats">Live Chat</a>
+                     <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
             <div class="col-md-6 text-center mt-4 mt-md-0">
-                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/why-choice.png" alt="Tab Image"
-                    class="right-img-brand">
+                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/choice-image.webp"
+                    alt="Tab Image" class="right-img-brand">
             </div>
 
         </div>
@@ -158,11 +167,12 @@
         const image = document.getElementById("tab-image-brand");
 
         const imageMap = {
-            tab1: "assests/images/fb-instagram-marketingt/why-choice.png",
-            tab2: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab3: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab4: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab5: "assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab1:"assests/images/fb-instagram-marketingt/choice-image.webp",
+                tab2:"assests/images/fb-instagram-marketingt/choice-image.webp",
+                tab3:"assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab4:"assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab5:"assests/images/fb-instagram-marketingt/choice-image.webp",
+            
         };
 
         tabs.forEach(tab => {

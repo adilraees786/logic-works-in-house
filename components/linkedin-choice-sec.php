@@ -1,6 +1,6 @@
 <style>
     .matter-head {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 700;
         color: white;
     }
@@ -83,70 +83,79 @@
             max-width: 250px !important;
         }
     }
+    /* Desktop / md and above → IMAGE LEFT */
+@media screen and (min-width: 768px) {
+    .custom-row {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Mobile → TEXT UP, IMAGE DOWN (normal order) */
+@media screen and (max-width: 767px) {
+    .custom-row {
+        flex-direction: column;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
     <div class="container py-5">
-        <div class="row align-items-center">
+     <div class="row align-items-center custom-row">
+
 
             <!-- LEFT SIDE TABS -->
             <div class="col-md-6">
-                <h2 class="matter-head">Why Choose Us?</h2>
-                <p class="text-whitee-50">Trusted Advertising Agency Delivering Real Results</p>
-                <p class="text-white">Our Facebook marketing agency helps businesses grow with proven ad strategies. We
-                    design, manage, and improve campaigns that bring more sales. Every campaign is optimized to cut
-                    waste and deliver clear results.</p>
+                <h2 class="matter-head">Why Partner with a LinkedIn Marketing Company</h2>
+                <p class="text-whitee-50">Transform Interest into Revenue with LinkedIn Advertising</p>
+                <p class="text-white">As a LinkedIn Advertising Agency Dubai, we focus on momentum. Campaigns are refined, expanded, and optimized thoughtfully. Every launch reduces inefficiencies, sharpens audience targeting, and converts engagement into measurable business results.</p>
 
                 <!-- Tabs -->
                 <div id="tabs">
                     <div class="tab-box active" data-tab="tab1">
-                        <h3 class="text-tittle">Proven Sales Growth</h3>
+                        <h3 class="text-tittle">Momentum that Converts into Deals</h3>
                         <div class="tab-content-box">
-                            Our ads turn casual visitors into buyers. Businesses see clear sales increases and stronger
-                            monthly revenue.
+                        We guide audiences from passive scrolling to decisive action. By leveraging LinkedIn marketing services Dubai, we transform professional curiosity into tangible commercial outcomes that are trackable and reliable.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab2">
-                        <h3 class="text-tittle">Complete Campaign Control</h3>
+                        <h3 class="text-tittle">One Expert Managing Every Campaign Stage</h3>
                         <div class="tab-content-box">
-                            We handle everything from ad creation to tracking. Campaigns stay optimized with smooth
-                            execution and steady improvements.
+                            From initial strategy to launch, monitoring, and optimization, we manage each campaign end-to-end. Every initiative evolves through testing, learning, and deliberate tuning under guidance from a trusted LinkedIn Marketing Company Dubai.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab3">
-                        <h3 class="text-tittle">Cross-Platform Strategy</h3>
+                        <h3 class="text-tittle">Visibility Where Decision-Makers Engage</h3>
                         <div class="tab-content-box">
-                            Your ads run across Facebook, Instagram, Messenger, and Audience Network. More reach means
-                            stronger brand visibility and results.
+                          Campaigns appear naturally in LinkedIn feeds, messaging prompts, and curated placements. As your reach scales through LinkedIn marketing services in Dubai, credibility builds gradually, and measurable business outcomes follow.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab4">
-                        <h3 class="text-tittle">Conversion-Focused Approach</h3>
+                        <h3 class="text-tittle">Execution with Business Impact</h3>
                         <div class="tab-content-box">
-                            Every ad element is tested and refined. Campaigns drive real actions like sales, leads, and
-                            customer engagement.
+                           We continuously assess components, compare variations, and optimize delivery paths. Campaigns drive signups, conversations, pipeline activity, loyalty, and authentic professional engagement. A dedicated LinkedIn Advertising Agency Dubai ensures all efforts are purposeful.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab5">
-                        <h3 class="text-tittle">Transparent Reporting Standards</h3>
+                        <h3 class="text-tittle">Transparent Reporting from a LinkedIn Ads Agency Dubai</h3>
                         <div class="tab-content-box">
-                            We provide weekly performance reports with clear results. Clients see exact spending,
-                            returns, and campaign performance.
+                      A reliable LinkedIn ads agency Dubai delivers full visibility. Clients receive detailed reporting on budgets, performance trends, and campaign insights, ensuring steady growth through strategic collaboration.
                         </div>
                     </div>
+                   
                 </div>
 
                 <div class="live-chat-btns">
 
-                    <a href="#" class="live-chats">Live Chat</a>
+                     <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
             <div class="col-md-6 text-center mt-4 mt-md-0">
-                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/why-choice.png" alt="Tab Image"
-                    class="right-img-brand">
+                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/choice-image.webp"
+                    alt="Tab Image" class="right-img-brand">
             </div>
 
         </div>
@@ -158,11 +167,12 @@
         const image = document.getElementById("tab-image-brand");
 
         const imageMap = {
-            tab1: "assests/images/fb-instagram-marketingt/why-choice.png",
-            tab2: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab3: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab4: "assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab5: "assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab1:"assests/images/fb-instagram-marketingt/choice-image.webp",
+                tab2:"assests/images/fb-instagram-marketingt/choice-image.webp",
+                tab3:"assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab4:"assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab5:"assests/images/fb-instagram-marketingt/choice-image.webp",
+            
         };
 
         tabs.forEach(tab => {

@@ -411,8 +411,6 @@ include("includes/header.php");
                                         using consistent images stand out. They capture attention and encourage
                                         audiences to share more often.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -425,8 +423,6 @@ include("includes/header.php");
                                         real brand personality. This builds long-term connections beyond simple
                                         promotions.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -438,8 +434,7 @@ include("includes/header.php");
                                         content plan balances education and promotion. This keeps your brand message
                                         fresh and effective.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                  
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -452,8 +447,7 @@ include("includes/header.php");
                                         Reels reward engaging clips. Brands connect faster and reach wider audiences.
                                     </p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                              
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -466,8 +460,7 @@ include("includes/header.php");
                                         trending and relevant tags boosts reach. This connects posts with the right
                                         audiences.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                  
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -480,8 +473,7 @@ include("includes/header.php");
                                         businesses with niche communities. This boosts credibility and measurable
                                         engagement results.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -493,8 +485,6 @@ include("includes/header.php");
                                         messages reach the right audience. This improves conversions and keeps campaigns
                                         cost-effective.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -507,8 +497,6 @@ include("includes/header.php");
                                         with calls-to-action drive results. They turn viewers into active participants.
                                     </p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -520,8 +508,7 @@ include("includes/header.php");
                                     <p class="text-white">Community engagement builds strong brand loyalty. Responding
                                         to feedback shows care. Interactive posts make audiences feel valued.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -533,8 +520,7 @@ include("includes/header.php");
                                     <p class="text-white">Analytics track campaign performance clearly. Reviewing clicks
                                         and engagement guides changes. This helps maximize return on investment.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                   
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -546,8 +532,7 @@ include("includes/header.php");
                                         and visuals must align. Audiences then connect posts directly to your business.
                                     </p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -560,8 +545,7 @@ include("includes/header.php");
                                         Behind-the-scenes posts feel authentic. Polls and updates keep audiences
                                         interested.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                 
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -573,8 +557,7 @@ include("includes/header.php");
                                     <p class="text-white">Social media trends change very fast. AI and new formats shape
                                         growth. Brands that adapt stay competitive online.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -1076,9 +1059,9 @@ include("includes/footer.php");
         font-size: 22px;
     }
 
-    .bgx p {
+    /* .bgx p {
         font-size: 14px;
-    }
+    } */
 
     .media-process-sec {
         padding-bottom: 90px;
@@ -1122,6 +1105,7 @@ include("includes/footer.php");
         margin-top: -80px;
         animation: none;
         transform: scale(1.2);
+        margin-bottom: 9px;
     }
 
     @media (max-width:2400px) and (min-width:768px) {
@@ -1329,7 +1313,7 @@ include("includes/footer.php");
         img.bde {
             margin-top: 50px;
             transform: scale(1);
-            margin-bottom: -30px;
+             margin-bottom: -2px;
         }
 
         .web-dev-pag h2 {
@@ -1355,7 +1339,8 @@ include("includes/footer.php");
         }
 
         .bgx img:nth-child(1) {
-            height: 250px;
+            height: 300px;
+         
         }
 
         .media-process-sec {

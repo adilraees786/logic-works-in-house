@@ -83,63 +83,74 @@
             max-width: 250px !important;
         }
     }
+    /* Desktop / md and above → IMAGE LEFT */
+@media screen and (min-width: 768px) {
+    .custom-row {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Mobile → TEXT UP, IMAGE DOWN (normal order) */
+@media screen and (max-width: 767px) {
+    .custom-row {
+        flex-direction: column;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
     <div class="container py-5">
-        <div class="row align-items-center">
+     <div class="row align-items-center custom-row">
+
+
             <!-- LEFT SIDE TABS -->
             <div class="col-md-6">
                 <h2 class="matter-head">Why Choose Us?</h2>
-                <p class="text-whitee-50">Trusted Advertising Agency Delivering Real Results</p>
-                <p class="text-white">Our Facebook marketing agency helps businesses grow with proven ad strategies. We
+                <p class="text-whitee-50">TikTok Shop UAE: A New Way to Drive Engaging Commerce</p>
+                <!-- <p class="text-white">Our Facebook marketing agency helps businesses grow with proven ad strategies. We
                     design, manage, and improve campaigns that bring more sales. Every campaign is optimized to cut
-                    waste and deliver clear results.</p>
+                    waste and deliver clear results.</p> -->
 
                 <!-- Tabs -->
                 <div id="tabs">
                     <div class="tab-box active" data-tab="tab1">
-                        <h3 class="text-tittle">Proven Sales Growth</h3>
+                        <h3 class="text-tittle">Launching Your TikTok Shop UAE the Right Way</h3>
                         <div class="tab-content-box">
-                            Our ads turn casual visitors into buyers. Businesses see clear sales increases and stronger
-                            monthly revenue.
+                          We handle the complete TikTok Shop setup process, from aligning product catalogs and delivery workflows to meeting platform requirements. This structured preparation allows brands to launch with confidence while ensuring their TikTok Shop marketing UAE strategy is built on a scalable foundation.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab2">
-                        <h3 class="text-tittle">Complete Campaign Control</h3>
+                        <h3 class="text-tittle">Content That Feels Natural in the Feed</h3>
                         <div class="tab-content-box">
-                            We handle everything from ad creation to tracking. Campaigns stay optimized with smooth
-                            execution and steady improvements.
+                            As an experienced TikTok Shop marketing team, we create videos that resonate organically with viewers. Social media marketing for TikTok Shop is woven seamlessly into content that reflects trends, cultural moments, and relatable storytelling that stops the scroll and sparks interest.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab3">
-                        <h3 class="text-tittle">Cross-Platform Strategy</h3>
+                        <h3 class="text-tittle">Creators Aligned With Your Brand Identity</h3>
                         <div class="tab-content-box">
-                            Your ads run across Facebook, Instagram, Messenger, and Audience Network. More reach means
-                            stronger brand visibility and results.
+                           We connect brands with creators who authentically represent their message. Through managed tiktok shop management services Dubai collaborations, we build credibility, expand reach, and encourage consistent discovery without content feeling scripted or forced.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab4">
-                        <h3 class="text-tittle">Conversion-Focused Approach</h3>
+                        <h3 class="text-tittle">Live Shopping Moments That Capture Attention</h3>
                         <div class="tab-content-box">
-                            Every ad element is tested and refined. Campaigns drive real actions like sales, leads, and
-                            customer engagement.
+                            With the right structure, live shopping becomes an experience. TikTok Shop growth services Dubai help hosts guide sessions, interact naturally with viewers, and present products smoothly. Each live event is designed to entertain, engage, and showcase offerings without pressure.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab5">
-                        <h3 class="text-tittle">Transparent Reporting Standards</h3>
+                        <h3 class="text-tittle">Promotions That Feel Intentional</h3>
                         <div class="tab-content-box">
-                            We provide weekly performance reports with clear results. Clients see exact spending,
-                            returns, and campaign performance.
+                           We extend visibility in ways that respect your audience. Our TikTok Shop marketing expertise guides testing, audience segmentation, and subtle refinements so promotions feel relevant, trustworthy, and aligned with your shop’s voice.
                         </div>
                     </div>
                 </div>
 
                 <div class="live-chat-btns">
 
-                    <a href="#" class="live-chats">Live Chat</a>
+                     <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>

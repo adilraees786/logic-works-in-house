@@ -21,6 +21,9 @@
         font-size: 28px;
         color: white;
         margin-bottom: 40px;
+  
+        max-width: 900px;
+        margin: 0 auto;
     }
 
     .work-container {
@@ -143,21 +146,17 @@
         <div class="container">
             <div>
                 <div class="text-center mb-5">
-                    <div class="how-we-work-title">How Our Process Works</div>
-                    <div class="how-we-work-subtitle">Proven Framework for Consistent Social Advertising Success</div>
+                       <h2 class="dubai-all text-white text-center">Our Roadmap to Results</h2>
+                    <div class="how-we-work-subtitle">A structured framework delivering consistent paid growth with precision and clarity through expert Instagram Advertising services.</div>
                 </div>
                 <div class="work-container">
                     <!-- Left Content -->
                     <div class="left-content">
-                        <h2 id="service-title">Audience Research & Competitive Analysis</h2>
+                        <h2 id="service-title">Audience Insight & Market Analysis for Instagram Ads</h2>
                         <p id="service-description">
-                            We look at how your target customers act online and study competitor ads. This helps us find
-                            areas where they miss chances.
+                            We examine how target customers engage across Instagram and other platforms while closely reviewing competitor campaigns. This uncovers opportunities often missed by others. Our research identifies which stories capture attention and which demographics respond most actively. This precision enables us to craft Instagram marketing services Dubai that feel personal, timely, and relevant.
                         </p>
-                        <p id="service-description-2">
-                            Our research shows what messages attract people and which audiences work best. This allows
-                            us to build campaigns that connect better.
-                        </p>
+                       
                         <div class="live-chat-btns">
                             <a href="#" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
@@ -168,33 +167,29 @@
                         <div class="tab-card active" data-tab="0">
                             <img src="assests/images/online-reputataion-management/step-1.webp" alt="">
                             <div>
-                                <h3>Audience Research</h3>
-                                <p>We look at how your target customers act online and study competitor ads. This helps
-                                    us find areas where they miss chances.</p>
+                                <h3>Audience Insight & Market</h3>
+                                <p>We examine how target customers engage across Instagram and other platforms while closely reviewing competitor campaigns.</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="1">
                             <img src="assests/images/online-reputataion-management/step-2.webp" alt="">
                             <div>
-                                <h3>Campaign Architecture</h3>
-                                <p>We organize ad accounts into clear groups, each serving a different goal. This
-                                    structure helps campaigns run smoothly and avoid wasted budget.</p>
+                                <h3>Campaign Architecture & Creative</h3>
+                                <p>We organize accounts into outcome-focused clusters to maximize efficiency and minimize wasted spend.</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="2">
                             <img src="assests/images/online-reputataion-management/step-3.webp" alt="">
                             <div>
-                                <h3>Launch Execution</h3>
-                                <p>We launch campaigns with budget control and set up conversion tracking. This makes
-                                    sure spending is effective and results are measured properly.</p>
+                                <h3>Launch Oversight and Metric</h3>
+                                <p>Campaigns are deployed with precise budgets and robust conversion setups. This ensures optimal performance and </p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="3">
                             <img src="assests/images/online-reputataion-management/step-4.webp" alt="">
                             <div>
-                                <h3>Performance Refinement</h3>
-                                <p>We study campaign data to improve ad targeting and content. Insights gained help us
-                                    refine strategies and boost overall performance steadily.</p>
+                                <h3>Optimization and Scalable Growth</h3>
+                                <p>We analyze metrics to refine targeting and enhance storytelling. Every insight improves reach, relevance, and campaign </p>
                             </div>
                         </div>
                     </div>
@@ -208,24 +203,24 @@
         // Tab data for left content
         const tabData = [
             {
-                title: "Audience Research & Competitive Analysis",
-                desc1: "We look at how your target customers act online and study competitor ads. This helps us find areas where they miss chances.",
-                desc2: "Our research shows what messages attract people and which audiences work best. This allows us to build campaigns that connect better."
+                title: "Audience Insight & Market Analysis for Instagram Ads",
+                desc1: "We examine how target customers engage across Instagram and other platforms while closely reviewing competitor campaigns. This uncovers opportunities often missed by others. Our research identifies which stories capture attention and which demographics respond most actively. This precision enables us to craft Instagram marketing services Dubai that feel personal, timely, and relevant.",
+             
             },
             {
                 title: "Campaign Architecture & Creative Strategy",
-                desc1: "We organize ad accounts into clear groups, each serving a different goal. This structure helps campaigns run smoothly and avoid wasted budget.",
-                desc2: "Creative designs and ad copies are developed with tested audience segments. This ensures ads stay engaging while targeting people most likely to buy."
+                desc1: "We organize accounts into outcome-focused clusters to maximize efficiency and minimize wasted spend. Content concepts and messaging are tailored to verified audience segments. As a trusted Instagram Advertising Agency Dubai, we ensure campaigns remain compelling and reach users ready to act.",
+              
             },
             {
-                title: "Launch Execution & Performance Tracking",
-                desc1: "We launch campaigns with budget control and set up conversion tracking. This makes sure spending is effective and results are measured properly.",
-                desc2: "Our team monitors campaigns daily to spot problems quickly. Winning ads are scaled while weak ones are fixed or replaced immediately."
+                title: "Launch Oversight and Metric Tracking",
+                desc1: "Campaigns are deployed with precise budgets and robust conversion setups. This ensures optimal performance and clear results. As a reliable Instagram ad agency Dubai, we monitor activity daily, scaling high performers while quickly adjusting or replacing underperformers.",
+               
             },
             {
-                title: "Performance Refinement & Growth Scaling",
-                desc1: "We study campaign data to improve ad targeting and content. Insights gained help us refine strategies and boost overall performance steadily.",
-                desc2: "Strong ads get more budget for wider reach, while poor performers are removed. This process ensures consistent growth with efficient spending."
+                title: "Optimization and Scalable Growth",
+                desc1: "We analyze metrics to refine targeting and enhance storytelling. Every insight improves reach, relevance, and campaign outcomes over time. Top-performing creatives receive increased investment for wider exposure, while low-impact assets are paused. This disciplined approach ensures predictable growth through smart resource allocation.",
+               
             }
         ];
 
