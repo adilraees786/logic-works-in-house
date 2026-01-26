@@ -44,6 +44,7 @@ RewriteRule ^android-app-development-services/?$ /app-development-services-dubai
 RewriteRule ^android-app-development-dubai/?$ /app-development-services-dubai [R=301,L]
 RewriteRule ^android-app-development/?$ /app-development-services-dubai [R=301,L]
 RewriteRule ^email-marketing-agency/?$ /email-marketing-dubai [R=301,L]
+RewriteRule ^social-media-marketing-dubai/?$ /social-media-marketing-agency [R=301,L]
 
 # -----------------------------------------
 

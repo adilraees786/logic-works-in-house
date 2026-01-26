@@ -747,8 +747,7 @@ function openTawkChat() {
     }
 }
 </script> -->
-
-  <!-- Logic Works Chatbot Loader Integration -->
+ <!-- Logic Works Chatbot Loader Integration -->
   <script type="text/javascript">
     window.LW_CHAT_BASE_URL = "<?php echo $base_url; ?>";
     (function () {
@@ -782,6 +781,7 @@ function openTawkChat() {
     }
   </script>
   <!-- / Logic Works Chatbot Loader -->
+ 
 
   </body>
 
