@@ -145,8 +145,8 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-white text-center same-all">OUR SOCIAL MEDIA SERVICES</h2>
-                    <p class="text-white text-center app-txt">Social media marketing strategy</p>
+                    <h2 class="text-white text-center same-all">Our Social Media Marketing <br> Services in Dubai</h2>
+                    <!-- <p class="text-white text-center app-txt">Social media marketing strategy</p> -->
 
                     <div class="swiper media-slider-main">
                         <div class="swiper-wrapper">
@@ -154,8 +154,9 @@ include("includes/header.php");
                                 <div class="media-slider m1">
                                     <img src="assests/images/social-media/media-01.webp" alt="media-img-001">
                                     <div class="media-contwnt">
-                                        <h3>Content Creation and Curation</h3>
-                                        <a href="#">Read more</a>
+                                        <h1 class="social-media-h1">LinkedIn Marketing</h1>
+                                        <h3>Drive B2B growth with targeted LinkedIn marketing campaigns that generate qualified leads, strengthen brand authority, and connect your business with key decision-makers.</h3>
+                                   
                                     </div>
                                 </div>
                             </div>
@@ -163,8 +164,9 @@ include("includes/header.php");
                                 <div class="media-slider m2">
                                     <img src="assests/images/social-media/media-02.webp" alt="media-img-002">
                                     <div class="media-contwnt">
-                                        <h3>Community Management and Engagement</h3>
-                                        <a href="#">Read more</a>
+                                        <h1 class="social-media-h1">Facebook Marketing</h1>
+                                        <h3>Reach the right audience with Facebook marketing strategies designed to boost engagement, increase website traffic, and drive measurable conversions through smart targeting.</h3>
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -172,8 +174,9 @@ include("includes/header.php");
                                 <div class="media-slider m3">
                                     <img src="assests/images/social-media/media-03.webp" alt="media-img-003">
                                     <div class="media-contwnt">
-                                        <h3>Social Media Advertising Campaigns</h3>
-                                        <a href="#">Read more</a>
+                                         <h1 class="social-media-h1">Instagram Marketing</h1>
+                                        <h3>Build a strong visual presence with Instagram marketing that increases brand awareness, engagement, and customer loyalty using creative content and performance-driven ads.</h3>
+                                  
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +184,9 @@ include("includes/header.php");
                                 <div class="media-slider m4">
                                     <img src="assests/images/social-media/media-04.webp" alt="media-img-004">
                                     <div class="media-contwnt">
-                                        <h3>Analytics and Performance Reporting</h3>
-                                        <a href="#">Read more</a>
+                                            <h1 class="social-media-h1">Twitter Marketing</h1>
+                                        <h3>Amplify brand visibility and conversations with Twitter marketing campaigns focused on real-time engagement, audience growth, and impactful brand messaging.</h3>
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -190,8 +194,9 @@ include("includes/header.php");
                                 <div class="media-slider m5">
                                     <img src="assests/images/social-media/media-05.webp" alt="media-img-005">
                                     <div class="media-contwnt">
-                                        <h3>Influencer Partnership Management</h3>
-                                        <a href="#">Read more</a>
+                                            <h1 class="social-media-h1">TikTok Marketing</h1>
+                                        <h3>Grow your brand with TikTok marketing strategies designed to boost visibility, engagement, and reach through trend-driven content and targeted ad campaigns.</h3>
+                                  
                                     </div>
                                 </div>
                             </div>
@@ -250,95 +255,12 @@ include("includes/header.php");
         </div>
          
     </section>
-    <section class="mt-[-50px]">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-          
-
-                    <div class="swiper media-slider-main">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="media-slider m1">
-                                    <img src="assests/images/social-media/media-01.webp" alt="media-img-001">
-                                    <div class="media-contwnt">
-                                        <h3>Content Creation and Curation</h3>
-                                        <a href="#">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="media-slider m2">
-                                    <img src="assests/images/social-media/media-02.webp" alt="media-img-002">
-                                    <div class="media-contwnt">
-                                        <h3>Community Management and Engagement</h3>
-                                        <a href="#">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                            
-                          
-                            <!-- <div class="swiper-slide">
-                                <div class="media-slider m1">
-                                    <img src="assests/images/social-media/media-01.png">
-                                    <div class="media-contwnt">
-                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
-                                        <a href="#">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="media-slider m2">
-                                    <img src="assests/images/social-media/media-02.png">
-                                    <div class="media-contwnt">
-                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
-                                        <a href="#">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="media-slider m3">
-                                    <img src="assests/images/social-media/media-03.png">
-                                    <div class="media-contwnt">
-                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
-                                        <a href="#">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="media-slider m4">
-                                    <img src="assests/images/social-media/media-04.png">
-                                    <div class="media-contwnt">
-                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
-                                        <a href="#">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="media-slider m5">
-                                    <img src="assests/images/social-media/media-05.png">
-                                    <div class="media-contwnt">
-                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
-                                        <a href="#">Read more</a>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-                        
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-         
-    </section>
+   
 
     <section class="section-bg media-seond-sec">
         <div class="container">
             <div class="row align-items-center">
-                <h2 class="text-white text-center same-all">WHY CHOOSE LOGIC WORKS AS YOUR SOCIAL MEDIA PARTNER?</h2>
+                <h2 class="text-white text-center same-all">Why Choose Logic Works as Your Social Media Marketing Partner in Dubai?</h2>
                 <p class="text-white text-center app-txt">Proven Social Media Strategies That Drive Growth</p>
 
                 <div class="media-choose-slider">
@@ -1048,7 +970,11 @@ include("includes/footer.php");
     .media-process-sec {
         padding-bottom: 90px;
     }
-
+.social-media-h1 {
+    font-size: 20px;
+    font-weight: 700;
+ color: #8512A1;
+}
     .gyb {
         background: url('http://localhost/logic-works/assests/images/social-media/bg-section1.webp');
         padding-bottom: 100px;
