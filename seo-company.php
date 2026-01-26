@@ -216,7 +216,113 @@ include("includes/header.php");
             </div>
         </div>
     </section>
+         <section class="twod-animation-service section-bg  pt-80 mb-80">
 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-white algn-centr same-all mb-20">
+                       Core Pillars Of SEO
+                    </h2>
+                    <!-- <p class="heading-h2-subpara text-white fs-22 text-center mb-50">
+                        Businesses rely on us for proven strategies that protect their online image and build lasting
+                        credibility.
+                    </p> -->
+                </div>
+                <div class="row twod-animation-service-slider">
+                    <div class="col-lg-4">
+                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                            <img src="assests/images/online-reputataion-management/case-1.webp"
+                                alt="online-repo-img-004">
+                            <div class="td-animation-service-card-bottom-content py-50 px-20">
+                                <h4 class="fw-700 fs-24 text-primary-theme">On-Page SEO</h4>
+                                <p class="fs-13 mb-20">
+                                    Optimize every on-site element for higher rankings and better user experience. Our search engine optimization services in Dubai include keyword optimization, content structure, internal linking, metadata enhancement, and UX alignment to ensure search engines and users love your site..
+                                    <!-- <a href="#"
+                                        class="text-primary-theme text-decoration-none">Read
+                                        More</a> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                            <img src="assests/images/online-reputataion-management/case-2.webp"
+                                alt="online-repo-img-001">
+                            <div class="td-animation-service-card-bottom-content py-65 px-20">
+                                <h4 class="fw-700 fs-24 text-primary-theme">Off-Page SEO</h4>
+                                <p class="fs-13 mb-20">
+                               Build authority and trust with ethical link-building and brand mentions. As a search engine optimization agency in Dubai, we focus on high-quality backlinks, digital PR, citations, and outreach strategies that strengthen domain authority and improve rankings.
+                                    <!-- <a href="#"
+                                        class="text-primary-theme text-decoration-none">Read
+                                        More</a> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="td-animation-wcu-card td-animation-service-card">
+                            <img src="assests/images/online-reputataion-management/case-3.webp"
+                                alt="online-repo-img-002">
+                            <div class="td-animation-service-card-bottom-content py-75 px-20">
+                                <h4 class="fw-700 fs-24 text-primary-theme">Technical SEO</h4>
+                                <p class="fs-13 mb-20">
+                                 Our technical SEO specialists ensure your website is crawlable, fast, secure, and compliant with Google’s latest standards. From site speed and schema to mobile optimization and indexation, we fix issues that block growth.
+                                    <!-- <a href="#"
+                                        class="text-primary-theme text-decoration-none">Read
+                                        More</a> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                            <img src="assests/images/online-reputataion-management/case-1.webp"
+                                alt="online-repo-img-003">
+                            <div class="td-animation-service-card-bottom-content py-75 px-20">
+                                <h4 class="fw-700 fs-24 text-primary-theme">Ecommerce SEO</h4>
+                                <p class="fs-13 mb-20">
+                                    Drive qualified traffic and sales with tailored ecommerce SEO strategies. We optimize product pages, categories, filters, and structured data to improve visibility and conversions for online stores across Dubai.
+                                    <!-- <a href="#"
+                                        class="text-primary-theme text-decoration-none">Read
+                                        More</a> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                            <img src="assests/images/online-reputataion-management/case-2.webp"
+                                alt="online-repo-img-003">
+                            <div class="td-animation-service-card-bottom-content py-75 px-20">
+                                <h4 class="fw-700 fs-24 text-primary-theme">Content SEO</h4>
+                                <p class="fs-13 mb-20">
+                                   High-quality content fuels rankings. Our SEO content strategies focus on search intent, semantic keywords, topical authority, and conversion-driven copy helping brands rank higher and engage better..
+                                    <!-- <a href="#"
+                                        class="text-primary-theme text-decoration-none">Read
+                                        More</a> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="d-flex justify-content-center">
+                    <!-- <a href="" class="btn-primary">View Case Studies</a> -->
+                </div>
+                <div class="twod-animation-wcu-arrows twod-animation-service-arrows ">
+                    <div class="left-arrow">
+
+                        <img src="assests/images/android-app-development/left-arrow.png" alt="">
+                    </div>
+                    <div class="right-arrow">
+
+                        <img src="assests/images/android-app-development/right-arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="digital-next-sec seo-second-sec section-bg"
         style="background-image: url(assests/images/marketing/bg-pattern.webp);">
         <div class="container" style="display:block; padding: 0;">
@@ -273,7 +379,10 @@ include("includes/header.php");
                 </div>
             </div>
 
-            <div class="row info-graphic align-items-center">
+       
+  
+
+             <!-- <div class="row info-graphic align-items-center">
                 <div class="col-lg-5">
                     <div class="our-info">
                         <h2 class="text-white">Core Pillars Of SEO</h2>
@@ -384,7 +493,7 @@ include("includes/header.php");
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  -->
 
             <div class="row tablet-show">
                 <div class="col">
@@ -403,7 +512,7 @@ include("includes/header.php");
                             <hr>
                             <div class="step-bg">
                                 <h2>In-Depth SEO Audit</h2>
-                                <p>Analyze performance, identify issues, and create custom strategies.</p>
+                                <p>We conduct a comprehensive SEO audit covering technical issues, competitors, keyword gaps, and growth opportunities building a custom roadmap aligned with your business goals.</p>
                             </div>
                         </div>
 
@@ -413,7 +522,7 @@ include("includes/header.php");
                             <hr>
                             <div class="step-bg">
                                 <h2>Keyword Research & Optimization</h2>
-                                <p>Research keywords, optimize content, and improve rankings and visibility.</p>
+                                <p>Our team identifies high-intent, locally targeted keywords such as local SEO services Dubai to drive qualified traffic and faster ROI.</p>
                             </div>
                         </div>
 
@@ -423,7 +532,7 @@ include("includes/header.php");
                             <hr>
                             <div class="step-bg">
                                 <h2>On-Page & Technical SEO</h2>
-                                <p>Enhance structure, metadata, speed, and mobile compatibility.</p>
+                                <p>We implement on-page and technical enhancements to strengthen site health, rankings, and user experience</p>
                             </div>
                         </div>
 
@@ -433,7 +542,7 @@ include("includes/header.php");
                             <hr>
                             <div class="step-bg">
                                 <h2>Ongoing Monitoring & Reporting</h2>
-                                <p>Track performance, adjust strategies, and provide actionable reports.</p>
+                                <p>Transparent reporting, performance tracking, and continuous optimization ensure consistent growth and adaptability to algorithm updates.</p>
                             </div>
                         </div>
                     </div>
@@ -445,7 +554,8 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="seo-company-001">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Start Ranking Higher Today – Reach Out to Us Now!</h2>
+                    <h2 class="text-white same-all text-end">Start Ranking Higher with the Best SEO Services in Dubai
+</h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
@@ -456,6 +566,11 @@ include("includes/header.php");
             <div class="row results-row pb-0 pt-50 ">
                 <div class="col graph-sec">
                     <h2 class="text-white same-all text-center"> RESULTS THAT SPEAK FOR THEMSELVES"</h2>
+                    <div>
+    <p class="exter-para mb-10">Recognized across platforms for excellence in search engine marketing agency Dubai services and SEO performance.</p>
+    <p class="exter-para mb-10">Logic Works is more than SEO. As a full-service search engine marketing agency in Dubai, we also deliver paid growth solutions, including Google Ads and SEM services in Dubai, ensuring complete visibility across organic and paid search channels</p>
+  
+</div>
                     <h4 class="text-white"><img src="assests/images/seo/la1.png"> 10+ years of SEO expertise</h4>
                     <h4 class="text-white"><img src="assests/images/seo/la2.png"> 95% client retention rate</h4>
                     <h4 class="text-white"><img src="assests/images/seo/la3.png"> 100+ websites ranked on Page 1</h4>
@@ -472,6 +587,7 @@ include("includes/header.php");
         </div>
 
     </section>
+ 
     <section class="container">
         <?php
         include("includes/clint-review.php");

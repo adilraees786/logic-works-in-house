@@ -74,6 +74,7 @@ include("includes/header.php");
         margin-top: 20px;
     }
     
+ 
 
     @media (max-width:600px) {
         .digital-marketing .transform-row {
@@ -231,6 +232,7 @@ include("includes/header.php");
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="seo" role="tabpanel" aria-labelledby="seo-tab">
+                      <p class="exter-para">Build meaningful connections and grow engagement across Facebook, Instagram, LinkedIn, YouTube, Twitter, and Pinterest with data-backed content strategies.</p>
                         <div class="row">
                             <div class="col-lg-4 col-sm-4">
                                 <img src="assests/images/marketing/facebook.webp" alt="fb-mg">
@@ -248,6 +250,7 @@ include("includes/header.php");
                         </div>
                     </div>
                     <div class="tab-pane fade" id="ppc" role="tabpanel" aria-labelledby="ppc-tab">
+                         <p class="exter-para">Our SEO solutions improve rankings, organic traffic, and visibility positioning Logic Works among the best digital marketing companies in Dubai.</p>
                         <div class="row">
                             <div class="col-lg-4 col-sm-4">
                                 <img src="assests/images/marketing/keyword.webp" alt="keyword-img">
@@ -265,6 +268,7 @@ include("includes/header.php");
                         </div>
                     </div>
                     <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">
+                        <p class="exter-para">Protect and enhance your brand image with proactive monitoring, reviews management, and reputation-building strategies.</p>
                         <div class="row">
                             <div class="col-lg-4 col-sm-4">
                                 <img src="assests/images/marketing/Encouragepositive.webp" alt="enc-img">

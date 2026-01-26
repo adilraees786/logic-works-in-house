@@ -83,70 +83,78 @@
             max-width: 250px !important;
         }
     }
+    /* Desktop / md and above → IMAGE LEFT */
+@media screen and (min-width: 768px) {
+    .custom-row {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Mobile → TEXT UP, IMAGE DOWN (normal order) */
+@media screen and (max-width: 767px) {
+    .custom-row {
+        flex-direction: column;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
     <div class="container py-5">
-        <div class="row align-items-center">
+     <div class="row align-items-center custom-row">
+
 
             <!-- LEFT SIDE TABS -->
             <div class="col-md-6">
-                <h2 class="matter-head">Why Choose Us?</h2>
-                <p class="text-whitee-50">Trusted Advertising Agency Delivering Real Results</p>
-                <p class="text-white">Our Facebook marketing agency helps businesses grow with proven ad strategies. We
-                    design, manage, and improve campaigns that bring more sales. Every campaign is optimized to cut
-                    waste and deliver clear results.</p>
+                <h2 class="matter-head">Why Teams Choose To Work With Us</h2>
+                <p class="text-whitee-50">Twitter Advertising Agency Dubai Turning Attention Into Meaningful Action</p>
+                <p class="text-white">As a Twitter Advertising Agency Dubai, we design strategy-driven campaigns that are tested, refined, and scaled with purpose. Every rollout reduces waste, sharpens audience targeting, transforms clicks into engagement, and builds sustainable momentum.</p>
 
                 <!-- Tabs -->
                 <div id="tabs">
                     <div class="tab-box active" data-tab="tab1">
-                        <h3 class="text-tittle">Proven Sales Growth</h3>
+                        <h3 class="text-tittle">Long-Term Audience Momentum</h3>
                         <div class="tab-content-box">
-                            Our ads turn casual visitors into buyers. Businesses see clear sales increases and stronger
-                            monthly revenue.
+                          We guide brands to create lasting relationships with committed communities. Through consistent, relevant, and thoughtfully positioned campaigns, Twitter marketing services Dubai help maintain engagement across evolving conversations.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab2">
-                        <h3 class="text-tittle">Complete Campaign Control</h3>
+                        <h3 class="text-tittle">End-to-End Campaign Management</h3>
                         <div class="tab-content-box">
-                            We handle everything from ad creation to tracking. Campaigns stay optimized with smooth
-                            execution and steady improvements.
+                           From planning and execution to observation and insights, we manage campaigns fully from start to finish. Each iteration grows stronger through continuous testing and optimization, guided by expert Twitter marketing service Dubai principles.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab3">
-                        <h3 class="text-tittle">Cross-Platform Strategy</h3>
+                        <h3 class="text-tittle">Expanded Platform Presence</h3>
                         <div class="tab-content-box">
-                            Your ads run across Facebook, Instagram, Messenger, and Audience Network. More reach means
-                            stronger brand visibility and results.
+                           Your message reaches audiences naturally across feeds, discussions, and extended visibility zones. Coordinated reach strategies reinforce trust, elevate brand authority, and increase overall confidence in your offerings.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab4">
-                        <h3 class="text-tittle">Conversion-Focused Approach</h3>
+                        <h3 class="text-tittle">Precision-Led Execution</h3>
                         <div class="tab-content-box">
-                            Every ad element is tested and refined. Campaigns drive real actions like sales, leads, and
-                            customer engagement.
+                        Campaign components are continuously reviewed, refined, and optimized. Actions, questions, signups, and loyalty growth are driven with accuracy, ensuring that audience engagement remains meaningful.
                         </div>
                     </div>
                     <div class="tab-box" data-tab="tab5">
-                        <h3 class="text-tittle">Transparent Reporting Standards</h3>
+                        <h3 class="text-tittle">Transparent Reporting</h3>
                         <div class="tab-content-box">
-                            We provide weekly performance reports with clear results. Clients see exact spending,
-                            returns, and campaign performance.
+                           A Twitter ads agency Dubai ensures full visibility. Clients can track trends, performance shifts, and account growth with shared access, making all results measurable and actionable.
                         </div>
                     </div>
                 </div>
 
                 <div class="live-chat-btns">
 
-                    <a href="#" class="live-chats">Live Chat</a>
+                     <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
             <div class="col-md-6 text-center mt-4 mt-md-0">
-                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/why-choice.png" alt="Tab Image"
-                    class="right-img-brand">
+                  <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/choice-image.webp" alt="Tab Image"
+                    class="right-img-brand">>
             </div>
 
         </div>
@@ -158,7 +166,7 @@
         const image = document.getElementById("tab-image-brand");
 
         const imageMap = {
-            tab1: "assests/images/fb-instagram-marketingt/why-choice.png",
+            tab1: "assests/images/fb-instagram-marketingt/choice-image.webp",
             tab2: "assests/images/fb-instagram-marketingt/choice-image.webp",
             tab3: "assests/images/fb-instagram-marketingt/choice-image.webp",
             tab4: "assests/images/fb-instagram-marketingt/choice-image.webp",

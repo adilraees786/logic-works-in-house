@@ -1,6 +1,7 @@
 <?php
-$meta_title = "Professional Social Media Marketing Agency | Logic Works";
-$meta_description = "Logic Works is a social media marketing agency helping brands grow followers, boost engagement, and drive measurable conversions.";
+$meta_title = "#1 Social Media Marketing Agency in Dubai - Logic Works";
+$meta_description = "Logic Works is a trusted social media marketing agency in Dubai helping brands grow through creative content, paid campaigns, and data-driven strategies.
+";
 $keyword = 'Social Media Marketing Agency';
 $canonical = "https://logicworks.ae/social-media-marketing-agency";
 $faq_data = '
@@ -87,9 +88,8 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h1 class="text-white">Build Stronger Brands With Our Social Media Marketing Agency</h1>
-                    <p class="text-white">Logic Works serves as your dedicated social media marketing agency, helping
-                        businesses across Dubai build meaningful connections that convert followers into customers.</p>
+                    <h1 class="text-white">#1 Social Media Marketing Agency in Dubai</h1>
+                    <p class="text-white">Logic Works provides results-driven social media marketing agency in Dubai, helping businesses across the UAE build meaningful connections that convert followers into customers.</p>
 
                     <div class="seo-btn">
                         <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
@@ -127,17 +127,13 @@ include("includes/header.php");
                 </div>
                 <div class="col-md-7">
                     <div class="media-inner">
-                        <h2 class="text-black text-center same-all">WHY <span>SOCIAL MEDIA</span> DRIVES BUSINESS
-                            SUCCESS</h2>
-                        <h4 class="text-black text-center">WHY YOUR COMPANY REQUIRES PROFESSIONAL SOCIAL MEDIA
-                            MANAGEMENT</h4>
+                        <h2 class="text-black text-center same-all">Why <span>Social Media Marketing</span> Services in Dubai Drive Business Success</h2>
+                        <!-- <h4 class="text-black text-center">WHY YOUR COMPANY REQUIRES PROFESSIONAL SOCIAL MEDIA
+                            MANAGEMENT</h4> -->
 
-                        <p class="text-center">4.9 BILLION PEOPLE ACTIVELY ENGAGE ON SOCIAL PLATFORMS DAILY</p>
-                        <p class="text-center">BUSINESSES EXPERIENCE 32% HIGHER CONVERSION RATES THROUGH SOCIAL MEDIA
-                            ENGAGEMENT.</p>
-                        <p class="text-center">SOCIAL MEDIA CAMPAIGNS GENERATE 78% MORE WEBSITE TRAFFIC THAN ORGANIC
-                            METHODS.
-                        </p>
+                        <p class="text-center">Social media has become one of the most powerful digital channels for brand visibility, customer engagement, and revenue growth. As a leading social media marketing company in Dubai, Logic Works helps businesses connect with highly targeted audiences across platforms where purchasing decisions are made every day. With billions of active users and advanced targeting options, social media allows brands to reach the right customers at the right time with precision.</p>
+                        <p class="text-center">Professional social media marketing services in Dubai enable businesses to build trust, increase engagement, and drive qualified traffic to their websites. From awareness campaigns to conversion-focused strategies, our data-driven approach ensures consistent growth, higher interaction rates, and measurable ROI. Strategic social media campaigns consistently outperform traditional marketing methods, making SMM a critical component of sustainable business success in today’s competitive digital landscape.</p>
+                       
 
                         <a href="#" class="text-center">START NOW!</a>
                     </div>
@@ -245,12 +241,98 @@ include("includes/header.php");
                                 </div>
                             </div> -->
                         </div>
+                        
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
         </div>
+         
+    </section>
+    <section class="mt-[-50px]">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+          
+
+                    <div class="swiper media-slider-main">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="media-slider m1">
+                                    <img src="assests/images/social-media/media-01.webp" alt="media-img-001">
+                                    <div class="media-contwnt">
+                                        <h3>Content Creation and Curation</h3>
+                                        <a href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="media-slider m2">
+                                    <img src="assests/images/social-media/media-02.webp" alt="media-img-002">
+                                    <div class="media-contwnt">
+                                        <h3>Community Management and Engagement</h3>
+                                        <a href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            
+                          
+                            <!-- <div class="swiper-slide">
+                                <div class="media-slider m1">
+                                    <img src="assests/images/social-media/media-01.png">
+                                    <div class="media-contwnt">
+                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
+                                        <a href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="media-slider m2">
+                                    <img src="assests/images/social-media/media-02.png">
+                                    <div class="media-contwnt">
+                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
+                                        <a href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="media-slider m3">
+                                    <img src="assests/images/social-media/media-03.png">
+                                    <div class="media-contwnt">
+                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
+                                        <a href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="media-slider m4">
+                                    <img src="assests/images/social-media/media-04.png">
+                                    <div class="media-contwnt">
+                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
+                                        <a href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="media-slider m5">
+                                    <img src="assests/images/social-media/media-05.png">
+                                    <div class="media-contwnt">
+                                        <h3>SOCIAL MEDIA STRATEGY DEVELOPMENT</h3>
+                                        <a href="#">Read more</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
     </section>
 
     <section class="section-bg media-seond-sec">

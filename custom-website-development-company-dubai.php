@@ -188,7 +188,7 @@ include("includes/header.php");
     }
 
     .huge-bg-img {
-        background: url('assests/images/social-media/huge-bg.png');
+        /* background: url('assests/images/social-media/huge-bg.png'); */
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;

@@ -1580,10 +1580,21 @@ section.process-sec h1 {
     left: 0;
     top: 0;
   }
+   .exter-para {
+    font-size: 16px !important;
+   }
 }
 
 
-
+   .exter-para {
+         margin: auto;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color:#ffffff;
+  max-width: 800px;
+  margin-top: 20px;
+    }
 
 /* .app-development-technology .services-slider .swiper-slide {
   background: url('images/app-development-technology/bgimg.jpg') no-repeat center/cover;
