@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Expert PPC Marketing Company | Logic Works";
-$meta_description = "Logic Works is a PPC Marketing Company offering data-driven ad strategies. We help reduce costs, boost leads, and grow sales across major platforms.";
+$meta_title = "Leading PPC Marketing Agency in Dubai – Logic Works";
+$meta_description = "Logic Works is a trusted PPC Marketing agency in Dubai delivering high-ROI Google Ads and paid campaigns that drive leads, sales, and measurable growth.";
 $keyword = 'PPC Marketing Company';
 $canonical = "https://logicworks.ae/ppc-marketing-company";
 $custom_schema = '
@@ -126,11 +126,18 @@ include("includes/header.php");
         top: 0%;
 
     }
+      .text-logo {
+        font-size: 20px;
+        color: #878787;
+        line-height: 30px;
+        font-weight: 500;
+        letter-spacing: 0%;
+    }
 
     @media (max-width: 1024px) {
-        .ppc-marketing-company .threed-animation-hero-sec .col-lg-4 img {
+        /* .ppc-marketing-company .threed-animation-hero-sec .col-lg-4 img {
             position: relative;
-        }
+        } */
 
         .ppc-marketing-company .media-seond-sec .swiper-button-next {
             background: url(assests/images/app-development-technology/arrow-1.png);
@@ -143,6 +150,11 @@ include("includes/header.php");
         }
 
     }
+ @media (max-width: 1440px) and (min-width: 1152px) {
+    .ppc-marketing-company .consultancy-hero-sec .col-lg-4 img {
+        min-width: 126% !important;
+    }
+}
 
     @media (max-width: 600px) {
             {
@@ -156,37 +168,23 @@ include("includes/header.php");
 </style>
 
 <main class="ppc-marketing-company">
-    <section class="section-bg inner-banner threed-animation-hero-sec position-relative z-1 pb-60">
+ <section class="consultancy-hero-sec section-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-8 col-md-12">
-                    <h1 class="text-white mb-20"><span class="small-text fs-30 fw-700">Grow Your Business Revenue
-                            Through</span>
-                        Expert PPC Marketing Company Solutions</h1>
-                    <h2 class="text-white fs-22 mb-20 fw-700">We provide strategic PPC campaign management that reduces
-                        wasted spend and increases sales revenue for businesses.</h2>
-                    <p class="text-white fs-18">Paid ads can be tricky for many businesses. Without the right approach,
-                        money is often spent with little return. Small companies face challenges like handling multiple
-                        platforms, tracking results, and building ads that bring sales. Our PPC marketing company makes
-                        this process easier. We use data-driven methods to cut costs and bring better leads. Campaigns
-                        are managed across Google Ads, Microsoft Ads, and social platforms to get the best results. From
-                        setup to ongoing updates, our focus stays on growth. Every dollar spent works toward stronger
-                        revenue and long-term business success.</p>
-
-
-                    <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup">Get A Quote</a>
-                    </div>
-                    <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec mt-30"> -->
-                    <div class="mt-30">
+                <div class="col-lg-8">
+                    <h1 class="text-white">PPC Marketing Agency Dubai Driving High-ROI Paid Advertising Results
+                    </h1>
+                    <p class="text-logo">Logic Works is a performance-driven PPC agency in Dubai helping businesses generate qualified leads, increase conversions, and maximize ad spend ROI. As a trusted PPC marketing company in Dubai, we create data-driven paid advertising strategies that reduce wasted spend and deliver measurable business growth across Google Ads, Bing Ads, and social media platforms.
+                    </p>
+                   
+                    <div class="py-20">
                         <?php
                         include("includes/image-link.php");
                         ?>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <img src="assests/images/ppc-marketing-company/ppc-hero-img.webp" alt="ppc-hero-banner">
+                <div class="col-lg-4">
+            <img src="assests/images/ppc-marketing-company/ppc-hero-img.webp" alt="ppc-hero-banner">
                 </div>
             </div>
         </div>
@@ -233,54 +231,54 @@ include("includes/header.php");
         <section class="section-bg media-seond-sec">
             <div class="container">
                 <div class="row align-items-center">
-                    <h2 class="text-white text-center same-all">WHY CHOOSE US?</h2>
-                    <p class="text-white text-center app-txt">Why Businesses Partner with Our PPC Search Engine
-                        Marketing Company</p>
+                    <h2 class="text-white text-center same-all">Why Choose Logic Works as Your PPC Marketing Agency in Dubai</h2>
+                    <!-- <p class="text-white text-center app-txt">Why Businesses Partner with Our PPC Search Engine
+                        Marketing Company</p> -->
 
                     <div class="media-choose-slider">
                         <div class="swiper choose-main">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="chose-content">
-                                        <h4 class="">Proven ROI <br> Improvement</h4>
-                                        <p class="">Lower costs, higher quality leads</p>
+                                        <h4 class="">Multi-Platform PPC Expertise</h4>
+                                        <p class="">We manage campaigns across Google Ads, Microsoft Bing, YouTube, Facebook, Instagram, and LinkedIn delivering comprehensive PPC advertising services in Dubai that reach customers at every stage of the funnel.</p>
                                     </div>
                                     <img src="assests/images/ppc-marketing-company/ppc-slider-img-001.webp" alt="slide-01">
-                                    <div class="seo-btn">
+                                    <!-- <div class="seo-btn">
                                         <a href="#">Get Started</a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="chose-content">
-                                        <h4 class="">Full-Service Campaign Management</h4>
-                                        <p class="">Strategy, setup, monitoring, optimization</p>
-                                    </div>
-                                    <img src="assests/images/ppc-marketing-company/ppc-slider-img-002.webp" alt="slide-01">
-                                    <div class="seo-btn">
-                                        <a href="#">Get Started</a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="chose-content">
-                                        <h4 class="">Multi-Platform <br> Expertise</h4>
-                                        <p class="">Google, Bing, Facebook, Instagram, LinkedIn</p>
-                                    </div>
-                                    <img src="assests/images/ppc-marketing-company/ppc-slider-img-003.webp" alt="slide-01">
-                                    <div class="seo-btn">0
-                                        <a href="#">Get Started</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="chose-content">
                                         <h4 class="">Advanced Analytics Integration</h4>
-                                        <p class="">Detailed reports, real-time performance tracking</p>
+                                        <p class="">Our PPC specialists track conversions, ROI, and performance metrics using advanced analytics tools, helping clients confidently and sustainably scale their campaigns.</p>
                                     </div>
-                                    <img src="assests/images/ppc-marketing-company/ppc-slider-img-004.webp" alt="slide-01">
-                                    <div class="seo-btn">
+                                    <img src="assests/images/ppc-marketing-company/ppc-slider-img-002.webp" alt="slide-01">
+                                    <!-- <div class="seo-btn">
                                         <a href="#">Get Started</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="swiper-slide">
+                                    <div class="chose-content">
+                                        <h4 class="">Guaranteed Performance Standards</h4>
+                                        <p class="">As an affordable PPC service agency in Dubai, we focus on cost efficiency, measurable growth, and continuous optimization backed by transparent performance reviews.</p>
+                                    </div>
+                                    <img src="assests/images/ppc-marketing-company/ppc-slider-img-003.webp" alt="slide-01">
+                                    <!-- <div class="seo-btn">
+                                        <a href="#">Get Started</a>
+                                    </div> -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="chose-content">
+                                        <h4 class="">Proven ROI <br>Improvement</h4>
+                                        <p class="">We optimize PPC campaigns to lower costs, improve lead quality, and maximize ROI through continuous performance-driven optimization.</p>
+                                    </div>
+                                    <img src="assests/images/ppc-marketing-company/ppc-slider-img-004.webp" alt="slide-01">
+                                    <!-- <div class="seo-btn">
+                                        <a href="#">Get Started</a>
+                                    </div> -->
+                                </div>
+                                <!-- <div class="swiper-slide">
                                     <div class="chose-content">
                                         <h4 class="">Guaranteed Performance Standards</h4>
                                         <p class="">Clear metrics with monthly reviews</p>
@@ -289,7 +287,7 @@ include("includes/header.php");
                                     <div class="seo-btn">
                                         <a href="#">Get Started</a>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- <div class="swiper-slide">
                                     <div class="chose-content">
                                         <h4 class="">Multi-Platform PPC </h4>

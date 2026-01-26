@@ -334,8 +334,7 @@ include("includes/header.php");
                     <img src="assests/images/marketing/professional.webp" alt="banda-img-social" class="bde">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Drive Customer Growth with Expert Social Media Marketing
-                        Agency Services</h2>
+                    <h2 class="text-white same-all text-end">Drive Customer Growth with the Best Social Media Marketing Company in Dubai</h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
@@ -655,45 +654,44 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                       <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">What separates your social media marketing agency from
-                                competitors?</button>
+                            <button class="accordions">Why should I hire a social media marketing agency in Dubai?
+</button>
                             <div class="panel">
-                                <p>We focus on conversion-driven results, not vanity metrics. Detailed analytics show
-                                    how social media efforts increase traffic. Our reports track leads and sales revenue
-                                    clearly.</p>
+                                <p>A local social media marketing agency in Dubai understands regional audiences, platforms, trends, and buying behavior, helping brands achieve better engagement and ROI.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How soon can we see measurable results from social media
-                                campaigns?</button>
+                            <button class="accordions">What social media marketing services in Dubai do you offer?</button>
                             <div class="panel">
-                                <p>Engagement improvements typically appear within two weeks. Follower growth
-                                    accelerates through consistent posting and community interaction. Significant
-                                    business impact usually develops within 60 to 90 days.
+                                <p>We provide complete social media marketing services in Dubai, including strategy, content creation, paid ads, account management, and performance tracking.
+
                                 </p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Which social media platforms do you manage for clients?</button>
+                            <button class="accordions">Which platforms do your SMM services in Dubai cover?
+</button>
                             <div class="panel">
-                                <p>Our social media marketing agency manages all major platforms. We cover Facebook,
-                                    Instagram, LinkedIn, Twitter, TikTok, YouTube, and Pinterest. Platform choice
-                                    depends on audience behavior and business goals.</p>
+                                <p>Our SMM services in Dubai include Facebook, Instagram, LinkedIn, TikTok, Twitter (X), and YouTube, tailored to your business goals.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How do you measure social media marketing success and
-                                ROI?</button>
+                            <button class="accordions">How do you measure success for social media campaigns?</button>
                             <div class="panel">
-                                <p>We track engagement rates, follower growth, website traffic, lead generation, and
-                                    sales conversions. Monthly reports demonstrate clear connections between social
-                                    media activities and business revenue growth.
+                                <p>We track engagement, reach, leads, conversions, and ROI using analytics tools to ensure measurable growth and campaign transparency.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">What makes Logic Works the best social media marketing agency in Dubai?</button>
+                            <div class="panel">
+                                <p>Logic Works combines creative content, data-driven strategies, and proven performance, making us a trusted social media marketing company in Dubai.
                                 </p>
                             </div>
                         </div>
@@ -703,105 +701,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-        id="hireobserverID">
-        <div class="bg-white-heading-custom">
-            <div class="container">
-                <div class="row white-bg-heading-custom-row">
-                    <div class="col-md-12">
-                        <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                        <ul class="faq_section">
-                            <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Does
-                                    Professional Social Media Management Accelerate Business Growth?</a></li>
-                            <li><a href="#section-2" class="hire-tabs">Why Do Results Driven Social Media Strategies
-                                    Maximize Business Impact?</a></li>
-                            <li><a href="#section-3" class="hire-tabs">What Advanced Social Media Techniques Provide
-                                    Competitive Advantages?</a></li>
-                            <li><a href="#section-4" class="hire-tabs">How Does Strategic Innovation Drive Industry
-                                    Leading Social Media Performance?</a></li>
 
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-6 col-md-6 col-stick">
-                    <main>
-                        <section class="sec-info" id="section-1">
-                            <h2>How Does Professional Social Media Management Accelerate Business Growth?</h2>
-                            <ul>
-                                <p>Social media and marketing services keep changing as platforms grow and audience
-                                    habits shift. Our team learns new updates and tests platforms to stay ahead. Clients
-                                    benefit from our knowledge of algorithm changes and new features that affect
-                                    campaigns. We use advanced targeting and engagement methods to improve reach and
-                                    conversions. Many businesses working with us see steady growth. We aim at long-term
-                                    success rather than quick fixes. A powerful social media marketing strategy assists
-                                    the businesses develop credibility, reach the audience, and become more visible.
-                                    Brands can become better than their rivals and expand their market share with the
-                                    correct plan.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-2">
-                            <h2>Why Do Results Driven Social Media Strategies Maximize Business Impact?</h2>
-                            <ul>
-                                <p>Good social media management is based on correct data analysis and sound decision
-                                    making. Our team analyses campaign performance in order to spot areas of
-                                    optimization. We investigate behavior of the audience, performance of the content
-                                    and competition activities to fine tune the methods of targeting. It is a
-                                    methodology that saves unnecessary expenditures and maximizes campaign success.
-                                    Companies that do as we suggest have reduced customer acquisition expenses and
-                                    greater participation rates. Clear insights enable smarter budget allocation
-                                    decisions. Our analytical approach transforms social media spending into measurable
-                                    business growth. Every social media marketing strategy recommendation stems from
-                                    data evidence, not assumptions.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-3">
-                            <h2>What Advanced Social Media Techniques Provide Competitive Advantages?</h2>
-                            <ul>
-                                <p>The success of social media marketing is an art that needs skills and tactical
-                                    consideration. Leading social media marketing agency providers use sophisticated
-                                    methods that reduce costs while improving results. We use the audience segmentation,
-                                    the best posting times, and the optimization of the content on a particular platform
-                                    to ensure the best performance. These techniques make campaigns more efficient and
-                                    generate superior returns. Clients rely on our testing and refinement processes to
-                                    improve content effectiveness. We prioritize higher engagement scores and lower cost
-                                    per conversion metrics. Our objective centers on generating more qualified leads at
-                                    reduced acquisition costs. Many companies achieve improved profit margins through
-                                    our scaling methodologies. These strategies maintain steady growth without
-                                    compromising budget efficiency. We help businesses reach larger audiences while
-                                    preserving profitability.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-4">
-                            <h2>How Does Strategic Innovation Drive Industry Leading Social Media Performance?</h2>
-                            <ul>
-                                <p>Leadership in social media marketing requires continuous development and change of
-                                    thinking. To make campaigns competitive, we keep track of algorithm changes,
-                                    platform updates and industry trends. Our team utilizes advanced tools including
-                                    automated scheduling, dynamic content creation, and precision audience targeting.
-                                    These methods enhance campaign effectiveness and deliver superior business growth.
-                                    Many companies using our strategies experience significant improvements in
-                                    engagement metrics and sales performance. We guide clients through platform
-                                    transitions and help them adopt emerging social media opportunities. Our systematic
-                                    methodology supports consistent growth through intelligent social media investments.
-                                    We ensure businesses maintain competitive advantages through expert social media
-                                    marketing agency management.
-                                </p>
-                            </ul>
-                        </section>
-
-                    </main>
-                </div>
-            </div>
-        </div>
-    </section>
     </div>
 </main>
 <?php

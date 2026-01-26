@@ -1,6 +1,6 @@
 <?php
-$meta_title = "SEO Services for Business Growth - Logic Works";
-$meta_description = "Boost your rankings, drive traffic, and grow your business with Logic Works’ expert SEO strategies. Trusted for proven results and measurable success.";
+$meta_title = "Trusted SEO Agency in Dubai | Logic Works – Rank Higher";
+$meta_description = "Logic Works is a trusted SEO agency in Dubai offering data-driven SEO services to improve rankings, visibility, and long-term business growth.";
 $keyword = 'Seo Company';
 $canonical = "https://logicworks.ae/seo-company";
 $custom_schema = '
@@ -202,10 +202,9 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
-                    <h1 class="text-white"><span>Logic Works</span> – Leading SEO Services Provider for Business Growth
+                    <h1 class="text-white"><span>Logic Works</span> – Trusted SEO Services Agency in Dubai
                     </h1>
-                    <p class="text-white">Boost your online visibility, drive traffic, and achieve growth with Logic
-                        Works' expert SEO strategies.</p>
+                    <p class="text-white">Boost your online visibility, attract high-intent traffic, and increase conversions with Logic Works, a trusted SEO services agency in Dubai delivering data-driven, ROI-focused search engine optimization strategies for businesses of all sizes.</p>
                     <div class="seo-btn">
                         <a href="#">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
@@ -223,8 +222,7 @@ include("includes/header.php");
         <div class="container" style="display:block; padding: 0;">
             <div class="row head-service">
                 <div class="col">
-                    <h2 class="text-white algn-centr same-all">Achieve Top Search Rankings with Expert SEO by Logic
-                        Works</h2>
+                    <h2 class="text-white algn-centr same-all">Achieve Top Search Rankings with a Trusted SEO Services Company in Dubai</h2>
                 </div>
             </div>
             <div class="row strategic-row align-items-center">
@@ -232,22 +230,20 @@ include("includes/header.php");
                     <img src="assests/images/seo/seo-main.webp" alt="Seo-img" class="scrol-img">
                 </div>
                 <div class="col-lg-6">
-                    <p class="text-white">Dominate search engine results with proven SEO strategies. Drive traffic,
-                        increase visibility, and grow your business. Our team ensures optimized content, effective
-                        keywords, and measurable results for lasting success.</p>
+                    <p class="text-white">Logic Works is a results-oriented SEO services company in Dubai, helping brands dominate search results through proven, ethical, and scalable SEO strategies. Our expert SEO team combines technical expertise, content intelligence, and local market insights to deliver measurable growth across competitive industries in Dubai and the UAE.</p>
                     <div class="row blurb-seo-row">
                         <div class="col-lg-6">
                             <div class="seo-blurb">
                                 <div class="seo-icon"><img src="assests/images/seo/improve.webp" alt="improve"></div>
                                 <div class="seo-text">
-                                    <h3 class="text-white">Boost Rankings</h3>
+                                    <h3 class="text-white">Increase organic traffic</h3>
                                 </div>
                             </div>
 
                             <div class="seo-blurb">
                                 <div class="seo-icon"><img src="assests/images/seo/analyze.webp" alt="analyze"></div>
                                 <div class="seo-text">
-                                    <h3 class="text-white">Optimize Performance</h3>
+                                    <h3 class="text-white">Rank for high-value keywords</h3>
                                 </div>
                             </div>
                         </div>
@@ -256,14 +252,14 @@ include("includes/header.php");
                             <div class="seo-blurb">
                                 <div class="seo-icon"><img src="assests/images/seo/drive.webp" alt="drive"></div>
                                 <div class="seo-text">
-                                    <h3 class="text-white">Drive Traffic</h3>
+                                    <h3 class="text-white">Improve conversions & ROI</h3>
                                 </div>
                             </div>
 
                             <div class="seo-blurb">
                                 <div class="seo-icon"><img src="assests/images/seo/boost.webp" alt="boost"></div>
                                 <div class="seo-text">
-                                    <h3 class="text-white">Increase Conversions</h3>
+                                    <h3 class="text-white">Strengthen long-term digital visibility</h3>
                                 </div>
                             </div>
                         </div>
@@ -280,7 +276,7 @@ include("includes/header.php");
             <div class="row info-graphic align-items-center">
                 <div class="col-lg-5">
                     <div class="our-info">
-                        <h2 class="text-white">OUR SERVICES</h2>
+                        <h2 class="text-white">Core Pillars Of SEO</h2>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -398,7 +394,7 @@ include("includes/header.php");
 
             <div class="row our-step">
                 <div class="col">
-                    <h2 class="text-white same-all text-center">OUR 4-STEP SEO PROCESS</h2>
+                    <h2 class="text-white same-all text-center">Our Proven 4-Step SEO Process</h2>
 
                     <div class="row">
                         <div class="col-lg-3 animate__fadeInLeft" data-aos="fade-right" data-aos-offset="300"
@@ -459,15 +455,11 @@ include("includes/header.php");
 
             <div class="row results-row pb-0 pt-50 ">
                 <div class="col graph-sec">
-                    <h2 class="text-white same-all text-center">RESULTS THAT SPEAK FOR THEMSELVES"</h2>
-                    <h4 class="text-white"><img src="assests/images/seo/la1.png"> Over 10 Years of Proven SEO Expertise
-                        and Experience</h4>
-                    <h4 class="text-white"><img src="assests/images/seo/la2.png"> 95% Client Retention Rate Reflects
-                        Exceptional Satisfaction and Loyalty</h4>
-                    <h4 class="text-white"><img src="assests/images/seo/la3.png"> 100+ Websites Ranked on Page 1 for
-                        Maximum Visibility</h4>
-                    <h4 class="text-white"><img src="assests/images/seo/la4.png"> 50K+ Organic Visitors Generated
-                        Monthly Driving Targeted Traffic</h4>
+                    <h2 class="text-white same-all text-center"> RESULTS THAT SPEAK FOR THEMSELVES"</h2>
+                    <h4 class="text-white"><img src="assests/images/seo/la1.png"> 10+ years of SEO expertise</h4>
+                    <h4 class="text-white"><img src="assests/images/seo/la2.png"> 95% client retention rate</h4>
+                    <h4 class="text-white"><img src="assests/images/seo/la3.png"> 100+ websites ranked on Page 1</h4>
+                    <h4 class="text-white"><img src="assests/images/seo/la4.png"> 50K+ monthly organic visitors generated</h4>
                     <img src="assests/images/seo/Result.webp" alt="result-seo" />
                 </div>
             </div>
@@ -544,6 +536,55 @@ include("includes/header.php");
             </div>
         </div>
     </section> -->
+       <section class="faq-home section-bg mt-50">
+        <div class="container">
+            <div class="row justify-content-space-between">
+                <div class="col">
+                    <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
+                    <div class="faqss">
+                        <div class="quwstion">
+                            <button class="accordions">What does an SEO services agency in Dubai do?</button>
+                            <div class="panel">
+                                <p>An SEO services agency in Dubai helps businesses improve their search engine rankings, organic traffic, and online visibility through technical SEO, content optimization, link building, and local SEO strategies.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">How long does SEO take to show results in Dubai?
+</button>
+                            <div class="panel">
+                                <p>SEO typically shows measurable improvements within 3–6 months, depending on competition, website health, and keyword difficulty.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Do you offer local SEO services in Dubai?</button>
+                            <div class="panel">
+                                <p>Yes, we specialize in local SEO services Dubai, optimizing Google Business Profiles, local citations, and location-based keywords to help businesses rank in local searches.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions"> Is SEO better than paid ads?</button>
+                            <div class="panel">
+                                <p>SEO delivers long-term, sustainable traffic, while paid ads offer instant visibility. Many businesses benefit from combining SEO with SEM services in Dubai for maximum reach.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions"> Why choose Logic Works as your SEO consultant in Dubai?</button>
+                            <div class="panel">
+                                <p>Our team combines technical expertise, data-driven strategies, transparent reporting, and deep local market knowledge making us a trusted SEO consultant in Dubai for growth-focused brands.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php

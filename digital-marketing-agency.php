@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Logic Works | Leading Digital Marketing Experts";
-$meta_description = "Boost your brand with Logic Works, experts in SEO, PPC, and social media marketing. Get results-driven strategies today.";
+$meta_title = "Creative Digital Marketing Agency in Dubai - Logic Works";
+$meta_description = "BLogic Works is a creative digital marketing agency in Dubai delivering SEO, PPC, SMM, and growth-focused strategies that drive real business results.";
 $keyword = 'Digital Marketing Agency';
 $canonical = "https://logicworks.ae/digital-marketing-agency";
 
@@ -73,6 +73,7 @@ include("includes/header.php");
         object-fit: contain !important;
         margin-top: 20px;
     }
+    
 
     @media (max-width:600px) {
         .digital-marketing .transform-row {
@@ -85,21 +86,18 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <h1 class="text-white">Digital <span>Marketing</span></h1>
-                    <p class="text-white">Take your business to new heights with Logic Works. We are the experts in
-                        digital marketing services. We create strategies that increase your online visibility. Our
-                        services drive measurable results. Our team blends creativity with data-driven insights. Let us
-                        turn clicks into customers and help your business thrive online!</p>
+                    <h1 class="text-white">Creative <span> Digital Marketing </span> Agency in Dubai - Driving Brand Growth</h1>
+                    <p class="text-white">Take your business to new heights with Logic Works, a delivering data-driven strategies that increase visibility, engagement creative digital marketing agency in Dubai, and conversions. As a trusted digital marketing company, we combine creativity with performance marketing to help brands grow faster in competitive markets.</p>
                     <ul class="text-white" style="font-size:17px;">
-                        <li>SEO strategies to improve your rankings.</li>
-                        <li>PPC campaigns designed for high ROI.</li>
-                        <li>Social media marketing to connect with your audience.</li>
-                        <li>Content marketing to build brand awareness and trust.</li>
-                        <li>Data analysis to refine and optimize your campaigns.</li>
+                        <li>SEO Services designed for higher rankings and organic growth</li>
+                        <li>PPC advertising strategies focused on ROI and lead generation</li>
+                        <li>Social media marketing to connect with your audience</li>
+                        <li>Content marketing that builds authority and brand trust</li>
+                        <!-- <li>Data analysis to refine and optimize your campaigns.</li> -->
                     </ul>
 
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec mt-30"> -->
@@ -130,8 +128,7 @@ include("includes/header.php");
                     <h2 class="text-white algn-centr same-all">Proven Digital Marketing Expertise Trusted by
                         <span>Leading Brands</span>
                     </h2>
-                    <p class="text-white algn-centr">Logic Works is Trusted by Industry Leaders for High-Impact Digital
-                        Marketing Solution</p>
+                    <p class="text-white algn-centr">Logic Works is recognized as a top digital marketing service provider in Dubai, trusted by industry leaders to deliver high-impact digital solutions. Our strategies are built around performance, transparency, and measurable business growth.</p>
                 </div>
             </div>
             <div class="row strategic-row">
@@ -139,13 +136,8 @@ include("includes/header.php");
                     <img src="assests/images/marketing/next-level.webp" alt="next-level" class="scrol-img">
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <h2 class="text-white same-all spe">Designed to Accelerate Your Brand's Growth</h2>
-                    <p class="text-white">Logic Works' professional marketing strategies accelerate your brand's growth.
-                        We improve your rankings with SEO. We also increase click rate with PPC and boost engagement
-                        with social media. Our campaigns are designed to attract quality traffic and convert leads into
-                        loyal customers. We continuously optimize for better results. Our team uses data to create
-                        effective campaigns. This approach brings measurable growth. We help you build trust and
-                        increase revenue.</p>
+                    <h2 class="text-white same-all spe">Accelerate Your Brand’s Digital Growth with Digital Marketing Services in Dubai</h2>
+                    <p class="text-white">Logic Works is a results-driven digital marketing agency Dubai brands trust to accelerate sustainable growth. Our professional marketing strategies improve search rankings through SEO, increase click-through rates with precision-led PPC, and boost engagement across social media platforms. Every campaign is designed to attract high-quality traffic and convert leads into loyal customers. As a performance-focused digital marketing firm, we continuously optimize campaigns using real-time data and insights. Our team builds trust, strengthens brand visibility, and delivers measurable growth that drives long-term revenue.</p>
                     <div class="live-chat-btns">
                         <a href="#" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
@@ -376,7 +368,7 @@ include("includes/header.php");
                     <p class="text-white">Find Out how our custom marketing strategies can boost your online presence
                         and drive real business growth. Let's achieve success together.</p>
                     <div class="main-tow-btn">
-                        <a href="#">Get A Quote</a>
+                        <a href="tel:+971529502258">Get A Quote</a>
                         <a href="#" id="openPopup">Discuss Your Project</a>
                     </div>
                 </div>
@@ -578,6 +570,53 @@ include("includes/header.php");
     </section> -->
 
     <section>
+          <section class="faq-home section-bg mt-50">
+        <div class="container">
+            <div class="row justify-content-space-between">
+                <div class="col">
+                            <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
+                    <div class="faqss">
+                        <div class="quwstion">
+                            <button class="accordions">What does a creative digital marketing agency in Dubai do?</button>
+                            <div class="panel">
+                                <p>A creative digital marketing agency in Dubai helps businesses grow online using SEO, PPC, social media, and content strategies focused on visibility, leads, and sales.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Why hire a digital marketing agency in Dubai instead of an in-house team?</button>
+                            <div class="panel">
+                                <p>A digital marketing agency in Dubai provides expert skills, advanced tools, and proven strategies at a lower cost than building an in-house team.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Which digital marketing services are best for businesses in Dubai?</button>
+                            <div class="panel">
+                                <p>The most effective digital marketing services in Dubai include SEO, PPC advertising, social media marketing, and content marketing.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">How do I choose the best digital marketing company in Dubai?</button>
+                            <div class="panel">
+                                <p>CChoose the best digital marketing company in Dubai based on results, experience, transparent reporting, and customized strategies.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">How long does digital marketing take to show results?</button>
+                            <div class="panel">
+                                <p>SEO usually takes 3–6 months, while PPC and social media campaigns can deliver faster results.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         <?php
         include("includes/clint-review.php");
         ?>
