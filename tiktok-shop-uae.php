@@ -2,7 +2,7 @@
 $meta_title = "TikTok Shop UAE | Logic Works";
 $meta_description = "Our Facebook and instagram Marketing Agency creates targeted campaigns that increase engagement and sales with expert strategy, precise targeting, and measurable results.";
 $keyword = 'Facebook & Instagram Marketingt';
-$canonical = "fhttps://logicworks.ae/tiktok-shop-uae";
+$canonical = "https://logicworks.ae/tiktok-shop-uae";
 $custom_schema = '
 <script type="application/ld+json">
 {

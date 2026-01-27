@@ -221,7 +221,7 @@ include("includes/header.php");
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-003.webp">
                                         <div class="our-content-slider">
                                             <h2 class="text-white">Creator Partnership Management</h2>
-                                            <p class="text-white">AWe source creators who align naturally with your brand tone. Our team manages outreach, agreements, product sampling, tracking, and coordination. Clear communication keeps tiktok shop management services Dubai organized and reliable.</p>
+                                            <p class="text-white">We source creators who align naturally with your brand tone. Our team manages outreach, agreements, product sampling, tracking, and coordination. Clear communication keeps tiktok shop management services Dubai organized and reliable.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -248,7 +248,7 @@ include("includes/header.php");
                                         <img src="assests/images/fb-instagram-marketingt/fb-story-img-006.webp">
                                         <div class="our-content-slider">
                                             <h2 class="text-white">Controlled Paid Visibility</h2>
-                                            <p class="text-white">AWhen organic reach slows, promotion fills the gap. We test creatives, refine audiences, adjust bidding, and scale carefully. Visibility increases without sacrificing authenticity or community relevance.</p>
+                                            <p class="text-white">When organic reach slows, promotion fills the gap. We test creatives, refine audiences, adjust bidding, and scale carefully. Visibility increases without sacrificing authenticity or community relevance.</p>
                                         </div>
                                     </div>
                                 </div>

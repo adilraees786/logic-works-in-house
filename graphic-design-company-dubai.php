@@ -361,7 +361,7 @@ include("includes/header.php");
                                     <div class="swiper-slide">
                                         <div class="web-content-slider">
                                             <h2 class="text-center text-white">Visual Brand Foundations</h2>
-                                            <p class="text-white">WWe create cohesive identity systems by combining refined logo design services, intentional color palettes, balanced typography, and structured digital standards. From stationery to interface headers, every visual element aligns seamlessly helping brands feel recognizable, consistent, and reliable over time.</p>
+                                            <p class="text-white">We create cohesive identity systems by combining refined logo design services, intentional color palettes, balanced typography, and structured digital standards. From stationery to interface headers, every visual element aligns seamlessly helping brands feel recognizable, consistent, and reliable over time.</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -616,8 +616,8 @@ include("includes/header.php");
                                 <div id="UniqueRevisions" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Quality Validation</h3>
-                                            <p>Designs are reviewed in real-world contexts. Screen clarity, print accuracy, file integrity, and performance are tested. Adjustments follow validation ensuring results meet the standards expected from a trusted creative partner.</p>
+                                            <h3>Concept Development</h3>
+                                            <p>Ideas evolve through considered execution. Multiple concepts are explored and presented with clear reasoning tied to objectives. Selected directions are refined and delivered fully prepared across formats by an experienced graphic design agency Dubai.</p>
 
                                         </div>
                                         <div class="col-lg-6">
@@ -630,13 +630,8 @@ include("includes/header.php");
                                 <div id="UniqueDelivery" class="unique-tab-content">
                                     <div class="row align-items-center">
                                         <div class="col-lg-6">
-                                            <h3>Testing & Deployment</h3>
-                                            <p>We test functionality across devices and platforms. Speed, performance,
-                                                and security are thoroughly verified. Bugs and errors are identified and
-                                                fixed. SEO is optimized before deployment for visibility. Deployment
-                                                ensures a seamless, error-free website launch. Post-launch monitoring
-                                                ensures consistent website performance. Your website is ready for
-                                                optimal results.</p>
+                                            <h3>Quality Validation</h3>
+                                            <p>Designs are reviewed in real-world contexts. Screen clarity, print accuracy, file integrity, and performance are tested. Adjustments follow validation ensuring results meet the standards expected from a trusted creative partner.</p>
 
                                         </div>
                                         <div class="col-lg-6">
