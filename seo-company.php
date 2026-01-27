@@ -331,7 +331,7 @@ include("includes/header.php");
                     <h2 class="text-white algn-centr same-all">Achieve Top Search Rankings with a Trusted SEO Services Company in Dubai</h2>
                 </div>
             </div>
-            <div class="row strategic-row align-items-center">
+            <div class="row strategic-row align-items-center mb-50">
                 <div class="col-lg-6">
                     <img src="assests/images/seo/seo-main.webp" alt="Seo-img" class="scrol-img">
                 </div>
@@ -520,7 +520,7 @@ include("includes/header.php");
                             data-aos-easing="ease-in-sine">
                             <h2 class="text-white counter-txt" style="background-color: #03A3C5;">2</h2>
                             <hr>
-                            <div class="step-bg">
+                            <div class="step-bg py-50">
                                 <h2>Keyword Research & Optimization</h2>
                                 <p>Our team identifies high-intent, locally targeted keywords such as local SEO services Dubai to drive qualified traffic and faster ROI.</p>
                             </div>
@@ -530,9 +530,9 @@ include("includes/header.php");
                             data-aos-easing="ease-in-sine">
                             <h2 class="text-white counter-txt" style="background-color: #463D76;">3</h2>
                             <hr>
-                            <div class="step-bg">
+                            <div class="step-bg py-50">
                                 <h2>On-Page & Technical SEO</h2>
-                                <p>We implement on-page and technical enhancements to strengthen site health, rankings, and user experience</p>
+                                <p>We implement on-page and technical enhancements to strengthen site health, rankings, and user experience.</p>
                             </div>
                         </div>
 
@@ -540,7 +540,7 @@ include("includes/header.php");
                             data-aos-easing="ease-in-sine">
                             <h2 class="text-white counter-txt" style="background-color: #D1342F;">4</h2>
                             <hr>
-                            <div class="step-bg">
+                            <div class="step-bg py-50">
                                 <h2>Ongoing Monitoring & Reporting</h2>
                                 <p>Transparent reporting, performance tracking, and continuous optimization ensure consistent growth and adaptability to algorithm updates.</p>
                             </div>
@@ -588,7 +588,7 @@ include("includes/header.php");
 
     </section>
  
-    <section class="container">
+    <section class="">
         <?php
         include("includes/clint-review.php");
         ?>

@@ -226,7 +226,7 @@
                 <!-- Middle: Content Text -->
                 <div class="col-lg-4 mb-4 mb-lg-0">
                     <div class="text-center">
-                        <h2 class="section-title-8">Our AI Development Process</h2>
+                        <h2 class="text-white text-center same-all">Our AI Development Process</h2>
                         <p class="section-subtitle-6">Step-by-step planning for real AI results</p>
                     </div>
                     <div class="process-content">
@@ -299,7 +299,7 @@
                     </div>
                     <div class="mt-4">
                         <p class="text-white mb-3" style="font-size: 1.1rem;">Start Your Networked Innovation</p>
-                        <a href="#" class="btn btn-primary"
+                        <a href="#" id="openPopup" class="btn btn-primary"
                             style="background-color: #582499; border: none; font-weight: 400; padding: 10px 32px; border-radius: 8px;">
                             Get Started
                         </a>

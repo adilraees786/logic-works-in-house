@@ -1,6 +1,7 @@
 <?php
-$meta_title = "AI Development Services | Logic Works";
-$meta_description = "Logic Works offers AI development services, custom software, chatbots, and automation tools designed to streamline operations and drive growth.";
+$meta_title = "AI Development Services in Dubai | Logic Works ";
+$meta_description = "Logic Works offers AI development services in Dubai, delivering AI apps, chatbots, and software solutions that help businesses automate and scale smarter.
+";
 $keyword = 'Ai development';
 $canonical = "https://logicworks.ae/ai-development";
 $faq_data = '
@@ -52,12 +53,18 @@ include('includes/header.php');
 ?>
 <style>
     .ai-development-page #portfolio-hero h1 {
-        font-size: 60px !important;
+        font-size: 44px !important;
         font-weight: 700 !important;
         color: #fff !important;
+        line-height: 1.2 !important;
     }
+ .ai-development-page img.dubai-agent {
+    transform: unset !important;
+    margin-bottom: -11px;
+  }
+   
 </style>
-<main class="ai-development-page">
+<main class="ai-development-page bg-black">
     <section class="service-hero-sec section-bg digital-main " id="portfolio-hero"
         style="background-image: url(assests/images/ai-development/bg.webp); background-position: center;">
         <div class="container  mt-50">
@@ -67,9 +74,8 @@ include('includes/header.php');
                     <p class="ai-para fs-20 ">Custom AI solutions that drive <br> innovation, efficiency, and
                         growth.
                     </p> -->
-                    <h1><span class="span">AI Development </span>Services to Power
-                        Smarter Digital Transformation</h1>
-                    <p class="ai-para fs-20 ">Build smart tools and apps using AI Development Services today.
+                    <h1><span class="span">AI Development </span>Services in Dubai to Power Smarter Digital Transformation</h1>
+                    <p class="ai-para fs-20 ">Build smart tools and intelligent applications using AI development services in Dubai. Logic Works helps businesses leverage artificial intelligence to automate processes, improve decision-making, and drive scalable digital transformation with reliable, future-ready AI solutions.
                     </p>
                     <div class="live-chat-btns">
                         <a href="#" class="live-chats">Live Chat</a>
@@ -88,10 +94,12 @@ include('includes/header.php');
             <!-- Title and Description -->
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
-                    <h2 class="section-title">WHO WE ARE</h2>
+                    <h2 class="text-white text-center same-all">WHO WE ARE</h2>
                     <p class="section-description">
-                        Logic Works is an AI development company that builds real solutions using real data. Our goal is
-                        to help businesses grow through smart, easy-to-use AI tools and systems.
+                      Logic Works is a trusted AI development company in Dubai delivering intelligent, data-driven solutions for modern businesses. We design and build real-world AI systems using real data focused on performance, scalability, and measurable impact.
+                    </p>
+                    <p class="section-description">
+                     As an experienced AI development services provider in Dubai, our mission is simple: help businesses grow through smart, easy-to-use AI tools that automate operations, enhance customer experiences, and unlock new opportunities. From strategy to deployment, we turn complex AI concepts into practical solutions that drive digital transformation.
                     </p>
                 </div>
                 <!-- Main Content -->
@@ -159,7 +167,9 @@ include('includes/header.php');
                     <img src="assests/images/ai-development/ai-pic.webp" alt="ai-dev-agent" class="dubai-agent">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all mb-10">Ready to Bring AI Into Your Business?</h2>
+                    <h2 class="text-white same-all mb-10"> 
+Ready to Scale Your Business With an AI Development Company in Dubai?
+</h2>
                     <!-- <h4 class="text-white fs-63 mb-50">Connect Now</h4> -->
                     <a href="#">Connect Now</a>
                 </div>
@@ -172,7 +182,7 @@ include('includes/header.php');
             <div class="row advertising-row-one">
                 <div class="col">
                     <h2 class="text-white text-center same-all">Our AI Development Capabilities</h2>
-                    <p class="text-white text-center app-txt pb-30">Smart AI systems for real-world problems</p>
+                    <p class="text-white text-center app-txt pb-30">Smart AI solutions built by a leading AI development Agency in Dubai</p>
 
                     <div class="app-slider">
                         <div class="swiper app-slider-main">
@@ -428,8 +438,9 @@ include('includes/header.php');
                     <img src="assests/images/marketing/banda.webp" alt="ai-dev-img" class="gta">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Trusted by 8,000+ Businesses to Build Smarter Digital
-                        Solutions</h2>
+                    <h2 class="text-white same-all text-end"> 
+Trusted by 8,000+ Businesses to Build Smarter AI Solutions in Dubai
+</h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
@@ -439,152 +450,54 @@ include('includes/header.php');
         </div>
     </section>
 
-    <div class="position-relative section-bg-wrapper overflow-hidden z-1">
-        <img src="assests/images/ai-chatbot/sec-left.webp" alt="ai-sec-left" class="sec-left-img position-absolute z-0">
-        <img src="assests/images/ai-chatbot/sec-right.webp" alt="ai-sec-right"
-            class="sec-right-img position-absolute z-0">
-        <section class="faq-home section-bg pt-b-80">
-            <div class="container">
-                <div class="row justify-content-space-between">
-                    <div class="col">
-                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
-                        <div class="faqss">
+   
 
-                            <div class="quwstion">
-                                <button class="accordions">What industries can benefit from AI development services?
-                                </button>
-                                <div class="panel">
-                                    <p> Many industries use AI, like healthcare, retail, and finance. Our AI development
-                                        company builds useful tools.</p>
-                                </div>
+    <section class="faq-home section-bg mt-50">
+        <div class="container">
+            <div class="row justify-content-space-between">
+                <div class="col">
+                        <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
+                    <div class="faqss">
+                        <div class="quwstion">
+                            <button class="accordions">Why choose an AI development company Dubai businesses trust?</button>
+                            <div class="panel">
+                                <p>Choosing an experienced AI development company Dubai ensures your solutions are built for real business use cases. Local expertise helps align AI systems with regional regulations, market behavior, and scalable growth needs.</p>
                             </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">How is custom AI different from off-the-shelf tools?</button>
-                                <div class="panel">
-                                    <p> Custom tools solve specific problems. Our AI development services are made for
-                                        your business, not general use.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">How much does it cost to build AI software?</button>
-                                <div class="panel">
-                                    <p> Cost depends on scope. A simple AI chatbot development is cheaper than full AI
-                                        software development.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">Do I need technical knowledge to use AI?</button>
-                                <div class="panel">
-                                    <p> No. We design easy tools. Our AI development company handles the complex part
-                                        for you.</p>
-                                </div>
-                            </div>
-
                         </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">How does AI development Dubai help modern businesses grow?</button>
+                            <div class="panel">
+                                <p>AI development Dubai enables businesses to automate operations, analyze data faster, and improve customer experiences. From predictive insights to intelligent automation, AI drives smarter decision-making and long-term efficiency.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">What industries benefit from AI chatbot development Dubai?</button>
+                            <div class="panel">
+                                <p>AI chatbot development Dubai supports industries like e-commerce, banking, healthcare, real estate, and customer support. Chatbots improve response time, reduce workload, and provide 24/7 customer engagement.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">What makes AI software development Dubai different from traditional software?</button>
+                            <div class="panel">
+                                <p>AI software development Dubai focuses on building intelligent systems that learn, adapt, and improve over time. These solutions deliver predictive analytics, automation, and data-driven insights instead of static functionality.</p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">Why work with an AI app development company Dubai for custom solutions?</button>
+                            <div class="panel">
+                                <p>An AI app development company Dubai designs applications tailored to your business goals. Custom AI apps improve user experience, enhance performance, and scale easily as your business grows.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="animated-row section new-york-hire constructionpage_custom_faqs_section" id="hireobserverID">
-            <div class="bg-white-heading-custom">
-                <div class="container">
-                    <div class="row white-bg-heading-custom-row">
-                        <div class="col-md-12">
-                            <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                            <ul class="faq_section">
-                                <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Works
-                                        Builds Future-Proof AI Solutions</a></li>
-                                <li><a href="#section-2" class="hire-tabs">Logic Works' Key Insights on Custom AI
-                                        Development</a>
-                                </li>
-                                <li><a href="#section-3" class="hire-tabs">What Sets Our AI Development Apart from the
-                                        Rest</a></li>
-                                <li><a href="#section-4" class="hire-tabs">How Logic Works Aligns AI with Business
-                                        Goals</a></li>
-                                <li><a href="#section-5" class="hire-tabs">The AI Development Trends We’re Tracking
-                                        Closely</a>
-                                </li>
-
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-stick">
-                        <main>
-                            <section class="sec-info" id="section-1">
-                                <h2>How Logic Works Builds Future-Proof AI Solutions</h2>
-                                <ul>
-                                    <p> We build AI that grows with your business. The systems we create are made to
-                                        learn and improve over time. Even small features like chatbots can keep getting
-                                        better as new data comes in. We also support updates after launch so your tools
-                                        stay useful. You won’t need to rebuild from scratch. This long-term thinking
-                                        helps your investment last. As an AI development company, we focus on making
-                                        smart tools that remain strong as your needs change.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-2">
-                                <h2>Logic Works' Key Insights on Custom AI Development</h2>
-                                <ul>
-                                    <p> Every project starts with asking the right questions. That’s how we build
-                                        something that actually fits your needs. We don’t use shortcuts or
-                                        one-size-fits-all tools. Some clients need simple features like chatbots while
-                                        others need deep data systems. Either way, we focus on solving problems with
-                                        logic and planning. You get something useful, not just impressive. That’s what
-                                        makes our AI development services reliable for real businesses across
-                                        industries.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-3">
-                                <h2>What Sets Our AI Development Apart from the Rest</h2>
-                                <ul>
-                                    <p> We care about what happens after launch. Many teams move fast and skip important
-                                        steps. We take the time to test, improve, and support every build. That includes
-                                        fixing issues and making updates as needed. We believe that real value comes
-                                        from working systems that last. Even a basic chatbot should run smoothly and
-                                        improve with use. You’ll see the difference in how we deliver and maintain your
-                                        tools. Our focus makes AI software development more dependable.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-4">
-                                <h2>How Logic Works Aligns AI with Business Goals</h2>
-                                <ul>
-                                    <p> We don’t just build what sounds good. We build what works. Each project begins
-                                        with a clear understanding of your goals. If your business needs faster service,
-                                        we create tools that help. If you need better insights, we design around your
-                                        data. Even small chatbot tools must serve a purpose. Our planning makes sure the
-                                        AI fits into your daily work. That’s how a good AI chatbot development project
-                                        adds value over time.</p>
-                                </ul>
-                            </section>
-                            <section class="sec-info" id="section-5">
-                                <h2>The AI Development Trends We’re Tracking Closely</h2>
-                                <ul>
-                                    <p> Trends come and go, but we follow what actually helps. Right now, we’re watching
-                                        voice tools, smaller models, and privacy features. These can help your systems
-                                        run faster and more securely. Before we apply anything new, we test it
-                                        ourselves. This means you get smart, tested updates, not random ideas. Whether
-                                        it’s chat, voice, or data tools, we use what’s proven. That’s why our work as an
-                                        AI development company stays current without chasing trends.</p>
-                                </ul>
-                            </section>
-
-
-        </section>
-
-    </div>
-
+        </div>
     </section>
-    </div>
     <!-- <section class="section-bg journey-sec our-case-section" id="project-in-minds">
 
         <div class="container" style="display:block;">
@@ -802,9 +715,10 @@ include("includes/footer.php");
     }
 
     .ai-development-page .ai-para {
-        font-weight: 700;
-        font-size: 20px;
+        font-weight: 500;
+        font-size: 18px;
         color: white;
+            
     }
 
     * .app-slider .swiper-button-prev {
@@ -919,7 +833,7 @@ include("includes/footer.php");
         z-index: -1;
     }
 
-    .section-title {
+    /* .section-title {
         font-size: 45px;
         font-weight: 700;
         color: #ffffff;
@@ -927,14 +841,14 @@ include("includes/footer.php");
         letter-spacing: 2px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         font-family: 'Inter', sans-serif;
-    }
+    } */
 
     .section-description {
         font-size: 1.1rem;
         color: #ffffff;
-        max-width: 650px;
+        max-width: 800px;
         margin: 0 auto 4rem auto;
-        line-height: 1.6;
+        line-height: 1.4;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
         font-weight: 400;
     }
