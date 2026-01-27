@@ -68,6 +68,7 @@
         font-weight: 700;
         margin-bottom: 12px;
         color: black;
+        line-height: 1.2;
 
     }
 
@@ -175,7 +176,7 @@
     }
 
     .side-card-title {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 700;
         color: #222;
         margin-bottom: 6px;
@@ -298,7 +299,7 @@
 <body>
     <div class="container d-block">
         <div class="">
-            <h2 class="main-title-ppc">Our PPC Management Services</h2>
+            <h2 class="text-white text-center same-all">Our PPC Management Services in Dubai</h2>
             <div class="subtitle">Strategic Advertising Solutions for Business Growth</div>
         </div>
         <div class="row">
@@ -309,8 +310,7 @@
                     <div class="main-card-body">
                         <div class="main-card-title" id="mainCardTitle">Google Ads Campaign Management</div>
                         <div class="main-card-text" id="mainCardText">
-                            We build search, display, and shopping campaigns that capture buyers and drive strong
-                            business growth.
+                           Our PPC campaign management Dubai solutions focus on search, display, shopping, and remarketing campaigns. We handle keyword research, ad copy creation, bid optimization, and A/B testing to maximize conversions.
                         </div>
                         <button class="btn" id="mainCardBtn">READ MORE</button>
                     </div>
@@ -331,37 +331,37 @@
                 title: "Google Ads Campaign Management",
                 img: "assests/images/ppc-marketing-company/ser-img-1.webp",
                 btn: "READ MORE",
-                text: "We build search, display, and shopping campaigns that capture buyers and drive strong business growth."
+                text: "Our PPC campaign management Dubai solutions focus on search, display, shopping, and remarketing campaigns. We handle keyword research, ad copy creation, bid optimization, and A/B testing to maximize conversions."
             },
             {
                 title: "Microsoft Bing Advertising",
                 img: "assests/images/ppc-marketing-company/ser-img-2.webp",
                 btn: "READ MORE",
-                text: "We run Bing Ads campaigns that expand reach, capture market share, and lower advertising costs."
+                text: "Expand reach beyond Google with Bing Ads. We optimize campaigns to capture high-intent traffic at lower CPCs through targeted pay per click services Dubai strategies."
             },
             {
                 title: "Social Media Advertising",
                 img: "assests/images/ppc-marketing-company/ser-img-3.webp",
                 btn: "READ MORE",
-                text: "We create targeted Facebook, Instagram, and LinkedIn ads that reach ideal customers by interests and behavior."
+                text: "We design high-converting paid social campaigns across Meta, Instagram, LinkedIn, and YouTube,delivering audience-driven PPC advertising services in Dubai that boost engagement and sales."
             },
             {
                 title: "E-commerce PPC Management",
                 img: "assests/images/ppc-marketing-company/ser-img-1.webp",
                 btn: "READ MORE",
-                text: "We optimize product listings, run shopping ads, and use remarketing to boost sales and revenue."
+                text: "We manage high-performance shopping and search campaigns that increase product visibility and sales. As a data-driven PPC agency in Dubai, we optimize product feeds, bidding strategies, and remarketing to maximize ROAS and scale e-commerce growth."
             },
             {
                 title: "Landing Page Optimization",
                 img: "assests/images/ppc-marketing-company/ser-img-2.webp",
                 btn: "READ MORE",
-                text: "We design conversion-focused landing pages that align with ads, improve scores, and increase customer conversions."
+                text: "We design and optimize conversion-focused landing pages that align perfectly with your ads. Our approach improves Quality Scores, reduces cost-per-click, and increases lead conversions across all PPC marketing services in Dubai."
             },
             {
                 title: "Conversion Tracking Setup",
                 img: "assests/images/ppc-marketing-company/ser-img-3.webp",
                 btn: "READ MORE",
-                text: "We set up accurate tracking systems to measure sales, leads, and valuable business actions daily."
+                text: "Accurate data drives better results. We implement advanced conversion tracking to measure leads, sales, and key user actions, enabling smarter optimization across all PPC campaign management services in Dubai."
             },
         ];
 

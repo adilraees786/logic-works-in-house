@@ -5,6 +5,8 @@ $keyword = 'logic work Contact Us';
 $canonical = "https://logicworks.ae/contact-us";
 include("includes/head.php");
 include("includes/header.php");
+
+
 ?>
 
 
@@ -141,6 +143,19 @@ include("includes/header.php");
         border-image: linear-gradient(to bottom, #994ae8, #e57699) 1;
         padding: 20px;
     }
+
+    /* reCAPTCHA Styling */
+    .g-recaptcha {
+        margin-bottom: 16px;
+        transform: scale(1);
+        transform-origin: 0 0;
+    }
+
+    @media (max-width: 400px) {
+        .g-recaptcha {
+            transform: scale(0.85);
+        }
+    }
 </style>
 
 <main>
@@ -216,6 +231,7 @@ include("includes/header.php");
                         <textarea id="message" name="message" placeholder="Write Something..." style="height:200px"
                             required></textarea>
 
+                      
                         <input type="submit" value="Submit">
                     </form>
 

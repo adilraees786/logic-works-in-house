@@ -310,7 +310,7 @@ include("includes/header.php");
                     <div class="col-lg-9">
                         <h1 class="text-white"><span>shopify</span> Development Services Dubai
                         </h1>
-                        <p class="text-white">CAs a trusted provider of Shopify development services Dubai brands rely
+                        <p class="text-white">As a trusted provider of Shopify development services Dubai brands rely
                             on, Logic Works supports startups, scaling eCommerce teams, and enterprise sellers who need
                             predictable performance not trial-and-error builds.
                             Your store launches with clarity, scales without friction, and supports long-term sales
@@ -463,7 +463,7 @@ include("includes/header.php");
                                                 <p class="text-white">Visibility is planned from day one, not patched
                                                     later. Information hierarchy, loading behavior, and page clarity are
                                                     structured early to support SEO-friendly Shopify development while
-                                                    keeping navigation comfortable. Through Shopify developmenti,
+                                                    keeping navigation comfortable. Through Shopify development,
                                                     discoverability grows naturally guided by the discipline of a
                                                     reliable Shopify development company Dubai.</p>
                                             </div>

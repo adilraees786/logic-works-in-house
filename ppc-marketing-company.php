@@ -174,7 +174,7 @@ include("includes/header.php");
                 <div class="col-lg-8">
                     <h1 class="text-white">PPC Marketing Agency Dubai Driving High-ROI Paid Advertising Results
                     </h1>
-                    <p class="text-logo">Logic Works is a performance-driven PPC agency in Dubai helping businesses generate qualified leads, increase conversions, and maximize ad spend ROI. As a trusted PPC marketing company in Dubai, we create data-driven paid advertising strategies that reduce wasted spend and deliver measurable business growth across Google Ads, Bing Ads, and social media platforms.
+                    <p class="text-white">Logic Works is a performance-driven PPC agency in Dubai helping businesses generate qualified leads, increase conversions, and maximize ad spend ROI. As a trusted PPC marketing company in Dubai, we create data-driven paid advertising strategies that reduce wasted spend and deliver measurable business growth across Google Ads, Bing Ads, and social media platforms.
                     </p>
                    
                     <div class="py-20">
@@ -227,13 +227,14 @@ include("includes/header.php");
             </div>
         </div>
     </section>
+
     <div class="branding-hero-bg" style="background-image:url(assests/images/website/second-bg.webp);">
         <section class="section-bg media-seond-sec">
             <div class="container">
                 <div class="row align-items-center">
                     <h2 class="text-white text-center same-all">Why Choose Logic Works as Your PPC Marketing Agency in Dubai</h2>
-                    <!-- <p class="text-white text-center app-txt">Why Businesses Partner with Our PPC Search Engine
-                        Marketing Company</p> -->
+                    <p class="text-white text-center app-txt">Paid ads can drain budgets fast without the right expertise. Our PPC marketing services in Dubai are designed to target high-intent users, optimize ad spend, and scale revenue efficiently. From keyword research and bid management to ad creatives and conversion tracking, every campaign is engineered for profitability.</p>
+                    <p class="text-white text-center app-txt">As an experienced PPC marketing agency in Dubai, we focus on smart targeting, continuous optimization, and transparent reporting ensuring every dirham delivers value.</p>
 
                     <div class="media-choose-slider">
                         <div class="swiper choose-main">
@@ -257,7 +258,7 @@ include("includes/header.php");
                                     <!-- <div class="seo-btn">
                                         <a href="#">Get Started</a>
                                     </div> -->
-                                    
+
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="chose-content">
@@ -310,16 +311,88 @@ include("includes/header.php");
             </div>
 
 
-            <?php
-            include("components/ppc-slider.php");
-            ?>
 
         </section>
         <?php
         // include("components/ppc-process.php");
         ?>
 
+ <section class="section-bg app-dubai-services">
+        <div class="container">
+            <div class="row dubai-tabs-row">
+                <div class="col-lg-6">
+                    <img src="assests/images/restaurant-app-images/restaurant-service.webp" alt="tab-img-app-dev">
+                </div>
+                <div class="col-lg-6">
+                    <div class="app-our-content">
+                        <div class="app-tabs-dubai">
+                            <h2 class="text-white same-all">Our PPC Management Services in Dubai</h2>
+<p class="text-white">Partner with Logic Works, a results-focused PPC marketing company in Dubai trusted by growing brands. Whether you need Google Ads, social ads, or full-funnel pay-per-click advertising, we deliver campaigns that convert.</p>
+                        </div>
 
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <ul class="dubai-tabs-content">
+                                    <li>
+                                        <h3 class="text-white">Google Ads Campaign Management</h3>
+                                        <p class="text-white">Our PPC campaign management Dubai solutions focus on search, display, shopping, and remarketing campaigns. We handle keyword research, ad copy creation, bid optimization, and A/B testing to maximize conversions.
+                                        </p>
+                                       
+
+                                    </li>
+                                    <li>
+                                        <h3 class="text-white">Microsoft Bing Advertising</h3>
+                                        <p class="text-white">Expand reach beyond Google with Bing Ads. We optimize campaigns to capture high-intent traffic at lower CPCs through targeted pay per click services Dubai strategies.
+
+                                        </p>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <h3 class="text-white">Social Media Advertising</h3>
+                                        <p class="text-white">We design high-converting paid social campaigns across Meta, Instagram, LinkedIn, and YouTube,delivering audience-driven PPC advertising services in Dubai that boost engagement and sales.
+                                        </p>
+                                       
+
+                                    </li>
+                                    <li>
+                                        <h3 class="text-white">E-commerce PPC Management</h3>
+                                        <p class="text-white">We manage high-performance shopping and search campaigns that increase product visibility and sales. As a data-driven PPC agency in Dubai, we optimize product feeds, bidding strategies, and remarketing to maximize ROAS and scale e-commerce growth.
+                                        </p>
+                                      
+                                    </li>
+                                    <li>
+                                        <h3 class="text-white">Landing Page Optimization</h3>
+                                        <p class="text-white">We design and optimize conversion-focused landing pages that align perfectly with your ads. Our approach improves Quality Scores, reduces cost-per-click, and increases lead conversions across all PPC marketing services in Dubai.
+                                        </p>
+                                   
+
+                                    </li>
+                                    <li>
+                                        <h3 class="text-white">Conversion Tracking Setup</h3>
+                                        <p class="text-white">Accurate data drives better results. We implement advanced conversion tracking to measure leads, sales, and key user actions, enabling smarter optimization across all PPC campaign management services in Dubai.
+                                        </p>
+                                       
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-5">
+                                <ul class="tabs-dubai">
+                                    <li class="active-tab"><span>01.</span>Google Ads Campaign</li>
+                                    <li><span>O2.</span>Microsoft Bing </li>
+                                    <li><span>03.</span>Social Media</li>
+                                    <li><span>04.</span>E-commerce PPC</li>
+                                    <li><span>05.</span>Landing Page</li>
+                                    <li><span>06.</span>Conversion Tracking</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
         <section class="done-right-sec section-bg pt-b-80">
@@ -330,8 +403,7 @@ include("includes/header.php");
                             <img src="assests/images/marketing/banda.webp" alt="ppc-markating" class="gta">
                         </div>
                         <div class="col-lg-8">
-                            <h2 class="text-white same-all text-end">Drive Qualified Leads and Business Growth With the
-                                Best PPC Marketing Company</h2>
+                            <h2 class="text-white same-all text-end">Drive Qualified Leads with the Best PPC Agency in Dubai</h2>
                             <div class="digital-two-btn">
                                  <a href="tel:+971529502258">Call Now</a>
                                 <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
@@ -342,259 +414,58 @@ include("includes/header.php");
             </section>
 
         </section>
-        <div class="position-relative section-bg-wrapper overflow-hidden z-1">
-            <img src="assests/images/ai-chatbot/sec-left.webp" alt="ppc-ques-left"
-                class="sec-left-img position-absolute z-0">
-            <img src="assests/images/ai-chatbot/sec-right.webp" alt="ppc-ques-right"
-                class="sec-right-img position-absolute z-0">
-            <section class="faq-home section-bg pt-b-80">
-                <div class="container">
-                    <div class="row justify-content-space-between">
-                        <div class="col">
-                            <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
-                            <div class="faqss">
-                                <div class="quwstion">
-                                    <button class="accordions">What makes your PPC marketing company different from
-                                        others?</button>
-                                    <div class="panel">
-                                        <p>We focus on ROI and measurable growth. Clients get full transparency through
-                                            clear reports. You see exactly how ad spend turns into revenue.</p>
-                                    </div>
-                                </div>
-
-                                <div class="quwstion">
-                                    <button class="accordions">How quickly can we expect results from PPC
-                                        campaigns?</button>
-                                    <div class="panel">
-                                        <p>Most clients notice results in the first week. Lead quality improves with
-                                            ongoing optimization. Strong results usually show within 30–45 days.</p>
-                                    </div>
-                                </div>
-
-                                <div class="quwstion">
-                                    <button class="accordions">Do you manage campaigns across multiple advertising
-                                        platforms?</button>
-                                    <div class="panel">
-                                        <p>Yes, we manage ads across all major platforms. These include Google, Bing,
-                                            Facebook, Instagram, and LinkedIn. This helps maximize reach and new leads.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="quwstion">
-                                    <button class="accordions">How do you ensure our advertising budget is spent
-                                        efficiently?</button>
-                                    <div class="panel">
-                                        <p>We implement strict budget controls, negative keyword lists, and bid
-                                            management strategies while continuously monitoring performance metrics to
-                                            eliminate wasteful spending.</p>
-                                    </div>
-                                </div>
-
+          <section class="faq-home section-bg mt-50">
+        <div class="container">
+            <div class="row justify-content-space-between">
+                <div class="col">
+                    <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
+                    <div class="faqss">
+                        <div class="quwstion">
+                            <button class="accordions">What does a PPC agency in Dubai do?</button>
+                            <div class="panel">
+                                <p>A PPC agency in Dubai manages paid advertising campaigns across platforms like Google Ads and social media to generate leads, sales, and measurable ROI.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-            </section>
-            <!-- Question Section -->
-            <section class="animated-row section new-york-hire constructionpage_custom_faqs_section"
-                id="hireobserverID">
-                <div class="bg-white-heading-custom">
-                    <div class="container">
-                        <div class="row white-bg-heading-custom-row">
-                            <div class="col-md-12">
-                                <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
+                        <div class="quwstion">
+                            <button class="accordions">How much do PPC management services in Dubai cost?</button>
+                            <div class="panel">
+                                <p>Costs vary based on ad spend, competition, and campaign goals. We offer affordable PPC service agency Dubai solutions tailored to business needs.
+                                </p>
                             </div>
                         </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Do you provide PPC campaign management services in Dubai?</button>
+                            <div class="panel">
+                                <p>Yes, we specialize in PPC campaign management services Dubai, including keyword research, bid optimization, ad copy, and conversion tracking.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Which platforms do your PPC advertising services cover?</button>
+                            <div class="panel">
+                                <p>Our PPC advertising services Dubai include Google Ads, Bing Ads, YouTube Ads, Facebook, Instagram, and LinkedIn.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">Why choose Logic Works as your PPC marketing agency in Dubai?</button>
+                            <div class="panel">
+                                <p>We combine data-driven strategies, transparent reporting, and deep local market expertise making us one of the best pay per click advertising companies in Dubai.
+
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                                <ul class="faq_section">
-                                    <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Does
-                                            Strategic PPC Management Support Long-Term Business Growth?</a></li>
-                                    <li><a href="#section-2" class="hire-tabs">Why Are Data-Driven PPC Strategies
-                                            Essential for Maximum Business Impact?</a>
-                                    </li>
-                                    <li><a href="#section-3" class="hire-tabs">What Advanced PPC Techniques Give
-                                            Businesses a Competitive Advantage?</a></li>
-                                    <li><a href="#section-4" class="hire-tabs">How Does Strategic Innovation Drive
-                                            Industry-Leading PPC Performance?</a></li>
-                                    <!-- <li><a href="#section-5" class="hire-tabs">The Digital Marketing Trends We
-                                            Follow</a></li> -->
-                                    <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
-                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-stick">
-                            <main>
-                                <section class="sec-info" id="section-1">
-                                    <h2>How Does Strategic PPC Management Support Long-Term Business Growth?</h2>
-                                    <ul>
-                                        <p>PPC management needs constant updates as markets and platforms change. Our
-                                            PPC marketing company keeps up with new trends through training and testing.
-                                            Clients gain from our knowledge of new tools and platform updates that
-                                            affect campaign results. We use smart bidding methods and audience targeting
-                                            to make campaigns work better. Over time, these steps improve lead quality
-                                            and raise conversion rates. Many businesses working with us see strong
-                                            results. Our process builds steady growth through better ad investments. We
-                                            also help companies stay ahead of rivals while growing their reach with
-                                            well-planned paid advertising strategies.</p>
-                                    </ul>
-                                </section>
-                                <section class="sec-info" id="section-2">
-                                    <h2>Why Are Data-Driven PPC Strategies Essential for Maximum Business Impact?</h2>
-                                    <ul>
-                                        <p>Good PPC management depends on correct data and smart choices. Our team
-                                            studies campaign results to find ways to improve. We check search terms,
-                                            conversions, and competitor moves to guide targeting. This helps reduce
-                                            waste and improve ad focus. Companies using our advice see lower costs and
-                                            more efficient ads. We also track customer behavior to make ads more
-                                            relevant. Better relevance brings higher conversion rates and stronger
-                                            sales. With clear insights, businesses can make better spending choices. Our
-                                            data approach turns ad budgets into real growth. Each decision is based on
-                                            facts, not guesswork.</p>
-                                    </ul>
-                                </section>
-                                <section class="sec-info" id="section-3">
-                                    <h2>What Advanced PPC Techniques Give Businesses a Competitive Advantage?</h2>
-                                    <ul>
-                                        <p>Winning in paid ads takes skill and planning. The best PPC marketing company
-                                            uses advanced methods that cut costs and improve results. We use audience
-                                            groups, timing tools, and device targeting to boost performance. These
-                                            methods make campaigns more efficient and bring better returns. Clients
-                                            trust us to test and improve ads often. We focus on higher quality scores
-                                            and lower click costs. Our goal is more leads at better prices. Many
-                                            companies see stronger profits with our scaling methods. These strategies
-                                            keep growth steady without hurting budgets. We help businesses reach more
-                                            people while staying profitable.</p>
-                                    </ul>
-                                </section>
-                                <section class="sec-info" id="section-4">
-                                    <h2>How Does Strategic Innovation Drive Industry-Leading PPC Performance?</h2>
-                                    <ul>
-                                        <p>Staying ahead in digital ads needs constant change and smart planning. We
-                                            track platform updates, new rules, and industry trends to keep campaigns
-                                            strong. Our team uses advanced tools like automated bidding, dynamic ads,
-                                            and precise audience targeting. These methods make campaigns more effective
-                                            and bring better growth. Many companies using our strategies see clear gains
-                                            in ad performance and sales. We guide clients through platform changes and
-                                            help them use new ad options. Our step-by-step system supports steady growth
-                                            with smart ad spending. We make sure businesses stay ahead of rivals with
-                                            expert PPC management.</p>
-                                    </ul>
-                                </section>
-                                <!-- <section class="sec-info" id="section-5">
-                                    <h2>The Digital Marketing Trends We Follow</h2>
-                                    <ul>
-                                        <p>Digital marketing requires staying ahead of industry trends. Logic Works
-                                            provides expert
-                                            consultancy on emerging innovations like AI and automation. We help
-                                            businesses leverage
-                                            personalization and audience segmentation for higher engagement. Clients
-                                            adopting these strategies
-                                            often see impressive increases in engagement. We guide brands to take
-                                            advantage of the latest tools
-                                            and techniques. we position businesses for sustained growth. Logic Works
-                                            helps companies to stand
-                                            out with data-backed insights and expert recommendations. Our consultancy
-                                            ensures businesses adapt
-                                            quickly and stay competitive in a fast-moving digital environment.</p>
-                                    </ul>
-                                </section> -->
-                                <!--   <section class="sec-info" id="section-6">
-                        <h2>Reasons to Outsource Your Mobile App Development in Dubai</h2>
-                        <ul>
-                            <p>
-                                Outsourcing mobile app development in Dubai offers several strategic advantages, making it a popular choice among businesses aiming for efficient and cost-effective app development solutions.<br />
-                                Here are compelling reasons to consider outsourcing your app development project to Dubai:
-                            </p>
-                            <h3>Access to Expertise and Talent Pool</h3>
-                            <p>
-                                Dubai boasts a diverse ecosystem with a diverse pool of skilled developers, designers, and tech professionals.<br />
-                                Outsourcing to Dubai allows businesses to take advantage of this large talent pool and benefit from expertise in mobile app development, UI/UX design, emerging technologies, and industry-specific knowledge.
-                            </p>
-                            <h3>Cost Efficiency and Budget Control</h3>
-                            <p>
-                                Another compelling reason for off-shore app development is that you'll find cost-effective mobile app development services than hiring an in-house team within the region.<br />
-                                It eliminates the need for upfront investments in infrastructure, recruitment, training, and employee benefits.<br />
-                                Moreover, outsourcing allows businesses to choose flexible engagement models and scale resources as per project requirements, optimizing budget allocation and cost control.
-                            </p>
-                            <h3>Focus on Core Business Activities</h3>
-                            <p>
-                                If you externalize your project in Dubai, it will give you an advantage to focus on core competencies and strategic initiatives to oversee app development processes. This enables faster time-to-market for
-                                apps, enhances business agility, and improves overall operational efficiency.
-                            </p>
-                            <h3>Faster Time-to-Market</h3>
-                            <p>
-                                Experienced mobile app development companies in Dubai follow streamlined development processes and best practices, accelerating the app development lifecycle.<br />
-                                They make use of proven methodologies, agile frameworks, and robust project management practices to ensure timely delivery of high-quality apps that meet client expectations.
-                            </p>
-                            <h3>Access to State-of-the-Art Infrastructure and Technology</h3>
-                            <p>
-                                Outsourcing to Dubai provides access to state-of-the-art infrastructure, advanced development tools, and cutting-edge technologies essential for developing innovative and scalable mobile apps.<br />
-                                This includes cloud computing platforms, AI-powered development tools, and secure data management systems, ensuring enhanced app performance, scalability, and security.
-                            </p>
-                            <h3>Enhanced Flexibility and Scalability</h3>
-                            <p>
-                                Hire app developer in Dubai offers flexibility to choose resources based on project requirements and business dynamics.<br />
-                                It enables businesses to respond swiftly to market changes, customer feedback, and emerging trends, ensuring adaptability and competitiveness in a dynamic digital landscape.
-                            </p>
-                            <h3>Regulatory Compliance and Data Security</h3>
-                            <p>
-                                Mobile app development companies in Dubai adhere to stringent regulatory standards and data protection laws, ensuring compliance with international security protocols.<br />
-                                They implement robust security measures, encryption techniques, and data privacy practices to safeguard sensitive information and mitigate cybersecurity risks.
-                            </p>
-                            <p>
-                                In conclusion, outsourcing app development to Dubai facilitates businesses with access to specialized expertise, cost efficiencies, faster time-to-market, scalability, and regulatory compliance. Thereby,
-                                making it a strategic choice for accelerating digital transformation and achieving business objectives.
-                            </p>
-                        </ul>
-                    </section> -->
-                                <!--     <section class="sec-info" id="section-7">
-                        <h2>5 Reasons to Trust Trango Tech for Mobile App Development in UAE</h2>
-                        <ul>
-                            <p>Trango Tech stands out as a premier choice for mobile app development in the UAE, offering a compelling array of reasons to trust their expertise and commitment to excellence:</p>
-                            <h3>1. Extensive Industry Experience</h3>
-                            <p>
-                                Having worked on mobile app development for more than 20 years, Trango Tech has successfully entered the UAE market.<br />
-                                They have a wealth of experience and ideas about the creation and implementation of successful apps in different fields including health, retail and other businesses to serving their clients' needs.
-                            </p>
-                            <h3>2. Accomplished Results</h3>
-                            <p>
-                                The following entity has established significant experience in delivering effective mobile app solutions with proven successful mobile app projects.<br />
-                                Their portfolio consists of apps that have indeed received users' attention and achieved high levels of engagement, smooth integration into everyday life, as well as tangible practical results for the
-                                businesses involved.
-                            </p>
-                            <h3>3. Team of Skilled Developers and Designers</h3>
-                            <p>
-                                Through a team of developers, designers, and strategists, Trango Tech guarantees the apps are developed with excellence in mind.<br />
-                                Their personnel makes efficient use of newer technologies and makes use of proven methodologies to develop superb solutions, which meet the requirements of their clients.
-                            </p>
-                            <h3>4. Client-Centric Approach</h3>
-                            <p>
-                                Trango Tech's ultimate priority is always the satisfaction of its client. They value openness about the goals, processes, and mutual cooperation during the development of the application.<br />
-                                Starting from the conceptualization of the ideas to the construction of the solutions, and even after the implementation of the solutions, they are dedicated to the provision of solutions that meet the needs
-                                of their clients.
-                            </p>
-                            <h3>5. Quality and innovations</h3>
-                            <p>Quality assurance and constant innovation are two of Trango Tech's primary focuses. They follow strict testing procedures to produce high quality, bug-free, secure, and scalable applications.</p>
-                            <p>Through continued market analysis on the trends and developments within the sector, they provide innovative solutions that ensure that businesses and organizations remain relevant in the market.</p>
-                        </ul>
-                    </section> -->
-                            </main>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <?php
-            include("includes/clint-review.php");
-            ?>
+            </div>
         </div>
+    </section>
+     <?php
+    include("includes/clint-review.php");
+    ?>
 </main>
 <?php
 include("includes/footer.php");
@@ -784,5 +655,155 @@ include("includes/footer.php");
                 spaceBetween: 20,
             },
         },
+    });
+</script>
+
+<style>
+
+
+
+ 
+
+ 
+
+    /* ==== */
+    .app-dubai-services {
+        padding-top: 100px;
+    }
+
+
+
+    .app-our-content ul.tabs-dubai {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .app-our-content ul.tabs-dubai li span {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .app-our-content ul.tabs-dubai li {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .app-our-content ul.tabs-dubai li.active-tab {
+        background-color: #401A71;
+    }
+
+    .dubai-tabs-content {
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: none;
+        }
+    }
+
+    .app-dubai-services .container {
+        max-width: 1870px;
+    }
+
+    .app-tabs-dubai {
+        max-width: 715px;
+        margin-bottom: 20px;
+    }
+
+    .app-our-content h6.text-white {
+        font-size: 28px;
+        text-align: right;
+    }
+
+    .app-our-content .row .col-lg-7 {
+        padding: 0px;
+    }
+
+    .app-our-content ul.dubai-tabs-content h3.text-white {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .app-our-content ul.dubai-tabs-content p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        padding-right: 50px;
+    }
+
+
+    @media (max-width: 600px) {
+
+
+        .app-dubai-services {
+            padding-top: 30px;
+        }
+
+        .app-tabs-dubai {
+            max-width: 100%;
+        }
+
+        .app-our-content h6.text-white {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .dubai-tabs-row .app-our-content .row .col-lg-5 {
+            width: 100%;
+            padding: 0px;
+        }
+
+        .dubai-tabs-row .app-our-content .row {
+            flex-direction: column-reverse;
+        }
+
+        .app-our-content ul.tabs-dubai li {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .app-our-content ul.tabs-dubai li span {
+            font-size: 20px;
+        }
+
+        .dubai-tabs-row .app-our-content .row .col-lg-7 {
+            width: 100%;
+        }
+
+        .app-our-content ul.dubai-tabs-content p {
+            padding-right: 0px;
+        }
+
+
+
+
+    }
+</style>
+
+
+
+<script>
+    $(function () {
+
+        var activeIndex = $('.active-tab').index(),
+            $contentlis = $('.dubai-tabs-content li'),
+            $tabslis = $('.tabs-dubai li');
+
+        // Show content of active tab on loads
+        $contentlis.eq(activeIndex).show();
+
+        $('.tabs-dubai').on('click', 'li', function (e) {
+            var $current = $(e.currentTarget),
+                index = $current.index();
+
+            $tabslis.removeClass('active-tab');
+            $current.addClass('active-tab');
+            $contentlis.hide().eq(index).show();
+        });
     });
 </script>

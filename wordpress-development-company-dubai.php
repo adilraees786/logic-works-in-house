@@ -309,7 +309,6 @@ include("includes/header.php");
                 <div class="row">
                     <div class="col-lg-9">
                         <h1 class="text-white"><span>Wordpress</span> Development Company in Dubai
-                            Dubai!
                         </h1>
                         <p class="text-white">As a leading WordPress development company in Dubai, LogicWorks builds
                             high-performance digital platforms designed to compete in demanding regional and global
@@ -472,7 +471,7 @@ include("includes/header.php");
                                         <div class="our-serve-slider">
                                             <img src="assests/images/website/corporate-webiste.webp" alt="ser-img-2">
                                             <div class="our-content-slider">
-                                                <h2 class="text-white">ADAPTIVE LAYOUT THINKING</h2>
+                                                <h2 class="text-white">SEARCH READY FOUNDATIONS</h2>
                                                 <p class="text-white">We design platforms built for discoverability.
                                                     Fast-loading pages follow SEO best practices while maintaining
                                                     clarity and structure. Organic visibility grows steadily through

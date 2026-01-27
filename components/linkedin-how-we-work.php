@@ -147,15 +147,15 @@
         <div class="container">
             <div>
                 <div class="text-center mb-5">
-                      <h2 class="dubai-all text-white text-center">Twitter Marketing Company Dubai</h2>
-                    <div class="how-we-work-subtitle">Delivering predictable growth through structured promotion</div>
+                      <h2 class="text-white same-all">LinkedIn Advertising Firm Dubai Framework</h2>
+                    <div class="how-we-work-subtitle">Structured methodology delivering predictable sponsored revenue</div>
                 </div>
                 <div class="work-container">
                     <!-- Left Content -->
                     <div class="left-content">
-                        <h2 id="service-title">Audience Insights & Competitive Analysis</h2>
+                        <h2 id="service-title">Market Signals and Competitor Insights</h2>
                         <p id="service-description">
-                            We study how target audiences engage across conversation-driven platforms while monitoring competitor activity. These insights reveal opportunities competitors often miss and highlight narratives that drive engagement.
+                           We study decision-makers’ behavior on professional networks and analyze competitor campaigns. This research uncovers actionable patterns, revealing which narratives resonate and which personas respond first. Our LinkedIn Advertising Agency Dubai uses these insights to shape timely, relevant outreach.
                         </p>
                        
                         <div class="live-chat-btns">
@@ -168,29 +168,29 @@
                         <div class="tab-card active" data-tab="0">
                             <img src="assests/images/online-reputataion-management/step-1.webp" alt="">
                             <div>
-                                <h3>Audience Insights & Competitive</h3>
-                                <p>We study how target audiences engage across conversation-driven platforms while monitoring competitor activity.</p>
+                                <h3>Market Signals and Competitor</h3>
+                                <p>We study decision-makers’ behavior on professional networks and analyze competitor campaigns.</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="1">
                             <img src="assests/images/online-reputataion-management/step-2.webp" alt="">
                             <div>
-                                <h3>Campaign Architecture & Content</h3>
-                                <p>Campaigns are structured around defined objectives, protecting budgets and optimizing delivery.</p>
+                                <h3>Campaign Architecture</h3>
+                                <p>Each campaign is built around defined commercial objectives, keeping spend controlled and execution efficient</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="2">
                             <img src="assests/images/online-reputataion-management/step-3.webp" alt="">
                             <div>
-                                <h3>Launch Control & Signal</h3>
-                                <p>Placements are activated with calibrated budgets and precise conversion tracking. </p>
+                                <h3>Controlled Deployment</h3>
+                                <p>Programs are launched with calibrated budgets and precise conversion tracking.</p>
                             </div>
                         </div>
                         <div class="tab-card" data-tab="3">
                             <img src="assests/images/online-reputataion-management/step-4.webp" alt="">
                             <div>
-                                <h3>Optimization & Scalable</h3>
-                                <p>Data informs targeting adjustments and storytelling refinement. High-performing campaigns receive increased exposure,</p>
+                                <h3>Iteration and Scalable</h3>
+                                <p>Performance data informs targeting adjustments and storytelling refinement.</p>
                             </div>
                         </div>
                     </div>
@@ -204,23 +204,23 @@
         // Tab data for left content
         const tabData = [
             {
-                title: "Audience Insights & Competitive Analysis",
-                desc1: "We study how target audiences engage across conversation-driven platforms while monitoring competitor activity. These insights reveal opportunities competitors often miss and highlight narratives that drive engagement.",
+                title: "Market Signals and Competitor Insights",
+                desc1: "We study decision-makers’ behavior on professional networks and analyze competitor campaigns. This research uncovers actionable patterns, revealing which narratives resonate and which personas respond first. Our LinkedIn Advertising Agency Dubai uses these insights to shape timely, relevant outreach.",
              
             },
             {
-                title: "Campaign Architecture & Content Design",
-                desc1: "Campaigns are structured around defined objectives, protecting budgets and optimizing delivery. Visual direction and copywriting emerge from audience behavior data, ensuring messaging resonates with professionals ready to act.",
+                title: "Campaign Architecture and Creative Direction",
+                desc1: "Each campaign is built around defined commercial objectives, keeping spend controlled and execution efficient. Creative messaging and copy reflect proven audience behavior. Businesses relying on a LinkedIn Marketing Company Dubai get communications that engage leaders ready to act.",
               
             },
             {
-                title: "Launch Control & Signal Tracking",
-                desc1: "Placements are activated with calibrated budgets and precise conversion tracking. High-performing assets scale quickly, while weaker executions are recalibrated. Daily monitoring ensures campaigns remain effective and adaptive.",
+                title: "Controlled Deployment and Ongoing Monitoring",
+                desc1: "Programs are launched with calibrated budgets and precise conversion tracking. Daily monitoring identifies friction early; high-performing placements expand while underperforming elements are quickly optimized by our LinkedIn ads agency Dubai team.",
                 
             },
             {
-                title: "Optimization & Scalable Growth",
-                desc1: "Data informs targeting adjustments and storytelling refinement. High-performing campaigns receive increased exposure, while low-performing assets are paused. This disciplined approach ensures sustainable growth via advanced Twitter paid advertising strategies delivered by an experienced X marketing agency Dubai.",
+                title: "Iteration and Scalable Growth",
+                desc1: "Performance data informs targeting adjustments and storytelling refinement. High-impact assets are amplified, while low-performing executions are paused. This disciplined approach drives sustained growth using advanced LinkedIn marketing services in Dubai.",
              
             }
         ];

@@ -82,7 +82,7 @@ include("includes/header.php");
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="dubai-all text-white text-center">Instagram Marketing Services Dubai</h2>
-                    <p class="text-white dubai-all-para text-center">Our Retail App Services empower businesses.
+                    <p class="text-white dubai-all-para text-center">Propelling digital brands toward measurable growth
                     </p>
                     <div class="unique-tab-container tabs-consultancy">
                         <button class="unique-tab-button active-tab" data-target="UniqueConsultation">
