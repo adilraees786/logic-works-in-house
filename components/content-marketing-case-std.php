@@ -178,7 +178,7 @@
             <!-- Pagination Dots -->
             <div class="d-flex justify-content-center my-3" id="sliderDots"></div>
             <div class="text-center mt-4">
-                <button class="explore-bnt">Explore More</button>
+                <!-- <button class="explore-bnt">Explore More</button> -->
             </div>
         </div>
     </div>

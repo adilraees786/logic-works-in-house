@@ -132,6 +132,7 @@
                                 </li>
                                 <li><a href="<?php echo $base_url; ?>seo-company">Search Engine Optimization</a></li>
                                 <li><a href="<?php echo $base_url; ?>ppc-marketing-company">Pay-Per-Click</a></li>
+                                <li><a href="<?php echo $base_url; ?>content-marketing">Content Marketing</a></li>
                             </ul>
                         </div>
 
@@ -309,6 +310,7 @@
                                                                     class="fas fa-chevron-right"></i></a></li>
                                                         <li><a href="<?php echo $base_url; ?>seo-company">Search Engine Optimization</a></li>
                                                         <li><a href="<?php echo $base_url; ?>ppc-marketing-company">Pay-Per-Click</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>content-marketing">Content Marketing</a></li>
                                                     </ul>
 
                                                     <!-- App Development Sub Services -->

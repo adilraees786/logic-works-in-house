@@ -140,10 +140,11 @@ include("includes/header.php");
         cursor: pointer;
     }
 
-    .service-checkbox-item label {
+    .contact-us .service-checkbox-item label {
         color: #fff;
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
+        font-size: 14px;
         margin: 0;
     }
 
@@ -184,7 +185,7 @@ include("includes/header.php");
     }
 </style>
 
-<main>
+<main class="contact-us">
     <section class="about-main-sec section-bg pt-b-160">
         <div class="container">
             <div class="row">

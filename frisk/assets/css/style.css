@@ -11737,7 +11737,7 @@ input[type="checkbox"]:checked~label:before {
 
 input[type="checkbox"]~label {
   position: relative;
-  padding-left: 30px;
+  padding-left: 20px;
   cursor: pointer;
   display: block;
 }
@@ -11751,9 +11751,9 @@ input[type="checkbox"]~label:before {
   top: 3.5px;
   background-color: var(--white-color);
   border: 1px solid var(--theme-color);
-  height: 18px;
-  width: 18px;
-  line-height: 18px;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
   text-align: center;
   font-size: 12px;
 }
