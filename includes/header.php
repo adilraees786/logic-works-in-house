@@ -115,48 +115,52 @@
                     <li class="menu-item-has-children">
                         <a href="<?php echo $base_url; ?>services">Services</a>
 
-                        <!-- Mobile Accordion: Social Media Marketing -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Social Media Marketing <i class="fas fa-chevron-down"></i></h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook
-                                        Advertising</a></li>
-                                <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn
-                                        Advertising</a></li>
-                                <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter
-                                        Advertising</a></li>
-                                <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram
-                                        Advertising</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Mobile Accordion: Web Design & Development -->
-                        <div class="service-section">
-                            <h3 class="accordion-toggle">Web Design & Development <i class="fas fa-chevron-down"></i>
-                            </h3>
-                            <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
-                                <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress
-                                        Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify
-                                        Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom
-                                        Website Development</a></li>
-                                <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website
-                                        Maintenance & Security</a></li>
-                                <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics
-                                        Designing</a></li>
-                                <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a>
-                                </li>
-                            </ul>
-                        </div>
-
                         <!-- Mobile Accordion: Digital Marketing -->
                         <div class="service-section">
                             <h3 class="accordion-toggle">Digital Marketing <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">TikTok Shop</a>
+                                <!-- Nested Accordion: Social Media -->
+                                <li>
+                                    <h4 class="accordion-toggle" style="font-size: 14px; background: #9c44b0; color: #fff; padding: 8px;">Social Media Marketing <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="accordion-content" style="padding-left: 15px;">
+                                        <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook</a></li>
+                                        <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn</a></li>
+                                        <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter</a></li>
+                                        <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram</a></li>
+                                        <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">TikTok Shop</a></li>
+                                    </ul>
                                 </li>
+                                <li><a href="<?php echo $base_url; ?>seo-company">Search Engine Optimization</a></li>
+                                <li><a href="<?php echo $base_url; ?>ppc-marketing-company">Pay-Per-Click</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Mobile Accordion: App Development -->
+                        <div class="service-section">
+                            <h3 class="accordion-toggle">App Development <i class="fas fa-chevron-down"></i></h3>
+                            <ul class="accordion-content">
+                                <li><a href="<?php echo $base_url; ?>ai-development">AI Development</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Mobile Accordion: Web Development -->
+                        <div class="service-section">
+                            <h3 class="accordion-toggle">Web Development <i class="fas fa-chevron-down"></i></h3>
+                            <ul class="accordion-content">
+                                <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom Website Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a></li>
+                                <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website Maintenance & Security</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Mobile Accordion: Design -->
+                        <div class="service-section">
+                            <h3 class="accordion-toggle">Design <i class="fas fa-chevron-down"></i></h3>
+                            <ul class="accordion-content">
+                                <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
+                                <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics Designing</a></li>
                             </ul>
                         </div>
 
@@ -279,14 +283,17 @@
                                                 <div class="mega-menu-col">
                                                     <h3 class="mega-menu-title">Services</h3>
                                                     <ul class="mega-menu-list">
-                                                        <li><a href="javascript:void(0)" class="service-trigger"
-                                                                data-target="social-media">Social Media Marketing <i
+                                                        <li><a href="<?php echo $base_url; ?>digital-marketing-agency" class="service-trigger"
+                                                                data-target="digital-marketing-sub">Digital Marketing <i
                                                                     class="fas fa-chevron-right"></i></a></li>
-                                                        <li><a href="javascript:void(0)" class="service-trigger"
-                                                                data-target="web-design">Web Design & Development <i
+                                                        <li><a href="<?php echo $base_url; ?>app-development-agency" class="service-trigger"
+                                                                data-target="app-dev-sub">App Development <i
                                                                     class="fas fa-chevron-right"></i></a></li>
-                                                        <li><a href="javascript:void(0)" class="service-trigger"
-                                                                data-target="digital-marketing">Digital Marketing <i
+                                                        <li><a href="<?php echo $base_url; ?>web-development-agency" class="service-trigger"
+                                                                data-target="web-dev-sub">Web Development <i
+                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai" class="service-trigger"
+                                                                data-target="design-sub">Design <i
                                                                     class="fas fa-chevron-right"></i></a></li>
 
                                                     </ul>
@@ -295,56 +302,47 @@
                                                 <!-- Column 2: Specific Services (Dynamic) - Hidden by Default -->
                                                 <div class="mega-menu-col" id="sub-service-col" style="display: none;">
                                                     <h3 class="mega-menu-title" id="sub-service-title">Details</h3>
-                                                    <!-- Social Media Sub Services -->
-                                                    <ul class="mega-menu-list sub-list" id="social-media">
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook
-                                                                Advertising</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn
-                                                                Advertising</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter
-                                                                Advertising</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram
-                                                                Advertising</a></li>
-                                                    </ul>
-
-                                                    <!-- Web Design Sub Services -->
-                                                    <ul class="mega-menu-list sub-list split-column-list"
-                                                        id="web-design">
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI
-                                                                UX Design</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress
-                                                                Development</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify
-                                                                Development</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom
-                                                                Website Development</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website
-                                                                Maintenance & Security</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphics
-                                                                Designing</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain
-                                                                & Hosting</a></li>
-                                                    </ul>
                                                     <!-- Digital Marketing Sub Services -->
-                                                    <ul class="mega-menu-list sub-list split-column-list"
-                                                        id="digital-marketing">
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai ">TikTok
-                                                                Shop</a></li>
-
+                                                    <ul class="mega-menu-list sub-list" id="digital-marketing-sub">
+                                                        <li><a href="<?php echo $base_url; ?>social-media-marketing-agency" class="sub-service-trigger"
+                                                                data-target="smm-sub-sub">Social Media Marketing <i
+                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="<?php echo $base_url; ?>seo-company">Search Engine Optimization</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>ppc-marketing-company">Pay-Per-Click</a></li>
                                                     </ul>
 
+                                                    <!-- App Development Sub Services -->
+                                                    <ul class="mega-menu-list sub-list" id="app-dev-sub">
+                                                        <li><a href="<?php echo $base_url; ?>ai-development">AI Development</a></li>
+                                                    </ul>
+
+                                                    <!-- Web Development Sub Services -->
+                                                    <ul class="mega-menu-list sub-list" id="web-dev-sub">
+                                                        <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom Website Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website Maintenance & Security</a></li>
+                                                    </ul>
+
+                                                    <!-- Design Sub Services -->
+                                                    <ul class="mega-menu-list sub-list" id="design-sub">
+                                                        <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphic Design</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <!-- Column 3: Level 3 Services (Dynamic) - Hidden by Default -->
+                                                <div class="mega-menu-col" id="triple-sub-service-col" style="display: none;">
+                                                    <h3 class="mega-menu-title" id="triple-sub-service-title">Details</h3>
+                                                    <!-- SMM Sub Services -->
+                                                    <ul class="mega-menu-list sub-sub-list" id="smm-sub-sub">
+                                                        <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">TikTok Shop</a></li>
+                                                    </ul>
                                                 </div>
 
                                                 <!-- Column 3: Industries -->
@@ -495,14 +493,18 @@
             margin-left: calc(-50vw + 50%);
             background: #000;
             padding: 40px 0;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+            box-shadow: 0 15px 40px #f77c81;
             display: none;
             z-index: 9999;
             border-top: 1px solid #222;
             border-bottom: 1px solid #222;
             border-radius: 0;
+              
         }
 
+        .mega-menu-wrapper:hover {
+             box-shadow: 0 15px 40px #B454C7;
+        }
         /* Hover Bridge to keep menu open when moving cursor from menu item to mega menu */
         .mega-menu-wrapper::before {
             content: '';
@@ -547,6 +549,7 @@
             max-width: 1320px;
             margin: 0 auto;
             padding: 0 20px;
+            
         }
 
         .mega-menu-col {
@@ -610,29 +613,28 @@
             padding-left: 8px;
         }
 
-        .service-trigger {
+        .service-trigger, .sub-service-trigger {
             cursor: pointer;
             position: relative;
-
         }
 
-        .service-trigger.active-service {
+        .service-trigger.active-service, .sub-service-trigger.active-service {
             color: #B454C7 !important;
             font-weight: 700;
         }
 
-        .service-trigger i {
+        .service-trigger i, .sub-service-trigger i {
             float: right;
             margin-top: 4px;
             font-size: 12px;
             transition: transform 0.3s;
         }
 
-        .service-trigger.active-service i {
+        .service-trigger.active-service i, .sub-service-trigger.active-service i {
             transform: translateX(5px);
         }
 
-        .sub-list {
+        .sub-list, .sub-sub-list {
             display: none;
         }
 
@@ -706,53 +708,80 @@
             const toggles = document.querySelectorAll(".accordion-toggle");
 
             toggles.forEach(toggle => {
-                toggle.addEventListener("click", function () {
+                toggle.addEventListener("click", function (e) {
+                    e.stopPropagation();
                     const content = this.nextElementSibling;
+                    if (!content) return;
+                    
                     const isActive = this.classList.contains("active");
 
-                    // Close all others
+                    // Close others, but don't close parents
                     document.querySelectorAll(".accordion-toggle").forEach(t => {
-                        t.classList.remove("active");
-                        t.nextElementSibling.style.display = "none";
+                        if (t !== this && !t.nextElementSibling.contains(this)) {
+                            t.classList.remove("active");
+                            if(t.nextElementSibling) t.nextElementSibling.style.display = "none";
+                        }
                     });
 
                     // Toggle current one
                     if (!isActive) {
                         this.classList.add("active");
                         content.style.display = "block";
+                    } else {
+                        this.classList.remove("active");
+                        content.style.display = "none";
                     }
                 });
             });
 
-            // Mega Menu Click Logic
+            // Mega Menu Hover Logic
             const serviceTriggers = document.querySelectorAll('.service-trigger');
             const subLists = document.querySelectorAll('.sub-list');
             const subCol = document.getElementById('sub-service-col');
             const subTitle = document.getElementById('sub-service-title');
+            
+            const subServiceTriggers = document.querySelectorAll('.sub-service-trigger');
+            const subSubLists = document.querySelectorAll('.sub-sub-list');
+            const subSubCol = document.getElementById('triple-sub-service-col');
+            const subSubTitle = document.getElementById('triple-sub-service-title');
 
             serviceTriggers.forEach(trigger => {
-                trigger.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-
+                trigger.addEventListener('mouseenter', function () {
                     const targetId = this.getAttribute('data-target');
                     const categoryName = this.innerText.trim();
 
-                    // Hide all lists and show the column
+                    // Reset sub-sub levels
+                    if (subSubCol) subSubCol.style.display = 'none';
+                    subSubLists.forEach(l => l.style.display = 'none');
+                    subServiceTriggers.forEach(t => t.classList.remove('active-service'));
+
+                    // Show sub-level 2
                     subLists.forEach(list => list.style.display = 'none');
                     if (subCol) subCol.style.display = 'block';
 
-                    // Show target list
                     const targetList = document.getElementById(targetId);
-                    if (targetList) {
-                        targetList.style.display = 'block';
-                    }
-
-                    // Update Title
+                    if (targetList) targetList.style.display = 'block';
                     if (subTitle) subTitle.innerText = categoryName;
 
-                    // Active state for trigger
                     serviceTriggers.forEach(t => t.classList.remove('active-service'));
+                    this.classList.add('active-service');
+                });
+            });
+
+            subServiceTriggers.forEach(trigger => {
+                trigger.addEventListener('mouseenter', function () {
+                    const targetId = this.getAttribute('data-target');
+                    const serviceName = this.innerText.trim();
+
+                    // Show sub-level 3
+                    subSubLists.forEach(list => list.style.display = 'none');
+                    if (subSubCol) subSubCol.style.display = 'block';
+
+                    const targetList = document.getElementById(targetId);
+                    if (targetList) targetList.style.display = 'block';
+                    if (subSubTitle) subSubTitle.innerText = serviceName;
+
+                    subServiceTriggers.forEach(t => t.classList.remove('active-service'));
                     this.classList.add('active-service');
                 });
             });

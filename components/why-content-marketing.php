@@ -1,6 +1,6 @@
 <style>
     .content-title {
-        font-size: 50px;
+        font-size: 42px;
         font-weight: bold;
         letter-spacing: 0.72px;
         color: white;
@@ -89,8 +89,9 @@
         <div class="container">
             <div>
                 <div style="text-align: center;">
-                    <h4 class="content-title">Why Choose Our Professional Content Marketing services?</h4>
-                    <p class="content-subtitle-content">Strategic Content Drives Measurable Business Growth</p>
+                    <h4 class="content-title">Why Choose Our Content Marketing Agency Dubai?</h4>
+                    <p class="exter-para mb-4">Strategic content is no longer optional, it’s essential for visibility, authority, and long-term growth. Our content marketing services Dubai help businesses stand out by delivering the right message to the right audience at the right time.</p>
+                    <p class="exter-para mb-4">As a creative content marketing company in Dubai, we focus on strategy first, execution second, and results always.</p>
                 </div>
 
                 <div class="row align-items-center">
@@ -105,12 +106,9 @@
                         <h2 class="text-white fw-bold mb-3"><span class="fs-20">Why Your</span> Business Needs a Strong
                             Content Strategy?</h2>
                         <p class="text-white mb-4">
-                            Professional content marketing services create valuable assets that attract qualified
-                            prospects over time. Well-crafted content answers customer questions, builds trust, and
-                            positions your business as the solution provider. Companies see compounding returns as
-                            content continues generating leads months after publication.
+                          A strong content strategy helps businesses educate audiences, build trust, and stay competitive. Our professional content writing services in Dubai ensure your brand communicates clearly, consistently, and convincingly across all digital touchpoints.
                         </p>
-
+                        <p class="text-white">With Logic Works, content becomes a growth asset, not just words on a page.</p>
                         <!-- Accordion -->
                         <div class="accordion" id="contentAccordion">
                             <!-- Accordion Item 1 -->
@@ -118,17 +116,14 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Expert Strategy Development
+                                     Expert Content Strategy Development
                                         <span class="toggle-icon">-</span>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#contentAccordion">
                                     <div class="accordion-body">
-                                        Our team researches your market deeply before creating content plans. Competitor
-                                        analysis reveals content gaps your business can fill. Audience research uncovers
-                                        exact questions prospects ask before buying. Strategic planning ensures every
-                                        article, video, and email advances business goals.
+                                     Our team researches your market deeply before creating content plans. Competitor analysis reveals content gaps your business can fill. Audience research uncovers the exact questions prospects ask before buying. Strategic planning ensures every piece of content supports SEO performance, brand positioning, and lead generation.
                                     </div>
                                 </div>
                             </div>
@@ -138,17 +133,14 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Audience-Focused Creation
+                                 Audience-Focused Content Creation
                                         <span class="toggle-icon">+</span>
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#contentAccordion">
                                     <div class="accordion-body">
-                                        Content addresses specific pain points your customers experience. Messaging
-                                        speaks directly to buyer concerns at each decision stage. Topics match search
-                                        intent, bringing qualified traffic that converts into sales. Production quality
-                                        reflects your brand standards while maintaining engagement.
+                                       Our content creation services Dubai are designed to engage real users. We craft blogs, landing pages, website copy, and branded content that speak directly to customer pain points and decision stages.
                                     </div>
                                 </div>
                             </div>
@@ -159,17 +151,14 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Multi-Channel Distribution
+                                      Multi-Channel Content Distribution
                                         <span class="toggle-icon">+</span>
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#contentAccordion">
                                     <div class="accordion-body">
-                                        Content connects with people on platforms where they search for answers. Blog
-                                        posts capture organic search visitors. Social posts create awareness and
-                                        interaction. Email campaigns guide prospects toward buying decisions. Planned
-                                        distribution increases content impact.
+                                     We amplify your content across websites, search engines, email campaigns, and social platforms to ensure maximum visibility and engagement.
                                     </div>
                                 </div>
                             </div>
@@ -180,23 +169,20 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        Performance-Based Optimization
+                                     Performance-Based Optimization
                                         <span class="toggle-icon">+</span>
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#contentAccordion">
                                     <div class="accordion-body">
-                                        Analytics reveal which content drives conversions and which needs improvement.
-                                        Data guides topic selection and format choices. Continuous refinement improves
-                                        performance over time. Resources shift toward content types that generate
-                                        strongest returns on investment.
+                                      Content performance is continuously tracked and optimized. We refine messaging, keywords, and formats to improve rankings, traffic quality, and conversions.
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Accordion Item 5 -->
-                            <div class="accordion-item mb-3">
+                            <!-- <div class="accordion-item mb-3">
                                 <h2 class="accordion-header" id="headingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false"
@@ -214,10 +200,10 @@
                                         revenue growth.
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
-                        <a href="#" class="btn btn-primary-btn">Get Started Now</a>
+                        <a href="#" id="openPopup" class="btn btn-primary-btn">Get Started Now</a>
                     </div>
                 </div>
             </div>

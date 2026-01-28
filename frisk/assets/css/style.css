@@ -24700,7 +24700,7 @@ blockquote p {
     font-size: 31px !important;
     margin-bottom: 10px;
     line-height: 50px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 
   img.dubai-agent {
