@@ -1,70 +1,71 @@
 <?php
-// Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-// Load Composer's autoloader
 require 'phpmailer/vendor/autoload.php';
 
-// Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-try {
-    // Server settings
-    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;      // Enable verbose debug output
-    $mail->isSMTP();                            // Send using SMTP
-    $mail->Host       = 'smtp.hostinger.com';   // Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                   // Enable SMTP authentication
-    $mail->Username   = 'admin@logicworks.ae';  // SMTP username
-    $mail->Password   = 'Xyzxyz123$@';          // SMTP password
-    $mail->SMTPSecure = 'tls';                  // Enable SSL encryption
-    $mail->Port       = 587;                    // TCP port to connect to
+    // ================== RECAPTCHA VERIFY ==================
+    $secretKey = "6LfxcVgsAAAAAFRsXRAD2mLb2HDibR1WdS8nJke1"; // YOUR SECRET KEY
 
-    // Recipients
-    $mail->setFrom('admin@logicworks.ae', 'Logic Works');
-    $mail->addAddress('info@logicworks.ae', 'Logic Works'); // Add a recipient
-    $mail->addAddress('officialamericandigitalusa@gmail.com', 'Official American Digital USA');
-    $mail->addBCC('production8417@gmail.com');
+    if (empty($_POST['g-recaptcha-response'])) {
+    header("Location: contact-us.php?captcha=failed");
+exit;
 
-    // Collect form data
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $services = $_POST['services'];
-    $message = $_POST['message'];
-
-    // Add files if they are uploaded
-    /* 
-    if (isset($_FILES['attachments']) && $_FILES['attachments']['error'][0] == UPLOAD_ERR_OK) {
-        for ($i = 0; $i < count($_FILES['attachments']['tmp_name']); $i++) {
-            $mail->addAttachment($_FILES['attachments']['tmp_name'][$i], $_FILES['attachments']['name'][$i]);
-        }
+;
     }
-    */
 
-        // Content
-        $mail->isHTML(true); // Set email format to HTML
-        $mail->Subject = 'New Contact Form Submission';
-        
-        // Process services
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+
+    $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$recaptchaResponse}");
+    $captchaSuccess = json_decode($verify);
+
+    if (!$captchaSuccess->success) {
+        die("Captcha verification failed.");
+    }
+    // ================== END CAPTCHA ==================
+
+    $mail = new PHPMailer(true);
+
+    try {
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.hostinger.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'admin@logicworks.ae';
+        $mail->Password   = 'Xyzxyz123$@';
+        $mail->SMTPSecure = 'tls';
+        $mail->Port       = 587;
+
+        $mail->setFrom('admin@logicworks.ae', 'Logic Works');
+        $mail->addAddress('info@logicworks.ae');
+        $mail->addAddress('officialamericandigitalusa@gmail.com');
+        $mail->addBCC('production8417@gmail.com');
+
+        $name     = htmlspecialchars($_POST['name']);
+        $email    = htmlspecialchars($_POST['email']);
+        $phone    = htmlspecialchars($_POST['phone']);
         $services = isset($_POST['services']) ? implode(', ', $_POST['services']) : 'None selected';
-        
-        $mail->Body    = "<h2>New Message from Contact Form</h2>
-                          <p><strong>Name:</strong> $name</p>
-                          <p><strong>Email:</strong> $email</p>
-                          <p><strong>Phone:</strong> $phone</p>
-                          <p><strong>Services:</strong> $services</p>
-                          <p><strong>Message:</strong></p>
-                          <p>$message</p>";
-        $mail->AltBody = "New Message from Contact Form\n\nName: $name\nEmail: $email\nPhone: $phone\nServices: $services\nMessage: $message";
+        $message  = nl2br(htmlspecialchars($_POST['message']));
 
-    $mail->send();
+        $mail->isHTML(true);
+        $mail->Subject = 'New Contact Form Submission';
+        $mail->Body = "<h2>New Message</h2>
+                       <p><strong>Name:</strong> $name</p>
+                       <p><strong>Email:</strong> $email</p>
+                       <p><strong>Phone:</strong> $phone</p>
+                       <p><strong>Services:</strong> $services</p>
+                       <p><strong>Message:</strong><br>$message</p>";
 
-    // Redirect to thank you page
-    header("Location: thankyou.php");
-    exit;
+        $mail->AltBody = "Name: $name\nEmail: $email\nPhone: $phone\nServices: $services\nMessage: " . strip_tags($message);
 
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        $mail->send();
+
+        header("Location: thankyou.php");
+        exit;
+
+    } catch (Exception $e) {
+        echo "Mailer Error: {$mail->ErrorInfo}";
+    }
 }
+?>

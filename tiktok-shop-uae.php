@@ -266,9 +266,10 @@ include("includes/header.php");
                 <div class="col">
                            <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
-                        <div class="quwstion">Which countries currently support TikTok Shop?</button>
+                        <div class="quwstion">
+                            <button class="accordions">Which countries currently support TikTok Shop?</button>
                             <div class="panel">
-                                <p>TikTok Shop UAE operates in select regions, with availability expanding regularly. We monitor updates closely so brands can enter new markets quickly and plan creators and content strategically.</p>
+                               <p>TikTok Shop UAE operates in select regions, with availability expanding regularly. We monitor updates closely so brands can enter new markets quickly and plan creators and content strategically.</p>
                             </div>
                         </div>
 

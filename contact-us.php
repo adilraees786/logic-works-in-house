@@ -8,6 +8,15 @@ include("includes/header.php");
 
 
 ?>
+<?php if(isset($_GET['captcha'])): ?>
+    <div style="color:red; margin:10px 0;">
+        <?php
+            if($_GET['captcha'] == 'empty') echo "Please verify that you are not a robot.";
+            if($_GET['captcha'] == 'failed') echo "Captcha verification failed. Please try again.";
+        ?>
+    </div>
+<?php endif; ?>
+
 
 
 <style>
@@ -149,6 +158,23 @@ include("includes/header.php");
         margin-bottom: 16px;
         transform: scale(1);
         transform-origin: 0 0;
+ 
+    }
+
+    @media (max-width: 767px) {
+        .services-checkbox-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .services-checkbox-container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .service-checkbox-item label {
+            font-size: 13px !important;
+        }
     }
 
     @media (max-width: 400px) {
@@ -177,7 +203,7 @@ include("includes/header.php");
             <div class="row contact-second-row">
                 <div class="col-lg-6 col-md-7">
                     <h3 class="text-white">Get In Touch</h3>
-                    <form action="send_message.php" method="POST">
+                 <form id="contactForm" action="send_message.php" method="POST">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
 
@@ -231,7 +257,10 @@ include("includes/header.php");
                         <textarea id="message" name="message" placeholder="Write Something..." style="height:200px"
                             required></textarea>
 
-                      
+                      <div class="mb-3 ">
+    <div class="g-recaptcha" data-sitekey="6LfxcVgsAAAAAECVQSaraQGJ25sQ1swHxBqiU6mK"></div>
+<div id="captcha-error" style="color:red; margin-top:8px;"></div>
+</div>
                         <input type="submit" value="Submit">
                     </form>
 
@@ -299,3 +328,34 @@ include("includes/header.php");
 <?php
 include("includes/footer.php");
 ?>
+
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    var response = "";
+    try {
+        var allWidgets = document.querySelectorAll('.g-recaptcha');
+        var contactWidget = document.getElementById("contactForm").querySelector('.g-recaptcha');
+        var widgetIndex = Array.from(allWidgets).indexOf(contactWidget);
+        
+        if (widgetIndex !== -1) {
+            response = grecaptcha.getResponse(widgetIndex);
+        } else {
+            response = grecaptcha.getResponse();
+        }
+    } catch (err) {
+        response = grecaptcha.getResponse();
+    }
+    
+    var errorDiv = document.getElementById("captcha-error");
+
+    if (response.length === 0) {
+        e.preventDefault();
+        errorDiv.innerHTML = "Please verify that you are not a robot.";
+        return false;
+    }
+
+    errorDiv.innerHTML = "";
+});
+</script>
+

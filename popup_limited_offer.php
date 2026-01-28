@@ -7,10 +7,30 @@ use PHPMailer\PHPMailer\Exception;
 // Load Composer's autoloader
 require 'phpmailer/vendor/autoload.php';
 
-// Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-try {
+    // ================== RECAPTCHA VERIFY ==================
+    $secretKey = "6LfxcVgsAAAAAFRsXRAD2mLb2HDibR1WdS8nJke1"; // YOUR SECRET KEY
+
+    if (empty($_POST['g-recaptcha-response'])) {
+        // You might want to redirect back with an error or handle it as you wish
+        die("Please verify that you are not a robot.");
+    }
+
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+
+    $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$recaptchaResponse}");
+    $captchaSuccess = json_decode($verify);
+
+    if (!$captchaSuccess->success) {
+        die("Captcha verification failed.");
+    }
+    // ================== END CAPTCHA ==================
+
+    // Create an instance; passing `true` enables exceptions
+    $mail = new PHPMailer(true);
+
+    try {
     // Server settings
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;      // Enable verbose debug output
     $mail->isSMTP();                            // Send using SMTP
@@ -64,3 +84,5 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+}
+?>

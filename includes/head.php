@@ -309,4 +309,5 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
   
 
 
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>

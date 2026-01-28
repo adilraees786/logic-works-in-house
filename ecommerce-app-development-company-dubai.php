@@ -523,7 +523,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/restaurant-app-images/restaurant-service.webp" alt="tab-img-app-dev">
+                      <img src="./assests/images/android-ecommerce-app-development-company/tab-image.webp" alt="ecommerce-app-dev-img">
                 </div>
                 <div class="col-lg-6">
                     <div class="app-our-content">

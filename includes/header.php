@@ -29,12 +29,16 @@
             <button id="closePopup" class="close"
                 style="position:absolute; top:15px; right:15px; background:#fff; border:none; padding:5px 10px; border-radius:50%; cursor:pointer;">X</button>
             <p>LIMITED TIME OFFER <span>50%</span> OFF ALL SERVICES</p>
-            <form action="popup_limited_offer.php" method="POST" required>
+            <form id="popupForm" action="popup_limited_offer.php" method="POST" required>
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <input type="tel" name="phone" placeholder="Phone Number" required>
                 <textarea id="message" name="message" placeholder="Your Message" style="height:200px"
                     required></textarea>
+                <div class="mb-3">
+                    <div class="g-recaptcha" data-sitekey="6LfxcVgsAAAAAECVQSaraQGJ25sQ1swHxBqiU6mK"></div>
+                    <div id="popup-captcha-error" style="color:red; margin-top:8px;"></div>
+                </div>
                 <input type="submit" value="Let's Talk To An Expert!">
             </form>
         </div>
@@ -766,6 +770,36 @@
             if (megaMenu) {
                 megaMenu.addEventListener('click', function (e) {
                     e.stopPropagation();
+                });
+            }
+
+            // Popup Form reCAPTCHA Validation
+            const popupForm = document.getElementById("popupForm");
+            if (popupForm) {
+                popupForm.addEventListener("submit", function(e) {
+                    var response = "";
+                    try {
+                        // Dynamically find the index of the reCAPTCHA within this form
+                        var allWidgets = document.querySelectorAll('.g-recaptcha');
+                        var popupWidget = popupForm.querySelector('.g-recaptcha');
+                        var widgetIndex = Array.from(allWidgets).indexOf(popupWidget);
+                        
+                        if (widgetIndex !== -1) {
+                            response = grecaptcha.getResponse(widgetIndex);
+                        } else {
+                            response = grecaptcha.getResponse(); // Fallback
+                        }
+                    } catch (err) {
+                        response = grecaptcha.getResponse(); // Fallback
+                    }
+
+                    var errorDiv = document.getElementById("popup-captcha-error");
+                    if (response.length === 0) {
+                        e.preventDefault();
+                        errorDiv.innerHTML = "Please verify that you are not a robot.";
+                        return false;
+                    }
+                    errorDiv.innerHTML = "";
                 });
             }
         });
