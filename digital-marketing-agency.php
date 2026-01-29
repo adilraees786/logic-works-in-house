@@ -1,6 +1,6 @@
 <?php
 $meta_title = "Creative Digital Marketing Agency in Dubai - Logic Works";
-$meta_description = "BLogic Works is a creative digital marketing agency in Dubai delivering SEO, PPC, SMM, and growth-focused strategies that drive real business results.";
+$meta_description = "Logic Works is a creative digital marketing agency in Dubai delivering SEO, PPC, SMM, and growth-focused strategies that drive real business results.";
 $keyword = 'Digital Marketing Agency';
 $canonical = "https://logicworks.ae/digital-marketing-agency";
 
