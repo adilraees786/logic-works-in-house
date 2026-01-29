@@ -1,7 +1,7 @@
 <style>
     .main-heading {
         text-align: center;
-        font-size: 55px;
+        font-size: 42px;
         font-weight: 700;
         margin-bottom: 20px;
         color: white;
@@ -85,6 +85,7 @@
 <body>
     <section class="slider-section">
         <h2 class="main-heading">Get Complete Email Marketing <br> Service in Dubai</h2>
+        <p class="exter-para mb-30">Our full-suite email marketing service in Dubai covers everything needed to run high-performing campaigns from strategy to execution and optimization.</p>
         <div class="container">
 
             <div id="emailSlider" class="carousel slide" data-bs-ride="carousel">

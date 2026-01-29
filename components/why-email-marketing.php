@@ -18,17 +18,17 @@
     }
 
     .section-header h2 {
-        font-size: 50px;
+        font-size: 42px;
         font-weight: 700;
         margin-bottom: 10px;
     }
 
-    .section-header p {
+    /* .section-header p {
         font-size: 24px;
         font-weight: 400;
         margin: 0;
         color: white;
-    }
+    } */
 
     .left-section {
         display: flex;
@@ -179,6 +179,8 @@
     <div class="section-header">
         <h2>Emails Failing to Reach the <br> Right Audience?</h2>
         <!-- <p>The ROI Powerhouse for Your Business</p> -->
+         <p class="exter-para">Low engagement, poor deliverability, and irrelevant messaging can weaken even the strongest brands. Without the right strategy, email campaigns fail to connect with the people who matter most.</p>
+         <p class="exter-para">As an experienced Dubai email marketing agency, we fix targeting gaps, optimize messaging, and ensure your emails land in the right inbox at the right time driving real engagement and conversions.</p>
     </div>
 
     <div class="email-marketing row g-0">
@@ -219,11 +221,7 @@
         <!-- Right Side -->
         <div class="col-lg-6 col-md-12 right-image-section-email">
             <img src="assests/images/Email-Marketing-dubai/right-image.webp" alt="Email Marketing">
-            <div class="image-overlay-text">
-                <h5>Building Brands on the Email Marketing</h5>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1</p>
-            </div>
+         
         </div>
     </div>
 </section>

@@ -209,7 +209,10 @@
         .hero-section {
             padding: 20px 0px;
         }
+         .image-wrapper {
+            height: 300px;
     }
+}
 </style>
 
 
@@ -225,10 +228,10 @@
             <div class="text-center">
                 <p class="text-white text-center video-all-para">Why Your Online Reputation Defines Business Success
                 </p>
-                <h2 class="video-all-headings text-white">Strong Reputation Builds Trust and Drives
+                <h2 class="text-white same-all text-center">Strong Reputation Builds Trust and Drives
                     Growth
                 </h2>
-
+<p class="exter-para">Working with a reliable online reputation management company in Dubai ensures your brand earns trust, controls first impressions, and stays competitive in a review-driven digital landscape.</p>
             </div>
         </div>
 
@@ -297,13 +300,13 @@
                 </div>
 
                 <!-- CTA Section moved inside image container -->
-                <div class="live-chat-btns">
+                <!-- <div class="live-chat-btns">
                     <a href="#" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
 
-                </div>
-                <p class="text-white text-center video-all-para mt-2">let's Grow Your
-                    Business</p>
+                </div> -->
+                <!-- <p class="text-white text-center video-all-para mt-2">let's Grow Your
+                    Business</p> -->
             </div>
         </div>
     </div>

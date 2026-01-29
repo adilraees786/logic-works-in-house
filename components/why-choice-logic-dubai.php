@@ -123,7 +123,7 @@
             <div class="icon"><img src="./assests/images/Email-Marketing-dubai/icon-2.png" alt="icon-001"></div>
             <h5 class="mb-2 fs-30 fw-600">Proven Email Campaign Success</h5>
             <p>We create email campaigns that deliver strong business results.</p>
-            <button class="btn mt-2">Explore now</button>
+            <!-- <button class="btn mt-2">Explore now</button> -->
           </div>
         </div>
         <div class="col-lg-3 col-md-6 card-container">
@@ -131,7 +131,7 @@
             <div class="icon"><img src="./assests/images/Email-Marketing-dubai/icon-1.png" alt="icon-002"></div>
             <h5 class="mb-2  fs-30 fw-600">Dubai Market Understanding</h5>
             <p>We understand local business culture and customer preferences.</p>
-            <button class="btn mt-2">Explore now</button>
+            <!-- <button class="btn mt-2">Explore now</button> -->
           </div>
         </div>
         <div class="col-lg-3 col-md-6 card-container">
@@ -139,7 +139,7 @@
             <div class="icon"><img src="./assests/images/Email-Marketing-dubai/icon-3.png" alt="icon-003"></div>
             <h5 class="mb-2  fs-30 fw-600">Advanced Automation Systems</h5>
             <p>We build email sequences that work automatically.</p>
-            <button class="btn mt-2">Explore now</button>
+            <!-- <button class="btn mt-2">Explore now</button> -->
           </div>
         </div>
         <div class="col-lg-3 col-md-6 card-container">
@@ -147,14 +147,14 @@
             <div class="icon"><img src="./assests/images/Email-Marketing-dubai/icon-4.png" alt="icon-004"></div>
             <h5 class="mb-2  fs-30 fw-600">Performance-Based Optimization</h5>
             <p>We improve campaigns using real engagement data.</p>
-            <button class="btn mt-2">Explore now</button>
+            <!-- <button class="btn mt-2">Explore now</button> -->
           </div>
         </div>
       </div>
 
-      <div class="success-anchor-email text-center">
+      <!-- <div class="success-anchor-email text-center">
         <a href="#">Read More <span>>></span></a>
-      </div>
+      </div> -->
     </div>
   </div>
 

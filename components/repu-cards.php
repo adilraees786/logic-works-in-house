@@ -45,23 +45,20 @@
 
     .header-section {
 
-        margin-top: 40px;
+        /* margin-top: 40px; */
         margin-bottom: 30px;
     }
 
     .header-section h2 {
-        font-size: 50px;
+        font-size: 42px;
         font-weight: 900;
         line-height: 1.2;
         color: white;
+        max-width: 800px;
+        margin: 0 auto 20px auto;
     }
 
-    .header-section p {
-        font-size: 36px;
-        color: white;
-        font-weight: 400;
-        line-height: 1.2;
-    }
+ 
 
     .alt-bg {
         background: #5f2c9d;
@@ -99,8 +96,8 @@
 
 <body>
     <div class="header-section text-center">
-        <h2>Our Online Reputation Management Services That Deliver Results</h2>
-        <p>Proven Strategies to Protect Your Brand</p>
+        <h2>Our ORM Services Agency in Dubai That Deliver Real Results</h2>
+        <p class="exter-para">Our reputation management services in Dubai are designed to monitor brand mentions, suppress negative content, and strengthen positive brand perception across search engines and social platforms.</p>
     </div>
     <div class="container-fluid">
         <div class="row g-0 card-group">

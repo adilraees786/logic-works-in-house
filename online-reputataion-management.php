@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Best Online Reputation Management Services | Logic Works";
-$meta_description = "Get the best online reputation management services to protect your brand, remove negativity, boost trust, and build a strong digital image.";
+$meta_title = "Online Reputation Management Services Dubai | ORM Experts";
+$meta_description = "Protect your brand with trusted online reputation management services Dubai. We monitor reviews, suppress negative content, and build lasting brand credibility.";
 $keyword = 'Online Reputataion Management';
 $canonical = "https://logicworks.ae/online-reputataion-management";
 $custom_schema = '
@@ -213,20 +213,14 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-12">
-                    <h1 class="text-white-hero-1">Best Online Reputation Management Services That Protect Your
-                        Brand
+                    <h1 class="text-white-hero-1">Online Reputation Management Services in Dubai
                     </h1>
-                    <p class="text-white-hero">Build trust, control perception, and maintain a positive online presence
-                        with the best online reputation management services.
+                    <p class="text-white-hero">Best Online Reputation Management Company Dubai That Protects Your Brand
                     </p>
-                    <p class="text-white">Our online reputation management keeps your business safe from false
-                        information. We watch every mention of your brand online. Reviews are managed carefully to
-                        maintain trust. Positive content is shared to boost your image. Our team fixes issues before
-                        they grow. Your online presence always shows your true value. Focus on running your business. We
-                        protect your reputation every day. Your brand stays strong and trusted.
+                    <p class="text-white">Our online reputation management services in Dubai keeps your business safe from false information. We watch every mention of your brand online. Reviews are managed carefully to maintain trust. Positive content is shared to boost your image. Our team fixes issues before they grow. Your online presence always shows your true value. Focus on running your business. We protect your reputation every day. Your brand stays strong and trusted.
                     </p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                        <a  href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
@@ -264,11 +258,12 @@ include("includes/header.php");
                 <div class="col-lg-8">
                     <h2 class="text-white same-all text-start">Protect Your Brand Reputation Before Damage Happens
                         Online</h2>
-                    <ul class="about-ads-list pl-90">
+                        <p class="text-white">Our structured approach makes us a dependable ORM services agency in Dubai, focused on measurable results and brand protection.</p>
+                    <!-- <ul class="about-ads-list pl-90">
                         <li>Stop negativity</li>
                         <li>Build trust</li>
                         <li>Stay protected</li>
-                    </ul>
+                    </ul> -->
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
@@ -282,8 +277,8 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="heading-h2 text-center fs-62 fw-900 text-white">
-                        Why Businesses Trust Our Professional Reputation Management Experts
+                    <h2 class="text-white same-all text-center">
+                        Why Businesses Trust Logic Works for Online Reputation Management Services in Dubai
                     </h2>
                     <p class="heading-h2-subpara text-white fs-22 text-center mb-50">
                         Businesses rely on us for proven strategies that protect their online image and build lasting
@@ -327,7 +322,7 @@ include("includes/header.php");
                         <div class="td-animation-wcu-card td-animation-service-card">
                             <img src="assests/images/online-reputataion-management/case-3.webp"
                                 alt="online-repo-img-002">
-                            <div class="td-animation-service-card-bottom-content py-60 px-20">
+                            <div class="td-animation-service-card-bottom-content py-75 px-20">
                                 <h4 class="fw-700 fs-24 text-primary-theme">Transparent Reporting</h4>
                                 <p class="fs-13 mb-20">
                                     You always know what we do. Reports show progress and performance. You can track
@@ -388,9 +383,9 @@ include("includes/header.php");
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
+                <!-- <div class="d-flex justify-content-center">
                     <a href="" class="btn-primary">View Case Studies</a>
-                </div>
+                </div> -->
                 <div class="twod-animation-wcu-arrows twod-animation-service-arrows ">
                     <div class="left-arrow">
 
@@ -404,176 +399,52 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <!-- Questions -->
-    <div class="position-relative section-bg-wrapper overflow-hidden z-1">
-        <img src="assests/images/ai-chatbot/sec-left.webp" alt="online-o02" class="sec-left-img position-absolute z-0">
-        <img src="assests/images/ai-chatbot/sec-right.webp" alt="online-oo1"
-            class="sec-right-img position-absolute z-0">
-        <section class="faq-home section-bg pt-b-80">
-            <div class="container">
-                <div class="row justify-content-space-between">
-                    <div class="col">
-                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
-                        <div class="faqss">
-
-                            <div class="quwstion">
-                                <button class="accordions">How long before reputation management shows results?</button>
-                                <div class="panel">
-                                    <p>Review responses and monitoring start immediately. Content suppression takes
-                                        three to six months depending on how much negative material exists and how well
-                                        it ranks. Crisis management shows impact within days. Long-term brand building
-                                        delivers increasing benefits over twelve months and beyond.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">Can you remove negative reviews completely?
-                                </button>
-                                <div class="panel">
-                                    <p>We cannot remove honest reviews. Fake or policy-breaking content can be requested
-                                        for removal. We push down negative items with positive content. Better customer
-                                        service and regular feedback improve review scores.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">How much do ORM services cost?</button>
-                                <div class="panel">
-                                    <p>Investment depends on how severe the reputation damage is. Monthly plans start at
-                                        low rates for basic monitoring and responses. Full campaigns with content
-                                        creation and active suppression cost more. They provide higher value by
-                                        protecting revenue and preventing losses.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">Will clients know you manage our reputation?</button>
-                                <div class="panel">
-                                    <p>Our work appears under your brand name. Responses come from your business
-                                        accounts. Content promotes your company naturally. Professional reputation
-                                        management stays invisible to customers while protecting your interests behind
-                                        the scenes.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-    </div>
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-        id="hireobserverID">
-        <div class="bg-white-heading-custom">
-            <div class="container">
-                <div class="row white-bg-heading-custom-row">
-                    <div class="col-md-12">
-                        <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Ask any Q -->
+    <section class="faq-home section-bg mt-50">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                        <ul class="faq_section">
-                            <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How We Match
-                                    Reputation Strategy to Business Reality?</a></li>
-                            <li><a href="#section-2" class="hire-tabs">What Separates Effective ORM from Wasted
-                                    Effort?</a></li>
-                            <li><a href="#section-3" class="hire-tabs">How Proactive Protection Prevents Expensive
-                                    Damage?</a>
-                            </li>
-                            <li><a href="#section-4" class="hire-tabs">What Meaningful Collaboration Produces in ORM
-                                    Work?</a></li>
-                            <li><a href="#section-5" class="hire-tabs">What Drives Reputation Improvement That
-                                    Lasts?</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-6 col-md-6 col-stick">
-                    <main>
-                        <section class="sec-info" id="section-1">
-                            <h2>How We Match Reputation Strategy to Business Reality?</h2>
-                            <ul>
-                                <p>Your industry determines which platforms matter most. Healthcare businesses face
-                                    different reputation challenges than restaurants or law firms. Some companies need
-                                    Google review focus. Others require LinkedIn presence or industry-specific site
-                                    management. We study where your customers research and make decisions. Generic
-                                    strategies waste resources on platforms that don't influence your audience. Our team
-                                    identifies high-impact channels first, then builds protection there. Budget goes
-                                    toward moves that actually change perception. The best online reputation management
-                                    services adapt to business context instead of applying identical tactics everywhere.
-                                    Understanding your specific situation shapes every recommendation we make.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-2">
-                            <h2>What Separates Effective ORM from Wasted Effort?</h2>
-                            <ul>
-                                <p>Many agencies promise reputation repair but deliver basic social media management.
-                                    Real ORM services require technical SEO knowledge, crisis communication experience,
-                                    and psychology understanding. Content must rank, not just exist. Responses need
-                                    careful wording that protects legal position while showing empathy. Monitoring
-                                    demands sophisticated tools that catch mentions across platforms instantly. Our team
-                                    combines these specialized skills instead of treating reputation as a marketing
-                                    add-on. Years handling actual crises taught us what works under pressure. That
-                                    experience means fewer mistakes and faster results when your brand faces threats.
-                                    Professional reputation management succeeds through expertise, not effort alone.
-                        </section>
-                        <section class="sec-info" id="section-3">
-                            <h2>How Proactive Protection Prevents Expensive Damage?</h2>
-                            <ul>
-                                <p>Most businesses contact reputation services after disaster strikes. Recovery costs
-                                    more than prevention in time, money, and lost opportunity. Monitoring before
-                                    problems occur lets you address issues privately rather than publicly. Building
-                                    positive content now creates a buffer that protects when attacks come later. Review
-                                    systems that encourage feedback catch problems while they're fixable, not after
-                                    customers vent online. Crisis plans developed in calm moments work better than
-                                    improvisation under stress. Affordable online reputation management makes sense as
-                                    ongoing protection, not emergency response. Prevention investment stays small
-                                    compared to crisis recovery spending. Smart business leaders protect reputation
-                                    before they need to repair it.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-4">
-                            <h2>What Meaningful Collaboration Produces in ORM Work?</h2>
-                            <ul>
-                                <p>Reputation management requires information about your business that no outsider
-                                    possesses. We need to understand what makes customers happy, what causes complaints,
-                                    and what distinguishes you from competitors. Initial conversations reveal patterns
-                                    you might not notice but we spot immediately. Your input shapes response tone,
-                                    content topics, and priority platforms. We bring technical skills and strategy; you
-                                    bring business knowledge and brand voice. Regular updates keep you informed without
-                                    overwhelming you with details. The best online reputation management services create
-                                    true partnerships where both sides contribute essential elements. Your success
-                                    depends on combining our expertise with your understanding of your business.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-5">
-                            <h2>What Drives Reputation Improvement That Lasts?</h2>
-                            <ul>
-                                <p>Quick fixes create temporary improvements that collapse under scrutiny. Lasting
-                                    reputation strength requires operational changes alongside digital strategy. If
-                                    customer service causes complaints, fixing Google reviews without improving service
-                                    wastes effort. We help identify root causes, not just symptoms. Sometimes better
-                                    communication prevents negative reviews. Other times product quality needs
-                                    adjustment. Digital reputation reflects business reality, so both must improve
-                                    together. Our ORM services include recommendations for operational changes that
-                                    prevent reputation damage at its source. This comprehensive approach costs more
-                                    upfront but delivers permanent improvement. Surface-level tactics fail because they
-                                    ignore why problems occurred originally. Real solutions address causes, not just
-                                    online consequences.
+            <div class="row justify-content-space-between">
+                <div class="col">
+                    <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
+                    <div class="faqss">
+                        <div class="quwstion">
+                            <button class="accordions">What does a reputation management company in Dubai do?</button>
+                            <div class="panel">
+                                <p>A reputation management company in Dubai monitors reviews, manages brand mentions, and improves search results to protect your business image and customer trust.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Why choose the best online reputation management company Dubai offers?</button>
+                            <div class="panel">
+                                <p>The best online reputation management company Dubai businesses trust uses proven SEO, review management, and content strategies to control first impressions and boost credibility.
                                 </p>
-                            </ul>
-                        </section>
-                    </main>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Can reputation management services in Dubai remove negative content?</button>
+                            <div class="panel">
+                                <p>Professional reputation management services in Dubai suppress negative content by ranking positive pages higher, rather than using unsafe removal tactics</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Are affordable ORM services in Dubai effective?</button>
+                            <div class="panel">
+                                <p>Yes. Affordable ORM services in Dubai focus on high-impact actions like review responses and monitoring that deliver strong results without high costs.
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">How does an ORM services agency in Dubai handle reputation crises?</button>
+                            <div class="panel">
+                                <p>An ORM services agency in Dubai responds quickly, controls messaging, and prevents misinformation from damaging your brand.
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
     <?php
     include("includes/clint-review.php");

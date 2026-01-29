@@ -113,8 +113,8 @@
             <!-- Right Section -->
             <div class="col-lg-6 right-section">
                 <div class="content-wrapper">
-                    <h2 class="text-white fs-50 fw-700">Facing Low Email Engagement and Sales Issues?<h2>
-                            <!-- <p class="text-white fs-4">NEED EMAIL MARKETING</p> -->
+                    <h2 class="text-white fs-42 fw-700">Facing Low Email Engagement and Sales Issues?<h2>
+            
                             <p class="hero-description">
                                 Low email engagement rates reduce your marketing effectiveness and limit business growth
                                 potential. Logic Works creates email marketing Dubai campaigns that people actually want
@@ -122,9 +122,9 @@
                                 calls-to-action. These strategies raise open rates, increase clicks, and drive more
                                 sales.
                             </p>
-                            <div class="success-anchor-email">
+                            <!-- <div class="success-anchor-email">
                                 <a href="#">Read More</a>
-                            </div>
+                            </div> -->
                 </div>
             </div>
         </div>

@@ -143,42 +143,42 @@
                     <h3 class="polygon-title">Audience Research</h3>
                     <p class="polygon-text">Analyze your target market, customer behavior, and business goals to
                         create focused email marketing plans.</p>
-                    <a href="#"><button class="explore-btn">Explore now</button></a>
+                    <!-- <a href="#"><button class="explore-btn">Explore now</button></a> -->
                 </div>
 
                 <div class="polygon-card">
                     <h3 class="polygon-title">Strategy Planning</h3>
                     <p class="polygon-text">Define campaign direction with data-driven insights to align with
                         audience needs and business objectives.</p>
-                    <a href="#"><button class="explore-btn">Explore now</button></a>
+                    <!-- <a href="#"><button class="explore-btn">Explore now</button></a> -->
                 </div>
 
                 <div class="polygon-card">
                     <h3 class="polygon-title">Design & Content</h3>
                     <p class="polygon-text">Develop engaging email templates and persuasive content that encourage
                         audience action.</p>
-                    <a href="#"><button class="explore-btn">Explore now</button></a>
+                    <!-- <a href="#"><button class="explore-btn">Explore now</button></a> -->
                 </div>
 
                 <div class="polygon-card">
                     <h3 class="polygon-title">Setup & Testing</h3>
                     <p class="polygon-text">Configure systems, build automation workflows, and test all campaign
                         elements before launch.</p>
-                    <a href="#"><button class="explore-btn">Explore now</button></a>
+                    <!-- <a href="#"><button class="explore-btn">Explore now</button></a> -->
                 </div>
 
                 <div class="polygon-card">
                     <h3 class="polygon-title">Launch & Monitor</h3>
                     <p class="polygon-text">Run campaigns across email platforms while tracking performance and
                         making real-time adjustments.</p>
-                    <a href="#"><button class="explore-btn">Explore now</button></a>
+                    <!-- <a href="#"><button class="explore-btn">Explore now</button></a> -->
                 </div>
 
                 <div class="polygon-card">
                     <h3 class="polygon-title">Analyze & Optimize</h3>
                     <p class="polygon-text">Review results, identify gaps, and refine strategies to improve future
                         campaign outcomes.</p>
-                    <a href="#"><button class="explore-btn">Explore now</button></a>
+                    <!-- <a href="#"><button class="explore-btn">Explore now</button></a> -->
                 </div>
             </div>
         </div>

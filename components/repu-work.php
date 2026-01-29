@@ -146,8 +146,8 @@
         <div class="container">
             <div>
                 <div class="text-center mb-5">
-                    <div class="how-we-work-title">HOW WE WORK</div>
-                    <div class="how-we-work-subtitle">How We Restore Maintain Your Reputation</div>
+                    <h2 class="text-white same-all text-center">HOW WE WORK </h2>
+                    <div class="exter-para">How Our Online Reputation Management Agency Dubai Restores and Protects Brands</div>
                 </div>
                 <div class="work-container">
                     <!-- Left Content -->
@@ -163,7 +163,7 @@
                             effectively.
                         </p>
                         <div class="live-chat-btns">
-                            <a href="#" class="live-chats">Live Chat</a>
+                            <a  href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
                         </div>
                     </div>

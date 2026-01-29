@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Best Email Marketing Dubai Agency | Logic Works";
-$meta_description = "Logic Works delivers expert email marketing Dubai services. We create targeted campaigns that boost engagement, drive conversions, and build lasting customer relationships.";
+$meta_title = "Email Marketing Agency in Dubai | Logic Works – Drive Real Growth";
+$meta_description = "Logic Works is a leading email marketing agency in Dubai delivering high-performance campaigns that boost engagement, conversions, and long-term customer growth.";
 $keyword = 'Email Marketing Dubai';
 $canonical = "https://logicworks.ae/email-Marketing-dubai";
 $custom_schema = '
@@ -129,21 +129,21 @@ include("includes/header.php");
     .email-marketing-dubai {
         overflow: hidden;
     }
-
+/* 
     .email-marketing-dubai .consultancy-hero-sec h1.text-white {
         font-size: 65px;
         font-weight: 600;
-    }
+    } */
 
     .email-marketing-dubai .consultancy-hero-sec .col-lg-4 img {
         min-width: 368px;
     }
 
-    @media (max-width: 768px) {
-        .email-marketing-dubai .consultancy-hero-sec h1.text-white {
-            font-size: 40px;
-        }
 
+    @media (max-width: 768px) {
+        /* .email-marketing-dubai .consultancy-hero-sec h1.text-white {
+            font-size: 40px;
+        } */
         .email-marketing-dubai .consultancy-hero-sec .col-lg-4 img {
             min-width: 240px;
         }
@@ -154,11 +154,8 @@ include("includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12">
-                    <h1 class="text-white">Professional Email Marketing Dubai Solutions for Business Growth</h1>
-                    <p class="text-white">Logic Works provides expert email marketing Dubai services that connect
-                        businesses directly with their target audience. We design strategic email campaigns that
-                        generate leads, increase sales, and build strong customer relationships. Our team helps
-                        companies achieve measurable results through personalized messaging and smart automation.</p>
+                    <h1 class="text-white">Professional <span>Email Marketing</span> Agency in Dubai for Business Growth</h1>
+                    <p class="text-white">As a results-driven email marketing agency in Dubai, Logic Works helps brands connect, convert, and retain customers through data-backed email strategies. We design targeted email campaigns that increase open rates, improve click-through performance, and build long-term customer relationships. Our team blends personalization, automation, and analytics to deliver measurable growth for businesses across Dubai and beyond.</p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
                             <span class="link-effect">
@@ -207,8 +204,8 @@ include("includes/header.php");
                 <img src="assests/images/marketing/banda.webp" alt="Email-Banda" class="gta">
             </div>
             <div class="col-lg-8">
-                <h2 class="text-white same-all text-end">Our Development Expertise Has Powered Growth for 8000+
-                    Businesses.</h2>
+                <h2 class="text-white same-all text-end">A Leading Email Marketing Company in Dubai Driving Growth for 8000+ Businesses</h2>
+                  <!-- <p class="text-white">Businesses trust us because we deliver consistency, transparency, and results. Our campaigns are built to scale as your audience grows.</p> -->
                 <div class="digital-two-btn">
                      <a href="tel:+971529502258">Call Now</a>
                     <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
@@ -231,45 +228,40 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                 <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">How can an email marketing service in Dubai help my business
-                                grow?</button>
+                            <button class="accordions">How can an email marketing agency in Dubai help my business grow?</button>
                             <div class="panel">
-                                <p>Email marketing establishes a personal contact with your customers and leaders. It
-                                    has strategy planning, content creation, automation, and tracking. These measures
-                                    will assist in making more leads, more sales, and gaining loyalty.</p>
+                                <p>A professional email marketing agency in Dubai builds targeted campaigns that improve customer engagement, drive repeat sales, and increase ROI through personalization and automation.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">What makes email marketing effective in Dubai's business
-                                environment?</button>
+                            <button class="accordions">What makes an email marketing company in Dubai effective?</button>
                             <div class="panel">
-                                <p> Dubai’s diverse market needs culturally aware and professional messaging. Local
-                                    insights help create emails that connect with different audience groups. By
-                                    respecting business customs, your content builds trust and drives stronger
-                                    engagement.
+                                <p> Local market understanding, advanced segmentation, strong copywriting, and data-driven optimization make an email marketing in Dubai effective and scalable.
                                 </p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How do you measure email marketing campaign success?</button>
+                            <button class="accordions">Which email marketing services Dubai businesses benefit from most?</button>
                             <div class="panel">
-                                <p>We track opens, clicks, conversions, and revenue for every campaign. Reports show
-                                    subscriber growth, engagement trends, and ROI. These insights guide changes that
-                                    boost results and build stronger customer relationships.</p>
+                                <p>Automation workflows, audience segmentation, performance analytics, and lifecycle campaigns deliver the highest impact for Dubai-based businesses.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Which email marketing strategies work best in Dubai?</button>
+                            <button class="accordions">How do email marketing experts in Dubai measure campaign success?</button>
                             <div class="panel">
-                                <p> The right strategy depends on your business type and audience. B2B companies succeed
-                                    with educational content and automated workflows. Retail businesses often see great
-                                    results with promotions and retention emails tailored to customers’ needs.</p>
+                                <p> Email marketing experts Dubai track open rates, click-through rates, conversions, and customer behavior to evaluate and improve campaign performance.</p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">Why choose the best email marketing service provider in Dubai?</button>
+                            <div class="panel">
+                                <p> The best email marketing service provider Dubai focuses on strategy, compliance, optimization, and measurable outcomes not just sending emails.</p>
                             </div>
                         </div>
 
@@ -278,7 +270,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-
+<!-- 
     <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
         id="hireobserverID">
         <div class="bg-white-heading-custom">
@@ -383,7 +375,7 @@ include("includes/header.php");
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <?php
     include("includes/clint-review.php");
     ?>
