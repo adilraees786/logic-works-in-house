@@ -843,8 +843,8 @@ include("includes/footer.php");
     }
 
     .social-seond-cont .media-inner p {
-        font-size: 20px;
-        color: #8512A1;
+        font-size: 16px;
+        color: black;
         max-width: 740px;
         margin: auto auto 30px auto;
         font-weight: 500;

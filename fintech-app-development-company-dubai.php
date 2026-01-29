@@ -524,8 +524,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row dubai-tabs-row">
                 <div class="col-lg-6">
-                    <img src="assests/images/android-ecommerce-app-development-company/ser-img.webp"
-                        alt="tab-img-app-dev">
+                    <img src="./assests/images/fintech-app/tab-image.webp" alt="tab-img-app-fintech">
                 </div>
                 <div class="col-lg-6">
                     <div class="app-our-content">
@@ -641,7 +640,7 @@ include("includes/header.php");
                                     <li><span>03.</span>Fintech Analytics</li>
                                     <li><span>04.</span>Transaction Flow</li>
                                     <li><span>05.</span>Payment & Banking</li>
-                                    <li><span>06.</span>Continuous Fintech Protection</li>
+                                    <li><span>06.</span>Continuous Fintech</li>
                                 </ul>
                             </div>
                         </div>

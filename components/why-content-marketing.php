@@ -103,7 +103,7 @@
 
                     <!-- Right Side Tabs -->
                     <div class="col-md-6">
-                        <h2 class="text-white fw-bold mb-3"><span class="fs-20">Why Your</span> Business Needs a Strong
+                        <h2 class="text-white fw-bold mb-3">Why Your Business Needs a Strong
                             Content Strategy?</h2>
                         <p class="text-white mb-4">
                           A strong content strategy helps businesses educate audiences, build trust, and stay competitive. Our professional content writing services in Dubai ensure your brand communicates clearly, consistently, and convincingly across all digital touchpoints.

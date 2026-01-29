@@ -128,7 +128,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white-hero-1">Content Marketing Services Dubai That Build Authority, Trust & Growth</h1>
+                    <h1 class="text-white-hero-1"><span style="color: #8E3DF3;">Content Marketing</span> Services Dubai That Build Authority, Trust & Growth</h1>
                     <p class="text-white">Logic Works delivers content marketing services in Dubai designed to attract the right audience, build brand credibility, and drive measurable business growth. As a results-focused content marketing agency Dubai, we create strategic, data-driven content that turns attention into engagement and engagement into conversions.
                     </p>
 <p class="text-white">Our team combines creativity, SEO expertise, and performance tracking to deliver content that ranks, resonates, and converts across every digital channel.</p>
@@ -153,7 +153,7 @@ include("includes/header.php");
         ?>
     </section>
 
-    <section class="success-dubai-sec section-bg pt-b-80"
+    <section class="success-dubai-sec section-bg"
         style="background-image: url(assests/images/social-media-marketing-dubai/bg-image.webp);">
         <div class="container" style="max-width: 1920px; padding: 0px; display: block;">
             <div class="row align-items-center pb-50">
@@ -183,9 +183,9 @@ include("includes/header.php");
                                                 search demand and conversion chances. Articles include clear
                                                 calls-to-action that guide readers toward next steps.</p>
 
-                                            <div class="success-anchor">
+                                            <!-- <div class="success-anchor">
                                                 <a href="#">Read More <span>>></span></a>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -206,10 +206,10 @@ include("includes/header.php");
                                                 expectations. Videos distributed across YouTube, social media, and
                                                 website pages. Performance tracking measures views, engagement, and
                                                 conversion impact.</p>
-
+<!-- 
                                             <div class="success-anchor">
                                                 <a href="#">Read More <span>>></span></a>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -231,9 +231,9 @@ include("includes/header.php");
                                 
                                             </p>
 
-                                            <div class="success-anchor">
+                                            <!-- <div class="success-anchor">
                                                 <a href="#">Read More <span>>></span></a>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +241,7 @@ include("includes/header.php");
                             <div class="swiper-slide">
                                 <div class="row">
                                     <div class="col-lg-8">
-                                        <img src="assests/images/content-marketing/service-img-2.webp"
+                                        <img src="assests/images/content-marketing/seo-image.webp"
                                             alt="content-003" />
                                     </div>
                                     <div class="col-lg-4">
@@ -252,9 +252,9 @@ include("includes/header.php");
                                 
                                             </p>
 
-                                            <div class="success-anchor">
+                                            <!-- <div class="success-anchor">
                                                 <a href="#">Read More <span>>></span></a>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -303,11 +303,7 @@ include("includes/header.php");
                 </div>
                 <div class="col-lg-8">
                     <h2 class="text-white same-all text-start">Get More Leads with Content Marketing Services Now</h2>
-                    <ul class="about-ads-list pl-90">
-                        <li>Increase organic traffic</li>
-                        <li>Improve lead quality</li>
-                        <li>Higher conversion rates</li>
-                    </ul>
+                  
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
@@ -495,7 +491,7 @@ include("includes/header.php");
                             How long does it take to see results?
                                 </button>
                                 <div class="panel">
-                                    <p>YContent marketing is a long-term strategy, but most clients see improvements in traffic and engagement within the first few months.
+                                    <p>Content marketing is a long-term strategy, but most clients see improvements in traffic and engagement within the first few months.
                                     </p>
                                 </div>
                             </div>
