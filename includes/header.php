@@ -774,29 +774,60 @@
                 });
             });
 
-            subServiceTriggers.forEach(trigger => {
-                trigger.addEventListener('mouseenter', function () {
-                    const targetId = this.getAttribute('data-target');
-                    const serviceName = this.innerText.trim();
+            // Column 2 Hover Logic: Handle sub-sub levels (Fixed for Social Media)
+            const allSubLinks = document.querySelectorAll('.sub-list li a');
+            allSubLinks.forEach(link => {
+                link.addEventListener('mouseenter', function () {
+                    if (this.classList.contains('sub-service-trigger')) {
+                        const targetId = this.getAttribute('data-target');
+                        const serviceName = this.innerText.trim();
 
-                    // Show sub-level 3
-                    subSubLists.forEach(list => list.style.display = 'none');
-                    if (subSubCol) subSubCol.style.display = 'block';
+                        // Show sub-level 3
+                        subSubLists.forEach(list => list.style.display = 'none');
+                        if (subSubCol) subSubCol.style.display = 'block';
 
-                    const targetList = document.getElementById(targetId);
-                    if (targetList) targetList.style.display = 'block';
-                    if (subSubTitle) subSubTitle.innerText = serviceName;
+                        const targetList = document.getElementById(targetId);
+                        if (targetList) targetList.style.display = 'block';
+                        if (subSubTitle) subSubTitle.innerText = serviceName;
 
-                    subServiceTriggers.forEach(t => t.classList.remove('active-service'));
-                    this.classList.add('active-service');
+                        subServiceTriggers.forEach(t => t.classList.remove('active-service'));
+                        this.classList.add('active-service');
+                    } else {
+                        // Hide sub-level 3 if hovering over a sibling that has no sub-sub services
+                        if (subSubCol) subSubCol.style.display = 'none';
+                        subSubLists.forEach(list => list.style.display = 'none');
+                        subServiceTriggers.forEach(t => t.classList.remove('active-service'));
+                    }
                 });
             });
 
-            // Reset menu when it closes (optional, but keeps UI clean)
-            const serviceMenuParent = document.querySelector('.menu-item-has-children');
-            if (serviceMenuParent) {
-                serviceMenuParent.addEventListener('mouseleave', function () {
-                    // if (subCol) subCol.style.display = 'none'; // Uncomment if you want it to reset on leave
+            // Reset dynamic columns when hovering over static columns (Industries, Locations)
+            const staticCols = document.querySelectorAll('.mega-menu-col');
+            if (staticCols.length >= 5) {
+                const industriesCol = staticCols[3];
+                const locationsCol = staticCols[4];
+
+                [industriesCol, locationsCol].forEach(col => {
+                    if (col) {
+                        col.addEventListener('mouseenter', function () {
+                            if (subCol) subCol.style.display = 'none';
+                            if (subSubCol) subSubCol.style.display = 'none';
+                            subLists.forEach(l => l.style.display = 'none');
+                            subSubLists.forEach(l => l.style.display = 'none');
+                            serviceTriggers.forEach(t => t.classList.remove('active-service'));
+                            subServiceTriggers.forEach(t => t.classList.remove('active-service'));
+                        });
+                    }
+                });
+            }
+
+            // Reset menu when leaving the entire mega menu
+            const megaMenuArea = document.querySelector('.mega-menu-wrapper');
+            if (megaMenuArea) {
+                megaMenuArea.addEventListener('mouseleave', function () {
+                    // Optional: You can choose to reset everything here if desired
+                    // if (subCol) subCol.style.display = 'none';
+                    // if (subSubCol) subSubCol.style.display = 'none';
                 });
             }
 
