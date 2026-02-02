@@ -2,7 +2,7 @@
 $meta_title = "Email Marketing Agency in Dubai | Logic Works – Drive Real Growth";
 $meta_description = "Logic Works is a leading email marketing agency in Dubai delivering high-performance campaigns that boost engagement, conversions, and long-term customer growth.";
 $keyword = 'Email Marketing Dubai';
-$canonical = "https://logicworks.ae/email-Marketing-dubai";
+$canonical = "https://logicworks.ae/email-marketing-dubai";
 $custom_schema = '
 <script type="application/ld+json">
 {

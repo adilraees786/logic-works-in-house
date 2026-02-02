@@ -287,17 +287,21 @@
                                                     <h3 class="mega-menu-title">Services</h3>
                                                     <ul class="mega-menu-list">
                                                         <li><a href="<?php echo $base_url; ?>digital-marketing-agency" class="service-trigger"
-                                                                data-target="digital-marketing-sub">Digital Marketing <i
-                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                                data-target="digital-marketing-sub">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/digital-marketing-consultancy.png" alt="Digital Marketing">
+                                                                Digital Marketing <i class="fas fa-chevron-right"></i></a></li>
                                                         <li><a href="<?php echo $base_url; ?>app-development-agency" class="service-trigger"
-                                                                data-target="app-dev-sub">App Development <i
-                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                                data-target="app-dev-sub">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/6.png" alt="App Development">
+                                                                App Development <i class="fas fa-chevron-right"></i></a></li>
                                                         <li><a href="<?php echo $base_url; ?>web-development-agency" class="service-trigger"
-                                                                data-target="web-dev-sub">Web Development <i
-                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                                data-target="web-dev-sub">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Web Development">
+                                                                Web Development <i class="fas fa-chevron-right"></i></a></li>
                                                         <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai" class="service-trigger"
-                                                                data-target="design-sub">Design <i
-                                                                    class="fas fa-chevron-right"></i></a></li>
+                                                                data-target="design-sub">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/logo-designs.png" alt="Design">
+                                                                Design <i class="fas fa-chevron-right"></i></a></li>
 
                                                     </ul>
                                                 </div>
@@ -308,33 +312,60 @@
                                                     <!-- Digital Marketing Sub Services -->
                                                     <ul class="mega-menu-list sub-list" id="digital-marketing-sub">
                                                         <li><a href="<?php echo $base_url; ?>social-media-marketing-agency" class="sub-service-trigger"
-                                                                data-target="smm-sub-sub">Social Media Marketing <i
-                                                                    class="fas fa-chevron-right"></i></a></li>
-                                                        <li><a href="<?php echo $base_url; ?>seo-company">Search Engine Optimization</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>ppc-marketing-company">Pay-Per-Click</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>content-marketing">Content Marketing</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>email-marketing-dubai">Email Marketing</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>online-reputataion-management">Online Reputation Management</a></li>
+                                                                data-target="smm-sub-sub">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/social-media-marketing.png" alt="SMM">
+                                                                Social Media Marketing <i class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="<?php echo $base_url; ?>seo-company">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/seo.png" alt="SEO">
+                                                                Search Engine Optimization</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>ppc-marketing-company">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/5.png" alt="PPC">
+                                                                Pay-Per-Click</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>content-marketing">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/4.png" alt="Content Marketing">
+                                                                Content Marketing</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>email-marketing-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/social.png" alt="Email Marketing">
+                                                                Email Marketing</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>online-reputataion-management">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/digital.png" alt="ORM">
+                                                                Online Reputation Management</a></li>
                                                     </ul>
 
                                                     <!-- App Development Sub Services -->
                                                     <ul class="mega-menu-list sub-list" id="app-dev-sub">
-                                                        <li><a href="<?php echo $base_url; ?>ai-development">AI Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>ai-development">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/ai.png" alt="AI">
+                                                                AI Development</a></li>
                                                     </ul>
 
                                                     <!-- Web Development Sub Services -->
                                                     <ul class="mega-menu-list sub-list" id="web-dev-sub">
-                                                        <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">Wordpress Development</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">Shopify Development</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">Custom Website Development</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">Domain & Hosting</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">Website Maintenance & Security</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Wordpress">
+                                                                Wordpress Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Shopify">
+                                                                Shopify Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Custom Website">
+                                                                Custom Website Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Domain">
+                                                                Domain & Hosting</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Security">
+                                                                Website Maintenance & Security</a></li>
                                                     </ul>
 
                                                     <!-- Design Sub Services -->
                                                     <ul class="mega-menu-list sub-list" id="design-sub">
-                                                        <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI UX Design</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">Graphic Design</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/logo.png" alt="UI UX">
+                                                                UI UX Design</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>graphic-design-company-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/logo-designs.png" alt="Graphic Design">
+                                                                Graphic Design</a></li>
                                                     </ul>
                                                 </div>
 
@@ -343,11 +374,21 @@
                                                     <h3 class="mega-menu-title" id="triple-sub-service-title">Details</h3>
                                                     <!-- SMM Sub Services -->
                                                     <ul class="mega-menu-list sub-sub-list" id="smm-sub-sub">
-                                                        <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">Facebook</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">LinkedIn</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">Twitter</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">Instagram</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">TikTok Shop</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="Facebook">
+                                                                Facebook</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="LinkedIn">
+                                                                LinkedIn</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="Twitter">
+                                                                Twitter</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="Instagram">
+                                                                Instagram</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">
+                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="TikTok">
+                                                                TikTok Shop</a></li>
                                                     </ul>
                                                 </div>
 
@@ -610,13 +651,27 @@
             text-decoration: none;
             font-size: 15px;
             transition: all 0.3s ease;
-            display: block;
+            display: flex;
+            align-items: center;
             line-height: 1.4;
+            padding: 5px 0;
+        }
+
+        .mega-menu-list li a img {
+            width: 28px;
+            height: 28px;
+            margin-right: 12px;
+            object-fit: contain;
         }
 
         .mega-menu-list li a:hover {
             color: #B454C7;
             padding-left: 8px;
+        }
+
+        .mega-menu-list li a i {
+            margin-left: auto;
+            font-size: 12px;
         }
 
         .service-trigger, .sub-service-trigger {
@@ -692,6 +747,19 @@
                 display: none;
                 /* Hide on mobile hover, use accordion instead */
             }
+        }
+
+        /* Mobile Menu Icon Styling */
+        .mobile-menu .accordion-content li a {
+            display: flex;
+            align-items: center;
+        }
+        
+        .mobile-menu .accordion-content li a img {
+            width: 22px;
+            height: 22px;
+            margin-right: 10px;
+            object-fit: contain;
         }
 
         /* Desktop responsiveness adjustments */
