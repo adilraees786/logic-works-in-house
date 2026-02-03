@@ -1,6 +1,7 @@
 <?php
-$meta_title = "2D Animation Services - Logic Works";
-$meta_description = "Get professional 2D animation services Dubai businesses rely on. Logic Works creates engaging animated content backed by skilled artists and proven workflows.";
+$meta_title = "2D Animation Agency Dubai | Custom 2D Animation Services – Logic Works";
+$meta_description = "Looking for a reliable 2D animation Agency Dubai? Logic Works delivers custom 2D animated video production, explainer videos, and marketing animations built to boost engagement and brand impact.
+";
 $keyword = '2D Animation';
 $canonical = "https://logicworks.ae/2d-animation";
 
@@ -154,6 +155,86 @@ include("includes/header.php");
       font-size: 20px;
       margin-bottom: 20
     }
+      .twod-animation-wcu-arrows .left-arrow,
+  .twod-animation-wcu-arrows .right-arrow {
+    top: 36%;
+  }
+  }
+.twod-animation-page  .our-process-sec {
+  padding-bottom: 100px;
+}
+  /* Process Section Tabs Styling */
+  .process-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .process-list li {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    padding: 15px 25px;
+    border-left: 4px solid transparent;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .process-list li:hover {
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 35px;
+  }
+
+  .process-list li.active {
+    background: linear-gradient(90deg, rgba(145, 66, 239, 0.2) 0%, rgba(145, 66, 239, 0) 100%);
+    border-left: 4px solid #9142EF;
+    color: #9142EF;
+    padding-left: 35px;
+  }
+
+  .process-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: #9142EF;
+    opacity: 0.1;
+    transition: width 0.3s ease;
+    z-index: -1;
+  }
+
+  .process-list li.active::before {
+    width: 100%;
+  }
+
+  #processContentArea {
+    /* background: rgba(255, 255, 255, 0.02); */
+    padding: 40px;
+    border-radius: 20px;
+    /* border: 1px solid rgba(255, 255, 255, 0.05); */
+    min-height: 300px;
+  }
+  
+  @media (max-width: 991px) {
+    .process-list li {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+  }
+  @media (max-width: 600px) {
+   .twod-animation-page .our-process-sec{
+    padding-bottom: 50px;
+    
+   }
+     #processContentArea{
+      padding: 0px;
+     }
   }
 </style>
 <main class="twod-animation-page bg-black">
@@ -161,9 +242,11 @@ include("includes/header.php");
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-12 text-center">
-          <h1 class="text-white">Get Custom Visual Storytelling with the Expert 2D Animation Services</h1>
-          <p class="text-white">We create compelling animated content through professional 2D animation services that
-            businesses can trust.</p>
+          <h1 class="text-white">2D Animation Agency Dubai - Get Custom Visual Storytelling
+</h1>
+          <p class="text-white">Logic Works is a leading 2D animation Agency in Dubai. Our team delivers custom 2D animated video production, explainer videos, and marketing animations built to boost engagement and brand impact. Businesses trust in powerful visual storytelling. We create engaging, conversion-focused animations that help brands explain ideas, promote products, and connect emotionally with their audience. From startups to enterprises, our animations are designed to drive clarity, engagement, and measurable results.</p>
+          <p class="text-white">Our team delivers high-quality 2D animated video services in Dubai that blend creativity, strategy, and modern animation techniques. Whether you need marketing videos, explainer animations, or branded content, we turn your message into visuals that truly perform.</p>
+
         </div>
         <div class="col-lg-2">
           <h4 class="text-white fs-14">
@@ -177,7 +260,7 @@ include("includes/header.php");
             <a href="#" id="openPopup">Get A Quote</a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <!-- <div class="col-lg-2">
           <div class="banner-right-sm text-center">
             <h4 class="fs-23" style="color: #673F97">60%</h4>
             <h5 class="fs-12" style="color: #FEFEFE">User Retention Rate</h5>
@@ -186,7 +269,7 @@ include("includes/header.php");
             <h4 class="fs-23" style="color: #673F97">90K</h4>
             <h5 class="fs-12" style="color: #FEFEFE">Yealy Completed Project</h5>
           </div>
-        </div>
+        </div> -->
 
         <!-- <div class="col-lg-4">
           <img src="assests/images/logo-design-company/banner-image.png">
@@ -225,29 +308,29 @@ include("includes/header.php");
           <div class="marquee">
             <div class="marquee__row">
               <div class="marquee__item">
-                <p class="marquee__text">LOGO DESIGN COMPANY&nbsp;—&nbsp;LOGO DESIGN COMPANY</p>
+                <p class="marquee__text">2D Animation Services &nbsp;—&nbsp;2D Animation Services </p>
               </div>
               <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
               <div class="marquee__item">
-                <p class="marquee__text">LOGO DESIGN COMPANY</p>
+                <p class="marquee__text">2D Animation Services &nbsp;—&nbsp;2D Animation Services </p>
               </div>
               <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
               <div class="marquee__item">
-                <p class="marquee__text">LOGO DESIGN COMPANY</p>
+                <p class="marquee__text">2D Animation Services &nbsp;—&nbsp;2D Animation Services </p>
               </div>
               <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
             </div>
             <div aria-hidden="true" class="marquee__row">
               <div class="marquee__item">
-                <p class="marquee__text">LOGO DESIGN COMPANY&nbsp;—&nbsp;LOGO DESIGN COMPANY</p>
+                <p class="marquee__text">2D Animation Services &nbsp;—&nbsp;2D Animation Services </p>
               </div>
               <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
               <div class="marquee__item">
-                <p class="marquee__text">LOGO DESIGN COMPANY</p>
+                <p class="marquee__text">2D Animation Services &nbsp;—&nbsp;2D Animation Services </p>
               </div>
               <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
               <div class="marquee__item">
-                <p class="marquee__text">LOGO DESIGN COMPANY</p>
+                <p class="marquee__text">2D Animation Services &nbsp;—&nbsp;2D Animation Services </p>
               </div>
               <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
             </div>
@@ -261,12 +344,12 @@ include("includes/header.php");
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 class="why-choice-2d text-center fs-65 fw-900 text-white">
-              Why Choose Us for 2D Animation Services?
+            <h2 class="text-white text-center same-all">
+           Why Choose Our 2D Animation Company in Dubai?
+
             </h2>
-            <p class="why-choice-2d-para text-white fs-25 text-center mb-50">
-              Choose us for creative excellence, local expertise, and animations that connect with your audience
-              the way you intended.
+            <p class="exter-para mb-50">
+           Choose Logic Works for creative excellence, local expertise, and animations that connect with your audience the way you intend. As a trusted 2D animation company in Dubai, we focus on results, not just visuals.
             </p>
           </div>
           <div class="row twod-animation-wcu-slider">
@@ -315,14 +398,14 @@ include("includes/header.php");
               </div>
             </div>
           </div>
-          <div class="twod-animation-wcu-arrows ">
+          <!-- <div class="twod-animation-wcu-arrows">
             <div class="left-arrow">
               <i class="fa fa-angle-left" aria-hidden="true"></i>
             </div>
             <div class="right-arrow">
               <i class="fa fa-angle-right" aria-hidden="true"></i>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -423,44 +506,50 @@ include("includes/header.php");
       </div>
     </div>
   </section>
-  <section class="our-process-sec pb-100 section-bg">
+  <section class="our-process-sec section-bg">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
-          <h2 class="why-choice-2d text-white fs-85 fw-900">Our Process</h2>
-          <p class="text-white fs-23 mb-30">From Idea to Animation - A Seamless Process</p>
+          <h2 class="text-white text-start same-all">Our Process</h2>
+          <p class="text-white fs-20">Our structured 2D animation process ensures a seamless journey from idea to delivery, combining creative planning, expert execution, and consistent results across every production stage.</p>
           <ul class="process-list">
-            <li>Concept & Storyboarding</li>
-            <li>Concept & Storyboarding</li>
-            <li>Concept & Storyboarding</li>
-            <li>Concept & Storyboarding</li>
-            <li>Concept & Storyboarding</li>
+            <li class="active" data-title="Creative Planning & Visual Blueprint
+" data-desc="We begin by understanding your business goals, target audience, and core message. As a trusted 2D animation agency Dubai, we translate this information into a strong creative concept and detailed storyboard. This step defines the narrative structure, animation flow, and visual direction, ensuring every scene supports your objectives and delivers your message clearly and effectively.">Creative Planning & Visual Blueprint
+</li>
+            <li data-title="Brand-Focused Visual Design
+" data-desc="Our creative team designs custom characters, environments, icons, and visual elements that align with your brand identity. Colors, typography, and illustration styles are carefully selected to maintain consistency and recognition. This stage builds a solid visual foundation for your 2D animated video production Dubai, ensuring strong storytelling, brand alignment, and a polished, professional look.">Brand-Focused Visual Design
+</li>
+            <li data-title="Dynamic Animation Execution
+" data-desc="Using modern animation tools and industry-proven techniques, we bring illustrations to life with smooth transitions, dynamic motion, and precise timing. Our animators focus on pacing, clarity, and visual hierarchy to keep viewers engaged. Every movement is purposeful, helping simplify complex ideas while delivering visually compelling 2D animation services Dubai.
+">Dynamic Animation Execution
+</li>
+            <li data-title="Quality Review & Final Delivery
+" data-desc="We work closely with you during the review phase, incorporating feedback and refining details to ensure the animation meets your expectations. Once approved, we deliver the final video in high-quality formats optimized for websites, social media, presentations, and digital campaigns, ensuring maximum performance across all platforms.
+">Quality Review & Final Delivery
+</li>
           </ul>
         </div>
         <div class="col-lg-7">
           <div class="d-flex align-items-end gap-10 pb-20">
-            <img src="./assests/images/2d-animation/our-process-right.webp" alt="our-process-right-imAGE">
-            <div class="seo-btn d-flex flex-column justify-content-center">
+            <img id="processImage" src="./assests/images/2d-animation/our-process-right.webp" alt="our-process-right-imAGE">
+            <!-- <div class="seo-btn d-flex flex-column justify-content-center">
               <a href="#">Live Chat</a>
               <a href="#" id="openPopup">Get A Quote</a>
-            </div>
+            </div> -->
           </div>
-          <h4 class="text-white fs-25 fw-900 mb-10">Concept & Storyboarding</h4>
-          <p class="text-white fs-18 mb-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-          <p class="text-white fs-18">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-          </p>
+          <div id="processContentArea">
+            <h4 id="processTitle" class="text-white fs-25 fw-900 mb-10">Creative Planning & Visual Blueprint
+</h4>
+            <p id="processDesc" class="text-white fs-18">
+           We begin by understanding your business goals, target audience, and core message. As a trusted 2D animation agency Dubai, we translate this information into a strong creative concept and detailed storyboard. This step defines the narrative structure, animation flow, and visual direction, ensuring every scene supports your objectives and delivers your message clearly and effectively.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+
   <!-- slider -->
   <section class="section-bg port-web" id="port-web">
     <div class="container" style="display: block;">
@@ -528,43 +617,51 @@ include("includes/header.php");
   include("includes/clint-review.php");
   ?>
   <div class="position-relative section-bg-wrapper overflow-hidden z-1">
-    <img src="assests/images/ai-chatbot/sec-left.webp" alt="2d-ques-left" class="sec-left-img position-absolute z-0">
-    <img src="assests/images/ai-chatbot/sec-right.webp" alt="2d-ques-right" class="sec-right-img position-absolute z-0">
-    <section class="faq-home section-bg pt-b-80">
+    <!-- <img src="assests/images/ai-chatbot/sec-left.webp" alt="2d-ques-left" class="sec-left-img position-absolute z-0">
+    <img src="assests/images/ai-chatbot/sec-right.webp" alt="2d-ques-right" class="sec-right-img position-absolute z-0"> -->
+    <section class="faq-home section-bg">
       <div class="container">
         <div class="row justify-content-space-between">
           <div class="col">
-            <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+              <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
             <div class="faqss">
               <div class="quwstion">
-                <button class="accordions">How long does 2D animation production take?</button>
+                <button class="accordions">How does your 2D animation process ensure quality results?
+</button>
                 <div class="panel">
-                  <p>Most projects take 6 to 12 weeks. Duration depends on length, complexity, and revision frequency.
-                    We provide detailed timelines during initial planning.</p>
+                  <p>Our process combines creative planning, professional design, and structured production. Each project goes through concept development, visual design, animation, and quality review to ensure the final video is clear, engaging, and aligned with your business goals.
+</p>
                 </div>
               </div>
 
               <div class="quwstion">
-                <button class="accordions">Can you update my existing animated content?</button>
+                <button class="accordions">Can you adapt 2D animations for different marketing platforms?
+</button>
                 <div class="panel">
-                  <p>Yes. We modify scenes, add new segments, or completely redesign animations when needed. Our team
-                    works with various animation styles and formats</p>
+                  <p>Yes. We optimize every animation for its intended platform, whether it’s a website, social media, digital ads, presentations, or internal use. This ensures your 2D animation services Dubai deliver consistent performance across all channels.
+</p>
                 </div>
               </div>
 
               <div class="quwstion">
-                <button class="accordions">How much do 2D animation services cost?</button>
+                <button class="accordions">Do you help with scripting and messaging for animated videos?
+</button>
                 <div class="panel">
-                  <p>Pricing varies. Simple animations cost less, while detailed productions require more resources. We
-                    provide transparent quotes after understanding your specific requirements.</p>
+                  <p>Absolutely. Our team assists with scriptwriting and message structuring to ensure your content is concise, persuasive, and easy to understand. Strong storytelling is a key part of successful 2D animated video production Dubai.
+</p>
                 </div>
               </div>
 
               <div class="quwstion">
-                <button class="accordions">Will my animation work across all platforms?</button>
+                <button class="accordions">Can you match an existing brand style or visual identity?</button>
                 <div class="panel">
-                  <p>Yes. We optimize for different screen sizes and formats to ensure your animation plays smoothly
-                    everywhere, from social media to presentation screens.</p>
+                  <p>Yes. We carefully follow your brand guidelines, including colors, fonts, tone, and visual style. If guidelines don’t exist, we help define a look that aligns with your brand personality and target audience.</p>
+                </div>
+              </div>
+              <div class="quwstion">
+                <button class="accordions">Is 2D animation suitable for long-term marketing use?</button>
+                <div class="panel">
+                  <p>2D animations are highly versatile and evergreen. They can be reused across multiple campaigns, platforms, and audiences, making them a cost-effective solution for long-term branding, education, and marketing efforts.</p>
                 </div>
               </div>
 
@@ -573,184 +670,7 @@ include("includes/header.php");
         </div>
       </div>
     </section>
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section" id="hireobserverID">
-      <div class="bg-white-heading-custom">
-        <div class="container">
-          <div class="row white-bg-heading-custom-row">
-            <div class="col-md-12">
-              <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-              <ul class="faq_section">
-                <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How We Match Creative Vision
-                    with Animation Excellence?</a></li>
-                <li><a href="#section-2" class="hire-tabs">What Makes Our Animation Approach Different from Others?</a>
-                </li>
-                <li><a href="#section-3" class="hire-tabs">How We Stay Current in Animation Innovation?</a></li>
-                <li><a href="#section-4" class="hire-tabs">What Does True Creative Partnership Look Like in
-                    Animation?</a></li>
-                <li><a href="#section-5" class="hire-tabs">What Determines the Right Animation Style for Your
-                    Project?</a></li>
-                <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
-                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-              </ul>
-            </nav>
-          </div>
-          <div class="col-lg-6 col-md-6 col-stick">
-            <main>
-              <section class="sec-info" id="section-1">
-                <h2>How We Match Creative Vision with Animation Excellence?</h2>
-                <ul>
-                  <p>Every brand tells its story differently. We spend time understanding yours first. Some companies
-                    need quick turnarounds, others want extensive creative exploration. Instead of applying generic
-                    templates, we adapt our approach. Our 2D animation company uses direct communication and visual
-                    references. Nothing gets misunderstood. The animation feels authentic because it reflects your
-                    actual message. 2D animation services only succeed when they solve communication challenges. Each
-                    movement, transition, and visual element connects directly to your objectives. Quality animations
-                    work because the creative process stays focused on real business goals.</p>
-                </ul>
-              </section>
-              <section class="sec-info" id="section-2">
-                <h2>What Makes Our Animation Approach Different from Others?</h2>
-                <ul>
-                  <p>Most studios jump straight into production. We don't. Our team creates detailed plans based on
-                    proven storytelling principles. This keeps projects stable. Unlike competitors, we review each phase
-                    together. We address concerns before they become expensive problems. This approach saves both time
-                    and budget. Our 2D animation services include testing from concept stage. Animation quality stays
-                    consistent throughout. Client feedback shapes every iteration. You see progress regularly instead of
-                    waiting until final delivery. Professional 2D animation production should feel organized and
-                    transparent, never chaotic. This methodology guides every project we handle.</p>
-                </ul>
-              </section>
-              <section class="sec-info" id="section-3">
-                <h2>How We Stay Current in Animation Innovation?</h2>
-                <ul>
-                  <p>Innovation means solving communication problems through smart visual techniques. Our team
-                    researches what audiences actually respond to. This knowledge influences every creative decision. We
-                    also monitor animation trends and adapt quickly. Your content never looks outdated or generic. We
-                    use industry-standard software and test across real viewing conditions. Nothing gets assumed. Our 2D
-                    animation company studies what performs well in your market, so you lead rather than follow
-                    competitors. Effective 2D animation services mean staying informed, applying audience insights, and
-                    making strategic creative choices that deliver measurable results over time. This approach keeps us
-                    competitive.</p>
-                </ul>
-              </section>
-              <section class="sec-info" id="section-4">
-                <h2>What Does True Creative Partnership Look Like in Animation?</h2>
-                <ul>
-                  <p>Before any artwork begins, we discuss your project thoroughly. We understand what your business
-                    wants to achieve and how you expect audiences to respond. This conversation helps us identify what
-                    matters most creatively. Every meeting, sketch, and example becomes part of our creative direction.
-                    We never start 2D animation production without complete clarity. You review concepts, not just final
-                    products. Each creative decision traces back to your original goals. A professional 2D animation
-                    company should help transform your ideas into compelling visuals, not just add motion randomly. Our
-                    process stays clear, honest, and aligned with your vision.</p>
-                </ul>
-              </section>
-              <section class="sec-info" id="section-5">
-                <h2>What Determines the Right Animation Style for Your Project?</h2>
-                <ul>
-                  <p>Animation styles work when they match your communication needs. We don't guess what your project
-                    requires. We analyze your audience, study their preferences, and use data. You might need character
-                    animation, motion graphics, or kinetic typography. We focus on what serves your goals. Our 2D
-                    animation company doesn't overcomplicate projects with unnecessary elements. Instead, we deliver
-                    exactly what your audience needs to understand and act. Every visual choice and timing decision
-                    feels intentional. One project might need emotional storytelling. Another might require technical
-                    explanation. We select approaches that work for your specific viewers. This creates animations that
-                    people don't just watch once but remember and share.</p>
-                </ul>
-              </section>
-              <!--   <section class="sec-info" id="section-6">
-                        <h2>Reasons to Outsource Your Mobile App Development in Dubai</h2>
-                        <ul>
-                            <p>
-                                Outsourcing mobile app development in Dubai offers several strategic advantages, making it a popular choice among businesses aiming for efficient and cost-effective app development solutions.<br />
-                                Here are compelling reasons to consider outsourcing your app development project to Dubai:
-                            </p>
-                            <h3>Access to Expertise and Talent Pool</h3>
-                            <p>
-                                Dubai boasts a diverse ecosystem with a diverse pool of skilled developers, designers, and tech professionals.<br />
-                                Outsourcing to Dubai allows businesses to take advantage of this large talent pool and benefit from expertise in mobile app development, UI/UX design, emerging technologies, and industry-specific knowledge.
-                            </p>
-                            <h3>Cost Efficiency and Budget Control</h3>
-                            <p>
-                                Another compelling reason for off-shore app development is that you'll find cost-effective mobile app development services than hiring an in-house team within the region.<br />
-                                It eliminates the need for upfront investments in infrastructure, recruitment, training, and employee benefits.<br />
-                                Moreover, outsourcing allows businesses to choose flexible engagement models and scale resources as per project requirements, optimizing budget allocation and cost control.
-                            </p>
-                            <h3>Focus on Core Business Activities</h3>
-                            <p>
-                                If you externalize your project in Dubai, it will give you an advantage to focus on core competencies and strategic initiatives to oversee app development processes. This enables faster time-to-market for
-                                apps, enhances business agility, and improves overall operational efficiency.
-                            </p>
-                            <h3>Faster Time-to-Market</h3>
-                            <p>
-                                Experienced mobile app development companies in Dubai follow streamlined development processes and best practices, accelerating the app development lifecycle.<br />
-                                They make use of proven methodologies, agile frameworks, and robust project management practices to ensure timely delivery of high-quality apps that meet client expectations.
-                            </p>
-                            <h3>Access to State-of-the-Art Infrastructure and Technology</h3>
-                            <p>
-                                Outsourcing to Dubai provides access to state-of-the-art infrastructure, advanced development tools, and cutting-edge technologies essential for developing innovative and scalable mobile apps.<br />
-                                This includes cloud computing platforms, AI-powered development tools, and secure data management systems, ensuring enhanced app performance, scalability, and security.
-                            </p>
-                            <h3>Enhanced Flexibility and Scalability</h3>
-                            <p>
-                                Hire app developer in Dubai offers flexibility to choose resources based on project requirements and business dynamics.<br />
-                                It enables businesses to respond swiftly to market changes, customer feedback, and emerging trends, ensuring adaptability and competitiveness in a dynamic digital landscape.
-                            </p>
-                            <h3>Regulatory Compliance and Data Security</h3>
-                            <p>
-                                Mobile app development companies in Dubai adhere to stringent regulatory standards and data protection laws, ensuring compliance with international security protocols.<br />
-                                They implement robust security measures, encryption techniques, and data privacy practices to safeguard sensitive information and mitigate cybersecurity risks.
-                            </p>
-                            <p>
-                                In conclusion, outsourcing app development to Dubai facilitates businesses with access to specialized expertise, cost efficiencies, faster time-to-market, scalability, and regulatory compliance. Thereby,
-                                making it a strategic choice for accelerating digital transformation and achieving business objectives.
-                            </p>
-                        </ul>
-                    </section> -->
-              <!--     <section class="sec-info" id="section-7">
-                        <h2>5 Reasons to Trust Trango Tech for Mobile App Development in UAE</h2>
-                        <ul>
-                            <p>Trango Tech stands out as a premier choice for mobile app development in the UAE, offering a compelling array of reasons to trust their expertise and commitment to excellence:</p>
-                            <h3>1. Extensive Industry Experience</h3>
-                            <p>
-                                Having worked on mobile app development for more than 20 years, Trango Tech has successfully entered the UAE market.<br />
-                                They have a wealth of experience and ideas about the creation and implementation of successful apps in different fields including health, retail and other businesses to serving their clients' needs.
-                            </p>
-                            <h3>2. Accomplished Results</h3>
-                            <p>
-                                The following entity has established significant experience in delivering effective mobile app solutions with proven successful mobile app projects.<br />
-                                Their portfolio consists of apps that have indeed received users' attention and achieved high levels of engagement, smooth integration into everyday life, as well as tangible practical results for the
-                                businesses involved.
-                            </p>
-                            <h3>3. Team of Skilled Developers and Designers</h3>
-                            <p>
-                                Through a team of developers, designers, and strategists, Trango Tech guarantees the apps are developed with excellence in mind.<br />
-                                Their personnel makes efficient use of newer technologies and makes use of proven methodologies to develop superb solutions, which meet the requirements of their clients.
-                            </p>
-                            <h3>4. Client-Centric Approach</h3>
-                            <p>
-                                Trango Tech's ultimate priority is always the satisfaction of its client. They value openness about the goals, processes, and mutual cooperation during the development of the application.<br />
-                                Starting from the conceptualization of the ideas to the construction of the solutions, and even after the implementation of the solutions, they are dedicated to the provision of solutions that meet the needs
-                                of their clients.
-                            </p>
-                            <h3>5. Quality and innovations</h3>
-                            <p>Quality assurance and constant innovation are two of Trango Tech's primary focuses. They follow strict testing procedures to produce high quality, bug-free, secure, and scalable applications.</p>
-                            <p>Through continued market analysis on the trends and developments within the sector, they provide innovative solutions that ensure that businesses and organizations remain relevant in the market.</p>
-                        </ul>
-                    </section> -->
-            </main>
-          </div>
-        </div>
-      </div>
-    </section>
+   
   </div>
   <!-- <section class="section-bg journey-sec our-case-section" id="project-in-minds">
     <div class="container" style="display:block;">
@@ -839,3 +759,30 @@ include("includes/header.php");
 <?php
 include("includes/footer.php");
 ?>
+
+  <script>
+    document.querySelectorAll('.process-list li').forEach(item => {
+      item.addEventListener('click', function() {
+        // Remove active class from all items
+        document.querySelectorAll('.process-list li').forEach(li => li.classList.remove('active'));
+        
+        // Add active class to clicked item
+        this.classList.add('active');
+        
+        // Get data from attributes
+        const title = this.getAttribute('data-title');
+        const desc = this.getAttribute('data-desc');
+        
+        // Update content with a small fade effect
+        const contentArea = document.getElementById('processContentArea');
+        contentArea.style.opacity = '0';
+        contentArea.style.transition = 'opacity 0.3s ease';
+        
+        setTimeout(() => {
+          document.getElementById('processTitle').innerText = title;
+          document.getElementById('processDesc').innerText = desc;
+          contentArea.style.opacity = '1';
+        }, 300);
+      });
+    });
+  </script>
