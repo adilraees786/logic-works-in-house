@@ -1,4 +1,4 @@
-<?php $base_url = 'https://logicworks.ae/'; ?>
+<?php $base_url = 'http://localhost/logic-works-house/'; ?>
 
 
 <body>
@@ -342,19 +342,19 @@
                                                     <!-- Web Development Sub Services -->
                                                     <ul class="mega-menu-list sub-list" id="web-dev-sub">
                                                         <li><a href="<?php echo $base_url; ?>wordpress-development-company-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Wordpress">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/wordress-development.png" alt="Wordpress">
                                                                 Wordpress Development</a></li>
                                                         <li><a href="<?php echo $base_url; ?>shopify-development-services-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Shopify">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/shopify-development.png" alt="Shopify">
                                                                 Shopify Development</a></li>
                                                         <li><a href="<?php echo $base_url; ?>custom-website-development-company-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Custom Website">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/custom-website-development.png" alt="Custom Website">
                                                                 Custom Website Development</a></li>
                                                         <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Domain">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/domain-hosting.png" alt="Domain">
                                                                 Domain & Hosting</a></li>
                                                         <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/web-design-icon.png" alt="Security">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/website-maintenance-security.png" alt="Security">
                                                                 Website Maintenance & Security</a></li>
                                                     </ul>
 
@@ -375,19 +375,19 @@
                                                     <!-- SMM Sub Services -->
                                                     <ul class="mega-menu-list sub-sub-list" id="smm-sub-sub">
                                                         <li><a href="<?php echo $base_url; ?>facebook-advertising-agency-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="Facebook">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/fb.png" alt="Facebook">
                                                                 Facebook</a></li>
                                                         <li><a href="<?php echo $base_url; ?>linkedin-advertising-agency-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="LinkedIn">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/linkedin.png" alt="LinkedIn">
                                                                 LinkedIn</a></li>
                                                         <li><a href="<?php echo $base_url; ?>twitter-advertising-agency-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="Twitter">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/twitter.png" alt="Twitter">
                                                                 Twitter</a></li>
                                                         <li><a href="<?php echo $base_url; ?>instagram-advertising-agency-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="Instagram">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/instagram.png" alt="Instagram">
                                                                 Instagram</a></li>
                                                         <li><a href="<?php echo $base_url; ?>tiktok-shop-marketing-agency-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/menu/8.png" alt="TikTok">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/tiktok-shop.png" alt="TikTok">
                                                                 TikTok Shop</a></li>
                                                     </ul>
                                                 </div>

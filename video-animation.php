@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Professional Animation Services for Businesses | Logic Works";
-$meta_description = "Logic Works provides top-quality animation services for businesses. Our custom videos simplify complex ideas and engage audiences. Get started today!";
+$meta_title = "Video Animation Services in Dubai | Animation Company – Logic Works";
+$meta_description = "Get professional video animation services in Dubai for your business. We create engaging 2D, 3D, and motion graphics that boost brand visibility and conversions.";
 $keyword = 'Video Animation';
 $canonical = "https://logicworks.ae/video-animation";
 $custom_schema = '
@@ -64,40 +64,39 @@ include("includes/header.php");
         font-size: 18px;
     }
 
-    .video-animation-page .seo-hero-sec h1.text-white {
-        font-size: 76px;
-        font-weight: 700;
-    }
+   
 
-    .video-animation-page .seo-hero-sec p.text-white {
-        font-size: 22px;
-        font-weight: 500;
-        font-family: "Roboto";
-        line-height: 40px;
-    }
-
+  
+.video-all-headings-video {
+    font-size: 40px;
+    font-weight: 600;
+}
+.video-animation-page .video-all-para-video {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+}
     .video-animation-page .conecpt-data {
         background-color: #59249A;
         padding: 20px 20px 160px 20px;
     }
 
+    @media (max-width: 600px) {
+        .video-all-headings-video {
+            font-size: 30px;
+        }
+    }
     /* .video-animation-page .conecpt-data p {
         font-size: 16px;
         line-height: 22px;
         margin: 0;
     }  */
-    @media (max-width: 768px) {
-        .video-animation-page .seo-hero-sec h1.text-white {
-            font-size: 42px;
-            font-weight: 700;
-        }
 
-        .video-animation-page .seo-hero-sec p.text-white {
-            font-size: 18px;
-            line-height: 28px;
-        }
-
+/* @media (max-width: 1440px) and (min-width: 1152px) {
+    .video-animation-page .video-all-headings {
+        font-size: 40px;
     }
+} */
 </style>
 <main class="video-animation-page">
     <!-- Hero section -->
@@ -105,11 +104,9 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-8">
-                    <h1 class="text-white">Professional Animation Services for <span>Businesses and Brands</span></h1>
-                    <p class="text-white">Get high-quality video animation services for your businesses and brands.
-                        paOur
-                        team creates custom videos that effectively communicate your message. Engaging visuals helps
-                        strengthen your brand presence and boost customer connections. </p>
+                    <h1 class="text-white">Professional <span>Video Animation</span> Services in Dubai for Businesses and Brands</h1>
+                    <p class="text-white">Looking for video animation services in Dubai that truly connect with your audience? We create visually compelling animated videos that simplify your message, boost engagement, and strengthen brand recall. From startups to established enterprises, our animation video services in Dubai help brands communicate clearly and convert faster.</p>
+                    <p class="text-white">Our team delivers creative, story-driven animations designed to support marketing, training, product launches, and digital campaigns without complexity or delays.</p>
                     <div class="seo-btn">
                         <a href="#">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
@@ -133,7 +130,7 @@ include("includes/header.php");
         <div class="container" style="display: block;">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <h2 class="text-white text-center video-all-headings">Why Choose Video Animation?</h2>
+                    <h2 class="text-white text-center video-all-headings">Why Businesses Choose Animated Video Services in Dubai</h2>
                 </div>
             </div>
 
@@ -143,10 +140,7 @@ include("includes/header.php");
                 </div>
 
                 <div class="col-lg-6 col-md-6">
-                    <p class="text-white video-all-para">Video animation grabs attention and simplifies complex ideas.
-                        It engages viewers in a way text alone cannot. Animated videos can increase conversion rates and
-                        improve customer retention. They're easy to share across platforms. Visual storytelling leaves a
-                        lasting impression. Make animation the focus of your marketing for better results.</p>
+                    <p class="text-white video-all-para">Video animation captures attention faster than static content and explains ideas in seconds. With animated video services in Dubai, businesses can educate, promote, and persuade more effectively across digital platforms. Animation improves viewer retention, increases conversion rates, and works seamlessly across websites, social media, ads, and presentations. By choosing professional video and animation services Dubai, brands turn complex concepts into clear, engaging stories that drive measurable results.</p>
                 </div>
             </div>
 
@@ -216,7 +210,7 @@ include("includes/header.php");
 
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <h2 class="text-white text-center video-all-headings">The Animation Process</h2>
+                    <h2 class="text-white text-center video-all-headings">Our Animation Process as a Professional Animation Agency in Dubai</h2>
                     <p class="text-white text-center video-all-para">How We Create Stunning Videos</p>
 
                     <div class="video-process-slider">
@@ -520,7 +514,8 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="video-animtaion-page" class="gta">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Our Expertise Has Fueled the Growth of 8,000+ Businesses
+                    <h2 class="text-white same-all text-end">Trusted Video Animation Company Dubai Businesses Rely On
+
                     </h2>
                     <div class="digital-two-btn">
                          <a href="tel:+971529502258">Call Now</a>
@@ -584,12 +579,10 @@ include("includes/header.php");
 
             <div class="row video-works-row">
                 <div class="col-lg-6">
-                    <h3 class="video-all-headings text-white">Make Your Message Unforgettable</h3>
-                    <h5 class="text-white">We Turn Your Ideas into Animated Reality</h5>
-                    <p class="text-white video-all-para">We create animations that make your message stand out. Our team
-                        brings ideas to life through compelling visuals. Each animation is designed to capture attention
-                        and enhance communication. Clients rely on us to deliver high-quality, impactful results. Let's
-                        turn your concepts into memorable animated stories.</p>
+                    <h3 class="video-all-headings-video text-white">Make Your Message Unforgettable with Video and Animation Services Dubai</h3>
+                    <h5 class="text-white">We Turn Your Ideas into Animated Reality
+</h5>
+                    <p class="text-white video-all-para-video">We create engaging visuals that help brands stand out in competitive markets. Our video animation services in Dubai transform ideas into powerful animated stories that capture attention and communicate clearly. Every project focuses on storytelling, design, and purpose. From concept to final delivery, our animation service in Dubai ensures each animation strengthens your message and improves audience engagement. Businesses trust our animated video services in Dubai to deliver high-quality visuals that inform, inspire, and convert. Let’s turn your concepts into memorable animated experiences that drive real results.</p>
 
                     <div class="seo-btn">
                         <a href="#">Live Chat</a>
@@ -688,46 +681,49 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                    <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">What types of animation do you offer?</button>
+                            <button class="accordions">What animated video services in Dubai do you offer?
+</button>
                             <div class="panel">
-                                <p>We offer 2D, 3D, motion graphics, and explainer videos. Our team customizes each
-                                    animation style based on your requirements.</p>
+                                <p>We offer 2D animation, 3D animation, motion graphics, explainer videos, product demos, and corporate animated videos.
+</p>
                             </div>
                         </div>
 
-                        <!-- <div class="quwstion">
-                            <button class="accordions">What are the benefits of using custom software in
-                                business?</button>
-                            <div class="panel">
-                                <p>We offer 2D, 3D, motion graphics, and explainer videos. Our team customizes each
-                                    animation style based on your requirements.</p>
-                            </div>
-                        </div> -->
+                      
 
                         <div class="quwstion">
-                            <button class="accordions">How long does it take to complete a video animation?</button>
+                            <button class="accordions">How much do animation video services in Dubai cost?
+</button>
                             <div class="panel">
-                                <p>The timeline varies depending on complexity and project scope. Typically, it takes 2
-                                    to 6 weeks for completion.</p>
+                                <p>Costs depend on video length, style, and complexity. We provide flexible and affordable video animation services Dubai businesses can customize.
+</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">What is the cost of animation services?</button>
+                            <button class="accordions">Why should I hire a video animation company in Dubai?
+</button>
                             <div class="panel">
-                                <p>Costs depend on the project's complexity and length. We provide custom quotes after
-                                    discussing your requirements.</p>
+                                <p>A local video animation company Dubai understands regional audiences while maintaining international quality standards.
+</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Can you work with existing content?</button>
+                            <button class="accordions">Can animation help improve digital marketing results?</button>
                             <div class="panel">
-                                <p>Yes, we can enhance or animate existing content to fit your goals. Just provide the
-                                    materials you'd like to use.</p>
+                                <p>Yes. Animated videos improve engagement, increase retention, and often boost conversions across ads and websites.</p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">What makes a professional animation company in Dubai different?
+</button>
+                            <div class="panel">
+                                <p>A professional animation company Dubai combines strategy, creativity, and production expertise to deliver consistent, high-quality results.
+</p>
                             </div>
                         </div>
 
@@ -737,7 +733,7 @@ include("includes/header.php");
         </div>
     </section>
 
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
+    <!-- <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
         id="hireobserverID">
         <div class="bg-white-heading-custom">
             <div class="container">
@@ -827,7 +823,7 @@ include("includes/header.php");
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 </main>
