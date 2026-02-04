@@ -144,8 +144,7 @@ include('includes/header.php');
                     <!-- <h2 class="text-white fs-22 mb-20 fw-700">Custom 3D Animations Built for Brands and Ideas.</h2> -->
                     <p class="text-white fs-16">As a trusted 3D animation company in Dubai, Logic Works delivers visually compelling animations that help brands communicate complex ideas with clarity and impact. We create custom 3D animation solutions designed to support marketing, product launches, architectural presentations, and corporate storytelling. Our 3D animation services in Dubai combine creativity, technical precision, and strategic thinking. From concept development to final rendering, our team focuses on visuals that engage audiences, strengthen brand identity, and drive measurable results. Every animation is optimized for performance across websites, presentations, and digital platforms.
                     </p>
-<p class="text-white fs-16">We work with startups, agencies, and enterprises across multiple industries, delivering animations that are simple to understand, visually rich, and aligned with business goals.
-</p>
+                  <p class="text-white fs-16">We work with startups, agencies, and enterprises across multiple industries, delivering animations that are simple to understand, visually rich, and aligned with business goals.</p>
 
                     <div class="live-chat-btns">
                         <a href="#" class="live-chats">Live Chat</a>
@@ -383,7 +382,7 @@ include('includes/header.php');
                     </div>
                 </div>
             </section>
-            <section class="section-bg logo-compnay-portolio">
+            <!-- <section class="section-bg logo-compnay-portolio">
                 <div class="container" style="display: block;">
                     <div class="row align-items-center">
                         <div class="col-lg-12">
@@ -455,12 +454,9 @@ include('includes/header.php');
                         </div>
                     </div>
                 </div>
-            </section>
-
-
-     
+            </section> -->
    
-            <section class="faq-home section-bg pt-b-80">
+            <section class="faq-home section-bg">
                 <div class="container">
                     <div class="row justify-content-space-between">
                         <div class="col">

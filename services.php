@@ -272,9 +272,7 @@ include("includes/header.php");
                             <div class="swiper-slide">
                                 <img src="assests/images/service/app-development-icon.png">
                                 <h4 class="text-white">App Development</h4>
-                                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                    1500s,</p>
+                                <p class="text-white">We craft fast, secure, and scalable mobile apps tailored to your business, built to engage users, boost growth, and perform flawlessly across platforms.</p>
                             </div>
                             <div class="swiper-slide">
                                 <img src="assests/images/service/content-writer.png">

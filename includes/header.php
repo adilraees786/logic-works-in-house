@@ -302,6 +302,10 @@
                                                                 data-target="design-sub">
                                                                 <img src="<?php echo $base_url; ?>assests/images/menu/logo-designs.png" alt="Design">
                                                                 Design <i class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="<?php echo $base_url; ?>video-animation" class="service-trigger"
+                                                                data-target="video-sub">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/animation.png" alt="Animation">
+                                                            Video Animation <i class="fas fa-chevron-right"></i></a></li>
 
                                                     </ul>
                                                 </div>
@@ -351,7 +355,7 @@
                                                                 <img src="<?php echo $base_url; ?>assests/images/sercices-icons/custom-website-development.png" alt="Custom Website">
                                                                 Custom Website Development</a></li>
                                                         <li><a href="<?php echo $base_url; ?>domain-hosting-services-dubai">
-                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/domain-hosting.png" alt="Domain">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/domain-Hosting.png" alt="Domain">
                                                                 Domain & Hosting</a></li>
                                                         <li><a href="<?php echo $base_url; ?>website-maintenance-services-dubai">
                                                                 <img src="<?php echo $base_url; ?>assests/images/sercices-icons/website-maintenance-security.png" alt="Security">
@@ -367,6 +371,17 @@
                                                                 <img src="<?php echo $base_url; ?>assests/images/menu/logo-designs.png" alt="Graphic Design">
                                                                 Graphic Design</a></li>
                                                     </ul>
+
+                                                    <!-- Video Animation Sub Services -->
+                                                    <ul class="mega-menu-list sub-list" id="video-sub">
+                                                        <li><a href="<?php echo $base_url; ?>2d-animation">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/animation.png" alt="2D Animation">
+                                                                2D Animation</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>3d-animation">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/animation.png" alt="3D Animation">
+                                                                3D Animation</a></li>
+                                                      
+                                                    </ul>   
                                                 </div>
 
                                                 <!-- Column 3: Level 3 Services (Dynamic) - Hidden by Default -->
