@@ -224,6 +224,16 @@
                                 </li>
                             </ul>
                         </div>
+                        <!-- Mobile Accordion: Video Animation -->
+                        <div class="service-section">
+                            <h3 class="accordion-toggle">Video Animation <i class="fas fa-chevron-down"></i></h3>
+                            <ul class="accordion-content">
+                                <li><a href="<?php echo $base_url; ?>2d-animation">2D Animation</a></li>
+                                <li><a href="<?php echo $base_url; ?>3d-animation">3D Animation</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
                     </li>
 
                     <li><a href="<?php echo $base_url; ?>portfolio">Portfolio</a></li>
@@ -375,10 +385,10 @@
                                                     <!-- Video Animation Sub Services -->
                                                     <ul class="mega-menu-list sub-list" id="video-sub">
                                                         <li><a href="<?php echo $base_url; ?>2d-animation">
-                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/animation.png" alt="2D Animation">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/2d-animation.png" alt="2D Animation">
                                                                 2D Animation</a></li>
                                                         <li><a href="<?php echo $base_url; ?>3d-animation">
-                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/animation.png" alt="3D Animation">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/3d-animation.png" alt="3D Animation">
                                                                 3D Animation</a></li>
                                                       
                                                     </ul>   
