@@ -42,7 +42,6 @@ RewriteRule ^digital-marketing-agency-dubai/?$ /digital-marketing-agency [R=301,
 RewriteRule ^app-development-technology/?$ /app-development-services-dubai [R=301,L]
 RewriteRule ^android-app-development-services/?$ /app-development-services-dubai [R=301,L]
 RewriteRule ^android-app-development-dubai/?$ /app-development-services-dubai [R=301,L]
-RewriteRule ^android-app-development/?$ /app-development-services-dubai [R=301,L]
 RewriteRule ^email-marketing-agency/?$ /email-marketing-dubai [R=301,L]
 RewriteRule ^social-media-marketing-dubai/?$ /social-media-marketing-agency [R=301,L]
 
@@ -53,7 +52,9 @@ RewriteRule ^social-media-marketing-dubai/?$ /social-media-marketing-agency [R=3
 # -----------------------------------------
 
 # Redirect .php URLs to their clean version
+
 # BUT exclude POST requests to prevent data loss
+
 RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} \s/+([^\s]+?)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L]
@@ -76,6 +77,7 @@ RewriteRule ^(.*)/$ /$1 [R=301,L]
 # -----------------------------------------
 
 # Redirect non-existing pages to home (REAL redirect)
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . / [R=301,L]

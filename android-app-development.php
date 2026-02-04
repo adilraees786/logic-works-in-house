@@ -60,7 +60,7 @@ include("includes/header.php");
 ?>
 
 
-<main class="android-app-development">
+<main class="android-app-development bg-black">
     <section class="consultancy-hero-sec section-bg pb-50">
         <img src="assests/images/ai-chatbot/sec-left.webp" alt="android-hero-left"
             class="sec-left-img position-absolute z-0">
@@ -110,7 +110,7 @@ include("includes/header.php");
         <div class="container" style="display: block;">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-white-1 text-center">Why Choose Logic Works?</h2>
+                    <h2 class="text-white same-all text-center">Why Choose Logic Works?</h2>
                     <p class="choice-para">We Build Apps that Work, Scale, and Last
                     </p>
                 </div>
@@ -141,7 +141,7 @@ include("includes/header.php");
     </section>
     <section class="discuss-sec  section-bg">
         <div class="container">
-            <div class="row dubai-row-mind align-items-center mt-0"
+            <div class="row dubai-row-mind align-items-center mb-30"
                 style="background-color: #59249A; border-radius: 30px;">
                 <div class="col-lg-4">
                     <img src="assests/images/android-app-development/laptop.webp" class="dubai-agent">
@@ -156,11 +156,7 @@ include("includes/header.php");
     </section>
 
     <!-- Our  Android App Development Services -->
-    <section class="our-android-development-services">
-        <?php
-        include("includes/sider.php");
-        ?>
-    </section>
+  
 
     <section class="development-section position-relative">
 
@@ -302,157 +298,53 @@ include("includes/header.php");
 
     </div>
     <!-- Questions -->
-    <div class="position-relative section-bg-wrapper overflow-hidden z-1">
-        <img src="assests/images/ai-chatbot/sec-left.webp" alt="android-app-dev-right"
-            class="sec-left-img position-absolute z-0">
-        <img src="assests/images/ai-chatbot/sec-right.webp" alt="android-app-dev-right"
-            class="sec-right-img position-absolute z-0">
-        <section class="faq-home section-bg pt-b-80">
-            <div class="container">
-                <div class="row justify-content-space-between">
-                    <div class="col">
-                        <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
-                        <div class="faqss">
-
-                            <div class="quwstion">
-                                <button class="accordions">How long does it take to build an Android app?</button>
-                                <div class="panel">
-                                    <p>It usually takes 4 to 12 weeks. The timeline depends on the app’s features and
-                                        complexity.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">Will my app work on all Android devices?</button>
-                                <div class="panel">
-                                    <p>Yes, we design apps to run on all screen sizes. They’re tested across different
-                                        Android versions before launch.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions"> Can you update or fix my existing Android app?</button>
-                                <div class="panel">
-                                    <p> Yes, we improve existing apps and fix major bugs. We also update old code to
-                                        match modern standards.</p>
-                                </div>
-                            </div>
-
-                            <div class="quwstion">
-                                <button class="accordions">What do you need from me to get started?</button>
-                                <div class="panel">
-                                    <p>Just share your idea or a basic outline. We’ll handle the planning, design, and
-                                        development from there.</p>
-                                </div>
-                            </div>
-                            <div class="quwstion">
-                                <button class="accordions">Do you provide support after the app goes live?</button>
-                                <div class="panel">
-                                    <p>Yes, we offer ongoing support and maintenance. That includes updates, fixes, and
-                                        feature improvements.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-    </div>
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-        id="hireobserverID">
-        <div class="bg-white-heading-custom">
-            <div class="container">
-                <div class="row white-bg-heading-custom-row">
-                    <div class="col-md-12">
-                        <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+     <section class="faq-home section-bg mt-50">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                        <ul class="faq_section">
-                            <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How We Build
-                                    Android Apps That Don’t Fail?</a></li>
-                            <li><a href="#section-2" class="hire-tabs">What Android App Problems Do We Solve?</a></li>
-                            <li><a href="#section-3" class="hire-tabs">What Makes a Reliable Android App Today?</a></li>
-                            <li><a href="#section-4" class="hire-tabs">Common Android App Problems We Solve?</a></li>
-                            <li><a href="#section-5" class="hire-tabs">What Sets Our Android Development Apart?</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-6 col-md-6 col-stick">
-                    <main>
-                        <section class="sec-info" id="section-1">
-                            <h2>How We Build Android Apps That Don’t Fail?</h2>
-                            <ul>
-                                <p>Every Android app we build follows a clean process shaped around real use. We avoid
-                                    adding things that don’t help the user. Our focus is stability, speed, and clarity
-                                    across all screen sizes. Each project starts with clear goals and ends with a tool
-                                    people enjoy using. Our work in android app development focuses on fixing common
-                                    issues before they reach the user. We run tests early and build strong foundations.
-                                    Each step is designed to prevent failure. That is what makes us a top android app
-                                    development company trusted for results that last.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-2">
-                            <h2>What Android App Problems Do We Solve?</h2>
-                            <ul>
-                                <p>Apps crash, freeze, or frustrate users for simple reasons. A missing line of code or
-                                    poor structure can break everything. We solve these problems by reviewing how each
-                                    screen works under pressure. Our team removes features that cause lag or drain
-                                    memory. We give users a smooth experience with fast loading and clear layout. The
-                                    goal of our Android app development services is long-term performance, not
-                                    short-term patches. You should not need constant support or weekly updates. We
-                                    design apps that work as expected from the first tap to the last.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-3">
-                            <h2>What Makes a Reliable Android App Today?</h2>
-                            <ul>
-                                <p>Reliable apps respond fast, look clean, and work well across all versions of Android.
-                                    They keep users engaged without confusion or delay. Poor layout and weak structure
-                                    lead to early failure. A stable app handles load without errors or crashes. Our team
-                                    starts each build with these things in mind. Every part is tested on real devices.
-                                    You do not need fancy effects or distractions. You need an app that feels right in
-                                    the user’s hand. Android app development needs structure and care at each step. That
-                                    is how we build things that last.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-4">
-                            <h2>Common Android App Problems We Solve?</h2>
-                            <ul>
-                                <p>Most apps fail because of rushed development or ignored issues. Slowness, bugs, and
-                                    confusing design lead users to delete apps within minutes. We fix that. Our Android
-                                    app development company reviews the entire structure to find what’s slowing things
-                                    down. We clean up the code, fix memory leaks, and adjust the layout for better use.
-                                    We work on real devices, not just emulators. Users should not wait for updates to
-                                    fix broken features. The result is an app that feels solid, loads fast, and works as
-                                    expected. That is what your users deserve.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-5">
-                            <h2>What Sets Our Android Development Apart</h2>
-                            <ul>
-                                <p>We stay focused on real performance. That means fast load times, smart layout, and
-                                    clean interactions. Many apps crash under pressure because of small mistakes in code
-                                    or design. We avoid that by testing from the start. You are not buying a product—you
-                                    are getting something built for real use. Our android app development approach
-                                    removes guesswork. Our team shares updates clearly, builds without delays, and
-                                    supports you after launch. You do not need to worry about missed deadlines or broken
-                                    features. You get an app built with care and tested for the real world.</p>
-                            </ul>
-                        </section>
-                    </main>
+            <div class="row justify-content-space-between">
+                <div class="col">
+                    <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
+                    <div class="faqss">
+                        <div class="quwstion">
+                            <button class="accordions">What’s the Cost for 1,000 Facebook Ads in Dubai?</button>
+                            <div class="panel">
+                                <p>Pricing varies by targeting, ad format, and campaign goals. Our Facebook Advertising Agency Dubai ensures every dirham is used efficiently for maximum impact.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">Can a $500 Facebook Ad Budget Deliver Results?</button>
+                            <div class="panel">
+                                <p>Yes. Smart targeting, testing, and bid optimization can generate meaningful results even with modest budgets.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">How to Start Advertising with a Facebook Marketing Company Dubai</button>
+                            <div class="panel">
+                                <p>Define your audience and goals first. A Facebook marketing company Dubai guides setup, creatives, and optimization for smooth campaign execution.</p>
+                            </div>
+                        </div>
+
+                        <div class="quwstion">
+                            <button class="accordions">What Is the Typical Facebook Ads Budget in Dubai?</button>
+                            <div class="panel">
+                                <p>Budgets depend on industry, competition, and objectives. Our focus is on efficiency and measurable outcomes rather than impressions alone.</p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">Is $10 Per Day Enough for Facebook Advertising?</button>
+                            <div class="panel">
+                                <p>For niche campaigns, yes. Targeting and optimization allow small budgets to reach high-intent users effectively, ensuring sustainable growth.</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Client Rewiew -->
     <!-- <section class="section-bg journey-sec our-case-section" id="project-in-minds">
         <div class="container" style="display:block;">

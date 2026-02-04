@@ -186,11 +186,11 @@ include('includes/header.php');
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">3D Animation </p>
+                                <p class="marquee__text">3D Animation</p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
                             <div class="marquee__item">
-                                <p class="marquee__text">3D Animation </p>
+                                <p class="marquee__text">3D Animation</p>
                             </div>
                             <span class="marquee__separator"><img src="assests/images/service/Star.webp"></span>
                         </div>
@@ -463,31 +463,23 @@ include('includes/header.php');
                            <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                             <div class="faqss">
                                 <div class="quwstion">
-                                    <button class="accordions">How does 3D animation help businesses stand out in the Dubai market?
-</button>
+                                    <button class="accordions">How does 3D animation help businesses stand out in the Dubai market?</button>
                                     <div class="panel">
-                                        <p>Dubai is a highly competitive, visually driven market. 3D animation allows businesses to present ideas, products, and developments with clarity and realism, helping brands capture attention, explain value faster, and build credibility with investors and customers.
-</p>
+                                        <p>Dubai is a highly competitive, visually driven market. 3D animation allows businesses to present ideas, products, and developments with clarity and realism, helping brands capture attention, explain value faster, and build credibility with investors and customers.</p>
                                     </div>
                                 </div>
 
                                 <div class="quwstion">
-                                    <button class="accordions">Can 3D animation be used for marketing and sales campaigns?
-</button>
+                                    <button class="accordions">Can 3D animation be used for marketing and sales campaigns?</button>
                                     <div class="panel">
-                                        <p>Yes. 3D animation is widely used for digital ads, landing pages, presentations, and social media campaigns. As a 3D animation company in Dubai, we create visuals designed to improve engagement, increase conversion rates, and support sales efforts.
-
-                                        </p>
+                                        <p>Yes. 3D animation is widely used for digital ads, landing pages, presentations, and social media campaigns. As a 3D animation company in Dubai, we create visuals designed to improve engagement, increase conversion rates, and support sales efforts.</p>
                                     </div>
                                 </div>
 
                                 <div class="quwstion">
-                                    <button class="accordions">What information do you need before starting a 3D animation project?
-</button>
+                                    <button class="accordions">What information do you need before starting a 3D animation project?</button>
                                     <div class="panel">
-                                        <p> We typically require project goals, target audience details, reference material, branding guidelines, and a brief description of the message you want to communicate. This helps our 3D animation experts in Dubai create focused and effective animations.
-
-                                        </p>
+                                        <p> We typically require project goals, target audience details, reference material, branding guidelines, and a brief description of the message you want to communicate. This helps our 3D animation experts in Dubai create focused and effective animations.</p>
                                     </div>
                                 </div>
 
