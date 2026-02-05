@@ -1162,7 +1162,7 @@ include("includes/header.php");
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mb-10">
-                <h2 class="client-review-heading text-center">WHAT OUR CLIENTS HAVE TO SAY</h2>
+                <h2 class="text-white same-all text-center">WHAT OUR CLIENTS HAVE TO SAY</h2>
             </div>
 
             <div class="col-lg-3 d-flex justify-content-center mb-4">

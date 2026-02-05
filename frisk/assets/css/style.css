@@ -25093,7 +25093,7 @@ img.trustsec {
   .sub-contetn p,
   .sub-contetn a {
     text-align: center !important;
-    display: inline-block;
+    /* display: inline-block; */
   }
 
   .web-dev p.feature-card-text {

@@ -220,6 +220,14 @@ include("includes/header.php");
     /* border: 1px solid rgba(255, 255, 255, 0.05); */
     min-height: 300px;
   }
+    .choice-para {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.4;
+        font-family: 'Roboto';
+    }
   
   @media (max-width: 991px) {
     .process-list li {
@@ -244,8 +252,8 @@ include("includes/header.php");
         <div class="col-lg-12 text-center">
           <h1 class="text-white">2D Animation Agency Dubai - Get Custom Visual Storytelling
 </h1>
-          <p class="text-white">Logic Works is a leading 2D animation Agency in Dubai. Our team delivers custom 2D animated video production, explainer videos, and marketing animations built to boost engagement and brand impact. Businesses trust in powerful visual storytelling. We create engaging, conversion-focused animations that help brands explain ideas, promote products, and connect emotionally with their audience. From startups to enterprises, our animations are designed to drive clarity, engagement, and measurable results.</p>
-          <p class="text-white">Our team delivers high-quality 2D animated video services in Dubai that blend creativity, strategy, and modern animation techniques. Whether you need marketing videos, explainer animations, or branded content, we turn your message into visuals that truly perform.</p>
+          <p class="choice-para">Logic Works is a leading 2D animation Agency in Dubai. Our team delivers custom 2D animated video production, explainer videos, and marketing animations built to boost engagement and brand impact. Businesses trust in powerful visual storytelling. We create engaging, conversion-focused animations that help brands explain ideas, promote products, and connect emotionally with their audience. From startups to enterprises, our animations are designed to drive clarity, engagement, and measurable results.</p>
+          <p class="choice-para">Our team delivers high-quality 2D animated video services in Dubai that blend creativity, strategy, and modern animation techniques. Whether you need marketing videos, explainer animations, or branded content, we turn your message into visuals that truly perform.</p>
 
         </div>
         <div class="col-lg-2">
