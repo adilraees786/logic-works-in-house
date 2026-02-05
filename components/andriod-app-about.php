@@ -12,12 +12,12 @@
         justify-content: center;
     }
 
-    /* .about-text h2 {
+    .about-text h2 {
         color: white;
         font-size: 42px;
         font-weight: bold;
         margin-bottom: 20px;
-    } */
+    }
 
     .about-text p {
         font-size: 20px;
@@ -64,7 +64,7 @@
                         class="mockup-img">
                 </div>
                 <div class="col-md-6 about-text">
-                    <h2 class="text-white same-all text-center">Android App Development Services Dubai Businesses Trust</h2>
+                    <h2>Android App Development Services Dubai Businesses Trust</h2>
                     <p>
                         Our android app development services Dubai businesses rely on focus on performance, security, and user experience. We build custom Android solutions that meet technical requirements and business goals.
                     </p>

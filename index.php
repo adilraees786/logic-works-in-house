@@ -1062,13 +1062,13 @@ include("includes/header.php");
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
-                                    <img src="assests/images/landing-pages/App-10.webp" alt="mobile-app-008"
+                                    <img src="assests/images/landing-pages/app-10.webp" alt="mobile-app-008"
                                         class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
-                                    <img src="assests/images/landing-pages/App-11.webp" alt="mobile-app-009"
+                                    <img src="assests/images/landing-pages/app-11.webp" alt="mobile-app-009"
                                         class="img-fluid mt-3">
                                 </div>
                             </div>

@@ -535,17 +535,17 @@ include("includes/header.php");
         </div>
     </section>
 
-    <section class="discuss-sec  section-bg">
-        <div class="container">
-            <div class="row dubai-row-mind align-items-center" style="background-color: #59249A; border-radius: 30px;">
-                <div class="col-lg-4">
-                    <img src="assests/images/android-app-development/laptop.webp" alt="ios-app-cta" class="dubai-agent">
-                </div>
-                <div class="col-lg-8">
-                    <h2 class="text-white same-all">Let’s Build Your Next iOS App with Dubai’s Leading iOS App Development Company
-</h2>
-
-                    <a href="#" id="openPopup">Get In Touch</a>
+ 
+ <section class="cta-sec-wrapper">
+        <div class="row align-items-center transform-row cta-sec">
+            <div class="col-lg-4">
+                <img src="assests/images/android-app-development/laptop.webp" alt="ios-cta-img" class="gta">
+            </div>
+            <div class="col-lg-8">
+                <h2 class="text-white same-all text-end">Let’s Build Your Next iOS App with Dubai’s Leading iOS App Development Company</h2>
+                <div class="digital-two-btn">
+                     <a href="tel:+971529502258">Call Now</a>
+                    <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                 </div>
             </div>
         </div>
