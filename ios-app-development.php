@@ -194,7 +194,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-8">
-                    <h1 class="text-white">iOS App Development Services Dubai for iPhone and iPad Users
+                    <h1 class="text-white">iOS <span>App Development</span> Services Dubai for iPhone and iPad Users
                     </h1>
                 
                     <p class="text-white mb-2">Build apps iOS users truly enjoy with expert iOS app development services Dubai businesses trust. We create smooth, secure, and scalable iPhone and iPad applications that help brands grow faster. As a trusted dubai iOS app development agency, we turn ideas into powerful Apple apps that meet user needs and business goals.</p>

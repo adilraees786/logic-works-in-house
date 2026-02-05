@@ -97,7 +97,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Enterprise App Development Company Dubai
+                    <h1 class="text-white">Enterprise <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As an Enterprise App Development Company Dubai we assemble applications with
                         Enterprise App Development specialists to shield information and enable business interactions.

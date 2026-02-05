@@ -102,7 +102,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Real Estate App Development Company Dubai
+                    <h1 class="text-white">Real Estate <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As a Real Estate App Development Company Dubai, our Dubai real estate app
                         developers build property solutions to secure data and enhance seamless interactions.</p>

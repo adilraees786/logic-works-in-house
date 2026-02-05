@@ -107,7 +107,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Insurance App Development Company Dubai
+                    <h1 class="text-white">Insurance <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">We engineer reliable insurance platforms with Insurance App Development UAE
                         specialists to safeguard data and enable seamless, trustworthy policy interactions.

@@ -100,7 +100,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Food Delivery App Development Company Dubai
+                    <h1 class="text-white">Food Delivery <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As a Food Delivery App Development Company in Dubai, we assemble resilient
                         ordering systems with UAE specialists to secure data and enable consistent exchanges through

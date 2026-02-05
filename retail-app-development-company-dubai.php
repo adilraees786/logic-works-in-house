@@ -96,7 +96,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Retail App Development Company Dubai
+                    <h1 class="text-white">Retail <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As a Retail App Development Company in Dubai, we create reliable retail apps.
                         Our UAE mobile app experts ensure data protection and support trustworthy interactions.

@@ -112,10 +112,10 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Healthcare App Development Company Dubai
+                    <h1 class="text-white">Healthcare <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As a Healthcare App Development Company in Dubai, we create secure,
-                        patient-focused digital solutions. Our mHealth app developers in Dubai protect medical data and
+                        patient-focused digital solutions. Our Health app developers in Dubai protect medical data and
                         build trust between providers and users.</p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">

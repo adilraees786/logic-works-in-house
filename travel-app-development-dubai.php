@@ -94,7 +94,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Travel App Development Dubai
+                    <h1 class="text-white">Travel <span>App Development</span> Dubai
                     </h1>
                     <p class="text-logo">As a travel app development Dubai specialist, we design reliable travel
                         platforms with UAE mobile app experts to safeguard data and enable seamless booking and planning

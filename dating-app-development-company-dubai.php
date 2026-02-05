@@ -97,7 +97,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Dating App Development Company Dubai
+                    <h1 class="text-white">Dating <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As a Dating App Development Company Dubai, we engineer reliable dating
                         platforms with Dubai dating software developers to secure profiles and encourage genuine

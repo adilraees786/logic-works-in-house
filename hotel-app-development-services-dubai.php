@@ -100,7 +100,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Hotel App Development Services Dubai
+                    <h1 class="text-white">Hotel <span>App Development</span> Services Dubai
                     </h1>
                     <p class="text-logo">As a hotel app development services provider in Dubai, we craft dependable
                         hospitality applications with UAE mobile app specialists to safeguard guest data and enable

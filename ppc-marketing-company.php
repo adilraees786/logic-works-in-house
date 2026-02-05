@@ -172,7 +172,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">PPC Marketing Agency Dubai Driving High-ROI Paid Advertising Results
+                    <h1 class="text-white"><span>PPC Marketing</span> Agency Dubai Driving High-ROI Paid Advertising Results
                     </h1>
                     <p class="text-white">Logic Works is a performance-driven PPC agency in Dubai helping businesses generate qualified leads, increase conversions, and maximize ad spend ROI. As a trusted PPC marketing company in Dubai, we create data-driven paid advertising strategies that reduce wasted spend and deliver measurable business growth across Google Ads, Bing Ads, and social media platforms.
                     </p>

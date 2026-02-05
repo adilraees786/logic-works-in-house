@@ -96,7 +96,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Restaurant App Development Company Dubai
+                    <h1 class="text-white">Restaurant <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As a restaurant app development company Dubai, we design resilient dining apps
                         with UAE mobile app specialists to secure information and enable seamless guest interactions.

@@ -99,7 +99,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Automotive App Development Company Dubai
+                    <h1 class="text-white">Automotive <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As an Automotive App Development Agency, we engineer reliable automotive applications with UAE mobile app experts to safeguard vehicle data and enable seamless user interactions.
                     </p>

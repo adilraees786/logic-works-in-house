@@ -97,7 +97,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Law Firm Mobile App Development Dubai
+                    <h1 class="text-white">Law Firm Mobile <span>App Development</span> Dubai
                     </h1>
                     <p class="text-logo">As a Law Firm Mobile App Development Dubai provider, we engineer reliable legal
                         applications with UAE mobile app specialists to secure sensitive data and enable seamless

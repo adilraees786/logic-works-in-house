@@ -99,7 +99,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">ECommerce App Development Company Dubai
+                    <h1 class="text-white">ECommerce <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">As an eCommerce App Development Company based in Dubai, we engineer robust
                         online shopping platforms with UAE mobile commerce solutions experts to safeguard information

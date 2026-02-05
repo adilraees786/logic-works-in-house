@@ -97,7 +97,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Fintech App Development Company Dubai
+                    <h1 class="text-white">Fintech <span>App Development</span> Company Dubai
                     </h1>
                     <p class="text-logo">We are a leading Fintech App Development Company Dubai, creating secure
                         financial platforms with Dubai digital banking app developers to safeguard data and ensure
