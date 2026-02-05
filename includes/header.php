@@ -142,7 +142,9 @@
                         <div class="service-section">
                             <h3 class="accordion-toggle">App Development <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>ai-development">AI Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>android-app-development">Android App Development</a></li>
+                                <li><a href="<?php echo $base_url; ?>ios-app-development">iOS App Development</a></li>
+
                             </ul>
                         </div>
 
@@ -351,6 +353,12 @@
                                                         <li><a href="<?php echo $base_url; ?>ai-development">
                                                                 <img src="<?php echo $base_url; ?>assests/images/sercices-icons/ai.png" alt="AI">
                                                                 AI Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>android-app-development">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/android.png" alt="AI">
+                                                                Android App Development</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>ios-app-development">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/ios.png" alt="AI">
+                                                                iOS App Development</a></li>
                                                     </ul>
 
                                                     <!-- Web Development Sub Services -->

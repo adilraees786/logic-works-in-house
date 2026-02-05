@@ -73,7 +73,7 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
     'digital-niche-design.php',
     'networking-solutions.php',
     'business-networking-solutions.php',
-    'ios-app-development.php',
+    
     'web-development-technology.php',
     'ai-for-business-automation.php',
     'android-education-app-development-company.php',

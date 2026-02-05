@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Android App Development Services | Logic Works";
-$meta_description = "Logic Works offers Android App Development Services built for speed, stability, and user success across all devices and platforms your customers use daily.";
+$meta_title = "Android App Development in Dubai – Logic Works";
+$meta_description = "We are a top-notch company for Android app development in Dubai, creating feature-rich, user-friendly apps tailored to your business needs and audience engagement.";
 $keyword = 'Android App Development';
 $canonical = "https://logicworks.ae/android-app-development";
 $faq_data = '
@@ -61,7 +61,7 @@ include("includes/header.php");
 
 
 <main class="android-app-development bg-black">
-    <section class="consultancy-hero-sec section-bg pb-50">
+    <!-- <section class="consultancy-hero-sec section-bg pb-50">
         <img src="assests/images/ai-chatbot/sec-left.webp" alt="android-hero-left"
             class="sec-left-img position-absolute z-0">
         <img src="assests/images/ai-chatbot/sec-right.webp" alt="android-hero-right"
@@ -69,14 +69,10 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white">Android App Development Services for Fast, Bug-Free Apps</h1>
-                    <p class="dev-para">Get Reliable Android Apps Built for Real-World Use.
+                    <h1 class="text-white">Android App Development in Dubai for Scalable Mobile Solutions</h1>
+
                     </p>
-                    <p class="para">Android App Development Services at Logic Works focus on performance, clean coding,
-                        and real results. Slow apps, frequent crashes, and confusing layouts cause users to leave. Our
-                        team builds Android apps that load fast, run smooth, and stay stable across devices. Every app
-                        is built with business goals in mind. No fluff, no delays—just functional apps that people can
-                        actually use and keep using.
+                    <p class="text-white">Businesses looking for reliable android app development in Dubai need apps that perform without issues. Slow loading, frequent crashes, and confusing layouts drive users away. In the middle of every project, Logic Works focuses on clean coding, strong performance, and real business results. Our team builds Android apps that load fast, run smoothly, and remain stable across devices. Every app aligns with business goals, no fluff, no delays, just functional apps users trust and keep using.
                     </p>
                     <div class="seo-btn">
                         <a href="#">Live Chat</a>
@@ -99,18 +95,109 @@ include("includes/header.php");
             </div>
         </div>
 
+    </section> -->
+
+  <section class="consultancy-hero-sec section-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="text-white"><span>Android App</span> Development in Dubai for Scalable Mobile Solutions
+
+                    </h1>
+                    <p class="text-white">Businesses looking for reliable android app development in Dubai need apps that perform without issues. Slow loading, frequent crashes, and confusing layouts drive users away. In the middle of every project, Logic Works focuses on clean coding, strong performance, and real business results. Our team builds Android apps that load fast, run smoothly, and remain stable across devices. Every app aligns with business goals, no fluff, no delays, just functional apps users trust and keep using.
+
+                    </p>
+                    <div class="seo-btn specbtn">
+                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                            <span class="link-effect">
+                                <span class="effect-1">Live Chat</span>
+                                <span class="effect-1">Live Chat</span>
+                            </span>
+                        </a>
+                        <a class="btn bg-theme text-title" id="openPopup" href="#0">
+                            <span class="link-effect">
+                                <span class="effect-1">Get A Quote</span>
+                                <span class="effect-1">Get A Quote</span>
+                            </span>
+                        </a>
+                        <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec"> -->
+                    </div>
+                    <div class="py-20">
+                        <?php
+                        include("includes/image-link.php");
+                        ?>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                   <img src="assests/images/android-app-dubai/mobile.webp" alt="mobile-banner" class="mobile">
+                </div>
+            </div>
+        </div>
     </section>
-
-
-
-
+   <section class="section-marquee section-bg">
+        <div class="container" style="max-width: 100%; padding: 0px;">
+            <div class="row marwuee-row">
+                <div class="col" style="padding: 0px;">
+                    <div class="marquee">
+                        <div class="marquee__row">
+                            <div class="marquee__item">
+                                <p class="marquee__text">Android App Development
+                                    &nbsp;—&nbsp;Android App Development
+                                </p>
+                            </div>
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
+                                    alt="Star-1"></span>
+                            <div class="marquee__item">
+                                <p class="marquee__text">Android App Development
+                                </p>
+                            </div>
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
+                                    alt="Star-2"></span>
+                            <div class="marquee__item">
+                                <p class="marquee__text">Android App Development
+                                </p>
+                            </div>
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
+                                    alt="Star-3"></span>
+                        </div>
+                        <div aria-hidden="true" class="marquee__row">
+                            <div class="marquee__item">
+                                <p class="marquee__text">Android App Development
+                                    &nbsp;—&nbsp;Android App Development
+                                </p>
+                            </div>
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
+                                    alt="Star-4"></span>
+                            <div class="marquee__item">
+                                <p class="marquee__text">Android App Development
+                                </p>
+                            </div>
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
+                                    alt="Star-5"></span>
+                            <div class="marquee__item">
+                                <p class="marquee__text">Android App Development
+                                </p>
+                            </div>
+                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
+                                    alt="Star-6"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section>
+        <?php
+        include("components/andriod-app-about.php");
+        ?>
+    </section>
     <section class="section-bg brand-build pt-80" style="background-image: url(assests/images/serice-bg.webp)">
         <!-- style="background: url('assets/android-app-development/bg-choice.png') center center / cover no-repeat;"> -->
 
         <div class="container" style="display: block;">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-white same-all text-center">Why Choose Logic Works?</h2>
+                    <h2 class="text-white same-all text-center">Why Choose Our Android App Development Company in Dubai</h2>
                     <p class="choice-para">We Build Apps that Work, Scale, and Last
                     </p>
                 </div>
@@ -244,6 +331,18 @@ include("includes/header.php");
         </div>
 
     </section>
+<section class="mt-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-white same-all text-center">Why We’re Among the Best Android App Development Companies in Dubai</h2>
+                <p class="choice-para">Being among the best android app development companies in Dubai means delivering more than just code. It means understanding business goals, building scalable solutions, and ensuring consistent performance across Android devices. Our team focuses on quality development, clear communication, and reliable support to help businesses launch apps that perform, engage users, and grow over time.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Portfolio Section -->
     <section class="section-bg app-port-sec" style="background-image: url(assests/images/serice-bg.webp);">
@@ -296,7 +395,18 @@ include("includes/header.php");
         </div>
     </section>
 
+    <section class="mt-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-white same-all text-center">Expert Android App Developers for Dubai Businesses</h2>
+                <p class="choice-para">Building an Android app requires the right strategy, tools, and expertise. Working with an experienced android app developer Dubai ensures better performance, secure architecture, and smoother user experiences across Android devices.
+
+                </p>
+            </div>
+        </div>
     </div>
+</section>
     <!-- Questions -->
      <section class="faq-home section-bg mt-50">
         <div class="container">
@@ -305,37 +415,36 @@ include("includes/header.php");
                     <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">What’s the Cost for 1,000 Facebook Ads in Dubai?</button>
+                            <button class="accordions">Which industries benefit most from Android app development in Dubai?</button>
                             <div class="panel">
-                                <p>Pricing varies by targeting, ad format, and campaign goals. Our Facebook Advertising Agency Dubai ensures every dirham is used efficiently for maximum impact.</p>
+                                <p>Retail, logistics, healthcare, fintech, real estate, and on-demand services benefit most from Android app development in Dubai. These industries rely on scalable apps that support high user volumes and diverse Android devices.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Can a $500 Facebook Ad Budget Deliver Results?</button>
+                            <button class="accordions">What technologies do Android app development companies in Dubai commonly use?</button>
                             <div class="panel">
-                                <p>Yes. Smart targeting, testing, and bid optimization can generate meaningful results even with modest budgets.
-                                </p>
+                                <p>Android app development companies in Dubai commonly use Kotlin, Java, Android SDK, REST APIs, cloud services, and modern frameworks to build secure and high-performance applications.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How to Start Advertising with a Facebook Marketing Company Dubai</button>
+                            <button class="accordions">How do Android app development services Dubai ensure app security?</button>
                             <div class="panel">
-                                <p>Define your audience and goals first. A Facebook marketing company Dubai guides setup, creatives, and optimization for smooth campaign execution.</p>
+                                <p>Android app development services Dubai follow secure coding practices, data encryption, API protection, and regular testing. These steps help protect user data and reduce security risks.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">What Is the Typical Facebook Ads Budget in Dubai?</button>
+                            <button class="accordions">Can an Android app development company in Dubai handle app store deployment?</button>
                             <div class="panel">
-                                <p>Budgets depend on industry, competition, and objectives. Our focus is on efficiency and measurable outcomes rather than impressions alone.</p>
+                                <p>Yes, an Android app development company in Dubai manages Google Play Store submission, compliance checks, app optimization, and post-launch monitoring to ensure smooth approval and performance.</p>
                             </div>
                         </div>
                         <div class="quwstion">
-                            <button class="accordions">Is $10 Per Day Enough for Facebook Advertising?</button>
+                            <button class="accordions">How do the best Android app development companies in Dubai support app scalability?</button>
                             <div class="panel">
-                                <p>For niche campaigns, yes. Targeting and optimization allow small budgets to reach high-intent users effectively, ensuring sustainable growth.</p>
+                                <p>The best Android app development companies in Dubai design apps with modular architecture, cloud integration, and performance optimization. This allows apps to scale smoothly as user demand grows.</p>
                             </div>
                         </div>
 
@@ -460,6 +569,10 @@ include("includes/footer.php");
         overflow: hidden;
     }
 
+    .android-app-development .section-marquee .marwuee-row:before {
+        display: none;
+    }
+
     .android-app-development .text-white-android {
         font-size: 17px;
         font-weight: 300;
@@ -512,16 +625,17 @@ include("includes/footer.php");
     .choice-para {
         text-align: center;
         color: white;
-        font-size: 29px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.4;
         font-family: 'Roboto';
     }
 
     .custom {
         text-align: center;
         color: white;
-        font-size: 47px;
-        font-weight: 700;
+        font-size: 30px;
+        font-weight: 500;
         font-family: 'Roboto';
     }
 
