@@ -527,7 +527,6 @@ include("includes/header.php");
                                     <p class="text-white">Community engagement builds strong brand loyalty. Responding
                                         to feedback shows care. Interactive posts make audiences feel valued.</p>
 
-                                
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -539,7 +538,6 @@ include("includes/header.php");
                                     <p class="text-white">Analytics track campaign performance clearly. Reviewing clicks
                                         and engagement guides changes. This helps maximize return on investment.</p>
 
-                                   
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -551,7 +549,6 @@ include("includes/header.php");
                                         and visuals must align. Audiences then connect posts directly to your business.
                                     </p>
 
-                                    
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -563,8 +560,6 @@ include("includes/header.php");
                                     <p class="text-white">Stories create quick and engaging connections.
                                         Behind-the-scenes posts feel authentic. Polls and updates keep audiences
                                         interested.</p>
-
-                                 
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -576,7 +571,6 @@ include("includes/header.php");
                                     <p class="text-white">Social media trends change very fast. AI and new formats shape
                                         growth. Brands that adapt stay competitive online.</p>
 
-                                    
                                 </div>
                             </div>
                         </div>
@@ -677,8 +671,7 @@ include("includes/header.php");
                        <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">Why should I hire a social media marketing agency in Dubai?
-</button>
+                            <button class="accordions">Why should I hire a social media marketing agency in Dubai?</button>
                             <div class="panel">
                                 <p>A local social media marketing agency in Dubai understands regional audiences, platforms, trends, and buying behavior, helping brands achieve better engagement and ROI.</p>
                             </div>
@@ -688,14 +681,12 @@ include("includes/header.php");
                             <button class="accordions">What social media marketing services in Dubai do you offer?</button>
                             <div class="panel">
                                 <p>We provide complete social media marketing services in Dubai, including strategy, content creation, paid ads, account management, and performance tracking.
-
                                 </p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">Which platforms do your SMM services in Dubai cover?
-</button>
+                            <button class="accordions">Which platforms do your SMM services in Dubai cover?</button>
                             <div class="panel">
                                 <p>Our SMM services in Dubai include Facebook, Instagram, LinkedIn, TikTok, Twitter (X), and YouTube, tailored to your business goals.</p>
                             </div>
@@ -704,8 +695,7 @@ include("includes/header.php");
                         <div class="quwstion">
                             <button class="accordions">How do you measure success for social media campaigns?</button>
                             <div class="panel">
-                                <p>We track engagement, reach, leads, conversions, and ROI using analytics tools to ensure measurable growth and campaign transparency.
-                                </p>
+                                <p>We track engagement, reach, leads, conversions, and ROI using analytics tools to ensure measurable growth and campaign transparency.</p>
                             </div>
                         </div>
                         <div class="quwstion">
