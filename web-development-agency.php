@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Expert Web Development agency - Logic Works";
-$meta_description = "Logic Works offers expert web development services in Dubai. Custom websites, fast performance, and secure, scalable solutions tailored to your business needs.";
+$meta_title = "Web Development Services in Dubai – Logic Works";
+$meta_description = "Looking for Web Development Services in Dubai? Get custom websites built by a Dubai-based team focused on speed, usability, and long-term success.";
 $keyword = 'Web Development Agency';
 $canonical = "https://logicworks.ae/web-development-agency";
 $faq_data = '
@@ -95,11 +95,9 @@ include("includes/header.php");
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="text-white">Logic Works – Professional <span>Web Development</span> Services in Dubai!
+                    <h1 class="text-white">Professional <span>Web Development</span> Services in Dubai!
                     </h1>
-                    <p class="text-white">Custom websites built to perfection in Dubai. Logic Works guarantees
-                        excellence in web development services. Reach out now and get a professional website for your
-                        brand.
+                    <p class="text-white fw-bold">Businesses looking for reliable web development services in Dubai need a trusted partner that understands local markets. Our Dubai-based web development team builds fast, secure, and scalable websites designed to attract users and support long-term business growth.
                     </p>
 
                     <div class="dubai-form-container">
@@ -139,10 +137,8 @@ include("includes/header.php");
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <!-- <h3 class="text-white">YOUR BRAND WORKS</h3> -->
-                    <h2 class="text-white same-all">Here’s Why Brands Rely on Logic Work</h2>
-                    <p class="text-white">We build powerful, secure websites that perform under pressure. Our team
-                        delivers clean code, fast results, and scalable solutions, built to grow with your business, not
-                        slow it down.</p>
+                    <h2 class="text-white same-all">Trusted Web Development Agency in Dubai for Growing Brands</h2>
+                    <p class="text-white">Logic Works is a trusted web development agency in Dubai. We help brands turn ideas into high-performing digital platforms. Our focus on quality development, performance optimization, and long-term support helps businesses build websites they can rely on.</p>
                     <div class="blurb-dubai">
                         <div class="all-dubai-blurb text-center">
                             <img src="assests/images/web-dubai/blurb-image-01.png" alt="blur-img-001">
@@ -180,8 +176,8 @@ include("includes/header.php");
         <div class="container" style="display: block;">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-white text-center">OUR PROCESS</h2>
-                    <h3 class="text-white text-center">A Proven Process for Web Development Excellence</h3>
+                    <h2 class="text-white text-center">Our Proven Process for Web Development in Dubai</h2>
+                    <p class="exter-para mb-5">Our structured approach to web development ensures every project follows a clear path from planning to launch. Each step focuses on clean development, testing, and performance to deliver reliable results across all devices.</p>
                 </div>
             </div>
 
@@ -244,7 +240,7 @@ include("includes/header.php");
 
             </div>
 
-            <div class="row align-items-center transform-row">
+            <!-- <div class="row align-items-center transform-row">
                 <div class="col-lg-4">
                     <img src="assests/images/marketing/banda.webp" alt="web-dev-agn">
                 </div>
@@ -256,6 +252,23 @@ include("includes/header.php");
                         <a href="#" id="openPopup">Request a Quote</a>
                     </div>
                 </div>
+            </div> -->
+        </div>
+    </section>
+       <section class="section-bg pt-b-80 web-dev-pag mt-40" id="transform-app">
+        <div class="container" style="display: block; max-width: 100%;">
+            <div class="row align-items-center transform-row">
+                <div class="col-lg-4">
+                    <img src="assests/images/marketing/banda.webp" alt="android-app-dev" class="gta">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="text-white same-all text-end">Launch Your Powerful Website Today and Start Gaining
+                        Customers</h2>
+                    <div class="digital-two-btn">
+                         <a href="tel:+971529502258">Call Now</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -265,7 +278,8 @@ include("includes/header.php");
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <h2 class="text-white same-all text-center"><span style="color: #EE798C;">Innovative Features
-                        </span>to Supercharge Your Website</h2>
+                        </span>Built by Expert Web Developers in Dubai</h2>
+                        <p class="exter-para">Our web development approach combines smart design with advanced functionality. Our Skilled web developers integrate features that improve usability, engagement, and overall website performance.</p>
                 </div>
             </div>
         </div>
@@ -428,37 +442,39 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                  <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
-                            <button class="accordions">What Services Does Logic Works Offer?</button>
+                            <button class="accordions">What makes web development services in Dubai different from other markets?</button>
                             <div class="panel">
-                                <p>We provide custom web development solutions. Services include e-commerce, frontend,
-                                    and backend development. We also design corporate websites and landing pages.</p>
+                                <p>Web development services in Dubai focus on high performance, security, and scalability to meet the needs of fast-growing businesses. A Dubai-based web development team also understands local user behavior, compliance standards, and competitive digital trends.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How Do You Optimize Websites for SEO?</button>
+                            <button class="accordions">How do I choose the right web development agency in Dubai for my business?</button>
                             <div class="panel">
-                                <p>We use keywords naturally throughout the site. Meta descriptions, titles, and fast
-                                    loading improve rankings.</p>
+                                <p>The right web development agency in Dubai should offer proven experience, transparent processes, and post-launch support. Reviewing portfolios, technology stacks, and communication practices helps ensure long-term success.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">How Long Does a Project Take?</button>
+                            <button class="accordions">What services does a professional web development company typically provide?</button>
                             <div class="panel">
-                                <p>Timelines depend on project complexity and scope. Most projects are completed within
-                                    agreed deadlines.</p>
+                                <p>A professional web development company delivers website design, custom development, performance optimization, security integration, and ongoing maintenance to ensure stable and scalable digital platforms.</p>
                             </div>
                         </div>
 
                         <div class="quwstion">
-                            <button class="accordions">What Makes Your Web Development Process Unique?</button>
+                            <button class="accordions">Why should I work with web developers in Dubai instead of outsourcing abroad?</button>
                             <div class="panel">
-                                <p>We emphasize research, strategy, and testing. Our process delivers reliable,
-                                    scalable, and optimized solutions.</p>
+                                <p>Working with web developers in Dubai ensures better communication, faster turnaround times, and local market expertise. This helps businesses build websites that align with regional expectations and business goals.</p>
+                            </div>
+                        </div>
+                        <div class="quwstion">
+                            <button class="accordions">Is Dubai-based web development suitable for startups and large enterprises?</button>
+                            <div class="panel">
+                                <p>Yes, Dubai-based web development solutions are designed for both startups and enterprises. Flexible development models allow businesses to scale features, traffic, and integrations as they grow.</p>
                             </div>
                         </div>
 
@@ -468,110 +484,7 @@ include("includes/header.php");
         </div>
     </section>
 
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-        id="hireobserverID">
-        <div class="bg-white-heading-custom">
-            <div class="container">
-                <div class="row white-bg-heading-custom-row">
-                    <div class="col-md-12">
-                        <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                        <ul class="faq_section">
-                            <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Work Sets
-                                    Trends in Web Development
-                                </a></li>
-                            <li><a href="#section-2" class="hire-tabs">How Logic Work Brings Exceptional Web Visions to
-                                    Life</a></li>
-                            <li><a href="#section-3" class="hire-tabs">The Numbers Prove the Power of Great Web
-                                    Development</a></li>
-                            <li><a href="#section-4" class="hire-tabs">How We Drive Business Growth Through Innovative
-                                    Websites</a></li>
-                            <li><a href="#section-5" class="hire-tabs">What Makes Our Web Development Process
-                                    Unmatched</a></li>
-                            <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
-                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-6 col-md-6 col-stick">
-                    <main>
-                        <section class="sec-info" id="section-1">
-                            <h2>How Logic Work Sets Trends in Web Development</h2>
-                            <ul>
-                                <p>At Logic Work, we lead the way with forward-thinking web development. We use the
-                                    latest technologies to deliver unmatched performance. Every line of code is built
-                                    for responsiveness, so your platform runs smoothly on any device. We structure
-                                    websites with SEO in mind, making them easier to find online. Our back-end systems
-                                    are fast, scalable, and secure—ready to grow with your business. We also keep an eye
-                                    on your competitors, so your platform always stays ahead. Everything we build is
-                                    tailored to your unique technical needs. That’s how we set the standard in web
-                                    development.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-2">
-                            <h2>How Logic Work Brings Exceptional Web Visions to Life</h2>
-                            <ul>
-                                <p>We take your ideas and turn them into high-performing web platforms. Our developers
-                                    build clean, scalable code that powers smooth and reliable websites. Every project
-                                    is designed to be SEO-friendly, so people can find you easily. With responsive
-                                    coding, your site will work perfectly on phones, tablets, and desktops. We add
-                                    advanced features to keep users engaged and coming back. Security is always a top
-                                    priority—your site will be safe and dependable. And as your business grows, our
-                                    scalable systems grow with you. At Logic Work, we bring your digital vision to life,
-                                    the right way.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-3">
-                            <h2>The Numbers Prove the Power of Great Web Development</h2>
-                            <ul>
-                                <p>When your website is built right, you see the results. Strong development increases
-                                    traffic, leads, and conversions. Responsive code makes sure your site looks and
-                                    works great everywhere. Optimized performance helps you rank higher on search
-                                    engines. Fast-loading pages reduce bounce rates and keep users engaged. Reliable
-                                    platforms build trust the moment someone clicks. With proper analytics, you’ll track
-                                    clear growth in all key metrics. And with regular updates, your site stays strong
-                                    long-term. Great development doesn’t just look good—it drives real business impact.
-                                </p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-4">
-                            <h2>How We Drive Business Growth Through Innovative Websites</h2>
-                            <ul>
-                                <p>We build websites that help your business grow. Our development process includes
-                                    smart SEO practices, so your site shows up where it matters. Responsive builds make
-                                    your platform easy to use on any device. Clean, intuitive coding helps turn visitors
-                                    into customers. Security and speed are built into every project, giving users
-                                    confidence in your brand. We also add features that improve functionality and user
-                                    flow. And because we build with scale in mind, your site grows as you do. Every
-                                    decision we make supports one goal—your business success through better web
-                                    development.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-5">
-                            <h2>What Makes Our Web Development Process Unmatched</h2>
-                            <ul>
-                                <p>We don’t just code—we create solutions that match your goals. It starts with
-                                    understanding your business inside and out. From there, we develop a clear strategy
-                                    and build custom features around your needs. SEO is baked into the structure from
-                                    day one. Our responsive development ensures smooth performance on any screen. Before
-                                    launch, we test everything to catch issues early. Security protocols are in place to
-                                    protect your data and users. We also optimize for speed and ease of use. And once
-                                    your site is live, we’re still here—keeping it sharp, stable, and ready for growth.
-                                </p>
-                            </ul>
-                        </section>
-                    </main>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 </main>
 
 <?php

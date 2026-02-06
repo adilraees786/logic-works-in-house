@@ -232,7 +232,7 @@ include("includes/header.php");
                 <div class="row twod-animation-service-slider">
                     <div class="col-lg-4">
                         <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/online-reputataion-management/case-1.webp"
+                            <img src="assests/images/seo/pillar-image-1.webp"
                                 alt="online-repo-img-004">
                             <div class="td-animation-service-card-bottom-content py-50 px-20">
                                 <h4 class="fw-700 fs-24 text-primary-theme">On-Page SEO</h4>
@@ -247,7 +247,7 @@ include("includes/header.php");
                     </div>
                     <div class="col-lg-4">
                         <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/online-reputataion-management/case-2.webp"
+                            <img src="assests/images/seo/pillar-image-2.webp"
                                 alt="online-repo-img-001">
                             <div class="td-animation-service-card-bottom-content py-65 px-20">
                                 <h4 class="fw-700 fs-24 text-primary-theme">Off-Page SEO</h4>
@@ -262,7 +262,7 @@ include("includes/header.php");
                     </div>
                     <div class="col-lg-4">
                         <div class="td-animation-wcu-card td-animation-service-card">
-                            <img src="assests/images/online-reputataion-management/case-3.webp"
+                            <img src="assests/images/seo/pillar-image-3.webp"
                                 alt="online-repo-img-002">
                             <div class="td-animation-service-card-bottom-content py-75 px-20">
                                 <h4 class="fw-700 fs-24 text-primary-theme">Technical SEO</h4>
@@ -277,7 +277,7 @@ include("includes/header.php");
                     </div>
                     <div class="col-lg-4">
                         <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/online-reputataion-management/case-1.webp"
+                            <img src="assests/images/seo/pillar-image-4.webp"
                                 alt="online-repo-img-003">
                             <div class="td-animation-service-card-bottom-content py-75 px-20">
                                 <h4 class="fw-700 fs-24 text-primary-theme">Ecommerce SEO</h4>
@@ -292,7 +292,7 @@ include("includes/header.php");
                     </div>
                     <div class="col-lg-4">
                         <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/online-reputataion-management/case-2.webp"
+                            <img src="assests/images/seo/pillar-image-5.webp"
                                 alt="online-repo-img-003">
                             <div class="td-animation-service-card-bottom-content py-75 px-20">
                                 <h4 class="fw-700 fs-24 text-primary-theme">Content SEO</h4>

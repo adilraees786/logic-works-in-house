@@ -154,7 +154,7 @@
                 </div>
             </div>
             <div class="col-md-6 text-center mt-4 mt-md-0">
-                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/choice-image.webp"
+                <img id="tab-image-brand" src="assests/images/fb-instagram-marketingt/instagram-choice-image.webp"
                     alt="Tab Image" class="right-img-brand">
             </div>
 
@@ -167,11 +167,11 @@
         const image = document.getElementById("tab-image-brand");
 
         const imageMap = {
-            tab1:"assests/images/fb-instagram-marketingt/choice-image.webp",
-                tab2:"assests/images/fb-instagram-marketingt/choice-image.webp",
-                tab3:"assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab4:"assests/images/fb-instagram-marketingt/choice-image.webp",
-            tab5:"assests/images/fb-instagram-marketingt/choice-image.webp",
+            tab1:"assests/images/fb-instagram-marketingt/instagram-choice-image.webp",
+                tab2:"assests/images/fb-instagram-marketingt/instagram-choice-image.webp",
+                tab3:"assests/images/fb-instagram-marketingt/instagram-choice-image.webp",
+            tab4:"assests/images/fb-instagram-marketingt/instagram-choice-image.webp",
+            tab5:"assests/images/fb-instagram-marketingt/instagram-choice-image.webp",
             
         };
 
