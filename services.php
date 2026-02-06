@@ -169,8 +169,15 @@ include("includes/header.php");
             transform: translate3d(-100%, 0, 0);
         }
     }
+
+    @media screen and (min-width: 1200px) and (max-width: 1400px) {
+        .service-page .row.justify-content-space-between.project-in-mind img {
+            transform: none !important;
+            margin-bottom: -30px;
+        }
+    }
 </style>
-<main class="service-page">
+<main class="service-page bg-black overflow-hidden">
     <!-- Hero Sec -->
     <section class="service-hero-sec section-bg">
         <div class="container">
@@ -430,8 +437,8 @@ include("includes/header.php");
                                         conveying its values, identity in an instant. Whether you're new business or
                                         rebranding an existing ng an effective logo is essential to cre-</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -442,9 +449,9 @@ include("includes/header.php");
                                     <h4 class="text-white">Social Media Marketing</h4>
                                     <p class="text-white">Promoting your brand through platforms like Face-book,
                                         Instagram, Twitter, and Linkedin to reach and interact with your audience.</p>
-
+<!-- 
                                     <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -455,8 +462,8 @@ include("includes/header.php");
                                     <p class="text-white">Enhancing individual pages by optimizing titles, meta
                                         descriptions, headers, and images for better rankings.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -469,8 +476,8 @@ include("includes/header.php");
                                         API, an to spend any time UX, Design, Work
                                         Flow</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -482,8 +489,8 @@ include("includes/header.php");
                                         conveying its values, identity in an instant. Whether you're new business or
                                         rebranding an existing ng an effective logo is essential to cre-</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -495,8 +502,8 @@ include("includes/header.php");
                                     <p class="text-white">Promoting your brand through platforms like Face-book,
                                         Instagram, Twitter, and Linkedin to reach and interact with your audience.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -507,8 +514,8 @@ include("includes/header.php");
                                     <p class="text-white">Enhancing individual pages by optimizing titles, meta
                                         descriptions, headers, and images for better rankings.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -521,8 +528,8 @@ include("includes/header.php");
                                         API, an to spend any time In UX, Design, Work
                                         Flow</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -534,8 +541,8 @@ include("includes/header.php");
                                         conveying its values, identity in an instant. Whether you're new business or
                                         rebranding an existing ng an effective logo is essential to cre-</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -547,8 +554,8 @@ include("includes/header.php");
                                     <p class="text-white">Promoting your brand through platforms like Face-book,
                                         Instagram, Twitter, and Linkedin to reach and interact with your audience.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -559,8 +566,8 @@ include("includes/header.php");
                                     <p class="text-white">Enhancing individual pages by optimizing titles, meta
                                         descriptions, headers, and images for better rankings.</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -573,8 +580,8 @@ include("includes/header.php");
                                         API, an to spend any time "massaging" th a Sep, 17, 2024 In UX, Design, Work
                                         Flow</p>
 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a>
+                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
+                                    <a href="#">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -651,7 +658,7 @@ include("includes/header.php");
     </section>
 
     <!-- Have A Project In Mind? -->
-    <section class="section-bg pt-b-80 have-server py-20" id="project-in-minds">
+    <section class="section-bg pt-b-80 have-server py-20 mb-20" id="project-in-minds">
         <div class="container">
             <div class="row justify-content-space-between project-in-mind"
                 style="background-color: #59249A; border-radius: 30px; ">
@@ -739,7 +746,7 @@ include("includes/header.php");
         <div class="container">
             <div class="row justify-content-space-between">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                  <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
                             <button class="accordions">What is custom software development?</button>
@@ -785,189 +792,7 @@ include("includes/header.php");
         </div>
     </section>
 
-    <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80 section-bg"
-        id="hireobserverID">
-        <div class="bg-white-heading-custom">
-            <div class="container">
-                <div class="row white-bg-heading-custom-row">
-                    <div class="col-md-12">
-                        <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                        <ul class="faq_section">
-                            <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Logic Work is
-                                    Adapting Its Strategy for the Next Era of Technology
-                                </a></li>
-                            <li><a href="#section-2" class="hire-tabs">Logic Work's Key Insights on Custom Software
-                                    Development</a></li>
-                            <li><a href="#section-3" class="hire-tabs">What Sets Logic Work Apart in the $700 Billion
-                                    App Industry</a></li>
-                            <li><a href="#section-4" class="hire-tabs">How Logic Work Stays Ahead with Data-Driven
-                                    Insights</a></li>
-                            <li><a href="#section-5" class="hire-tabs">The Web Development Trends We Follow</a></li>
-                            <!-- <li><a href="#section-6" class="hire-tabs">Reasons to Outsource Your Mobile App Development in Dubai</a></li>
-                        <li><a href="#section-7" class="hire-tabs">5 Reasons to Trust Trango Tech for Mobile App Development in UAE</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-6 col-md-6 col-stick">
-                    <main>
-                        <section class="sec-info" id="section-1">
-                            <h2>How Logic Work is Adapting Its Strategy for the Next Era of Technology</h2>
-                            <ul>
-                                <p>We continue to lead the way in the technology world with the integration of the
-                                    recent applications of AI, machine learning, and cloud infrastructure into our
-                                    portfolio. Thanks to our flexible approach, we are able to create high-performance
-                                    software and applications that address trending topics. Successful. We have clients
-                                    who have experienced between 80% and 100% improved efficiency and customer
-                                    engagement, and we are committed to delivering flexible, scalable technology to meet
-                                    modern business needs. We've got a team that can steer companies through rapid tech
-                                    evolutions and stay competitive, innovative, and prepared for tomorrow.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-2">
-                            <h2>Logic Work's Key Insights on Custom Software Development</h2>
-                            <ul>
-                                <p>Logic Work specializes in designing and implementing custom software products to
-                                    maintain continuous productivity and growth in a fast-progressing digital landscape.
-                                    However, our data indicates that we can save operational efficiency of up to 80% for
-                                    clients looking for ways to optimize their workflows. We are equipped with
-                                    specialized expertise in leveraging data-driven insights and tailoring each solution
-                                    to business goals across sectors to maximize the impact. Clients can scale
-                                    confidently with us because of our seamless integrations and future-ready frameworks
-                                    supported by a team that fully understands the critical demands of custom software
-                                    development.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-3">
-                            <h2>What Sets Logic Work Apart in the $700 Billion App Industry</h2>
-                            <ul>
-                                <p>Logic Work is known for its client-focused approach in the competitive app
-                                    development industry, which has helped push a 70% user retention rate on all
-                                    projects. Our clients can connect with a global audience with our expertise in iOS,
-                                    Android, and hybrid apps. Quality and innovation are our priorities, and we provide
-                                    high-performing, feature-rich applications that increase engagement and generate
-                                    revenue. We're trusted to create apps for everything from startups to industry
-                                    leaders to applications for a rapidly growing market but with superior user
-                                    experiences.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-4">
-                            <h2>How Logic Work Stays Ahead with Data-Driven Insights</h2>
-                            <ul>
-                                <p>Core to our approach is data-driven decision-making, allowing us to adapt our
-                                    strategies in real time with real-time analytics and predictive modeling. We use
-                                    user studies and industry trends to identify, develop, and deliver highly optimized
-                                    digital solutions to increase your conversion rate up to 55%. Clients also benefit
-                                    from our data-driven insights, which allow them to make informed business decisions
-                                    amidst their digital investments. By building integrated customized dashboards and
-                                    performance tracking, we aid businesses in turning raw data into valuable insights
-                                    so that they remain competitive in the present-day fast-paced environment.</p>
-                            </ul>
-                        </section>
-                        <section class="sec-info" id="section-5">
-                            <h2>The Web Development Trends We Follow</h2>
-                            <ul>
-                                <p>Logic work keeps up with the latest web development trends to adopt a competitive
-                                    advantage and brings dynamic, responsive websites that modern users expect. We've
-                                    worked on progressive web apps, enhanced security features, and AI-driven
-                                    personalization, contributing to up to a 50% increase in user engagement with
-                                    clients. We make sure you get outstanding performance and user satisfaction from
-                                    every site. By staying informed on trends, we deliver advanced, sustainable web
-                                    experiences to our clients that separate themselves from the crowd.</p>
-                            </ul>
-                        </section>
-                        <!--   <section class="sec-info" id="section-6">
-                        <h2>Reasons to Outsource Your Mobile App Development in Dubai</h2>
-                        <ul>
-                            <p>
-                                Outsourcing mobile app development in Dubai offers several strategic advantages, making it a popular choice among businesses aiming for efficient and cost-effective app development solutions.<br />
-                                Here are compelling reasons to consider outsourcing your app development project to Dubai:
-                            </p>
-                            <h3>Access to Expertise and Talent Pool</h3>
-                            <p>
-                                Dubai boasts a diverse ecosystem with a diverse pool of skilled developers, designers, and tech professionals.<br />
-                                Outsourcing to Dubai allows businesses to take advantage of this large talent pool and benefit from expertise in mobile app development, UI/UX design, emerging technologies, and industry-specific knowledge.
-                            </p>
-                            <h3>Cost Efficiency and Budget Control</h3>
-                            <p>
-                                Another compelling reason for off-shore app development is that you'll find cost-effective mobile app development services than hiring an in-house team within the region.<br />
-                                It eliminates the need for upfront investments in infrastructure, recruitment, training, and employee benefits.<br />
-                                Moreover, outsourcing allows businesses to choose flexible engagement models and scale resources as per project requirements, optimizing budget allocation and cost control.
-                            </p>
-                            <h3>Focus on Core Business Activities</h3>
-                            <p>
-                                If you externalize your project in Dubai, it will give you an advantage to focus on core competencies and strategic initiatives to oversee app development processes. This enables faster time-to-market for
-                                apps, enhances business agility, and improves overall operational efficiency.
-                            </p>
-                            <h3>Faster Time-to-Market</h3>
-                            <p>
-                                Experienced mobile app development companies in Dubai follow streamlined development processes and best practices, accelerating the app development lifecycle.<br />
-                                They make use of proven methodologies, agile frameworks, and robust project management practices to ensure timely delivery of high-quality apps that meet client expectations.
-                            </p>
-                            <h3>Access to State-of-the-Art Infrastructure and Technology</h3>
-                            <p>
-                                Outsourcing to Dubai provides access to state-of-the-art infrastructure, advanced development tools, and cutting-edge technologies essential for developing innovative and scalable mobile apps.<br />
-                                This includes cloud computing platforms, AI-powered development tools, and secure data management systems, ensuring enhanced app performance, scalability, and security.
-                            </p>
-                            <h3>Enhanced Flexibility and Scalability</h3>
-                            <p>
-                                Hire app developer in Dubai offers flexibility to choose resources based on project requirements and business dynamics.<br />
-                                It enables businesses to respond swiftly to market changes, customer feedback, and emerging trends, ensuring adaptability and competitiveness in a dynamic digital landscape.
-                            </p>
-                            <h3>Regulatory Compliance and Data Security</h3>
-                            <p>
-                                Mobile app development companies in Dubai adhere to stringent regulatory standards and data protection laws, ensuring compliance with international security protocols.<br />
-                                They implement robust security measures, encryption techniques, and data privacy practices to safeguard sensitive information and mitigate cybersecurity risks.
-                            </p>
-                            <p>
-                                In conclusion, outsourcing app development to Dubai facilitates businesses with access to specialized expertise, cost efficiencies, faster time-to-market, scalability, and regulatory compliance. Thereby,
-                                making it a strategic choice for accelerating digital transformation and achieving business objectives.
-                            </p>
-                        </ul>
-                    </section> -->
-                        <!--     <section class="sec-info" id="section-7">
-                        <h2>5 Reasons to Trust Trango Tech for Mobile App Development in UAE</h2>
-                        <ul>
-                            <p>Trango Tech stands out as a premier choice for mobile app development in the UAE, offering a compelling array of reasons to trust their expertise and commitment to excellence:</p>
-                            <h3>1. Extensive Industry Experience</h3>
-                            <p>
-                                Having worked on mobile app development for more than 20 years, Trango Tech has successfully entered the UAE market.<br />
-                                They have a wealth of experience and ideas about the creation and implementation of successful apps in different fields including health, retail and other businesses to serving their clients' needs.
-                            </p>
-                            <h3>2. Accomplished Results</h3>
-                            <p>
-                                The following entity has established significant experience in delivering effective mobile app solutions with proven successful mobile app projects.<br />
-                                Their portfolio consists of apps that have indeed received users' attention and achieved high levels of engagement, smooth integration into everyday life, as well as tangible practical results for the
-                                businesses involved.
-                            </p>
-                            <h3>3. Team of Skilled Developers and Designers</h3>
-                            <p>
-                                Through a team of developers, designers, and strategists, Trango Tech guarantees the apps are developed with excellence in mind.<br />
-                                Their personnel makes efficient use of newer technologies and makes use of proven methodologies to develop superb solutions, which meet the requirements of their clients.
-                            </p>
-                            <h3>4. Client-Centric Approach</h3>
-                            <p>
-                                Trango Tech's ultimate priority is always the satisfaction of its client. They value openness about the goals, processes, and mutual cooperation during the development of the application.<br />
-                                Starting from the conceptualization of the ideas to the construction of the solutions, and even after the implementation of the solutions, they are dedicated to the provision of solutions that meet the needs
-                                of their clients.
-                            </p>
-                            <h3>5. Quality and innovations</h3>
-                            <p>Quality assurance and constant innovation are two of Trango Tech's primary focuses. They follow strict testing procedures to produce high quality, bug-free, secure, and scalable applications.</p>
-                            <p>Through continued market analysis on the trends and developments within the sector, they provide innovative solutions that ensure that businesses and organizations remain relevant in the market.</p>
-                        </ul>
-                    </section> -->
-                    </main>
-                </div>
-            </div>
-        </div>
-    </section>
+  
 </main>
 
 <?php

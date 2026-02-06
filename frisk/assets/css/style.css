@@ -3533,7 +3533,7 @@ hr {
 .blog-service {
   background-color: #161616;
   padding-top: 80px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .blog-service p.date-post {
