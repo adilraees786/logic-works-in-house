@@ -55,7 +55,7 @@ include("includes/header.php");
                         Dubai. Drive more visitors to your site. Convert them into loyal customers. Reach the right
                         audience with effective ads. Watch your business grow.</p>
                     <div class="seo-btn">
-                        <a href="#">Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
 
                     </div>

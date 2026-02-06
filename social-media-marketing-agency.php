@@ -331,11 +331,27 @@ include("includes/header.php");
         </div>
     </section>
 
-    <section class="section-bg pt-b-80 web-dev-pag" id="transform-app">
+    <!-- <section class="section-bg pt-b-80 web-dev-pag" id="transform-app">
         <div class="container" style="display: block; max-width: 100%;">
             <div class="row align-items-center transform-row">
                 <div class="col-lg-4">
                     <img src="assests/images/marketing/professional.webp" alt="banda-img-social" class="bde">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="text-white same-all text-end">Drive Customer Growth with the Best Social Media Marketing Company in Dubai</h2>
+                    <div class="digital-two-btn">
+                         <a href="tel:+971529502258">Call Now</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+     <section class="section-bg pt-b-80 web-dev-pag mt-40" id="transform-app">
+        <div class="container" style="display: block; max-width: 100%;">
+            <div class="row align-items-center transform-row">
+                <div class="col-lg-4">
+                    <img src="assests/images/marketing/banda.webp" alt="android-app-dev" class="gta">
                 </div>
                 <div class="col-lg-8">
                     <h2 class="text-white same-all text-end">Drive Customer Growth with the Best Social Media Marketing Company in Dubai</h2>

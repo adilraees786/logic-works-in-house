@@ -97,10 +97,10 @@ include("includes/header.php");
                 <div class="col-lg-6">
                     <h1 class="text-white">Professional <span>Web Development</span> Services in Dubai!
                     </h1>
-                    <p class="text-white fw-bold">Businesses looking for reliable web development services in Dubai need a trusted partner that understands local markets. Our Dubai-based web development team builds fast, secure, and scalable websites designed to attract users and support long-term business growth.
+                    <p class="exter-para text-start">Businesses looking for reliable web development services in Dubai need a trusted partner that understands local markets. Our Dubai-based web development team builds fast, secure, and scalable websites designed to attract users and support long-term business growth.
                     </p>
 
-                    <div class="dubai-form-container">
+                    <!-- <div class="dubai-form-container">
                         <form>
                             <div class="form-group">
                                 <div class="row">
@@ -122,7 +122,7 @@ include("includes/header.php");
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-6">
                     <img src="assests/images/web-dubai/banner-image-02.webp" alt="web-dubai-hero-img">
@@ -138,7 +138,7 @@ include("includes/header.php");
                 <div class="col-lg-5">
                     <!-- <h3 class="text-white">YOUR BRAND WORKS</h3> -->
                     <h2 class="text-white same-all">Trusted Web Development Agency in Dubai for Growing Brands</h2>
-                    <p class="text-white">Logic Works is a trusted web development agency in Dubai. We help brands turn ideas into high-performing digital platforms. Our focus on quality development, performance optimization, and long-term support helps businesses build websites they can rely on.</p>
+                    <p class="exter-para text-start mb-4">Logic Works is a trusted web development agency in Dubai. We help brands turn ideas into high-performing digital platforms. Our focus on quality development, performance optimization, and long-term support helps businesses build websites they can rely on.</p>
                     <div class="blurb-dubai">
                         <div class="all-dubai-blurb text-center">
                             <img src="assests/images/web-dubai/blurb-image-01.png" alt="blur-img-001">
@@ -153,7 +153,7 @@ include("includes/header.php");
                             <h5 class="text-start text-white">ON-DEMAND MAINTENANCE AND SUPPORT</h5>
                         </div>
                     </div>
-                    <a href="#">GET A FREE QUOTE <img src="assests/images/web-development/read-more.png"></a>
+                    <a href="#" id="openPopup">GET A FREE QUOTE <img src="assests/images/web-development/read-more.png"></a>
                 </div>
                 <div class="col-lg-7">
                     <img src="assests/images/web-development/device-image.webp" alt="we-dev-right-img">
@@ -228,8 +228,8 @@ include("includes/header.php");
                             results. Our expert developers build future-ready websites that drive revenue. Let’s take
                             your business to the next level.</p>
                         <div class="main-tow-dubai">
-                            <a href="#">Get Started</a>
-                            <a href="#">Get a Quote</a>
+                            <a href="javascript:void(0)" onclick="openTawkChat()">Get Started</a>
+                            <a href="#" id="openPopup">Get a Quote</a>
                         </div>
                     </div>
                 </div>
@@ -494,6 +494,7 @@ include("includes/footer.php");
 <style>
     .web-development-page #portfolio-hero h1 {
         font-size: 55px !important;
+        line-height: 1.2 !important;
     }
 
     .development-work .col-lg-3 {

@@ -158,8 +158,7 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <section class="bg-black"
-        style="background-image: url('assests/images/serice-bg.webp');  background-size: cover; background-repeat: no-repeat; ">
+    <section class="bg-black">
         <?php
         include("components/tit-tok-agency-choice.php");
         ?>
