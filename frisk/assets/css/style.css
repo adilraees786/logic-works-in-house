@@ -2360,7 +2360,7 @@ img.trustsec {
 .brif-row .col-lg-6:last-child img,
 .transform-row img,
 .dubai-row-mind .col-lg-4 img {
-  animation: float 6s ease-in-out infinite;
+  /* animation: float 6s ease-in-out infinite; */
 }
 
 .customized-row .col-lg-3:hover {
