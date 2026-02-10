@@ -6,23 +6,34 @@ require 'phpmailer/vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // ================== RECAPTCHA VERIFY ==================
-    $secretKey = "6LfxcVgsAAAAAFRsXRAD2mLb2HDibR1WdS8nJke1"; // YOUR SECRET KEY
+    // ================== UPDATED RECAPTCHA VERIFY (Added: 2026-02-11) ==================
+    // This section verifies the reCAPTCHA response using CURL for better reliability.
+    $secretKey = "6LfxcVgsAAAAAFRsXRAD2mLb2HDibR1WdS8nJke1"; 
 
     if (empty($_POST['g-recaptcha-response'])) {
-    header("Location: contact-us.php?captcha=failed");
-exit;
-
-;
+        header("Location: contact-us.php?captcha=empty");
+        exit;
     }
 
     $recaptchaResponse = $_POST['g-recaptcha-response'];
-
-    $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$recaptchaResponse}");
-    $captchaSuccess = json_decode($verify);
+    
+    // Using CURL for more reliable request
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
+        'secret'   => $secretKey,
+        'response' => $recaptchaResponse
+    ]));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    
+    $captchaSuccess = json_decode($response);
 
     if (!$captchaSuccess->success) {
-        die("Captcha verification failed.");
+        header("Location: contact-us.php?captcha=failed");
+        exit;
     }
     // ================== END CAPTCHA ==================
 
