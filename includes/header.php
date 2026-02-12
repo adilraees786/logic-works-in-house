@@ -35,7 +35,7 @@
                 <input type="tel" name="phone" placeholder="Phone Number" required>
                 <textarea id="message" name="message" placeholder="Your Message" style="height:200px"
                     required></textarea>
-                <div class="mb-3">
+                <div class="mb-3" id="popup-captcha-container" style="display: none;">
                     <div class="g-recaptcha" data-sitekey="6LfxcVgsAAAAAECVQSaraQGJ25sQ1swHxBqiU6mK"></div>
                     <div id="popup-captcha-error" style="color:red; margin-top:8px;"></div>
                 </div>
@@ -944,6 +944,22 @@
             const popupForm = document.getElementById("popupForm");
             if (popupForm) {
                 popupForm.addEventListener("submit", function(e) {
+                    var captchaContainer = document.getElementById("popup-captcha-container");
+                    
+                    // If captcha is hidden, show it and stop submission to allow user to verify
+                    if (captchaContainer.style.display === "none") {
+                        e.preventDefault();
+                        captchaContainer.style.display = "block";
+                        // Scroll to the bottom of the popup content so recaptcha is visible
+                        var popupContent = popupForm.closest('.popup-content');
+                        if (popupContent) {
+                            setTimeout(function() {
+                                popupContent.scrollTo({ top: popupContent.scrollHeight, behavior: 'smooth' });
+                            }, 100);
+                        }
+                        return false;
+                    }
+
                     var response = "";
                     try {
                         // Dynamically find the index of the reCAPTCHA within this form
@@ -957,7 +973,8 @@
                             response = grecaptcha.getResponse(); // Fallback
                         }
                     } catch (err) {
-                        response = grecaptcha.getResponse(); // Fallback
+                        console.error("Popup reCAPTCHA error:", err);
+                        response = ""; 
                     }
 
                     var errorDiv = document.getElementById("popup-captcha-error");

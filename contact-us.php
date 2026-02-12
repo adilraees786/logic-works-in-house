@@ -8,7 +8,14 @@ include("includes/header.php");
 
 
 ?>
-
+<?php if(isset($_GET['captcha'])): ?>
+    <div style="color:red; margin:10px 0;">
+        <?php
+            if($_GET['captcha'] == 'empty') echo "Please verify that you are not a robot.";
+            if($_GET['captcha'] == 'failed') echo "Captcha verification failed. Please try again.";
+        ?>
+    </div>
+<?php endif; ?>
 
 
 
@@ -251,18 +258,10 @@ include("includes/header.php");
                         <textarea id="message" name="message" placeholder="Write Something..." style="height:200px"
                             required></textarea>
 
-                       <!-- UPDATED: reCAPTCHA display and error handling (Added: 2026-02-11) -->
-                       <div class="mb-3">
-                            <div class="g-recaptcha" data-sitekey="6LfxcVgsAAAAAECVQSaraQGJ25sQ1swHxBqiU6mK"></div>
-                            <div id="captcha-error" style="color:red; margin-top:8px;">
-                                <?php
-                                if (isset($_GET['captcha'])) {
-                                    if ($_GET['captcha'] == 'empty') echo "Please verify that you are not a robot.";
-                                    if ($_GET['captcha'] == 'failed') echo "Captcha verification failed. Please try again.";
-                                }
-                                ?>
-                            </div>
-                        </div>
+                      <div class="mb-3" id="captcha-container" style="<?php echo isset($_GET['captcha']) ? '' : 'display: none;'; ?>">
+    <div class="g-recaptcha" data-sitekey="6LfxcVgsAAAAAECVQSaraQGJ25sQ1swHxBqiU6mK"></div>
+    <div id="captcha-error" style="color:red; margin-top:8px;"></div>
+</div>
                         <input type="submit" value="Submit">
                     </form>
 
@@ -284,14 +283,14 @@ include("includes/header.php");
                         </div>
                         <div class="blurb-ctn">
                             <div class="img-blurb"><i class="icon fa-solid fa-location-dot"
-                                     style="font-size: 20px;"></i></div>
+                                    style="font-size: 20px;"></i></div>
                             <div class="txt-blurb"><a href="#">UAE: PINNACLE - Sheikh Zayed Rd - Al Barsha - Al Barsha 1
                                     -
                                     Dubai - United Arab Emirates</a></div>
                         </div>
                         <div class="blurb-ctn">
                             <div class="img-blurb"><i class="icon fa-solid fa-location-dot"
-                                     style="font-size: 20px;"></i></div>
+                                    style="font-size: 20px;"></i></div>
                             <div class="txt-blurb"><a href="#">US: 44075 Pipeline Plaza Ste. 215 Ashburn, VA 20147</a>
                             </div>
                         </div>
@@ -332,10 +331,38 @@ include("includes/footer.php");
 ?>
 
 
-<!-- UPDATED: Form validation for reCAPTCHA (Added: 2026-02-11) -->
 <script>
 document.getElementById("contactForm").addEventListener("submit", function(e) {
-    var response = grecaptcha.getResponse();
+    var captchaContainer = document.getElementById("captcha-container");
+    
+    // If captcha is hidden, show it and stop submission to allow user to verify
+    if (captchaContainer.style.display === "none") {
+        e.preventDefault();
+        captchaContainer.style.display = "block";
+        // Small delay to ensure it's rendered if it was toggled
+        setTimeout(function() {
+            captchaContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+        return false;
+    }
+
+    var response = "";
+    try {
+        var allWidgets = document.querySelectorAll('.g-recaptcha');
+        var contactWidget = document.getElementById("contactForm").querySelector('.g-recaptcha');
+        var widgetIndex = Array.from(allWidgets).indexOf(contactWidget);
+        
+        if (widgetIndex !== -1) {
+            response = grecaptcha.getResponse(widgetIndex);
+        } else {
+            response = grecaptcha.getResponse();
+        }
+    } catch (err) {
+        console.error("reCAPTCHA error:", err);
+        // Fallback if grecaptcha is not ready
+        response = ""; 
+    }
+    
     var errorDiv = document.getElementById("captcha-error");
 
     if (response.length === 0) {
