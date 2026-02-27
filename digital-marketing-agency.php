@@ -430,7 +430,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Ready to Grow Your Brand? Contact Us Today and Start
                         Driving Results!</h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

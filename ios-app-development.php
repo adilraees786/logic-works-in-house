@@ -544,7 +544,7 @@ include("includes/header.php");
             <div class="col-lg-8">
                 <h2 class="text-white same-all text-end">Let’s Build Your Next iOS App with Dubai’s Leading iOS App Development Company</h2>
                 <div class="digital-two-btn">
-                     <a href="tel:+971529502258">Call Now</a>
+                     <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                     <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                 </div>
             </div>
@@ -622,7 +622,7 @@ include("includes/header.php");
             <div class="col-lg-8">
                 <h2 class="text-white same-all text-end">Work With an Expert iOS App Developer in Dubai Who Understands Apple’s Ecosystem</h2>
                 <div class="digital-two-btn">
-                     <a href="tel:+971529502258">Call Now</a>
+                     <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                     <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                 </div>
             </div>

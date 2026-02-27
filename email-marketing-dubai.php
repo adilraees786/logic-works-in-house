@@ -207,7 +207,7 @@ include("includes/header.php");
                 <h2 class="text-white same-all text-end">A Leading Email Marketing Company in Dubai Driving Growth for 8000+ Businesses</h2>
                   <!-- <p class="text-white">Businesses trust us because we deliver consistency, transparency, and results. Our campaigns are built to scale as your audience grows.</p> -->
                 <div class="digital-two-btn">
-                     <a href="tel:+971529502258">Call Now</a>
+                     <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                     <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                 </div>
             </div>

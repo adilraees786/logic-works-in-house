@@ -3,42 +3,7 @@ $meta_title = "Online Reputation Management Services Dubai | ORM Experts";
 $meta_description = "Protect your brand with trusted online reputation management services Dubai. We monitor reviews, suppress negative content, and build lasting brand credibility.";
 $keyword = 'Online Reputataion Management';
 $canonical = "https://logicworks.ae/online-reputataion-management";
-$custom_schema = '
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://logicworks.ae/#online-reputataion-management,
-  "name": "Online Reputation Management services",
-  "serviceType": "Online Reputation Management",
-  "alternateName": "ORM",
-  "url": "https://logicworks.ae/online-reputataion-management",
-  "description": "Logic Works provides professional online reputation management services that build trust, improve brand image, and enhance digital credibility across platforms.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Logic Works",
-    "url": "https://logicworks.ae",
-    "logo": "https://logicworks.ae/assests/images/head-logo.png",
-    "telephone": "+971 52 950 2258",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Al Barsha 1, Sheikh Zayed Rd",
-      "addressLocality": "Dubai",
-      "addressRegion": "Dubai",
-      "addressCountry": "AE"
-    },
-    "sameAs": [
-      "https://www.facebook.com/logicworks.ae",
-      "https://www.instagram.com/logicworks.ae/"
-    ]
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, UAE"
-  }
-}
-</script>
-';
+
 $faq_data = '
 <script type="application/ld+json">
 {
@@ -265,7 +230,7 @@ include("includes/header.php");
                         <li>Stay protected</li>
                     </ul> -->
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>

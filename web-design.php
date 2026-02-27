@@ -517,7 +517,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end mnhead">Launch your professional website with Logic Works.
                         Start now!</h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="#" id="openPopup">Get a quote</a>
                     </div>
                 </div>

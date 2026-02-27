@@ -166,7 +166,7 @@ include("includes/header.php");
                 </div>
                 <div class="col-lg-8">
                     <h2 class="text-white same-all">Launch your professional website with Logic Works. Start now!</h2>
-                     <a href="tel:+971529502258">Call Now</a>
+                     <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                 </div>
             </div>
         </div>
@@ -265,7 +265,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Launch Your Powerful Website Today and Start Gaining
                         Customers</h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>

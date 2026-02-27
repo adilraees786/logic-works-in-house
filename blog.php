@@ -735,7 +735,7 @@ include("includes/header.php");
         <div class="col-lg-6 col-md-6">
           <h2 class="text-white">Get A Website Like This & Start Your Online Journey!</h2>
           <div class="main-tow-btn">
-             <a href="tel:+971529502258">Call Now</a>
+             <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
             <a href="#" class="live-chats">Start Live Chat</a>
           </div>
         </div>

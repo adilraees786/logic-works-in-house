@@ -192,7 +192,7 @@ include("includes/header.php");
                 <div class="col">
                     <h1 class="text-white">Contact</h1>
                     <ul>
-                        <li><a href="./">Home</a></li> | <li>Contact</li>
+                        <!-- <li><a href="./">Home</a></li> | <li>Contact</li> -->
                     </ul>
                 </div>
             </div>
@@ -275,7 +275,7 @@ include("includes/header.php");
                         </div>
                         <div class="blurb-ctn">
                             <div class="img-blurb"><img src="assests/images/telephone.png"></div>
-                            <div class="txt-blurb"><a href="tel:+971529502258">UAE: +971 52 950 2258</a></div>
+                            <div class="txt-blurb"><a href="https://wa.me/971529502258">UAE: +971 52 950 2258</a></div>
                         </div>
                         <div class="blurb-ctn">
                             <div class="img-blurb"><img src="assests/images/telephone.png"></div>
@@ -284,7 +284,7 @@ include("includes/header.php");
                         <div class="blurb-ctn">
                             <div class="img-blurb"><i class="icon fa-solid fa-location-dot"
                                     style="font-size: 20px;"></i></div>
-                            <div class="txt-blurb"><a href="#">UAE: PINNACLE - Sheikh Zayed Rd - Al Barsha - Al Barsha 1
+                            <div class="txt-blurb"><a href="https://g.page/r/CXNc1Fp2q_LCEBM/" target="_blank">UAE: PINNACLE - Sheikh Zayed Rd - Al Barsha - Al Barsha 1
                                     -
                                     Dubai - United Arab Emirates</a></div>
                         </div>
@@ -303,7 +303,7 @@ include("includes/header.php");
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <section class="section-bg pt-b-80 contact-sec" id="project-in-minds">
         <div class="container">
@@ -315,16 +315,16 @@ include("includes/header.php");
                 <div class="col-lg-5 col-md-6">
                     <div class="ctn-btns">
                         <a  href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
-                        <a href="tel:+971 52 950 2258">+971 52 950 2258</a>
+                        <a href="https://wa.me/971529502258">+971 52 950 2258</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.114142048052!2d55.33482707608313!3d25.233080230245076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d6a98ae1cf9%3A0x398860941c5d613!2sAl%20Garhoud%20Bridge%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1738167572278!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section> -->
+< 
+     <section>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.7713918553477!2d55.184361499999994!3d25.109598800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b8aa00a0131%3A0xc2f2ab765ad45c73!2sLogicWorks%20Information%20Technology%20LLC!5e0!3m2!1sen!2s!4v1771004169792!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> 
 </main>
 <?php
 include("includes/footer.php");

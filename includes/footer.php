@@ -69,7 +69,7 @@
       </div>
       <div class="col-lg-2 col-md-6">
         <h4 class="text-white">Contact</h4>
-        <p>UAE: <a href="tel:+971529502258">+971 52 950 2258</a></p>
+        <p>UAE: <a href="https://wa.me/971529502258">+971 52 950 2258</a></p>
         <p>US: <a href="tel:+13109575211">+1 (310) 957-5211</a></p>
         <p>Email: <a href="mailto:info@logicworks.ae">info@logicworks.ae</a></p>
         <!-- <p>Address : 115-0, Khalid shaban, Al Garhoud, Dubai</p> -->
@@ -119,7 +119,7 @@
                 src="<?php echo $base_url; ?>assests/images/instagram.png"></a></li>
           <li><a href="https://www.facebook.com/LogicWorksae" target="_blank"><img
                 src="<?php echo $base_url; ?>assests/images/Facebook.png"></a></li>
-          <li><a href="#"><img src="<?php echo $base_url; ?>assests/images/Twitter.png"></a></li>
+          <li><a href="https://ae.linkedin.com/company/logic-works-information-technology-llc" target="_blank"><img src="<?php echo $base_url; ?>assests/images/Linkedin.png"></a></li>
         </ul>
       </div>
     </div>

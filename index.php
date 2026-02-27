@@ -1639,7 +1639,7 @@ include("includes/header.php");
             <div class="col-lg-6 col-md-6">
                 <h2 class="text-white">Get Your Dream Project off the Ground with Us</h2>
                 <div class="main-tow-btn">
-                    <a href="tel:+971529502258">Call Now</a>
+                    <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
 
                     <a href="#" id="openPopup">Let's Build Together</a>
                 </div>

@@ -240,7 +240,7 @@ include("includes/header.php");
                         for the Best Apps
                     </h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
@@ -518,7 +518,7 @@ include("includes/header.php");
                         Development Firm in Dubai
                     </h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>

@@ -62,7 +62,7 @@
                         <span>NY 10002, USA</span>
                     </div>
                     <div class="sidebar-wrap">
-                        <span><a href="tel:+971529502258">+971 52 950 2258 </a></span>
+                        <span><a href="https://wa.me/971529502258">+971 52 950 2258 </a></span>
                         <span><a href="mailto:info@logicworks.com">info@logicworks.com</a></span>
                     </div>
                     <div class="social-btn style2">
@@ -240,12 +240,12 @@
 
                     <li><a href="<?php echo $base_url; ?>portfolio">Portfolio</a></li>
                     <li><a href="<?php echo $base_url; ?>blog">Blog</a></li>
-                    <li><a href="<?php echo $base_url; ?>contact">Contact</a></li>
+                    <li><a href="<?php echo $base_url; ?>contact-us">Contact</a></li>
                 </ul>
             </div>
 
             <div class="sidebar-wrap">
-                <span><a href="tel:+971529502258">+971 52 950 2258 </a></span>
+                <span><a href="https://wa.me/971529502258">+971 52 950 2258 </a></span>
                 <span><a href="mailto:info@logicworks.com">info@logicworks.com</a></span>
             </div>
         </div>
@@ -530,7 +530,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="hedr-phone" href="tel:+971529502258">
+                                        <a class="hedr-phone" href="https://wa.me/971529502258">
                                             <span class="link-effect">
                                                 <span class="effect-1">+971 52 950 2258</span>
                                                 <span class="effect-1">+971 52 950 2258</span>

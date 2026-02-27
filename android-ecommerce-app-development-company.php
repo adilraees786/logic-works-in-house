@@ -255,7 +255,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Connect with Logic Works to Launch Your Mobile Store Today
                     </h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
@@ -596,7 +596,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all text-end">Get a High-Converting Shopping App Built for Your Store
                     </h2>
                     <div class="digital-two-btn">
-                         <a href="tel:+971529502258">Call Now</a>
+                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
                         <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
