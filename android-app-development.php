@@ -75,7 +75,7 @@ include("includes/header.php");
                     <p class="text-white">Businesses looking for reliable android app development in Dubai need apps that perform without issues. Slow loading, frequent crashes, and confusing layouts drive users away. In the middle of every project, Logic Works focuses on clean coding, strong performance, and real business results. Our team builds Android apps that load fast, run smoothly, and remain stable across devices. Every app aligns with business goals, no fluff, no delays, just functional apps users trust and keep using.
                     </p>
                     <div class="seo-btn">
-                        <a href="#">Live Chat</a>
+                       <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <div class="trust-icons">
@@ -108,7 +108,7 @@ include("includes/header.php");
 
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -217,7 +217,7 @@ include("includes/header.php");
                         the apps we deliver don’t break under pressure. Each build is tested, improved, and ready for
                         long-term use. Strong performance and real stability are always part of the result.</p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>
@@ -472,7 +472,7 @@ include("includes/header.php");
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

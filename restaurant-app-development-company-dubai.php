@@ -102,7 +102,7 @@ include("includes/header.php");
                         with UAE mobile app specialists to secure information and enable seamless guest interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -390,7 +390,7 @@ include("includes/header.php");
                                                             developers Dubai, the brand broadened its online footprint
                                                             and crafted a seamless ordering experience for repeat
                                                             patrons.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -419,7 +419,7 @@ include("includes/header.php");
                                                         <p class="text-white">Through practical strategies shaped by
                                                             Dubai restaurant software developers, the chain experienced
                                                             sustained growth in traffic and loyal clientele.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -449,7 +449,7 @@ include("includes/header.php");
                                                         <p class="text-white">Supported by Food ordering mobile apps UAE
                                                             specialists, the platform gained clear positioning and
                                                             achieved consistent expansion.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -479,7 +479,7 @@ include("includes/header.php");
                                                             Multi-restaurant management apps experts, the service
                                                             attained visibility aligned with long-term goals.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

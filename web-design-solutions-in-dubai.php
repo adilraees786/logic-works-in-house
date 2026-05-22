@@ -254,7 +254,7 @@ include("includes/header.php");
                             excellence in web development services. Reach out now and get a professional website for
                             your brand.</p>
                         <div class="seo-btn">
-                            <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                            <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                                 <span class="link-effect">
                                     <span class="effect-1">Live Chat</span>
                                     <span class="effect-1">Live Chat</span>

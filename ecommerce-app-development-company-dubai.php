@@ -106,7 +106,7 @@ include("includes/header.php");
                         and enable seamless, reliable transactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -397,7 +397,7 @@ include("includes/header.php");
                                                             expanded its online presence and delivered a seamless
                                                             purchase journey for repeat customers.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -427,7 +427,7 @@ include("includes/header.php");
                                                             Agency Dubai, the agency experienced consistent growth in
                                                             traffic and qualified leads.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -457,7 +457,7 @@ include("includes/header.php");
                                                             experts, the platform positioned itself distinctly and
                                                             maintained steady growth.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -487,7 +487,7 @@ include("includes/header.php");
                                                             mobile app development in Dubai, the business achieved
                                                             visibility aligned with long-term strategic goals.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

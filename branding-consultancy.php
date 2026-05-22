@@ -139,7 +139,7 @@ include("includes/header.php");
                         and long-term competitive advantage.
                     </p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
@@ -237,7 +237,7 @@ include("includes/header.php");
                                                                 The aim is to find unique positioning that makes your
                                                                 brand different. Every insight guides the next stage.
                                                             <p>
-                                                                <a href="#0">EXPLORE IT</a>
+                                                                 <!-- <a href="#0">EXPLORE IT</a> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -266,7 +266,7 @@ include("includes/header.php");
                                                                 tested against business goals for accuracy and
                                                                 consistency.
                                                             <p>
-                                                                <a href="#0">EXPLORE IT</a>
+                                                                 <!-- <a href="#0">EXPLORE IT</a> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -294,7 +294,7 @@ include("includes/header.php");
                                                                 a professional look. The focus is on clarity, balance,
                                                                 and maintaining a strong market presence.
                                                             <p>
-                                                                <a href="#0">EXPLORE IT</a>
+                                                                 <!-- <a href="#0">EXPLORE IT</a> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -322,7 +322,7 @@ include("includes/header.php");
                                                                 goal is a brand that performs well and connects strongly
                                                                 with its audience.
                                                             <p>
-                                                                <a href="#0">EXPLORE IT</a>
+                                                                 <!-- <a href="#0">EXPLORE IT</a> -->
                                                         </div>
                                                     </div>
                                                 </div>

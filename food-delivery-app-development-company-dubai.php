@@ -395,7 +395,7 @@ include("includes/header.php");
                                                             specialists, the brand expanded its online reach and offered
                                                             a smoother ordering journey for loyal diners.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -425,7 +425,7 @@ include("includes/header.php");
                                                             Delivery App Development Dubai, the platform experienced
                                                             consistent growth in traffic and active users.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -456,7 +456,7 @@ include("includes/header.php");
                                                             carved a distinct niche and maintained sustainable growth.
                                                         </p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -486,7 +486,7 @@ include("includes/header.php");
                                                             Dubai specialists, the business reached visibility that
                                                             aligned with long-term objectives.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

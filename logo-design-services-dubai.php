@@ -207,7 +207,7 @@ include("includes/header.php");
                         <div class="sub-contetn our-idea">
                             <h2 class="robo-font text-start">OUR IDEA?</h2>
                             <div class="px-5">
-                                <a href="#" class="live-chats">Live Chat</a>
+                                  <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                                 <a href="#" id="openPopup">Get A Quote</a>
                             </div>
                         </div>

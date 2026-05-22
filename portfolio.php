@@ -246,7 +246,7 @@ include("includes/header.php");
                     <h2 class="text-white">Join Our List of Satisfied Clients<br> — Start Your Project!</h2>
                     <div class="main-tow-btn">
                          <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
-                        <a href="#" class="live-chats">Start Live Chat</a>
+                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -275,7 +275,7 @@ include("includes/header.php");
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

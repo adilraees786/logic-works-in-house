@@ -312,7 +312,7 @@ include("includes/header.php");
                         </h1>
                         <p class="text-white">Logic Works is a leading graphic design company in Dubai, building strong visual identities that drive recognition, establish trust, and create lasting impact across every platform.</p>
                         <div class="seo-btn">
-                            <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                            <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                                 <span class="link-effect">
                                     <span class="effect-1">Live Chat</span>
                                     <span class="effect-1">Live Chat</span>
@@ -475,7 +475,7 @@ include("includes/header.php");
                 </div>
         </section>
     </div>
-    <section class="section-bg port-web" id="port-web">
+    <!-- <section class="section-bg port-web" id="port-web">
         <div class="container" style="display: block;">
             <div class="row slider-logo">
                 <div class="col">
@@ -533,7 +533,7 @@ include("includes/header.php");
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="section-bg matter-sec" style="background-image: url(assests/images/website/matters.webp);">
         <div class="container" style="display: block;">

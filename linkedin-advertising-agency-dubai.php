@@ -22,7 +22,7 @@ include("includes/header.php");
                     <p class="text-white">We design results-driven growth strategies through LinkedIn marketing services Dubai, ensuring data integrity, establishing credibility, and empowering brands to engage confidently within professional networks worldwide.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

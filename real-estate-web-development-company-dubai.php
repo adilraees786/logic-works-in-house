@@ -76,7 +76,7 @@ include("includes/header.php");
                         websites that fuel your growth.
                     </p>
                     <div class="seo-btn">
-                        <a href="#">Live Chat</a>
+                       <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

@@ -107,7 +107,7 @@ include("includes/header.php");
                         smooth guest-hotel interactions seamlessly.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -399,7 +399,7 @@ include("includes/header.php");
                                                             development Dubai, the group expanded its digital reach and
                                                             delivered a more fluid reservation journey for returning
                                                             guests.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -430,7 +430,7 @@ include("includes/header.php");
                                                             hotel app development services Dubai, the provider
                                                             experienced consistent growth in qualified leads and app
                                                             engagement.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -460,7 +460,7 @@ include("includes/header.php");
                                                         <p class="text-white">Supported by UAE mobile specialists, the
                                                             platform established clearer positioning and sustained
                                                             growth.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -491,7 +491,7 @@ include("includes/header.php");
                                                             development services Dubai professionals, the brand achieved
                                                             exposure aligned with its long-term expansion goals.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

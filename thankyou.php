@@ -83,7 +83,7 @@ main {
                 </div>
                 <div class="col-lg-5 col-md-6">
                     <div class="ctn-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="tel:+971529502258">+971 52 950 2258</a>
                     </div>
                 </div>

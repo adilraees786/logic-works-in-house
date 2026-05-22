@@ -132,7 +132,7 @@ include("includes/header.php");
                     <p class="text-white">As a leading TikTok Shop Marketing Agency Dubai, we drive brand growth inside the TikTok ecosystem using creators, cultural relevance, compelling storytelling, and live shopping moments that convert views into results.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

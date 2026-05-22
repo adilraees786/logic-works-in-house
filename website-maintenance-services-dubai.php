@@ -312,7 +312,7 @@ include("includes/header.php");
                         </h1>
                         <p class="text-white">Logic Works provides website maintenance services Dubai designed to protect, optimize, and monitor digital platforms continuously. Our team ensures uptime, timely updates, and strong security delivering reliable website support services Dubai that keep businesses running without disruption.</p>
                         <div class="seo-btn">
-                            <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                            <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                                 <span class="link-effect">
                                     <span class="effect-1">Live Chat</span>
                                     <span class="effect-1">Live Chat</span>

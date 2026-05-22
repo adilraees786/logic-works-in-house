@@ -97,7 +97,7 @@ include("includes/header.php");
                     <h1 class="text-white">Leading Mobile <span>App Development</span> Company in Dubai for All Industries</h1>
                     <p class="text-white">Logic Works is Dubai's leading app development company and a trusted mobile app development company in Dubai. We deliver innovative app development solutions for all industries. Our apps enhance business growth, user engagement, and scalability. We are trusted by clients from all over the world for custom app development services. Contact us now to get the perfect app for your brand.</p>
                     <div class="seo-btn brand-btn">
-                        <a href="#">Live Chat</a>
+                        <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>
@@ -422,7 +422,7 @@ include("includes/header.php");
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

@@ -104,7 +104,7 @@ include("includes/header.php");
                         connections.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -396,7 +396,7 @@ include("includes/header.php");
                                                         <p class="text-white">Guided by Dubai dating software
                                                             developers, the brand expanded its digital footprint and
                                                             delivered a more engaging journey for returning members.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -426,7 +426,7 @@ include("includes/header.php");
                                                         <p class="text-white">Through calculated strategies shaped by
                                                             Matchmaking App Development Dubai, the agency recorded
                                                             steady growth in both traffic and meaningful matches.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -456,7 +456,7 @@ include("includes/header.php");
                                                         <p class="text-white">Backed by iOS & Android dating apps UAE
                                                             experts, the product clarified its positioning and sustained
                                                             long-term engagement.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -487,7 +487,7 @@ include("includes/header.php");
                                                             dating platforms Dubai specialists, the company achieved
                                                             exposure aligned with its long-term community goals.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

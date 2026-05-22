@@ -23,7 +23,7 @@ include("includes/header.php");
                     <p class="text-white">At Logic Works, we help companies streamline operations, reduce costs, and
                         boost efficiency with cutting-edge AI solutions designed for business automation.</p>
                     <div class="seo-btn specbtn pb-40">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

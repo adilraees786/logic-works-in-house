@@ -21,7 +21,7 @@
             </a>
           </li>
           <li>
-            <a href="blog">
+            <a href="https://logicworks.ae/blog/">
               <span class="link-effect">
                 <span class="effect-1">Our Blog</span>
                 <span class="effect-1">Our Blog</span>
@@ -83,7 +83,7 @@
 
     <div class="row justify-content-space-between">
       <div class="col-lg-6 col-md-6">
-        <p>© Logic Works 2025. All rights reserved.</p>
+        <p>© Logic Works 2025 - 26. All rights reserved.</p>
       </div>
       <div class="col-lg-3 col-md-6">
         <ul class="footer-menu-list">

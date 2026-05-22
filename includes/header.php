@@ -261,7 +261,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="<?php echo $base_url; ?>index"><img
+                                <a href="<?php echo $base_url; ?>"><img
                                         src="<?php echo $base_url; ?>assests/images/head-logo.webp" alt="logo"
                                         style="width:165px;"></a>
                             </div>

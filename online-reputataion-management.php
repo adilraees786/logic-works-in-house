@@ -185,7 +185,7 @@ include("includes/header.php");
                     <p class="text-white">Our online reputation management services in Dubai keeps your business safe from false information. We watch every mention of your brand online. Reviews are managed carefully to maintain trust. Positive content is shared to boost your image. Our team fixes issues before they grow. Your online presence always shows your true value. Focus on running your business. We protect your reputation every day. Your brand stays strong and trusted.
                     </p>
                     <div class="live-chat-btns">
-                        <a  href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
+                        <a  href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"

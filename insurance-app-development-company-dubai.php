@@ -113,7 +113,7 @@ include("includes/header.php");
                         specialists to safeguard data and enable seamless, trustworthy policy interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -403,7 +403,7 @@ include("includes/header.php");
                                                             developers, the company amplified its online footprint and
                                                             delivered a smoother protection-selection journey for
                                                             recurring policyholders.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -432,7 +432,7 @@ include("includes/header.php");
                                                         <p class="text-white">Through strategic methods shaped for the
                                                             agency, experienced consistent growth in both traffic and
                                                             qualified submissions.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -462,7 +462,7 @@ include("includes/header.php");
                                                         <p class="text-white">Backed by expert Insurance App Developers
                                                             dubai, the platform anchored itself clearly within its niche
                                                             and sustained durable momentum.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -493,7 +493,7 @@ include("includes/header.php");
                                                             technology solutions UAE specialists, the company gained
                                                             recognition that aligned with its long-term aspirations.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

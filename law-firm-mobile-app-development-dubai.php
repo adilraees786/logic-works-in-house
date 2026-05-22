@@ -104,7 +104,7 @@ include("includes/header.php");
                         client-lawyer interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -394,7 +394,7 @@ include("includes/header.php");
                                                         <p class="text-white">Guided by UAE legal app developers, the
                                                             firm achieved smoother case handling and more efficient
                                                             legal operations.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -424,7 +424,7 @@ include("includes/header.php");
                                                         <p class="text-white">Through App Development for Law Firms, the
                                                             agency improved workflow efficiency and strengthened client
                                                             satisfaction.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -453,7 +453,7 @@ include("includes/header.php");
                                                         <p class="text-white">Backed by iOS & Android law app developers
                                                             UAE, the platform maintained regulatory alignment and
                                                             scalable functionality.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -484,7 +484,7 @@ include("includes/header.php");
                                                             software developers, the platform achieved a reliable,
                                                             client-centric experience.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

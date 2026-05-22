@@ -118,7 +118,7 @@ include("includes/header.php");
                         patient-focused digital solutions. Our Health app developers in Dubai protect medical data and
                         build trust between providers and users.</p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -406,7 +406,7 @@ include("includes/header.php");
                                                             developers in Dubai, the clinic improved digital access.
                                                             They made it easier for returning patients to get the
                                                             medical support they need.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -439,7 +439,7 @@ include("includes/header.php");
                                                             traffic and consultation requests. This was because of
                                                             targeted strategies using EMR and EHR software solutions in
                                                             the UAE.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -474,7 +474,7 @@ include("includes/header.php");
                                                             developers in the UAE, the platform found its niche. It
                                                             gained steady traction among users who often manage
                                                             prescriptions.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -506,7 +506,7 @@ include("includes/header.php");
                                                             its visibility. It aligned with the brand's long-term goals
                                                             for medspa treatments and client care.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

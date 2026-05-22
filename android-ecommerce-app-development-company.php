@@ -129,7 +129,7 @@ include("includes/header.php");
                         development company that drives sales and keeps customers coming <br> back to your mobile store.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -580,7 +580,7 @@ include("includes/header.php");
             </div>
             <!-- <div class="service-btn">
                 <div class="live-chat-btns">
-                    <a href="#" class="live-chats">Live Chat</a>
+                      <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div> -->

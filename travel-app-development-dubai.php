@@ -101,7 +101,7 @@ include("includes/header.php");
                         experiences.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -389,7 +389,7 @@ include("includes/header.php");
                                                         <p class="text-white">Guided by our travel app developers Dubai,
                                                             the operator expanded its digital presence and created a
                                                             seamless booking journey for repeat clients.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -418,7 +418,7 @@ include("includes/header.php");
                                                         <p class="text-white">Through strategies shaped by Dubai travel
                                                             software developers, the platform achieved steady growth in
                                                             traffic and confirmed bookings.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -448,7 +448,7 @@ include("includes/header.php");
                                                         <p class="text-white">Backed by Online travel booking apps UAE
                                                             experts, the platform gained clear positioning and
                                                             maintained sustainable expansion.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -478,7 +478,7 @@ include("includes/header.php");
                                                             mobile solutions specialists, the service achieved
                                                             visibility in line with long-term growth objectives.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

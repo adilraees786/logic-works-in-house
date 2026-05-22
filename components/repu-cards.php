@@ -115,7 +115,7 @@
                             Negative reviews receive professional replies showing care. We fix issues publicly to keep
                             trust. Active management maintains high scores and turns reviews into assets.</p>
                     </div>
-                    <button class="explore-btn">Explore Now</button>
+                    <!-- <button class="explore-btn">Explore Now</button> -->
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
@@ -132,7 +132,7 @@
                             content down removes it from view. We provide affordable online reputation management. We
                             use proven SEO techniques to show the content you want prospects to see.</p>
                     </div>
-                    <button class="explore-btn">Explore Now</button>
+                    <!-- <button class="explore-btn">Explore Now</button> -->
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
@@ -148,7 +148,7 @@
                             misinformation from spreading. After a crisis, we rebuild trust through content and
                             engagement. Preparation and speed decide if a crisis is minor or brand-defining.</p>
                     </div>
-                    <button class="explore-btn">Explore Now</button>
+                    <!-- <button class="explore-btn">Explore Now</button> -->
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
@@ -164,7 +164,7 @@
                             Social reputation management requires understanding each platform’s culture. Generic
                             responses fail. Authentic engagement protects your brand and builds trust.</p>
                     </div>
-                    <button class="explore-btn">Explore Now</button>
+                    <!-- <button class="explore-btn">Explore Now</button> -->
                 </div>
             </div>
         </div>

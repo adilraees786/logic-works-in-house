@@ -107,7 +107,7 @@ include("includes/header.php");
                     <p class="text-logo">As a Real Estate App Development Company Dubai, our Dubai real estate app
                         developers build property solutions to secure data and enhance seamless interactions.</p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -400,7 +400,7 @@ include("includes/header.php");
                                                             property seekers.</p>
 
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -431,7 +431,7 @@ include("includes/header.php");
                                                             experienced reliable growth in both visits and qualified
                                                             rental leads.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -464,7 +464,7 @@ include("includes/header.php");
                                                             its stance within its niche and sustained consistent
                                                             expansion.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -496,7 +496,7 @@ include("includes/header.php");
                                                             company secured visibility aligned with its long-term
                                                             objectives.</p>
 
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

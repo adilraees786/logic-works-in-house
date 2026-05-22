@@ -22,7 +22,7 @@ include("includes/header.php");
                     <p class="text-white">As a leading Instagram Advertising Agency Dubai, we craft reliable digital marketing pathways, safeguarding data, building user confidence, and helping brands engage audiences through secure, effective, and results-driven Instagram campaigns.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -117,7 +117,7 @@ include("includes/header.php");
                                                         <!-- <p class="text-white">Our guidance as an experienced SEO
                                                             consultant helped the business reach customers more
                                                             effectively and create a steady stream of orders.</p>
-                                                        <a href="#0">EXPLORE IT</a> -->
+                                                         <!-- <a href="#0">EXPLORE IT</a> --> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -142,7 +142,7 @@ include("includes/header.php");
                                                         <!-- <p class="text-white">Our consultants provided strategies that
                                                             supported consistent growth in both visibility and customer
                                                             inquiries over time.</p>
-                                                        <a href="#0">EXPLORE IT</a> -->
+                                                         <!-- <a href="#0">EXPLORE IT</a> --> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -167,7 +167,7 @@ include("includes/header.php");
                                                         <!-- <p class="text-white">Using our SEO consultancy we positioned
                                                             them strongly in the market with their niche and kept growth
                                                             measurable and sustainable for long-term success</p>
-                                                        <a href="#0">EXPLORE IT</a> -->
+                                                         <!-- <a href="#0">EXPLORE IT</a> --> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -193,7 +193,7 @@ include("includes/header.php");
                                                             supported bookings and improved brand visibility. These
                                                             efforts created growth aligned with their business goals.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a> -->
+                                                         <!-- <a href="#0">EXPLORE IT</a> --> -->
                                                     </div>
                                                 </div>
                                             </div>

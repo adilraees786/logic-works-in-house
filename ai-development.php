@@ -78,7 +78,7 @@ include('includes/header.php');
                     <p class="ai-para fs-20 ">Build smart tools and intelligent applications using AI development services in Dubai. Logic Works helps businesses leverage artificial intelligence to automate processes, improve decision-making, and drive scalable digital transformation with reliable, future-ready AI solutions.
                     </p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
@@ -515,7 +515,7 @@ Trusted by 8,000+ Businesses to Build Smarter AI Solutions in Dubai
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>
@@ -609,7 +609,7 @@ Trusted by 8,000+ Businesses to Build Smarter AI Solutions in Dubai
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

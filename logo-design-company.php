@@ -100,7 +100,7 @@ include("includes/header.php");
                     <p class="text-white">Logo Design Company focused on clean, modern, and effective logo solutions.
                     </p>
                     <div class="seo-btn">
-                        <a href="#">Live Chat</a>
+                       <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>
@@ -297,12 +297,12 @@ include("includes/header.php");
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="device-content text-center">
-                                        <img src="assests/images/logo-design-company/slider--01.webp" alt="process-03">
+                                        <img src="assests/images/logo-design-company/slider--02.webp" alt="process-03">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="device-content text-center">
-                                        <img src="assests/images/logo-design-company/slider--01.webp" alt="process-04">
+                                        <img src="assests/images/logo-design-company/slider--03.webp" alt="process-04">
                                     </div>
                                 </div>
                             </div>
@@ -514,8 +514,7 @@ include("includes/header.php");
     <?php
     include("includes/clint-review.php");
     ?>
-    <section class="logotab-sec section-bg pt-b-80 logo-company-process"
-        style="background-image: url(assests/images/logo-design-company/section-bg-last.webp);">
+    <section class="logotab-sec section-bg pt-b-80 logo-company-process">
         <div class="container" style="display: block;">
             <div class="row">
                 <div class="col">
@@ -634,7 +633,7 @@ include("includes/header.php");
 
             <div class="row justify-content-space-between faq-home faq-logo-deisgn">
                 <div class="col">
-                    <h2 class="text-white"><span>Frequently </span>Asked Questions</h2>
+                <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
                     <div class="faqss">
                         <div class="quwstion">
                             <button class="accordions">What logo design services do you offer?</button>
@@ -676,199 +675,6 @@ include("includes/header.php");
                 </div>
             </div>
 
-            <section class="animated-row section new-york-hire constructionpage_custom_faqs_section pt-b-80"
-                id="hireobserverID">
-                <div class="bg-white-heading-custom">
-                    <div class="container">
-                        <div class="row white-bg-heading-custom-row">
-                            <div class="col-md-12">
-                                <h2 class="section-title"><span>Questionnaire</span> Section&nbsp;</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <nav id="sidenavcustomnavccnav" class="sidenavcustomnavccnav">
-                                <ul class="faq_section">
-                                    <li><a href="#section-1" class="hire-tabs current" id="currentIDRRRRRRR">How Our
-                                            Logo Designs Shape Industry Trends?</a></li>
-                                    <li><a href="#section-2" class="hire-tabs">How We Create Logos That Capture Your
-                                            Vision?</a></li>
-                                    <li><a href="#section-3" class="hire-tabs">The Impact of Strong Logo Design on
-                                            Brands?</a></li>
-                                    <li><a href="#section-4" class="hire-tabs">How Our Process Delivers Unique Brand
-                                            Identities?</a></li>
-                                    <li><a href="#section-5" class="hire-tabs">Why Our Logo Design Approach Stands Above
-                                            Others?</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-stick">
-                            <main>
-                                <section class="sec-info" id="section-1">
-                                    <h2>How Our Logo Designs Shape Industry Trends?</h2>
-                                    <ul>
-                                        <p>We stay updated with the latest design trends. Our team blends creativity
-                                            with market insights. We ensure each logo feels modern and relevant. Strong
-                                            branding helps businesses grow and stand out. We use timeless design
-                                            elements for lasting appeal. Our process includes research and innovation.
-                                            We create logos that influence industry standards. Your brand stays ahead
-                                            with our strategic approach.</p>
-                                    </ul>
-                                </section>
-                                <section class="sec-info" id="section-2">
-                                    <h2>How We Create Logos That Capture Your Vision?
-                                    </h2>
-                                    <ul>
-                                        <p>We start by understanding your brand values. Our team listens to your ideas
-                                            carefully. Based on your input, we sketch multiple concepts. Every design
-                                            reflects your business identity. We refine and improve based on feedback.
-                                            Colors, fonts, and symbols are chosen wisely. The final logo aligns
-                                            perfectly with your vision. Your brand gets a unique and meaningful
-                                            identity.</p>
-                                    </ul>
-                                </section>
-                                <section class="sec-info" id="section-3">
-                                    <h2>The Impact of Strong Logo Design on Brands?</h2>
-                                    <ul>
-                                        <p>An excellent logo enables consumers to instantly recognize brand identity.
-                                            The company establishes trust bonds with customers and gains their
-                                            credibility. An effective brand naming system helps businesses draw in more
-                                            possible clients. When logos are strategically designed, they create brand
-                                            distinctiveness in the market. The logo produces enduring visual effects for
-                                            audience members. A unique design strengthens brand loyalty over time.
-                                            Investing in a strong logo leads to business growth.</p>
-                                    </ul>
-                                </section>
-                                <section class="sec-info" id="section-4">
-                                    <h2>How Our Process Delivers Unique Brand Identities?</h2>
-                                    <ul>
-                                        <p>We research your industry and competitors first. This helps us create a
-                                            strong brand identity. Our designs are customized to match your business. We
-                                            refine every detail for maximum impact. The goal is to make your brand
-                                            memorable. We ensure your logo works across all platforms. Every step
-                                            focuses on creativity and strategy. Your logo will be both modern and
-                                            timeless.
-                                        </p>
-                                    </ul>
-                                </section>
-                                <section class="sec-info" id="section-5">
-                                    <h2>Why Our Logo Design Approach Stands Above Others?</h2>
-                                    <ul>
-                                        <p>We prioritize originality in every design. Our logo design agency focuses on
-                                            quality over quantity. Every logo is crafted with purpose and precision. We
-                                            involve clients in every step. Our style is a combination of creativity and
-                                            strategy. Details are taken care of in order to have a perfect final design.
-                                            We polish till you are fully contented. Your brand gets a professional and
-                                            impactful logo.
-                                        </p>
-                                    </ul>
-                                </section>
-                            </main>
-                        </div>
-
-                        <!-- <div class="row justify-content-space-between our-case-section">
-                            <div class="col">
-                                <h2 class="text-center text-white">Clients Reveal Why They Trust Logic Works For
-                                    <span>Their Logos</span>
-                                </h2>
-                                <p class="text-white text-center">Clients trust Logic Works for their logos because of
-                                    our creativity, reliability, and commitment to delivering designs that truly
-                                    represent their brand.</p>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-space-between slider-reviews">
-                            <div class="col-lg-5 col-md-6">
-                                <div class="text-start reive-images">
-                                    <img src="assests/images/Goodfirms.webp">
-                                    <img src="assests/images/Trust.webp">
-                                    <img src="assests/images/Clutch.webp">
-                                    <img src="assests/images/Bark.webp">
-                                </div>
-                                <div class="live-chat-btns">
-                                    <a href="#" class="live-chats">Live Chat</a>
-                                    <a href="#" id="openPopup">Get A Quote</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-6">
-                                <div class="main-vertical-slide">
-                                    <div class="testi-mainn">
-                                        <div class="tesi-roww">
-                                            <div class="col-lg-4 col-md-6 testi-img"><img
-                                                    src="assests/images/portfolio/people-2.png"></div>
-                                            <div class="col-lg-8 col-md-6 testi-txt">
-                                                <h4 class="text-white">Omar Hassan</h4>
-                                                <h6 class="text-white">Manager</h6>
-                                                <img src="assests/images/start-revews.png">
-                                                <p class="text-white">Logic Works developed an effective digital
-                                                    marketing strategy that yielded positive results for our company. We
-                                                    saw a significant increase in our brand exposure and received many
-                                                    more potential customers. Understanding our needs was given
-                                                    priority, resulting in a substantial impact.</p>
-                                            </div>
-                                        </div>
-                                        <div class="tesi-roww">
-                                            <div class="col-lg-4 col-md-6 testi-img"><img
-                                                    src="assests/images/reviews-001.jpg"></div>
-                                            <div class="col-lg-8 col-md-6 testi-txt">
-                                                <h4 class="text-white">Jade Thompson</h4>
-                                                <h6 class="text-white">Creative Manager, Givingli</h6>
-                                                <img src="assests/images/start-revews.png">
-                                                <p class="text-white">Logic Works transformed our online presence. Their
-                                                    team is responsive and truly understands our needs. Highly recommend
-                                                    it!</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="tesi-roww">
-                                            <div class="col-lg-4 col-md-6 testi-img"><img
-                                                    src="assests/images/Layer-525.png"></div>
-                                            <div class="col-lg-8 col-md-6 testi-txt">
-                                                <h4 class="text-white">David Kim</h4>
-                                                <h6 class="text-white">Owner, Babbage</h6>
-                                                <img src="assests/images/start-revews.png">
-                                                <p class="text-white">The custom app they developed exceeded our
-                                                    expectations! Their creativity and professionalism made the entire
-                                                    process seamless.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="tesi-roww">
-                                            <div class="col-lg-4 col-md-6 testi-img"><img
-                                                    src="assests/images/people-3.png"></div>
-                                            <div class="col-lg-8 col-md-6 testi-txt">
-                                                <h4 class="text-white">Emily Carter</h4>
-                                                <h6 class="text-white">John Rousey</h6>
-                                                <img src="assests/images/start-revews.png">
-                                                <p class="text-white">Working with Logic Works was a game-changer for
-                                                    us. Their insights and strategies helped us grow our business
-                                                    exponentially!</p>
-                                            </div>
-                                        </div>
-                                        <div class="tesi-roww">
-                                            <div class="col-lg-4 col-md-6 testi-img"><img
-                                                    src="assests/images/portfolio/people-5.png"></div>
-                                            <div class="col-lg-8 col-md-6 testi-txt">
-                                                <h4 class="text-white">Michael Smith</h4>
-                                                <h6 class="text-white">Quality Assurance</h6>
-                                                <img src="assests/images/start-revews.png">
-                                                <p class="text-white">We are incredibly pleased with the fantastic app
-                                                    Logic Works created for us. It fulfills the requirements of all our
-                                                    users, and they adore it. The team was comprehensive and introduced
-                                                    new ideas to the discussion.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-
-                    </div>
-
-            </section>
 
 </main>
 

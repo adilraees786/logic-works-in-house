@@ -103,7 +103,7 @@ include("includes/header.php");
                         Enterprise App Development specialists to shield information and enable business interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -397,7 +397,7 @@ include("includes/header.php");
                                                             the brand expanded its digital footprint and delivered a
                                                             streamlined operational experience for returning clients.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -428,7 +428,7 @@ include("includes/header.php");
                                                             Enterprise App Development Agency Dubai, the firm recorded
                                                             consistent growth in engagement and qualified enterprise
                                                             leads.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -458,7 +458,7 @@ include("includes/header.php");
                                                         <p class="text-white">Supported by iOS & Android enterprise app
                                                             specialists UAE, the platform clarified its operational
                                                             value and sustained long-term growth.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -490,7 +490,7 @@ include("includes/header.php");
                                                             achieved exposure aligned with its operational growth
                                                             strategy.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

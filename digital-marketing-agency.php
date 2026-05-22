@@ -98,7 +98,7 @@ include("includes/header.php");
                     </ul>
 
                     <div class="live-chat-btns">
-                        <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
+                        <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec mt-30"> -->
@@ -140,7 +140,7 @@ include("includes/header.php");
                     <h2 class="text-white same-all spe">Accelerate Your Brand’s Digital Growth with Digital Marketing Services in Dubai</h2>
                     <p class="text-white">Logic Works is a results-driven digital marketing agency Dubai brands trust to accelerate sustainable growth. Our professional marketing strategies improve search rankings through SEO, increase click-through rates with precision-led PPC, and boost engagement across social media platforms. Every campaign is designed to attract high-quality traffic and convert leads into loyal customers. As a performance-focused digital marketing firm, we continuously optimize campaigns using real-time data and insights. Our team builds trust, strengthens brand visibility, and delivers measurable growth that drives long-term revenue.</p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                        <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>
@@ -372,8 +372,8 @@ include("includes/header.php");
                     <p class="text-white">Find Out how our custom marketing strategies can boost your online presence
                         and drive real business growth. Let's achieve success together.</p>
                     <div class="main-tow-btn">
-                        <a href="tel:+971529502258">Get A Quote</a>
-                        <a href="#" id="openPopup">Discuss Your Project</a>
+                        <a href="#" id="openPopup">Get A Quote</a>
+                        <a href="https://wa.me/971529502258" target="_blank">Discuss Your Project</a>
                     </div>
                 </div>
 
@@ -495,8 +495,8 @@ include("includes/header.php");
             <div class="row digit-lasrt-row">
                 <div class="col text-center">
                     <div class="digital-btn">
-                        <a href="#">Get Started</a>
-                          <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
+                        <a href="#" id="openPopup">Get Started</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     </div>
                 </div>
             </div>
@@ -526,7 +526,7 @@ include("includes/header.php");
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

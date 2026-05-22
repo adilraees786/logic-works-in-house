@@ -104,7 +104,7 @@ include("includes/header.php");
                     <p class="text-logo">As an Automotive App Development Agency, we engineer reliable automotive applications with UAE mobile app experts to safeguard vehicle data and enable seamless user interactions.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -371,7 +371,7 @@ include("includes/header.php");
                                                         <h2 class="text-white">Luxury Car Dealership</h2>
                                                         <p class="text-white same-all-para">A premium dealership struggled with inconsistent digital engagement. Our Automotive App Development Company Dubai team reimagined the inventory flow, optimized load speeds, and refined user navigation. Test drive bookings and inquiries climbed steadily as clients explored vehicles more intuitively.</p>
                                                         <p class="text-white">Guided by our UAE automotive app developers, the brand expanded its mobile presence and delivered a seamless purchasing journey for repeat customers.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -394,7 +394,7 @@ include("includes/header.php");
                                                         <h2 class="text-white">Car Rental Platform</h2>
                                                         <p class="text-white same-all-para">A vehicle rental operator required enhanced mobile visibility. Our Dubai automotive app developers streamlined listing displays, improved map interactions, and strengthened local discovery. Reservations increased as users located cars faster.</p>
                                                         <p class="text-white">Through strategies crafted by Automotive App Development Services Dubai, the platform experienced steady growth in traffic and confirmed rentals.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -417,7 +417,7 @@ include("includes/header.php");
                                                         <h2 class="text-white">Fleet Management SaaS</h2>
                                                         <p class="text-white same-all-para">A fleet SaaS provider faced low adoption in a competitive sector. We restructured the dashboard, enhanced search algorithms, and implemented features compliant with Automotive Mobile App Development Dubai standards. Driver sign-ups and retention improved significantly.</p>
                                                         <p class="text-white">Backed by iOS & Android automotive app developers UAE, the solution secured a clear niche positioning and sustainable growth.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -441,7 +441,7 @@ include("includes/header.php");
                                                         <p class="text-white same-all-para">An EV-focused startup needed better seasonal traction. Our Automotive App Development Agency Dubai team optimized vehicle catalogues, polished app responsiveness, and amplified discoverability. The app captured higher peak-season activity and year-round engagement.</p>
                                                         <p class="text-white">With continued support from our enterprise mobility solutions UAE specialists, the company achieved visibility that aligned with its long-term objectives.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

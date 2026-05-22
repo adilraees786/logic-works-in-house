@@ -144,7 +144,7 @@ include("includes/header.php");
                     <p class="text-white">Our B2B marketing services drive qualified leads, strengthen brand authority,
                         and accelerate consistent business growth.</p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -494,7 +494,7 @@ include("includes/header.php");
                                                             Strategic content attracted plant managers facing
                                                             operational inefficiencies, reducing sales cycle length by
                                                             34%.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -519,7 +519,7 @@ include("includes/header.php");
                                                             increased demo requests by 156%. Video testimonials from
                                                             existing clients built credibility with warehouse directors
                                                             evaluating new systems.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -544,7 +544,7 @@ include("includes/header.php");
                                                             IT directors concerned about data breaches. Campaigns
                                                             generated 89 qualified meetings while establishing the firm
                                                             as an industry authority in network security.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -570,7 +570,7 @@ include("includes/header.php");
                                                             Email sequences addressed common payroll challenges,
                                                             improving conversion rates and reducing acquisition costs by
                                                             41%.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -660,7 +660,7 @@ include("includes/header.php");
                             <img src="assests/images/Bark.webp">
                         </div>
                         <div class="live-chat-btns">
-                            <a href="#" class="live-chats">Live Chat</a>
+                              <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
                         </div>
                     </div>

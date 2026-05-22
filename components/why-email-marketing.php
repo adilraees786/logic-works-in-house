@@ -213,7 +213,7 @@
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
-                    <a href="#" class="btn btn-purple-email">Get Started</a>
+                    <a href="#" id="openPopup" class="btn btn-purple-email">Get Started</a>
                 </div>
             </div>
         </div>

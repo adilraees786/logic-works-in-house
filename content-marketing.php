@@ -133,7 +133,7 @@ include("includes/header.php");
                     </p>
 <p class="text-white">Our team combines creativity, SEO expertise, and performance tracking to deliver content that ranks, resonates, and converts across every digital channel.</p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                        <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
@@ -175,7 +175,7 @@ include("includes/header.php");
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="suces-content">
-                                            <div class="suces-date">March 25 / 2025</div>
+                                            <!-- <div class="suces-date">March 25 / 2025</div> -->
                                             <h3 class="text-center">Blog and Article Writing</h3>
                                             <p class="text-center">Well-researched articles that rank in search engines
                                                 and solve customer questions. Content covers buyer needs at the
@@ -198,7 +198,7 @@ include("includes/header.php");
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="suces-content">
-                                            <div class="suces-date">March 25 / 2025</div>
+                                            <!-- <div class="suces-date">March 25 / 2025</div> -->
                                             <h3 class="text-center">Video Content Marketing</h3>
                                             <p class="text-center">Engaging video content that explains complex topics
                                                 and builds trust. Scripts focus on customer problems and practical
@@ -222,7 +222,7 @@ include("includes/header.php");
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="suces-content">
-                                            <div class="suces-date">March 25 / 2025</div>
+                                            <!-- <div class="suces-date">March 25 / 2025</div> -->
                                             <h3 class="text-center">Email Marketing Campaigns</h3>
                                             <p class="text-center">Strategic email series guides prospects through their
                                                 buying process. Messages are grouped based on subscriber actions and
@@ -246,7 +246,7 @@ include("includes/header.php");
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="suces-content">
-                                            <div class="suces-date">March 25 / 2025</div>
+                                            <!-- <div class="suces-date">March 25 / 2025</div> -->
                                             <h3 class="text-center">SEO Content Writing</h3>
                                             <p class="text-center">Our SEO content writing services in Dubai are designed to help your website rank higher while delivering real value to readers. We create search-optimized content that aligns with user intent, brand voice, and Google’s latest guidelines. From keyword research to final publishing, every piece is written to attract qualified traffic and drive measurable results.
                                 

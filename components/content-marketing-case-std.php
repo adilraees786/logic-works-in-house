@@ -240,10 +240,7 @@
                         <div class="card-body">
                             <h5 class="card-title">${s.title}</h5>
                             <p class="card-text">${s.desc}</p>
-                            <div class="d-flex gap-2">
-                                <button class="btn btn-outline-light btn-sm btn-purple">View Case Study</button>
-                                <button class="btn btn-light btn-sm btn-purple">Get a Quote</button>
-                            </div>
+                         
                         </div>
                     </div>
                 </div>

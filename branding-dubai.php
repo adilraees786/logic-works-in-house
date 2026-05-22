@@ -253,7 +253,7 @@ include("includes/header.php");
                                                                     unique route that results in progress and makes it
                                                                     visible.
                                                                 <p>
-                                                                    <a href="#0">EXPLORE IT</a>
+                                                                     <!-- <a href="#0">EXPLORE IT</a> -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -283,7 +283,7 @@ include("includes/header.php");
                                                                     that your brand personality reflects both being
                                                                     up-to-date and having power, thus making a lasting
                                                                     impression at each interaction.
-                                                                    <a href="#0">EXPLORE IT</a>
+                                                                     <!-- <a href="#0">EXPLORE IT</a> -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -314,7 +314,7 @@ include("includes/header.php");
                                                                     aesthetic appeal, thus making your brand loyal and
                                                                     classically contemporary at the same time.
                                                                 <p>
-                                                                    <a href="#0">EXPLORE IT</a>
+                                                                     <!-- <a href="#0">EXPLORE IT</a> -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -345,7 +345,7 @@ include("includes/header.php");
                                                                     your brand to the next level of recognition, being
                                                                     trusted, and attaining measurable outcomes.
                                                                 <p>
-                                                                    <a href="#0">EXPLORE IT</a>
+                                                                     <!-- <a href="#0">EXPLORE IT</a> -->
                                                             </div>
                                                         </div>
                                                     </div>

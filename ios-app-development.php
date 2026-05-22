@@ -201,7 +201,7 @@ include("includes/header.php");
 
                     <p class="text-white">We understand what it takes to succeed on the App Store. From startups to enterprises, our team designs apps that solve real problems, deliver strong performance, and offer a clean user experience. With Logic Works, your app is built to stand out and perform.</p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

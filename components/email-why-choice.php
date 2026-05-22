@@ -303,7 +303,7 @@
 
                     <!-- CTA Section moved inside image container -->
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
 
                     </div>

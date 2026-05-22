@@ -138,7 +138,7 @@ include("includes/header.php");
                         strategies.
                     </p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
@@ -443,7 +443,7 @@ include("includes/header.php");
                 <div class="col text-center">
                     <div class="digital-btn">
                         <a href="#">Get Started</a>
-                          <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
+                     <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     </div>
                 </div>
             </div>
@@ -470,7 +470,7 @@ include("includes/header.php");
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

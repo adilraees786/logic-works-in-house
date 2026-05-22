@@ -92,7 +92,7 @@ include("includes/header.php");
                         <p class=" text-start feature-card-text text-white">Businesses trust us for our ability to
                             deliver industry-grade apps, websites, and full-scale marketing services.</p>
                         <div>
-                            <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
+                            <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup" style="color: #fff;">Get A Quote</a>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ include("includes/header.php");
                 <div class="sub-contetn our-idea">
                         <h2 class="robo-font text-start">OUR IDEA?</h2>
                         <div class="px-5">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup" style="color: #fff;">Get A Quote</a>
                     </div>
                     </div>                    
@@ -837,13 +837,13 @@ include("includes/header.php");
                 <h2 class="robo-font text-start callout-title">We Build Your Complete Digital Arsenal!</h2>
                 <p class="text-start feature-card-text">We help startups and growing businesses maximize their potential
                     and look beyond barriers with our extensive digital toolbox designed for expansion! Our main goal is
-                    to enhance your online visibility by utilizing SEO and PPC strategies, which have the potential to
+                    to enhance your online visibility by utilizing <a href="<?php echo $base_url; ?>seo-company">SEO</a> and <a href="<?php echo $base_url; ?>ppc-marketing-company">PPC</a> strategies, which have the potential to
                     elevate your website traffic by a significant 50%. Our attractive website layouts convert occasional
                     visitors into dedicated clients, and our captivating content promotion encourages your audience to
                     return regularly. Through successful email marketing, you have the ability to improve customer
                     connections and potentially boost sales by 20%</p>
                 <div class="live-chat-btns">
-                    <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
+                    <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
@@ -949,7 +949,7 @@ include("includes/header.php");
                         <h4 class="heading-six">Video <br>Animation</h4>
                     </div>
                     <div class="offer-box-content">
-                        <p>Stunning video animation that captures attention. Through our creative team video production,
+                        <p>Stunning <a href="<?php echo $base_url; ?>video-animation">video animation</a> that captures attention. Through our creative team video production,
                             we create engaging videos that help communicate your brand message and provide great value
                             to your online marketing.</p>
                     </div>
@@ -965,7 +965,7 @@ include("includes/header.php");
                         <h4 class="heading-six">UI/UX <br>Design</h4>
                     </div>
                     <div class="offer-box-content">
-                        <p>We will help optimize your digital experience with our UI/UX design service. We provide a
+                        <p>We will help optimize your digital experience with our <a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI/UX design service</a>. We provide a
                             professional and attractive looking user interface.</p>
                     </div>
                 </div>
@@ -999,7 +999,7 @@ include("includes/header.php");
                         <h4 class="heading-six">Web <br>Development</h4>
                     </div>
                     <div class="offer-box-content">
-                        <p>Our web development services transform your online presence. We aim to build responsive and
+                        <p>Our <a href="<?php echo $base_url; ?>web-development-agency">web development services</a> transform your online presence. We aim to build responsive and
                             user-friendly websites that bring unique value to our customers, engaging and converting
                             them.</p>
                     </div>
@@ -1305,7 +1305,7 @@ include("includes/header.php");
                         target="_blank"><img src="assests/images/Bark.webp"></a>
                 </div>
                 <div class="live-chat-btns ct-btn">
-                    <a href="javascript:void(0)" onclick="openTawkChat()" class="live-chats">Live Chat</a>
+                    <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
@@ -1397,7 +1397,7 @@ include("includes/header.php");
                     technologies,
                     our CEO has been instrumental in shaping the company’s trajectory towards industry-leading
                     solutions
-                    in app development, web technologies, and full-scale marketing services.</p>
+                    in <a href="<?php echo $base_url; ?>app-development-agency">app development</a>, web technologies, and full-scale marketing services.</p>
                 <p class="text-start feature-card-text" style="font-size:16px; color:#fff;">A firm believer in
                     AI-driven
                     automation and next-gen digital experiences, Salman Waria envisions a world where businesses
@@ -1510,7 +1510,7 @@ include("includes/header.php");
                     <h5>Commitment to Quality</h5>
 
                     <p>For every project, we deliver excellence, guaranteeing both satisfaction and results. We follow
-                        industry best practices in digital marketing, web development, and app design so our clients get
+                        industry best practices in <a href="<?php echo $base_url; ?>digital-marketing-agency">digital marketing</a>, web development, and app design so our clients get
                         extraordinary results.</p>
 
                 </div>

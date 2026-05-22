@@ -264,7 +264,7 @@ include("includes/header.php");
         </div>
         <div class="col-lg-6">
           <div class="seo-btn justify-content-center">
-            <a href="#">Live Chat</a>
+            <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
             <a href="#" id="openPopup">Get A Quote</a>
           </div>
         </div>
@@ -541,7 +541,7 @@ include("includes/header.php");
           <div class="d-flex align-items-end gap-10 pb-20">
             <img id="processImage" src="./assests/images/2d-animation/our-process-right.webp" alt="our-process-right-imAGE">
             <!-- <div class="seo-btn d-flex flex-column justify-content-center">
-              <a href="#">Live Chat</a>
+             <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
               <a href="#" id="openPopup">Get A Quote</a>
             </div> -->
           </div>
@@ -559,7 +559,7 @@ include("includes/header.php");
 
 
   <!-- slider -->
-  <section class="section-bg port-web" id="port-web">
+  <!-- <section class="section-bg port-web" id="port-web">
     <div class="container" style="display: block;">
       <p class="why-choice-2d text-white text-center fs-52 fw-900" style="line-height: 1.2;">Check Out Our Creative
         Portfolio</p>
@@ -620,7 +620,7 @@ include("includes/header.php");
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <?php
   include("includes/clint-review.php");
   ?>
@@ -696,7 +696,7 @@ include("includes/header.php");
             <img src="assests/images/Bark.webp">
           </div>
           <div class="live-chat-btns">
-            <a href="#" class="live-chats">Live Chat</a>
+              <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
             <a href="#" id="openPopup">Get A Quote</a>
           </div>
         </div>

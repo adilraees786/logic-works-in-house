@@ -157,7 +157,7 @@ include("includes/header.php");
                     <h1 class="text-white">Professional <span>Email Marketing</span> Agency in Dubai for Business Growth</h1>
                     <p class="text-white">As a results-driven email marketing agency in Dubai, Logic Works helps brands connect, convert, and retain customers through data-backed email strategies. We design targeted email campaigns that increase open rates, improve click-through performance, and build long-term customer relationships. Our team blends personalization, automation, and analytics to deliver measurable growth for businesses across Dubai and beyond.</p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

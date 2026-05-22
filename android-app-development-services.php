@@ -85,7 +85,7 @@ include("includes/header.php");
                         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
@@ -403,7 +403,7 @@ include("includes/header.php");
             </div>
             <!-- <div class="service-btn">
                 <div class="live-chat-btns">
-                    <a href="#" class="live-chats">Live Chat</a>
+                      <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div> -->
@@ -729,7 +729,7 @@ include("includes/header.php");
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

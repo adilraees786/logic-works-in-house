@@ -44,7 +44,7 @@ include("includes/header.php");
                         data-driven
                         PPC management.</p>
                     <div class="seo-btn specbtn pb-40">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

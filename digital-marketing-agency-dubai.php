@@ -57,7 +57,7 @@ include("includes/header.php");
                         strategies tailored to Dubai's dynamic market. From SEO to social media, we help your business
                         stand out and grow in the competitive digital landscape.</p>
                     <div class="seo-btn specbtn pb-40">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -282,7 +282,7 @@ include("includes/header.php");
                 <div class="col text-center">
                     <div class="digital-btn">
                         <a href="#">Get Started</a>
-                          <a href="javascript:void(0)" onclick="openTawkChat()">Live Chat</a>
+                     <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     </div>
                 </div>
             </div>

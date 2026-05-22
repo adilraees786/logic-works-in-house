@@ -316,7 +316,7 @@ include("includes/header.php");
                             Your store launches with clarity, scales without friction, and supports long-term sales
                             without constant fixes or rework.</p>
                         <div class="seo-btn">
-                            <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                            <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                                 <span class="link-effect">
                                     <span class="effect-1">Live Chat</span>
                                     <span class="effect-1">Live Chat</span>

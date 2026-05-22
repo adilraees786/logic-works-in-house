@@ -59,7 +59,7 @@ include("includes/header.php");
                             100+ businesses successful with data-driven marketing strategies, expert insights, and
                             measurable growth.</p>
                         <div class="seo-btn specbtn">
-                            <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                            <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                                 <span class="link-effect">
                                     <span class="effect-1">Live Chat</span>
                                     <span class="effect-1">Live Chat</span>
@@ -535,7 +535,7 @@ include("includes/header.php");
                                                             data-driven SEO consultancy, improving rankings by 42%.
                                                             Sales increased by 35%, and abandoned carts dropped
                                                             significantly.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -560,7 +560,7 @@ include("includes/header.php");
                                                             but poor conversion rates. Logic Works analyzed user
                                                             behavior and suggested changes. With optimized CTAs and
                                                             landing pages, conversions grew by 28% in three months.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -585,7 +585,7 @@ include("includes/header.php");
                                                             and a strong identity. Logic Works refined messaging and
                                                             positioning. Customer engagement increased by 47%, and brand
                                                             recall improved, leading to a stronger market presence.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -611,7 +611,7 @@ include("includes/header.php");
                                                             precise targeting strategies. Click-through rates increased
                                                             by 31%, and customer acquisition costs dropped by 22%,
                                                             maximizing ad efficiency.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -684,7 +684,7 @@ include("includes/header.php");
                             <img src="assests/images/Bark.webp">
                         </div>
                         <div class="live-chat-btns">
-                            <a href="#" class="live-chats">Live Chat</a>
+                              <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
                         </div>
                     </div>

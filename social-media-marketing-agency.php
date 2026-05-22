@@ -92,7 +92,7 @@ include("includes/header.php");
                     <p class="text-white">Logic Works provides results-driven social media marketing agency in Dubai, helping businesses across the UAE build meaningful connections that convert followers into customers.</p>
 
                     <div class="seo-btn">
-                        <a class="btn bg-theme text-title" href="javascript:void(0)" onclick="openTawkChat()">
+                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>
@@ -135,7 +135,7 @@ include("includes/header.php");
                         <p class="text-center">Professional social media marketing services in Dubai enable businesses to build trust, increase engagement, and drive qualified traffic to their websites. From awareness campaigns to conversion-focused strategies, our data-driven approach ensures consistent growth, higher interaction rates, and measurable ROI. Strategic social media campaigns consistently outperform traditional marketing methods, making SMM a critical component of sustainable business success in today’s competitive digital landscape.</p>
                        
 
-                        <a href="#" class="text-center">START NOW!</a>
+                        <a href="#" id="openPopup" class="text-center">START NOW!</a>
                     </div>
                 </div>
             </div>
@@ -601,7 +601,7 @@ include("includes/header.php");
                             <img src="assests/images/Bark.webp">
                         </div>
                         <div class="live-chat-btns">
-                            <a href="#" class="live-chats">Live Chat</a>
+                              <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup">Get A Quote</a>
                         </div>
                     </div>

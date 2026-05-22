@@ -2,13 +2,26 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'phpmailer/vendor/autoload.php';
+require __DIR__ . '/phpmailer/vendor/autoload.php';
+
+if (!function_exists('phpmailer_configure_smtp')) {
+    function phpmailer_configure_smtp(PHPMailer $mail): void
+    {
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'production@eliteprowebsite.com';
+        $mail->Password   = 'dpcc kqpf atqd aupm';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
+        $mail->CharSet    = PHPMailer::CHARSET_UTF8;
+    }
+}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // ================== UPDATED RECAPTCHA VERIFY (Added: 2026-02-11) ==================
-    // This section verifies the reCAPTCHA response using CURL for better reliability.
-    $secretKey = "6LfxcVgsAAAAAFRsXRAD2mLb2HDibR1WdS8nJke1"; 
+    $secretKey = "6LfxcVgsAAAAAFRsXRAD2mLb2HDibR1WdS8nJke1";
 
     if (empty($_POST['g-recaptcha-response'])) {
         header("Location: contact-us.php?captcha=empty");
@@ -16,8 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     $recaptchaResponse = $_POST['g-recaptcha-response'];
-    
-    // Using CURL for more reliable request
+
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
     curl_setopt($ch, CURLOPT_POST, 1);
@@ -28,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $response = curl_exec($ch);
     curl_close($ch);
-    
+
     $captchaSuccess = json_decode($response);
 
     if (!$captchaSuccess->success) {
@@ -40,18 +52,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = new PHPMailer(true);
 
     try {
-        $mail->isSMTP();
-        $mail->Host       = 'smtp.hostinger.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'admin@logicworks.ae';
-        $mail->Password   = 'Xyzxyz123$@';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port       = 587;
+        phpmailer_configure_smtp($mail);
 
-        $mail->setFrom('admin@logicworks.ae', 'Logic Works');
+        $replyName  = isset($_POST['name']) ? trim((string) $_POST['name']) : '';
+        $replyEmail = isset($_POST['email']) ? trim((string) $_POST['email']) : '';
+        if ($replyEmail !== '' && filter_var($replyEmail, FILTER_VALIDATE_EMAIL)) {
+            $mail->addReplyTo($replyEmail, $replyName);
+        }
+
+        $mail->setFrom('production@eliteprowebsite.com', 'Logic Works');
         $mail->addAddress('info@logicworks.ae');
         $mail->addAddress('officialamericandigitalusa@gmail.com');
         $mail->addBCC('production8417@gmail.com');
+        $mail->addBCC('marketing@americandigitalagency.us');
 
         $name     = htmlspecialchars($_POST['name']);
         $email    = htmlspecialchars($_POST['email']);

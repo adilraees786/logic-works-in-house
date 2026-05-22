@@ -147,7 +147,7 @@ include('includes/header.php');
                   <p class="text-white fs-16">We work with startups, agencies, and enterprises across multiple industries, delivering animations that are simple to understand, visually rich, and aligned with business goals.</p>
 
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                     <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec mt-30"> -->

@@ -22,7 +22,7 @@ include("includes/header.php");
                     <p class="text-white">We craft performance-driven campaigns using Facebook marketing services Dubai, combining strategic creatives, audience insights, and conversion-focused execution. Our goal: help brands grow, build trust, inspire clicks, spark conversations, and drive measurable results globally.
                     </p>
                     <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-tit le" href="#0">
+                        <a class="btn bg-theme text-tit le" href="https://wa.me/971529502258" target="_blank">
                             <span class="link-effect">
                                 <span class="effect-1">Live Chat</span>
                                 <span class="effect-1">Live Chat</span>

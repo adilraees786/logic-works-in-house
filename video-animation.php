@@ -108,7 +108,7 @@ include("includes/header.php");
                     <p class="text-white">Looking for video animation services in Dubai that truly connect with your audience? We create visually compelling animated videos that simplify your message, boost engagement, and strengthen brand recall. From startups to established enterprises, our animation video services in Dubai help brands communicate clearly and convert faster.</p>
                     <p class="text-white">Our team delivers creative, story-driven animations designed to support marketing, training, product launches, and digital campaigns without complexity or delays.</p>
                     <div class="seo-btn">
-                        <a href="#">Live Chat</a>
+                       <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                         <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec"> -->
 
@@ -585,7 +585,7 @@ include("includes/header.php");
                     <p class="text-white video-all-para-video">We create engaging visuals that help brands stand out in competitive markets. Our video animation services in Dubai transform ideas into powerful animated stories that capture attention and communicate clearly. Every project focuses on storytelling, design, and purpose. From concept to final delivery, our animation service in Dubai ensures each animation strengthens your message and improves audience engagement. Businesses trust our animated video services in Dubai to deliver high-quality visuals that inform, inspire, and convert. Let’s turn your concepts into memorable animated experiences that drive real results.</p>
 
                     <div class="seo-btn">
-                        <a href="#">Live Chat</a>
+                       <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>
@@ -616,7 +616,7 @@ include("includes/header.php");
                         <img src="assests/images/Bark.webp">
                     </div>
                     <div class="live-chat-btns">
-                        <a href="#" class="live-chats">Live Chat</a>
+                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                         <a href="#" id="openPopup">Get A Quote</a>
                     </div>
                 </div>

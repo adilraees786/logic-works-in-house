@@ -387,7 +387,7 @@ include("includes/header.php");
                                                         <p class="text-white">With help from our UAE mobile app experts,
                                                             the brand grew its online presence. They made it easier for
                                                             repeat shoppers to buy.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                        <!--  <!-- <a href="#0">EXPLORE IT</a> --> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -416,7 +416,7 @@ include("includes/header.php");
                                                         <p class="text-white">The agency used practical strategies from
                                                             custom app development in the UAE. This led to steady growth
                                                             in traffic and qualified leads.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -446,7 +446,7 @@ include("includes/header.php");
                                                         <p class="text-white">Backed by iOS & Android developers UAE,
                                                             the product positioned itself clearly in its niche and
                                                             maintained sustainable growth.</p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -476,7 +476,7 @@ include("includes/header.php");
                                                             solutions experts, the company gained visibility that
                                                             matched its long-term goals.
                                                         </p>
-                                                        <a href="#0">EXPLORE IT</a>
+                                                         <!-- <a href="#0">EXPLORE IT</a> -->
                                                     </div>
                                                 </div>
                                             </div>

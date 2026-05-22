@@ -183,9 +183,9 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
     a.hedr-phone:before {
       content: '';
       position: absolute;
-      background-image: url(<?php echo $base_url; ?>assests/images/telephone.png) !important;
-      width: 17px;
-      height: 17px;
+      background-image: url(<?php echo $base_url; ?>assests/images/whatsapp-icon.png) !important;
+      width: 20px;
+      height: 20px;
       margin-left: -25px;
       background-size: 100% !important;
       margin-top: 4px;
