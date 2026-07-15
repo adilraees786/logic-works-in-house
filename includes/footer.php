@@ -2,14 +2,191 @@
 <!--==============================
         Footer Area
     ==============================-->
+<style>
+  footer.footer-wrapper .footer-main-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 24px;
+    row-gap: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  footer.footer-wrapper .footer-main-row > [class*="col-"] {
+    padding-top: 0;
+    flex: 1 1 0;
+    max-width: none;
+    width: auto;
+  }
+
+  footer.footer-wrapper .footer-brand-col {
+    flex: 1.4 1 220px;
+    max-width: 280px;
+  }
+
+  footer.footer-wrapper .footer-brand-col img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  footer.footer-wrapper .footer-brand-col p {
+    margin: 0;
+    max-width: 260px;
+    line-height: 1.5;
+  }
+
+  footer.footer-wrapper .footer-links-col,
+  footer.footer-wrapper .footer-contact-col {
+    flex: 1 1 140px;
+    min-width: 140px;
+  }
+
+  footer.footer-wrapper .footer-main-row h4.text-white {
+    margin-top: 0;
+    margin-bottom: 18px;
+    line-height: 1.3;
+  }
+
+  footer.footer-wrapper .footer-main-row .footer-menu-list {
+    margin: 0;
+  }
+
+  footer.footer-wrapper .footer-main-row .footer-menu-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  footer.footer-wrapper .footer-contact-col p {
+    margin: 0 0 12px;
+    line-height: 1.5;
+  }
+
+  footer.footer-wrapper .footer-contact-col p:last-child {
+    margin-bottom: 0;
+  }
+
+  footer.footer-wrapper .footer-badge-col {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 140px;
+  }
+
+  footer.footer-wrapper .footer-badge-col img {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    display: block;
+  }
+
+  footer.footer-wrapper .footer-bottom-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 16px;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  footer.footer-wrapper .footer-bottom-row > [class*="col-"] {
+    flex: 1 1 auto;
+    width: auto;
+    max-width: none;
+    padding-top: 0;
+  }
+
+  footer.footer-wrapper .footer-copy-col {
+    flex: 1 1 220px;
+  }
+
+  footer.footer-wrapper .footer-copy-col p {
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  footer.footer-wrapper .footer-legal-col {
+    flex: 1 1 220px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer.footer-wrapper .footer-legal-col .footer-menu-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin: 0;
+  }
+
+  footer.footer-wrapper .footer-legal-col .footer-menu-list li {
+    margin: 0;
+  }
+
+  footer.footer-wrapper .footer-social-col {
+    flex: 1 1 160px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  footer.footer-wrapper .footer-social-col .main-footer-socialss {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  @media (max-width: 991.98px) {
+    footer.footer-wrapper .footer-main-row > [class*="col-"] {
+      flex: 1 1 calc(50% - 24px);
+      max-width: calc(50% - 12px);
+    }
+
+    footer.footer-wrapper .footer-brand-col {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+    footer.footer-wrapper .footer-badge-col {
+      justify-content: flex-start;
+      max-width: none;
+    }
+
+    footer.footer-wrapper .footer-legal-col,
+    footer.footer-wrapper .footer-social-col {
+      justify-content: flex-start;
+    }
+
+    footer.footer-wrapper .footer-social-col .main-footer-socialss {
+      justify-content: flex-start;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    footer.footer-wrapper .footer-main-row > [class*="col-"] {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+</style>
 <footer class="footer-wrapper footer-layout3 overflow-hidden bg-smoke">
   <div class="container">
-    <div class="row justify-content-space-between">
-      <div class="col-lg-3 col-md-6">
-        <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>assests/images/head-logo.webp" style="width:180px"></a>
+    <div class="row footer-main-row">
+      <div class="col-lg-3 col-md-6 footer-brand-col">
+        <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>assests/images/head-logo.webp" alt="Logic Works"></a>
         <p>Explore the high-tech, low-life world where the lines between humanity</p>
       </div>
-      <div class="col-lg-2 col-md-6">
+      <div class="col-lg-2 col-md-6 footer-links-col">
         <h4 class="text-white">Information</h4>
         <ul class="footer-menu-list">
           <li>
@@ -38,7 +215,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-2 col-md-6">
+      <div class="col-lg-2 col-md-6 footer-links-col">
         <h4 class="text-white">Menu</h4>
         <ul class="footer-menu-list">
           <li>
@@ -57,35 +234,26 @@
               </span>
             </a>
           </li>
-          <!-- <li>
-            <a href="<?php echo $base_url; ?>blog">
-              <span class="link-effect">
-                <span class="effect-1">Blog</span>
-                <span class="effect-1">Blog</span>
-              </span>
-            </a>
-          </li> -->
         </ul>
       </div>
-      <div class="col-lg-2 col-md-6">
+      <div class="col-lg-3 col-md-6 footer-contact-col">
         <h4 class="text-white">Contact</h4>
         <p>UAE: <a href="https://wa.me/971529502258">+971 52 950 2258</a></p>
         <p>US: <a href="tel:+13109575211">+1 (310) 957-5211</a></p>
         <p>Email: <a href="mailto:info@logicworks.ae">info@logicworks.ae</a></p>
-        <!-- <p>Address : 115-0, Khalid shaban, Al Garhoud, Dubai</p> -->
       </div>
-      <div class="col-lg-3 col-md-6">
-        <a href="https://www.softwareworld.co/service/logic-works-llc-reviews/"><img
-              src="assests/images/highly-recommended.webp"
-            style="width: 120px; height: 120px; margin-top: 40px;" alt="Highly Recommended"></a>
+      <div class="col-lg-2 col-md-6 footer-badge-col">
+        <a href="https://www.softwareworld.co/service/logic-works-llc-reviews/">
+          <img src="<?php echo $base_url; ?>assests/images/highly-recommended.webp" alt="Highly Recommended">
+        </a>
       </div>
     </div>
 
-    <div class="row justify-content-space-between">
-      <div class="col-lg-6 col-md-6">
+    <div class="row footer-bottom-row">
+      <div class="col-lg-4 col-md-12 footer-copy-col">
         <p>© Logic Works 2025 - 26. All rights reserved.</p>
       </div>
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-4 col-md-6 footer-legal-col">
         <ul class="footer-menu-list">
           <li>
             <a href="#">
@@ -113,13 +281,14 @@
           </li>
         </ul>
       </div>
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-4 col-md-6 footer-social-col">
         <ul class="main-footer-socialss">
           <li><a href="https://www.instagram.com/logicworks.ae/" target="_blank"><img
-                src="<?php echo $base_url; ?>assests/images/instagram.png"></a></li>
+                src="<?php echo $base_url; ?>assests/images/instagram.png" alt="Instagram"></a></li>
           <li><a href="https://www.facebook.com/LogicWorksae" target="_blank"><img
-                src="<?php echo $base_url; ?>assests/images/Facebook.png"></a></li>
-          <li><a href="https://ae.linkedin.com/company/logic-works-information-technology-llc" target="_blank"><img src="<?php echo $base_url; ?>assests/images/Linkedin.png"></a></li>
+                src="<?php echo $base_url; ?>assests/images/Facebook.png" alt="Facebook"></a></li>
+          <li><a href="https://ae.linkedin.com/company/logic-works-information-technology-llc" target="_blank"><img
+                src="<?php echo $base_url; ?>assests/images/Linkedin.png" alt="LinkedIn"></a></li>
         </ul>
       </div>
     </div>

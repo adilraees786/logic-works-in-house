@@ -10,8 +10,8 @@ if (!function_exists('phpmailer_configure_smtp')) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'production@eliteprowebsite.com';
-        $mail->Password   = 'dpcc kqpf atqd aupm';
+        $mail->Username   = 'production8411@gmail.com';
+        $mail->Password   = 'coanmvpaupwtpjij';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = PHPMailer::CHARSET_UTF8;

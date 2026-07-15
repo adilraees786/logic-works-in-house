@@ -13413,7 +13413,7 @@ textarea.is-invalid {
 
 .scroll-top {
   position: fixed;
-  right: 30px;
+  left: 30px;
   bottom: 30px;
   height: 50px;
   width: 50px;
@@ -13508,7 +13508,7 @@ textarea.is-invalid {
 /* Extra small devices */
 @media (max-width: 575px) {
   .scroll-top {
-    right: 15px;
+    left: 15px;
     bottom: 15px;
     height: 40px;
     width: 40px;
