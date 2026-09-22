@@ -209,7 +209,7 @@
                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae">All UAE</a></li>
                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-abu-dhabi">Abu Dhabi</a></li>
                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ajman">Ajman</a></li>
-                                        <li><a href="<?php echo $base_url; ?>app-development-company-sharjah">Sharjah</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-sharjah">Sharjah</a></li>
                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-fujairah">Fujairah</a></li>
                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ras-al-khaimah">Ras Al Khaimah</a></li>
                                     </ul>
@@ -549,7 +549,7 @@
                                                     <ul class="mega-menu-list location-city-list" id="uae-cities">
                                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-abu-dhabi">Abu Dhabi</a></li>
                                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ajman">Ajman</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>app-development-company-sharjah">Sharjah</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-sharjah">Sharjah</a></li>
                                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-fujairah">Fujairah</a></li>
                                                         <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ras-al-khaimah">Ras Al Khaimah</a></li>
                                                     </ul>
