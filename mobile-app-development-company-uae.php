@@ -62,10 +62,8 @@ include("includes/header.php");
                 <div class="col-lg-8">
                     <h1 class="text-white">Mobile App Development <span>Company in UAE</span></span>
                     </h1>
-                    <p class="text-logo">Our​‍​‌‍​‍‌​‍​‌‍​‍‌ skilled mobile app developers in the UAE will infuse your
-                        project with accuracy, understanding, and real-world know-how, thus enabling your platform to
-                        offer the elegance and high functionality typical of a top Mobile App Development Company in
-                        ​‍​‌‍​‍‌​‍​‌‍​‍‌UAE.
+                    <p class="text-logo">
+                    Our​‍​‌‍​‍‌​‍​‌‍​‍ skilled mobile app developers in the UAE will infuse your  project with accuracy, understanding, and real-world know-how, thus enabling your platform to offer the elegance and high functionality typical of a top Mobile App Development Company in UAE.
                     </p>
                     <div class="seo-btn specbtn">
                         <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">

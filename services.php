@@ -421,6 +421,191 @@ include("includes/header.php");
     </section>
 
     <!-- Blog Section -->
+    <?php
+    $blog_posts = [];
+    $blog_api_url = 'https://logicworks.ae/blog/wp-json/wp/v2/posts?per_page=10&_embed';
+    $blog_ctx = stream_context_create([
+        'http' => [
+            'timeout' => 12,
+            'header' => "User-Agent: LogicWorksSite/1.0\r\nAccept: application/json\r\n",
+        ],
+        'ssl' => [
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+        ],
+    ]);
+    $blog_json = @file_get_contents($blog_api_url, false, $blog_ctx);
+    if ($blog_json) {
+        $decoded_posts = json_decode($blog_json, true);
+        if (is_array($decoded_posts)) {
+            foreach ($decoded_posts as $post) {
+                $title = html_entity_decode($post['title']['rendered'] ?? '', ENT_QUOTES, 'UTF-8');
+                $excerpt = html_entity_decode(strip_tags($post['excerpt']['rendered'] ?? ''), ENT_QUOTES, 'UTF-8');
+                $excerpt = trim(str_replace(["\r\n", "\r", "\n", "\t"], ' ', $excerpt));
+                while (strpos($excerpt, '  ') !== false) {
+                    $excerpt = str_replace('  ', ' ', $excerpt);
+                }
+                if (function_exists('mb_strlen') && mb_strlen($excerpt) > 120) {
+                    $excerpt = rtrim(mb_substr($excerpt, 0, 120)) . '...';
+                } elseif (strlen($excerpt) > 120) {
+                    $excerpt = rtrim(substr($excerpt, 0, 120)) . '...';
+                }
+                $image = $post['_embedded']['wp:featuredmedia'][0]['source_url']
+                    ?? 'assests/images/service/Logo-Design-carfting.webp';
+                $link = $post['link'] ?? 'https://logicworks.ae/blog/';
+                $date_label = '';
+                $time_label = '';
+                if (!empty($post['date'])) {
+                    try {
+                        $blog_dt = new DateTime($post['date']);
+                        $date_label = $blog_dt->format('F j, Y');
+                        $time_label = $blog_dt->format('g:i a');
+                    } catch (Exception $e) {
+                        $date_label = '';
+                        $time_label = '';
+                    }
+                }
+
+                $blog_posts[] = [
+                    'title' => $title,
+                    'excerpt' => $excerpt,
+                    'image' => $image,
+                    'link' => $link,
+                    'date' => $date_label,
+                    'time' => $time_label,
+                ];
+            }
+        }
+    }
+    ?>
+    <style>
+        .blog-service {
+            background-color: #0a0a0a;
+            padding: 80px 0 60px;
+        }
+
+        .blog-service .container {
+            max-width: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .blog-service h2.text-white.same-all.algn-centr {
+            max-width: 1160px;
+            margin: 0 auto 50px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .blog-service .row,
+        .blog-service .row > .col {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .blog-service .swiper-slide {
+            height: auto;
+            display: flex;
+        }
+
+        .blog-service a.lw-blog-card {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            border-radius: 12px;
+            overflow: hidden;
+            text-decoration: none;
+            color: #fff;
+            padding: 0;
+            transition: border-color 0.25s ease, transform 0.25s ease;
+        }
+
+        .blog-service a.lw-blog-card:hover {
+            background: #000;
+            border-color: rgba(255, 255, 255, 0.45);
+            transform: translateY(-4px);
+        }
+
+        .blog-service .lw-blog-card__media {
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            overflow: hidden;
+            background: #111;
+        }
+
+        .blog-service .lw-blog-card__media img,
+        .blog-service a.lw-blog-card img {
+            width: 100%;
+            height: 100%;
+            min-height: 0;
+            object-fit: cover;
+            display: block;
+            border-radius: 0;
+        }
+
+        .blog-service .lw-blog-card__body {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            padding: 22px 22px 20px;
+            gap: 12px;
+        }
+
+        .blog-service a.lw-blog-card h4,
+        .blog-service .lw-blog-card__body h4 {
+            margin: 0;
+            min-height: 0;
+            color: #fff;
+            font-size: 22px;
+            line-height: 1.35;
+            font-weight: 700;
+            font-family: "Manrope", "Montserrat", sans-serif;
+        }
+
+        .blog-service a.lw-blog-card p,
+        .blog-service .lw-blog-card__body p {
+            margin: 0;
+            min-height: 0;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 15px;
+            line-height: 1.55;
+            flex: 1;
+        }
+
+        .blog-service .lw-blog-card__meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 18px;
+            margin-top: 8px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+        }
+
+        .blog-service .lw-blog-card__meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .blog-service .lw-blog-card__meta i {
+            font-size: 12px;
+            opacity: 0.85;
+        }
+
+        .blog-service .centered-mode-slider {
+            width: 100%;
+            max-width: 100%;
+            padding: 0 0 40px;
+            overflow: hidden;
+        }
+    </style>
     <section class="blog-service">
         <div class="container" style="display:block;">
             <h2 class="text-white same-all algn-centr">Insights, Stories, and Inspiration: Journey through our Blog</h2>
@@ -428,162 +613,43 @@ include("includes/header.php");
                 <div class="col">
                     <div class="swiper centered-mode-slider">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Logo-Design-carfting.webp" alt="service-blog-001">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">Logo Design: Crafting the and Identity</h4>
-                                    <p class="text-white">ch more than a simple image or text. It e face of a brand,
-                                        conveying its values, identity in an instant. Whether you're new business or
-                                        rebranding an existing ng an effective logo is essential to cre-</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
+                            <?php if (!empty($blog_posts)): ?>
+                                <?php foreach ($blog_posts as $blog_post): ?>
+                                    <div class="swiper-slide">
+                                        <a class="lw-blog-card" href="<?php echo htmlspecialchars($blog_post['link'], ENT_QUOTES, 'UTF-8'); ?>">
+                                            <div class="lw-blog-card__media">
+                                                <img src="<?php echo htmlspecialchars($blog_post['image'], ENT_QUOTES, 'UTF-8'); ?>"
+                                                    alt="<?php echo htmlspecialchars($blog_post['title'], ENT_QUOTES, 'UTF-8'); ?>"
+                                                    loading="lazy">
+                                            </div>
+                                            <div class="lw-blog-card__body">
+                                                <h4><?php echo htmlspecialchars($blog_post['title'], ENT_QUOTES, 'UTF-8'); ?></h4>
+                                                <p><?php echo htmlspecialchars($blog_post['excerpt'], ENT_QUOTES, 'UTF-8'); ?></p>
+                                                <div class="lw-blog-card__meta">
+                                                    <?php if (!empty($blog_post['date'])): ?>
+                                                        <span><i class="fa-regular fa-calendar"></i><?php echo htmlspecialchars($blog_post['date'], ENT_QUOTES, 'UTF-8'); ?></span>
+                                                    <?php endif; ?>
+                                                    <?php if (!empty($blog_post['time'])): ?>
+                                                        <span><i class="fa-regular fa-clock"></i><?php echo htmlspecialchars($blog_post['time'], ENT_QUOTES, 'UTF-8'); ?></span>
+                                                    <?php endif; ?>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <div class="swiper-slide">
+                                    <a class="lw-blog-card" href="https://logicworks.ae/blog/">
+                                        <div class="lw-blog-card__media">
+                                            <img src="assests/images/service/Logo-Design-carfting.webp" alt="Logic Works Blog">
+                                        </div>
+                                        <div class="lw-blog-card__body">
+                                            <h4>Visit Our Blog</h4>
+                                            <p>Explore the latest insights, stories, and digital strategies from Logic Works.</p>
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Social-media-marketing.webp"
-                                        alt="service-blog-002">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">Social Media Marketing</h4>
-                                    <p class="text-white">Promoting your brand through platforms like Face-book,
-                                        Instagram, Twitter, and Linkedin to reach and interact with your audience.</p>
-<!-- 
-                                    <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/SEo.webp" alt="service-blog-003">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">On-Page Optimization</h4>
-                                    <p class="text-white">Enhancing individual pages by optimizing titles, meta
-                                        descriptions, headers, and images for better rankings.</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Logo-Design-carfting.webp" alt="service-blog-004">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">How To Build Custom Data Using Luzmo Flex</h4>
-                                    <p class="text-white">Bringing data to life in your applica without the usual
-                                        headaches. Pau you how you can build beautiful da using the Google Analytics
-                                        API, an to spend any time UX, Design, Work
-                                        Flow</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Logo-Design-carfting.webp" alt="service-blog-005">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">Logo Design: Crafting the and Identity</h4>
-                                    <p class="text-white">ch more than a simple image or text. It e face of a brand,
-                                        conveying its values, identity in an instant. Whether you're new business or
-                                        rebranding an existing ng an effective logo is essential to cre-</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Social-media-marketing.webp"
-                                        alt="service-blog-006">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">Social Media Marketing</h4>
-                                    <p class="text-white">Promoting your brand through platforms like Face-book,
-                                        Instagram, Twitter, and Linkedin to reach and interact with your audience.</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/SEo.webp" alt="service-blog-007">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">On-Page Optimization</h4>
-                                    <p class="text-white">Enhancing individual pages by optimizing titles, meta
-                                        descriptions, headers, and images for better rankings.</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Logo-Design-carfting.webp" alt="service-blog-008">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">How To Build Custom Data Using Luzmo Flex</h4>
-                                    <p class="text-white">Bringing data to life in your applica without the usual
-                                        headaches. Pau you how you can build beautiful da using the Google Analytics
-                                        API, an to spend any time In UX, Design, Work
-                                        Flow</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Logo-Design-carfting.webp" alt="service-blog-009">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">Logo Design: Crafting the and Identity</h4>
-                                    <p class="text-white">ch more than a simple image or text. It e face of a brand,
-                                        conveying its values, identity in an instant. Whether you're new business or
-                                        rebranding an existing ng an effective logo is essential to cre-</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Social-media-marketing.webp"
-                                        alt="service-blog-0010">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">Social Media Marketing</h4>
-                                    <p class="text-white">Promoting your brand through platforms like Face-book,
-                                        Instagram, Twitter, and Linkedin to reach and interact with your audience.</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/SEo.webp" alt="service-blog-0011">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">On-Page Optimization</h4>
-                                    <p class="text-white">Enhancing individual pages by optimizing titles, meta
-                                        descriptions, headers, and images for better rankings.</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col">
-                                    <img src="assests/images/service/Logo-Design-carfting.webp" alt="service-blog-0012">
-                                    <h6>Paul Scanion <span>wrote</span></h6>
-                                    <h4 class="text-white">How To Build Custom Data Using Luzmo Flex</h4>
-                                    <p class="text-white">Bringing data to life in your applica without the usual
-                                        headaches. Pau you how you can build beautiful da using the Google Analytics
-                                        API, an to spend any time "massaging" th a Sep, 17, 2024 In UX, Design, Work
-                                        Flow</p>
-
-                                    <!-- <p class="text-white date-post">Sep, 17, 2024 In UX, Design, Work Flow</p>
-                                    <a href="#">Read More</a> -->
-                                </div>
-                            </div>
+                            <?php endif; ?>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -599,18 +665,18 @@ include("includes/header.php");
                 <div class="col-lg-5">
                     <h4 class="text-white">BE VISIBLE</h4>
                     <h2 class="text-white">When It's About Custom Software – Logic Works Leads the Way!</h2>
-                    <p class="text-white">Logic Works has over 10 years of experience delivering tailored software
+                    <p class="text-white">Logic Works has over 5+ years of experience delivering tailored software
                         solutions that drive actual results. We've completed 700+ projects, helping clients—from top
                         industry players to startups—achieve up to 80% improvements in efficiency. Let us build the
                         high-impact software your business needs to grow.</p>
                 </div>
                 <div class="col-lg-3">
                     <div class="bor-coutn">
-                        <h3 class="text-white">10+</h3>
+                        <h3 class="text-white">5+</h3>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <h5 class="text-white text-end">10+ YEARS OF EXPERIENCE</h5>
+                    <h5 class="text-white text-end">5+ YEARS OF EXPERIENCE</h5>
                     <p class="text-white text-end">Our team integrates advanced technologies like AI, cloud computing,
                         and data analytics, crafting future-proof software that maximizes ROI. Partner with Logic Works
                         for strategic, data-driven solutions that empower your business in a competitive digital world.

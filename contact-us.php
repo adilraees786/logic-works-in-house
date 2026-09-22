@@ -191,9 +191,7 @@ include("includes/header.php");
             <div class="row">
                 <div class="col">
                     <h1 class="text-white">Contact</h1>
-                    <ul>
-                        <!-- <li><a href="./">Home</a></li> | <li>Contact</li> -->
-                    </ul>
+                   
                 </div>
             </div>
         </div>
@@ -277,10 +275,7 @@ include("includes/header.php");
                             <div class="img-blurb"><img src="assests/images/telephone.png"></div>
                             <div class="txt-blurb"><a href="https://wa.me/971529502258">UAE: +971 52 950 2258</a></div>
                         </div>
-                        <div class="blurb-ctn">
-                            <div class="img-blurb"><img src="assests/images/telephone.png"></div>
-                            <div class="txt-blurb"><a href="tel:+13109575211">US: +1 (310) 957-5211</a></div>
-                        </div>
+                        
                         <div class="blurb-ctn">
                             <div class="img-blurb"><i class="icon fa-solid fa-location-dot"
                                     style="font-size: 20px;"></i></div>
@@ -288,17 +283,9 @@ include("includes/header.php");
                                     -
                                     Dubai - United Arab Emirates</a></div>
                         </div>
-                        <div class="blurb-ctn">
-                            <div class="img-blurb"><i class="icon fa-solid fa-location-dot"
-                                    style="font-size: 20px;"></i></div>
-                            <div class="txt-blurb"><a href="#">US: 44075 Pipeline Plaza Ste. 215 Ashburn, VA 20147</a>
-                            </div>
-                        </div>
+                      
 
-                        <!--<div class="blurb-ctn">-->
-                        <!--    <div class="img-blurb"><img src="assests/images/gps.png"></div>-->
-                        <!--    <div class="txt-blurb"><a href="#">115-0, Khalid shaban, Al Garhoud, Dubai</a></div>-->
-                        <!--</div>-->
+                    
                     </div>
                 </div>
             </div>

@@ -76,10 +76,7 @@ include("includes/header.php");
     }
 
     @media (min-width: 1024px) {
-        .app-development .seo-hero-sec h1.text-white {
-            font-size: 72px;
-
-        }
+    
 
         .app-development .seo-hero-sec p.text-white {
             font-size: 20px;

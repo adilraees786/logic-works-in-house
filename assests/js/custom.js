@@ -1356,111 +1356,143 @@ $('.wwo-slider').slick({
     }
   ]
 });
-// 2d animation wcu slider
-$('.twod-animation-wcu-slider').slick({
-  dots: false,
-  arrows: true,
-  prevArrow: ".twod-animation-wcu-arrows .left-arrow",
-  nextArrow: ".twod-animation-wcu-arrows .right-arrow",
-  infinite: true,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
+// 2d / 3d animation service sliders — init AFTER all Slick scripts load
+// (footer loads Slick twice; early init causes slides to stay display:none)
+function lwInitSlickSlider($el, options) {
+  if (!$el || !$el.length || typeof $.fn.slick !== "function") return;
+  $el.each(function () {
+    var $slider = $(this);
+    try {
+      if ($slider.hasClass("slick-initialized")) {
+        $slider.slick("unslick");
       }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+    } catch (e) {}
+    $slider.slick(options);
+  });
+}
+
+function lwInitAnimationSliders() {
+  lwInitSlickSlider($(".twod-animation-wcu-slider"), {
+    dots: false,
+    arrows: true,
+    prevArrow: ".twod-animation-wcu-arrows .left-arrow",
+    nextArrow: ".twod-animation-wcu-arrows .right-arrow",
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+    ]
+  });
+
+  lwInitSlickSlider($(".twod-animation-service-slider"), {
+    dots: false,
+    arrows: true,
+    prevArrow: ".twod-animation-service .twod-animation-wcu-arrows .left-arrow",
+    nextArrow: ".twod-animation-service .twod-animation-wcu-arrows .right-arrow",
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
-    }
-  ]
-});
-$('.twod-animation-service-slider').slick({
-  dots: false,
-  arrows: true,
-  prevArrow: ".twod-animation-service .twod-animation-wcu-arrows .left-arrow",
-  nextArrow: ".twod-animation-service .twod-animation-wcu-arrows .right-arrow",
-  infinite: true,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
+    ]
+  });
+
+  lwInitSlickSlider($(".threed-animation-service-slider"), {
+    dots: false,
+    arrows: true,
+    prevArrow: ".threed-animation-service .threed-animation-service-arrows .left-arrow",
+    nextArrow: ".threed-animation-service .threed-animation-service-arrows .right-arrow",
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
-$('.threed-animation-service-slider').slick({
-  dots: false,
-  arrows: true,
-  prevArrow: ".threed-animation-service .threed-animation-service-arrows .left-arrow",
-  nextArrow: ".threed-animation-service .threed-animation-service-arrows .right-arrow",
-  infinite: true,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
+    ]
+  });
+
+  // Recalc widths after images/fonts settle
+  setTimeout(function () {
+    $(".twod-animation-service-slider.slick-initialized, .twod-animation-wcu-slider.slick-initialized, .threed-animation-service-slider.slick-initialized").each(function () {
+      try {
+        $(this).slick("setPosition");
+      } catch (e) {}
+    });
+  }, 300);
+}
+
+$(window).on("load", function () {
+  // Wait so footer’s second Slick script finishes overwriting $.fn.slick
+  setTimeout(lwInitAnimationSliders, 200);
 });
 
 

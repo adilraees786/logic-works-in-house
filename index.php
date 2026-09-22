@@ -1,6 +1,6 @@
 <?php
-$meta_title = "Logic Works | Leading Digital Solutions Provider in GCC";
-$meta_description = "Partner with Logic Works to build super-fast, feature-rich websites and apps. Book a free consultation with experts driving digital transformation.";
+$meta_title = "Logic Works | Leading Digital Agency in Dubai, UAE";
+$meta_description = "Logic Works is a top digital agency in Dubai, UAE, delivering web development, app development, and full-scale marketing for UAE businesses. Book a free consultation.";
 $keyword = 'logic work';
 $canonical = "https://logicworks.ae/";
 
@@ -76,25 +76,24 @@ include("includes/header.php");
     <div class="container">
         <div class="hero-style7 text-center">
             <div class="row justify-content-space-between hero-row">
-                <img src="frisk/assets/img/header-1.webp" alt="index-hero-img" class="for-mobe">
+                <img src="frisk/assets/img/header-1.webp" alt="index-hero-img" class="for-mobe" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                 <div class="col-lg-6 col-md-6 log-bef">
-                    <h1 class="hero-title wow img-custom-anim-top text-smoke">LOGIC</h1>
+                    <h2 class="hero-title wow img-custom-anim-top text-smoke">LOGIC</h2>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <h2 class="hero-title wow img-custom-anim-top text-smoke text-center">WORKS</h>
+                    <h2 class="hero-title wow img-custom-anim-top text-smoke text-center">WORKS</h2>
                 </div>
             </div>
 
             <div class="row justify-content-space-between color-main testimonial-area-1">
                 <div class="col-lg-6 col-md-6">
                     <div class="sub-contetn our-idea">
-                        <h2 class="robo-font text-start">OUR IDEA?</h2>
-                        <p class=" text-start feature-card-text text-white">Businesses trust us for our ability to
-                            deliver industry-grade apps, websites, and full-scale marketing services.</p>
-                        <div>
+                        <h1 class="robo-font text-start" style="max-width: 400px;">Digital Agency in UAE for What Comes Next</h1>
+                        <p class=" text-start feature-card-text text-white">As a leading digital agency in UAE, Logic Works builds industry-grade apps, high-converting websites, and AI-powered marketing systems that turn ambitious GCC brands into market leaders.</p>
+                        <!-- <div>
                             <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                             <a href="#" id="openPopup" style="color: #fff;">Get A Quote</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 web-dev" data-aos="fade-up">
@@ -112,11 +111,11 @@ include("includes/header.php");
                 <div class="col-lg-6 col-md-6 animate__fadeInLeft" data-aos="fade-up">
                     <div class="d-flex">
                         <div class="img-main">
-                            <img src="frisk/assets/img/experi.webp" alt="index-experi" />
+                            <img src="frisk/assets/img/experi.webp" alt="index-experi" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260" />
                         </div>
                         <div class="txt-main">
-                            <h3 class="text-start text-white">76,285K+</h3>
-                            <h4 class="text-start text-white">Shaping the Future</h4>
+                            <h3 class="text-start text-white">150+</h3>
+                            <h4 class="text-start text-white">Projects Delivered</h4>
                             <p class="text-start">Blending technology and design to set new digital standards.</p>
                         </div>
                     </div>
@@ -126,8 +125,8 @@ include("includes/header.php");
                     <p class="text-start">Bold visuals and futuristic concepts for a new digital era.</p>
                 </div>
                 <div class="col-lg-3 col-md-6" data-aos="fade-up">
-                    <h2 class="text-start text-white">17+</h2>
-                    <h3 class="text-start text-white">Delivering trailblazing digital solutions for over 17 years.</h3>
+                    <h2 class="text-start text-white">5+</h2>
+                    <h3 class="text-start text-white"><strong>Years in the UAE Market</strong> <br> Delivering digital solutions across the Emirates & GCC.</h3>
                 </div>
 
             </div>
@@ -318,7 +317,7 @@ include("includes/header.php");
                                         <!-- Web Development image -->
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/services/service-bg.webp" alt="index-web"
-                                            src="assests/images/services/service-bg.webp">
+                                            src="assests/images/services/service-bg.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
                                 </div>
                                 <div class="anchor-wrapper services-anchor">
@@ -355,7 +354,7 @@ include("includes/header.php");
                                         <!-- Mobile Application Image -->
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/services/App-development.webp" alt="index-mobile"
-                                            src="assests/images/services/App-development.webp">
+                                            src="assests/images/services/App-development.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
                                 </div>
                                 <div class="anchor-wrapper services-anchor">
@@ -392,7 +391,7 @@ include("includes/header.php");
                                         <!-- Ai-Automation Image -->
                                         <img class="" data-class="lazy-img" data-src="assests/images/aI-Automation.webp"
                                             alt="ai-automation" style="width: 440px; height:440px; margin-left:100px;"
-                                            src="assests/images/aI-Automation.webp">
+                                            src="assests/images/aI-Automation.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
 
                                 </div>
@@ -430,7 +429,7 @@ include("includes/header.php");
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/services/Digital-marketing-service.webp"
                                             alt="index-digital"
-                                            src="assests/images/services/Digital-marketing-service.webp">
+                                            src="assests/images/services/Digital-marketing-service.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
 
                                 </div>
@@ -468,7 +467,7 @@ include("includes/header.php");
                                         <!-- UI UX Image -->
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/services/ui-ux-design.webp" alt="index-uiux"
-                                            src="assests/images/services/ui-ux-design.webp">
+                                            src="assests/images/services/ui-ux-design.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
                                 </div>
                                 <div class="anchor-wrapper services-anchor">
@@ -579,7 +578,7 @@ include("includes/header.php");
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/services/video-animation.webp"
                                             alt="index-video-animation"
-                                            src="assests/images/services/video-animation.webp">
+                                            src="assests/images/services/video-animation.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
                                 </div>
                                 <div class="anchor-wrapper services-anchor">
@@ -617,7 +616,7 @@ include("includes/header.php");
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/AI-powered-CRM.webp" alt="index-ai-crm"
                                             style="width: 640px; height:640px;  margin-left:10px;"
-                                            src="assests/images/AI-powered-CRM.webp">
+                                            src="assests/images/AI-powered-CRM.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
                                 </div>
                                 <div class="anchor-wrapper services-anchor">
@@ -655,7 +654,7 @@ include("includes/header.php");
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/services/Ecomemrce-web-Service.webp"
                                             alt="index-ecommerce"
-                                            src="assests/images/services/Ecomemrce-web-Service.webp">
+                                            src="assests/images/services/Ecomemrce-web-Service.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
                                 </div>
                                 <div class="anchor-wrapper services-anchor">
@@ -693,7 +692,7 @@ include("includes/header.php");
                                         <img class="" data-class="lazy-img"
                                             data-src="assests/images/AI-for-Business.webp" alt="index-ai-for-business"
                                             style="width: 440px; height:440px; margin-left:100px;"
-                                            src="assests/images/AI-for-Business.webp">
+                                            src="assests/images/AI-for-Business.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>
                                 </div>
                                 <div class="anchor-wrapper services-anchor">
@@ -701,7 +700,7 @@ include("includes/header.php");
                                         <span>Read More</span>
                                         <div class="img-wrapper">
                                             <svg viewBox="0 0 19 16" class="svg-convert svg-converted"
-                                                src="/assets/svg/anchor-arrow.svg">
+                                                src="/assets/svg/anchor-arrow.svg" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                                 <style type="text/css">
                                                     .st0 {
                                                         fill: #FFFFFF;
@@ -716,7 +715,7 @@ include("includes/header.php");
                                 </div>
                                 <!--<div class="service-item__bg">
                                         <img class="" data-src="services/it-resource-bg.webp" alt=""
-                                            src="services/it-resource-bg.webp">
+                                            src="services/it-resource-bg.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                     </div>-->
                             </div>
                         </div>
@@ -741,7 +740,7 @@ include("includes/header.php");
                             <div class="row justify-content-space-between">
                                 <div class="col-lg-5 img-sliderr"
                                     style="background-image: url(assests/images/industires-bg.webp);">
-                                    <img src="assests/images/Health-web.webp" alt="index-health">
+                                    <img src="assests/images/Health-web.webp" alt="index-health" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                 </div>
                                 <div class="col-lg-7 txt-indu-slider">
                                     <h3 class="text-white">Healthcare</h3>
@@ -760,7 +759,7 @@ include("includes/header.php");
                             <div class="row justify-content-space-between">
                                 <div class="col-lg-5 img-sliderr"
                                     style="background-image: url(assests/images/industires-bg.webp);">
-                                    <img src="assests/images/Ecomemrce-Design.webp" alt="index-ecommerce">
+                                    <img src="assests/images/Ecomemrce-Design.webp" alt="index-ecommerce" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                 </div>
                                 <div class="col-lg-7 txt-indu-slider">
                                     <h3 class="text-white">Technology</h3>
@@ -780,7 +779,7 @@ include("includes/header.php");
                             <div class="row justify-content-space-between">
                                 <div class="col-lg-5 img-sliderr"
                                     style="background-image: url(assests/images/industires-bg.webp);">
-                                    <img src="assests/images/Digitalweb-Design.webp" alt="index-digi-web">
+                                    <img src="assests/images/Digitalweb-Design.webp" alt="index-digi-web" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                 </div>
                                 <div class="col-lg-7 txt-indu-slider">
                                     <h3 class="text-white">Education</h3>
@@ -801,7 +800,7 @@ include("includes/header.php");
                             <div class="row justify-content-space-between">
                                 <div class="col-lg-5 img-sliderr"
                                     style="background-image: url(assests/images/industires-bg.webp);">
-                                    <img src="assests/images/Travel-web.webp" alt="index-travel">
+                                    <img src="assests/images/Travel-web.webp" alt="index-travel" loading="lazy" decoding="async" fetchpriority="high" loading="eager" width="200" height="260">
                                 </div>
                                 <div class="col-lg-7 txt-indu-slider">
                                     <h3 class="text-white">Travel & Transport</h3>
@@ -835,20 +834,14 @@ include("includes/header.php");
         <div class="row justify-content-space-between servicess-row-one">
             <div class="col-lg-7 col-md-6" data-aos="fade-up">
                 <h2 class="robo-font text-start callout-title">We Build Your Complete Digital Arsenal!</h2>
-                <p class="text-start feature-card-text">We help startups and growing businesses maximize their potential
-                    and look beyond barriers with our extensive digital toolbox designed for expansion! Our main goal is
-                    to enhance your online visibility by utilizing <a href="<?php echo $base_url; ?>seo-company">SEO</a> and <a href="<?php echo $base_url; ?>ppc-marketing-company">PPC</a> strategies, which have the potential to
-                    elevate your website traffic by a significant 50%. Our attractive website layouts convert occasional
-                    visitors into dedicated clients, and our captivating content promotion encourages your audience to
-                    return regularly. Through successful email marketing, you have the ability to improve customer
-                    connections and potentially boost sales by 20%</p>
+                <p class="text-start feature-card-text">As a full-service digital agency in UAE, we help startups and growing businesses across UAE and the wider GCC maximize their potential. Our end-to-end digital services from conversion-focused websites and React Native mobile apps to SEO, PPC, and AI automation turn occasional visitors into loyal, paying clients. Through strategic email marketing, conversion rate optimization, and data-driven campaigns, we strengthen customer connections, build lasting brand visibility, and consistently boost sales by up to 20%. Partner with Logic Works for measurable, long-term growth.</p>
                 <div class="live-chat-btns">
                     <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6">
-                <img src="assests/images/SERVICES-WE-icon.webp" alt="index-service-001">
+                <img src="assests/images/SERVICES-WE-icon.webp" alt="index-service-001" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
             </div>
         </div>
 
@@ -858,7 +851,7 @@ include("includes/header.php");
                     <div class="offer-box-head">
                         <div class="offer-box-img">
                             <img src="./assests/images/app-development.webp"
-                                data-src="./assests/images/app-development.webp" alt="Mobile App" width="50" height="50"
+                                data-src="./assests/images/app-development.webp" alt="Mobile App" width="50" height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager"
                                 class="img-fluid">
                         </div>
                         <h4 class="heading-six">App <br>Development</h4>
@@ -875,7 +868,7 @@ include("includes/header.php");
                     <div class="offer-box-head">
                         <div class="offer-box-img">
                             <img src="./assests/images/PPC-Advertising.webp"
-                                data-src="./assests/images/PPC-Advertising.webp" alt="IOS App" width="50" height="50"
+                                data-src="./assests/images/PPC-Advertising.webp" alt="IOS App" width="50" height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager"
                                 class="img-fluid">
                         </div>
                         <h4 class="heading-six">PPC <br>Advertising</h4>
@@ -891,7 +884,7 @@ include("includes/header.php");
                     <div class="offer-box-head">
                         <div class="offer-box-img">
                             <img src="./assests/images/Search-Engine.webp"
-                                data-src="./assests/images/Search-Engine.webp" alt="Android App" width="50" height="50"
+                                data-src="./assests/images/Search-Engine.webp" alt="Android App" width="50" height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager"
                                 class="img-fluid">
                         </div>
                         <h4 class="heading-six">Search Engine <br>Optimization</h4>
@@ -907,7 +900,7 @@ include("includes/header.php");
                     <div class="offer-box-head">
                         <div class="offer-box-img">
                             <img src="assests/images/aI-Automation.webp" data-src="assests/images/aI-Automation.webp"
-                                alt="Prototype" width="50" height="50" class="img-fluid">
+                                alt="Prototype" width="50" height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid">
                         </div>
                         <h4 class="heading-six"> AI Automation <br>Services</h4>
                     </div>
@@ -925,7 +918,7 @@ include("includes/header.php");
                     <div class="offer-box-head">
                         <div class="offer-box-img">
                             <img src="./assests/images/AI-powered-CRM.webp"
-                                data-src="./assests/images/AI-powered-CRM.webp" alt="MVP App" width="50" height="50"
+                                data-src="./assests/images/AI-powered-CRM.webp" alt="MVP App" width="50" height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager"
                                 class="img-fluid">
                         </div>
                         <h4 class="heading-six">AI-powered<br>CRM</h4>
@@ -944,7 +937,7 @@ include("includes/header.php");
                     <div class="offer-box-head">
                         <div class="offer-box-img">
                             <img src="./assests/images/game-Deve.webp" data-src="./assests/images/game-Deve.webp"
-                                alt="Game App" width="50" height="50" class="img-fluid">
+                                alt="Game App" width="50" height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid">
                         </div>
                         <h4 class="heading-six">Video <br>Animation</h4>
                     </div>
@@ -960,7 +953,7 @@ include("includes/header.php");
                     <div class="offer-box-head">
                         <div class="offer-box-img">
                             <img src="./assests/images/UI-UX-Design.webp" data-src="./assests/images/UI-UX-Design.webp"
-                                alt="NFT App" width="50" height="50" class="img-fluid">
+                                alt="NFT App" width="50" height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid">
                         </div>
                         <h4 class="heading-six">UI/UX <br>Design</h4>
                     </div>
@@ -976,7 +969,7 @@ include("includes/header.php");
                         <div class="offer-box-img">
                             <img src="./assests/images/AI-for-Business.webp"
                                 data-src="./assests/images/AI-for-Business.webp" alt="Wearable App" width="50"
-                                height="50" class="img-fluid">
+                                height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid">
                         </div>
                         <h4 class="heading-six">AI for Business <br>Intelligence & Analytics</h4>
                     </div>
@@ -994,7 +987,7 @@ include("includes/header.php");
                         <div class="offer-box-img">
                             <img src="./assests/images/web-development.webp"
                                 data-src="./assests/images/web-development.webp" alt="Machine Learning" width="50"
-                                height="50" class="img-fluid">
+                                height="50" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid">
                         </div>
                         <h4 class="heading-six">Web <br>Development</h4>
                     </div>
@@ -1023,53 +1016,53 @@ include("includes/header.php");
                         <div class="row">
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
-                                    <img src="assests/images/App-1.webp" alt="mobile-app-0001" class="img-fluid mt-3">
+                                    <img src="assests/images/App-1.webp" alt="mobile-app-0001" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
-                                    <img src="assests/images/App-2.webp" alt="mobile-app-002" class="img-fluid mt-3">
+                                    <img src="assests/images/App-2.webp" alt="mobile-app-002" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
-                                    <img src="assests/images/App-3.webp" alt="mobile-app-003" class="img-fluid mt-3">
+                                    <img src="assests/images/App-3.webp" alt="mobile-app-003" loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-6.webp" alt="mobile-app-004"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-7.webp" alt="mobile-app-005"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-8.webp" alt="mobile-app-006"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/App-9.webp" alt="mobile-app-007"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/app-10.webp" alt="mobile-app-008"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/app-11.webp" alt="mobile-app-009"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                         </div>
@@ -1080,73 +1073,73 @@ include("includes/header.php");
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-001.webp" alt="index-web-001"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-002.webp" alt="index-web-002"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-003.webp" alt="index-web-003"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-004.webp" alt="index-web-004"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-005.webp" alt="index-web-005"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-006.webp" alt="index-web-006"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-007.webp" alt="index-web-007"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-008.webp" alt="index-web-008"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-009.webp" alt="index-web-009"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-010.webp" alt="index-web-0010"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-011.webp" alt="index-web-0012"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-4">
                                 <div class="screen">
                                     <img src="assests/images/landing-pages/design-012.webp" alt="index-web-0013"
-                                        class="img-fluid mt-3">
+                                        loading="lazy" decoding="async" fetchpriority="high" loading="eager" class="img-fluid mt-3">
                                 </div>
                             </div>
                         </div>
@@ -1158,36 +1151,90 @@ include("includes/header.php");
             </div>
         </div>
 </section>
-<section style="background-color:#000; padding-bottom:70px">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 mb-10">
+<section style="background-color:#000; padding: 50px 0 70px 0;">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center mb-50">
+            <div class="col-lg-12">
                 <h2 class="text-white same-all text-center">WHAT OUR CLIENTS HAVE TO SAY</h2>
-            </div>
-
-            <div class="col-lg-3 d-flex justify-content-center mb-4">
-                <video src="assests/videos/Deb-Review.mp4" controls
-                    style="width: 100%; max-width: 350px; height: 350px; object-fit: cover;"></video>
-            </div>
-
-            <div class="col-lg-3 d-flex justify-content-center mb-4">
-                <video src="assests/videos/Gina-Review.mp4" controls
-                    style="width: 100%; max-width: 350px; height: 350px; object-fit: cover;"></video>
-            </div>
-
-            <div class="col-lg-3 d-flex justify-content-center mb-4">
-                <video src="assests/videos/John-Review.mp4" controls
-                    style="width: 100%; max-width: 350px; height: 350px; object-fit: cover;"></video>
-            </div>
-            <div class="col-lg-3 d-flex justify-content-center mb-4">
-                <video src="assests/videos/Testimonial4.mp4" controls
-                    style="width: 100%; max-width: 350px; height: 350px; object-fit: cover;"></video>
             </div>
         </div>
 
-    </div>
+        <div class="testimonials-wrapper">
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <!-- Slide 1 -->
+                <div class="testimonial-slide-item">
+                    <div class="testimonial-video-box">
+                        <div class="video-container">
+                            <video src="assests/videos/Deb-Review.mp4" controls preload="metadata"></video>
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>AI-Powered CRM Solutions</h5>
+                            <p>Struggling to manage multiple businesses? Logic Works makes it simple with an AI-Powered CRM and Mobile App.</p>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
+                <!-- Slide 2 -->
+                <div class="testimonial-slide-item">
+                    <div class="testimonial-video-box">
+                        <div class="video-container">
+                            <video src="assests/videos/Gina-Review.mp4" controls preload="metadata"></video>
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Professional Website Solutions</h5>
+                            <p>Build a professional website with reputation and community tools to grow your brand online.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="testimonial-slide-item">
+                    <div class="testimonial-video-box">
+                        <div class="video-container">
+                            <video src="assests/videos/John-Review.mp4" controls preload="metadata"></video>
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Ecommerce & AI Solutions</h5>
+                            <p>Sell smarter with an Ecommerce WebApp, AI inventory, and digital marketing. Logic Works can help!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="testimonial-slide-item">
+                    <div class="testimonial-video-box">
+                        <div class="video-container">
+                            <video src="assests/videos/Testimonial4.mp4" controls preload="metadata"></video>
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Custom Mobile App Development</h5>
+                            <p>Need to streamline complex workflows? Custom web projects with multiple dashboards make it easy with Logic Works.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="testimonial-slide-item">
+                    <div class="testimonial-video-box">
+                        <div class="video-container">
+                            <video src="assests/videos/Testimonial5.mp4" controls preload="metadata"></video>
+                        </div>
+                        <div class="testimonial-content">
+                            <h5>Smart Mobile App Solutions</h5>
+                            <p>Want to build powerful mobile apps that keep your business connected, efficient, and ready to grow? Let Logic Works bring your idea to life!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button class="testimonials-nav testimonials-nav-prev" id="testiPrevBtn" aria-label="Previous testimonial">
+                <span>&#10094;</span>
+            </button>
+            <button class="testimonials-nav testimonials-nav-next" id="testiNextBtn" aria-label="Next testimonial">
+                <span>&#10095;</span>
+            </button>
+        </div>
     </div>
 </section>
 <!-- OUR CASE -->
@@ -1212,7 +1259,7 @@ include("includes/header.php");
                     <!-- Tabs Content -->
                     <div class="col-lg-8 col-md-6 cont-coluns">
                         <div id="Health-tab" class="tab-section"
-                            style="background-image: url(./assests/images/ecomemce-Case-study.webp);">
+                            style="background-image: url(./assests/images/ecomemce-Case-study.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                             <div class="tab-cont">
                                 <h3 class="text-white">HEALTH</h3>
                                 <p class="text-white">With our expertise in healthcare technology, we solved complex
@@ -1224,7 +1271,7 @@ include("includes/header.php");
 
 
                         <div id="Crypto-tab" class="tab-section"
-                            style="background-image: url(./assests/images/Crypto.webp);">
+                            style="background-image: url(./assests/images/Crypto.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                             <div class="tab-cont">
                                 <h3 class="text-white">CRYPTO</h3>
                                 <p class="text-white">A client in the dynamic crypto market sought advanced solutions to
@@ -1235,7 +1282,7 @@ include("includes/header.php");
                         </div>
 
                         <div id="Travel-tab" class="tab-section"
-                            style="background-image: url(./assests/images/Travel-Case-study.webp);">
+                            style="background-image: url(./assests/images/Travel-Case-study.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                             <div class="tab-cont">
                                 <h3 class="text-white">TRAVEL</h3>
                                 <p class="text-white">A travel client came to us wanting to provide very seamless
@@ -1247,7 +1294,7 @@ include("includes/header.php");
                         </div>
 
                         <div id="NGO-tab" class="tab-section"
-                            style="background-image: url(./assests/images/NGO-Case-study.webp);">
+                            style="background-image: url(./assests/images/NGO-Case-study.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                             <div class="tab-cont">
                                 <h3 class="text-white">NGO</h3>
                                 <p class="text-white">NGO clients needed transparency and efficient donor management. We
@@ -1258,7 +1305,7 @@ include("includes/header.php");
                         </div>
 
                         <div id="Ecommerce-tab" class="tab-section"
-                            style="background-image: url(./assests/images/ECOMMERCE-01.webp);">
+                            style="background-image: url(./assests/images/ECOMMERCE-01.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                             <div class="tab-cont">
                                 <h3 class="text-white">ECOMMERCE</h3>
                                 <p class="text-white">In eCommerce, clients faced issues like high cart abandonment and
@@ -1269,7 +1316,7 @@ include("includes/header.php");
                         </div>
 
                         <div id="Real-E-tab" class="tab-section"
-                            style="background-image: url(./assests/images/Real-Estate-Case-study.webp);">
+                            style="background-image: url(./assests/images/Real-Estate-Case-study.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                             <div class="tab-cont">
                                 <h3 class="text-white">REAL ESTATE</h3>
                                 <p class="text-white">Real estate clients require visually engaging, interactive
@@ -1296,13 +1343,13 @@ include("includes/header.php");
             <div class="col-lg-12 col-md-12">
                 <div class="text-start reive-images">
                     <a href="https://www.goodfirms.co/company/logicworks-information-technology-llc"
-                        target="_blank"><img src="assests/images/Goodfirms.webp"></a>
+                        target="_blank"><img src="assests/images/Goodfirms.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></a>
                     <a href="https://www.trustpilot.com/review/logicworks.ae" target="_blank"><img
-                            src="assests/images/Trust.webp"></a>
+                            src="assests/images/Trust.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></a>
                     <a href="https://clutch.co/profile/logic-works-0#contact" target="_blank"><img
-                            src="assests/images/Clutch.webp"></a>
+                            src="assests/images/Clutch.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></a>
                     <a href="https://www.bark.com/en/gb/company/logicworks-information-technology-llc/kwqD4l/"
-                        target="_blank"><img src="assests/images/Bark.webp"></a>
+                        target="_blank"><img src="assests/images/Bark.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></a>
                 </div>
                 <div class="live-chat-btns ct-btn">
                     <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
@@ -1313,44 +1360,44 @@ include("includes/header.php");
                 <div class="main-vertical-slide">
                     <div class="testi-mainn">
                         <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/reviews-001.jpg"></div>
+                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/reviews-001.jpg" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
                             <div class="col-lg-8 col-md-6 testi-txt">
                                 <h4 class="text-white">Jade Thompson</h4>
                                 <h6 class="text-white">Creative Manager, Givingli</h6>
-                                <img src="assests/images/start-revews.png">
+                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                                 <p class="text-white">Logic Works transformed our online presence. Their team is
                                     responsive and truly understands our needs. Highly recommend it!</p>
                             </div>
                         </div>
 
                         <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/Layer-525.png"></div>
+                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/Layer-525.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
                             <div class="col-lg-8 col-md-6 testi-txt">
                                 <h4 class="text-white">David Kim</h4>
                                 <h6 class="text-white">Owner, Babbage</h6>
-                                <img src="assests/images/start-revews.png">
+                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                                 <p class="text-white">The custom app they developed exceeded our expectations! Their
                                     creativity and professionalism made the entire process seamless.</p>
                             </div>
                         </div>
 
                         <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/people-3.png"></div>
+                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/people-3.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
                             <div class="col-lg-8 col-md-6 testi-txt">
                                 <h4 class="text-white">Emily Carter</h4>
                                 <h6 class="text-white">John Rousey</h6>
-                                <img src="assests/images/start-revews.png">
+                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                                 <p class="text-white">Working with Logic Works was a game-changer for us. Their insights
                                     and strategies helped us grow our business exponentially!</p>
                             </div>
                         </div>
                         <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/portfolio/people-2.png">
+                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/portfolio/people-2.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                             </div>
                             <div class="col-lg-8 col-md-6 testi-txt">
                                 <h4 class="text-white">Omar Hassan</h4>
                                 <h6 class="text-white">Manager</h6>
-                                <img src="assests/images/start-revews.png">
+                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
                                 <p class="text-white">Logic Works developed an effective digital marketing strategy that
                                     yielded positive results for our company. We saw a significant increase in our brand
                                     exposure and received many more potential customers. Understanding our needs was
@@ -1373,13 +1420,13 @@ include("includes/header.php");
                 <a  id="openPopup">Get in Touch</a>
             </div>
             <div class="col-lg-5 col-md-6">
-                <img src="assests/images/laptop-girl.webp">
+                <img src="assests/images/laptop-girl.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
             </div>
         </div>
     </div>
 </section>
 
-<section class="section-bg about-slaman" style="background-image: url(assests/images/serice-bg.webp);">
+<section class="section-bg about-slaman" style="background-image: url(assests/images/serice-bg.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
     <div class="container" style="display:block;">
 
         <div class="row pb-50">
@@ -1411,13 +1458,13 @@ include("includes/header.php");
                     </div> -->
             </div>
             <div class="col-lg-6">
-                <img src="assests/images/salman.webp">
+                <img src="assests/images/salman.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
             </div>
         </div>
 
         <div class="row justify-content-space-between servicess-row-one align-items-center about-ali">
             <div class="col-lg-5">
-                <img src="assests/images/Ali.webp">
+                <img src="assests/images/Ali.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
             </div>
             <div class="col-lg-7">
                 <h3 class="text-white text-start pb-20">Redefining AI-Powered Automation & Business Efficiency</h3>
@@ -1494,7 +1541,7 @@ include("includes/header.php");
             <div class="col-lg-6 col-md-5 heigt-wise">
 
                 <div class="fixed-right-item" id="first-fixed"> <img
-                        src="assests/images/Innovation_at_Every_Turn-removebg.webp" alt="">
+                        src="assests/images/Innovation_at_Every_Turn-removebg.webp" alt="" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
 
                     <h5>Innovation at Every Turn</h5>
 
@@ -1505,7 +1552,7 @@ include("includes/header.php");
                 </div>
 
                 <div class="fixed-right-item" id="second-fixed"> <img
-                        src="assests/images/commitment_to_quality-removebg-preview.webp" alt="">
+                        src="assests/images/commitment_to_quality-removebg-preview.webp" alt="" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
 
                     <h5>Commitment to Quality</h5>
 
@@ -1516,7 +1563,7 @@ include("includes/header.php");
                 </div>
 
                 <div class="fixed-right-item" id="third-fixed"> <img src="assests/images/Expertise-You-Can-Trust.webp"
-                        alt="">
+                        alt="" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
 
                     <h5>Expertise You Can Trust</h5>
 
@@ -1527,7 +1574,7 @@ include("includes/header.php");
                 </div>
 
                 <div class="fixed-right-item" id="forth-fixed"> <img
-                        src="assests/images/Transparent_Collaboration-removebg.webp" alt="">
+                        src="assests/images/Transparent_Collaboration-removebg.webp" alt="" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
 
                     <h5>Transparent Collaboration</h5>
 
@@ -1538,7 +1585,7 @@ include("includes/header.php");
                 </div>
 
                 <div class="fixed-right-item" id="fifth-fixed"> <img
-                        src="assests/images/Long-Term_Partnerships-removebg.webp" alt="">
+                        src="assests/images/Long-Term_Partnerships-removebg.webp" alt="" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
 
                     <h5>Long-Term Partnerships</h5>
 
@@ -1570,7 +1617,7 @@ include("includes/header.php");
                     <div class="col-main">
                         <div class="main-hov">
                             <div class="img-with-txt">
-                                <div class="img-columns"><img src="assests/images/Competitive-edge(3).webp"></div>
+                                <div class="img-columns"><img src="assests/images/Competitive-edge(3).webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
                                 <div class="txt-columns">
                                     <h3 class="text-white">Full-Cycle Development</h3>
                                 </div>
@@ -1584,7 +1631,7 @@ include("includes/header.php");
                     <div class="col-main">
                         <div class="main-hov">
                             <div class="img-with-txt">
-                                <div class="img-columns"><img src="assests/images/Competitive-edge(4).webp"></div>
+                                <div class="img-columns"><img src="assests/images/Competitive-edge(4).webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
                                 <div class="txt-columns">
                                     <h3 class="text-white">Competitive Advantage</h3>
                                 </div>
@@ -1598,7 +1645,7 @@ include("includes/header.php");
                     <div class="col-main">
                         <div class="main-hov">
                             <div class="img-with-txt">
-                                <div class="img-columns"><img src="assests/images/Competitive-edge(2).webp"></div>
+                                <div class="img-columns"><img src="assests/images/Competitive-edge(2).webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
                                 <div class="txt-columns">
                                     <h3 class="text-white">User-Centric Design</h3>
                                 </div>
@@ -1613,7 +1660,7 @@ include("includes/header.php");
                     <div class="col-main">
                         <div class="main-hov">
                             <div class="img-with-txt">
-                                <div class="img-columns"><img src="assests/images/Competitive-edge(1).webp"></div>
+                                <div class="img-columns"><img src="assests/images/Competitive-edge(1).webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
                                 <div class="txt-columns">
                                     <h3 class="text-white">Future-Ready Apps</h3>
                                 </div>
@@ -1645,7 +1692,7 @@ include("includes/header.php");
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <img src="assests/images/Get-Website.webp">
+                <img src="assests/images/Get-Website.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
             </div>
         </div>
     </div>
@@ -1772,12 +1819,6 @@ include("includes/header.php");
         </div>
     </div>
 </section>
-
-
-
-
-
-
 
 
 <?php
@@ -1967,8 +2008,308 @@ VANTA.HALO({
         font-weight: 700;
     }
 
-    @media (max-width: 1440px) and (min-width: 1152px) {
-        .industries-slider .swiper-pagination span.swiper-pagination-bullet {
+/* testinomial slider css */
+
+    /* Testimonials Slider Container */
+    .testimonials-wrapper {
+        position: relative;
+        margin: 0 auto;
+        padding: 0 60px;
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonials-slider {
+        display: flex;
+        gap: 25px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        padding-bottom: 10px;
+        flex: 1;
+        /* Hide scrollbar */
+        scrollbar-width: none;
+    }
+
+    .testimonials-slider::-webkit-scrollbar {
+        display: none;
+    }
+
+    .testimonial-slide-item {
+        flex: 0 0 calc(25% - 19px);
+        min-width: calc(25% - 19px);
+    }
+
+    .testimonial-video-box {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+         border: 1px solid #fff;
+         padding: 30px;
+    }
+
+    .video-container {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background: #1a1a1a;
+        aspect-ratio: 1/1;
+        width: 100%;
+        max-height: 100%;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .testimonial-content {
+        padding: 15px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-content h5 {
+        color: #fff;
+        margin-bottom: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .testimonial-content p {
+        color: #ccc;
+        font-size: 14px;
+        margin: 0;
+        line-height: 1.5;
+        flex-grow: 1;
+    }
+
+    /* Navigation Buttons */
+    .testimonials-nav {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: none;
+        background: #582499;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        z-index: 10;
+        top: 30%;
+        transform: translateY(-50%);
+    }
+
+    .testimonials-nav:hover {
+        background: white;
+        color: #582499;
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    .testimonials-nav:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .testimonials-nav-prev {
+        left: 10px;
+    }
+
+    .testimonials-nav-next {
+        right: 10px;
+    }
+    .three-colss .col-lg-3:nth-child(3) h2.text-start.text-white {
+  font-size: 60px !important;
+  font-family: "Montserrat";
+  font-weight: 600;
+  background: -webkit-linear-gradient(#ffffff, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+    /* Tablet - 3 columns */
+    @media (max-width: 1200px) {
+        .testimonial-slide-item {
+            flex: 0 0 calc(33.333% - 17px);
+            min-width: calc(33.333% - 17px);
+        }
+
+        .testimonials-wrapper {
+            padding: 0 50px;
+        }
+
+        .testimonials-nav {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+        }
+
+        .video-container {
+            max-height: 480px;
+            min-height: 350px;
+           
+        }
+    }
+
+    /* Medium devices - 2 columns */
+    @media (max-width: 768px) {
+        .testimonial-slide-item {
+            flex: 0 0 calc(50% - 12px);
+            min-width: calc(50% - 12px);
+        }
+
+        .testimonials-wrapper {
+            padding: 0 45px;
+        }
+
+        .testimonials-nav {
+            width: 38px;
+            height: 38px;
+            font-size: 16px;
+        }
+
+        .testimonials-nav-prev {
+            left: 5px;
+        }
+
+        .testimonials-nav-next {
+            right: 5px;
+        }
+
+        .video-container {
+            margin-bottom: 12px;
+            max-height: 420px;
+            min-height: 300px;
+            aspect-ratio: 1/1;
+          
+        }
+
+        .testimonial-content h5 {
+            font-size: 15px;
+            margin-bottom: 6px;
+        }
+
+        .testimonial-content p {
+            font-size: 13px;
+        }
+    }
+
+    /* Small devices - 1 column */
+    @media (max-width: 576px) {
+        .testimonial-slide-item {
+            flex: 0 0 100%;
+            min-width: 100%;
+            padding: 0 10px;
+        }
+
+        .testimonials-wrapper {
+            padding: 0 20px;
+        }
+
+        .testimonials-nav {
+            width: 36px;
+            height: 36px;
+            font-size: 14px;
+        }
+
+        .testimonials-nav-prev {
+            left: 5px;
+        }
+
+        .testimonials-nav-next {
+            right: 5px;
+        }
+
+        .video-container {
+            margin-bottom: 12px;
+            aspect-ratio: 1/1;
+            max-height: 450px;
+            min-height: 280px;
+       
+        }
+
+        .testimonial-content {
+            padding: 12px;
+        }
+
+        .testimonial-content h5 {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .testimonial-content p {
+            font-size: 12px;
+        }
+    }
+
+    /* Extra small devices */
+    @media (max-width: 480px) {
+        .testimonials-wrapper {
+            padding: 0 15px;
+        }
+
+        .testimonials-slider {
+            gap: 15px;
+        }
+
+        .testimonial-slide-item {
+            flex: 0 0 100%;
+            min-width: 100%;
+        }
+
+        .testimonials-nav {
+            width: 34px;
+            height: 34px;
+            font-size: 12px;
+        }
+
+        .testimonials-nav-prev {
+            left: 5px;
+        }
+
+        .testimonials-nav-next {
+            right: 5px;
+        }
+
+        .video-container {
+            aspect-ratio: 1/1;
+            max-height: 400px;
+            min-height: 250px;
+            margin-bottom: 10px;
+           
+        }
+
+        .testimonial-content h5 {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .testimonial-content p {
+            font-size: 11px;
+            line-height: 1.3;
+        }
+    }
+
+
+    /* Testimonials Slider JavaScript */
+
             height: 135px;
             max-width: 153px;
 
@@ -2031,6 +2372,71 @@ VANTA.HALO({
         }
     }
 </style>
+
+<script>
+    // Testimonials Slider Script
+    document.addEventListener('DOMContentLoaded', function() {
+        const slider = document.getElementById('testimonialsSlider');
+        const prevBtn = document.getElementById('testiPrevBtn');
+        const nextBtn = document.getElementById('testiNextBtn');
+
+        if (!slider || !prevBtn || !nextBtn) return;
+
+        const slideItem = slider.querySelector('.testimonial-slide-item');
+        if (!slideItem) return;
+
+        let slideWidth = slideItem.offsetWidth;
+        const gap = 25;
+
+        function getVisibleSlides() {
+            const sliderWidth = slider.clientWidth;
+            return Math.round(sliderWidth / (slideWidth + gap));
+        }
+
+        function updateNavButtons() {
+            const scrollLeft = slider.scrollLeft;
+            const maxScroll = slider.scrollWidth - slider.clientWidth;
+
+            prevBtn.disabled = scrollLeft <= 0;
+            nextBtn.disabled = scrollLeft >= maxScroll - 10;
+
+            prevBtn.style.opacity = scrollLeft <= 0 ? '0.5' : '1';
+            nextBtn.style.opacity = scrollLeft >= maxScroll - 10 ? '0.5' : '1';
+        }
+
+        function scrollSlider(direction) {
+            const visibleSlides = getVisibleSlides();
+            const scrollAmount = visibleSlides * (slideWidth + gap);
+
+            if (direction === 'next') {
+                slider.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            } else {
+                slider.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
+            setTimeout(updateNavButtons, 100);
+        }
+
+        prevBtn.addEventListener('click', () => scrollSlider('prev'));
+        nextBtn.addEventListener('click', () => scrollSlider('next'));
+
+        slider.addEventListener('scroll', updateNavButtons);
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            slideWidth = slider.querySelector('.testimonial-slide-item').offsetWidth;
+            updateNavButtons();
+        });
+
+        // Initial state
+        updateNavButtons();
+    });
+</script>
 
 <script>
     const tabButtons = document.querySelectorAll(".tablinks");

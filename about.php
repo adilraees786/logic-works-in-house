@@ -170,7 +170,7 @@ include("includes/header.php");
             <div class="row">
                 <div class="col">
                     <p class="text-white">Logic Works has successfully delivered hundreds of digital solutions to
-                        different businesses. Our 10 years of experience have helped businesses grow and succeed. Each
+                        different businesses. Our 5+ years of experience have helped businesses grow and succeed. Each
                         project focuses on assisting clients to grow and thrive. Our goal is to create solutions that
                         make a lasting impact in their industries. Our expert desingers work collaboratively to ensure
                         that every solution meets specific business needs and drives results.</p>

@@ -7,40 +7,6 @@ $custom_schema = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://logicworks.ae/#seo-company",
-  "name": "SEO Company",
-  "serviceType": "Search Engine Optimization (SEO)",
-  "alternateName": "SEO Company",
-  "url": "https://logicworks.ae/seo-company",
-  "description": "Logic Works is an SEO services agency in Dubai delivering data-driven search engine optimization strategies for businesses across the UAE.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Logic Works",
-    "url": "https://logicworks.ae",
-    "logo": "https://logicworks.ae/assests/images/head-logo.png",
-    "telephone": "+971 52 950 2258",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Al Barsha 1, Sheikh Zayed Rd",
-      "addressLocality": "Dubai",
-      "addressRegion": "Dubai",
-      "addressCountry": "AE"
-    },
-    "sameAs": [
-      "https://www.facebook.com/logicworks.ae",
-      "https://www.instagram.com/logicworks.ae/"
-    ]
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, UAE"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
     {
@@ -137,7 +103,108 @@ include("includes/header.php");
 <style>
     .seo-company {
         overflow: hidden;
+    }
 
+    /* Core Pillars — Swiper carousel (Slick is broken by dual footer scripts) */
+    .seo-company .twod-animation-service {
+        overflow: visible;
+        position: relative;
+    }
+
+    .seo-company .seo-pillars-slider-wrap {
+        position: relative;
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .seo-company .seo-pillars-swiper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .seo-company .seo-pillars-swiper .swiper-slide {
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .seo-company .seo-pillars-swiper .td-animation-wcu-card {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seo-company .seo-pillars-swiper .td-animation-wcu-card > img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    .seo-company .seo-pillars-swiper .td-animation-service-card-bottom-content {
+        flex: 1;
+    }
+
+    .seo-company .seo-pillars-arrows {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+        z-index: 5;
+    }
+
+    .seo-company .seo-pillars-prev,
+    .seo-company .seo-pillars-next {
+        position: absolute;
+        top: 42%;
+        transform: translateY(-50%);
+        pointer-events: auto;
+        cursor: pointer;
+        z-index: 6;
+        background: transparent !important;
+        border: 1px solid #fff;
+        border-radius: 0;
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        opacity: 1 !important;
+    }
+
+    /* Kill Swiper default nav icon (white box / ::after chevron) */
+    .seo-company .seo-pillars-prev::after,
+    .seo-company .seo-pillars-next::after {
+        display: none !important;
+        content: none !important;
+    }
+
+    .seo-company .seo-pillars-prev {
+        left: 0;
+        right: auto;
+    }
+
+    .seo-company .seo-pillars-next {
+        right: 0;
+        left: auto;
+    }
+
+    .seo-company .seo-pillars-prev i,
+    .seo-company .seo-pillars-next i {
+        font-size: 28px;
+        line-height: 1;
+        color: #fff;
+    }
+
+    @media (max-width: 767px) {
+        .seo-company .seo-pillars-slider-wrap {
+            padding: 0 40px;
+        }
     }
 
     .graph-sec h4 {
@@ -307,120 +374,94 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-         <section class="twod-animation-service section-bg  pt-80 mb-80">
-
+         <section class="twod-animation-service section-bg pt-80 mb-80">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="text-white algn-centr same-all mb-20">
                        Core Pillars of SEO &mdash; Built for Dubai's Competitive Market
                     </h2>
-                    <!-- <p class="heading-h2-subpara text-white fs-22 text-center mb-50">
-                        Businesses rely on us for proven strategies that protect their online image and build lasting
-                        credibility.
-                    </p> -->
                 </div>
-                <div class="row twod-animation-service-slider">
-                    <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/seo/On-page-seo.webp"
-                                alt="online-repo-img-004">
-                            <div class="td-animation-service-card-bottom-content py-50 px-20">
-                                <h4 class="fw-700 fs-24 text-primary-theme">On-Page SEO</h4>
-                                <p class="fs-13 mb-20">
-                                    We optimize every on-site element to rank for high-intent keywords like &quot;SEO company Dubai&quot; and &quot;digital marketing Dubai.&quot; Our on-page process includes keyword-optimized title tags, semantic content structuring, internal linking architecture, and Core Web Vitals alignment. Every page is engineered to satisfy both Google's algorithms and real users searching for SEO experts in Dubai.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
-                                </p>
+                <div class="col-lg-12">
+                    <div class="seo-pillars-slider-wrap">
+                        <div class="swiper seo-pillars-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="td-animation-wcu-card td-animation-service-card">
+                                        <img src="assests/images/seo/On-page-seo.webp" alt="On-Page SEO">
+                                        <div class="td-animation-service-card-bottom-content py-50 px-20">
+                                            <h4 class="fw-700 fs-24 text-primary-theme">On-Page SEO</h4>
+                                            <p class="fs-13 mb-20">
+                                                We optimize every on-site element to rank for high-intent keywords like &quot;SEO company Dubai&quot; and &quot;digital marketing Dubai.&quot; Our on-page process includes keyword-optimized title tags, semantic content structuring, internal linking architecture, and Core Web Vitals alignment. Every page is engineered to satisfy both Google's algorithms and real users searching for SEO experts in Dubai.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="td-animation-wcu-card td-animation-service-card">
+                                        <img src="assests/images/seo/off-page-seo.webp" alt="Off-Page SEO">
+                                        <div class="td-animation-service-card-bottom-content py-65 px-20">
+                                            <h4 class="fw-700 fs-24 text-primary-theme">Off-Page SEO</h4>
+                                            <p class="fs-13 mb-20">
+                                                Authority wins rankings in Dubai's saturated market. As a trusted SEO services agency in Dubai, we build high-quality backlinks through digital PR, guest contributions on UAE business publications, and strategic brand mentions. Our ethical link-building approach strengthens domain authority without risking Google penalties.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="td-animation-wcu-card td-animation-service-card">
+                                        <img src="assests/images/seo/pillar-image-3.webp" alt="Technical SEO">
+                                        <div class="td-animation-service-card-bottom-content py-75 px-20">
+                                            <h4 class="fw-700 fs-24 text-primary-theme">Technical SEO</h4>
+                                            <p class="fs-13 mb-20">
+                                                Your website's foundation determines its ceiling. Our technical SEO specialists in Dubai audit site speed, mobile responsiveness, crawl budget, schema markup, and indexation issues. We fix the technical blockers that prevent Dubai businesses from ranking, from JavaScript rendering problems to improper canonical tags.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="td-animation-wcu-card td-animation-service-card">
+                                        <img src="assests/images/seo/pillar-image-4.webp" alt="Ecommerce SEO">
+                                        <div class="td-animation-service-card-bottom-content py-75 px-20">
+                                            <h4 class="fw-700 fs-24 text-primary-theme">Ecommerce SEO</h4>
+                                            <p class="fs-13 mb-20">
+                                                Dubai's ecommerce market is booming. We optimize product pages, category structures, and structured data for online stores targeting local SEO Dubai shoppers. From Shopify to WooCommerce, we implement conversion-focused SEO that turns product searches into sales across the UAE.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="td-animation-wcu-card td-animation-service-card">
+                                        <img src="assests/images/seo/pillar-image-5.webp" alt="Content SEO">
+                                        <div class="td-animation-service-card-bottom-content py-75 px-20">
+                                            <h4 class="fw-700 fs-24 text-primary-theme">Content SEO</h4>
+                                            <p class="fs-13 mb-20">
+                                                High-quality content is the backbone of sustainable rankings. Our SEO content strategies target search intent at every funnel stage from informational queries to commercial comparison keywords. We build topical authority that positions your brand as the go-to SEO consultant in Dubai for your niche.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="td-animation-wcu-card td-animation-service-card">
+                                        <img src="assests/images/seo/Local-SEO.webp" alt="Local SEO Dubai pillar">
+                                        <div class="td-animation-service-card-bottom-content py-75 px-20">
+                                            <h4 class="fw-700 fs-24 text-primary-theme">Local SEO</h4>
+                                            <p class="fs-13 mb-20">
+                                                Dominate &quot;near me&quot; searches and Google Maps results across Dubai. We optimize Google Business Profiles, build consistent local citations on UAE directories, and create location-specific landing pages. Whether you serve Downtown Dubai, Dubai Marina, or JLT, our local SEO Dubai strategies put you in front of customers ready to buy.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/seo/off-page-seo.webp"
-                                alt="online-repo-img-001">
-                            <div class="td-animation-service-card-bottom-content py-65 px-20">
-                                <h4 class="fw-700 fs-24 text-primary-theme">Off-Page SEO</h4>
-                                <p class="fs-13 mb-20">
-                               Authority wins rankings in Dubai's saturated market. As a trusted SEO services agency in Dubai, we build high-quality backlinks through digital PR, guest contributions on UAE business publications, and strategic brand mentions. Our ethical link-building approach strengthens domain authority without risking Google penalties.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
-                                </p>
-                            </div>
+                        <div class="seo-pillars-arrows">
+                            <button type="button" class="seo-pillars-prev" aria-label="Previous">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </button>
+                            <button type="button" class="seo-pillars-next" aria-label="Next">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </button>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card">
-                            <img src="assests/images/seo/pillar-image-3.webp"
-                                alt="online-repo-img-002">
-                            <div class="td-animation-service-card-bottom-content py-75 px-20">
-                                <h4 class="fw-700 fs-24 text-primary-theme">Technical SEO</h4>
-                                <p class="fs-13 mb-20">
-                                 Your website's foundation determines its ceiling. Our technical SEO specialists in Dubai audit site speed, mobile responsiveness, crawl budget, schema markup, and indexation issues. We fix the technical blockers that prevent Dubai businesses from ranking, from JavaScript rendering problems to improper canonical tags.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/seo/pillar-image-4.webp"
-                                alt="online-repo-img-003">
-                            <div class="td-animation-service-card-bottom-content py-75 px-20">
-                                <h4 class="fw-700 fs-24 text-primary-theme">Ecommerce SEO</h4>
-                                <p class="fs-13 mb-20">
-                                    Dubai's ecommerce market is booming. We optimize product pages, category structures, and structured data for online stores targeting local SEO Dubai shoppers. From Shopify to WooCommerce, we implement conversion-focused SEO that turns product searches into sales across the UAE.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/seo/pillar-image-5.webp"
-                                alt="online-repo-img-003">
-                            <div class="td-animation-service-card-bottom-content py-75 px-20">
-                                <h4 class="fw-700 fs-24 text-primary-theme">Content SEO</h4>
-                                <p class="fs-13 mb-20">
-                                   High-quality content is the backbone of sustainable rankings. Our SEO content strategies target search intent at every funnel stage from informational queries to commercial comparison keywords. We build topical authority that positions your brand as the go-to SEO consultant in Dubai for your niche.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
-                            <img src="assests/images/seo/Local-SEO.webp"
-                                alt="Local SEO Dubai pillar">
-                            <div class="td-animation-service-card-bottom-content py-75 px-20">
-                                <h4 class="fw-700 fs-24 text-primary-theme">Local SEO</h4>
-                                <p class="fs-13 mb-20">
-                                    Dominate &quot;near me&quot; searches and Google Maps results across Dubai. We optimize Google Business Profiles, build consistent local citations on UAE directories, and create location-specific landing pages. Whether you serve Downtown Dubai, Dubai Marina, or JLT, our local SEO Dubai strategies put you in front of customers ready to buy.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="d-flex justify-content-center">
-                    <!-- <a href="" class="btn-primary">View Case Studies</a> -->
-                </div>
-                <div class="twod-animation-wcu-arrows twod-animation-service-arrows ">
-                    <div class="left-arrow">
-
-                        <img src="assests/images/android-app-development/left-arrow.png" alt="">
-                    </div>
-                    <div class="right-arrow">
-
-                        <img src="assests/images/android-app-development/right-arrow.png" alt="">
                     </div>
                 </div>
             </div>
@@ -1133,3 +1174,35 @@ include("includes/footer.php");
     }
 }
 </style>
+<script>
+(function () {
+  function initSeoPillarsSwiper() {
+    if (typeof Swiper === "undefined") return;
+    var el = document.querySelector(".seo-pillars-swiper");
+    if (!el || el.swiper) return;
+
+    new Swiper(".seo-pillars-swiper", {
+      slidesPerView: 3,
+      spaceBetween: 24,
+      loop: true,
+      grabCursor: true,
+      watchOverflow: true,
+      navigation: {
+        nextEl: ".seo-pillars-next",
+        prevEl: ".seo-pillars-prev"
+      },
+      breakpoints: {
+        0: { slidesPerView: 1, spaceBetween: 16 },
+        768: { slidesPerView: 2, spaceBetween: 20 },
+        1024: { slidesPerView: 3, spaceBetween: 24 }
+      }
+    });
+  }
+
+  if (document.readyState === "complete") {
+    initSeoPillarsSwiper();
+  } else {
+    window.addEventListener("load", initSeoPillarsSwiper);
+  }
+})();
+</script>

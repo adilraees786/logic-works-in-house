@@ -25354,3 +25354,10 @@ img.trustsec {
   margin-top: 30px;
 }
 
+#lw-chatbot-window {
+  display: none !important;
+}
+
+#lw-chatbot-button {
+  display: none !important;
+}

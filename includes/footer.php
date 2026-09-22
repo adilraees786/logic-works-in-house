@@ -239,7 +239,6 @@
       <div class="col-lg-3 col-md-6 footer-contact-col">
         <h4 class="text-white">Contact</h4>
         <p>UAE: <a href="https://wa.me/971529502258">+971 52 950 2258</a></p>
-        <p>US: <a href="tel:+13109575211">+1 (310) 957-5211</a></p>
         <p>Email: <a href="mailto:info@logicworks.ae">info@logicworks.ae</a></p>
       </div>
       <div class="col-lg-2 col-md-6 footer-badge-col">
@@ -253,7 +252,7 @@
       <div class="col-lg-4 col-md-12 footer-copy-col">
         <p>© Logic Works 2025 - 26. All rights reserved.</p>
       </div>
-      <div class="col-lg-4 col-md-6 footer-legal-col">
+      <!-- <div class="col-lg-4 col-md-6 footer-legal-col">
         <ul class="footer-menu-list">
           <li>
             <a href="#">
@@ -280,7 +279,7 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <div class="col-lg-4 col-md-6 footer-social-col">
         <ul class="main-footer-socialss">
           <li><a href="https://www.instagram.com/logicworks.ae/" target="_blank"><img
@@ -316,10 +315,17 @@
 <script src="
     https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js
     "></script>
-<script src="<?php echo $base_url; ?>assests/js/custom.js?v=817177"></script>
+<script>window.__lwSlick = jQuery.fn.slick;</script>
+<script src="<?php echo $base_url; ?>assests/js/custom.js?v=817179"></script>
 <script src="<?php echo $base_url; ?>assests/js/intersection-observer.js?v=124345"></script>
 <!-- <script src="frisk/assets/js/slick.min.js"></script> -->
 <script src="https://appdigits.com/assets/js/slick.js"></script>
+<script>
+  // Keep CDN Slick — appdigits overwrite breaks many carousels
+  if (window.__lwSlick) {
+    jQuery.fn.slick = window.__lwSlick;
+  }
+</script>
 <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
 <script src="<?php echo $base_url; ?>frisk/assets/js/bootstrap.min.js"></script>
 <script src="<?php echo $base_url; ?>frisk/assets/js/jquery.magnific-popup.min.js"></script>
@@ -896,28 +902,9 @@ for (i = 0; i < acc.length; i++) {
 
 
   </script>
-  <!--Start of Tawk.to Script-->
-  <!-- <script type="text/javascript">
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/68f17bef14d93b1950669903/1j7nko8o9';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script> -->
-  <!--End of Tawk.to Script-->
-  <!-- <script>
-function openTawkChat() {
-    if (typeof Tawk_API !== 'undefined') {
-        Tawk_API.maximize();
-    }
-}
-</script> -->
+
  <!-- Logic Works Chatbot Loader Integration -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     window.LW_CHAT_BASE_URL = "<?php echo $base_url; ?>";
     (function () {
       var s1 = document.createElement("script");
@@ -926,31 +913,18 @@ function openTawkChat() {
       s1.charset = "UTF-8";
       document.body.appendChild(s1);
     })();
-  </script>
+  </script> -->
+  
 
-  <script>
-    /**
-     * Logic Works Chatbot Control
-     * This function is triggered by "Live Chat" links.
-     * It priority opens the new Logic Works AI Chatbot.
-     */
-    function openTawkChat() {
-      if (window.LogicWorksChat && typeof window.LogicWorksChat.open === "function") {
-        window.LogicWorksChat.open();
-        return;
-      }
-
-      var chatbotBtn = document.querySelector(".logicworks-chatbot, #logicworks-chatbot");
-      if (chatbotBtn) {
-        chatbotBtn.click();
-        return;
-      }
-
-      console.warn("Chatbot not loaded yet");
-    }
-  </script>
   <!-- / Logic Works Chatbot Loader -->
- 
+ <script>
+  window.LogicTawkConfig = {
+    propertyId: "p_01m29cabqjp2v73v9ed7ea7avm",
+    widgetKey: "wk_g18yh9dubwghpeqxcomvjaogeswk84qtrpuubtjz",
+    apiOrigin: "https://logic-tawk.sitestaginglink.com"
+  };
+</script>
+<script async src="https://logic-tawk.sitestaginglink.com/widget.js"></script>
 
   </body>
 

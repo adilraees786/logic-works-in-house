@@ -28,7 +28,7 @@
                background-position:center;">
             <button id="closePopup" class="close"
                 style="position:absolute; top:15px; right:15px; background:#fff; border:none; padding:5px 10px; border-radius:50%; cursor:pointer;">X</button>
-            <p>LIMITED TIME OFFER <span>50%</span> OFF ALL SERVICES</p>
+            <p>Let's Discuss How We Can Help Your Business Grow</p>
             <form id="popupForm" action="popup_limited_offer.php" method="POST" required>
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
@@ -53,43 +53,32 @@
                 <div class="widget-about">
                     <div class="footer-logo">
                         <a href="<?php echo $base_url; ?>"><img
-                                src="<?php echo $base_url; ?>frisk/assets/img/head-logo.png" alt="Ovation"
+                                src="<?php echo $base_url; ?>assests/images/head-logo.webp" alt="Ovation"
                                 style="width:165px;"></a>
                     </div>
                     <p class="about-text">We are digital agency that helps businesses develop immersive and engaging</p>
                     <div class="sidebar-wrap">
-                        <span>27 Division St, New York,</span>
-                        <span>NY 10002, USA</span>
+                        <span>PINNACLE - Sheikh Zayed Rd - Al Barsha - Al Barsha 1 - United Arab Emirates</span>
                     </div>
                     <div class="sidebar-wrap">
                         <span><a href="https://wa.me/971529502258">+971 52 950 2258 </a></span>
-                        <span><a href="mailto:info@logicworks.com">info@logicworks.com</a></span>
+                        <span><a href="mailto:info@logicworks.ae">info@logicworks.ae</a></span>
                     </div>
                     <div class="social-btn style2">
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/LogicWorksae">
                             <span class="link-effect">
                                 <span class="effect-1"><i class="fab fa-facebook"></i></span>
                                 <span class="effect-1"><i class="fab fa-facebook"></i></span>
                             </span>
                         </a>
-                        <a href="https://instagram.com/">
+                        <a href="https://www.instagram.com/logicworks.ae/">
                             <span class="link-effect">
                                 <span class="effect-1"><i class="fab fa-instagram"></i></span>
                                 <span class="effect-1"><i class="fab fa-instagram"></i></span>
                             </span>
                         </a>
-                        <a href="https://twitter.com/">
-                            <span class="link-effect">
-                                <span class="effect-1"><i class="fab fa-twitter"></i></span>
-                                <span class="effect-1"><i class="fab fa-twitter"></i></span>
-                            </span>
-                        </a>
-                        <a href="https://dribbble.com/">
-                            <span class="link-effect">
-                                <span class="effect-1"><i class="fab fa-dribbble"></i></span>
-                                <span class="effect-1"><i class="fab fa-dribbble"></i></span>
-                            </span>
-                        </a>
+                  
+                       
                     </div>
                 </div>
             </div>
@@ -214,15 +203,62 @@
                         <div class="service-section">
                             <h3 class="accordion-toggle">Locations <i class="fas fa-chevron-down"></i></h3>
                             <ul class="accordion-content">
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae">UAE</a></li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a>
+                                <li>
+                                    <h4 class="accordion-toggle" style="font-size: 14px; background: #9c44b0; color: #fff; padding: 8px;">UAE <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="accordion-content" style="padding-left: 15px;">
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae">All UAE</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-abu-dhabi">Abu Dhabi</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ajman">Ajman</a></li>
+                                        <li><a href="<?php echo $base_url; ?>app-development-company-sharjah">Sharjah</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-fujairah">Fujairah</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ras-al-khaimah">Ras Al Khaimah</a></li>
+                                    </ul>
                                 </li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a>
+                                <li>
+                                    <h4 class="accordion-toggle" style="font-size: 14px; background: #9c44b0; color: #fff; padding: 8px;">Kuwait <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="accordion-content" style="padding-left: 15px;">
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">All Kuwait</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait-city">Kuwait City</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-salmiya">Salmiya</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-al-farwaniyah">Al Farwaniyah</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-al-ahmadi">Al Ahmadi</a></li>
+                                    </ul>
                                 </li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi
-                                        Arabia</a></li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-oman">Oman</a></li>
-                                <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a>
+                                <li>
+                                    <h4 class="accordion-toggle" style="font-size: 14px; background: #9c44b0; color: #fff; padding: 8px;">Qatar <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="accordion-content" style="padding-left: 15px;">
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar">All Qatar</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-doha">Doha</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-al-wakrah">Al Wakrah</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ras-laffan">Ras Laffan</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4 class="accordion-toggle" style="font-size: 14px; background: #9c44b0; color: #fff; padding: 8px;">Saudi Arabia <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="accordion-content" style="padding-left: 15px;">
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">All Saudi Arabia</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-riyadh">Riyadh</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-jeddah">Jeddah</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-dammam">Dammam</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-makkah">Makkah</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-medina">Medina</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4 class="accordion-toggle" style="font-size: 14px; background: #9c44b0; color: #fff; padding: 8px;">Oman <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="accordion-content" style="padding-left: 15px;">
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-oman">All Oman</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-muscat">Muscat</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-seeb">Seeb</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4 class="accordion-toggle" style="font-size: 14px; background: #9c44b0; color: #fff; padding: 8px;">Bahrain <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="accordion-content" style="padding-left: 15px;">
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">All Bahrain</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-manama">Manama</a></li>
+                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-muharraq">Muharraq</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -246,7 +282,7 @@
 
             <div class="sidebar-wrap">
                 <span><a href="https://wa.me/971529502258">+971 52 950 2258 </a></span>
-                <span><a href="mailto:info@logicworks.com">info@logicworks.com</a></span>
+                <span><a href="mailto:info@logicworks.ae">info@logicworks.ae</a></span>
             </div>
         </div>
     </div>
@@ -477,29 +513,71 @@
 
 
                                                 <!-- Column 4: Locations -->
-                                                <div class="mega-menu-col">
+                                                <div class="mega-menu-col" id="locations-col">
                                                     <h3 class="mega-menu-title">Locations</h3>
                                                     <ul class="mega-menu-list">
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-uae"
+                                                                class="location-trigger" data-target="uae-cities">
+                                                                UAE <i class="fas fa-chevron-right"></i></a>
+                                                        </li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait"
+                                                                class="location-trigger" data-target="kuwait-cities">
+                                                                Kuwait <i class="fas fa-chevron-right"></i></a>
+                                                        </li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-qatar"
+                                                                class="location-trigger" data-target="qatar-cities">
+                                                                Qatar <i class="fas fa-chevron-right"></i></a>
+                                                        </li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia"
+                                                                class="location-trigger" data-target="saudi-cities">
+                                                                Saudi Arabia <i class="fas fa-chevron-right"></i></a>
+                                                        </li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-oman"
+                                                                class="location-trigger" data-target="oman-cities">
+                                                                Oman <i class="fas fa-chevron-right"></i></a>
+                                                        </li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-bahrain"
+                                                                class="location-trigger" data-target="bahrain-cities">
+                                                                Bahrain <i class="fas fa-chevron-right"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
 
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>mobile-app-development-company-uae">UAE</a>
-                                                        </li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>mobile-app-development-company-kuwait">Kuwait</a>
-                                                        </li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>mobile-app-development-company-qatar">Qatar</a>
-                                                        </li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>mobile-app-development-company-saudi-arabia">Saudi
-                                                                Arabia</a></li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>mobile-app-development-company-oman">Oman</a>
-                                                        </li>
-                                                        <li><a
-                                                                href="<?php echo $base_url; ?>mobile-app-development-company-bahrain">Bahrain</a>
-                                                        </li>
-
+                                                <!-- Column 5: Location Cities (Dynamic) - Hidden by Default -->
+                                                <div class="mega-menu-col" id="location-cities-col" style="display: none;">
+                                                    <h3 class="mega-menu-title" id="location-cities-title">Cities</h3>
+                                                    <ul class="mega-menu-list location-city-list" id="uae-cities">
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-abu-dhabi">Abu Dhabi</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ajman">Ajman</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>app-development-company-sharjah">Sharjah</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-fujairah">Fujairah</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ras-al-khaimah">Ras Al Khaimah</a></li>
+                                                    </ul>
+                                                    <ul class="mega-menu-list location-city-list" id="kuwait-cities">
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-kuwait-city">Kuwait City</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-salmiya">Salmiya</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-al-farwaniyah">Al Farwaniyah</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-al-ahmadi">Al Ahmadi</a></li>
+                                                    </ul>
+                                                    <ul class="mega-menu-list location-city-list" id="qatar-cities">
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-doha">Doha</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-al-wakrah">Al Wakrah</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-ras-laffan">Ras Laffan</a></li>
+                                                    </ul>
+                                                    <ul class="mega-menu-list location-city-list" id="saudi-cities">
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-riyadh">Riyadh</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-jeddah">Jeddah</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-dammam">Dammam</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-makkah">Makkah</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-medina">Medina</a></li>
+                                                    </ul>
+                                                    <ul class="mega-menu-list location-city-list" id="oman-cities">
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-muscat">Muscat</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-seeb">Seeb</a></li>
+                                                    </ul>
+                                                    <ul class="mega-menu-list location-city-list" id="bahrain-cities">
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-manama">Manama</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>mobile-app-development-company-muharraq">Muharraq</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -712,23 +790,25 @@
             position: relative;
         }
 
-        .service-trigger.active-service, .sub-service-trigger.active-service {
+        .service-trigger.active-service, .sub-service-trigger.active-service,
+        .location-trigger.active-service {
             color: #B454C7 !important;
             font-weight: 700;
         }
 
-        .service-trigger i, .sub-service-trigger i {
+        .service-trigger i, .sub-service-trigger i, .location-trigger i {
             float: right;
             margin-top: 4px;
             font-size: 12px;
             transition: transform 0.3s;
         }
 
-        .service-trigger.active-service i, .sub-service-trigger.active-service i {
+        .service-trigger.active-service i, .sub-service-trigger.active-service i,
+        .location-trigger.active-service i {
             transform: translateX(5px);
         }
 
-        .sub-list, .sub-sub-list {
+        .sub-list, .sub-sub-list, .location-city-list {
             display: none;
         }
 
@@ -852,10 +932,34 @@
             const subSubCol = document.getElementById('triple-sub-service-col');
             const subSubTitle = document.getElementById('triple-sub-service-title');
 
+            const locationTriggers = document.querySelectorAll('.location-trigger');
+            const locationCityLists = document.querySelectorAll('.location-city-list');
+            const locationCitiesCol = document.getElementById('location-cities-col');
+            const locationCitiesTitle = document.getElementById('location-cities-title');
+            const locationsCol = document.getElementById('locations-col');
+            const industriesCol = document.querySelector('.mega-menu-col:nth-child(4)');
+
+            function hideServiceDynamicCols() {
+                if (subCol) subCol.style.display = 'none';
+                if (subSubCol) subSubCol.style.display = 'none';
+                subLists.forEach(l => l.style.display = 'none');
+                subSubLists.forEach(l => l.style.display = 'none');
+                serviceTriggers.forEach(t => t.classList.remove('active-service'));
+                subServiceTriggers.forEach(t => t.classList.remove('active-service'));
+            }
+
+            function hideLocationCities() {
+                if (locationCitiesCol) locationCitiesCol.style.display = 'none';
+                locationCityLists.forEach(l => l.style.display = 'none');
+                locationTriggers.forEach(t => t.classList.remove('active-service'));
+            }
+
             serviceTriggers.forEach(trigger => {
                 trigger.addEventListener('mouseenter', function () {
                     const targetId = this.getAttribute('data-target');
                     const categoryName = this.innerText.trim();
+
+                    hideLocationCities();
 
                     // Reset sub-sub levels
                     if (subSubCol) subSubCol.style.display = 'none';
@@ -902,23 +1006,38 @@
                 });
             });
 
-            // Reset dynamic columns when hovering over static columns (Industries, Locations)
-            const staticCols = document.querySelectorAll('.mega-menu-col');
-            if (staticCols.length >= 5) {
-                const industriesCol = staticCols[3];
-                const locationsCol = staticCols[4];
+            // Locations: country hover shows related cities (same cascade pattern)
+            locationTriggers.forEach(trigger => {
+                trigger.addEventListener('mouseenter', function () {
+                    const targetId = this.getAttribute('data-target');
+                    const countryName = this.innerText.trim();
 
-                [industriesCol, locationsCol].forEach(col => {
-                    if (col) {
-                        col.addEventListener('mouseenter', function () {
-                            if (subCol) subCol.style.display = 'none';
-                            if (subSubCol) subSubCol.style.display = 'none';
-                            subLists.forEach(l => l.style.display = 'none');
-                            subSubLists.forEach(l => l.style.display = 'none');
-                            serviceTriggers.forEach(t => t.classList.remove('active-service'));
-                            subServiceTriggers.forEach(t => t.classList.remove('active-service'));
-                        });
-                    }
+                    hideServiceDynamicCols();
+
+                    locationCityLists.forEach(list => list.style.display = 'none');
+                    if (locationCitiesCol) locationCitiesCol.style.display = 'block';
+
+                    const targetList = document.getElementById(targetId);
+                    if (targetList) targetList.style.display = 'block';
+                    if (locationCitiesTitle) locationCitiesTitle.innerText = countryName;
+
+                    locationTriggers.forEach(t => t.classList.remove('active-service'));
+                    this.classList.add('active-service');
+                });
+            });
+
+            // Reset service dynamic columns when hovering Industries
+            if (industriesCol) {
+                industriesCol.addEventListener('mouseenter', function () {
+                    hideServiceDynamicCols();
+                    hideLocationCities();
+                });
+            }
+
+            // When entering Locations column, hide service cols (cities shown via location-trigger)
+            if (locationsCol) {
+                locationsCol.addEventListener('mouseenter', function () {
+                    hideServiceDynamicCols();
                 });
             }
 
