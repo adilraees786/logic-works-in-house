@@ -1,6 +1,6 @@
 <?php
 $meta_title = "Mobile App Development Company in Jeddah";
-$meta_description = "Work with a Mobile App Development Company in Jeddah to build custom Android, iOS, and cross-platform applications designed for Saudi businesses.";
+$meta_description = "Build custom Android, iOS, or cross-platform apps with Logic Works, a Mobile App Development Company in Jeddah. Talk to our team and start your project today.";
 $keyword = 'Mobile App Development Company in Jeddah';
 $canonical = "https://logicworks.ae/mobile-app-development-company-jeddah";
 
@@ -140,7 +140,7 @@ include("includes/header.php");
       </div>
       <div class="ad-visual ad-reveal">
         <div class="ad-glow is-center"></div>
-        <img class="ad-about-img" src="./assests/images/cities/abu-dhabi/image-1.webp"
+        <img class="ad-about-img" src="./assests/images/cities/Jeddah-1.webp"
           alt="Mobile app development Jeddah">
       </div>
     </div>
@@ -166,7 +166,7 @@ include("includes/header.php");
     <div class="ad-wrap ad-two-col">
       <div class="ad-visual ad-reveal ad-order-2 ad-lg-order-1">
         <div class="ad-glow is-green"></div>
-        <img class="ad-service-img" src="./assests/images/cities/abu-dhabi/image-2.webp"
+        <img class="ad-service-img" src="./assests/images/cities/Jeddah-2.webp"
           alt="Android app development Jeddah">
       </div>
       <div class="ad-reveal ad-order-1 ad-lg-order-2">
@@ -232,7 +232,7 @@ include("includes/header.php");
       </div>
       <div class="ad-visual ad-reveal">
         <div class="ad-glow is-pink"></div>
-        <img class="ad-service-img" src="./assests/images/cities/abu-dhabi/image-3.webp"
+        <img class="ad-service-img" src="./assests/images/cities/Jeddah-3.webp"
           alt="iOS app development Jeddah">
       </div>
     </div>
@@ -243,7 +243,7 @@ include("includes/header.php");
     <div class="ad-wrap ad-two-col">
       <div class="ad-visual ad-reveal ad-order-2 ad-lg-order-1">
         <div class="ad-glow is-purple"></div>
-        <img class="ad-service-img" src="./assests/images/cities/abu-dhabi/image-4.webp"
+        <img class="ad-service-img" src="./assests/images/cities/Jeddah-4.webp"
           alt="Web and cross-platform app development Jeddah">
       </div>
       <div class="ad-reveal ad-order-1 ad-lg-order-2">

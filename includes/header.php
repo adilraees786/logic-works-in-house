@@ -123,7 +123,7 @@
                                 <li><a href="<?php echo $base_url; ?>ppc-marketing-company">Pay-Per-Click</a></li>
                                 <li><a href="<?php echo $base_url; ?>content-marketing">Content Marketing</a></li>
                                 <li><a href="<?php echo $base_url; ?>email-marketing-dubai">Email Marketing</a></li>
-                                <li><a href="<?php echo $base_url; ?>online-reputataion-management">Online Reputation Management</a></li>
+                                <li><a href="<?php echo $base_url; ?>online-reputation-management">Online Reputation Management</a></li>
                             </ul>
                         </div>
 
@@ -379,7 +379,7 @@
                                                         <li><a href="<?php echo $base_url; ?>email-marketing-dubai">
                                                                 <img src="<?php echo $base_url; ?>assests/images/sercices-icons/social.png" alt="Email Marketing">
                                                                 Email Marketing</a></li>
-                                                        <li><a href="<?php echo $base_url; ?>online-reputataion-management">
+                                                        <li><a href="<?php echo $base_url; ?>online-reputation-management">
                                                                 <img src="<?php echo $base_url; ?>assests/images/sercices-icons/digital.png" alt="ORM">
                                                                 Online Reputation Management</a></li>
                                                     </ul>

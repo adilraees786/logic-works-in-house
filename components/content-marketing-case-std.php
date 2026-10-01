@@ -1,7 +1,5 @@
 <style>
-    body {
-        background: #000;
-    }
+ 
 
     .btn-purple {
         background: #a259f7;

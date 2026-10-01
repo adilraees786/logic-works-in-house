@@ -139,7 +139,7 @@ include("includes/header.php");
       </div>
       <div class="ad-visual ad-reveal">
         <div class="ad-glow is-center"></div>
-        <img class="ad-about-img" src="./assests/images/cities/abu-dhabi/image-1.webp"
+        <img class="ad-about-img" src="./assests/images/cities/Al-Farwaniyah-1.webp"
           alt="Mobile app development Al-Farwaniyah">
       </div>
     </div>
@@ -168,7 +168,7 @@ include("includes/header.php");
     <div class="ad-wrap ad-two-col">
       <div class="ad-visual ad-reveal ad-order-2 ad-lg-order-1">
         <div class="ad-glow is-green"></div>
-        <img class="ad-service-img" src="./assests/images/cities/abu-dhabi/image-2.webp"
+        <img class="ad-service-img" src="./assests/images/cities/Al-Farwaniyah-2.webp"
           alt="Mobile app development Al-Farwaniyah Android">
       </div>
       <div class="ad-reveal ad-order-1 ad-lg-order-2">
@@ -235,7 +235,7 @@ include("includes/header.php");
       </div>
       <div class="ad-visual ad-reveal">
         <div class="ad-glow is-pink"></div>
-        <img class="ad-service-img" src="./assests/images/cities/abu-dhabi/image-3.webp"
+        <img class="ad-service-img" src="./assests/images/cities/Al-Farwaniyah-3.webp"
           alt="Mobile app development Al-Farwaniyah iOS">
       </div>
     </div>
@@ -246,7 +246,7 @@ include("includes/header.php");
     <div class="ad-wrap ad-two-col">
       <div class="ad-visual ad-reveal ad-order-2 ad-lg-order-1">
         <div class="ad-glow is-purple"></div>
-        <img class="ad-service-img" src="./assests/images/cities/abu-dhabi/image-4.webp"
+        <img class="ad-service-img" src="./assests/images/cities/Al-Farwaniyah-4.webp"
           alt="Mobile app development Al-Farwaniyah web">
       </div>
       <div class="ad-reveal ad-order-1 ad-lg-order-2">

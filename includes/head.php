@@ -84,24 +84,11 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
     'mobile-app-development-company-manama.php',
     'mobile-app-development-company-muharraq.php',
     // 
-    'mobile-app-development-company-al-farwaniyah.php',
-    'mobile-app-development-company-kuwait-city.php',
-    'mobile-app-development-company-salmiya.php',
-    'mobile-app-development-company-al-ahmadi.php',
-    'mobile-app-development-company-muscat.php',
-    'mobile-app-development-company-seeb.php',
-    'mobile-app-development-company-doha.php',
-    'mobile-app-development-company-ras-laffan.php',
-    'mobile-app-development-company-al-wakrah.php',
-    'mobile-app-development-company-jeddah.php',
-    'mobile-app-development-company-makkah.php',
-    'mobile-app-development-company-medina.php',
-    'mobile-app-development-company-riyadh.php',
-    'mobile-app-development-company-dammam.php',
-    'mobile-app-development-company-ajman.php',
-    'mobile-app-development-company-fujairah.php',
-    'mobile-app-development-company-ras-al-khaimah.php',
-    'mobile-app-development-company-sharjah.php',
+  
+    
+  
+
+
   ];
 
   if (in_array($current_page, $noindexPages)) {
@@ -113,6 +100,7 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
   <meta name="description" content="<?php echo $meta_description; ?>">
   <meta name="keywords" content="<?php echo $keyword; ?>">
   <link rel="canonical" href="<?php echo $canonical; ?>" />
+  <link rel="describedby" href="<?php echo $base_url; ?>llms.txt" type="text/markdown">
   <?php
 
   if (!empty($custom_schema)) {

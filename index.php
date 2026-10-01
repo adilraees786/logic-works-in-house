@@ -9,7 +9,7 @@ $custom_schema = '
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Logic Works",
+  "name": "Logic Works Information Technology LLC",
   "image": "",
   "@id": "",
   "url": "https://logicworks.ae/",
@@ -45,7 +45,7 @@ $custom_schema = '
 {
   "@context": "https://schema.org/",
   "@type": "WebSite",
-  "name": "Logic Works",
+  "name": "Logic Works Information Technology LLC",
   "url": "https://logicworks.ae/",
   "potentialAction": {
     "@type": "SearchAction",
@@ -58,7 +58,7 @@ $custom_schema = '
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Logic Works",
+  "name": "Logic Works Information Technology LLC",
   "alternateName": "Logic Works Information Technology LLC",
   "url": "https://logicworks.ae/",
   "logo": "https://logicworks.ae/assests/images/head-logo.webp"
@@ -134,64 +134,7 @@ include("includes/header.php");
     </div>
 </div>
 
-<!-- <div class="hero-section" id="hero-sec">
-        <div class="container">
-            <div class="hero-style7 text-center">
-            <div class="row justify-content-space-between hero-row">
-                <img src="frisk/assets/img/header-1.png" class="for-mobe">
-                <div class="col-lg-6 col-md-6 log-bef">
-                    <h1 class="hero-title wow img-custom-anim-top text-smoke">LOGIC</h1>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <h1 class="hero-title wow img-custom-anim-top text-smoke text-center">WORKS</h1>
-                </div>
-            </div>
 
-            <div class="row justify-content-space-between color-main testimonial-area-1">
-                <div class="col-lg-6 col-md-6">
-                <div class="sub-contetn our-idea">
-                        <h2 class="robo-font text-start">OUR IDEA?</h2>
-                        <div class="px-5">
-                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup" style="color: #fff;">Get A Quote</a>
-                    </div>
-                    </div>                    
-                </div>
-                <div class="col-lg-6 col-md-6 web-dev" data-aos="fade-up">
-                    <div class="sub-contetn">
-                        <h2 class="robo-font text-start">SEIZE THE FUTURE OF <span>DIGITALIZATION WITH</span> LOGIC WORKS</h2>
-                        <p class="text-end feature-card-text">Businesses trust us for our ability to deliver industry-grade apps, websites, and full-scale marketing services.</p>
-                        <a href="#">Book A Free Consultation Today!</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-space-between color-main three-colss">
-                <div class="col-lg-6 col-md-6 animate__fadeInLeft" data-aos="fade-up">
-                    <div class="d-flex">
-                        <div class="img-main">
-                            <img src="frisk/assets/img/experi.png"/>
-                        </div>
-                        <div class="txt-main">
-                            <h3 class="text-start text-white">76,285K+</h3>
-                            <h4 class="text-start text-white">Shaping the Future</h4>
-                            <p class="text-start">Blending technology and design to set new digital standards.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6" id="ar-main" data-aos="fade-up">
-                    <h4 class="text-start text-white">ART & <b>DESIGN</b></h4>
-                    <p class="text-start">Bold visuals and futuristic concepts for a new digital era.</p>
-                </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up">
-                    <h2 class="text-start text-white">17+</h2>
-                    <h3 class="text-start text-white">Delivering trailblazing digital solutions for over 17 years.</h3>
-                </div>
-
-            </div>
-            </div>
-        </div>
-    </div> -->
 
 <!--======== / Service Slider ========-->
 <section class="services animate" style="background-size:0;" data-delay="0s"
@@ -1356,57 +1299,7 @@ include("includes/header.php");
                     <a href="#" id="openPopup">Get A Quote</a>
                 </div>
             </div>
-            <!-- <div class="col-lg-7 col-md-6">
-                <div class="main-vertical-slide">
-                    <div class="testi-mainn">
-                        <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/reviews-001.jpg" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
-                            <div class="col-lg-8 col-md-6 testi-txt">
-                                <h4 class="text-white">Jade Thompson</h4>
-                                <h6 class="text-white">Creative Manager, Givingli</h6>
-                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-                                <p class="text-white">Logic Works transformed our online presence. Their team is
-                                    responsive and truly understands our needs. Highly recommend it!</p>
-                            </div>
-                        </div>
-
-                        <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/Layer-525.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
-                            <div class="col-lg-8 col-md-6 testi-txt">
-                                <h4 class="text-white">David Kim</h4>
-                                <h6 class="text-white">Owner, Babbage</h6>
-                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-                                <p class="text-white">The custom app they developed exceeded our expectations! Their
-                                    creativity and professionalism made the entire process seamless.</p>
-                            </div>
-                        </div>
-
-                        <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/people-3.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager"></div>
-                            <div class="col-lg-8 col-md-6 testi-txt">
-                                <h4 class="text-white">Emily Carter</h4>
-                                <h6 class="text-white">John Rousey</h6>
-                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-                                <p class="text-white">Working with Logic Works was a game-changer for us. Their insights
-                                    and strategies helped us grow our business exponentially!</p>
-                            </div>
-                        </div>
-                        <div class="tesi-roww">
-                            <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/portfolio/people-2.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-                            </div>
-                            <div class="col-lg-8 col-md-6 testi-txt">
-                                <h4 class="text-white">Omar Hassan</h4>
-                                <h6 class="text-white">Manager</h6>
-                                <img src="assests/images/start-revews.png" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-                                <p class="text-white">Logic Works developed an effective digital marketing strategy that
-                                    yielded positive results for our company. We saw a significant increase in our brand
-                                    exposure and received many more potential customers. Understanding our needs was
-                                    given priority, resulting in a substantial impact.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+         
         </div>
     </div>
 </section>
@@ -1426,73 +1319,7 @@ include("includes/header.php");
     </div>
 </section>
 
-<section class="section-bg about-slaman" style="background-image: url(assests/images/serice-bg.webp);" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-    <div class="container" style="display:block;">
 
-        <div class="row pb-50">
-            <h2 class="text-white text-center same-all ">Meet Our <span>Founders</span></h2>
-        </div>
-        <div class="row justify-content-space-between servicess-row-one align-items-center">
-            <div class="col-lg-6">
-                <h3 class="text-white text-start pb-20">Driving the Future of Al & Digital Innovation</h3>
-                <h4 class="robo-font text-start callout-title" style="font-size:24px;"> Salman Waria</h4>
-                <p class="text-start  feature-card-text" style="font-size:16px; color:#fff;">At Logic Works,
-                    innovation
-                    is at the core of everything we do, and it all starts with our visionary leader, Salman Waria.
-                    With
-                    a deep passion for Artificial Intelligence, digital transformation, and future-ready
-                    technologies,
-                    our CEO has been instrumental in shaping the company’s trajectory towards industry-leading
-                    solutions
-                    in <a href="<?php echo $base_url; ?>app-development-agency">app development</a>, web technologies, and full-scale marketing services.</p>
-                <p class="text-start feature-card-text" style="font-size:16px; color:#fff;">A firm believer in
-                    AI-driven
-                    automation and next-gen digital experiences, Salman Waria envisions a world where businesses
-                    seamlessly integrate AI into their workflows, maximizing efficiency, scalability, and growth.
-                    Under
-                    their leadership, Logic Works continues to push the boundaries of innovation, helping businesses
-                    seize the future of digitalization with cutting-edge solutions.</p>
-                <!-- <div class="btn-owner">
-                        <a href="#">Explore Now</a>
-                        <a href="#">Contact Us</a>
-                    </div> -->
-            </div>
-            <div class="col-lg-6">
-                <img src="assests/images/salman.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-            </div>
-        </div>
-
-        <div class="row justify-content-space-between servicess-row-one align-items-center about-ali">
-            <div class="col-lg-5">
-                <img src="assests/images/Ali.webp" loading="lazy" decoding="async" fetchpriority="high" loading="eager">
-            </div>
-            <div class="col-lg-7">
-                <h3 class="text-white text-start pb-20">Redefining AI-Powered Automation & Business Efficiency</h3>
-                <h4 class="robo-font text-start callout-title" style="font-size:24px;"> Ali Alam</h4>
-                <p class="text-start  feature-card-text" style="font-size:16px; color:#fff;">At the forefront of AI
-                    innovation, Ali Alam is a pioneering force in networking, coding, and intelligent automation.
-                    With a
-                    deep-rooted expertise in technology, Ali has evolved from a networking and coding expert to a
-                    visionary entrepreneur leading the charge in AI-driven business solutions.</p>
-                <p class="text-start feature-card-text" style="font-size:16px; color:#fff;">Now spearheading the
-                    development of a revolutionary AI laptop, Ali Alam is redefining the way businesses
-                    operate—bringing
-                    automation, intelligence, and seamless efficiency into a single, powerful device. With a mission
-                    to
-                    transform business operations through cutting-edge AI, he is crafting a future where enterprises
-                    can
-                    run smarter, faster, and with unprecedented precision.</p>
-                <p class="text-start feature-card-text" style="font-size:16px; color:#fff;">Under his leadership,
-                    the
-                    next era of AI-driven business automation is here.</p>
-                <!-- <div class="btn-owner">
-                        <a href="#">Explore Now</a>
-                        <a href="#">Contact Us</a>
-                    </div> -->
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="fixed-scroll-sec">
 

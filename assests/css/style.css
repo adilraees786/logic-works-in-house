@@ -1379,6 +1379,38 @@ section.process-sec h1 {
   position: relative;
 }
 
+/* Fix: Bootstrap .row (flex) breaks Slick on .twod-animation-service-slider */
+.row.twod-animation-service-slider,
+.row.twod-animation-wcu-slider,
+.row.threed-animation-service-slider {
+  display: block !important;
+}
+
+.row.twod-animation-service-slider .slick-list,
+.row.twod-animation-wcu-slider .slick-list,
+.row.threed-animation-service-slider .slick-list {
+  overflow: hidden !important;
+  height: auto !important;
+}
+
+.row.twod-animation-service-slider .slick-track,
+.row.twod-animation-wcu-slider .slick-track,
+.row.threed-animation-service-slider .slick-track {
+  display: block !important;
+}
+
+.row.twod-animation-service-slider .slick-track > [class*="col"],
+.row.twod-animation-wcu-slider .slick-track > [class*="col"],
+.row.threed-animation-service-slider .slick-track > [class*="col"],
+.row.twod-animation-service-slider .slick-slide,
+.row.twod-animation-wcu-slider .slick-slide,
+.row.threed-animation-service-slider .slick-slide {
+  float: left !important;
+  height: auto !important;
+  max-width: none !important;
+  margin-top: 0 !important;
+}
+
 .process-list li {
   margin-bottom: 10px;
   color: #fff;

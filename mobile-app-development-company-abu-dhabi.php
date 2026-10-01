@@ -1,6 +1,6 @@
 <?php
 $meta_title = "Mobile App Development Company in Abu Dhabi | Logic Works";
-$meta_description = "Turn your idea into an app people love. We build Android, iOS, and web apps for Abu Dhabi businesses.";
+$meta_description = "Logic Works delivers mobile app development in Abu Dhabi with a focus on simple design, reliable performance, and real business needs. Start your project today.";
 $keyword = 'Mobile App Development Company in Abu Dhabi';
 $canonical = "https://logicworks.ae/mobile-app-development-company-in-abu-dhabi";
 

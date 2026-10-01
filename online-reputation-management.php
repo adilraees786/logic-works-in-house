@@ -2,7 +2,7 @@
 $meta_title = "Online Reputation Management Services Dubai | ORM Experts";
 $meta_description = "Protect your brand with trusted online reputation management services Dubai. We monitor reviews, suppress negative content, and build lasting brand credibility.";
 $keyword = 'Online Reputataion Management';
-$canonical = "https://logicworks.ae/online-reputataion-management";
+$canonical = "https://logicworks.ae/online-reputation-management";
 
 $faq_data = '
 <script type="application/ld+json">
@@ -170,6 +170,25 @@ include("includes/header.php");
         line-height: 1.2;
     }
 }
+
+/* Force Slick to win over Bootstrap .row flex (same pattern as 2d-animation pages) */
+.online-reputataion-management .row.twod-animation-service-slider {
+    display: block !important;
+}
+.online-reputataion-management .row.twod-animation-service-slider .slick-list {
+    overflow: hidden !important;
+    height: auto !important;
+}
+.online-reputataion-management .row.twod-animation-service-slider .slick-track {
+    display: block !important;
+}
+.online-reputataion-management .row.twod-animation-service-slider .slick-slide,
+.online-reputataion-management .row.twod-animation-service-slider .slick-track > [class*="col"] {
+    float: left !important;
+    height: auto !important;
+    max-width: none !important;
+    margin-top: 0 !important;
+}
 </style>
 <main class="online-reputataion-management bg-black">
     <section class="blur-bg section-bg digital-main" id="portfolio-hero"
@@ -237,8 +256,8 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-    <section class="twod-animation-service section-bg  pt-80">
-
+    
+    <section class="twod-animation-service section-bg pt-80">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -252,7 +271,7 @@ include("includes/header.php");
                 </div>
                 <div class="row twod-animation-service-slider">
                     <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                        <div class="td-animation-wcu-card td-animation-service-card">
                             <img src="assests/images/online-reputataion-management/case-1.webp"
                                 alt="online-repo-img-004">
                             <div class="td-animation-service-card-bottom-content py-60 px-20">
@@ -260,15 +279,12 @@ include("includes/header.php");
                                 <p class="fs-13 mb-20">
                                     Our team has years of experience. We handle tough reputation challenges. Every
                                     action strengthens your brand online.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                        <div class="td-animation-wcu-card td-animation-service-card">
                             <img src="assests/images/online-reputataion-management/case-2.webp"
                                 alt="online-repo-img-001">
                             <div class="td-animation-service-card-bottom-content py-65 px-20">
@@ -276,9 +292,6 @@ include("includes/header.php");
                                 <p class="fs-13 mb-20">
                                     We focus on measurable outcomes. You see changes in reviews, search results, and
                                     customer feedback. These results help business growth.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
                                 </p>
                             </div>
                         </div>
@@ -292,15 +305,12 @@ include("includes/header.php");
                                 <p class="fs-13 mb-20">
                                     You always know what we do. Reports show progress and performance. You can track
                                     results with confidence.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                        <div class="td-animation-wcu-card td-animation-service-card">
                             <img src="assests/images/online-reputataion-management/case-1.webp"
                                 alt="online-repo-img-003">
                             <div class="td-animation-service-card-bottom-content py-60 px-20">
@@ -308,15 +318,12 @@ include("includes/header.php");
                                 <p class="fs-13 mb-20">
                                     Every business faces different challenges. We assign a dedicated specialist. They
                                     understand your goals and communicate clearly.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                        <div class="td-animation-wcu-card td-animation-service-card">
                             <img src="assests/images/online-reputataion-management/case-2.webp"
                                 alt="online-repo-img-003">
                             <div class="td-animation-service-card-bottom-content py-60 px-20">
@@ -324,15 +331,12 @@ include("includes/header.php");
                                 <p class="fs-13 mb-20">
                                     Reputation management is not a one-time fix. We monitor and respond continuously.
                                     Your brand stays safe all year.
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="td-animation-wcu-card td-animation-service-card  ">
+                        <div class="td-animation-wcu-card td-animation-service-card">
                             <img src="assests/images/online-reputataion-management/case-3.webp"
                                 alt="online-repo-img-003">
                             <div class="td-animation-service-card-bottom-content py-60 px-20">
@@ -340,25 +344,17 @@ include("includes/header.php");
                                 <p class="fs-13 mb-20">
                                     Quality protection should not cost too much. We offer flexible pricing options. You
                                     get professional reputation management within your budget
-                                    <!-- <a href="#"
-                                        class="text-primary-theme text-decoration-none">Read
-                                        More</a> -->
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="d-flex justify-content-center">
-                    <a href="" class="btn-primary">View Case Studies</a>
-                </div> -->
-                <div class="twod-animation-wcu-arrows twod-animation-service-arrows ">
+                <div class="twod-animation-wcu-arrows twod-animation-service-arrows">
                     <div class="left-arrow">
-
-                        <img src="assests/images/android-app-development/left-arrow.png" alt="">
+                        <img src="assests/images/android-app-development/left-arrow.png" alt="Previous">
                     </div>
                     <div class="right-arrow">
-
-                        <img src="assests/images/android-app-development/right-arrow.png" alt="">
+                        <img src="assests/images/android-app-development/right-arrow.png" alt="Next">
                     </div>
                 </div>
             </div>

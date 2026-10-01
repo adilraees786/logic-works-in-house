@@ -45,6 +45,7 @@ RewriteRule ^android-app-development-dubai/?$ /app-development-services-dubai [R
 RewriteRule ^email-marketing-agency/?$ /email-marketing-dubai [R=301,L]
 RewriteRule ^social-media-marketing-dubai/?$ /social-media-marketing-agency [R=301,L]
 RewriteRule ^index/?$ / [R=301,L]
+RewriteRule ^online-reputataion-management/?$ /online-reputation-management [R=301,L]
 
 # -----------------------------------------
 

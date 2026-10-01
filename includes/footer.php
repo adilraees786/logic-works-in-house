@@ -1,4 +1,4 @@
-<?php $base_url = 'http://localhost/logic-works-house/'; ?>
+<?php $base_url = 'https://logicworks.ae/'; ?>
 <!--==============================
         Footer Area
     ==============================-->
@@ -594,7 +594,6 @@ for (i = 0; i < acc.length; i++) {
       });
     });
   </script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <script>
 
@@ -925,6 +924,15 @@ for (i = 0; i < acc.length; i++) {
   };
 </script>
 <script async src="https://logic-tawk.sitestaginglink.com/widget.js"></script>
+<script>
+  // Keep CDN Slick attached after any late scripts
+  if (window.__lwSlick && typeof jQuery !== "undefined") {
+    jQuery.fn.slick = window.__lwSlick;
+  }
+  if (typeof lwInitAnimationSliders === "function") {
+    setTimeout(lwInitAnimationSliders, 100);
+  }
+</script>
 
   </body>
 
