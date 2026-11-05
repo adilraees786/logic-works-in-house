@@ -80,9 +80,6 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
     'android-food-delivery-app-development-company.php',
     'android-fitness-app-development-company.php',
     'android-travel-app-development-company.php',
-
-    'mobile-app-development-company-manama.php',
-    'mobile-app-development-company-muharraq.php',
     // 
   
     

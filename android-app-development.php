@@ -1,783 +1,681 @@
 <?php
-$meta_title = "Android App Development in Dubai – Logic Works";
-$meta_description = "We are a top-notch company for Android app development in Dubai, creating feature-rich, user-friendly apps tailored to your business needs and audience engagement.";
+$meta_title = "Android App Development in Dubai | Logic Works Experts";
+$meta_description = "Build custom Android apps with Logic Works in Dubai. Explore Android app development, UI/UX design, API integrations, testing, deployment and support.";
 $keyword = 'Android App Development';
 $canonical = "https://logicworks.ae/android-app-development";
-$faq_data = '
+$custom_schema = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "How long does it take to build an Android app?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " It usually takes 4 to 12 weeks. The timeline depends on the app’s features and complexity."
-      }
+      "@type": "Service",
+      "@id": "https://logicworks.ae/android-app-development#service",
+      "name": "Android App Development in Dubai",
+      "serviceType": "Android app development",
+      "provider": {
+        "@type": "Organization",
+        "name": "Logic Works Information Technology LLC",
+        "url": "https://logicworks.ae/",
+        "telephone": "+971 52 950 2258",
+        "email": "info@logicworks.ae"
+      },
+      "areaServed": { "@type": "City", "name": "Dubai" },
+      "url": "https://logicworks.ae/android-app-development",
+      "description": "Custom Android app development for Dubai businesses: native Kotlin and Java development, Android UI/UX design, API and backend integration, app modernization, device testing, Google Play Store deployment and ongoing maintenance."
     },
     {
-      "@type": "Question",
-      "name": " Will my app work on all Android devices?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we design apps to run on all screen sizes. They’re tested across different Android versions before launch."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you update or fix my existing Android app?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Yes, we improve existing apps and fix major bugs. We also update old code to match modern standards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What do you need from me to get started?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Just share your idea or a basic outline. We’ll handle the planning, design, and development from there."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide support after the app goes live?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Yes, we offer ongoing support and maintenance. That includes updates, fixes, and feature improvements."
-      }
+      "@type": "FAQPage",
+      "@id": "https://logicworks.ae/android-app-development#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why should I hire an Android app developer in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hiring an experienced Android app developer in Dubai helps businesses plan applications around local market requirements, integrate essential business systems, and maintain their apps after launch. Look for proven technical expertise, relevant project experience, and a clear development process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Android app development cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cost depends on scope rather than screen count alone. The main factors are the number of user roles, how much custom logic the app needs, integrations with your CRM, ERP or payment providers, the depth of UI/UX design, the device range you want tested, and the level of post-launch support. After a discovery call we share a written estimate that breaks the project into phases, so you can see what each deliverable costs before development starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to develop a custom Android app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A focused app with a small feature set usually takes around 8 to 12 weeks, while larger products with multiple user roles, dashboards and third-party integrations commonly run 12 to 16 weeks or more. Discovery and design run first, then development in two-week cycles, then testing and a staged Play Store release. The final schedule is confirmed in the proposal once the feature scope is fixed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you build native Android apps using Kotlin or Java?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We build native Android apps in Kotlin, using Jetpack Compose or the View system depending on the project, and we also maintain and extend existing Java codebases. Where a cross-platform approach genuinely saves budget and your feature set does not need deep platform APIs, we will tell you that during discovery rather than defaulting to native."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you integrate an Android app with our existing CRM or backend?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We integrate apps with REST and GraphQL APIs, payment gateways, ERP and CRM platforms, Microsoft and Google identity providers, mapping and location services, push notification platforms and analytics tools. If your backend needs new endpoints, we document the required API contract and work with your internal team or build the service layer ourselves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle Google Play Store submission?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We prepare the store listing, screenshots, privacy policy references, data safety declarations and content ratings, then handle submission, review responses and staged rollouts. We also set up the release pipeline so future updates can be shipped without rebuilding the process each time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you test Android apps across different devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Testing covers a device matrix based on your actual audience: different screen sizes, Android versions, RAM classes and manufacturer skins that commonly cause layout or battery issues. We run functional, regression and performance checks, use automated UI tests where they add value, and include a UAT round with your team before release."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide maintenance and updates after launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Post-launch support covers OS and SDK version updates, dependency and security patches, crash monitoring and fixes, Play Store policy changes and small feature iterations. Support can run as a monthly retainer or as a scoped block of hours, depending on how actively your product is evolving."
+          }
+        }
+      ]
     }
   ]
 }
 </script>
-
 ';
 
 include("includes/head.php");
 include("includes/header.php");
 ?>
+<link rel="stylesheet" href="<?php echo $base_url; ?>assests/css/android-app-development.css?v=2">
 
+<main class="lw-android" id="main">
 
-<main class="android-app-development bg-black">
-    <!-- <section class="consultancy-hero-sec section-bg pb-50">
-        <img src="assests/images/ai-chatbot/sec-left.webp" alt="android-hero-left"
-            class="sec-left-img position-absolute z-0">
-        <img src="assests/images/ai-chatbot/sec-right.webp" alt="android-hero-right"
-            class="sec-right-img position-absolute z-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h1 class="text-white">Android App Development in Dubai for Scalable Mobile Solutions</h1>
-
-                    </p>
-                    <p class="text-white">Businesses looking for reliable android app development in Dubai need apps that perform without issues. Slow loading, frequent crashes, and confusing layouts drive users away. In the middle of every project, Logic Works focuses on clean coding, strong performance, and real business results. Our team builds Android apps that load fast, run smoothly, and remain stable across devices. Every app aligns with business goals, no fluff, no delays, just functional apps users trust and keep using.
-                    </p>
-                    <div class="seo-btn">
-                       <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup">Get A Quote</a>
-                    </div>
-                    <div class="trust-icons">
-                        <a href="https://www.trustpilot.com/review/logicworks.ae" target="_blank"><img
-                                src="assests/images/trust-pilot.png" alt=""></a>
-                        <a href="https://clutch.co/profile/logic-works-0#contact" target="_blank"><img
-                                src="assests/images/Clutch.webp" alt=""></a>
-                        <a href="https://www.bark.com/en/gb/company/logicworks-information-technology-llc/kwqD4l/"
-                            target="_blank"><img src="assests/images/Bark.webp" alt=""></a>
-                        <a href="https://www.goodfirms.co/company/logicworks-information-technology-llc"
-                            target="_blank"><img src="assests/images/Goodfirms.webp" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <img src="assests/images/android-app-dubai/mobile.webp" alt="mobile-banner" class="mobile">
-                </div>
-            </div>
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="pill"><b>Dubai</b> App development &amp; product design</p>
+          <h1>Android App Development in Dubai for <span class="grad">Scalable Mobile Solutions</span></h1>
+          <p class="lede">Logic Works is a custom Android app development company in Dubai. We plan, design and build native apps that work on day one and keep working as usage grows &mdash; Kotlin codebases, interfaces tested on real devices, Play Store release handled, and support after launch.</p>
+          <ul class="hero-facts">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Native Kotlin &amp; Java</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Google Play deployment</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Tested on a real device matrix</li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#contact">Get a Project Estimate</a>
+            <a class="btn btn-ghost" href="https://wa.me/971529502258" rel="noopener">Talk on WhatsApp</a>
+          </div>
+          <div class="ratings">
+            <p>Reviewed &amp; rated by clients on</p>
+            <ul>
+              <li><a href="https://www.goodfirms.co/company/logicworks-information-technology-llc" rel="noopener"><img src="<?php echo $base_url; ?>assests/images/Goodfirms.webp" alt="Logic Works on GoodFirms" height="34"></a></li>
+              <li><a href="https://clutch.co/profile/logic-works-0" rel="noopener"><img src="<?php echo $base_url; ?>assests/images/Clutch.webp" alt="Logic Works on Clutch" height="34"></a></li>
+              <li><a href="https://www.trustpilot.com/review/logicworks.ae" rel="noopener"><img src="<?php echo $base_url; ?>assests/images/Trust.webp" alt="Logic Works on Trustpilot" height="34"></a></li>
+              <li><a href="https://www.bark.com/en/gb/company/logicworks-information-technology-llc/kwqD4l/" rel="noopener"><img src="<?php echo $base_url; ?>assests/images/Bark.webp" alt="Logic Works on Bark" height="34"></a></li>
+            </ul>
+          </div>
         </div>
-
-    </section> -->
-
-  <section class="consultancy-hero-sec section-bg">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h1 class="text-white"><span>Android App</span> Development in Dubai for Scalable Mobile Solutions
-
-                    </h1>
-                    <p class="text-white">Businesses looking for reliable android app development in Dubai need apps that perform without issues. Slow loading, frequent crashes, and confusing layouts drive users away. In the middle of every project, Logic Works focuses on clean coding, strong performance, and real business results. Our team builds Android apps that load fast, run smoothly, and remain stable across devices. Every app aligns with business goals, no fluff, no delays, just functional apps users trust and keep using.
-
-                    </p>
-                    <div class="seo-btn specbtn">
-                        <a class="btn bg-theme text-title" href="https://wa.me/971529502258" target="_blank">
-                            <span class="link-effect">
-                                <span class="effect-1">Live Chat</span>
-                                <span class="effect-1">Live Chat</span>
-                            </span>
-                        </a>
-                        <a class="btn bg-theme text-title" id="openPopup" href="#0">
-                            <span class="link-effect">
-                                <span class="effect-1">Get A Quote</span>
-                                <span class="effect-1">Get A Quote</span>
-                            </span>
-                        </a>
-                        <!-- <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons" class="trustsec"> -->
-                    </div>
-                    <div class="py-20">
-                        <?php
-                        include("includes/image-link.php");
-                        ?>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                   <img src="assests/images/android-app-dubai/mobile.webp" alt="mobile-banner" class="mobile">
-                </div>
-            </div>
+        <div class="hero-visual">
+          <span class="glow" aria-hidden="true"></span>
+          <img src="<?php echo $base_url; ?>assests/images/android-app-development/mobile-ecefcdcfed.webp" alt="Android music streaming app interface built by Logic Works, shown on two phone screens" width="527" height="780" fetchpriority="high" decoding="async">
         </div>
-    </section>
-   <section class="section-marquee section-bg">
-        <div class="container" style="max-width: 100%; padding: 0px;">
-            <div class="row marwuee-row">
-                <div class="col" style="padding: 0px;">
-                    <div class="marquee">
-                        <div class="marquee__row">
-                            <div class="marquee__item">
-                                <p class="marquee__text">Android App Development
-                                    &nbsp;—&nbsp;Android App Development
-                                </p>
-                            </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
-                                    alt="Star-1"></span>
-                            <div class="marquee__item">
-                                <p class="marquee__text">Android App Development
-                                </p>
-                            </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
-                                    alt="Star-2"></span>
-                            <div class="marquee__item">
-                                <p class="marquee__text">Android App Development
-                                </p>
-                            </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
-                                    alt="Star-3"></span>
-                        </div>
-                        <div aria-hidden="true" class="marquee__row">
-                            <div class="marquee__item">
-                                <p class="marquee__text">Android App Development
-                                    &nbsp;—&nbsp;Android App Development
-                                </p>
-                            </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
-                                    alt="Star-4"></span>
-                            <div class="marquee__item">
-                                <p class="marquee__text">Android App Development
-                                </p>
-                            </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
-                                    alt="Star-5"></span>
-                            <div class="marquee__item">
-                                <p class="marquee__text">Android App Development
-                                </p>
-                            </div>
-                            <span class="marquee__separator"><img src="assests/images/service/Star.webp"
-                                    alt="Star-6"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   <section>
-        <?php
-        include("components/andriod-app-about.php");
-        ?>
-    </section>
-    <section class="section-bg brand-build pt-80" style="background-image: url(assests/images/serice-bg.webp)">
-        <!-- style="background: url('assets/android-app-development/bg-choice.png') center center / cover no-repeat;"> -->
-
-        <div class="container" style="display: block;">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-white same-all text-center">Why Choose Our Android App Development Company in Dubai</h2>
-                    <p class="choice-para">We Build Apps that Work, Scale, and Last
-                    </p>
-                </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="brand-dev-img">
-                        <img src="assests/images/android-app-dubai/choice.webp" alt="Choice">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h4 class="custom">Custom Features & Fast Performance</h4>
-                    <p class="text-white-android">Logic Works is an experienced Android app development company that
-                        builds software to solve problems, not just add screens. We focus on clarity and speed.
-                        Usability stays central throughout the entire development process. Clients rely on us because
-                        the apps we deliver don’t break under pressure. Each build is tested, improved, and ready for
-                        long-term use. Strong performance and real stability are always part of the result.</p>
-                    <div class="live-chat-btns">
-                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup">Get A Quote</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <section class="discuss-sec  section-bg">
-        <div class="container">
-            <div class="row dubai-row-mind align-items-center mb-30"
-                style="background-color: #59249A; border-radius: 30px;">
-                <div class="col-lg-4">
-                    <img src="assests/images/android-app-development/laptop.webp" class="dubai-agent">
-                </div>
-                <div class="col-lg-8">
-                    <h2 class="text-white same-all mb-10">Tired of Crashing or Confusing Android Apps?</h2>
-                    <!-- <h4 class="text-white fs-73 mb-50">Connect Now!</h4> -->
-                    <a href="#">Connect Now!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our  Android App Development Services -->
-  
-
-    <section class="development-section position-relative">
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-white same-all text-center">Our 5-Step Android App Development Process</h2>
-                    <p class="choice-para">Every Stage Focused on Quality</p>
-                </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12">
-                    <div class="phone-container">
-                        <img src="assests/images/android-app-dubai/mobile.webp" class="mobile-img">
-
-                    </div>
-                </div>
-
-                <!-- Process Steps Section -->
-                <div class="col-lg-6 col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 col-12 md:mt-30">
-                            <div class="process-step">
-                                <div class="step-icon">
-                                    <img src="assests/images/android-app-development/icon-1.webp"
-                                        alt="and-app-dev-ser-icon-001">
-                                </div>
-                                <h3 class="step-title">Discovery & Planning</h3>
-                                <p class="step-description"> We listen to your idea, ask the right questions, and set a
-                                    clear direction before building anything.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-12">
-                            <div class="process-step">
-                                <div class="step-icon">
-                                    <img src="assests/images/android-app-development/icon-2.webp"
-                                        alt="and-app-dev-ser-icon-002">
-                                </div>
-                                <h3 class="step-title">Wireframing & UI/UX Design</h3>
-                                <p class="step-description">We map screens and flows so your users get a clear, fast,
-                                    and easy experience every time.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-12">
-                            <div class="process-step">
-                                <div class="step-icon">
-                                    <img src="assests/images/android-app-development/icon-3.webp"
-                                        alt="and-app-dev-ser-icon-003">
-                                </div>
-                                <h3 class="step-title">Development & Integration</h3>
-                                <p class="step-description">Clean code and stable features are built step-by-step to
-                                    match your goals and handle real use.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-12">
-                            <div class="process-step">
-                                <div class="step-icon">
-                                    <img src="assests/images/android-app-development/icon-4.webp"
-                                        alt="and-app-dev-ser-icon-004">
-                                </div>
-                                <h3 class="step-title">Testing & Quality Assurance</h3>
-                                <p class="step-description">We test every feature and fix performance issues before
-                                    launch so users get a smooth experience.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-12">
-                            <div class="process-step">
-                                <div class="step-icon">
-                                    <img src="assests/images/android-app-development/icon-5.webp"
-                                        alt="and-app-dev-ser-icon-005">
-                                </div>
-                                <h3 class="step-title">Launch & Ongoing Support</h3>
-                                <p class="step-description">Your app goes live and stays strong. We handle updates,
-                                    fixes, and future changes when needed.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-<section class="mt-80">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="text-white same-all text-center">Why We’re Among the Best Android App Development Companies in Dubai</h2>
-                <p class="choice-para">Being among the best android app development companies in Dubai means delivering more than just code. It means understanding business goals, building scalable solutions, and ensuring consistent performance across Android devices. Our team focuses on quality development, clear communication, and reliable support to help businesses launch apps that perform, engage users, and grow over time.
-
-                </p>
-            </div>
-        </div>
+      </div>
     </div>
-</section>
+  </section>
 
-    <!-- Portfolio Section -->
-    <section class="section-bg app-port-sec" style="background-image: url(assests/images/serice-bg.webp);">
-        <div class="container" style="display: block; padding-top: 50px;">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-white text-center same-all">Our Android App <span>Portfolio!</span></h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="app-portfolio-img">
-                        <img src="assests/images/app-development/portfolio-01.webp" alt="portfolio-img-001">
-                        <img src="assests/images/app-development/portfolio-02.webp" alt="portfolio-img-002">
-                        <img src="assests/images/app-development/portfolio-03.webp" alt="portfolio-img-003">
-                        <img src="assests/images/app-development/portfolio-04.webp" alt="portfolio-img-004">
-                        <img src="assests/images/app-development/portfolio-05.webp" alt="portfolio-img-005">
-                        <img src="assests/images/app-development/portfolio-06.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-07.webp" alt="portfolio-img-007">
-                        <img src="assests/images/app-development/portfolio-08.webp" alt="portfolio-img-006">
-                        <img src="assests/images/app-development/portfolio-09.webp" alt="portfolio-img-009">
-                        <img src="assests/images/app-development/portfolio-10.webp" alt="portfolio-img-0010">
-                        <img src="assests/images/app-development/portfolio-11.webp" alt="portfolio-img-0011">
-                        <img src="assests/images/app-development/portfolio-12.webp" alt="portfolio-img-0012">
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <img src="assests/images/app-development/portfolio-13.webp" alt="portfolio-img-13">
-                </div>
-            </div>
+  <!-- ================= SERVICES ================= -->
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="head-row head-row--split reveal js-anim">
+        <div class="section-head">
+          <p class="eyebrow">Android development services</p>
+          <h2>Custom Android App Development <span class="grad">Services in Dubai</span></h2>
+          <p class="lede">Logic Works covers the full Android lifecycle in one team &mdash; product discovery, interface design, native development, backend integration, testing, store release and post-launch maintenance. Below is what each part of that work includes in practice.</p>
         </div>
+        <div class="float-visual" aria-hidden="true">
+          <img src="<?php echo $base_url; ?>assests/images/android-app-development/asset-578ccc5c73.webp" alt="" width="540" height="515" loading="lazy" decoding="async">
         </div>
-    </section>
+      </div>
 
-    <section class="section-bg pt-b-80 web-dev-pag mt-40" id="transform-app">
-        <div class="container" style="display: block; max-width: 100%;">
-            <div class="row align-items-center transform-row">
-                <div class="col-lg-4">
-                    <img src="assests/images/marketing/banda.webp" alt="android-app-dev" class="gta">
-                </div>
-                <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Hire Experts To Build Android Apps That Users Love</h2>
-                    <div class="digital-two-btn">
-                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
-                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="grid grid-3 reveal js-anim" style="margin-top:clamp(28px,3.5vw,44px)">
+        <article class="card">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg></span>
+          <h3>Native Android App Development</h3>
+          <p>Kotlin-first development using Jetpack Compose or the View system, structured with MVVM and clean architecture so features can be added without rewriting core logic.</p>
+          <ul class="deliverables">
+            <li><span>Delivered:</span> project architecture, feature modules, source code in your repository</li>
+            <li><span>Handover:</span> code walkthrough and developer documentation</li>
+          </ul>
+        </article>
 
-    <section class="mt-80">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="text-white same-all text-center">Expert Android App Developers for Dubai Businesses</h2>
-                <p class="choice-para">Building an Android app requires the right strategy, tools, and expertise. Working with an experienced android app developer Dubai ensures better performance, secure architecture, and smoother user experiences across Android devices.
+        <article class="card">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg></span>
+          <h3>Android UI/UX Design</h3>
+          <p>Flows mapped before pixels: user journeys, wireframes and clickable prototypes, then interfaces designed to Material Design guidance across phone, foldable and tablet sizes.</p>
+          <ul class="deliverables">
+            <li><span>Delivered:</span> user flows, wireframes, prototype, design system</li>
+            <li><span>Handover:</span> annotated screens ready for development</li>
+          </ul>
+        </article>
 
-                </p>
-            </div>
-        </div>
+        <article class="card">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h11a4 4 0 0 1 0 8H8"/><path d="m8 12-4 3 4 3"/><circle cx="19" cy="6" r="2.4"/></svg></span>
+          <h3>API &amp; Backend Integration</h3>
+          <p>Your app connected to the systems the business already runs on: REST and GraphQL APIs, CRM and ERP platforms, payment gateways, identity providers, maps and push notifications.</p>
+          <ul class="deliverables">
+            <li><span>Delivered:</span> integration layer, API documentation, secure token handling</li>
+            <li><span>Also:</span> new backend endpoints when your current setup needs them</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3.2-6.9"/><path d="M21 3v6h-6"/></svg></span>
+          <h3>App Modernization &amp; Migration</h3>
+          <p>Older Android apps audited and upgraded without a full rewrite: legacy Java to Kotlin, deprecated libraries replaced, target SDK raised and performance issues resolved.</p>
+          <ul class="deliverables">
+            <li><span>Delivered:</span> technical audit, risk list, phased migration plan</li>
+            <li><span>Outcome:</span> Play Store compliance restored, stability improved</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></span>
+          <h3>Google Play Store Deployment</h3>
+          <p>Release handled end to end: store listing, screenshots, privacy references, data safety declarations, content rating, staged rollout and review correspondence.</p>
+          <ul class="deliverables">
+            <li><span>Delivered:</span> signed release builds, store assets, release checklist</li>
+            <li><span>Included:</span> CI/CD pipeline so future updates ship faster</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0 6 6L16 17l-3 3-3-3 5.7-5.7"/><path d="m5 14 5 5"/><path d="M3 21l2-2"/></svg></span>
+          <h3>Android App Maintenance &amp; Support</h3>
+          <p>Post-launch work planned rather than improvised: OS and SDK updates, security patches, crash monitoring, store policy changes and small feature iterations.</p>
+          <ul class="deliverables">
+            <li><span>Delivered:</span> crash reporting setup, monthly update cycle, support SLA</li>
+            <li><span>Options:</span> monthly retainer or a scoped block of hours</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="note-box reveal js-anim">
+        Planning both platforms? Apps that need to feel native on iOS too usually pair this work with
+        <a href="<?php echo $base_url; ?>ios-app-development">iOS app development</a> on a shared design system, so interfaces stay consistent
+        across platforms. Interface work is delivered by our <a href="<?php echo $base_url; ?>ui-ux-design-company-dubai">UI/UX design team in Dubai</a>.
+      </div>
     </div>
-</section>
-    <!-- Questions -->
-     <section class="faq-home section-bg mt-50">
-        <div class="container">
-            <div class="row justify-content-space-between">
-                <div class="col">
-                    <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
-                    <div class="faqss">
-                        <div class="quwstion">
-                            <button class="accordions">Which industries benefit most from Android app development in Dubai?</button>
-                            <div class="panel">
-                                <p>Retail, logistics, healthcare, fintech, real estate, and on-demand services benefit most from Android app development in Dubai. These industries rely on scalable apps that support high user volumes and diverse Android devices.</p>
-                            </div>
-                        </div>
+  </section>
 
-                        <div class="quwstion">
-                            <button class="accordions">What technologies do Android app development companies in Dubai commonly use?</button>
-                            <div class="panel">
-                                <p>Android app development companies in Dubai commonly use Kotlin, Java, Android SDK, REST APIs, cloud services, and modern frameworks to build secure and high-performance applications.</p>
-                            </div>
-                        </div>
-
-                        <div class="quwstion">
-                            <button class="accordions">How do Android app development services Dubai ensure app security?</button>
-                            <div class="panel">
-                                <p>Android app development services Dubai follow secure coding practices, data encryption, API protection, and regular testing. These steps help protect user data and reduce security risks.</p>
-                            </div>
-                        </div>
-
-                        <div class="quwstion">
-                            <button class="accordions">Can an Android app development company in Dubai handle app store deployment?</button>
-                            <div class="panel">
-                                <p>Yes, an Android app development company in Dubai manages Google Play Store submission, compliance checks, app optimization, and post-launch monitoring to ensure smooth approval and performance.</p>
-                            </div>
-                        </div>
-                        <div class="quwstion">
-                            <button class="accordions">How do the best Android app development companies in Dubai support app scalability?</button>
-                            <div class="panel">
-                                <p>The best Android app development companies in Dubai design apps with modular architecture, cloud integration, and performance optimization. This allows apps to scale smoothly as user demand grows.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+  <!-- ================= SOLUTIONS ================= -->
+  <section class="section section--tight" id="solutions" style="background:var(--surface-2);border-block:1px solid var(--line)">
+    <div class="wrap">
+      <div class="head-row reveal js-anim">
+        <div class="section-head">
+          <p class="eyebrow">Built for your industry</p>
+          <h2>Android App Solutions for <span class="grad">Dubai Businesses</span></h2>
+          <p class="lede">Most of our Android work falls into three patterns. Each one comes with its own technical demands &mdash; the notes below describe how we usually handle them.</p>
         </div>
-    </section>
+        <a class="btn btn-outline" href="<?php echo $base_url; ?>portfolio">See the full portfolio</a>
+      </div>
 
-    <!-- Client Rewiew -->
-    <!-- <section class="section-bg journey-sec our-case-section" id="project-in-minds">
-        <div class="container" style="display:block;">
-            <div class="row justify-content-space-between our-reviews">
-                <div class="col">
-                    <h2 class="text-center text-white">Trusted Worldwide for Expert Digital Marketing Consultancy
-                    </h2>
-                </div>
-            </div>
-            <div class="row justify-content-space-between slider-reviews">
-                <div class="col-lg-5 col-md-6">
-                    <div class="text-start reive-images">
-                        <img src="assests/images/Goodfirms.webp">
-                        <img src="assests/images/Trust.webp">
-                        <img src="assests/images/Clutch.webp">
-                        <img src="assests/images/Bark.webp">
-                    </div>
-                    <div class="live-chat-btns">
-                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup">Get A Quote</a>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="main-vertical-slide">
-                        <div class="testi-mainn">
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img
-                                        src="assests/images/portfolio/people-2.png">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Omar Hassan</h4>
-                                    <h6 class="text-white">Manager</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white">Logic Works provided expert guidance that completely
-                                        transformed our marketing
-                                        approach. Their consultancy helped us create a clear and effective strategy.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/reviews-001.jpg">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Sarah L.</h4>
-                                    <h6 class="text-white">Marketing Manager</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white">Before working with Logic Works, we struggled with
-                                        inefficient
-                                        marketing. Their
-                                        insights helped us refine our approach and maximize results.</p>
-                                </div>
-                            </div>
+      <div class="grid grid-3 reveal js-anim">
+        <article class="card solution">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1.4 12H4.6L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></span>
+          <h3>Ecommerce and Retail Apps</h3>
+          <p>Catalogue browsing, cart and checkout, loyalty, order tracking and store stock visibility. Payment gateways common in the UAE are integrated alongside wallet and cash-on-delivery flows.</p>
+          <ul class="tags"><li>Catalogue sync</li><li>Payments</li><li>Loyalty</li><li>Push offers</li></ul>
+          <p class="card-links"><a href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">Ecommerce app development in Dubai</a> &middot; <a href="<?php echo $base_url; ?>retail-app-development-company-dubai">Retail apps</a></p>
+        </article>
 
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/Layer-525.png">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">James R.</h4>
-                                    <h6 class="text-white">Owner, Babbage</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white">Logic Works helped us refine our targeting strategy,
-                                        making a
-                                        huge impact on our
-                                        brand's visibility and engagement.</p>
-                                </div>
-                            </div>
+        <article class="card solution">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 8.4 3.9 3.9 0 0 1 19 11.6C19 16.6 12 21 12 21Z"/></svg></span>
+          <h3>Healthcare and Fintech Apps</h3>
+          <p>Appointment booking, records access, telehealth sessions, KYC onboarding, wallets and transaction history &mdash; built with the audit trails, encryption and access controls these sectors expect.</p>
+          <ul class="tags"><li>Data encryption</li><li>Audit logs</li><li>KYC</li><li>Role-based access</li></ul>
+          <p class="card-links"><a href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">Healthcare apps</a> &middot; <a href="<?php echo $base_url; ?>fintech-app-development-company-dubai">Fintech apps</a></p>
+        </article>
 
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/people-3.png">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Emma W</h4>
-                                    <h6 class="text-white">Director</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white">Their SEO consultancy positioned us as an industry leader.
-                                        We
-                                        now attract more
-                                        high-intent customers and maintain a strong online presence.</p>
-                                </div>
-                            </div>
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img
-                                        src="assests/images/portfolio/people-5.png">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">David P</h4>
-                                    <h6 class="text-white">Quality Assurance</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white">We improved customer retention and engagement with Logic
-                                        Works' consultancy.
-                                        Their data-backed insights helped us refine our messaging and marketing
-                                        strategy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <article class="card solution">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16V8h11v8H3Z"/><path d="M14 11h4l3 3v2h-7"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span>
+          <h3>Logistics and On-Demand Apps</h3>
+          <p>Live location and route tracking, driver assignment, proof of delivery, slot booking and real-time status updates for customers, crews and operations teams.</p>
+          <ul class="tags"><li>Live tracking</li><li>Route optimisation</li><li>Offline mode</li><li>Driver app</li></ul>
+          <p class="card-links"><a href="<?php echo $base_url; ?>food-delivery-app-development-company-dubai">Food delivery apps</a> &middot; <a href="<?php echo $base_url; ?>travel-app-development-dubai">Travel apps</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section class="section process-band" id="process">
+    <div class="wrap">
+      <div class="process-head reveal js-anim">
+        <h2>Our Android App Development <span class="grad">Process</span></h2>
+        <p class="process-sub">Every stage focused on quality &mdash; and on what you receive at the end of it.</p>
+      </div>
+
+      <div class="steps steps--grid reveal js-anim">
+        <article class="step">
+                  <div>
+                    <h3>Discovery and Planning</h3>
+                    <p>We start with your business goal, not a screen list: who uses the app, what they need to finish, which systems it must talk to, and what a first release should realistically contain. Technical risks and dependencies are written down before design begins.</p>
+                    <ul class="step-meta">
+                      <li>Indicative: 1&ndash;2 weeks</li>
+                      <li>Deliverables: scope document, feature map, technical risks, estimate</li>
+                    </ul>
+                  </div>
+                </article>
+
+        <article class="step">
+                  <div>
+                    <h3>UI/UX Design and Prototyping</h3>
+                    <p>Flows become wireframes, then a clickable prototype you can test with real users or internal stakeholders. Interfaces are designed with Material Design patterns and checked at small, large and foldable screen sizes before a developer writes the first screen.</p>
+                    <ul class="step-meta">
+                      <li>Indicative: 2&ndash;3 weeks</li>
+                      <li>Deliverables: user flows, prototype, design system, annotated screens</li>
+                    </ul>
+                  </div>
+                </article>
+
+        <article class="step">
+                  <div>
+                    <h3>Development and Integration</h3>
+                    <p>Work runs in two-week sprints with a build you can install and review at the end of each one. Code is written in Kotlin with automated checks, branching rules and code reviews, and integrations are connected to staging environments before production.</p>
+                    <ul class="step-meta">
+                      <li>Indicative: 4&ndash;8 weeks</li>
+                      <li>Deliverables: sprint builds, source code, integration documentation</li>
+                    </ul>
+                  </div>
+                </article>
+
+        <article class="step">
+                  <div>
+                    <h3>Testing and Quality Assurance</h3>
+                    <p>Functional and regression testing across a device matrix chosen for your audience, plus performance, battery, network-condition and security checks. Your team then runs a UAT round on real devices and every reported issue is tracked to closure.</p>
+                    <ul class="step-meta">
+                      <li>Indicative: 1&ndash;2 weeks</li>
+                      <li>Deliverables: test cases, device matrix report, UAT sign-off, fixed issue log</li>
+                    </ul>
+                  </div>
+                </article>
+
+        <article class="step">
+                  <div>
+                    <h3>Launch and Ongoing Support</h3>
+                    <p>The app is submitted to Google Play with a staged rollout, monitored through crash reporting and analytics, then iterated on real usage data. Post-launch support covers OS updates, store policy changes and a planned feature roadmap.</p>
+                    <ul class="step-meta">
+                      <li>Indicative: launch week, then ongoing</li>
+                      <li>Deliverables: store listing, release build, monitoring dashboard, support plan</li>
+                    </ul>
+                  </div>
+                </article>
+      </div>
+      <p class="step-note step-note--center">Timelines are indicative and assume a fixed scope agreed at discovery. The final schedule and cost breakdown are shared in writing before development starts.</p>
+    </div>
+  </section>
+
+  <!-- ================= WHY CHOOSE ================= -->
+  <section class="section" id="why">
+    <div class="wrap">
+      <div class="section-head section-head--center reveal js-anim">
+        <p class="eyebrow">Why Logic Works</p>
+        <h2>Why Choose <span class="grad">Logic Works</span> for Android App Development</h2>
+        <p class="lede">Our experienced Android app developers in Dubai build custom mobile applications using Kotlin, Java, and modern Android technologies. From initial planning to deployment, our team focuses on performance, security, and long-term maintainability.</p>
+      </div>
+
+      <div class="split split--balanced reveal js-anim">
+        <div class="why-copy">
+          <h3 class="mini-head">Where our Android work goes deepest</h3>
+          <ul class="why-list">
+            <li><span class="tick" aria-hidden="true">✓</span><div>Native Kotlin builds<p>Kotlin + Jetpack Compose, MVVM layers, readable modules another team can pick up.</p></div></li>
+            <li><span class="tick" aria-hidden="true">✓</span><div>Play Store releases<p>Store listing, data-safety declarations, staged rollout, CI/CD pipeline.</p></div></li>
+            <li><span class="tick" aria-hidden="true">✓</span><div>API &amp; backend work<p>REST and GraphQL, CRM/ERP, payments, identity, push and analytics.</p></div></li>
+            <li><span class="tick" aria-hidden="true">✓</span><div>Testing on real devices<p>Device matrix chosen for your audience, functional, performance and UAT rounds.</p></div></li>
+          </ul>
+          <ul class="chips">
+            <li>Kotlin</li><li>Java</li><li>Jetpack Compose</li><li>Android SDK</li><li>MVVM</li>
+            <li>REST &amp; GraphQL</li><li>Firebase</li><li>Room</li><li>Retrofit</li>
+            <li>CI/CD</li><li>Espresso &amp; JUnit</li>
+          </ul>
         </div>
-    </section> -->
-    <?php
-    include("includes/clint-review.php");
-    ?>
+        <div class="split-media">
+          <img src="<?php echo $base_url; ?>assests/images/android-app-development/portfolio-2ae52fc21a.webp" alt="Android app onboarding and daily habit tracking screens designed by Logic Works" width="650" height="815" class="split-media-img">
+        </div>
+      </div>
+
+      <div class="why reveal js-anim">
+        <div class="why-item">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <div>
+            <h3>Android-only engineering decisions</h3>
+            <p>Architecture, offline behaviour, background work and battery usage are decided for Android specifically &mdash; including the manufacturer skins that break assumptions on paper but not on a real device.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></span>
+          <div>
+            <h3>You see progress every two weeks</h3>
+            <p>Sprint builds are installable, not screenshots. Feedback arrives while the feature is still being built, which is when changes are cheapest.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H4z"/><path d="M8 20h8M12 16v4"/><path d="m9 11 2-2 2 2 2-3"/></svg></span>
+          <div>
+            <h3>Built to be maintained</h3>
+            <p>Readable code, documented modules and a release pipeline set up during the project &mdash; so a future update does not depend on the original developer remembering how it worked.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 0-9 9"/><path d="M12 8v4l3 2"/><path d="M17 17h4v4"/></svg></span>
+          <div>
+            <h3>Support that is defined, not implied</h3>
+            <p>Monthly retainer or a scoped block of hours, with an agreed response window and a list of what is covered &mdash; written into the agreement rather than promised on a call.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRICING FACTORS ================= -->
+  <section class="section" id="cost">
+    <div class="wrap">
+      <div class="head-row head-row--split reveal js-anim">
+        <div class="section-head">
+          <p class="eyebrow">Budgeting</p>
+          <h2>What Shapes Android App Development <span class="grad">Cost</span> in Dubai</h2>
+          <p class="lede">App quotes vary widely because the work varies. Rather than publishing a number that fits nobody, we price from the scope &mdash; these are the factors that move a project up or down.</p>
+        </div>
+        <div class="float-visual float-visual--cost" aria-hidden="true">
+          <img src="<?php echo $base_url; ?>assests/images/android-app-development/asset-6237c73c95.webp" alt="" width="520" height="572" loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      <div class="split split--balanced split--sticky reveal js-anim">
+        <div>
+          <ul class="factors">
+            <li><span class="num">1</span><div><h3>Number of user roles and flows</h3><p>A single-audience app with a few screens costs very differently from a product with customer, driver and admin roles that each need their own journey.</p></div></li>
+            <li><span class="num">2</span><div><h3>Custom logic versus standard features</h3><p>Login, chat, payments and notifications are well-trodden work. Unique pricing engines, scheduling rules or compliance logic take longer to specify and test.</p></div></li>
+            <li><span class="num">3</span><div><h3>Integrations with your existing systems</h3><p>Connecting to a CRM, ERP or payment provider depends on whether documented APIs already exist or new endpoints have to be built.</p></div></li>
+            <li><span class="num">4</span><div><h3>Design depth</h3><p>Reusing an existing brand system is faster than building a new design language with prototypes, motion and screen-level iteration.</p></div></li>
+            <li><span class="num">5</span><div><h3>Device and OS coverage</h3><p>A wider device matrix and support for older Android versions mean more testing effort, and sometimes more defensive code.</p></div></li>
+            <li><span class="num">6</span><div><h3>Post-launch support</h3><p>Whether you need a monthly retainer, a fixed block of hours, or nothing until your next release changes the ongoing cost of the project.</p></div></li>
+          </ul>
+        </div>
+        <div class="split-media sticky-media">
+          <img src="<?php echo $base_url; ?>assests/images/android-app-development/portfolio-d14efc6933.webp" alt="Logic Works project consultant discussing Android app requirements with a client" width="641" height="671" class="cutout">
+          <div class="note-box">
+            What you receive before committing: a written scope, phase-by-phase cost breakdown, indicative timeline, and the assumptions the estimate is based on &mdash; so you can compare proposals on the same terms.
+          </div>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#contact">Request a Scope &amp; Estimate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO ================= -->
+  <section class="section section--tight" id="portfolio" style="background:var(--surface-2);border-block:1px solid var(--line)">
+    <div class="wrap">
+      <div class="head-row reveal js-anim">
+        <div class="section-head">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Our Android App Development <span class="grad">Portfolio</span></h2>
+          <p class="lede">The project types we build most often, and what the Android build typically covers in each. Named client apps and store links can be shared on request where client confidentiality allows.</p>
+        </div>
+        <a class="btn btn-outline" href="<?php echo $base_url; ?>portfolio">View portfolio</a>
+      </div>
+
+      <div class="grid grid-3 reveal js-anim">
+        <article class="card port-card">
+          <div class="top"><span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></span><span class="label">Retail &amp; Ecommerce</span></div>
+          <h3>Storefront and loyalty app</h3>
+          <p>Catalogue and search, cart and checkout, order tracking, loyalty points and push campaigns connected to the same inventory your stores use.</p>
+          <div class="scope"><b>Typical scope:</b> payment integration, stock sync, push notifications &middot; <b>Platform:</b> native Android</div>
+        </article>
+
+        <article class="card port-card">
+          <div class="top"><span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></span><span class="label">Food &amp; On-Demand</span></div>
+          <h3>Ordering and delivery tracking app</h3>
+          <p>Menu browsing, scheduled ordering, live courier tracking and rating flows, with a separate operator view for order throughput.</p>
+          <div class="scope"><b>Typical scope:</b> live location, order states, offline handling &middot; <b>Platform:</b> native Android</div>
+        </article>
+
+        <article class="card port-card">
+          <div class="top"><span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 8.4 3.9 3.9 0 0 1 19 11.6C19 16.6 12 21 12 21Z"/></svg></span><span class="label">Healthcare &amp; Wellness</span></div>
+          <h3>Appointment and habit tracking app</h3>
+          <p>Booking and reminders, records access with role-based permissions, and progress tracking with scheduled notifications.</p>
+          <div class="scope"><b>Typical scope:</b> secure data access, reminders, audit trail &middot; <b>Platform:</b> native Android</div>
+        </article>
+
+        <article class="card port-card">
+          <div class="top"><span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg></span><span class="label">Fintech &amp; Payments</span></div>
+          <h3>Wallet and transaction app</h3>
+          <p>Onboarding with KYC, secure authentication, balance and transaction history, and statements &mdash; with encryption and logging that stand up to audit.</p>
+          <div class="scope"><b>Typical scope:</b> KYC, tokenised sessions, encrypted storage &middot; <b>Platform:</b> native Android</div>
+        </article>
+
+        <article class="card port-card">
+          <div class="top"><span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 16V8h11v8H3Z"/><path d="M14 11h4l3 3v2h-7"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span><span class="label">Logistics &amp; Fleet</span></div>
+          <h3>Field operations app</h3>
+          <p>Job assignment, route and status updates, photo proof of delivery and offline capture that syncs once the device reconnects.</p>
+          <div class="scope"><b>Typical scope:</b> offline-first data, maps, background sync &middot; <b>Platform:</b> native Android</div>
+        </article>
+
+        <article class="card port-card">
+          <div class="top"><span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6"/></svg></span><span class="label">Real Estate &amp; Services</span></div>
+          <h3>Listing and booking app</h3>
+          <p>Search with filters, saved shortlists, enquiry routing to agents, viewing schedules and in-app document sharing.</p>
+          <div class="scope"><b>Typical scope:</b> search and filters, CRM sync, notifications &middot; <b>Platform:</b> native Android</div>
+        </article>
+      </div>
+
+      <p class="step-note">Project titles above are placeholders for the case studies you clear for publication &mdash; the card structure is built for that swap.</p>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section" id="faqs">
+    <div class="wrap">
+      <div class="head-row head-row--center reveal js-anim">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Buyer questions</p>
+          <h2>Android App Development <span class="grad">FAQs</span></h2>
+          <p class="lede">Cost, timelines, technology choices, integrations, store submission, device testing and support &mdash; the practical questions we hear most in first calls.</p>
+        </div>
+      </div>
+
+      <div class="faq reveal js-anim">
+        <details class="q" open>
+          <summary>Why should I hire an Android app developer in Dubai?</summary>
+          <div class="a">
+            <p>Hiring an experienced Android app developer in Dubai helps businesses plan applications around local market requirements, integrate essential business systems, and maintain their apps after launch.</p>
+            <p>Look for proven technical expertise, relevant project experience, and a clear development process.</p>
+          </div>
+        </details>
+
+        <details class="q">
+          <summary>How much does Android app development cost in Dubai?</summary>
+          <div class="a">
+            <p>Cost depends on scope rather than screen count alone. The main factors are the number of user roles, how much custom logic the app needs, integrations with your CRM, ERP or payment providers, the depth of UI/UX design, the device range you want tested, and the level of post-launch support.</p>
+            <p>After a discovery call we share a written estimate that breaks the project into phases, so you can see what each deliverable costs before development starts.</p>
+          </div>
+        </details>
+
+        <details class="q">
+          <summary>How long does it take to develop a custom Android app?</summary>
+          <div class="a">
+            <p>A focused app with a small feature set usually takes around 8 to 12 weeks, while larger products with multiple user roles, dashboards and third-party integrations commonly run 12 to 16 weeks or more.</p>
+            <p>Discovery and design run first, then development in two-week cycles, then testing and a staged Play Store release. The final schedule is confirmed in the proposal once the feature scope is fixed.</p>
+          </div>
+        </details>
+
+        <details class="q">
+          <summary>Do you build native Android apps using Kotlin or Java?</summary>
+          <div class="a">
+            <p>Yes. We build native Android apps in Kotlin, using Jetpack Compose or the View system depending on the project, and we also maintain and extend existing Java codebases.</p>
+            <p>Where a cross-platform approach genuinely saves budget and your feature set does not need deep platform APIs, we will say so during discovery rather than defaulting to native.</p>
+          </div>
+        </details>
+
+        <details class="q">
+          <summary>Can you integrate an Android app with our existing CRM or backend?</summary>
+          <div class="a">
+            <p>Yes. We integrate with REST and GraphQL APIs, payment gateways, ERP and CRM platforms, Microsoft and Google identity providers, mapping and location services, push notification platforms and analytics tools.</p>
+            <p>If your backend needs new endpoints, we document the required API contract and either work with your internal team or build the service layer ourselves.</p>
+          </div>
+        </details>
+
+        <details class="q">
+          <summary>Do you handle Google Play Store submission?</summary>
+          <div class="a">
+            <p>Yes. We prepare the store listing, screenshots, privacy policy references, data safety declarations and content ratings, then handle submission, review responses and staged rollouts.</p>
+            <p>We also set up the release pipeline so future updates can ship without rebuilding the process each time.</p>
+          </div>
+        </details>
+
+        <details class="q">
+          <summary>How do you test Android apps across different devices?</summary>
+          <div class="a">
+            <p>Testing covers a device matrix based on your actual audience: different screen sizes, Android versions, RAM classes and manufacturer skins that commonly cause layout or battery issues.</p>
+            <p>We run functional, regression and performance checks, use automated UI tests where they add value, and include a UAT round with your team before release.</p>
+          </div>
+        </details>
+
+        <details class="q">
+          <summary>Do you provide maintenance and updates after launch?</summary>
+          <div class="a">
+            <p>Yes. Post-launch support covers OS and SDK version updates, dependency and security patches, crash monitoring and fixes, Play Store policy changes and small feature iterations.</p>
+            <p>Support can run as a monthly retainer or as a scoped block of hours, depending on how actively your product is evolving.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section section--alt" id="contact">
+    <div class="wrap">
+      <div class="section-head section-head--center reveal js-anim">
+        <p class="eyebrow">Next step</p>
+        <h2>Discuss Your <span class="grad">Android App Project</span></h2>
+        <p class="lede">Tell us what the app needs to do. We will come back with the questions that matter, an indicative timeline and a scope you can compare against other proposals.</p>
+      </div>
+
+      <div class="cta-grid reveal js-anim">
+        <div class="cta-copy">
+          <h3 class="mini-head">What happens next</h3>
+          <ol class="next-steps">
+            <li><b>You send the brief</b><span>Takes about two minutes. Name, contact, what the app should do.</span></li>
+            <li><b>We come back with questions</b><span>A 30-minute call to pin down users, features and integrations.</span></li>
+            <li><b>You receive a written scope</b><span>Phase-by-phase estimate, indicative timeline and the assumptions behind it.</span></li>
+          </ol>
+
+          <ul class="cta-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> No obligation to proceed after the estimate</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> NDA signed before you share product details, if you prefer</li>
+          </ul>
+
+          <ul class="scope-chips" aria-label="What we build">
+            <li>Android</li><li>iOS</li><li>UI/UX</li><li>Play Store release</li><li>Maintenance</li>
+          </ul>
+
+          <ul class="contact-rows">
+            <li><a href="tel:+971529502258"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg> +971 52 950 2258</a><span>Call or WhatsApp, Sun–Thu 9:00–18:00 GST</span></li>
+            <li><a href="mailto:info@logicworks.ae">info@logicworks.ae</a><span>Replies within one working day</span></li>
+          </ul>
+        </div>
+
+        <div class="form-card">
+          <h3>Get a project estimate</h3>
+          <p class="hint">Fields marked * are required. We usually reply within one working day.</p>
+
+          <!-- success / error banner (hidden until the handler responds) -->
+          <div class="form-feedback" id="formFeedback" role="status" aria-live="polite" hidden></div>
+
+          <form id="projectForm" action="<?php echo $base_url; ?>popup_limited_offer.php" method="POST">
+            <div class="hp-field" aria-hidden="true">
+              <label for="company_website">Company website</label>
+              <input id="company_website" name="company_website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <input type="hidden" name="subject" value="Android app development enquiry (Dubai)">
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp-field">
+
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Full name *</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name"
+                       required minlength="2" maxlength="80" aria-describedby="err-name">
+                <p class="field-error" id="err-name" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="email">Work email *</label>
+                <input id="email" name="email" type="email" inputmode="email" autocomplete="email"
+                       placeholder="you@company.com" required maxlength="120" aria-describedby="err-email">
+                <p class="field-error" id="err-email" role="alert"></p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="phone">Phone / WhatsApp *</label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel"
+                       placeholder="+971 50 000 0000" required minlength="7" maxlength="20"
+                       pattern="[0-9+()\s-]{7,20}" aria-describedby="err-phone">
+                <p class="field-error" id="err-phone" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="stage">Where are you now?</label>
+                <select id="stage" name="stage">
+                  <option value="Idea or concept stage">Idea or concept stage</option>
+                  <option value="Scope ready, need a development partner">Scope ready, need a development partner</option>
+                  <option value="Existing app needs an upgrade or fixes">Existing app needs an upgrade or fixes</option>
+                  <option value="Comparing proposals">Comparing proposals</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">What should the app do? *</label>
+              <textarea id="message" name="message" maxlength="1500" minlength="10"
+                        placeholder="Feature list, integrations, target users, timeline..."
+                        required aria-describedby="err-brief"></textarea>
+              <p class="field-error" id="err-brief" role="alert"></p>
+            </div>
+
+            <div id="lw-android-captcha-container" style="display:none;margin:12px 0;">
+              <div class="g-recaptcha" data-sitekey="6LfxcVgsAAAAAECVQSaraQGJ25sQ1swHxBqiU6mK"></div>
+              <div id="lw-android-captcha-error" style="color:#FD6E7E;margin-top:8px;font-size:13px;"></div>
+            </div>
+            <button class="btn btn-primary" type="submit" id="formSubmit">
+              <span class="btn-label">Send project brief</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+            <p class="legal">By submitting you agree to be contacted about your project. Your details are not shared with third parties.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
-<!-- Footer Section -->
-<?php
-include("includes/footer.php");
-?>
-
-
-<style>
-    .android-app-development {
-        overflow: hidden;
-    }
-
-    .android-app-development .section-marquee .marwuee-row:before {
-        display: none;
-    }
-
-    .android-app-development .text-white-android {
-        font-size: 17px;
-        font-weight: 300;
-        line-height: 20px;
-        color: white;
-        letter-spacing: 0%;
-    }
-
-    .android-app-development .text-white-1 {
-        font-size: 71px;
-        font-weight: 900;
-    }
-
-
-    .dev-para {
-        font-weight: 700;
-        font-size: 30px;
-        color: white;
-
-    }
-
-    .android-app-development .sec-left-img {
-        left: 0;
-        top: 110px;
-        height: 100%;
-    }
-
-    .android-app-development .sec-right-img {
-        right: 0;
-        top: 110px;
-        height: 90%;
-    }
-
-    .para {
-        font-size: 18px;
-        font-weight: 400;
-        color: #FFFFFF;
-        margin-top: 2rem;
-        letter-spacing: 0px;
-        /* font-family: lato; */
-
-
-    }
-
-    .mobile {
-        padding: 0% 50% 10% 20%;
-
-    }
-
-    .choice-para {
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 1.4;
-        font-family: 'Roboto';
-    }
-
-    .custom {
-        text-align: center;
-        color: white;
-        font-size: 30px;
-        font-weight: 500;
-        font-family: 'Roboto';
-    }
-
-
-    /* Our development process section styling start*/
-    .development-section {
-        background-image: url('assests/images/android-app-development/worksbg.webp');
-        /* background-color: url('assests/images/android-app-dubai/choice.png'); */
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        position: relative;
-        overflow: hidden;
-        padding: 80px 70px 50px 0px;
-        z-index: 1;
-    }
-
-    /* .development-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        /* background-color: #5d0ebbd4; */
-    z-index: -1;
-
-    }
-
-    */ .step-icon {
-        width: 60px;
-        height: 60px;
-
-
-    }
-
-    .step-title {
-        color: white;
-        font-size: 1.3rem;
-        font-weight: 600;
-        margin-bottom: 1rem;
-    }
-
-    .step-description {
-        color: rgba(255, 255, 255, 0.8);
-        font-size: 0.95rem;
-        line-height: 1.6;
-    }
-
-    @media (max-width: 768px) {
-        .phone-container {
-            height: 300px;
-        }
-
-        .mobile-img {
-            max-width: 200px !important;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .development-section {
-            padding: 50px 0px 0px 0px;
-        }
-    }
-
-
-
-    /* Our development process section styling end */
-    .our-dev-process {
-        background-color: black;
-        padding-top: 100px;
-
-    }
-
-    .our-android-development-services {
-        padding-bottom: 100px;
-    }
-
-    @media (max-width: 1024px) {
-        .android-app-development .consultancy-hero-sec .col-lg-4 img {
-            min-width: 450px !important;
-
-        }
-
-        .android-app-development .consultancy-hero-sec h1.text-white {
-            font-size: 40px;
-
-        }
-    }
-
-    @media (max-width: 1440px) and (min-width: 1152px) {
-        .android-app-development .consultancy-hero-sec .col-lg-4 img {
-            max-width: 600px;
-        }
-    }
-
-    @media (max-width: 600px) {
-        .android-app-development .text-white-1 {
-            font-size: 29px;
-        }
-
-        .choice-para {
-            font-size: 20px;
-            line-height: 1.2;
-        }
-
-        .custom {
-            font-size: 30px;
-        }
-    }
-
-    /* @media (min-device-width: 320px) and (max-device-width: 768px) {
-         .process-step {
-            margin-top: 50px;
-
-    }
-.mobile-img {
-    height: 50%;
-}
-} */
-</style>
-
-
-<script>
-    var swiper = new Swiper(".process-thumbs-slider", {
-        loop: true,
-        spaceBetween: 10,
-        slidesPerView: 4,
-        freeMode: true,
-        watchSlidesProgress: true,
-    });
-    var swiper2 = new Swiper(".process-main-slider", {
-        loop: true,
-        spaceBetween: 10,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        thumbs: {
-            swiper: swiper,
-        },
-    });
-</script>
+<script src="<?php echo $base_url; ?>assests/js/android-app-development.js?v=2" defer></script>
+<?php include("includes/footer.php"); ?>

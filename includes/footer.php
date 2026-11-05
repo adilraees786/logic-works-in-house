@@ -1,4 +1,4 @@
-<?php $base_url = 'https://logicworks.ae/'; ?>
+<?php $base_url = 'http://localhost/logic-works-house/'; ?>
 <!--==============================
         Footer Area
     ==============================-->
@@ -184,7 +184,7 @@
     <div class="row footer-main-row">
       <div class="col-lg-3 col-md-6 footer-brand-col">
         <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>assests/images/head-logo.webp" alt="Logic Works"></a>
-        <p>Explore the high-tech, low-life world where the lines between humanity</p>
+        <p>Logic Works delivers digital, web, app, design, and technology solutions across the UAE and beyond.</p>
       </div>
       <div class="col-lg-2 col-md-6 footer-links-col">
         <h4 class="text-white">Information</h4>
@@ -400,83 +400,7 @@
   </script>
 
 
-  <!-- Tabs Js -->
-  <!--  <script>
-  function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    if (evt) {
-      evt.currentTarget.className += " active";
-    }
-  }
-
-  function tabbtn(evt, tabName) {
-    var i, tabsection, tabbutton;
-    tabsection = document.getElementsByClassName("tab-section");
-    for (i = 0; i < tabsection.length; i++) {
-      tabsection[i].style.display = "none";
-    }
-    tabbutton = document.getElementsByClassName("tab-button");
-    for (i = 0; i < tabbutton.length; i++) {
-      tabbutton[i].className = tabbutton[i].className.replace(" active", "");
-    }
-    document.getElementById(tabName).style.display = "block";
-    if (evt) {
-      evt.currentTarget.className += " active";
-    }
-  }
-
-  function opentabsss(evt, tabId) {
-
-  var i, tabView, tablinks;
-  tabView = document.getElementsByClassName("tab-view");
-  for (i = 0; i < tabView.length; i++) {
-    tabView[i].style.display = "none";
-  }
-
-  tablinks = document.getElementsByClassName("custom-tab-btn");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  if (evt) {
-  document.getElementById(tabId).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-}
-
-var acc = document.getElementsByClassName("accordions");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-
-  // Open the first tab in both sections by default on page load
-  window.onload = function() {
-    // Open the first tab of the case study section
-    document.getElementsByClassName('tab-button')[0].click();
-    // Open the first tab of the portfolio section
-    document.getElementsByClassName('tablinks')[0].click();
-    // Get the element with id="defaultOpen" and click on it to display the first tab by default
-    document.getElementById("defaultOpen").click();
-  };
-</script> -->
+ 
   <script>
     function tabbtn(evt, tabName) {
       // Get all elements with class="tab-section" and hide them
@@ -902,20 +826,7 @@ for (i = 0; i < acc.length; i++) {
 
   </script>
 
- <!-- Logic Works Chatbot Loader Integration -->
-  <!-- <script type="text/javascript">
-    window.LW_CHAT_BASE_URL = "<?php echo $base_url; ?>";
-    (function () {
-      var s1 = document.createElement("script");
-      s1.async = true;
-      s1.src = "<?php echo $base_url; ?>frontend/chatbot.js";
-      s1.charset = "UTF-8";
-      document.body.appendChild(s1);
-    })();
-  </script> -->
-  
 
-  <!-- / Logic Works Chatbot Loader -->
  <script>
   window.LogicTawkConfig = {
     propertyId: "p_01m29cabqjp2v73v9ed7ea7avm",

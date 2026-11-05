@@ -1,0 +1,2273 @@
+/* =========================================================
+   Software Development page ONLY — scoped to .lw-sw-dubai
+   ========================================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap");
+/* Main Scoped Wrapper */
+main.lw-sw-dubai,
+.lw-sw-dubai {
+  --ad-bg: #08060d;
+  --ad-bg2: #0a0812;
+  --ad-bg3: #0f0b1c;
+  --ad-card: #130e1c;
+  --ad-card-alt: #181124;
+  --ad-line: rgba(255, 255, 255, 0.08);
+  --ad-line-strong: rgba(168, 85, 247, 0.38);
+  --ad-muted: #b9aecb;
+  --ad-muted2: #8f84a3;
+  --ad-body-txt: #e8e0f5;
+  --ad-grad-text: linear-gradient(92deg, #cf8fff 0%, #e79ec4 100%);
+  --ad-grad-btn: linear-gradient(92deg, #7c3aed 0%, #9333ea 38%, #c86a9b 100%);
+  --ad-grad-btn-hover: linear-gradient(92deg, #8b4dff 0%, #a44cf2 38%, #d87dab 100%);
+
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--ad-bg) !important;
+  color: #fff;
+  overflow-x: clip;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.lw-sw-dubai *,
+.lw-sw-dubai *::before,
+.lw-sw-dubai *::after {
+  box-sizing: border-box;
+}
+
+.lw-sw-dubai h1,
+.lw-sw-dubai h2,
+.lw-sw-dubai h3,
+.lw-sw-dubai h4,
+.lw-sw-dubai .ad-jakarta {
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+.lw-sw-dubai a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lw-sw-dubai button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.lw-sw-dubai .ad-wrap {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-wrap {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.lw-sw-dubai .ad-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: #b7a3dc;
+  text-transform: uppercase;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lw-sw-dubai .ad-eyebrow.is-center {
+  justify-content: center;
+  display: flex;
+}
+
+.lw-sw-dubai .ad-eyebrow-pill {
+  background: rgba(124, 58, 237, 0.16);
+  border: 1px solid rgba(192, 132, 252, 0.28);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.lw-sw-dubai .ad-grad-text {
+  background: var(--ad-grad-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lw-sw-dubai .ad-btn-grad {
+  background: var(--ad-grad-btn);
+  color: #fff !important;
+  transition: 0.25s ease;
+  box-shadow: 0 8px 28px -8px rgba(147, 51, 234, 0.55);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 13.5px;
+  padding: 13px 24px;
+  border-radius: 6px;
+  border: none;
+  line-height: 1.2;
+}
+
+.lw-sw-dubai .ad-btn-grad:hover {
+  background: var(--ad-grad-btn-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 12px 32px -8px rgba(147, 51, 234, 0.7);
+  color: #fff !important;
+}
+
+.lw-sw-dubai .ad-btn-outline {
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 13px 24px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+  transition: 0.2s;
+}
+
+.lw-sw-dubai .ad-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
+.lw-sw-dubai .ad-pink-line {
+  width: 48px;
+  height: 3px;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #a855f7, #e79ec4);
+  margin-top: 14px;
+}
+
+.lw-sw-dubai .ad-pink-line.is-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lw-sw-dubai .ad-check {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: #c084fc;
+  margin-top: 2px;
+}
+
+.lw-sw-dubai .ad-glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(95px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.lw-sw-dubai .ad-glow.is-hero-a {
+  width: 440px;
+  height: 440px;
+  left: -140px;
+  top: 8%;
+  background: rgba(124, 58, 237, 0.24);
+}
+
+.lw-sw-dubai .ad-glow.is-hero-b {
+  width: 360px;
+  height: 360px;
+  right: 5%;
+  top: 22%;
+  background: rgba(200, 106, 155, 0.15);
+}
+
+.lw-sw-dubai .ad-glow.is-center {
+  width: 320px;
+  height: 320px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(124, 58, 237, 0.18);
+}
+
+.lw-sw-dubai .ad-ico {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* ---------- HERO SECTION ---------- */
+.lw-sw-dubai .ad-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 132px 0 56px;
+  z-index: 1;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(124, 58, 237, 0.16), transparent 45%),
+    radial-gradient(circle at 15% 70%, rgba(200, 106, 155, 0.1), transparent 45%),
+    #08060d;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-hero {
+    padding: 156px 0 72px;
+  }
+}
+
+.lw-sw-dubai .ad-hero-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 40px;
+  align-items: start;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-hero-grid {
+    grid-template-columns: 1.14fr 0.86fr;
+    gap: 54px;
+  }
+
+  .lw-sw-dubai .ad-quote-col {
+    background: rgba(19, 14, 28, 0.85);
+    border: 1px solid rgba(192, 132, 252, 0.22);
+    border-radius: 14px;
+    padding: 30px 28px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  }
+}
+
+@media (max-width: 991px) {
+  .lw-sw-dubai .ad-quote-col {
+    background: rgba(19, 14, 28, 0.9);
+    border: 1px solid rgba(192, 132, 252, 0.22);
+    border-radius: 14px;
+    padding: 24px 20px;
+  }
+}
+
+.lw-sw-dubai .ad-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #8f84a3;
+  margin-bottom: 14px;
+}
+
+.lw-sw-dubai .ad-breadcrumb a {
+  color: #b9aecb;
+}
+
+.lw-sw-dubai .ad-breadcrumb a:hover {
+  color: #cf8fff;
+}
+
+.lw-sw-dubai .ad-hero h1 {
+  margin: 14px 0 0;
+  font-size: clamp(31px, 4.4vw, 50px);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.lw-sw-dubai .ad-hero-lead {
+  margin: 20px 0 0;
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: #e8e0f5 !important;
+  max-width: 610px;
+}
+
+.lw-sw-dubai .ad-hero-list {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+  max-width: 600px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #ddd4ee;
+}
+
+@media (min-width: 576px) {
+  .lw-sw-dubai .ad-hero-list {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+}
+
+.lw-sw-dubai .ad-hero-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+}
+
+.lw-sw-dubai .ad-hero-ctas {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Hero Metrics Strip (Reimagined from TechGropse stats strip, credible B2B benchmarks) */
+.lw-sw-dubai .ad-metrics-strip {
+  margin-top: 36px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+@media (min-width: 640px) {
+  .lw-sw-dubai .ad-metrics-strip {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.lw-sw-dubai .ad-metric-item {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.lw-sw-dubai .ad-metric-val {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  background: var(--ad-grad-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: block;
+}
+
+.lw-sw-dubai .ad-metric-lbl {
+  font-size: 12px;
+  color: #b9aecb;
+  margin-top: 3px;
+  display: block;
+  line-height: 1.35;
+}
+
+/* ---------- QUOTE FORM ---------- */
+.lw-sw-dubai .ad-quote h2,
+.lw-sw-dubai .ad-quote .ad-quote-heading {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+  font-size: clamp(21px, 2.5vw, 26px);
+  font-weight: 700;
+  line-height: 1.22;
+  color: #fff;
+}
+
+.lw-sw-dubai .ad-quote-sub {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #b9aecb !important;
+}
+
+.lw-sw-dubai .ad-form {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.lw-sw-dubai .ad-form label.ad-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #e2d8f2;
+  margin-bottom: 5px;
+}
+
+.lw-sw-dubai .ad-form .ad-req {
+  color: #e79ec4;
+}
+
+.lw-sw-dubai .ad-form .ad-opt {
+  font-weight: 400;
+  color: #8f84a3;
+}
+
+.lw-sw-dubai .ad-field {
+  width: 100%;
+  background: rgba(32, 22, 50, 0.72);
+  border: 1px solid rgba(168, 130, 220, 0.25);
+  border-radius: 6px;
+  padding: 11px 14px;
+  font-size: 13.5px;
+  color: #fff;
+  outline: none;
+  transition: 0.2s;
+  font-family: inherit;
+}
+
+.lw-sw-dubai .ad-field::placeholder {
+  color: #7d7391;
+}
+
+.lw-sw-dubai .ad-field:focus {
+  border-color: #a855f7;
+  background: rgba(38, 26, 60, 0.9);
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.16);
+}
+
+.lw-sw-dubai select.ad-field {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding-right: 36px;
+}
+
+.lw-sw-dubai select.ad-field option {
+  background: #1a1426;
+  color: #fff;
+}
+
+.lw-sw-dubai textarea.ad-field {
+  min-height: 82px;
+  resize: vertical;
+}
+
+.lw-sw-dubai .ad-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 575px) {
+  .lw-sw-dubai .ad-form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lw-sw-dubai .ad-select-wrap {
+  position: relative;
+}
+
+.lw-sw-dubai .ad-select-wrap svg {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: #a99cbf;
+  pointer-events: none;
+}
+
+.lw-sw-dubai .ad-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 12px;
+  color: #b9aecb;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.lw-sw-dubai .ad-check-input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  border: 1px solid rgba(168, 130, 220, 0.4);
+  background: rgba(50, 35, 75, 0.6);
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.lw-sw-dubai .ad-check-input:checked {
+  background: #7c3aed;
+  border-color: #7c3aed;
+}
+
+.lw-sw-dubai .ad-check-input:checked::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(42deg);
+}
+
+.lw-sw-dubai .ad-form-error {
+  display: none;
+  font-size: 12.5px;
+  color: #ff9eb8;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.lw-sw-dubai .ad-form-error.is-show {
+  display: block;
+}
+
+.lw-sw-dubai .ad-submit {
+  width: 100%;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 13px 24px;
+}
+
+.lw-sw-dubai .ad-wa-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 11.5px;
+  color: #b9aecb !important;
+  margin: 0;
+}
+
+/* ---------- SECTIONS & COMMON LAYOUTS ---------- */
+.lw-sw-dubai .ad-section {
+  background: var(--ad-bg2);
+  padding: 60px 0;
+  position: relative;
+}
+
+.lw-sw-dubai .ad-section.is-alt {
+  background: var(--ad-bg);
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-section {
+    padding: 76px 0;
+  }
+}
+
+.lw-sw-dubai .ad-section-border {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.lw-sw-dubai .ad-two-col {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-two-col {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 56px;
+  }
+}
+
+.lw-sw-dubai .ad-section h2 {
+  margin: 12px 0 0;
+  font-size: clamp(26px, 3.4vw, 38px);
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.lw-sw-dubai .ad-center {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.lw-sw-dubai .ad-muted-p {
+  margin: 14px 0 0;
+  font-size: 14.5px;
+  color: #d6cbe9 !important;
+  line-height: 1.72;
+}
+
+.lw-sw-dubai .ad-body {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14.5px;
+  line-height: 1.76;
+  color: #e8e0f5 !important;
+}
+
+.lw-sw-dubai .ad-body p {
+  margin: 0;
+  color: #e8e0f5 !important;
+}
+
+/* ---------- SECTION 2: MARKET SNAPSHOT & ARCHITECTURE TOGGLE ---------- */
+.lw-sw-dubai .lw-arch-card {
+  background: var(--ad-card);
+  border: 1px solid rgba(192, 132, 252, 0.22);
+  border-radius: 14px;
+  padding: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.lw-sw-dubai .lw-arch-tabs {
+  display: flex;
+  gap: 8px;
+  background: rgba(8, 6, 13, 0.65);
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 20px;
+}
+
+.lw-sw-dubai .lw-arch-tab {
+  flex: 1;
+  padding: 9px 12px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #b9aecb;
+  border-radius: 6px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.lw-sw-dubai .lw-arch-tab.is-active {
+  background: var(--ad-grad-btn);
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-arch-pane {
+  display: none;
+}
+
+.lw-sw-dubai .lw-arch-pane.is-active {
+  display: block;
+}
+
+.lw-sw-dubai .lw-market-box {
+  margin-top: 20px;
+  background: rgba(124, 58, 237, 0.09);
+  border: 1px solid rgba(192, 132, 252, 0.24);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.lw-sw-dubai .lw-market-box h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #cf8fff;
+  font-weight: 700;
+}
+
+.lw-sw-dubai .lw-market-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+
+@media (max-width: 575px) {
+  .lw-sw-dubai .lw-market-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lw-sw-dubai .lw-market-stat {
+  background: rgba(8, 6, 13, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.lw-sw-dubai .lw-market-stat strong {
+  display: block;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.lw-sw-dubai .lw-market-stat span {
+  font-size: 11.5px;
+  color: #b9aecb;
+}
+
+/* ---------- SECTION 3: SERVICES FILTER & 7 H3 CARDS ---------- */
+.lw-sw-dubai .lw-filter-bar {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.lw-sw-dubai .lw-filter-btn {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #c9bfd9;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.2s;
+}
+
+.lw-sw-dubai .lw-filter-btn:hover,
+.lw-sw-dubai .lw-filter-btn.is-active {
+  background: var(--ad-grad-btn);
+  color: #fff;
+  border-color: transparent;
+}
+
+.lw-sw-dubai .lw-services-grid {
+  margin-top: 32px;
+  display: grid;
+  gap: 22px;
+}
+
+@media (min-width: 768px) {
+  .lw-sw-dubai .lw-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .lw-sw-dubai .lw-services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.lw-sw-dubai .lw-service-card {
+  background: var(--ad-card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.lw-sw-dubai .lw-service-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(192, 132, 252, 0.45);
+  box-shadow: 0 18px 40px -12px rgba(124, 58, 237, 0.28);
+}
+
+.lw-sw-dubai .lw-service-card.is-featured {
+  border-color: rgba(192, 132, 252, 0.32);
+  background: linear-gradient(160deg, #191129 0%, #130e1c 100%);
+}
+
+@media (min-width: 1100px) {
+  .lw-sw-dubai .lw-service-card.is-span-2 {
+    grid-column: span 2;
+  }
+}
+
+.lw-sw-dubai .lw-service-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.25), rgba(231, 158, 196, 0.2));
+  border: 1px solid rgba(192, 132, 252, 0.32);
+  display: grid;
+  place-items: center;
+  color: #dfafff;
+  margin-bottom: 16px;
+}
+
+.lw-sw-dubai .lw-service-card h3 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.lw-sw-dubai .lw-service-card p {
+  margin: 12px 0 0;
+  font-size: 13.8px;
+  line-height: 1.7;
+  color: #dcd3ec !important;
+}
+
+.lw-sw-dubai .lw-outcome-tag {
+  margin-top: 16px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(124, 58, 237, 0.11);
+  border-left: 3px solid #c084fc;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #e8e0f5;
+}
+
+.lw-sw-dubai .lw-outcome-tag strong {
+  color: #cf8fff;
+}
+
+.lw-sw-dubai .lw-card-tags {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.lw-sw-dubai .lw-card-tags span {
+  font-size: 11px;
+  padding: 4px 9px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #b9aecb;
+}
+
+.lw-sw-dubai .lw-service-link {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #cf8fff;
+  transition: gap 0.2s;
+}
+
+.lw-sw-dubai .lw-service-link:hover {
+  gap: 12px;
+  color: #e79ec4;
+}
+
+/* Anti-Cannibalization Internal Link Callout Strip */
+.lw-sw-dubai .lw-intent-bridge {
+  margin-top: 36px;
+  display: grid;
+  gap: 18px;
+}
+
+@media (min-width: 768px) {
+  .lw-sw-dubai .lw-intent-bridge {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.lw-sw-dubai .lw-bridge-card {
+  background: linear-gradient(95deg, rgba(43, 18, 64, 0.65) 0%, rgba(19, 14, 28, 0.9) 100%);
+  border: 1px solid rgba(192, 132, 252, 0.26);
+  border-radius: 12px;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.lw-sw-dubai .lw-bridge-card h4 {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-bridge-card p {
+  margin: 6px 0 0;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #d6cbe9 !important;
+}
+
+.lw-sw-dubai .lw-bridge-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #cf8fff;
+}
+
+.lw-sw-dubai .lw-bridge-card a:hover {
+  color: #e79ec4;
+  text-decoration: underline;
+}
+
+/* ---------- SECTION 4: UAE BUSINESS REQUIREMENTS & RTL PREVIEW ---------- */
+.lw-sw-dubai .lw-uae-grid {
+  margin-top: 36px;
+  display: grid;
+  gap: 24px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-uae-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.lw-sw-dubai .lw-uae-card {
+  background: var(--ad-card);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 12px;
+  padding: 26px 24px;
+}
+
+.lw-sw-dubai .lw-uae-card h3 {
+  margin: 14px 0 10px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-uae-card p {
+  margin: 0 0 14px;
+  font-size: 13.8px;
+  line-height: 1.72;
+  color: #e8e0f5 !important;
+}
+
+.lw-sw-dubai .lw-uae-list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 13px;
+  color: #cfc4e4;
+}
+
+.lw-sw-dubai .lw-uae-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+/* Interactive Bilingual RTL/LTR Preview Bar */
+.lw-sw-dubai .lw-rtl-demo {
+  margin-top: 32px;
+  background: var(--ad-card-alt);
+  border: 1px solid rgba(192, 132, 252, 0.28);
+  border-radius: 12px;
+  padding: 22px 24px;
+}
+
+.lw-sw-dubai .lw-rtl-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lw-sw-dubai .lw-rtl-switch {
+  display: inline-flex;
+  background: #08060d;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 4px;
+  gap: 6px;
+}
+
+.lw-sw-dubai .lw-rtl-btn {
+  padding: 7px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #b9aecb;
+  border-radius: 6px;
+}
+
+.lw-sw-dubai .lw-rtl-btn.is-active {
+  background: var(--ad-grad-btn);
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-rtl-mock {
+  margin-top: 18px;
+  background: #0a0812;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 18px;
+  transition: all 0.25s ease;
+}
+
+.lw-sw-dubai .lw-rtl-mock-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.lw-sw-dubai .lw-rtl-stat {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.lw-sw-dubai .lw-rtl-stat span {
+  font-size: 12px;
+  color: #b9aecb;
+  display: block;
+}
+
+.lw-sw-dubai .lw-rtl-stat strong {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 4px;
+  display: block;
+}
+
+/* ---------- SECTION 5: INDUSTRIES INTERACTIVE TABS ---------- */
+.lw-sw-dubai .lw-ind-layout {
+  margin-top: 36px;
+  display: grid;
+  gap: 28px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-ind-layout {
+    grid-template-columns: 300px 1fr;
+    align-items: start;
+  }
+}
+
+.lw-sw-dubai .lw-ind-nav {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-ind-nav {
+    flex-direction: column;
+    overflow-x: visible;
+  }
+}
+
+.lw-sw-dubai .lw-ind-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  background: var(--ad-card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #d6cbe9;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-ind-tab {
+    white-space: normal;
+    width: 100%;
+  }
+}
+
+.lw-sw-dubai .lw-ind-tab:hover {
+  border-color: rgba(192, 132, 252, 0.35);
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-ind-tab.is-active {
+  background: var(--ad-grad-btn);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 10px 26px -8px rgba(147, 51, 234, 0.6);
+}
+
+.lw-sw-dubai .lw-ind-panel {
+  display: none;
+  background: var(--ad-card);
+  border: 1px solid rgba(192, 132, 252, 0.25);
+  border-radius: 14px;
+  padding: 30px 28px;
+}
+
+.lw-sw-dubai .lw-ind-panel.is-active {
+  display: block;
+}
+
+.lw-sw-dubai .lw-ind-panel h3 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-ind-panel p {
+  margin: 14px 0 0;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #e8e0f5 !important;
+}
+
+.lw-sw-dubai .lw-ind-modules {
+  margin-top: 22px;
+  display: grid;
+  gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .lw-sw-dubai .lw-ind-modules {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.lw-sw-dubai .lw-ind-mod {
+  background: rgba(8, 6, 13, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: #e2d8f2;
+}
+
+/* ---------- SECTION 6: DEVELOPMENT PROCESS (6 STEPS) ---------- */
+.lw-sw-dubai .lw-process-grid {
+  margin-top: 40px;
+  display: grid;
+  gap: 22px;
+}
+
+@media (min-width: 640px) {
+  .lw-sw-dubai .lw-process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-process-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.lw-sw-dubai .lw-step-card {
+  background: var(--ad-card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 24px 22px;
+  position: relative;
+}
+
+.lw-sw-dubai .lw-step-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.lw-sw-dubai .lw-step-num {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  color: #fff;
+  background: var(--ad-grad-btn);
+  padding: 5px 11px;
+  border-radius: 6px;
+  letter-spacing: 0.08em;
+}
+
+.lw-sw-dubai .lw-step-deliverable {
+  font-size: 11px;
+  color: #cf8fff;
+  background: rgba(192, 132, 252, 0.12);
+  border: 1px solid rgba(192, 132, 252, 0.25);
+  padding: 4px 9px;
+  border-radius: 99px;
+  font-weight: 600;
+}
+
+.lw-sw-dubai .lw-step-card h3 {
+  margin: 0;
+  font-size: 17.5px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-step-card p {
+  margin: 10px 0 0;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #dcd3ec !important;
+}
+
+/* ---------- SECTION 7: TECHNOLOGIES WE USE ---------- */
+.lw-sw-dubai .lw-tech-grid {
+  margin-top: 32px;
+  display: grid;
+  gap: 18px;
+}
+
+@media (min-width: 768px) {
+  .lw-sw-dubai .lw-tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .lw-sw-dubai .lw-tech-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.lw-sw-dubai .lw-tech-card {
+  background: var(--ad-card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.lw-sw-dubai .lw-tech-card h3 {
+  margin: 0;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lw-sw-dubai .lw-tech-card p {
+  margin: 8px 0 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #b9aecb !important;
+}
+
+.lw-sw-dubai .lw-tech-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lw-sw-dubai .lw-tech-pill {
+  padding: 6px 11px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(192, 132, 252, 0.2);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #e8e0f5;
+}
+
+/* ---------- SECTION 8: COST IN DUBAI & INTERACTIVE ESTIMATOR ---------- */
+.lw-sw-dubai .lw-cost-tiers {
+  margin-top: 36px;
+  display: grid;
+  gap: 22px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-cost-tiers {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.lw-sw-dubai .lw-tier-card {
+  background: var(--ad-card);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lw-sw-dubai .lw-tier-card.is-popular {
+  border-color: #a855f7;
+  background: linear-gradient(165deg, #1b112c 0%, #130e1c 100%);
+  box-shadow: 0 20px 50px -15px rgba(147, 51, 234, 0.35);
+}
+
+.lw-sw-dubai .lw-tier-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #cf8fff;
+  background: rgba(192, 132, 252, 0.14);
+  padding: 4px 10px;
+  border-radius: 99px;
+  margin-bottom: 12px;
+}
+
+.lw-sw-dubai .lw-tier-card h3 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-tier-price {
+  margin: 14px 0 4px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  background: var(--ad-grad-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lw-sw-dubai .lw-tier-time {
+  font-size: 12.5px;
+  color: #b9aecb;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Interactive Cost Estimator Box */
+.lw-sw-dubai .lw-calc-box {
+  margin-top: 40px;
+  background: linear-gradient(145deg, #171026 0%, #100b1a 100%);
+  border: 1px solid rgba(192, 132, 252, 0.32);
+  border-radius: 16px;
+  padding: 30px 26px;
+}
+
+.lw-sw-dubai .lw-calc-grid {
+  margin-top: 22px;
+  display: grid;
+  gap: 24px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-calc-grid {
+    grid-template-columns: 1.35fr 0.65fr;
+    align-items: center;
+  }
+}
+
+.lw-sw-dubai .lw-calc-controls {
+  display: grid;
+  gap: 18px;
+}
+
+@media (min-width: 640px) {
+  .lw-sw-dubai .lw-calc-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.lw-sw-dubai .lw-calc-result {
+  background: rgba(8, 6, 13, 0.78);
+  border: 1px solid rgba(192, 132, 252, 0.35);
+  border-radius: 12px;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.lw-sw-dubai .lw-calc-amount {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 800;
+  background: var(--ad-grad-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 8px 0;
+}
+
+/* ---------- SECTION 9: WHY LOGIC WORKS & COMPARISON TABLE ---------- */
+.lw-sw-dubai .lw-compare-wrap {
+  margin-top: 36px;
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--ad-card);
+}
+
+.lw-sw-dubai .lw-compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 640px;
+  font-size: 13.5px;
+}
+
+.lw-sw-dubai .lw-compare-table th,
+.lw-sw-dubai .lw-compare-table td {
+  padding: 15px 18px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.lw-sw-dubai .lw-compare-table th {
+  background: rgba(124, 58, 237, 0.14);
+  font-weight: 700;
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-compare-table td.is-lw {
+  background: rgba(124, 58, 237, 0.08);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* ---------- SECTION 10: CASE STUDIES ---------- */
+.lw-sw-dubai .lw-cases-grid {
+  margin-top: 36px;
+  display: grid;
+  gap: 24px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-cases-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.lw-sw-dubai .lw-case-card {
+  background: var(--ad-card);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.lw-sw-dubai .lw-case-client {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #cf8fff;
+}
+
+.lw-sw-dubai .lw-case-card h3 {
+  margin: 0;
+  font-size: 18.5px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lw-sw-dubai .lw-case-block {
+  background: rgba(8, 6, 13, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.lw-sw-dubai .lw-case-block strong {
+  display: block;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #e79ec4;
+  margin-bottom: 4px;
+}
+
+.lw-sw-dubai .lw-case-block p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.62;
+  color: #e8e0f5 !important;
+}
+
+/* ---------- SECTION 11: FAQ ACCORDION ---------- */
+.lw-sw-dubai .ad-faq-grid {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.lw-sw-dubai .ad-acc-item {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: var(--ad-card);
+  transition: 0.2s;
+}
+
+.lw-sw-dubai .ad-acc-item.is-open {
+  border-color: rgba(168, 85, 247, 0.55);
+  background: rgba(30, 20, 48, 0.65);
+}
+
+.lw-sw-dubai .ad-acc-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  font-size: 15.5px;
+  font-weight: 600;
+  color: #fff !important;
+  text-align: left;
+}
+
+.lw-sw-dubai .ad-acc-plus {
+  color: #c084fc;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.lw-sw-dubai .ad-acc-item.is-open .ad-acc-plus {
+  transform: rotate(45deg);
+}
+
+.lw-sw-dubai .ad-acc-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lw-sw-dubai .ad-acc-item.is-open .ad-acc-panel {
+  max-height: 380px;
+}
+
+.lw-sw-dubai .ad-acc-panel p {
+  margin: 0;
+  padding: 0 22px 20px;
+  font-size: 14px;
+  line-height: 1.72;
+  color: #e8e0f5 !important;
+}
+
+/* ---------- CTA BANNER & FINAL CTA ---------- */
+.lw-sw-dubai .ad-cta-banner {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(100deg, #2b1240 0%, #3d1654 55%, #33133f 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 52px 0;
+}
+
+.lw-sw-dubai .ad-cta-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-cta-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.lw-sw-dubai .ad-cta-banner h2 {
+  margin: 8px 0 0;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 800;
+  color: #fff;
+}
+
+.lw-sw-dubai .ad-cta-banner p {
+  margin: 12px 0 0;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #e8e0f5 !important;
+  max-width: 660px;
+}
+
+.lw-sw-dubai .ad-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.lw-sw-dubai .ad-btn-white {
+  background: #fff;
+  color: #1c1230 !important;
+  font-size: 13.5px;
+  font-weight: 700;
+  padding: 13px 24px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  transition: 0.2s;
+}
+
+.lw-sw-dubai .ad-btn-white:hover {
+  background: #faf5ff;
+  transform: translateY(-1px);
+}
+
+.lw-sw-dubai .ad-btn-ghost {
+  color: #fff !important;
+  font-size: 13.5px;
+  font-weight: 700;
+  padding: 13px 24px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(0, 0, 0, 0.32);
+  transition: 0.2s;
+}
+
+.lw-sw-dubai .ad-btn-ghost:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Toast Notification */
+.lw-sw-dubai .ad-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(96px);
+  opacity: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px 12px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(192, 132, 252, 0.35);
+  background: rgba(20, 13, 34, 0.98);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s;
+  pointer-events: none;
+}
+
+.lw-sw-dubai .ad-toast.is-show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.lw-sw-dubai .ad-toast-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #7c3aed, #e79ec4);
+}
+
+.lw-sw-dubai .ad-toast strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lw-sw-dubai .ad-toast span {
+  display: block;
+  font-size: 12px;
+  color: #b9aecb;
+}
+
+
+/* === LAYOUT & GAP REFINEMENTS + VISUAL SHOWCASE CARDS + THEME HOVER HIGHLIGHTS === */
+.lw-sw-dubai .ad-section {
+  padding: 58px 0 !important;
+}
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-section {
+    padding: 68px 0 !important;
+  }
+}
+
+/* Equal height two-column grids so left and right columns never leave a gap */
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-two-col {
+    display: grid;
+    grid-template-columns: 1.04fr 0.96fr;
+    gap: 40px;
+    align-items: stretch !important;
+  }
+}
+
+.lw-sw-dubai .lw-col-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
+}
+
+/* Visual Image Frame ("content k samne relevant images") */
+.lw-sw-dubai .lw-visual-frame {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #110b1c;
+  border: 1px solid rgba(192, 132, 252, 0.28);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.48), 0 0 28px rgba(124, 58, 237, 0.16);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.lw-sw-dubai .lw-visual-frame:hover {
+  transform: translateY(-4px);
+  border-color: #e79ec4;
+  box-shadow: 0 22px 48px rgba(124, 58, 237, 0.34), 0 0 0 1px rgba(231, 158, 196, 0.45);
+}
+.lw-sw-dubai .lw-visual-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.45s ease;
+}
+.lw-sw-dubai .lw-visual-frame:hover img {
+  transform: scale(1.025);
+}
+.lw-sw-dubai .lw-visual-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(12, 8, 20, 0.86);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(207, 143, 255, 0.45);
+  color: #f3e8ff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  z-index: 2;
+}
+.lw-sw-dubai .lw-visual-badge::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e79ec4;
+  box-shadow: 0 0 8px #e79ec4;
+}
+.lw-sw-dubai .lw-visual-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 16px;
+  background: linear-gradient(180deg, rgba(8, 6, 13, 0) 0%, rgba(8, 6, 13, 0.92) 70%);
+  color: #e8e0f5;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Split Intro Header (Text on Left, Visual Image on Right) */
+.lw-sw-dubai .lw-split-intro {
+  display: grid;
+  gap: 28px;
+  margin-bottom: 34px;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-split-intro {
+    grid-template-columns: 1.08fr 0.92fr;
+    gap: 38px;
+  }
+}
+.lw-sw-dubai .lw-intro-highlights {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.lw-sw-dubai .lw-intro-pill {
+  font-size: 12px;
+  font-weight: 600;
+  color: #f3e8ff;
+  background: rgba(124, 58, 237, 0.14);
+  border: 1px solid rgba(192, 132, 252, 0.32);
+  padding: 7px 13px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  transition: all 0.22s ease;
+}
+.lw-sw-dubai .lw-intro-pill:hover {
+  background: var(--ad-grad-btn);
+  border-color: #f5d0fe;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(147, 51, 234, 0.38);
+}
+
+/* Section 3: Services Grid — Fix 7th card so it spans ALL 3 columns (1 / -1) with a 2-col split inside */
+@media (min-width: 1100px) {
+  .lw-sw-dubai .lw-services-grid:not(.is-filtered) .lw-service-card.is-span-2 {
+    grid-column: 1 / -1 !important;
+  }
+  .lw-sw-dubai .lw-services-grid.is-filtered .lw-service-card.is-span-2 {
+    grid-column: span 1 !important;
+  }
+}
+.lw-sw-dubai .lw-wide-split {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+  height: 100%;
+}
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-services-grid:not(.is-filtered) .lw-wide-split {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 32px;
+  }
+}
+.lw-sw-dubai .lw-services-grid.is-filtered .lw-wide-visual {
+  display: none;
+}
+
+/* Section 5: Dubai Industries — Equal height left tab rail + 2-column content+image inside each panel */
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-ind-layout {
+    grid-template-columns: 320px 1fr !important;
+    align-items: stretch !important;
+    gap: 26px !important;
+  }
+}
+.lw-sw-dubai .lw-ind-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+}
+.lw-sw-dubai .lw-ind-side-card {
+  margin-top: auto;
+  background: linear-gradient(145deg, rgba(43, 18, 64, 0.72), rgba(19, 14, 28, 0.95));
+  border: 1px solid rgba(192, 132, 252, 0.32);
+  border-radius: 12px;
+  padding: 16px;
+}
+.lw-sw-dubai .lw-ind-side-card h4 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.lw-sw-dubai .lw-ind-side-card p {
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #d8cce8 !important;
+}
+.lw-sw-dubai .lw-ind-top-split {
+  display: grid;
+  gap: 22px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media (min-width: 860px) {
+  .lw-sw-dubai .lw-ind-top-split {
+    grid-template-columns: 1.08fr 0.92fr;
+    gap: 26px;
+  }
+}
+
+/* === SECTION 7: TECHNOLOGIES WE USE — PERFECT ALIGNMENT & THEME HOVER HIGHLIGHT === */
+.lw-sw-dubai .lw-tech-grid {
+  margin-top: 32px;
+  display: grid;
+  gap: 22px;
+  align-items: stretch;
+}
+@media (min-width: 768px) {
+  .lw-sw-dubai .lw-tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1100px) {
+  .lw-sw-dubai .lw-tech-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.lw-sw-dubai .lw-tech-card {
+  background: linear-gradient(165deg, #150f20 0%, #100b18 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 14px !important;
+  padding: 22px 16px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  height: 100% !important;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.28s ease, box-shadow 0.28s ease, background 0.28s ease !important;
+}
+.lw-sw-dubai .lw-tech-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--ad-grad-btn);
+  opacity: 0.35;
+  transition: opacity 0.28s ease, height 0.28s ease;
+}
+.lw-sw-dubai .lw-tech-card:hover {
+  transform: translateY(-6px) !important;
+  background: linear-gradient(165deg, #211436 0%, #140d22 100%) !important;
+  border-color: #d946ef !important;
+  box-shadow: 0 20px 42px rgba(124, 58, 237, 0.34), 0 0 0 1px rgba(231, 158, 196, 0.5) !important;
+}
+.lw-sw-dubai .lw-tech-card:hover::before {
+  opacity: 1;
+  height: 4px;
+}
+.lw-sw-dubai .lw-tech-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.lw-sw-dubai .lw-tech-ico-box {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(124, 58, 237, 0.18);
+  border: 1px solid rgba(192, 132, 252, 0.35);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #cf8fff;
+  flex-shrink: 0;
+  transition: all 0.28s ease;
+}
+.lw-sw-dubai .lw-tech-card:hover .lw-tech-ico-box {
+  background: var(--ad-grad-btn);
+  border-color: #f5d0fe;
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(147, 51, 234, 0.45);
+}
+.lw-sw-dubai .lw-tech-card h3 {
+  margin: 0 !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  line-height: 1.25 !important;
+  transition: color 0.25s ease;
+}
+.lw-sw-dubai .lw-tech-card:hover h3 {
+  color: #f5d0fe !important;
+}
+.lw-sw-dubai .lw-tech-card p {
+  margin: 12px 0 18px !important;
+  font-size: 13px !important;
+  line-height: 1.58 !important;
+  color: #b9aecb !important;
+  min-height: 42px;
+}
+
+/* Uniform 2-Column x 3-Row Grid for Tech Tags so every card & every row is 100% aligned without text clipping */
+.lw-sw-dubai .lw-tech-tags {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+  margin-top: auto !important;
+}
+.lw-sw-dubai .lw-tech-tag {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.015em !important;
+  line-height: 1.25 !important;
+  color: #e8e0f5 !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.11) !important;
+  padding: 6px 8px !important;
+  min-height: 40px !important;
+  height: auto !important;
+  border-radius: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  cursor: pointer !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  transition: all 0.22s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+.lw-sw-dubai .lw-tech-tag::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #a855f7;
+  flex-shrink: 0;
+  transition: all 0.22s ease;
+}
+.lw-sw-dubai .lw-tech-tag:hover {
+  background: var(--ad-grad-btn) !important;
+  border-color: #f5d0fe !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: 0 8px 20px rgba(147, 51, 234, 0.45) !important;
+}
+.lw-sw-dubai .lw-tech-tag:hover::before {
+  background: #ffffff;
+  box-shadow: 0 0 8px #ffffff;
+}
+
+/* Global Theme-Color Hover Highlights across Service Tags, Cards, Modules, Steps & Case Studies */
+.lw-sw-dubai .lw-card-tag {
+  cursor: pointer;
+  transition: all 0.22s ease !important;
+}
+.lw-sw-dubai .lw-card-tag:hover {
+  background: var(--ad-grad-btn) !important;
+  border-color: #f5d0fe !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(147, 51, 234, 0.4);
+}
+.lw-sw-dubai .lw-service-card:hover,
+.lw-sw-dubai .lw-uae-card:hover,
+.lw-sw-dubai .lw-step-card:hover,
+.lw-sw-dubai .lw-why-card:hover,
+.lw-sw-dubai .lw-case-card:hover,
+.lw-sw-dubai .lw-tier-card:hover,
+.lw-sw-dubai .lw-ind-mod:hover {
+  border-color: #d946ef !important;
+  box-shadow: 0 18px 40px rgba(124, 58, 237, 0.3), 0 0 0 1px rgba(231, 158, 196, 0.42) !important;
+  transform: translateY(-5px);
+}
+.lw-sw-dubai .lw-uae-card,
+.lw-sw-dubai .lw-step-card,
+.lw-sw-dubai .lw-why-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Case Study Visual Banner */
+.lw-sw-dubai .lw-case-thumb {
+  height: 176px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.lw-sw-dubai .lw-case-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.lw-sw-dubai .lw-case-card:hover .lw-case-thumb img {
+  transform: scale(1.04);
+}
+
+/* Section 11: FAQs 2-Column Balanced Layout (Visual + Direct Consultation Card on Left, Accordions on Right) */
+.lw-sw-dubai .lw-faq-layout {
+  display: grid;
+  gap: 32px;
+  align-items: start;
+}
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-faq-layout {
+    grid-template-columns: 0.4fr 0.6fr;
+    gap: 38px;
+  }
+}
+.lw-sw-dubai .lw-faq-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (min-width: 992px) {
+  .lw-sw-dubai .lw-faq-sidebar {
+    position: sticky;
+    top: 120px;
+  }
+}
+.lw-sw-dubai .lw-faq-support-card {
+  background: linear-gradient(155deg, #1b112c 0%, #120c1d 100%);
+  border: 1px solid rgba(192, 132, 252, 0.32);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+}
+.lw-sw-dubai .lw-faq-support-body {
+  padding: 20px;
+}
+.lw-sw-dubai .lw-faq-support-body h4 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.lw-sw-dubai .lw-faq-support-body p {
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #d8cce8 !important;
+}
+.lw-sw-dubai .ad-faq-grid {
+  margin-top: 0 !important;
+  max-width: 100% !important;
+}
+
+
+/* === FINAL AUDIT FIXES: ZERO OVERLAYS, MISSING CLASS ALIASES, HEADER & SCROLL OFFSET === */
+section[id], #ad-quote {
+  scroll-margin-top: 124px !important;
+}
+.lw-sw-dubai .ad-hero {
+  padding-top: 136px !important;
+}
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-hero {
+    padding-top: 152px !important;
+  }
+}
+
+/* Alias .ad-h2, .ad-sub, .ad-grad-word so all sections have identical heading & gradient styling */
+.lw-sw-dubai .ad-h2,
+.lw-sw-dubai .ad-title {
+  margin: 12px 0 0 !important;
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif !important;
+  font-size: clamp(26px, 3.3vw, 38px) !important;
+  font-weight: 800 !important;
+  line-height: 1.16 !important;
+  letter-spacing: -0.02em !important;
+  color: #ffffff !important;
+}
+.lw-sw-dubai .ad-grad-word,
+.lw-sw-dubai .ad-grad-text {
+  background: var(--ad-grad-text) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+.lw-sw-dubai .ad-sub,
+.lw-sw-dubai .ad-lead {
+  margin: 14px 0 0 !important;
+  font-size: 15px !important;
+  line-height: 1.72 !important;
+  color: #d6cbe9 !important;
+}
+
+/* Remove absolute overlay from .lw-visual-badge and .lw-visual-caption so photos are 100% unobstructed */
+.lw-sw-dubai .lw-visual-frame {
+  position: relative !important;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  background: #120c1e !important;
+  border: 1px solid rgba(192, 132, 252, 0.3) !important;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.45) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: auto !important;
+}
+.lw-sw-dubai .lw-visual-frame img {
+  width: 100% !important;
+  height: 240px !important;
+  object-fit: cover !important;
+  object-position: center 18% !important;
+  display: block !important;
+  order: 1 !important;
+}
+.lw-sw-dubai .lw-visual-badge {
+  position: static !important;
+  order: 2 !important;
+  background: #171026 !important;
+  border: none !important;
+  border-top: 1px solid rgba(192, 132, 252, 0.22) !important;
+  border-radius: 0 !important;
+  padding: 9px 14px 4px !important;
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: #cf8fff !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+}
+.lw-sw-dubai .lw-visual-caption {
+  position: static !important;
+  order: 3 !important;
+  background: #171026 !important;
+  padding: 2px 14px 11px !important;
+  color: #e8e0f5 !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+}
+
+/* Case Study Thumbnail: clean image on top, badge in footer bar below image */
+.lw-sw-dubai .lw-case-thumb {
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+.lw-sw-dubai .lw-case-thumb img {
+  width: 100% !important;
+  height: 185px !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  order: 1 !important;
+}
+.lw-sw-dubai .lw-case-thumb .lw-visual-badge {
+  order: 2 !important;
+  padding: 7px 16px !important;
+  background: rgba(124, 58, 237, 0.14) !important;
+}
+
+/* Equal height Pricing Tier Cards so CTA buttons align horizontally */
+.lw-sw-dubai .lw-tier-card {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  height: 100% !important;
+}
+
+
+/* Site absolute header clearance */
+.lw-sw-dubai .ad-hero { padding-top: 130px !important; }
+@media (min-width: 992px) {
+  .lw-sw-dubai .ad-hero { padding-top: 160px !important; }
+}

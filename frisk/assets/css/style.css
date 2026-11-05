@@ -10323,22 +10323,43 @@ select::-ms-expand {
 .slider-reviews .reive-images {
   display: flex;
   flex-wrap: wrap;
-  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  gap: 25px 35px;
+  margin-bottom: 40px;
 }
 
-/* .slider-reviews .reive-images img {
+.slider-reviews .reive-images > a,
+.slider-reviews .reive-images div[data-designrush-widget] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+}
+
+.slider-reviews .reive-images > a:hover,
+.slider-reviews .reive-images div[data-designrush-widget]:hover {
+  transform: translateY(-3px);
+}
+
+.slider-reviews .reive-images > a > img {
   display: block;
-  margin-bottom: 30px;
-} */
-.slider-reviews .reive-images img {
-  display: inline;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  width: 200px;
-  /* margin-right: 40px; */
+  margin: 0;
+  height: 70px;
+  width: auto;
+  max-width: 185px;
   object-fit: contain;
   object-position: center center;
-  height: 100px;
+}
+
+.slider-reviews .reive-images div[data-designrush-widget] {
+  height: auto;
+}
+
+.slider-reviews .reive-images div[data-designrush-widget] #dr-agency-reviews-widget {
+  margin: 0 !important;
 }
 
 .slider-reviews {

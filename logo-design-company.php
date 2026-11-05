@@ -364,7 +364,7 @@ include("includes/header.php");
                     <img src="assests/images/marketing/banda.webp" alt="logo-design-bnda">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end">Our Expertise Has Fueled the Growth of 8,000+ Businesses
+                    <h2 class="text-white same-all text-end">Our Expertise Helps UAE Businesses Build, Improve, and Grow Digitally
                     </h2>
                     <div class="digital-two-btn">
                          <a href="https://wa.me/971529502258" target="_blank">Call Now</a>

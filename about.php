@@ -117,7 +117,7 @@ include("includes/header.php");
                     </div> -->
                 </div>
                 <div class="col-lg-6">
-                    <img src="assests/images/salman.webp">
+                    <img src="assests/images/new-salman-waria-about-image.webp">
                 </div>
             </div>
 

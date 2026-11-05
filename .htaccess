@@ -1,11 +1,24 @@
-# Enable mod_rewrite
 
+# Enable mod_rewrite
 RewriteEngine On
 
 # -----------------------------------------
+# FORCE HTTPS + NON-WWW
+# Canonical URL: https://logicworks.ae
+# -----------------------------------------
 
+# Redirect WWW to non-WWW (preserve POST requests)
+RewriteCond %{HTTP_HOST} ^www\.logicworks\.ae$ [NC]
+RewriteRule ^ https://logicworks.ae%{REQUEST_URI} [R=308,L]
+
+# Force HTTPS on non-WWW domain
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^logicworks\.ae$ [NC]
+RewriteRule ^ https://logicworks.ae%{REQUEST_URI} [R=308,L]
+
+
+# -----------------------------------------
 # REDIRECTS
-
 # -----------------------------------------
 
 RewriteRule ^seo$ /seo-company [R=301,L]
@@ -47,15 +60,13 @@ RewriteRule ^social-media-marketing-dubai/?$ /social-media-marketing-agency [R=3
 RewriteRule ^index/?$ / [R=301,L]
 RewriteRule ^online-reputataion-management/?$ /online-reputation-management [R=301,L]
 
+
 # -----------------------------------------
-
-# REMOVE .php from URLs (Non-conflicting)
-
+# REMOVE .php FROM URLS
 # -----------------------------------------
 
 # Redirect .php URLs to their clean version
-
-# BUT exclude POST requests to prevent data loss
+# Exclude POST requests to prevent data loss
 
 RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} \s/+([^\s]+?)\.php[\s?] [NC]
@@ -66,19 +77,19 @@ RewriteRule ^ /%1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^/]+)/?$ $1.php [L]
 
+
 # -----------------------------------------
-
-# TRAILING SLASH HANDLING (optional)
-
+# TRAILING SLASH HANDLING
 # -----------------------------------------
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} /$
 RewriteRule ^(.*)/$ /$1 [R=301,L]
 
-# -----------------------------------------
 
-# Redirect non-existing pages to home (REAL redirect)
+# -----------------------------------------
+# REDIRECT NON-EXISTING PAGES TO HOME
+# -----------------------------------------
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

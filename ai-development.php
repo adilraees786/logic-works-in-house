@@ -1,1189 +1,760 @@
 <?php
-$meta_title = "AI Development Services in Dubai | Logic Works ";
-$meta_description = "Logic Works offers AI development services in Dubai, delivering AI apps, chatbots, and software solutions that help businesses automate and scale smarter.
-";
-$keyword = 'Ai development';
+$meta_title = "AI Development Services in Dubai | Logic Works";
+$meta_description = "Explore AI development services in Dubai with Logic Works. Build custom AI solutions for automation, machine learning, predictive analytics and business growth.";
+$keyword = 'AI Development';
 $canonical = "https://logicworks.ae/ai-development";
-$faq_data = '
+$custom_schema = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "What industries can benefit from AI development services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Many industries use AI, like healthcare, retail, and finance. Our AI development company builds useful tools"
+      "@type": "Service",
+      "@id": "https://logicworks.ae/ai-development#service",
+      "name": "AI Development Services in Dubai",
+      "serviceType": "Custom Artificial Intelligence Development",
+      "url": "https://logicworks.ae/ai-development",
+      "description": "Custom AI development services in Dubai including machine learning models, NLP and bilingual AI chatbots, generative AI and RAG integration, computer vision, workflow automation, and predictive analytics.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Logic Works Information Technology LLC",
+        "url": "https://logicworks.ae/",
+        "logo": "https://logicworks.ae/assests/images/head-logo.webp",
+        "telephone": "+971529502258",
+        "email": "info@logicworks.ae",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "PINNACLE - Sheikh Zayed Rd - Al Barsha 1",
+          "addressLocality": "Dubai",
+          "addressCountry": "AE"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Dubai",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
       }
     },
     {
-      "@type": "Question",
-      "name": "How is custom AI different from off-the-shelf tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Custom tools solve specific problems. Our AI development services are made for your business, not general use."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does it cost to build AI software?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " Cost depends on scope. A simple AI chatbot development is cheaper than full AI software development."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need technical knowledge to use AI?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": " No. We design easy tools. Our AI development company handles the complex part for you."
-      }
+      "@type": "FAQPage",
+      "@id": "https://logicworks.ae/ai-development#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What AI development services does Logic Works provide in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Logic Works builds custom machine learning models, bilingual (English and Arabic) AI chatbots, Generative AI and Retrieval-Augmented Generation (RAG) assistants, computer vision and OCR document extraction tools, predictive analytics dashboards, and AI workflow automations connected to your business software."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does custom AI development cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Project cost depends on functional scope, the structure and readiness of your data, whether your use case calls for configuring existing AI APIs or training a custom machine learning model, and the complexity of connecting with your current software. After an initial discovery discussion, Logic Works provides a clear, milestone-based proposal tailored to your goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to develop and deploy an AI solution?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delivery timelines vary according to project scope, data preparation needs, and system integration complexity. A focused Proof of Concept (PoC) or single-workflow assistant moves significantly faster than a custom-trained machine learning solution spanning multiple departments. Following discovery, our team shares a realistic phase-by-phase schedule before development begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI solutions integrate with our existing business software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Where your existing platforms support APIs or webhooks, we connect AI features and automated workflows with your CRM, ERP, databases, custom web portals, mobile applications, and customer messaging channels so teams can work within familiar tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What data is required to build a custom AI model?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Data requirements depend on the solution type. Predictive analytics and machine learning models rely on structured historical records such as sales logs, customer activity, or inventory transactions, whereas Generative AI assistants can work with organized internal documents such as PDFs, SOPs, product guides, and support articles using Retrieval-Augmented Generation (RAG)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you approach data privacy and AI security?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We design AI workflows with practical security controls including role-based user permissions, authenticated API connections, scoped document access, and deployment configurations aligned with your organization\'s internal IT and data-handling policies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide ongoing AI monitoring and maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Deployed AI tools benefit from ongoing review as customer questions and business records evolve. Our post-launch support plans cover output-quality checks, prompt and workflow refinements, API maintenance, and scheduled model or knowledge-base updates."
+          }
+        }
+      ]
     }
   ]
 }
 </script>
 ';
+
 include("includes/head.php");
-include('includes/header.php');
-
-
+include("includes/header.php");
 ?>
-<style>
-    .ai-development-page #portfolio-hero h1 {
-        font-size: 44px !important;
-        font-weight: 700 !important;
-        color: #fff !important;
-        line-height: 1.2 !important;
-    }
- .ai-development-page img.dubai-agent {
-    transform: unset !important;
-    margin-bottom: -11px;
-  }
-   
-</style>
+<link rel="stylesheet" href="<?php echo $base_url; ?>assests/css/ai-development.css?v=1">
+
 <main class="ai-development-page bg-black">
-    <section class="service-hero-sec section-bg digital-main " id="portfolio-hero"
-        style="background-image: url(assests/images/ai-development/bg.webp); background-position: center;">
-        <div class="container  mt-50">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <!-- <div class="text-whiteee-1">Unlock the <span class="span"> Power of <br>AI </span>for Your Business</div>
-                    <p class="ai-para fs-20 ">Custom AI solutions that drive <br> innovation, efficiency, and
-                        growth.
-                    </p> -->
-                    <h1><span class="span">AI Development </span>Services in Dubai to Power Smarter Digital Transformation</h1>
-                    <p class="ai-para fs-20 ">Build smart tools and intelligent applications using AI development services in Dubai. Logic Works helps businesses leverage artificial intelligence to automate processes, improve decision-making, and drive scalable digital transformation with reliable, future-ready AI solutions.
-                    </p>
-                    <div class="live-chat-btns">
-                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup">Get A Quote</a>
-                    </div>
-                    <img src="assests/images/social-media/trustandotherlogo.webp" alt="trust icons"
-                        class="trustsec mt-20">
-                </div>
 
-            </div>
+  <!-- 1. HERO SECTION (EXACT EXISTING LAYOUT) -->
+  <section class="service-hero-sec section-bg digital-main" id="portfolio-hero"
+    style="background-image: url(./assests/images/ai-development/bg.webp); background-position: center;">
+    <div class="container mt-50">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h1>AI Development Services in Dubai to Power <span class="gradient">Smarter Digital Transformation</span></h1>
+          <p class="ai-para fs-20">
+            Build intelligent tools and practical business applications with custom AI development services in Dubai. Logic Works helps UAE organizations automate manual workflows, integrate machine learning and generative AI into existing software, and support faster, data-backed decisions with measurable operational impact.
+          </p>
+          <div class="live-chat-btns">
+            <a href="https://wa.me/971529502258" target="_blank" rel="noopener" class="live-chats">Live Chat</a>
+            <a href="#popup" class="js-open-popup">Get A Quote</a>
+          </div>
+          <img src="./assests/images/social-media/trustandotherlogo.webp"
+            alt="Logic Works client review badges on Clutch, Trustpilot, and GoodFirms"
+            class="trustsec mt-20">
         </div>
-    </section>
-    <!-- Who We Are -->
-    <section class="who-we-are-section">
-        <div class="container">
-            <!-- Title and Description -->
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <h2 class="text-white text-center same-all">WHO WE ARE</h2>
-                    <p class="section-description">
-                      Logic Works is a trusted AI development company in Dubai delivering intelligent, data-driven solutions for modern businesses. We design and build real-world AI systems using real data focused on performance, scalability, and measurable impact.
-                    </p>
-                    <p class="section-description">
-                     As an experienced AI development services provider in Dubai, our mission is simple: help businesses grow through smart, easy-to-use AI tools that automate operations, enhance customer experiences, and unlock new opportunities. From strategy to deployment, we turn complex AI concepts into practical solutions that drive digital transformation.
-                    </p>
-                </div>
-                <!-- Main Content -->
-                <div class="col-8">
-                    <div class="ai-brain-container">
-                        <!-- Desktop Layout -->
-                        <div class="stats-desktop">
-                            <div class="ai-brain-image"></div>
+      </div>
+    </div>
+  </section>
 
-                            <!-- Connecting Lines -->
-                            <div class="connecting-line line-1"></div>
-                            <div class="connecting-line line-2"></div>
-                            <div class="connecting-line line-3"></div>
-
-                            <!-- Statistics Boxes -->
-                            <div class="stat-box top-left">
-                                <div class="stat-number">500+</div>
-                                <p class="stat-text"> AI Solutions <br> Successfully Deployed</p>
-                            </div>
-
-                            <div class="stat-box top-right">
-                                <div class="stat-number">10+</div>
-                                <p class="stat-text">Years of Combined <br> Industry Experience</p>
-                            </div>
-
-                            <div class="stat-box bottom-left">
-                                <div class="stat-number">3000+</div>
-                                <p class="stat-text"> Clients Worldwide<br> Trust Our Expertise</p>
-                            </div>
-                        </div>
-
-                        <!-- Mobile Layout -->
-                        <div class="stats-mobile">
-                            <div class="ai-brain-image mb-4"></div>
-
-                            <div class="stat-box">
-                                <div class="stat-number">50+</div>
-                                <p class="stat-text"> AI Solutions
-                                    Successfully Deployed</p>
-                            </div>
-
-                            <div class="stat-box">
-                                <div class="stat-number">10+</div>
-                                <p class="stat-text"> Years of Combined
-                                    Industry Experience</p>
-                            </div>
-
-                            <div class="stat-box">
-                                <div class="stat-number">30+</div>
-                                <p class="stat-text"> Clients Worldwide
-                                    Trust Our Expertise</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- 2. WHO WE ARE SECTION (EXACT EXISTING CIRCULAR BRAIN + CALLOUT BOXES LAYOUT, UPDATED CLEAN CONTENT) -->
+  <section class="who-we-are-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="text-white text-center same-all">WHO <span class="gradient">WE ARE</span></h2>
+          <p class="section-description">
+            Logic Works builds practical, data-driven artificial intelligence solutions tailored to how Dubai and UAE businesses actually operate. Rather than offering generic templates, our engineers design custom models and intelligent workflows grounded in your operational records, accuracy goals, and day-to-day software environment.
+          </p>
+          <p class="section-description">
+            From early feasibility planning and data preparation through API integration and post-launch monitoring, we turn complex AI capabilities into dependable tools that reduce manual effort, elevate customer service across English and Arabic channels, and support sustainable digital growth.
+          </p>
         </div>
-    </section>
 
-    <section class="discuss-sec pb-100 mt-100 section-bg">
-        <div class="container">
-            <div class="row dubai-row-mind align-items-center mt-0"
-                style="background-color: #59249A; border-radius: 30px;">
-                <div class="col-lg-4">
-                    <img src="assests/images/ai-development/ai-pic.webp" alt="ai-dev-agent" class="dubai-agent">
-                </div>
-                <div class="col-lg-8">
-                    <h2 class="text-white same-all mb-10"> 
-Ready to Scale Your Business With an AI Development Company in Dubai?
-</h2>
-                    <!-- <h4 class="text-white fs-63 mb-50">Connect Now</h4> -->
-                    <a href="#">Connect Now</a>
-                </div>
+        <div class="col-lg-8 col-12">
+          <div class="ai-brain-container">
+            <!-- Desktop Layout (Consistent Reconciled Pillars — Zero Conflicting Unverified Numbers) -->
+            <div class="stats-desktop">
+              <div class="ai-brain-image" role="img" aria-label="Logic Works custom AI engineering visualization"></div>
+
+              <div class="connecting-line line-1"></div>
+              <div class="connecting-line line-2"></div>
+              <div class="connecting-line line-3"></div>
+
+              <div class="stat-box top-left">
+                <div class="stat-number">Custom</div>
+                <p class="stat-text">AI &amp; ML Systems <br> Built for Your Workflow</p>
+              </div>
+
+              <div class="stat-box top-right">
+                <div class="stat-number">10+</div>
+                <p class="stat-text">Years of Combined <br> Industry Experience</p>
+              </div>
+
+              <div class="stat-box bottom-left">
+                <div class="stat-number">UAE</div>
+                <p class="stat-text">Focused Delivery &amp; <br> Ongoing Support</p>
+              </div>
             </div>
+
+            <!-- Mobile Layout (100% Consistent With Desktop) -->
+            <div class="stats-mobile">
+              <div class="ai-brain-image mb-4" role="img" aria-label="Logic Works custom AI engineering visualization"></div>
+
+              <div class="stat-box">
+                <div class="stat-number">Custom</div>
+                <p class="stat-text">AI &amp; ML Systems Built for Your Workflow</p>
+              </div>
+
+              <div class="stat-box">
+                <div class="stat-number">10+</div>
+                <p class="stat-text">Years of Combined Industry Experience</p>
+              </div>
+
+              <div class="stat-box">
+                <div class="stat-number">UAE</div>
+                <p class="stat-text">Focused Delivery &amp; Ongoing Support</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- Slider Section -->
-    <section class="advertising-why-sec section-bg pt-b-80">
-        <div class="container" style="display: block;">
-            <div class="row advertising-row-one">
-                <div class="col">
-                    <h2 class="text-white text-center same-all">Our AI Development Capabilities</h2>
-                    <p class="text-white text-center app-txt pb-30">Smart AI solutions built by a leading AI development Agency in Dubai</p>
+      </div>
+    </div>
+  </section>
 
-                    <div class="app-slider">
-                        <div class="swiper app-slider-main">
-                            <!-- <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide1.png" alt="slide-01">
-                                    <div class="app-content">
-                                        <h4 class="text-white">Custom AI
-                                            Development</h4>
-                                        <p class="text-white">Tailored AI models for your specific business goals.</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide2.png" alt="slide-02" >
-                                    <div class="app-content">
-                                        <h4 class="text-white">Machine Learning
-                                            & Deep Learning</h4>
-                                        <p class="text-white">Conversational AI for
-                                            customer support,
-                                            automation, and more.</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide3.png" alt="slide-03" >
-                                    <div class="app-content">
-                                        <h4 class="text-white">NLP & Chatbot Solutions</h4>
-                                        <p class="text-white">Conversational AI for
-                                            customer support, automation, and more.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide4.png" alt="slide-04" >
-                                    <div class="app-content">
-                                        <h4 class="text-white">Computer
-                                            Vision</h4>
-                                        <p class="text-white">Visual recognition
-                                            systems that
-                                            understand images
-                                            and videos.</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide5.png" alt="slide-05" >
-                                    <div class="app-content">
-                                        <h4 class="text-white">Customized Strategies</h4>
-                                        <p class="text-white">Designing approaches based on your business needs.</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide1.png" alt="slide-06">
-                                    <div class="app-content">
-                                        <h4 class="text-white">Innovative Approach</h4>
-                                        <p class="text-white">Constantly evolving to stay ahead of trends.</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide2.png" alt="slide-07">
-                                    <div class="app-content">
-                                        <h4 class="text-white">Results Focused</h4>
-                                        <p class="text-white">We prioritize measurable outcomes that drive success.</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide5.png" alt="slide-08">
-                                    <div class="app-content">
-                                        <h4 class="text-white">Client-Centric</h4>
-                                        <p class="text-white">Focusing on your business goals and satisfaction.</p>
-                                    </div>
-                                </div>
-
-                            </div> -->
-                            <!-- Swiper Container -->
-                            <div class="swiper-wrapper">
-
-                                <!-- Slide 1 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide1.webp" alt="slide-01">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>Machine Learning Models</h4>
-                                            <p class="fs-63"> Custom models that improve as they learn.</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 2 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide2.webp" alt="slide-02">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>Natural Language Processing</h4>
-                                            <p> AI systems that read and understand human words.</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 3 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide3.webp" alt="slide-03">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>Computer Vision Solutions</h4>
-                                            <p>Use AI to scan and understand visual content.</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 4 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide4.webp" alt="slide-04">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>AI-Powered Automation</h4>
-                                            <p>Make systems work faster with less manual input.</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 5 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide5.webp" alt="slide-05">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>Recommendation Engines</h4>
-                                            <p> Help users find what fits their needs best.</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 6 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide1.webp" alt="slide-06">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>Predictive Analytics</h4>
-                                            <p> Use past data to guess future business trends.</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 7 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide2.webp" alt="slide-07">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>Speech Recognition and Voice Interfaces</h4>
-                                            <p>Voice control for apps using live audio input</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 8 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide5.webp" alt="slide-08">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>AI for Business Intelligence</h4>
-                                            <p>Turn raw data into clear and useful reports</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                                <!-- Slide 9 -->
-                                <div class="swiper-slide">
-                                    <img src="assests/images/ai-development/slide1.webp" alt="slide-09">
-                                    <div class="app-content">
-                                        <div>
-                                            <h4>Anomaly Detection Systems</h4>
-                                            <p>Catch strange or risky behavior in real time</p>
-                                        </div>
-                                        <a href="#" class="get-in-touch">
-                                            Get In Touch
-                                            <img class="arrow" src="assests/images/ai-development/arrow-f.webp"
-                                                alt="arrow-f">
-                                        </a>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+  <!-- 3. MID-PAGE CALLOUT BANNER (EXACT EXISTING LAYOUT) -->
+  <section class="discuss-sec pb-100 mt-100 section-bg">
+    <div class="container">
+      <div class="row dubai-row-mind align-items-center mt-0"
+        style="background-color: #59249A; border-radius: 30px;">
+        <div class="col-lg-4">
+          <img src="./assests/images/ai-development/ai-pic.webp"
+            alt="Logic Works AI consultation specialist"
+            class="dubai-agent" loading="lazy">
         </div>
-    </section>
-
-    <!-- our Process  -->
-
-
-    <?php
-    include("includes/process.php");
-    ?>
-    <section class="section-bg web-dev-pag mt-100" id="transform-app">
-        <div class="container" style="display: block; max-width: 100%;">
-            <div class="row align-items-center transform-row">
-                <div class="col-lg-4">
-                    <img src="assests/images/marketing/banda.webp" alt="ai-dev-img" class="gta">
-                </div>
-                <div class="col-lg-8">
-                    <h2 class="text-white same-all text-end"> 
-Trusted by 8,000+ Businesses to Build Smarter AI Solutions in Dubai
-</h2>
-                    <div class="digital-two-btn">
-                         <a href="https://wa.me/971529502258" target="_blank">Call Now</a>
-                        <a href="javascript:void(0)" onclick="openTawkChat()">Start Live Chat</a>
-                    </div>
-                </div>
-            </div>
+        <div class="col-lg-8">
+          <h2 class="text-white same-all mb-10">
+            Ready to Automate Workflows and <span class="gradient">Scale With Custom AI?</span>
+          </h2>
+          <a href="#popup" class="js-open-popup">Connect Now</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-   
+  <!-- 4. CUSTOM AI DEVELOPMENT SERVICES SLIDER (EXACT EXISTING SWIPER LAYOUT + EXPANDED CAPABILITY DEPTH) -->
+  <section class="advertising-why-sec section-bg pt-b-80" id="custom-ai-services">
+    <div class="container" style="display: block;">
+      <div class="row advertising-row-one">
+        <div class="col">
+          <h2 class="text-white text-center same-all">Custom AI Development <span class="gradient">Services in Dubai</span></h2>
+          <p class="text-white text-center app-txt pb-30">
+            Practical machine learning, conversational AI, generative AI, and workflow automation built around measurable business outcomes
+          </p>
 
-    <section class="faq-home section-bg mt-50">
-        <div class="container">
-            <div class="row justify-content-space-between">
-                <div class="col">
-                        <h2 class="text-white text-center"><span>FAQ</span>'S</h2>
-                    <div class="faqss">
-                        <div class="quwstion">
-                            <button class="accordions">Why choose an AI development company Dubai businesses trust?</button>
-                            <div class="panel">
-                                <p>Choosing an experienced AI development company Dubai ensures your solutions are built for real business use cases. Local expertise helps align AI systems with regional regulations, market behavior, and scalable growth needs.</p>
-                            </div>
-                        </div>
+          <div class="app-slider">
+            <div class="swiper app-slider-main">
+              <div class="swiper-wrapper">
 
-                        <div class="quwstion">
-                            <button class="accordions">How does AI development Dubai help modern businesses grow?</button>
-                            <div class="panel">
-                                <p>AI development Dubai enables businesses to automate operations, analyze data faster, and improve customer experiences. From predictive insights to intelligent automation, AI drives smarter decision-making and long-term efficiency.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="quwstion">
-                            <button class="accordions">What industries benefit from AI chatbot development Dubai?</button>
-                            <div class="panel">
-                                <p>AI chatbot development Dubai supports industries like e-commerce, banking, healthcare, real estate, and customer support. Chatbots improve response time, reduce workload, and provide 24/7 customer engagement.</p>
-                            </div>
-                        </div>
-
-                        <div class="quwstion">
-                            <button class="accordions">What makes AI software development Dubai different from traditional software?</button>
-                            <div class="panel">
-                                <p>AI software development Dubai focuses on building intelligent systems that learn, adapt, and improve over time. These solutions deliver predictive analytics, automation, and data-driven insights instead of static functionality.</p>
-                            </div>
-                        </div>
-                        <div class="quwstion">
-                            <button class="accordions">Why work with an AI app development company Dubai for custom solutions?</button>
-                            <div class="panel">
-                                <p>An AI app development company Dubai designs applications tailored to your business goals. Custom AI apps improve user experience, enhance performance, and scale easily as your business grows.</p>
-                            </div>
-                        </div>
-
+                <!-- Slide 1: Machine Learning Development -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/slide2.webp"
+                    alt="Custom machine learning model training and validation" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Machine Learning Development</h3>
+                      <p>We train and validate custom classification, lead-scoring, and demand models on your historical records—kept accurate through scheduled evaluation and retraining pipelines.</p>
                     </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
                 </div>
+
+                <!-- Slide 2: Natural Language Processing -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/slide3.webp"
+                    alt="Natural language processing for English and Arabic text analysis" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Natural Language Processing</h3>
+                      <p>Language pipelines that extract customer intent, key entities, and sentiment from emails, support tickets, reviews, and bilingual English and Arabic text streams.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 3: AI Chatbot Development -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/gen-1-4adc880bca.webp"
+                    alt="Bilingual AI chatbot development for customer support and lead qualification" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>AI Chatbot Development</h3>
+                      <p>Bilingual Arabic and English conversational assistants for websites, mobile apps, and chat channels that answer product inquiries, qualify leads, and hand over complex cases to staff.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 4: Generative AI and LLM Integration -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/slide1.webp"
+                    alt="Generative AI and Retrieval-Augmented Generation knowledge assistant" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Generative AI and LLM Integration</h3>
+                      <p>Retrieval-Augmented Generation (RAG) assistants grounded in your internal SOPs, guides, and catalogs so teams can search documents, summarize files, and draft cited responses.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 5: Computer Vision Solutions -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/slide4.webp"
+                    alt="Computer vision and automated OCR document processing" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Computer Vision Solutions</h3>
+                      <p>Automated image recognition and Optical Character Recognition (OCR) workflows that capture structured data from scanned forms, receipts, and invoices or inspect visual quality.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 6: AI Automation and Workflow Integration -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/slide5.webp"
+                    alt="AI workflow automation integrated with CRM and ERP systems" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>AI Automation and Workflow Integration</h3>
+                      <p>Automated operational pipelines that classify incoming requests, validate uploaded documents, and synchronize records across your CRM, ERP, and internal tools.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 7: Recommendation Engines -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/gen-2-980befee4c.webp"
+                    alt="Personalized product and content recommendation engine" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Recommendation Engines</h3>
+                      <p>Personalization models that analyze purchase history and browsing behavior to surface relevant products, property listings, or service bundles that lift conversion rates.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 8: Predictive Analytics -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/gen-3-feb8efa52f.webp"
+                    alt="Predictive analytics forecasting demand and business performance" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Predictive Analytics</h3>
+                      <p>Build predictive models that analyze historical data to forecast demand, identify emerging trends, and support more informed inventory, staffing, and budget planning.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 9: Speech Recognition and Voice Interfaces -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/gen-4-4df7d5e9c7.webp"
+                    alt="Speech recognition transcription and voice-enabled interfaces" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Speech Recognition and Voice Interfaces</h3>
+                      <p>Speech-to-text transcription, automated call summarization, and voice-command controls for mobile apps and high-volume customer service teams.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 10: AI for Business Intelligence -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/gen-5-af2fc23524.webp"
+                    alt="AI business intelligence reporting and KPI analytics" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>AI for Business Intelligence</h3>
+                      <p>Automated analytics pipelines that consolidate scattered operational data into clear executive KPI views, trend summaries, and early variance alerts.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slide 11: Anomaly Detection Systems -->
+                <div class="swiper-slide">
+                  <img src="./assests/images/ai-development/gen-6-ee09bed3b6.webp"
+                    alt="Real-time anomaly detection for payments and operations" loading="lazy">
+                  <div class="app-content">
+                    <div>
+                      <h3>Anomaly Detection Systems</h3>
+                      <p>Real-time monitoring models that flag unusual payment activity, duplicate billing, inventory discrepancies, or operational faults before business impact grows.</p>
+                    </div>
+                    <a href="#popup" class="get-in-touch js-open-popup">
+                      Get In Touch
+                      <img class="arrow" src="./assests/images/ai-development/arrow-f.webp" alt="">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="swiper-button-next" aria-label="Next capability"></div>
+              <div class="swiper-button-prev" aria-label="Previous capability"></div>
             </div>
+          </div>
         </div>
-    </section>
-    <!-- <section class="section-bg journey-sec our-case-section" id="project-in-minds">
+      </div>
+    </div>
+  </section>
 
-        <div class="container" style="display:block;">
-            <div class="row justify-content-space-between our-reviews">
-                <div class="col">
-                    <h2 class="text-center text-white">What Clients Say About Working With Logic Works</h2>
-                </div>
-            </div>
-            <div class="row justify-content-space-between slider-reviews">
-                <div class="col-lg-5 col-md-6">
-                    <div class="text-start reive-images">
-                        <img src="assests/images/Goodfirms.webp">
-                        <img src="assests/images/Trust.webp">
-                        <img src="assests/images/Clutch.webp">
-                        <img src="assests/images/Bark.webp">
-                    </div>
-                    <div class="live-chat-btns">
-                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup">Get A Quote</a>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="main-vertical-slide">
-                        <div class="testi-mainn">
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img
-                                        src="assests/images/portfolio/people-2.png">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Omar Hassan</h4>
-                                    <h6 class="text-white">Manager</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white">Logic Works delivered working AI tools that improved our
-                                        workflows. The system runs smoothly, and their team handled every stage with
-                                        care and clear communicatio</p>
-                                </div>
-                            </div>
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/reviews-001.jpg">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white"> Ella Martin</h4>
-                                    <h6 class="text-white">Marketing Manager</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white"> We needed a chatbot that could scale fast. Their AI solution
-                                        handles more users, works well, and has made our support team much more
-                                        efficient.
-                                </div>
+  <!-- 5. AI SOLUTIONS FOR BUSINESSES IN DUBAI (MATCHING #1F1F1F CARD STYLE) -->
+  <section class="lw-native-sec" id="dubai-ai-solutions">
+    <div class="container" style="display: block;">
+      <h2 class="text-white text-center same-all">AI Solutions for <span class="gradient">Businesses in Dubai</span></h2>
+      <p class="lw-native-sub">
+        Successful AI adoption in the UAE accounts for local operational realities—from bilingual Arabic and English customer interactions to seasonal retail demand spikes and multi-branch coordination.
+      </p>
 
-                                <div class="tesi-roww">
-                                    <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/Layer-525.png">
-                                    </div>
-                                    <div class="col-lg-8 col-md-6 testi-txt">
-                                        <h4 class="text-white">Ella Martin</h4>
-                                        <h6 class="text-white">Owner, Babbage</h6>
-                                        <img src="assests/images/start-revews.png">
-                                        <p class="text-white"> The Logic Works team was responsive and professional.
-                                            They explained everything clearly and delivered an AI system that fit our
-                                            goals and exceeded expectations.</p>
-                                    </div>
-                                </div>
-
-                                <div class="tesi-roww">
-                                    <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/people-3.png">
-                                    </div>
-                                    <div class="col-lg-8 col-md-6 testi-txt">
-                                        <h4 class="text-white">Daniel Lewis</h4>
-                                        <h6 class="text-white">Director</h6>
-                                        <img src="assests/images/start-revews.png">
-                                        <p class="text-white"> Their AI tools are simple to use. Our team saved hours
-                                            each week thanks to the automation and smart recommendations built into the
-                                            system. </p>
-                                    </div>
-                                </div>
-                                <div class="tesi-roww">
-                                    <div class="col-lg-4 col-md-6 testi-img"><img
-                                            src="assests/images/portfolio/people-5.png">
-                                    </div>
-                                    <div class="col-lg-8 col-md-6 testi-txt">
-                                        <h4 class="text-white">Grace Howard</h4>
-                                        <h6 class="text-white">Quality Assurance</h6>
-                                        <img src="assests/images/start-revews.png">
-                                        <p class="text-white"> We had a complex problem. Logic Works built a custom AI
-                                            solution that solved it without adding confusion or delay. Very happy with
-                                            the
-                                            results.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </section> -->
-
-    <!-- <section class="section-bg journey-sec our-case-section port-last-sec" id="project-in-minds">
-        <div class="container" style="display:block;">
-            <div class="row justify-content-space-between our-reviews">
-                <div class="col">
-                    <h2 class="text-center text-white">What Clients Say About Working With Logic Works</h2>
-
-                </div>
-            </div>
-            <div class="row justify-content-space-between slider-reviews">
-                <div class="col-lg-5 col-md-6">
-                    <div class="text-start reive-images">
-                        <img src="assests/images/Goodfirms.webp">
-                        <img src="assests/images/Trust.webp">
-                        <img src="assests/images/Clutch.webp">
-                        <img src="assests/images/Bark.webp">
-                    </div>
-                    <div class="live-chat-btns">
-                          <a href="https://wa.me/971529502258" target="_blank" class="live-chats">Live Chat</a>
-                        <a href="#" id="openPopup">Get A Quote</a>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="main-vertical-slide">
-                        <div class="testi-mainn">
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img
-                                        src="assests/images/portfolio/people-2.png"></div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Omar Hassan</h4>
-                                    <h6 class="text-white">Manager</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white"> Logic Works delivered working AI tools that improved our
-                                        workflows. The system runs smoothly, and their team handled every stage with
-                                        care and clear communication.</p>
-                                </div>
-                            </div>
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/reviews-001.jpg">
-                                </div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Ella Martin</h4>
-                                    <h6 class="text-white">Creative Manager, Givingli</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white"> We needed a chatbot that could scale fast. Their AI solution
-                                        handles more users, works well, and has made our support team much more
-                                        efficient.</p>
-                                </div>
-                            </div>
-
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/Layer-525.png"></div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Daniel Lewis</h4>
-                                    <h6 class="text-white">Owner, Babbage</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white"> The Logic Works team was responsive and professional. They
-                                        explained everything clearly and delivered an AI system that fit our goals and
-                                        exceeded expectations.</p>
-                                </div>
-                            </div>
-
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img src="assests/images/people-3.png"></div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Grace Howard</h4>
-                                    <h6 class="text-white">John Rousey</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white">Their AI tools are simple to use. Our team saved hours each
-                                        week thanks to the automation and smart recommendations built into the system.!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="tesi-roww">
-                                <div class="col-lg-4 col-md-6 testi-img"><img
-                                        src="assests/images/portfolio/people-5.png"></div>
-                                <div class="col-lg-8 col-md-6 testi-txt">
-                                    <h4 class="text-white">Liam Carter</h4>
-                                    <h6 class="text-white">Quality Assurance</h6>
-                                    <img src="assests/images/start-revews.png">
-                                    <p class="text-white"> We had a complex problem. Logic Works built a custom AI
-                                        solution that solved it without adding confusion or delay. Very happy with the
-                                        results.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="lw-native-card">
+            <h3>AI for Ecommerce and Retail</h3>
+            <p>
+              Online stores and multi-branch retailers in Dubai navigate fast-changing catalogs and sharp demand surges during Ramadan, the Dubai Shopping Festival (DSF), and White Friday. We build personalized product recommendation engines, demand forecasting models, and bilingual shopping assistants that extend your <a href="<?php echo $base_url; ?>ecommerce-app-development-company-dubai">ecommerce app</a> and <a href="<?php echo $base_url; ?>retail-app-development-company-dubai">retail digital platforms</a>⁠.
+            </p>
+          </div>
         </div>
-    </section> -->
-    <?php
-    include("includes/clint-review.php");
-    ?>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="lw-native-card">
+            <h3>AI for Healthcare and Real Estate</h3>
+            <p>
+              For private clinics, we build intelligent patient intake flows, OCR form capture, and multilingual appointment reminders connected to <a href="<?php echo $base_url; ?>healthcare-app-development-company-dubai">healthcare applications</a>⁠. For Dubai brokerages and developers, we deploy 24/7 bilingual property assistants that qualify off-plan and rental leads and route inquiries into your CRM alongside your <a href="<?php echo $base_url; ?>real-estate-app-development-company-dubai">real estate platforms</a>⁠.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="lw-native-card">
+            <h3>AI for Finance and Customer Support</h3>
+            <p>
+              Finance teams and high-volume service desks rely on accuracy and auditability. We implement automated document extraction for statements and supplier invoices, anomaly detection to flag duplicate or unusual entries, and policy-grounded support assistants that resolve routine tickets faster—complementing our <a href="<?php echo $base_url; ?>fintech-app-development-company-dubai">fintech software</a> and <a href="<?php echo $base_url; ?>app-development-agency">mobile app development</a> services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. OUR AI DEVELOPMENT PROCESS (EXACT EXISTING 3-COLUMN INTERACTIVE TABS LAYOUT) -->
+  <section id="ai-process">
+    <div class="process-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left: Image -->
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="process-image">
+              <img id="processImage"
+                src="./assests/images/ai-development/Group1.webp"
+                alt="Logic Works AI development lifecycle visualization"
+                class="fade-transition show" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Middle: Content Text -->
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="text-center">
+              <h2 class="text-white text-center same-all">Our AI <span class="gradient">Development Process</span></h2>
+              <p class="section-subtitle-6">Structured milestone delivery from feasibility review to live monitoring</p>
+            </div>
+            <div class="process-content">
+              <div id="contentArea">
+                <h3 class="content-title">Discovery and Feasibility Assessment</h3>
+                <p class="content-description">
+                  Before writing production code, we review your operational bottlenecks, evaluate historical data quality and structure, map software integration points, and validate technical suitability through a focused Proof of Concept (PoC).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Tabs -->
+          <div class="col-lg-4">
+            <div class="process-tabs">
+              <div class="tab-item active" data-tab="discovery">
+                <div class="d-flex align-items-center">
+                  <span class="tab-number">01.</span>
+                  <div>
+                    <span class="tab-title">Discovery and Feasibility Assessment</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" data-tab="analysis">
+                <div class="d-flex align-items-center">
+                  <span class="tab-number">02.</span>
+                  <div>
+                    <span class="tab-title">Data Collection and Preparation</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" data-tab="development">
+                <div class="d-flex align-items-center">
+                  <span class="tab-number">03.</span>
+                  <div>
+                    <span class="tab-title">Model Development and Training</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" data-tab="testing">
+                <div class="d-flex align-items-center">
+                  <span class="tab-number">04.</span>
+                  <div>
+                    <span class="tab-title">Testing and Validation</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" data-tab="deployment">
+                <div class="d-flex align-items-center">
+                  <span class="tab-number">05.</span>
+                  <div>
+                    <span class="tab-title">Deployment and Integration</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" data-tab="monitoring">
+                <div class="d-flex align-items-center">
+                  <span class="tab-number">06.</span>
+                  <div>
+                    <span class="tab-title">Monitoring and Optimization</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Process tab content source (read by ai-development.js) -->
+            <div id="processTabData" hidden>
+              <div class="process-tab-panel" data-tab="discovery"
+                data-image="./assests/images/ai-development/Group1.webp">
+                <h3 class="content-title">Discovery and Feasibility Assessment</h3>
+                <p class="content-description">Before writing production code, we review your operational bottlenecks, evaluate historical data quality and structure, map software integration points, and validate technical suitability through a focused Proof of Concept (PoC).</p>
+              </div>
+              <div class="process-tab-panel" data-tab="analysis"
+                data-image="./assests/images/ai-development/process-img-1.webp">
+                <h3 class="content-title">Data Collection and Preparation</h3>
+                <p class="content-description">Clean, well-organized inputs determine real-world model accuracy. We collect, clean, deduplicate, and structure relevant business records or internal documents so your AI model learns from reliable information.</p>
+              </div>
+              <div class="process-tab-panel" data-tab="development"
+                data-image="./assests/images/ai-development/process-img-6.webp">
+                <h3 class="content-title">Model Development and Training</h3>
+                <p class="content-description">Our engineers build the optimal technical architecture for your use case—whether training custom machine learning models, configuring Retrieval-Augmented Generation (RAG) document search, or integrating language and vision APIs.</p>
+              </div>
+              <div class="process-tab-panel" data-tab="testing"
+                data-image="./assests/images/ai-development/process-img-1.webp">
+                <h3 class="content-title">Testing and Validation</h3>
+                <p class="content-description">Every workflow is tested against operational edge cases, response-speed targets, user access permissions, and output quality benchmarks before launch so issues are caught early.</p>
+              </div>
+              <div class="process-tab-panel" data-tab="deployment"
+                data-image="./assests/images/ai-development/process-img-5.webp">
+                <h3 class="content-title">Deployment and Integration</h3>
+                <p class="content-description">We deploy the solution into your preferred cloud or server environment and connect it via APIs or webhooks to your CRM, ERP, web portals, mobile apps, and team workflows.</p>
+              </div>
+              <div class="process-tab-panel" data-tab="monitoring"
+                data-image="./assests/images/ai-development/process-img-6.webp">
+                <h3 class="content-title">Monitoring and Optimization</h3>
+                <p class="content-description">Post-launch, we track response quality and operational performance over time—refining prompts, updating knowledge bases, and retraining models as your business data evolves.</p>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <p class="text-white mb-3" style="font-size: 1.1rem;">Plan Your Custom AI Roadmap</p>
+              <a href="#popup" class="btn btn-primary js-open-popup"
+                style="background-color: #582499; border: none; font-weight: 500; padding: 10px 32px; border-radius: 8px;">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. WHY CHOOSE LOGIC WORKS (INTEGRATION, DATA PRIVACY & SCOPE/COST FACTORS IN MATCHING #1F1F1F CARDS) -->
+  <section class="lw-native-sec is-black" id="why-choose-logic-works">
+    <div class="container" style="display: block;">
+      <h2 class="text-white text-center same-all">Why Choose Logic Works for <span class="gradient">AI Development</span></h2>
+      <p class="lw-native-sub">
+        Logic Works combines <a href="<?php echo $base_url; ?>software-development-dubai">custom software engineering in Dubai</a> with practical AI architecture so every solution integrates cleanly with your current tools, security expectations, and commercial milestones.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="lw-native-card">
+            <h3>Seamless CRM, ERP and API Integration</h3>
+            <p>
+              Adopting AI does not mean replacing the software your teams already rely on. Where your platforms support APIs or webhooks, we connect custom AI models and automated workflows directly with your CRM, ERP, internal databases, <a href="<?php echo $base_url; ?>custom-website-development-company-dubai">custom web portals</a>⁠, mobile apps, and customer messaging channels.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="lw-native-card">
+            <h3>Responsible Data Privacy and Access Security</h3>
+            <p>
+              Protecting business documents and customer records is built into system design from the start. We implement role-based user permissions, authenticated API connections, scoped document access for internal knowledge assistants, and NDA confidentiality aligned with your organization's internal IT policies.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="lw-native-card">
+            <h3>Transparent Project Scope, Timelines and Cost Factors</h3>
+            <p>
+              Every engagement is structured into clear milestones so stakeholders see deliverables and budget upfront. Project cost and delivery speed depend on data readiness, configuring existing AI APIs versus training a custom machine learning model, integration complexity, and ongoing maintenance needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. BOTTOM PURPLE CTA BANNER (EXACT EXISTING LAYOUT) -->
+  <section class="section-bg web-dev-pag mt-100" id="transform-app">
+    <div class="container" style="display: block; max-width: 100%;">
+      <div class="row align-items-center transform-row">
+        <div class="col-lg-4">
+          <img src="./assests/images/marketing/banda.webp"
+            alt="Discuss your custom AI project with the Logic Works team in Dubai"
+            class="gta" loading="lazy">
+        </div>
+        <div class="col-lg-8">
+          <h2 class="text-white same-all text-end">
+            Discuss Your AI Project <span class="gradient">With Our Team</span>
+          </h2>
+          <div class="digital-two-btn">
+            <a href="https://wa.me/971529502258" target="_blank" rel="noopener">Call Now</a>
+            <a href="javascript:void(0)" onclick="if(typeof openTawkChat==='function'){openTawkChat();}else{var p=document.getElementById('popup');if(p){p.style.display='flex';}}">Start Live Chat</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FAQ ACCORDION SECTION (EXACT EXISTING LAYOUT + 7 PRACTICAL BUYER FAQS) -->
+  <section class="faq-home section-bg mt-50" id="ai-faqs">
+    <div class="container">
+      <div class="row justify-content-space-between">
+        <div class="col">
+          <h2 class="text-white text-center same-all">Frequently Asked Questions About <span class="gradient">AI Development</span></h2>
+          <div class="faqss">
+
+            <div class="quwstion">
+              <button class="accordions" type="button">What AI development services does Logic Works provide in Dubai?</button>
+              <div class="panel">
+                <p>Logic Works builds custom machine learning models, bilingual (English and Arabic) AI chatbots, Generative AI and Retrieval-Augmented Generation (RAG) assistants, computer vision and OCR document extraction tools, predictive analytics dashboards, and AI workflow automations connected to your business software.</p>
+              </div>
+            </div>
+
+            <div class="quwstion">
+              <button class="accordions" type="button">How much does custom AI development cost in Dubai?</button>
+              <div class="panel">
+                <p>Project cost depends on functional scope, the structure and readiness of your data, whether your use case calls for configuring existing AI APIs or training a custom machine learning model, and the complexity of connecting with your current software. After an initial discovery discussion, Logic Works provides a clear, milestone-based proposal tailored to your goals.</p>
+              </div>
+            </div>
+
+            <div class="quwstion">
+              <button class="accordions" type="button">How long does it take to develop and deploy an AI solution?</button>
+              <div class="panel">
+                <p>Delivery timelines vary according to project scope, data preparation needs, and system integration complexity. A focused Proof of Concept (PoC) or single-workflow assistant moves significantly faster than a custom-trained machine learning solution spanning multiple departments. Following discovery, our team shares a realistic phase-by-phase schedule before development begins.</p>
+              </div>
+            </div>
+
+            <div class="quwstion">
+              <button class="accordions" type="button">Can AI solutions integrate with our existing business software?</button>
+              <div class="panel">
+                <p>Yes. Where your existing platforms support APIs or webhooks, we connect AI features and automated workflows with your CRM, ERP, databases, custom web portals, mobile applications, and customer messaging channels so teams can work within familiar tools.</p>
+              </div>
+            </div>
+
+            <div class="quwstion">
+              <button class="accordions" type="button">What data is required to build a custom AI model?</button>
+              <div class="panel">
+                <p>Data requirements depend on the solution type. Predictive analytics and machine learning models rely on structured historical records such as sales logs, customer activity, or inventory transactions, whereas Generative AI assistants can work with organized internal documents such as PDFs, SOPs, product guides, and support articles using Retrieval-Augmented Generation (RAG).</p>
+              </div>
+            </div>
+
+            <div class="quwstion">
+              <button class="accordions" type="button">How do you approach data privacy and AI security?</button>
+              <div class="panel">
+                <p>We design AI workflows with practical security controls including role-based user permissions, authenticated API connections, scoped document access, and deployment configurations aligned with your organization's internal IT and data-handling policies.</p>
+              </div>
+            </div>
+
+            <div class="quwstion">
+              <button class="accordions" type="button">Do you provide ongoing AI monitoring and maintenance?</button>
+              <div class="panel">
+                <p>Yes. Deployed AI tools benefit from ongoing review as customer questions and business records evolve. Our post-launch support plans cover output-quality checks, prompt and workflow refinements, API maintenance, and scheduled model or knowledge-base updates.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. CLIENT REVIEW PLATFORMS (EXACT EXISTING LAYOUT) -->
+  <section class="our-case-section section-bg pt-b-80 pt-0 bg-black">
+    <div class="container">
+      <div class="row justify-content-space-between slider-reviews">
+        <div class="col-lg-12 col-md-12">
+          <div class="text-start reive-images">
+            <a href="https://www.goodfirms.co/company/logicworks-information-technology-llc" target="_blank" rel="noopener">
+              <img src="./assests/images/Goodfirms.webp" alt="Logic Works reviews on GoodFirms" loading="lazy">
+            </a>
+            <a href="https://www.trustpilot.com/review/logicworks.ae" target="_blank" rel="noopener">
+              <img src="./assests/images/Trust.webp" alt="Logic Works client ratings on Trustpilot" loading="lazy">
+            </a>
+            <a href="https://clutch.co/profile/logic-works-0#contact" target="_blank" rel="noopener">
+              <img src="./assests/images/Clutch.webp" alt="Logic Works verified agency profile on Clutch" loading="lazy">
+            </a>
+            <a href="https://www.bark.com/en/gb/company/logicworks-information-technology-llc/kwqD4l/" target="_blank" rel="noopener">
+              <img src="./assests/images/Bark.webp" alt="Logic Works profile on Bark" loading="lazy">
+            </a>
+            <a href="https://www.softwareworld.co/service/logic-works-llc-reviews/" target="_blank" rel="noopener">
+              <img src="./assests/images/highly-recommended.webp" alt="Logic Works Highly Recommended badge on SoftwareWorld" loading="lazy">
+            </a>
+            <script type="text/javascript" src="https://www.designrush.com/topbest/js/widgets/agency-reviews.js"></script>
+            <div data-designrush-widget data-agency-id="128833" data-style="dark" aria-label="DesignRush agency reviews section"></div>
+            <noscript>
+              <a href="https://www.designrush.com/agency/profile/logicworks-information-technology-llc#reviews" target="_blank" rel="noopener" aria-label="Visit LogicWorks Information Technology LLC reviews on DesignRush">REVIEW US ON DESIGNRUSH</a>
+            </noscript>
+          </div>
+          <div class="live-chat-btns ct-btn">
+            <a href="https://wa.me/971529502258" target="_blank" rel="noopener" class="live-chats">Live Chat</a>
+            <a href="#popup" class="js-open-popup">Get A Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
-<?php
-include("includes/footer.php");
-?>
 
-<style>
-    .ai-development-page {
-        background-color: black;
-    }
-
-    .ai-development-page .service-hero-sec .text-whiteee-1 {
-        font-weight: 900;
-        font-size: 50px;
-        color: white;
-
-    }
-
-    .ai-development-page .container .live-chat-btns a {
-        background-image: linear-gradient(to right, #9749ea, #e97894);
-        color: #fff;
-        padding: 7px 40px;
-        font-size: 24px;
-        font-weight: 500;
-        text-decoration: none;
-        border-radius: 6px;
-        display: ruby;
-
-    }
-
-    .ai-development-page .ai-para {
-        font-weight: 500;
-        font-size: 18px;
-        color: white;
-            
-    }
-
-    * .app-slider .swiper-button-prev {
-        background: url('assests/images/ai-development/arrow-1.webp');
-        width: 73px;
-        height: 54px;
-        background-repeat: no-repeat;
-        top: unset;
-        bottom: -1%;
-        z-index: 199999;
-        left: unset;
-        right: 8%;
-    }
-
-    .app-slider .swiper-button-next {
-        background: url('assests/images/ai-development/arrow-2.webp');
-        width: 73px;
-        height: 54px;
-        background-repeat: no-repeat;
-        top: unset;
-        bottom: -1%;
-        z-index: 199999;
-    }
-
-
-    .swiper-slide {
-        background-color: #1F1F1F !important;
-        border-radius: 12px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        height: 420px;
-        position: relative;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-        padding: 0 !important;
-        ;
-    }
-
-    .swiper-slide img {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-    }
-
-    .app-content {
-        flex: 1;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        color: #fff;
-    }
-
-    .app-content h4 {
-        font-size: 27px;
-        font-weight: 700;
-
-        margin-bottom: 10px;
-
-
-    }
-
-    .app-content p {
-        font-size: 24px;
-        font-weight: 400;
-
-        margin-bottom: 15px;
-        color: white;
-    }
-
-    .app-content a {
-        color: white;
-        font-weight: 500;
-        text-decoration: none;
-    }
-
-
-    .get-in-touch {
-        color: white;
-        font-weight: 500;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        transition: color 0.3s ease;
-    }
-
-    .get-in-touch .arrow {
-        width: 15px;
-        height: auto;
-        transition: transform 0.3s ease;
-    }
-
-    /* Who We Are */
-
-    .who-we-are-section {
-        background: url('assests/images/ai-development/proc-bg.webp') center/cover no-repeat;
-        min-height: 100vh;
-        padding: 80px 0;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .who-we-are-section::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(14 13 13);
-        z-index: -1;
-    }
-
-    /* .section-title {
-        font-size: 45px;
-        font-weight: 700;
-        color: #ffffff;
-        margin-bottom: 1.5rem;
-        letter-spacing: 2px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-        font-family: 'Inter', sans-serif;
-    } */
-
-    .section-description {
-        font-size: 1.1rem;
-        color: #ffffff;
-        max-width: 800px;
-        margin: 0 auto 4rem auto;
-        line-height: 1.4;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-        font-weight: 400;
-    }
-
-    .ai-brain-container {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 4rem 0;
-        min-height: 500px;
-    }
-
-    .ai-brain-image {
-        padding: 276px;
-        border-radius: 50%;
-        border: 3px solid white;
-        background: url('assests/images/ai-development/are.webp') center/cover no-repeat;
-        position: relative;
-        z-index: 2;
-        box-shadow: 0 0 40px rgba(138, 43, 226, 0.4);
-
-
-    }
-
-    .stat-box {
-        position: absolute;
-
-        border: 2px dashed rgba(255, 255, 255, 0.8);
-        border-radius: 8px;
-        padding: 5px 10px;
-        backdrop-filter: blur(15px);
-        z-index: 3;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-        min-width: 200px;
-        text-align: center;
-        max-width: 2000px;
-        display: flex;
-    }
-
-    .stat-box.top-left {
-
-        top: 50px;
-        left: 50px;
-        background-color: #2f2f2f;
-
-
-    }
-
-    .stat-box.top-right {
-        top: 100px;
-        right: 20px;
-        background-color: #2f2f2f;
-
-    }
-
-    .stat-box.bottom-left {
-        bottom: 80px;
-        left: 50px;
-        background-color: #2f2f2f;
-
-    }
-
-    .stat-number {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: #ffffff;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-        font-family: 'Inter', sans-serif;
-    }
-
-    .stat-text {
-        font-size: 0.85rem;
-        color: #e0e0e0;
-        margin-top: 12px;
-        line-height: 1.3;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-        font-weight: 500;
-        padding-left: 5px;
-    }
-
-    .connecting-line {
-        position: absolute;
-        border: 1px dashed rgba(255, 255, 255, 0.6);
-        z-index: 1;
-    }
-
-    .line-1 {
-        width: 80px;
-        top: 80px;
-        left: 70px;
-        transform: rotate(-25deg);
-    }
-
-    .line-2 {
-        width: 90px;
-        top: 140px;
-        right: 70px;
-        transform: rotate(20deg);
-    }
-
-    .line-3 {
-        width: 85px;
-        bottom: 120px;
-        left: 75px;
-        transform: rotate(30deg);
-    }
-
-    /* Tablet Responsive */
-    @media (max-width: 992px) {
-        .stat-box.top-left {
-            left: -100px;
-        }
-
-        .stat-box.top-right {
-            right: -100px;
-        }
-
-        .stat-box.bottom-left {
-            left: -100px;
-        }
-
-        .ai-brain-image {
-            width: 300px;
-            height: 300px;
-        }
-    }
-
-    /* Mobile Responsive */
-    @media (max-width: 768px) {
-        .who-we-are-section {
-            padding: 60px 0;
-        }
-
-        .section-title {
-            font-size: 2.2rem;
-            margin-bottom: 1rem;
-        }
-
-        .section-description {
-            font-size: 1rem;
-            padding: 0 20px;
-            margin-bottom: 3rem;
-        }
-
-        .ai-brain-image {
-            width: 250px;
-            height: 250px;
-        }
-
-        .stat-box {
-            position: static;
-            margin: 1rem auto;
-            display: block;
-            min-width: auto;
-            max-width: 200px;
-        }
-
-        .connecting-line {
-            display: none;
-        }
-
-        .stats-mobile {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .ai-brain-container {
-            min-height: auto;
-            margin: 2rem 0;
-        }
-    }
-
-    .stats-desktop {
-        display: block;
-    }
-
-    .stats-mobile {
-        display: none;
-    }
-
-    @media (max-width: 768px) {
-        .ai-development-page #portfolio-hero h1 {
-            font-size: 30px !important;
-
-        }
-
-        .stats-desktop {
-            display: none;
-        }
-
-        .stats-mobile {
-            display: flex;
-        }
-    }
-
-    /* Smooth animations */
-    .stat-box {
-        transition: all 0.3s ease;
-        max-width: ;
-    }
-
-    .stat-box:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
-    }
-
-    .ai-brain-image {
-        transition: all 0.3s ease;
-    }
-
-    .ai-brain-image:hover {
-        transform: scale(1.05);
-        box-shadow: 0 0 50px rgba(138, 43, 226, 0.6);
-    }
-
-
-
-    /* Our Process */
-    .app-our-content ul.tabs-dubai {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    .app-our-content ul.tabs-dubai li span {
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    .app-our-content ul.tabs-dubai li {
-        color: #fff;
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 10px;
-        padding: 10px;
-        cursor: pointer;
-    }
-
-    .app-our-content ul.tabs-dubai li.active-tab {
-        background-color: #401A71;
-    }
-
-
-
-    .app-dubai-services .container {
-        max-width: 1870px;
-
-
-    }
-
-    .proess {
-        padding-left: 15%;
-    }
-
-    /*Button  */
-    .btn {
-        display: inline-block;
-        background-color: #401A71;
-        color: white;
-        padding: 12px 24px;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 16px;
-        border-radius: 8px;
-        cursor: pointer;
-        text-align: center;
-
-    }
-
-    @media (max-width: 600px) {
-        .ai-brain-image {
-            padding: 150px;
-            border-radius: 50%;
-            border: 3px solid white;
-            background: url('assests/images/ai-development/are.webp') center/cover no-repeat;
-            position: relative;
-            z-index: 2;
-            box-shadow: 0 0 40px rgba(138, 43, 226, 0.4);
-        }
-
-    }
-</style>
-
-
-
-
-
-
-<script>
-    var swiper = new Swiper(".app-slider-main", {
-        slidesPerView: 5,
-        centeredSlides: true,
-        spaceBetween: 30,
-        grabCursor: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            320: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            600: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 30,
-            },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
-            1440: {
-                slidesPerView: 5,
-                spaceBetween: 30,
-            },
-            1920: {
-                slidesPerView: 7,
-                spaceBetween: 30,
-            },
-        },
-    });
-</script>
+<script>window.LW_BASE_URL = <?php echo json_encode($base_url); ?>;</script>
+<script src="<?php echo $base_url; ?>assests/js/ai-development.js?v=1" defer></script>
+<?php include("includes/footer.php"); ?>

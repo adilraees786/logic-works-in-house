@@ -272,6 +272,10 @@
                                
                             </ul>
                         </div>
+                        <!-- Mobile: Software Development -->
+                        <div class="service-section">
+                            <h3><a href="<?php echo $base_url; ?>software-development-dubai">Software Development</a></h3>
+                        </div>
                     </li>
 
                     <li><a href="<?php echo $base_url; ?>portfolio">Portfolio</a></li>
@@ -354,6 +358,9 @@
                                                                 data-target="video-sub">
                                                                 <img src="<?php echo $base_url; ?>assests/images/sercices-icons/animation.png" alt="Animation">
                                                             Video Animation <i class="fas fa-chevron-right"></i></a></li>
+                                                        <li><a href="<?php echo $base_url; ?>software-development-dubai" class="service-direct">
+                                                                <img src="<?php echo $base_url; ?>assests/images/sercices-icons/custom-website-development.png" alt="Software Development">
+                                                                Software Development</a></li>
 
                                                     </ul>
                                                 </div>
@@ -791,7 +798,8 @@
         }
 
         .service-trigger.active-service, .sub-service-trigger.active-service,
-        .location-trigger.active-service {
+        .location-trigger.active-service,
+        .service-direct.active-service {
             color: #B454C7 !important;
             font-weight: 700;
         }
@@ -976,6 +984,18 @@
 
                     serviceTriggers.forEach(t => t.classList.remove('active-service'));
                     this.classList.add('active-service');
+                });
+            });
+
+            // Direct service links (no submenu) — hide Video Animation / other detail panels
+            document.querySelectorAll('.service-direct').forEach(link => {
+                link.addEventListener('mouseenter', function () {
+                    hideServiceDynamicCols();
+                    hideLocationCities();
+                    this.classList.add('active-service');
+                });
+                link.addEventListener('mouseleave', function () {
+                    this.classList.remove('active-service');
                 });
             });
 
